@@ -1,0 +1,12 @@
+shell.cmo: shell_sys.cmi shell.cmi
+shell.cmx: shell_sys.cmx shell.cmi
+shell_mt.cmo: shell_sys.cmi shell_mt.cmi
+shell_mt.cmx: shell_sys.cmx shell_mt.cmi
+shell_sys.cmo: shell_sys.cmi
+shell_sys.cmx: shell_sys.cmi
+shell_uq.cmo: shell_sys.cmi shell.cmi shell_uq.cmi
+shell_uq.cmx: shell_sys.cmx shell.cmx shell_uq.cmi
+shell.cmi: shell_sys.cmi
+shell_mt.cmi:
+shell_sys.cmi:
+shell_uq.cmi: shell_sys.cmi shell.cmi

@@ -1,0 +1,14 @@
+generate.cmo: syntax.cmo
+generate.cmx: syntax.cmx
+main.cmo: syntax.cmo rename.cmo parser.cmi options.cmo generate.cmo
+main.cmx: syntax.cmx rename.cmx parser.cmx options.cmx generate.cmx
+options.cmo: syntax.cmo
+options.cmx: syntax.cmx
+parser.cmo: syntax.cmo options.cmo parser.cmi
+parser.cmx: syntax.cmx options.cmx parser.cmi
+rename.cmo: syntax.cmo
+rename.cmx: syntax.cmx
+syntax.cmo:
+syntax.cmx:
+dummy.cmi:
+parser.cmi: syntax.cmo

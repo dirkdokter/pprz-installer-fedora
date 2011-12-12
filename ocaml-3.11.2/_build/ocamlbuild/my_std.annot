@@ -1,0 +1,7774 @@
+"ocamlbuild/my_std.ml" 27 1034 1040 "ocamlbuild/my_std.ml" 27 1034 1051
+type(
+  ('a, exn) t -> unit
+)
+ident(
+  def ignore_good "ocamlbuild/my_std.ml" 32 1110 1112 "ocamlbuild/my_std.ml" 40 1236 1239
+)
+"ocamlbuild/my_std.ml" 29 1067 1078 "ocamlbuild/my_std.ml" 29 1067 1079
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 29 1067 1073 "ocamlbuild/my_std.ml" 29 1067 1079
+type(
+  ('a, exn) t
+)
+"ocamlbuild/my_std.ml" 29 1067 1083 "ocamlbuild/my_std.ml" 29 1067 1085
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 30 1086 1096 "ocamlbuild/my_std.ml" 30 1086 1097
+type(
+  exn
+)
+ident(
+  def e "ocamlbuild/my_std.ml" 30 1086 1101 "ocamlbuild/my_std.ml" 30 1086 1108
+)
+"ocamlbuild/my_std.ml" 30 1086 1092 "ocamlbuild/my_std.ml" 30 1086 1097
+type(
+  ('a, exn) t
+)
+"ocamlbuild/my_std.ml" 30 1086 1101 "ocamlbuild/my_std.ml" 30 1086 1106
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 30 1086 1107 "ocamlbuild/my_std.ml" 30 1086 1108
+type(
+  exn
+)
+ident(
+  int_ref e "ocamlbuild/my_std.ml" 30 1086 1096 "ocamlbuild/my_std.ml" 30 1086 1097
+)
+"ocamlbuild/my_std.ml" 30 1086 1101 "ocamlbuild/my_std.ml" 30 1086 1108
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 28 1054 1058 "ocamlbuild/my_std.ml" 30 1086 1108
+type(
+  ('a, exn) t -> unit
+)
+"ocamlbuild/my_std.ml" 32 1110 1116 "ocamlbuild/my_std.ml" 32 1110 1120
+type(
+  ('b, exn) t -> 'b
+)
+ident(
+  def good "ocamlbuild/my_std.ml" 37 1182 1184 "ocamlbuild/my_std.ml" 40 1236 1239
+)
+"ocamlbuild/my_std.ml" 34 1136 1147 "ocamlbuild/my_std.ml" 34 1136 1148
+type(
+  'b
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 34 1136 1152 "ocamlbuild/my_std.ml" 34 1136 1153
+)
+"ocamlbuild/my_std.ml" 34 1136 1142 "ocamlbuild/my_std.ml" 34 1136 1148
+type(
+  ('b, exn) t
+)
+"ocamlbuild/my_std.ml" 34 1136 1152 "ocamlbuild/my_std.ml" 34 1136 1153
+type(
+  'b
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 34 1136 1147 "ocamlbuild/my_std.ml" 34 1136 1148
+)
+"ocamlbuild/my_std.ml" 35 1154 1164 "ocamlbuild/my_std.ml" 35 1154 1167
+type(
+  exn
+)
+ident(
+  def exn "ocamlbuild/my_std.ml" 35 1154 1171 "ocamlbuild/my_std.ml" 35 1154 1180
+)
+"ocamlbuild/my_std.ml" 35 1154 1160 "ocamlbuild/my_std.ml" 35 1154 1167
+type(
+  ('b, exn) t
+)
+"ocamlbuild/my_std.ml" 35 1154 1171 "ocamlbuild/my_std.ml" 35 1154 1176
+type(
+  exn -> 'b
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 35 1154 1177 "ocamlbuild/my_std.ml" 35 1154 1180
+type(
+  exn
+)
+ident(
+  int_ref exn "ocamlbuild/my_std.ml" 35 1154 1164 "ocamlbuild/my_std.ml" 35 1154 1167
+)
+"ocamlbuild/my_std.ml" 35 1154 1171 "ocamlbuild/my_std.ml" 35 1154 1180
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 33 1123 1127 "ocamlbuild/my_std.ml" 35 1154 1180
+type(
+  ('b, exn) t -> 'b
+)
+"ocamlbuild/my_std.ml" 37 1182 1188 "ocamlbuild/my_std.ml" 37 1182 1192
+type(
+  ('c -> 'd) -> 'c -> ('d, exn) t
+)
+ident(
+  def wrap "ocamlbuild/my_std.ml" 38 1199 1233 "ocamlbuild/my_std.ml" 40 1236 1239
+)
+"ocamlbuild/my_std.ml" 37 1182 1193 "ocamlbuild/my_std.ml" 37 1182 1194
+type(
+  'c -> 'd
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 37 1182 1195 "ocamlbuild/my_std.ml" 38 1199 1233
+)
+"ocamlbuild/my_std.ml" 37 1182 1195 "ocamlbuild/my_std.ml" 37 1182 1196
+type(
+  'c
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 38 1199 1203 "ocamlbuild/my_std.ml" 38 1199 1233
+)
+"ocamlbuild/my_std.ml" 38 1199 1213 "ocamlbuild/my_std.ml" 38 1199 1214
+type(
+  'c -> 'd
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 37 1182 1193 "ocamlbuild/my_std.ml" 37 1182 1194
+)
+"ocamlbuild/my_std.ml" 38 1199 1215 "ocamlbuild/my_std.ml" 38 1199 1216
+type(
+  'c
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 37 1182 1195 "ocamlbuild/my_std.ml" 37 1182 1196
+)
+"ocamlbuild/my_std.ml" 38 1199 1212 "ocamlbuild/my_std.ml" 38 1199 1217
+call(
+  stack
+)
+type(
+  'd
+)
+"ocamlbuild/my_std.ml" 38 1199 1207 "ocamlbuild/my_std.ml" 38 1199 1217
+type(
+  ('d, exn) t
+)
+"ocamlbuild/my_std.ml" 38 1199 1223 "ocamlbuild/my_std.ml" 38 1199 1224
+type(
+  exn
+)
+ident(
+  def e "ocamlbuild/my_std.ml" 38 1199 1228 "ocamlbuild/my_std.ml" 38 1199 1233
+)
+"ocamlbuild/my_std.ml" 38 1199 1232 "ocamlbuild/my_std.ml" 38 1199 1233
+type(
+  exn
+)
+ident(
+  int_ref e "ocamlbuild/my_std.ml" 38 1199 1223 "ocamlbuild/my_std.ml" 38 1199 1224
+)
+"ocamlbuild/my_std.ml" 38 1199 1228 "ocamlbuild/my_std.ml" 38 1199 1233
+type(
+  ('d, exn) t
+)
+"ocamlbuild/my_std.ml" 38 1199 1203 "ocamlbuild/my_std.ml" 38 1199 1233
+type(
+  ('d, exn) t
+)
+"ocamlbuild/my_std.ml" 42 1241 1245 "ocamlbuild/my_std.ml" 42 1241 1254
+type(
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a option -> unit
+)
+ident(
+  def opt_print "ocamlbuild/my_std.ml" 47 1366 1366 --
+)
+"ocamlbuild/my_std.ml" 42 1241 1255 "ocamlbuild/my_std.ml" 42 1241 1258
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def elt "ocamlbuild/my_std.ml" 42 1241 1259 "ocamlbuild/my_std.ml" 45 1326 1364
+)
+"ocamlbuild/my_std.ml" 42 1241 1259 "ocamlbuild/my_std.ml" 42 1241 1262
+type(
+  Format.formatter
+)
+ident(
+  def ppf "ocamlbuild/my_std.ml" 43 1265 1267 "ocamlbuild/my_std.ml" 45 1326 1364
+)
+"ocamlbuild/my_std.ml" 44 1276 1285 "ocamlbuild/my_std.ml" 44 1276 1286
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 44 1276 1290 "ocamlbuild/my_std.ml" 44 1276 1325
+)
+"ocamlbuild/my_std.ml" 44 1276 1280 "ocamlbuild/my_std.ml" 44 1276 1286
+type(
+  'a option
+)
+"ocamlbuild/my_std.ml" 44 1276 1290 "ocamlbuild/my_std.ml" 44 1276 1297
+type(
+  Format.formatter ->
+  ((Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> 'a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 44 1276 1298 "ocamlbuild/my_std.ml" 44 1276 1301
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocamlbuild/my_std.ml" 42 1241 1259 "ocamlbuild/my_std.ml" 42 1241 1262
+)
+"ocamlbuild/my_std.ml" 44 1276 1302 "ocamlbuild/my_std.ml" 44 1276 1319
+type(
+  ((Format.formatter -> 'a -> unit) -> 'a -> unit, Format.formatter, unit)
+  format
+)
+"ocamlbuild/my_std.ml" 44 1276 1320 "ocamlbuild/my_std.ml" 44 1276 1323
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref elt "ocamlbuild/my_std.ml" 42 1241 1255 "ocamlbuild/my_std.ml" 42 1241 1258
+)
+"ocamlbuild/my_std.ml" 44 1276 1324 "ocamlbuild/my_std.ml" 44 1276 1325
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 44 1276 1285 "ocamlbuild/my_std.ml" 44 1276 1286
+)
+"ocamlbuild/my_std.ml" 44 1276 1290 "ocamlbuild/my_std.ml" 44 1276 1325
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 45 1326 1330 "ocamlbuild/my_std.ml" 45 1326 1334
+type(
+  'a option
+)
+"ocamlbuild/my_std.ml" 45 1326 1338 "ocamlbuild/my_std.ml" 45 1326 1353
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"ocamlbuild/my_std.ml" 45 1326 1354 "ocamlbuild/my_std.ml" 45 1326 1357
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "ocamlbuild/my_std.ml" 42 1241 1259 "ocamlbuild/my_std.ml" 42 1241 1262
+)
+"ocamlbuild/my_std.ml" 45 1326 1358 "ocamlbuild/my_std.ml" 45 1326 1364
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 45 1326 1338 "ocamlbuild/my_std.ml" 45 1326 1364
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 43 1265 1267 "ocamlbuild/my_std.ml" 45 1326 1364
+type(
+  'a option -> unit
+)
+"ocamlbuild/my_std.ml" 48 1378 1382 "ocamlbuild/my_std.ml" 48 1378 1391
+type(
+  (string -> 'a) -> ('b, Format.formatter, unit, 'a) format4 -> 'b
+)
+ident(
+  def ksbprintf "ocamlbuild/my_std.ml" 52 1547 1547 --
+)
+"ocamlbuild/my_std.ml" 48 1378 1392 "ocamlbuild/my_std.ml" 48 1378 1393
+type(
+  string -> 'a
+)
+ident(
+  def g "ocamlbuild/my_std.ml" 48 1378 1394 "ocamlbuild/my_std.ml" 51 1471 1546
+)
+"ocamlbuild/my_std.ml" 48 1378 1394 "ocamlbuild/my_std.ml" 48 1378 1397
+type(
+  ('b, Format.formatter, unit, 'a) format4
+)
+ident(
+  def fmt "ocamlbuild/my_std.ml" 49 1400 1402 "ocamlbuild/my_std.ml" 51 1471 1546
+)
+"ocamlbuild/my_std.ml" 49 1400 1406 "ocamlbuild/my_std.ml" 49 1400 1410
+type(
+  Buffer.t
+)
+"ocamlbuild/my_std.ml" 49 1400 1413 "ocamlbuild/my_std.ml" 49 1400 1426
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"ocamlbuild/my_std.ml" 49 1400 1427 "ocamlbuild/my_std.ml" 49 1400 1429
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 49 1400 1413 "ocamlbuild/my_std.ml" 49 1400 1429
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"ocamlbuild/my_std.ml" 50 1433 1439 "ocamlbuild/my_std.ml" 50 1433 1440
+type(
+  Format.formatter
+)
+"ocamlbuild/my_std.ml" 50 1433 1443 "ocamlbuild/my_std.ml" 50 1433 1462
+type(
+  Buffer.t -> Format.formatter
+)
+ident(
+  ext_ref Format.formatter_of_buffer
+)
+"ocamlbuild/my_std.ml" 50 1433 1463 "ocamlbuild/my_std.ml" 50 1433 1467
+type(
+  Buffer.t
+)
+ident(
+  int_ref buff "ocamlbuild/my_std.ml" 49 1400 1406 "ocamlbuild/my_std.ml" 49 1400 1410
+)
+"ocamlbuild/my_std.ml" 50 1433 1443 "ocamlbuild/my_std.ml" 50 1433 1467
+call(
+  stack
+)
+type(
+  Format.formatter
+)
+"ocamlbuild/my_std.ml" 51 1471 1473 "ocamlbuild/my_std.ml" 51 1471 1481
+type(
+  (Format.formatter -> 'a) ->
+  Format.formatter -> ('b, Format.formatter, unit, 'a) format4 -> 'b
+)
+ident(
+  ext_ref Format.kfprintf
+)
+"ocamlbuild/my_std.ml" 51 1471 1487 "ocamlbuild/my_std.ml" 51 1471 1488
+type(
+  Format.formatter
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 51 1471 1492 "ocamlbuild/my_std.ml" 51 1471 1539
+)
+"ocamlbuild/my_std.ml" 51 1471 1493 "ocamlbuild/my_std.ml" 51 1471 1507
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"ocamlbuild/my_std.ml" 51 1471 1508 "ocamlbuild/my_std.ml" 51 1471 1509
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 51 1471 1487 "ocamlbuild/my_std.ml" 51 1471 1488
+)
+"ocamlbuild/my_std.ml" 51 1471 1510 "ocamlbuild/my_std.ml" 51 1471 1512
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 51 1471 1493 "ocamlbuild/my_std.ml" 51 1471 1512
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 51 1471 1514 "ocamlbuild/my_std.ml" 51 1471 1515
+type(
+  string -> 'a
+)
+ident(
+  int_ref g "ocamlbuild/my_std.ml" 48 1378 1392 "ocamlbuild/my_std.ml" 48 1378 1393
+)
+"ocamlbuild/my_std.ml" 51 1471 1517 "ocamlbuild/my_std.ml" 51 1471 1532
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"ocamlbuild/my_std.ml" 51 1471 1533 "ocamlbuild/my_std.ml" 51 1471 1537
+type(
+  Buffer.t
+)
+ident(
+  int_ref buff "ocamlbuild/my_std.ml" 49 1400 1406 "ocamlbuild/my_std.ml" 49 1400 1410
+)
+"ocamlbuild/my_std.ml" 51 1471 1516 "ocamlbuild/my_std.ml" 51 1471 1538
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 51 1471 1514 "ocamlbuild/my_std.ml" 51 1471 1538
+call(
+  tail
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 51 1471 1492 "ocamlbuild/my_std.ml" 51 1471 1539
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 51 1471 1482 "ocamlbuild/my_std.ml" 51 1471 1540
+type(
+  Format.formatter -> 'a
+)
+"ocamlbuild/my_std.ml" 51 1471 1541 "ocamlbuild/my_std.ml" 51 1471 1542
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 50 1433 1439 "ocamlbuild/my_std.ml" 50 1433 1440
+)
+"ocamlbuild/my_std.ml" 51 1471 1543 "ocamlbuild/my_std.ml" 51 1471 1546
+type(
+  ('b, Format.formatter, unit, 'a) format4
+)
+ident(
+  int_ref fmt "ocamlbuild/my_std.ml" 48 1378 1394 "ocamlbuild/my_std.ml" 48 1378 1397
+)
+"ocamlbuild/my_std.ml" 51 1471 1473 "ocamlbuild/my_std.ml" 51 1471 1546
+call(
+  tail
+)
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 50 1433 1435 "ocamlbuild/my_std.ml" 51 1471 1546
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 49 1400 1402 "ocamlbuild/my_std.ml" 51 1471 1546
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 52 1547 1551 "ocamlbuild/my_std.ml" 52 1547 1559
+type(
+  ('a, Format.formatter, unit, string) format4 -> 'a
+)
+ident(
+  def sbprintf "ocamlbuild/my_std.ml" 55 1641 1641 --
+)
+"ocamlbuild/my_std.ml" 52 1547 1560 "ocamlbuild/my_std.ml" 52 1547 1563
+type(
+  ('a, Format.formatter, unit, string) format4
+)
+ident(
+  def fmt "ocamlbuild/my_std.ml" 52 1547 1566 "ocamlbuild/my_std.ml" 52 1547 1592
+)
+"ocamlbuild/my_std.ml" 52 1547 1566 "ocamlbuild/my_std.ml" 52 1547 1575
+type(
+  (string -> string) -> ('a, Format.formatter, unit, string) format4 -> 'a
+)
+ident(
+  int_ref ksbprintf "ocamlbuild/my_std.ml" 48 1378 1382 "ocamlbuild/my_std.ml" 48 1378 1391
+)
+"ocamlbuild/my_std.ml" 52 1547 1581 "ocamlbuild/my_std.ml" 52 1547 1582
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 52 1547 1586 "ocamlbuild/my_std.ml" 52 1547 1587
+)
+"ocamlbuild/my_std.ml" 52 1547 1586 "ocamlbuild/my_std.ml" 52 1547 1587
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 52 1547 1581 "ocamlbuild/my_std.ml" 52 1547 1582
+)
+"ocamlbuild/my_std.ml" 52 1547 1576 "ocamlbuild/my_std.ml" 52 1547 1588
+type(
+  string -> string
+)
+"ocamlbuild/my_std.ml" 52 1547 1589 "ocamlbuild/my_std.ml" 52 1547 1592
+type(
+  ('a, Format.formatter, unit, string) format4
+)
+ident(
+  int_ref fmt "ocamlbuild/my_std.ml" 52 1547 1560 "ocamlbuild/my_std.ml" 52 1547 1563
+)
+"ocamlbuild/my_std.ml" 52 1547 1566 "ocamlbuild/my_std.ml" 52 1547 1592
+call(
+  tail
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 71 2047 2059 "ocamlbuild/my_std.ml" 71 2047 2070
+call(
+  stack
+)
+"ocamlbuild/my_std.ml" 73 2098 2106 "ocamlbuild/my_std.ml" 73 2098 2110
+type(
+  (elt -> bool) -> t -> elt
+)
+ident(
+  def find "ocamlbuild/my_std.ml" 79 2262 2266 "ocamlbuild/my_std.ml" 90 2620 2625
+)
+"ocamlbuild/my_std.ml" 73 2098 2111 "ocamlbuild/my_std.ml" 73 2098 2112
+type(
+  elt -> bool
+)
+ident(
+  def p "ocamlbuild/my_std.ml" 73 2098 2113 "ocamlbuild/my_std.ml" 78 2234 2261
+)
+"ocamlbuild/my_std.ml" 73 2098 2113 "ocamlbuild/my_std.ml" 73 2098 2116
+type(
+  t
+)
+ident(
+  def set "ocamlbuild/my_std.ml" 74 2119 2125 "ocamlbuild/my_std.ml" 78 2234 2261
+)
+"ocamlbuild/my_std.ml" 75 2129 2137 "ocamlbuild/my_std.ml" 75 2129 2141
+type(
+  (elt -> unit) -> t -> unit
+)
+"ocamlbuild/my_std.ml" 75 2129 2152 "ocamlbuild/my_std.ml" 75 2129 2155
+type(
+  elt
+)
+ident(
+  def elt "ocamlbuild/my_std.ml" 76 2159 2169 "ocamlbuild/my_std.ml" 76 2159 2200
+)
+"ocamlbuild/my_std.ml" 76 2159 2172 "ocamlbuild/my_std.ml" 76 2159 2173
+type(
+  elt -> bool
+)
+ident(
+  int_ref p "ocamlbuild/my_std.ml" 73 2098 2111 "ocamlbuild/my_std.ml" 73 2098 2112
+)
+"ocamlbuild/my_std.ml" 76 2159 2174 "ocamlbuild/my_std.ml" 76 2159 2177
+type(
+  elt
+)
+ident(
+  int_ref elt "ocamlbuild/my_std.ml" 75 2129 2152 "ocamlbuild/my_std.ml" 75 2129 2155
+)
+"ocamlbuild/my_std.ml" 76 2159 2172 "ocamlbuild/my_std.ml" 76 2159 2177
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 76 2159 2183 "ocamlbuild/my_std.ml" 76 2159 2188
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 76 2159 2196 "ocamlbuild/my_std.ml" 76 2159 2199
+type(
+  elt
+)
+ident(
+  int_ref elt "ocamlbuild/my_std.ml" 75 2129 2152 "ocamlbuild/my_std.ml" 75 2129 2155
+)
+"ocamlbuild/my_std.ml" 76 2159 2189 "ocamlbuild/my_std.ml" 76 2159 2200
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 76 2159 2183 "ocamlbuild/my_std.ml" 76 2159 2200
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 76 2159 2169 "ocamlbuild/my_std.ml" 76 2159 2200
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 75 2129 2142 "ocamlbuild/my_std.ml" 77 2201 2212
+type(
+  elt -> unit
+)
+"ocamlbuild/my_std.ml" 77 2201 2213 "ocamlbuild/my_std.ml" 77 2201 2216
+type(
+  t
+)
+ident(
+  int_ref set "ocamlbuild/my_std.ml" 73 2098 2113 "ocamlbuild/my_std.ml" 73 2098 2116
+)
+"ocamlbuild/my_std.ml" 75 2129 2137 "ocamlbuild/my_std.ml" 77 2201 2216
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 77 2201 2218 "ocamlbuild/my_std.ml" 77 2201 2223
+type(
+  exn -> elt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 77 2201 2224 "ocamlbuild/my_std.ml" 77 2201 2233
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 77 2201 2218 "ocamlbuild/my_std.ml" 77 2201 2233
+type(
+  elt
+)
+"ocamlbuild/my_std.ml" 75 2129 2137 "ocamlbuild/my_std.ml" 77 2201 2233
+type(
+  elt
+)
+"ocamlbuild/my_std.ml" 78 2234 2251 "ocamlbuild/my_std.ml" 78 2234 2254
+type(
+  elt
+)
+ident(
+  def elt "ocamlbuild/my_std.ml" 78 2234 2258 "ocamlbuild/my_std.ml" 78 2234 2261
+)
+"ocamlbuild/my_std.ml" 78 2234 2245 "ocamlbuild/my_std.ml" 78 2234 2254
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 78 2234 2258 "ocamlbuild/my_std.ml" 78 2234 2261
+type(
+  elt
+)
+ident(
+  int_ref elt "ocamlbuild/my_std.ml" 78 2234 2251 "ocamlbuild/my_std.ml" 78 2234 2254
+)
+"ocamlbuild/my_std.ml" 74 2119 2125 "ocamlbuild/my_std.ml" 78 2234 2261
+type(
+  elt
+)
+"ocamlbuild/my_std.ml" 79 2262 2270 "ocamlbuild/my_std.ml" 79 2262 2273
+type(
+  (elt -> elt) -> t -> t
+)
+ident(
+  def map "ocamlbuild/my_std.ml" 80 2318 2322 "ocamlbuild/my_std.ml" 90 2620 2625
+)
+"ocamlbuild/my_std.ml" 79 2262 2274 "ocamlbuild/my_std.ml" 79 2262 2275
+type(
+  elt -> elt
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 79 2262 2276 "ocamlbuild/my_std.ml" 79 2262 2317
+)
+"ocamlbuild/my_std.ml" 79 2262 2276 "ocamlbuild/my_std.ml" 79 2262 2279
+type(
+  t
+)
+ident(
+  def set "ocamlbuild/my_std.ml" 79 2262 2282 "ocamlbuild/my_std.ml" 79 2262 2317
+)
+"ocamlbuild/my_std.ml" 79 2262 2282 "ocamlbuild/my_std.ml" 79 2262 2286
+type(
+  (elt -> t -> t) -> t -> t -> t
+)
+"ocamlbuild/my_std.ml" 79 2262 2292 "ocamlbuild/my_std.ml" 79 2262 2293
+type(
+  elt
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 79 2262 2297 "ocamlbuild/my_std.ml" 79 2262 2306
+)
+"ocamlbuild/my_std.ml" 79 2262 2297 "ocamlbuild/my_std.ml" 79 2262 2300
+type(
+  elt -> t -> t
+)
+"ocamlbuild/my_std.ml" 79 2262 2302 "ocamlbuild/my_std.ml" 79 2262 2303
+type(
+  elt -> elt
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 79 2262 2274 "ocamlbuild/my_std.ml" 79 2262 2275
+)
+"ocamlbuild/my_std.ml" 79 2262 2304 "ocamlbuild/my_std.ml" 79 2262 2305
+type(
+  elt
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 79 2262 2292 "ocamlbuild/my_std.ml" 79 2262 2293
+)
+"ocamlbuild/my_std.ml" 79 2262 2301 "ocamlbuild/my_std.ml" 79 2262 2306
+call(
+  stack
+)
+type(
+  elt
+)
+"ocamlbuild/my_std.ml" 79 2262 2297 "ocamlbuild/my_std.ml" 79 2262 2306
+call(
+  tail
+)
+type(
+  t -> t
+)
+"ocamlbuild/my_std.ml" 79 2262 2287 "ocamlbuild/my_std.ml" 79 2262 2307
+type(
+  elt -> t -> t
+)
+"ocamlbuild/my_std.ml" 79 2262 2308 "ocamlbuild/my_std.ml" 79 2262 2311
+type(
+  t
+)
+ident(
+  int_ref set "ocamlbuild/my_std.ml" 79 2262 2276 "ocamlbuild/my_std.ml" 79 2262 2279
+)
+"ocamlbuild/my_std.ml" 79 2262 2312 "ocamlbuild/my_std.ml" 79 2262 2317
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 79 2262 2282 "ocamlbuild/my_std.ml" 79 2262 2317
+call(
+  tail
+)
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 80 2318 2326 "ocamlbuild/my_std.ml" 80 2318 2333
+type(
+  elt list -> t
+)
+ident(
+  def of_list "ocamlbuild/my_std.ml" 81 2366 2370 "ocamlbuild/my_std.ml" 90 2620 2625
+)
+"ocamlbuild/my_std.ml" 80 2318 2334 "ocamlbuild/my_std.ml" 80 2318 2335
+type(
+  elt list
+)
+ident(
+  def l "ocamlbuild/my_std.ml" 80 2318 2338 "ocamlbuild/my_std.ml" 80 2318 2365
+)
+"ocamlbuild/my_std.ml" 80 2318 2338 "ocamlbuild/my_std.ml" 80 2318 2353
+type(
+  (elt -> t -> t) -> elt list -> t -> t
+)
+ident(
+  ext_ref List.fold_right
+)
+"ocamlbuild/my_std.ml" 80 2318 2354 "ocamlbuild/my_std.ml" 80 2318 2357
+type(
+  elt -> t -> t
+)
+"ocamlbuild/my_std.ml" 80 2318 2358 "ocamlbuild/my_std.ml" 80 2318 2359
+type(
+  elt list
+)
+ident(
+  int_ref l "ocamlbuild/my_std.ml" 80 2318 2334 "ocamlbuild/my_std.ml" 80 2318 2335
+)
+"ocamlbuild/my_std.ml" 80 2318 2360 "ocamlbuild/my_std.ml" 80 2318 2365
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 80 2318 2338 "ocamlbuild/my_std.ml" 80 2318 2365
+call(
+  tail
+)
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 81 2366 2374 "ocamlbuild/my_std.ml" 81 2366 2379
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "ocamlbuild/my_std.ml" 89 2593 2619 "ocamlbuild/my_std.ml" 90 2620 2625
+)
+"ocamlbuild/my_std.ml" 81 2366 2380 "ocamlbuild/my_std.ml" 81 2366 2381
+type(
+  Format.formatter
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 81 2366 2382 "ocamlbuild/my_std.ml" 89 2593 2619
+)
+"ocamlbuild/my_std.ml" 81 2366 2382 "ocamlbuild/my_std.ml" 81 2366 2383
+type(
+  t
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 82 2386 2392 "ocamlbuild/my_std.ml" 89 2593 2619
+)
+"ocamlbuild/my_std.ml" 82 2386 2396 "ocamlbuild/my_std.ml" 82 2386 2398
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 82 2386 2401 "ocamlbuild/my_std.ml" 82 2386 2408
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 82 2386 2409 "ocamlbuild/my_std.ml" 82 2386 2410
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 81 2366 2380 "ocamlbuild/my_std.ml" 81 2366 2381
+)
+"ocamlbuild/my_std.ml" 82 2386 2411 "ocamlbuild/my_std.ml" 82 2386 2431
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 82 2386 2401 "ocamlbuild/my_std.ml" 82 2386 2431
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 83 2435 2445 "ocamlbuild/my_std.ml" 83 2435 2446
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 84 2449 2457 "ocamlbuild/my_std.ml" 84 2449 2461
+type(
+  (elt -> bool -> bool) -> t -> bool -> bool
+)
+"ocamlbuild/my_std.ml" 84 2449 2472 "ocamlbuild/my_std.ml" 84 2449 2475
+type(
+  elt
+)
+ident(
+  def elt "ocamlbuild/my_std.ml" 84 2449 2476 "ocamlbuild/my_std.ml" 87 2555 2570
+)
+"ocamlbuild/my_std.ml" 84 2449 2476 "ocamlbuild/my_std.ml" 84 2449 2481
+type(
+  bool
+)
+ident(
+  def first "ocamlbuild/my_std.ml" 85 2485 2495 "ocamlbuild/my_std.ml" 87 2555 2570
+)
+"ocamlbuild/my_std.ml" 85 2485 2498 "ocamlbuild/my_std.ml" 85 2485 2501
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/my_std.ml" 85 2485 2502 "ocamlbuild/my_std.ml" 85 2485 2507
+type(
+  bool
+)
+ident(
+  int_ref first "ocamlbuild/my_std.ml" 84 2449 2476 "ocamlbuild/my_std.ml" 84 2449 2481
+)
+"ocamlbuild/my_std.ml" 85 2485 2498 "ocamlbuild/my_std.ml" 85 2485 2507
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 85 2485 2513 "ocamlbuild/my_std.ml" 85 2485 2520
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 85 2485 2521 "ocamlbuild/my_std.ml" 85 2485 2522
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 81 2366 2380 "ocamlbuild/my_std.ml" 81 2366 2381
+)
+"ocamlbuild/my_std.ml" 85 2485 2523 "ocamlbuild/my_std.ml" 85 2485 2528
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 85 2485 2513 "ocamlbuild/my_std.ml" 85 2485 2528
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 85 2485 2495 "ocamlbuild/my_std.ml" 85 2485 2528
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 86 2530 2540 "ocamlbuild/my_std.ml" 86 2530 2547
+type(
+  Format.formatter -> elt -> unit
+)
+ident(
+  ext_ref M.print
+)
+"ocamlbuild/my_std.ml" 86 2530 2548 "ocamlbuild/my_std.ml" 86 2530 2549
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 81 2366 2380 "ocamlbuild/my_std.ml" 81 2366 2381
+)
+"ocamlbuild/my_std.ml" 86 2530 2550 "ocamlbuild/my_std.ml" 86 2530 2553
+type(
+  elt
+)
+ident(
+  int_ref elt "ocamlbuild/my_std.ml" 84 2449 2472 "ocamlbuild/my_std.ml" 84 2449 2475
+)
+"ocamlbuild/my_std.ml" 86 2530 2540 "ocamlbuild/my_std.ml" 86 2530 2553
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 87 2555 2565 "ocamlbuild/my_std.ml" 87 2555 2570
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 86 2530 2540 "ocamlbuild/my_std.ml" 87 2555 2570
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 85 2485 2495 "ocamlbuild/my_std.ml" 87 2555 2570
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 84 2449 2462 "ocamlbuild/my_std.ml" 88 2571 2582
+type(
+  elt -> bool -> bool
+)
+"ocamlbuild/my_std.ml" 88 2571 2583 "ocamlbuild/my_std.ml" 88 2571 2584
+type(
+  t
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 81 2366 2382 "ocamlbuild/my_std.ml" 81 2366 2383
+)
+"ocamlbuild/my_std.ml" 88 2571 2585 "ocamlbuild/my_std.ml" 88 2571 2589
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 84 2449 2457 "ocamlbuild/my_std.ml" 88 2571 2589
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 89 2593 2599 "ocamlbuild/my_std.ml" 89 2593 2606
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 89 2593 2607 "ocamlbuild/my_std.ml" 89 2593 2608
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 81 2366 2380 "ocamlbuild/my_std.ml" 81 2366 2381
+)
+"ocamlbuild/my_std.ml" 89 2593 2609 "ocamlbuild/my_std.ml" 89 2593 2619
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 89 2593 2599 "ocamlbuild/my_std.ml" 89 2593 2619
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 83 2435 2441 "ocamlbuild/my_std.ml" 89 2593 2619
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 82 2386 2392 "ocamlbuild/my_std.ml" 89 2593 2619
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 95 2667 2673 "ocamlbuild/my_std.ml" 95 2667 2678
+type(
+  (Format.formatter -> 'a -> 'b) -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print "ocamlbuild/my_std.ml" 105 2893 2895 "ocamlbuild/my_std.ml" 122 3280 3283
+)
+"ocamlbuild/my_std.ml" 95 2667 2679 "ocamlbuild/my_std.ml" 95 2667 2685
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  def pp_elt "ocamlbuild/my_std.ml" 95 2667 2686 "ocamlbuild/my_std.ml" 103 2870 2891
+)
+"ocamlbuild/my_std.ml" 95 2667 2686 "ocamlbuild/my_std.ml" 95 2667 2687
+type(
+  Format.formatter
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 95 2667 2688 "ocamlbuild/my_std.ml" 103 2870 2891
+)
+"ocamlbuild/my_std.ml" 95 2667 2688 "ocamlbuild/my_std.ml" 95 2667 2690
+type(
+  'a list
+)
+ident(
+  def ls "ocamlbuild/my_std.ml" 96 2693 2697 "ocamlbuild/my_std.ml" 103 2870 2891
+)
+"ocamlbuild/my_std.ml" 96 2693 2697 "ocamlbuild/my_std.ml" 96 2693 2704
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 96 2693 2705 "ocamlbuild/my_std.ml" 96 2693 2706
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 95 2667 2686 "ocamlbuild/my_std.ml" 95 2667 2687
+)
+"ocamlbuild/my_std.ml" 96 2693 2707 "ocamlbuild/my_std.ml" 96 2693 2717
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 96 2693 2697 "ocamlbuild/my_std.ml" 96 2693 2717
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 97 2719 2727 "ocamlbuild/my_std.ml" 97 2719 2728
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 98 2731 2737 "ocamlbuild/my_std.ml" 98 2731 2746
+type(
+  (bool -> 'a -> bool) -> bool -> 'a list -> bool
+)
+"ocamlbuild/my_std.ml" 98 2731 2757 "ocamlbuild/my_std.ml" 98 2731 2762
+type(
+  bool
+)
+ident(
+  def first "ocamlbuild/my_std.ml" 98 2731 2763 "ocamlbuild/my_std.ml" 101 2835 2848
+)
+"ocamlbuild/my_std.ml" 98 2731 2763 "ocamlbuild/my_std.ml" 98 2731 2766
+type(
+  'a
+)
+ident(
+  def elt "ocamlbuild/my_std.ml" 99 2770 2778 "ocamlbuild/my_std.ml" 101 2835 2848
+)
+"ocamlbuild/my_std.ml" 99 2770 2781 "ocamlbuild/my_std.ml" 99 2770 2784
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/my_std.ml" 99 2770 2785 "ocamlbuild/my_std.ml" 99 2770 2790
+type(
+  bool
+)
+ident(
+  int_ref first "ocamlbuild/my_std.ml" 98 2731 2757 "ocamlbuild/my_std.ml" 98 2731 2762
+)
+"ocamlbuild/my_std.ml" 99 2770 2781 "ocamlbuild/my_std.ml" 99 2770 2790
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 99 2770 2796 "ocamlbuild/my_std.ml" 99 2770 2803
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 99 2770 2804 "ocamlbuild/my_std.ml" 99 2770 2805
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 95 2667 2686 "ocamlbuild/my_std.ml" 95 2667 2687
+)
+"ocamlbuild/my_std.ml" 99 2770 2806 "ocamlbuild/my_std.ml" 99 2770 2811
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 99 2770 2796 "ocamlbuild/my_std.ml" 99 2770 2811
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 99 2770 2778 "ocamlbuild/my_std.ml" 99 2770 2811
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 100 2813 2821 "ocamlbuild/my_std.ml" 100 2813 2827
+type(
+  Format.formatter -> 'a -> 'b
+)
+ident(
+  int_ref pp_elt "ocamlbuild/my_std.ml" 95 2667 2679 "ocamlbuild/my_std.ml" 95 2667 2685
+)
+"ocamlbuild/my_std.ml" 100 2813 2828 "ocamlbuild/my_std.ml" 100 2813 2829
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 95 2667 2686 "ocamlbuild/my_std.ml" 95 2667 2687
+)
+"ocamlbuild/my_std.ml" 100 2813 2830 "ocamlbuild/my_std.ml" 100 2813 2833
+type(
+  'a
+)
+ident(
+  int_ref elt "ocamlbuild/my_std.ml" 98 2731 2763 "ocamlbuild/my_std.ml" 98 2731 2766
+)
+"ocamlbuild/my_std.ml" 100 2813 2821 "ocamlbuild/my_std.ml" 100 2813 2833
+call(
+  stack
+)
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 101 2835 2843 "ocamlbuild/my_std.ml" 101 2835 2848
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 100 2813 2821 "ocamlbuild/my_std.ml" 101 2835 2848
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 99 2770 2778 "ocamlbuild/my_std.ml" 101 2835 2848
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 98 2731 2747 "ocamlbuild/my_std.ml" 102 2849 2858
+type(
+  bool -> 'a -> bool
+)
+"ocamlbuild/my_std.ml" 102 2849 2859 "ocamlbuild/my_std.ml" 102 2849 2863
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 102 2849 2864 "ocamlbuild/my_std.ml" 102 2849 2866
+type(
+  'a list
+)
+ident(
+  int_ref ls "ocamlbuild/my_std.ml" 95 2667 2688 "ocamlbuild/my_std.ml" 95 2667 2690
+)
+"ocamlbuild/my_std.ml" 98 2731 2737 "ocamlbuild/my_std.ml" 102 2849 2866
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 103 2870 2874 "ocamlbuild/my_std.ml" 103 2870 2881
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 103 2870 2882 "ocamlbuild/my_std.ml" 103 2870 2883
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 95 2667 2686 "ocamlbuild/my_std.ml" 95 2667 2687
+)
+"ocamlbuild/my_std.ml" 103 2870 2884 "ocamlbuild/my_std.ml" 103 2870 2891
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 103 2870 2874 "ocamlbuild/my_std.ml" 103 2870 2891
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 97 2719 2723 "ocamlbuild/my_std.ml" 103 2870 2891
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 96 2693 2697 "ocamlbuild/my_std.ml" 103 2870 2891
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 105 2893 2899 "ocamlbuild/my_std.ml" 105 2893 2909
+type(
+  ('c -> 'd option) -> 'c list -> 'd list
+)
+ident(
+  def filter_opt "ocamlbuild/my_std.ml" 112 3039 3041 "ocamlbuild/my_std.ml" 122 3280 3283
+)
+"ocamlbuild/my_std.ml" 105 2893 2910 "ocamlbuild/my_std.ml" 105 2893 2911
+type(
+  'c -> 'd option
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 105 2893 2912 "ocamlbuild/my_std.ml" 110 3024 3037
+)
+"ocamlbuild/my_std.ml" 105 2893 2912 "ocamlbuild/my_std.ml" 105 2893 2914
+type(
+  'c list
+)
+ident(
+  def xs "ocamlbuild/my_std.ml" 106 2917 2921 "ocamlbuild/my_std.ml" 110 3024 3037
+)
+"ocamlbuild/my_std.ml" 106 2917 2921 "ocamlbuild/my_std.ml" 106 2917 2936
+type(
+  ('c -> 'd list -> 'd list) -> 'c list -> 'd list -> 'd list
+)
+ident(
+  ext_ref List.fold_right
+)
+"ocamlbuild/my_std.ml" 106 2917 2947 "ocamlbuild/my_std.ml" 106 2917 2948
+type(
+  'c
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 106 2917 2949 "ocamlbuild/my_std.ml" 109 3004 3023
+)
+"ocamlbuild/my_std.ml" 106 2917 2949 "ocamlbuild/my_std.ml" 106 2917 2952
+type(
+  'd list
+)
+ident(
+  def acc "ocamlbuild/my_std.ml" 107 2956 2962 "ocamlbuild/my_std.ml" 109 3004 3023
+)
+"ocamlbuild/my_std.ml" 107 2956 2968 "ocamlbuild/my_std.ml" 107 2956 2969
+type(
+  'c -> 'd option
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 105 2893 2910 "ocamlbuild/my_std.ml" 105 2893 2911
+)
+"ocamlbuild/my_std.ml" 107 2956 2970 "ocamlbuild/my_std.ml" 107 2956 2971
+type(
+  'c
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 106 2917 2947 "ocamlbuild/my_std.ml" 106 2917 2948
+)
+"ocamlbuild/my_std.ml" 107 2956 2968 "ocamlbuild/my_std.ml" 107 2956 2971
+call(
+  stack
+)
+type(
+  'd option
+)
+"ocamlbuild/my_std.ml" 108 2977 2990 "ocamlbuild/my_std.ml" 108 2977 2991
+type(
+  'd
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 108 2977 2995 "ocamlbuild/my_std.ml" 108 2977 3003
+)
+"ocamlbuild/my_std.ml" 108 2977 2985 "ocamlbuild/my_std.ml" 108 2977 2991
+type(
+  'd option
+)
+"ocamlbuild/my_std.ml" 108 2977 2995 "ocamlbuild/my_std.ml" 108 2977 2996
+type(
+  'd
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 108 2977 2990 "ocamlbuild/my_std.ml" 108 2977 2991
+)
+"ocamlbuild/my_std.ml" 108 2977 3000 "ocamlbuild/my_std.ml" 108 2977 3003
+type(
+  'd list
+)
+ident(
+  int_ref acc "ocamlbuild/my_std.ml" 106 2917 2949 "ocamlbuild/my_std.ml" 106 2917 2952
+)
+"ocamlbuild/my_std.ml" 108 2977 2995 "ocamlbuild/my_std.ml" 108 2977 3003
+type(
+  'd list
+)
+"ocamlbuild/my_std.ml" 109 3004 3012 "ocamlbuild/my_std.ml" 109 3004 3016
+type(
+  'd option
+)
+"ocamlbuild/my_std.ml" 109 3004 3020 "ocamlbuild/my_std.ml" 109 3004 3023
+type(
+  'd list
+)
+ident(
+  int_ref acc "ocamlbuild/my_std.ml" 106 2917 2949 "ocamlbuild/my_std.ml" 106 2917 2952
+)
+"ocamlbuild/my_std.ml" 107 2956 2962 "ocamlbuild/my_std.ml" 109 3004 3023
+type(
+  'd list
+)
+"ocamlbuild/my_std.ml" 106 2917 2937 "ocamlbuild/my_std.ml" 110 3024 3031
+type(
+  'c -> 'd list -> 'd list
+)
+"ocamlbuild/my_std.ml" 110 3024 3032 "ocamlbuild/my_std.ml" 110 3024 3034
+type(
+  'c list
+)
+ident(
+  int_ref xs "ocamlbuild/my_std.ml" 105 2893 2912 "ocamlbuild/my_std.ml" 105 2893 2914
+)
+"ocamlbuild/my_std.ml" 110 3024 3035 "ocamlbuild/my_std.ml" 110 3024 3037
+type(
+  'd list
+)
+"ocamlbuild/my_std.ml" 106 2917 2921 "ocamlbuild/my_std.ml" 110 3024 3037
+call(
+  tail
+)
+type(
+  'd list
+)
+"ocamlbuild/my_std.ml" 112 3039 3049 "ocamlbuild/my_std.ml" 112 3039 3064
+type(
+  'e list -> 'e list -> 'e list
+)
+ident(
+  def rev_append_uniq "ocamlbuild/my_std.ml" 112 3039 3041 "ocamlbuild/my_std.ml" 122 3280 3283
+)
+"ocamlbuild/my_std.ml" 112 3039 3065 "ocamlbuild/my_std.ml" 112 3039 3068
+type(
+  'e list
+)
+ident(
+  def acc "ocamlbuild/my_std.ml" 113 3071 3075 "ocamlbuild/my_std.ml" 117 3166 3208
+)
+"ocamlbuild/my_std.ml" 114 3084 3090 "ocamlbuild/my_std.ml" 114 3084 3092
+type(
+  'e list
+)
+"ocamlbuild/my_std.ml" 114 3084 3096 "ocamlbuild/my_std.ml" 114 3084 3099
+type(
+  'e list
+)
+ident(
+  int_ref acc "ocamlbuild/my_std.ml" 112 3039 3065 "ocamlbuild/my_std.ml" 112 3039 3068
+)
+"ocamlbuild/my_std.ml" 115 3100 3106 "ocamlbuild/my_std.ml" 115 3100 3107
+type(
+  'e
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 116 3117 3125 "ocamlbuild/my_std.ml" 117 3166 3208
+)
+"ocamlbuild/my_std.ml" 115 3100 3111 "ocamlbuild/my_std.ml" 115 3100 3113
+type(
+  'e list
+)
+ident(
+  def xs "ocamlbuild/my_std.ml" 116 3117 3125 "ocamlbuild/my_std.ml" 117 3166 3208
+)
+"ocamlbuild/my_std.ml" 115 3100 3106 "ocamlbuild/my_std.ml" 115 3100 3113
+type(
+  'e list
+)
+"ocamlbuild/my_std.ml" 116 3117 3128 "ocamlbuild/my_std.ml" 116 3117 3131
+type(
+  'e -> 'e list -> bool
+)
+"ocamlbuild/my_std.ml" 116 3117 3132 "ocamlbuild/my_std.ml" 116 3117 3133
+type(
+  'e
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 115 3100 3106 "ocamlbuild/my_std.ml" 115 3100 3107
+)
+"ocamlbuild/my_std.ml" 116 3117 3134 "ocamlbuild/my_std.ml" 116 3117 3137
+type(
+  'e list
+)
+ident(
+  int_ref acc "ocamlbuild/my_std.ml" 112 3039 3065 "ocamlbuild/my_std.ml" 112 3039 3068
+)
+"ocamlbuild/my_std.ml" 116 3117 3128 "ocamlbuild/my_std.ml" 116 3117 3137
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 116 3117 3143 "ocamlbuild/my_std.ml" 116 3117 3158
+type(
+  'e list -> 'e list -> 'e list
+)
+ident(
+  int_ref rev_append_uniq "ocamlbuild/my_std.ml" 112 3039 3049 "ocamlbuild/my_std.ml" 112 3039 3064
+)
+"ocamlbuild/my_std.ml" 116 3117 3159 "ocamlbuild/my_std.ml" 116 3117 3162
+type(
+  'e list
+)
+ident(
+  int_ref acc "ocamlbuild/my_std.ml" 112 3039 3065 "ocamlbuild/my_std.ml" 112 3039 3068
+)
+"ocamlbuild/my_std.ml" 116 3117 3163 "ocamlbuild/my_std.ml" 116 3117 3165
+type(
+  'e list
+)
+ident(
+  int_ref xs "ocamlbuild/my_std.ml" 115 3100 3111 "ocamlbuild/my_std.ml" 115 3100 3113
+)
+"ocamlbuild/my_std.ml" 116 3117 3143 "ocamlbuild/my_std.ml" 116 3117 3165
+call(
+  tail
+)
+type(
+  'e list
+)
+"ocamlbuild/my_std.ml" 117 3166 3179 "ocamlbuild/my_std.ml" 117 3166 3194
+type(
+  'e list -> 'e list -> 'e list
+)
+ident(
+  int_ref rev_append_uniq "ocamlbuild/my_std.ml" 112 3039 3049 "ocamlbuild/my_std.ml" 112 3039 3064
+)
+"ocamlbuild/my_std.ml" 117 3166 3196 "ocamlbuild/my_std.ml" 117 3166 3197
+type(
+  'e
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 115 3100 3106 "ocamlbuild/my_std.ml" 115 3100 3107
+)
+"ocamlbuild/my_std.ml" 117 3166 3201 "ocamlbuild/my_std.ml" 117 3166 3204
+type(
+  'e list
+)
+ident(
+  int_ref acc "ocamlbuild/my_std.ml" 112 3039 3065 "ocamlbuild/my_std.ml" 112 3039 3068
+)
+"ocamlbuild/my_std.ml" 117 3166 3195 "ocamlbuild/my_std.ml" 117 3166 3205
+type(
+  'e list
+)
+"ocamlbuild/my_std.ml" 117 3166 3206 "ocamlbuild/my_std.ml" 117 3166 3208
+type(
+  'e list
+)
+ident(
+  int_ref xs "ocamlbuild/my_std.ml" 115 3100 3111 "ocamlbuild/my_std.ml" 115 3100 3113
+)
+"ocamlbuild/my_std.ml" 117 3166 3179 "ocamlbuild/my_std.ml" 117 3166 3208
+call(
+  tail
+)
+type(
+  'e list
+)
+"ocamlbuild/my_std.ml" 116 3117 3125 "ocamlbuild/my_std.ml" 117 3166 3208
+type(
+  'e list
+)
+"ocamlbuild/my_std.ml" 113 3071 3075 "ocamlbuild/my_std.ml" 117 3166 3208
+type(
+  'e list -> 'e list
+)
+"ocamlbuild/my_std.ml" 119 3210 3216 "ocamlbuild/my_std.ml" 119 3210 3221
+type(
+  'f list -> 'f list -> 'f list
+)
+ident(
+  def union "ocamlbuild/my_std.ml" 120 3228 3278 "ocamlbuild/my_std.ml" 122 3280 3283
+)
+"ocamlbuild/my_std.ml" 119 3210 3222 "ocamlbuild/my_std.ml" 119 3210 3223
+type(
+  'f list
+)
+ident(
+  def a "ocamlbuild/my_std.ml" 119 3210 3224 "ocamlbuild/my_std.ml" 120 3228 3278
+)
+"ocamlbuild/my_std.ml" 119 3210 3224 "ocamlbuild/my_std.ml" 119 3210 3225
+type(
+  'f list
+)
+ident(
+  def b "ocamlbuild/my_std.ml" 120 3228 3232 "ocamlbuild/my_std.ml" 120 3228 3278
+)
+"ocamlbuild/my_std.ml" 120 3228 3232 "ocamlbuild/my_std.ml" 120 3228 3235
+type(
+  'f list -> 'f list
+)
+"ocamlbuild/my_std.ml" 120 3228 3237 "ocamlbuild/my_std.ml" 120 3228 3252
+type(
+  'f list -> 'f list -> 'f list
+)
+ident(
+  int_ref rev_append_uniq "ocamlbuild/my_std.ml" 112 3039 3049 "ocamlbuild/my_std.ml" 112 3039 3064
+)
+"ocamlbuild/my_std.ml" 120 3228 3254 "ocamlbuild/my_std.ml" 120 3228 3269
+type(
+  'f list -> 'f list -> 'f list
+)
+ident(
+  int_ref rev_append_uniq "ocamlbuild/my_std.ml" 112 3039 3049 "ocamlbuild/my_std.ml" 112 3039 3064
+)
+"ocamlbuild/my_std.ml" 120 3228 3270 "ocamlbuild/my_std.ml" 120 3228 3272
+type(
+  'f list
+)
+"ocamlbuild/my_std.ml" 120 3228 3273 "ocamlbuild/my_std.ml" 120 3228 3274
+type(
+  'f list
+)
+ident(
+  int_ref a "ocamlbuild/my_std.ml" 119 3210 3222 "ocamlbuild/my_std.ml" 119 3210 3223
+)
+"ocamlbuild/my_std.ml" 120 3228 3253 "ocamlbuild/my_std.ml" 120 3228 3275
+call(
+  stack
+)
+type(
+  'f list
+)
+"ocamlbuild/my_std.ml" 120 3228 3276 "ocamlbuild/my_std.ml" 120 3228 3277
+type(
+  'f list
+)
+ident(
+  int_ref b "ocamlbuild/my_std.ml" 119 3210 3224 "ocamlbuild/my_std.ml" 119 3210 3225
+)
+"ocamlbuild/my_std.ml" 120 3228 3236 "ocamlbuild/my_std.ml" 120 3228 3278
+call(
+  stack
+)
+type(
+  'f list
+)
+"ocamlbuild/my_std.ml" 120 3228 3232 "ocamlbuild/my_std.ml" 120 3228 3278
+call(
+  tail
+)
+type(
+  'f list
+)
+"ocamlbuild/my_std.ml" 127 3326 3332 "ocamlbuild/my_std.ml" 127 3326 3337
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def print "ocamlbuild/my_std.ml" 129 3362 3364 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 127 3326 3338 "ocamlbuild/my_std.ml" 127 3326 3339
+type(
+  Format.formatter
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 127 3326 3340 "ocamlbuild/my_std.ml" 127 3326 3360
+)
+"ocamlbuild/my_std.ml" 127 3326 3340 "ocamlbuild/my_std.ml" 127 3326 3341
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 127 3326 3344 "ocamlbuild/my_std.ml" 127 3326 3360
+)
+"ocamlbuild/my_std.ml" 127 3326 3344 "ocamlbuild/my_std.ml" 127 3326 3351
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/my_std.ml" 127 3326 3352 "ocamlbuild/my_std.ml" 127 3326 3353
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 127 3326 3338 "ocamlbuild/my_std.ml" 127 3326 3339
+)
+"ocamlbuild/my_std.ml" 127 3326 3354 "ocamlbuild/my_std.ml" 127 3326 3358
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/my_std.ml" 127 3326 3359 "ocamlbuild/my_std.ml" 127 3326 3360
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 127 3326 3340 "ocamlbuild/my_std.ml" 127 3326 3341
+)
+"ocamlbuild/my_std.ml" 127 3326 3344 "ocamlbuild/my_std.ml" 127 3326 3360
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 129 3362 3368 "ocamlbuild/my_std.ml" 129 3362 3373
+type(
+  string -> string
+)
+ident(
+  def chomp "ocamlbuild/my_std.ml" 138 3626 3628 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 129 3362 3374 "ocamlbuild/my_std.ml" 129 3362 3375
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 130 3378 3382 "ocamlbuild/my_std.ml" 136 3589 3624
+)
+"ocamlbuild/my_std.ml" 130 3378 3386 "ocamlbuild/my_std.ml" 130 3378 3396
+type(
+  char -> bool
+)
+"ocamlbuild/my_std.ml" 130 3378 3408 "ocamlbuild/my_std.ml" 130 3378 3412
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 130 3378 3415 "ocamlbuild/my_std.ml" 130 3378 3419
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 130 3378 3408 "ocamlbuild/my_std.ml" 130 3378 3419
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 130 3378 3423 "ocamlbuild/my_std.ml" 130 3378 3427
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 130 3378 3430 "ocamlbuild/my_std.ml" 130 3378 3431
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 130 3378 3435 "ocamlbuild/my_std.ml" 130 3378 3440
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 130 3378 3399 "ocamlbuild/my_std.ml" 130 3378 3440
+type(
+  char -> bool
+)
+"ocamlbuild/my_std.ml" 131 3444 3456 "ocamlbuild/my_std.ml" 131 3444 3459
+type(
+  int -> int
+)
+"ocamlbuild/my_std.ml" 131 3444 3460 "ocamlbuild/my_std.ml" 131 3444 3461
+type(
+  int
+)
+ident(
+  def n "ocamlbuild/my_std.ml" 132 3464 3470 "ocamlbuild/my_std.ml" 132 3464 3534
+)
+"ocamlbuild/my_std.ml" 132 3464 3473 "ocamlbuild/my_std.ml" 132 3464 3474
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 131 3444 3460 "ocamlbuild/my_std.ml" 131 3444 3461
+)
+"ocamlbuild/my_std.ml" 132 3464 3475 "ocamlbuild/my_std.ml" 132 3464 3476
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 132 3464 3477 "ocamlbuild/my_std.ml" 132 3464 3478
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3473 "ocamlbuild/my_std.ml" 132 3464 3478
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 132 3464 3484 "ocamlbuild/my_std.ml" 132 3464 3485
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3494 "ocamlbuild/my_std.ml" 132 3464 3504
+type(
+  char -> bool
+)
+ident(
+  int_ref is_nl_char "ocamlbuild/my_std.ml" 130 3378 3386 "ocamlbuild/my_std.ml" 130 3378 3396
+)
+"ocamlbuild/my_std.ml" 132 3464 3505 "ocamlbuild/my_std.ml" 132 3464 3506
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 129 3362 3374 "ocamlbuild/my_std.ml" 129 3362 3375
+)
+"ocamlbuild/my_std.ml" 132 3464 3508 "ocamlbuild/my_std.ml" 132 3464 3509
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 131 3444 3460 "ocamlbuild/my_std.ml" 131 3444 3461
+)
+"ocamlbuild/my_std.ml" 132 3464 3509 "ocamlbuild/my_std.ml" 132 3464 3510
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 132 3464 3510 "ocamlbuild/my_std.ml" 132 3464 3511
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3508 "ocamlbuild/my_std.ml" 132 3464 3511
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3505 "ocamlbuild/my_std.ml" 132 3464 3512
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 132 3464 3494 "ocamlbuild/my_std.ml" 132 3464 3512
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 132 3464 3518 "ocamlbuild/my_std.ml" 132 3464 3521
+type(
+  int -> int
+)
+ident(
+  int_ref cut "ocamlbuild/my_std.ml" 131 3444 3456 "ocamlbuild/my_std.ml" 131 3444 3459
+)
+"ocamlbuild/my_std.ml" 132 3464 3523 "ocamlbuild/my_std.ml" 132 3464 3524
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 131 3444 3460 "ocamlbuild/my_std.ml" 131 3444 3461
+)
+"ocamlbuild/my_std.ml" 132 3464 3524 "ocamlbuild/my_std.ml" 132 3464 3525
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 132 3464 3525 "ocamlbuild/my_std.ml" 132 3464 3526
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3522 "ocamlbuild/my_std.ml" 132 3464 3527
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3518 "ocamlbuild/my_std.ml" 132 3464 3527
+call(
+  tail
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3533 "ocamlbuild/my_std.ml" 132 3464 3534
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 131 3444 3460 "ocamlbuild/my_std.ml" 131 3444 3461
+)
+"ocamlbuild/my_std.ml" 132 3464 3491 "ocamlbuild/my_std.ml" 132 3464 3534
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 132 3464 3470 "ocamlbuild/my_std.ml" 132 3464 3534
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 134 3542 3550 "ocamlbuild/my_std.ml" 134 3542 3552
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 134 3542 3555 "ocamlbuild/my_std.ml" 134 3542 3561
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 134 3542 3562 "ocamlbuild/my_std.ml" 134 3542 3563
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 129 3362 3374 "ocamlbuild/my_std.ml" 129 3362 3375
+)
+"ocamlbuild/my_std.ml" 134 3542 3555 "ocamlbuild/my_std.ml" 134 3542 3563
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 135 3567 3575 "ocamlbuild/my_std.ml" 135 3567 3576
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 135 3567 3579 "ocamlbuild/my_std.ml" 135 3567 3582
+type(
+  int -> int
+)
+ident(
+  int_ref cut "ocamlbuild/my_std.ml" 131 3444 3456 "ocamlbuild/my_std.ml" 131 3444 3459
+)
+"ocamlbuild/my_std.ml" 135 3567 3583 "ocamlbuild/my_std.ml" 135 3567 3585
+type(
+  int
+)
+ident(
+  int_ref ls "ocamlbuild/my_std.ml" 134 3542 3550 "ocamlbuild/my_std.ml" 134 3542 3552
+)
+"ocamlbuild/my_std.ml" 135 3567 3579 "ocamlbuild/my_std.ml" 135 3567 3585
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 136 3589 3596 "ocamlbuild/my_std.ml" 136 3589 3597
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 135 3567 3575 "ocamlbuild/my_std.ml" 135 3567 3576
+)
+"ocamlbuild/my_std.ml" 136 3589 3598 "ocamlbuild/my_std.ml" 136 3589 3599
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 136 3589 3600 "ocamlbuild/my_std.ml" 136 3589 3602
+type(
+  int
+)
+ident(
+  int_ref ls "ocamlbuild/my_std.ml" 134 3542 3550 "ocamlbuild/my_std.ml" 134 3542 3552
+)
+"ocamlbuild/my_std.ml" 136 3589 3596 "ocamlbuild/my_std.ml" 136 3589 3602
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 136 3589 3608 "ocamlbuild/my_std.ml" 136 3589 3609
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 129 3362 3374 "ocamlbuild/my_std.ml" 129 3362 3375
+)
+"ocamlbuild/my_std.ml" 136 3589 3615 "ocamlbuild/my_std.ml" 136 3589 3618
+type(
+  string -> int -> int -> string
+)
+"ocamlbuild/my_std.ml" 136 3589 3619 "ocamlbuild/my_std.ml" 136 3589 3620
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 129 3362 3374 "ocamlbuild/my_std.ml" 129 3362 3375
+)
+"ocamlbuild/my_std.ml" 136 3589 3621 "ocamlbuild/my_std.ml" 136 3589 3622
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 136 3589 3623 "ocamlbuild/my_std.ml" 136 3589 3624
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 135 3567 3575 "ocamlbuild/my_std.ml" 135 3567 3576
+)
+"ocamlbuild/my_std.ml" 136 3589 3615 "ocamlbuild/my_std.ml" 136 3589 3624
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 136 3589 3593 "ocamlbuild/my_std.ml" 136 3589 3624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 135 3567 3571 "ocamlbuild/my_std.ml" 136 3589 3624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 134 3542 3546 "ocamlbuild/my_std.ml" 136 3589 3624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 131 3444 3448 "ocamlbuild/my_std.ml" 136 3589 3624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 130 3378 3382 "ocamlbuild/my_std.ml" 136 3589 3624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 138 3626 3632 "ocamlbuild/my_std.ml" 138 3626 3638
+type(
+  string -> int -> string
+)
+ident(
+  def before "ocamlbuild/my_std.ml" 139 3659 3661 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 138 3626 3639 "ocamlbuild/my_std.ml" 138 3626 3640
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 138 3626 3641 "ocamlbuild/my_std.ml" 138 3626 3658
+)
+"ocamlbuild/my_std.ml" 138 3626 3641 "ocamlbuild/my_std.ml" 138 3626 3644
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_std.ml" 138 3626 3647 "ocamlbuild/my_std.ml" 138 3626 3658
+)
+"ocamlbuild/my_std.ml" 138 3626 3647 "ocamlbuild/my_std.ml" 138 3626 3650
+type(
+  string -> int -> int -> string
+)
+"ocamlbuild/my_std.ml" 138 3626 3651 "ocamlbuild/my_std.ml" 138 3626 3652
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 138 3626 3639 "ocamlbuild/my_std.ml" 138 3626 3640
+)
+"ocamlbuild/my_std.ml" 138 3626 3653 "ocamlbuild/my_std.ml" 138 3626 3654
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 138 3626 3655 "ocamlbuild/my_std.ml" 138 3626 3658
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 138 3626 3641 "ocamlbuild/my_std.ml" 138 3626 3644
+)
+"ocamlbuild/my_std.ml" 138 3626 3647 "ocamlbuild/my_std.ml" 138 3626 3658
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 139 3659 3665 "ocamlbuild/my_std.ml" 139 3659 3670
+type(
+  string -> int -> string
+)
+ident(
+  def after "ocamlbuild/my_std.ml" 140 3706 3708 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 139 3659 3671 "ocamlbuild/my_std.ml" 139 3659 3672
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 139 3659 3673 "ocamlbuild/my_std.ml" 139 3659 3705
+)
+"ocamlbuild/my_std.ml" 139 3659 3673 "ocamlbuild/my_std.ml" 139 3659 3676
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_std.ml" 139 3659 3679 "ocamlbuild/my_std.ml" 139 3659 3705
+)
+"ocamlbuild/my_std.ml" 139 3659 3679 "ocamlbuild/my_std.ml" 139 3659 3682
+type(
+  string -> int -> int -> string
+)
+"ocamlbuild/my_std.ml" 139 3659 3683 "ocamlbuild/my_std.ml" 139 3659 3684
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 139 3659 3671 "ocamlbuild/my_std.ml" 139 3659 3672
+)
+"ocamlbuild/my_std.ml" 139 3659 3685 "ocamlbuild/my_std.ml" 139 3659 3688
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 139 3659 3673 "ocamlbuild/my_std.ml" 139 3659 3676
+)
+"ocamlbuild/my_std.ml" 139 3659 3690 "ocamlbuild/my_std.ml" 139 3659 3696
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 139 3659 3697 "ocamlbuild/my_std.ml" 139 3659 3698
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 139 3659 3671 "ocamlbuild/my_std.ml" 139 3659 3672
+)
+"ocamlbuild/my_std.ml" 139 3659 3690 "ocamlbuild/my_std.ml" 139 3659 3698
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 139 3659 3699 "ocamlbuild/my_std.ml" 139 3659 3700
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 139 3659 3701 "ocamlbuild/my_std.ml" 139 3659 3704
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 139 3659 3673 "ocamlbuild/my_std.ml" 139 3659 3676
+)
+"ocamlbuild/my_std.ml" 139 3659 3689 "ocamlbuild/my_std.ml" 139 3659 3705
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 139 3659 3679 "ocamlbuild/my_std.ml" 139 3659 3705
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 140 3706 3712 "ocamlbuild/my_std.ml" 140 3706 3723
+type(
+  string -> int -> string
+)
+ident(
+  def first_chars "ocamlbuild/my_std.ml" 141 3741 3743 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 140 3706 3724 "ocamlbuild/my_std.ml" 140 3706 3725
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 140 3706 3726 "ocamlbuild/my_std.ml" 140 3706 3739
+)
+"ocamlbuild/my_std.ml" 140 3706 3726 "ocamlbuild/my_std.ml" 140 3706 3727
+type(
+  int
+)
+ident(
+  def n "ocamlbuild/my_std.ml" 140 3706 3730 "ocamlbuild/my_std.ml" 140 3706 3739
+)
+"ocamlbuild/my_std.ml" 140 3706 3730 "ocamlbuild/my_std.ml" 140 3706 3733
+type(
+  string -> int -> int -> string
+)
+"ocamlbuild/my_std.ml" 140 3706 3734 "ocamlbuild/my_std.ml" 140 3706 3735
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 140 3706 3724 "ocamlbuild/my_std.ml" 140 3706 3725
+)
+"ocamlbuild/my_std.ml" 140 3706 3736 "ocamlbuild/my_std.ml" 140 3706 3737
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 140 3706 3738 "ocamlbuild/my_std.ml" 140 3706 3739
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 140 3706 3726 "ocamlbuild/my_std.ml" 140 3706 3727
+)
+"ocamlbuild/my_std.ml" 140 3706 3730 "ocamlbuild/my_std.ml" 140 3706 3739
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 141 3741 3747 "ocamlbuild/my_std.ml" 141 3741 3757
+type(
+  string -> int -> string
+)
+ident(
+  def last_chars "ocamlbuild/my_std.ml" 143 3788 3790 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 141 3741 3758 "ocamlbuild/my_std.ml" 141 3741 3759
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 141 3741 3760 "ocamlbuild/my_std.ml" 141 3741 3786
+)
+"ocamlbuild/my_std.ml" 141 3741 3760 "ocamlbuild/my_std.ml" 141 3741 3761
+type(
+  int
+)
+ident(
+  def n "ocamlbuild/my_std.ml" 141 3741 3764 "ocamlbuild/my_std.ml" 141 3741 3786
+)
+"ocamlbuild/my_std.ml" 141 3741 3764 "ocamlbuild/my_std.ml" 141 3741 3767
+type(
+  string -> int -> int -> string
+)
+"ocamlbuild/my_std.ml" 141 3741 3768 "ocamlbuild/my_std.ml" 141 3741 3769
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 141 3741 3758 "ocamlbuild/my_std.ml" 141 3741 3759
+)
+"ocamlbuild/my_std.ml" 141 3741 3771 "ocamlbuild/my_std.ml" 141 3741 3777
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 141 3741 3778 "ocamlbuild/my_std.ml" 141 3741 3779
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 141 3741 3758 "ocamlbuild/my_std.ml" 141 3741 3759
+)
+"ocamlbuild/my_std.ml" 141 3741 3771 "ocamlbuild/my_std.ml" 141 3741 3779
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 141 3741 3780 "ocamlbuild/my_std.ml" 141 3741 3781
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 141 3741 3782 "ocamlbuild/my_std.ml" 141 3741 3783
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 141 3741 3760 "ocamlbuild/my_std.ml" 141 3741 3761
+)
+"ocamlbuild/my_std.ml" 141 3741 3770 "ocamlbuild/my_std.ml" 141 3741 3784
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 141 3741 3785 "ocamlbuild/my_std.ml" 141 3741 3786
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 141 3741 3760 "ocamlbuild/my_std.ml" 141 3741 3761
+)
+"ocamlbuild/my_std.ml" 141 3741 3764 "ocamlbuild/my_std.ml" 141 3741 3786
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 143 3788 3798 "ocamlbuild/my_std.ml" 143 3788 3812
+type(
+  string -> int -> string -> int -> int -> bool
+)
+ident(
+  def eq_sub_strings "ocamlbuild/my_std.ml" 143 3788 3790 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 143 3788 3813 "ocamlbuild/my_std.ml" 143 3788 3815
+type(
+  string
+)
+ident(
+  def s1 "ocamlbuild/my_std.ml" 143 3788 3816 "ocamlbuild/my_std.ml" 145 3915 3928
+)
+"ocamlbuild/my_std.ml" 143 3788 3816 "ocamlbuild/my_std.ml" 143 3788 3818
+type(
+  int
+)
+ident(
+  def p1 "ocamlbuild/my_std.ml" 143 3788 3819 "ocamlbuild/my_std.ml" 145 3915 3928
+)
+"ocamlbuild/my_std.ml" 143 3788 3819 "ocamlbuild/my_std.ml" 143 3788 3821
+type(
+  string
+)
+ident(
+  def s2 "ocamlbuild/my_std.ml" 143 3788 3822 "ocamlbuild/my_std.ml" 145 3915 3928
+)
+"ocamlbuild/my_std.ml" 143 3788 3822 "ocamlbuild/my_std.ml" 143 3788 3824
+type(
+  int
+)
+ident(
+  def p2 "ocamlbuild/my_std.ml" 143 3788 3825 "ocamlbuild/my_std.ml" 145 3915 3928
+)
+"ocamlbuild/my_std.ml" 143 3788 3825 "ocamlbuild/my_std.ml" 143 3788 3828
+type(
+  int
+)
+ident(
+  def len "ocamlbuild/my_std.ml" 144 3831 3835 "ocamlbuild/my_std.ml" 145 3915 3928
+)
+"ocamlbuild/my_std.ml" 144 3831 3838 "ocamlbuild/my_std.ml" 144 3831 3841
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 143 3788 3825 "ocamlbuild/my_std.ml" 143 3788 3828
+)
+"ocamlbuild/my_std.ml" 144 3831 3842 "ocamlbuild/my_std.ml" 144 3831 3843
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/my_std.ml" 144 3831 3844 "ocamlbuild/my_std.ml" 144 3831 3845
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3838 "ocamlbuild/my_std.ml" 144 3831 3845
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 144 3831 3851 "ocamlbuild/my_std.ml" 144 3831 3853
+type(
+  string
+)
+ident(
+  int_ref s1 "ocamlbuild/my_std.ml" 143 3788 3813 "ocamlbuild/my_std.ml" 143 3788 3815
+)
+"ocamlbuild/my_std.ml" 144 3831 3855 "ocamlbuild/my_std.ml" 144 3831 3857
+type(
+  int
+)
+ident(
+  int_ref p1 "ocamlbuild/my_std.ml" 143 3788 3816 "ocamlbuild/my_std.ml" 143 3788 3818
+)
+"ocamlbuild/my_std.ml" 144 3831 3851 "ocamlbuild/my_std.ml" 144 3831 3858
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 144 3831 3859 "ocamlbuild/my_std.ml" 144 3831 3860
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 144 3831 3861 "ocamlbuild/my_std.ml" 144 3831 3863
+type(
+  string
+)
+ident(
+  int_ref s2 "ocamlbuild/my_std.ml" 143 3788 3819 "ocamlbuild/my_std.ml" 143 3788 3821
+)
+"ocamlbuild/my_std.ml" 144 3831 3865 "ocamlbuild/my_std.ml" 144 3831 3867
+type(
+  int
+)
+ident(
+  int_ref p2 "ocamlbuild/my_std.ml" 143 3788 3822 "ocamlbuild/my_std.ml" 143 3788 3824
+)
+"ocamlbuild/my_std.ml" 144 3831 3861 "ocamlbuild/my_std.ml" 144 3831 3868
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 144 3831 3851 "ocamlbuild/my_std.ml" 144 3831 3868
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 144 3831 3869 "ocamlbuild/my_std.ml" 144 3831 3871
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/my_std.ml" 144 3831 3872 "ocamlbuild/my_std.ml" 144 3831 3886
+type(
+  string -> int -> string -> int -> int -> bool
+)
+ident(
+  int_ref eq_sub_strings "ocamlbuild/my_std.ml" 143 3788 3798 "ocamlbuild/my_std.ml" 143 3788 3812
+)
+"ocamlbuild/my_std.ml" 144 3831 3887 "ocamlbuild/my_std.ml" 144 3831 3889
+type(
+  string
+)
+ident(
+  int_ref s1 "ocamlbuild/my_std.ml" 143 3788 3813 "ocamlbuild/my_std.ml" 143 3788 3815
+)
+"ocamlbuild/my_std.ml" 144 3831 3891 "ocamlbuild/my_std.ml" 144 3831 3893
+type(
+  int
+)
+ident(
+  int_ref p1 "ocamlbuild/my_std.ml" 143 3788 3816 "ocamlbuild/my_std.ml" 143 3788 3818
+)
+"ocamlbuild/my_std.ml" 144 3831 3893 "ocamlbuild/my_std.ml" 144 3831 3894
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 144 3831 3894 "ocamlbuild/my_std.ml" 144 3831 3895
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3890 "ocamlbuild/my_std.ml" 144 3831 3896
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3897 "ocamlbuild/my_std.ml" 144 3831 3899
+type(
+  string
+)
+ident(
+  int_ref s2 "ocamlbuild/my_std.ml" 143 3788 3819 "ocamlbuild/my_std.ml" 143 3788 3821
+)
+"ocamlbuild/my_std.ml" 144 3831 3901 "ocamlbuild/my_std.ml" 144 3831 3903
+type(
+  int
+)
+ident(
+  int_ref p2 "ocamlbuild/my_std.ml" 143 3788 3822 "ocamlbuild/my_std.ml" 143 3788 3824
+)
+"ocamlbuild/my_std.ml" 144 3831 3903 "ocamlbuild/my_std.ml" 144 3831 3904
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 144 3831 3904 "ocamlbuild/my_std.ml" 144 3831 3905
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3900 "ocamlbuild/my_std.ml" 144 3831 3906
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3908 "ocamlbuild/my_std.ml" 144 3831 3911
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 143 3788 3825 "ocamlbuild/my_std.ml" 143 3788 3828
+)
+"ocamlbuild/my_std.ml" 144 3831 3911 "ocamlbuild/my_std.ml" 144 3831 3912
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 144 3831 3912 "ocamlbuild/my_std.ml" 144 3831 3913
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3907 "ocamlbuild/my_std.ml" 144 3831 3914
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 144 3831 3872 "ocamlbuild/my_std.ml" 144 3831 3914
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 144 3831 3851 "ocamlbuild/my_std.ml" 144 3831 3914
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 145 3915 3924 "ocamlbuild/my_std.ml" 145 3915 3928
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 144 3831 3835 "ocamlbuild/my_std.ml" 145 3915 3928
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 147 3930 3940 "ocamlbuild/my_std.ml" 147 3930 3955
+type(
+  string -> int -> string -> int option
+)
+ident(
+  def contains_string "ocamlbuild/my_std.ml" 147 3930 3932 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 147 3930 3956 "ocamlbuild/my_std.ml" 147 3930 3958
+type(
+  string
+)
+ident(
+  def s1 "ocamlbuild/my_std.ml" 147 3930 3959 "ocamlbuild/my_std.ml" 154 4209 4235
+)
+"ocamlbuild/my_std.ml" 147 3930 3959 "ocamlbuild/my_std.ml" 147 3930 3961
+type(
+  int
+)
+ident(
+  def p1 "ocamlbuild/my_std.ml" 147 3930 3962 "ocamlbuild/my_std.ml" 154 4209 4235
+)
+"ocamlbuild/my_std.ml" 147 3930 3962 "ocamlbuild/my_std.ml" 147 3930 3964
+type(
+  string
+)
+ident(
+  def s2 "ocamlbuild/my_std.ml" 148 3967 3971 "ocamlbuild/my_std.ml" 154 4209 4235
+)
+"ocamlbuild/my_std.ml" 148 3967 3975 "ocamlbuild/my_std.ml" 148 3967 3978
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 148 3967 3981 "ocamlbuild/my_std.ml" 148 3967 3987
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 148 3967 3988 "ocamlbuild/my_std.ml" 148 3967 3990
+type(
+  string
+)
+ident(
+  int_ref s1 "ocamlbuild/my_std.ml" 147 3930 3956 "ocamlbuild/my_std.ml" 147 3930 3958
+)
+"ocamlbuild/my_std.ml" 148 3967 3981 "ocamlbuild/my_std.ml" 148 3967 3990
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 149 3994 4002 "ocamlbuild/my_std.ml" 149 3994 4005
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 149 3994 4008 "ocamlbuild/my_std.ml" 149 3994 4014
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 149 3994 4015 "ocamlbuild/my_std.ml" 149 3994 4017
+type(
+  string
+)
+ident(
+  int_ref s2 "ocamlbuild/my_std.ml" 147 3930 3962 "ocamlbuild/my_std.ml" 147 3930 3964
+)
+"ocamlbuild/my_std.ml" 149 3994 4008 "ocamlbuild/my_std.ml" 149 3994 4017
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 150 4021 4033 "ocamlbuild/my_std.ml" 150 4021 4036
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_std.ml" 151 4066 4074 "ocamlbuild/my_std.ml" 153 4155 4208
+)
+"ocamlbuild/my_std.ml" 150 4021 4039 "ocamlbuild/my_std.ml" 150 4021 4049
+type(
+  string -> int -> char -> int
+)
+"ocamlbuild/my_std.ml" 150 4021 4050 "ocamlbuild/my_std.ml" 150 4021 4052
+type(
+  string
+)
+ident(
+  int_ref s1 "ocamlbuild/my_std.ml" 147 3930 3956 "ocamlbuild/my_std.ml" 147 3930 3958
+)
+"ocamlbuild/my_std.ml" 150 4021 4053 "ocamlbuild/my_std.ml" 150 4021 4055
+type(
+  int
+)
+ident(
+  int_ref p1 "ocamlbuild/my_std.ml" 147 3930 3959 "ocamlbuild/my_std.ml" 147 3930 3961
+)
+"ocamlbuild/my_std.ml" 150 4021 4056 "ocamlbuild/my_std.ml" 150 4021 4058
+type(
+  string
+)
+ident(
+  int_ref s2 "ocamlbuild/my_std.ml" 147 3930 3962 "ocamlbuild/my_std.ml" 147 3930 3964
+)
+"ocamlbuild/my_std.ml" 150 4021 4060 "ocamlbuild/my_std.ml" 150 4021 4061
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 150 4021 4056 "ocamlbuild/my_std.ml" 150 4021 4062
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 150 4021 4039 "ocamlbuild/my_std.ml" 150 4021 4062
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 151 4066 4077 "ocamlbuild/my_std.ml" 151 4066 4080
+type(
+  int
+)
+ident(
+  int_ref ls1 "ocamlbuild/my_std.ml" 148 3967 3975 "ocamlbuild/my_std.ml" 148 3967 3978
+)
+"ocamlbuild/my_std.ml" 151 4066 4081 "ocamlbuild/my_std.ml" 151 4066 4082
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 151 4066 4083 "ocamlbuild/my_std.ml" 151 4066 4086
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 150 4021 4033 "ocamlbuild/my_std.ml" 150 4021 4036
+)
+"ocamlbuild/my_std.ml" 151 4066 4077 "ocamlbuild/my_std.ml" 151 4066 4086
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 151 4066 4087 "ocamlbuild/my_std.ml" 151 4066 4088
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"ocamlbuild/my_std.ml" 151 4066 4089 "ocamlbuild/my_std.ml" 151 4066 4092
+type(
+  int
+)
+ident(
+  int_ref ls2 "ocamlbuild/my_std.ml" 149 3994 4002 "ocamlbuild/my_std.ml" 149 3994 4005
+)
+"ocamlbuild/my_std.ml" 151 4066 4077 "ocamlbuild/my_std.ml" 151 4066 4092
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 151 4066 4098 "ocamlbuild/my_std.ml" 151 4066 4102
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 152 4103 4119 "ocamlbuild/my_std.ml" 152 4103 4133
+type(
+  string -> int -> string -> int -> int -> bool
+)
+ident(
+  int_ref eq_sub_strings "ocamlbuild/my_std.ml" 143 3788 3798 "ocamlbuild/my_std.ml" 143 3788 3812
+)
+"ocamlbuild/my_std.ml" 152 4103 4134 "ocamlbuild/my_std.ml" 152 4103 4136
+type(
+  string
+)
+ident(
+  int_ref s1 "ocamlbuild/my_std.ml" 147 3930 3956 "ocamlbuild/my_std.ml" 147 3930 3958
+)
+"ocamlbuild/my_std.ml" 152 4103 4137 "ocamlbuild/my_std.ml" 152 4103 4140
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 150 4021 4033 "ocamlbuild/my_std.ml" 150 4021 4036
+)
+"ocamlbuild/my_std.ml" 152 4103 4141 "ocamlbuild/my_std.ml" 152 4103 4143
+type(
+  string
+)
+ident(
+  int_ref s2 "ocamlbuild/my_std.ml" 147 3930 3962 "ocamlbuild/my_std.ml" 147 3930 3964
+)
+"ocamlbuild/my_std.ml" 152 4103 4144 "ocamlbuild/my_std.ml" 152 4103 4145
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 152 4103 4146 "ocamlbuild/my_std.ml" 152 4103 4149
+type(
+  int
+)
+ident(
+  int_ref ls2 "ocamlbuild/my_std.ml" 149 3994 4002 "ocamlbuild/my_std.ml" 149 3994 4005
+)
+"ocamlbuild/my_std.ml" 152 4103 4119 "ocamlbuild/my_std.ml" 152 4103 4149
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 153 4155 4168 "ocamlbuild/my_std.ml" 153 4155 4171
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 150 4021 4033 "ocamlbuild/my_std.ml" 150 4021 4036
+)
+"ocamlbuild/my_std.ml" 153 4155 4163 "ocamlbuild/my_std.ml" 153 4155 4171
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 153 4155 4177 "ocamlbuild/my_std.ml" 153 4155 4192
+type(
+  string -> int -> string -> int option
+)
+ident(
+  int_ref contains_string "ocamlbuild/my_std.ml" 147 3930 3940 "ocamlbuild/my_std.ml" 147 3930 3955
+)
+"ocamlbuild/my_std.ml" 153 4155 4193 "ocamlbuild/my_std.ml" 153 4155 4195
+type(
+  string
+)
+ident(
+  int_ref s1 "ocamlbuild/my_std.ml" 147 3930 3956 "ocamlbuild/my_std.ml" 147 3930 3958
+)
+"ocamlbuild/my_std.ml" 153 4155 4197 "ocamlbuild/my_std.ml" 153 4155 4200
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 150 4021 4033 "ocamlbuild/my_std.ml" 150 4021 4036
+)
+"ocamlbuild/my_std.ml" 153 4155 4201 "ocamlbuild/my_std.ml" 153 4155 4202
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 153 4155 4203 "ocamlbuild/my_std.ml" 153 4155 4204
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 153 4155 4196 "ocamlbuild/my_std.ml" 153 4155 4205
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 153 4155 4206 "ocamlbuild/my_std.ml" 153 4155 4208
+type(
+  string
+)
+ident(
+  int_ref s2 "ocamlbuild/my_std.ml" 147 3930 3962 "ocamlbuild/my_std.ml" 147 3930 3964
+)
+"ocamlbuild/my_std.ml" 153 4155 4177 "ocamlbuild/my_std.ml" 153 4155 4208
+call(
+  stack
+)
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 152 4103 4116 "ocamlbuild/my_std.ml" 153 4155 4208
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 151 4066 4074 "ocamlbuild/my_std.ml" 153 4155 4208
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 150 4021 4029 "ocamlbuild/my_std.ml" 153 4155 4208
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 154 4209 4218 "ocamlbuild/my_std.ml" 154 4209 4227
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 154 4209 4231 "ocamlbuild/my_std.ml" 154 4209 4235
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 150 4021 4025 "ocamlbuild/my_std.ml" 154 4209 4235
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 149 3994 3998 "ocamlbuild/my_std.ml" 154 4209 4235
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 148 3967 3971 "ocamlbuild/my_std.ml" 154 4209 4235
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 156 4237 4243 "ocamlbuild/my_std.ml" 156 4237 4248
+type(
+  string -> string -> string -> string
+)
+ident(
+  def subst "ocamlbuild/my_std.ml" 166 4526 4528 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 156 4237 4249 "ocamlbuild/my_std.ml" 156 4237 4253
+type(
+  string
+)
+ident(
+  def patt "ocamlbuild/my_std.ml" 156 4237 4254 "ocamlbuild/my_std.ml" 164 4509 4524
+)
+"ocamlbuild/my_std.ml" 156 4237 4254 "ocamlbuild/my_std.ml" 156 4237 4258
+type(
+  string
+)
+ident(
+  def repl "ocamlbuild/my_std.ml" 156 4237 4259 "ocamlbuild/my_std.ml" 164 4509 4524
+)
+"ocamlbuild/my_std.ml" 156 4237 4259 "ocamlbuild/my_std.ml" 156 4237 4260
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 157 4263 4267 "ocamlbuild/my_std.ml" 164 4509 4524
+)
+"ocamlbuild/my_std.ml" 157 4263 4271 "ocamlbuild/my_std.ml" 157 4263 4276
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 157 4263 4279 "ocamlbuild/my_std.ml" 157 4263 4285
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 157 4263 4286 "ocamlbuild/my_std.ml" 157 4263 4290
+type(
+  string
+)
+ident(
+  int_ref patt "ocamlbuild/my_std.ml" 156 4237 4249 "ocamlbuild/my_std.ml" 156 4237 4253
+)
+"ocamlbuild/my_std.ml" 157 4263 4279 "ocamlbuild/my_std.ml" 157 4263 4290
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 158 4294 4302 "ocamlbuild/my_std.ml" 158 4294 4307
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 158 4294 4310 "ocamlbuild/my_std.ml" 158 4294 4316
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 158 4294 4317 "ocamlbuild/my_std.ml" 158 4294 4321
+type(
+  string
+)
+ident(
+  int_ref repl "ocamlbuild/my_std.ml" 156 4237 4254 "ocamlbuild/my_std.ml" 156 4237 4258
+)
+"ocamlbuild/my_std.ml" 158 4294 4310 "ocamlbuild/my_std.ml" 158 4294 4321
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 159 4325 4337 "ocamlbuild/my_std.ml" 159 4325 4341
+type(
+  string -> int -> string
+)
+"ocamlbuild/my_std.ml" 159 4325 4342 "ocamlbuild/my_std.ml" 159 4325 4343
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 159 4325 4344 "ocamlbuild/my_std.ml" 163 4491 4508
+)
+"ocamlbuild/my_std.ml" 159 4325 4344 "ocamlbuild/my_std.ml" 159 4325 4348
+type(
+  int
+)
+ident(
+  def from "ocamlbuild/my_std.ml" 160 4351 4357 "ocamlbuild/my_std.ml" 163 4491 4508
+)
+"ocamlbuild/my_std.ml" 160 4351 4363 "ocamlbuild/my_std.ml" 160 4351 4378
+type(
+  string -> int -> string -> int option
+)
+ident(
+  int_ref contains_string "ocamlbuild/my_std.ml" 147 3930 3940 "ocamlbuild/my_std.ml" 147 3930 3955
+)
+"ocamlbuild/my_std.ml" 160 4351 4379 "ocamlbuild/my_std.ml" 160 4351 4380
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 159 4325 4342 "ocamlbuild/my_std.ml" 159 4325 4343
+)
+"ocamlbuild/my_std.ml" 160 4351 4381 "ocamlbuild/my_std.ml" 160 4351 4385
+type(
+  int
+)
+ident(
+  int_ref from "ocamlbuild/my_std.ml" 159 4325 4344 "ocamlbuild/my_std.ml" 159 4325 4348
+)
+"ocamlbuild/my_std.ml" 160 4351 4386 "ocamlbuild/my_std.ml" 160 4351 4390
+type(
+  string
+)
+ident(
+  int_ref patt "ocamlbuild/my_std.ml" 156 4237 4249 "ocamlbuild/my_std.ml" 156 4237 4253
+)
+"ocamlbuild/my_std.ml" 160 4351 4363 "ocamlbuild/my_std.ml" 160 4351 4390
+call(
+  stack
+)
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 161 4396 4409 "ocamlbuild/my_std.ml" 161 4396 4412
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_std.ml" 162 4416 4426 "ocamlbuild/my_std.ml" 162 4416 4490
+)
+"ocamlbuild/my_std.ml" 161 4396 4404 "ocamlbuild/my_std.ml" 161 4396 4412
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 162 4416 4426 "ocamlbuild/my_std.ml" 162 4416 4430
+type(
+  string -> int -> string
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 159 4325 4337 "ocamlbuild/my_std.ml" 159 4325 4341
+)
+"ocamlbuild/my_std.ml" 162 4416 4432 "ocamlbuild/my_std.ml" 162 4416 4438
+type(
+  string -> int -> string
+)
+ident(
+  int_ref before "ocamlbuild/my_std.ml" 138 3626 3632 "ocamlbuild/my_std.ml" 138 3626 3638
+)
+"ocamlbuild/my_std.ml" 162 4416 4439 "ocamlbuild/my_std.ml" 162 4416 4440
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 159 4325 4342 "ocamlbuild/my_std.ml" 159 4325 4343
+)
+"ocamlbuild/my_std.ml" 162 4416 4441 "ocamlbuild/my_std.ml" 162 4416 4444
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 161 4396 4409 "ocamlbuild/my_std.ml" 161 4396 4412
+)
+"ocamlbuild/my_std.ml" 162 4416 4432 "ocamlbuild/my_std.ml" 162 4416 4444
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 162 4416 4445 "ocamlbuild/my_std.ml" 162 4416 4446
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/my_std.ml" 162 4416 4447 "ocamlbuild/my_std.ml" 162 4416 4451
+type(
+  string
+)
+ident(
+  int_ref repl "ocamlbuild/my_std.ml" 156 4237 4254 "ocamlbuild/my_std.ml" 156 4237 4258
+)
+"ocamlbuild/my_std.ml" 162 4416 4452 "ocamlbuild/my_std.ml" 162 4416 4453
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/my_std.ml" 162 4416 4454 "ocamlbuild/my_std.ml" 162 4416 4459
+type(
+  string -> int -> string
+)
+ident(
+  int_ref after "ocamlbuild/my_std.ml" 139 3659 3665 "ocamlbuild/my_std.ml" 139 3659 3670
+)
+"ocamlbuild/my_std.ml" 162 4416 4460 "ocamlbuild/my_std.ml" 162 4416 4461
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 159 4325 4342 "ocamlbuild/my_std.ml" 159 4325 4343
+)
+"ocamlbuild/my_std.ml" 162 4416 4463 "ocamlbuild/my_std.ml" 162 4416 4466
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 161 4396 4409 "ocamlbuild/my_std.ml" 161 4396 4412
+)
+"ocamlbuild/my_std.ml" 162 4416 4467 "ocamlbuild/my_std.ml" 162 4416 4468
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 162 4416 4469 "ocamlbuild/my_std.ml" 162 4416 4474
+type(
+  int
+)
+ident(
+  int_ref lpatt "ocamlbuild/my_std.ml" 157 4263 4271 "ocamlbuild/my_std.ml" 157 4263 4276
+)
+"ocamlbuild/my_std.ml" 162 4416 4462 "ocamlbuild/my_std.ml" 162 4416 4475
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 162 4416 4454 "ocamlbuild/my_std.ml" 162 4416 4475
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 162 4416 4447 "ocamlbuild/my_std.ml" 162 4416 4475
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 162 4416 4431 "ocamlbuild/my_std.ml" 162 4416 4476
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 162 4416 4478 "ocamlbuild/my_std.ml" 162 4416 4481
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 161 4396 4409 "ocamlbuild/my_std.ml" 161 4396 4412
+)
+"ocamlbuild/my_std.ml" 162 4416 4482 "ocamlbuild/my_std.ml" 162 4416 4483
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 162 4416 4484 "ocamlbuild/my_std.ml" 162 4416 4489
+type(
+  int
+)
+ident(
+  int_ref lrepl "ocamlbuild/my_std.ml" 158 4294 4302 "ocamlbuild/my_std.ml" 158 4294 4307
+)
+"ocamlbuild/my_std.ml" 162 4416 4477 "ocamlbuild/my_std.ml" 162 4416 4490
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 162 4416 4426 "ocamlbuild/my_std.ml" 162 4416 4490
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 163 4491 4499 "ocamlbuild/my_std.ml" 163 4491 4503
+type(
+  int option
+)
+"ocamlbuild/my_std.ml" 163 4491 4507 "ocamlbuild/my_std.ml" 163 4491 4508
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 159 4325 4342 "ocamlbuild/my_std.ml" 159 4325 4343
+)
+"ocamlbuild/my_std.ml" 160 4351 4357 "ocamlbuild/my_std.ml" 163 4491 4508
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 164 4509 4516 "ocamlbuild/my_std.ml" 164 4509 4520
+type(
+  string -> int -> string
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 159 4325 4337 "ocamlbuild/my_std.ml" 159 4325 4341
+)
+"ocamlbuild/my_std.ml" 164 4509 4521 "ocamlbuild/my_std.ml" 164 4509 4522
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 156 4237 4259 "ocamlbuild/my_std.ml" 156 4237 4260
+)
+"ocamlbuild/my_std.ml" 164 4509 4523 "ocamlbuild/my_std.ml" 164 4509 4524
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 164 4509 4516 "ocamlbuild/my_std.ml" 164 4509 4524
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 159 4325 4329 "ocamlbuild/my_std.ml" 164 4509 4524
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 158 4294 4298 "ocamlbuild/my_std.ml" 164 4509 4524
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 157 4263 4267 "ocamlbuild/my_std.ml" 164 4509 4524
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 166 4526 4532 "ocamlbuild/my_std.ml" 166 4526 4534
+type(
+  char -> char -> string -> string
+)
+ident(
+  def tr "ocamlbuild/my_std.ml" 177 4817 4819 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 166 4526 4535 "ocamlbuild/my_std.ml" 166 4526 4539
+type(
+  char
+)
+ident(
+  def patt "ocamlbuild/my_std.ml" 166 4526 4540 "ocamlbuild/my_std.ml" 174 4753 4772
+)
+"ocamlbuild/my_std.ml" 166 4526 4540 "ocamlbuild/my_std.ml" 166 4526 4545
+type(
+  char
+)
+ident(
+  def subst "ocamlbuild/my_std.ml" 166 4526 4546 "ocamlbuild/my_std.ml" 174 4753 4772
+)
+"ocamlbuild/my_std.ml" 166 4526 4546 "ocamlbuild/my_std.ml" 166 4526 4550
+type(
+  string
+)
+ident(
+  def text "ocamlbuild/my_std.ml" 167 4553 4557 "ocamlbuild/my_std.ml" 174 4753 4772
+)
+"ocamlbuild/my_std.ml" 167 4553 4561 "ocamlbuild/my_std.ml" 167 4553 4564
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 167 4553 4567 "ocamlbuild/my_std.ml" 167 4553 4573
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 167 4553 4574 "ocamlbuild/my_std.ml" 167 4553 4578
+type(
+  string
+)
+ident(
+  int_ref text "ocamlbuild/my_std.ml" 166 4526 4546 "ocamlbuild/my_std.ml" 166 4526 4550
+)
+"ocamlbuild/my_std.ml" 167 4553 4567 "ocamlbuild/my_std.ml" 167 4553 4578
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 168 4582 4590 "ocamlbuild/my_std.ml" 168 4582 4594
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 168 4582 4597 "ocamlbuild/my_std.ml" 168 4582 4601
+type(
+  string -> string
+)
+"ocamlbuild/my_std.ml" 168 4582 4602 "ocamlbuild/my_std.ml" 168 4582 4606
+type(
+  string
+)
+ident(
+  int_ref text "ocamlbuild/my_std.ml" 166 4526 4546 "ocamlbuild/my_std.ml" 166 4526 4550
+)
+"ocamlbuild/my_std.ml" 168 4582 4597 "ocamlbuild/my_std.ml" 168 4582 4606
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 169 4610 4622 "ocamlbuild/my_std.ml" 169 4610 4626
+type(
+  int -> unit
+)
+"ocamlbuild/my_std.ml" 169 4610 4627 "ocamlbuild/my_std.ml" 169 4610 4630
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_std.ml" 170 4633 4639 "ocamlbuild/my_std.ml" 173 4743 4752
+)
+"ocamlbuild/my_std.ml" 170 4633 4642 "ocamlbuild/my_std.ml" 170 4633 4645
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 169 4610 4627 "ocamlbuild/my_std.ml" 169 4610 4630
+)
+"ocamlbuild/my_std.ml" 170 4633 4646 "ocamlbuild/my_std.ml" 170 4633 4647
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"ocamlbuild/my_std.ml" 170 4633 4648 "ocamlbuild/my_std.ml" 170 4633 4651
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 167 4553 4561 "ocamlbuild/my_std.ml" 167 4553 4564
+)
+"ocamlbuild/my_std.ml" 170 4633 4642 "ocamlbuild/my_std.ml" 170 4633 4651
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 171 4663 4675 "ocamlbuild/my_std.ml" 171 4663 4679
+type(
+  string
+)
+ident(
+  int_ref text "ocamlbuild/my_std.ml" 168 4582 4590 "ocamlbuild/my_std.ml" 168 4582 4594
+)
+"ocamlbuild/my_std.ml" 171 4663 4681 "ocamlbuild/my_std.ml" 171 4663 4684
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 169 4610 4627 "ocamlbuild/my_std.ml" 169 4610 4630
+)
+"ocamlbuild/my_std.ml" 171 4663 4675 "ocamlbuild/my_std.ml" 171 4663 4685
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 171 4663 4686 "ocamlbuild/my_std.ml" 171 4663 4687
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 171 4663 4688 "ocamlbuild/my_std.ml" 171 4663 4692
+type(
+  char
+)
+ident(
+  int_ref patt "ocamlbuild/my_std.ml" 166 4526 4535 "ocamlbuild/my_std.ml" 166 4526 4539
+)
+"ocamlbuild/my_std.ml" 171 4663 4675 "ocamlbuild/my_std.ml" 171 4663 4692
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 171 4663 4698 "ocamlbuild/my_std.ml" 171 4663 4702
+type(
+  string
+)
+ident(
+  int_ref text "ocamlbuild/my_std.ml" 168 4582 4590 "ocamlbuild/my_std.ml" 168 4582 4594
+)
+"ocamlbuild/my_std.ml" 171 4663 4704 "ocamlbuild/my_std.ml" 171 4663 4707
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 169 4610 4627 "ocamlbuild/my_std.ml" 169 4610 4630
+)
+"ocamlbuild/my_std.ml" 171 4663 4712 "ocamlbuild/my_std.ml" 171 4663 4717
+type(
+  char
+)
+ident(
+  int_ref subst "ocamlbuild/my_std.ml" 166 4526 4540 "ocamlbuild/my_std.ml" 166 4526 4545
+)
+"ocamlbuild/my_std.ml" 171 4663 4698 "ocamlbuild/my_std.ml" 171 4663 4717
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 171 4663 4671 "ocamlbuild/my_std.ml" 171 4663 4718
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 172 4720 4728 "ocamlbuild/my_std.ml" 172 4720 4732
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 169 4610 4622 "ocamlbuild/my_std.ml" 169 4610 4626
+)
+"ocamlbuild/my_std.ml" 172 4720 4734 "ocamlbuild/my_std.ml" 172 4720 4737
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 169 4610 4627 "ocamlbuild/my_std.ml" 169 4610 4630
+)
+"ocamlbuild/my_std.ml" 172 4720 4738 "ocamlbuild/my_std.ml" 172 4720 4739
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 172 4720 4740 "ocamlbuild/my_std.ml" 172 4720 4741
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 172 4720 4733 "ocamlbuild/my_std.ml" 172 4720 4742
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 172 4720 4728 "ocamlbuild/my_std.ml" 172 4720 4742
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 170 4633 4657 "ocamlbuild/my_std.ml" 173 4743 4752
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 170 4633 4639 "ocamlbuild/my_std.ml" 173 4743 4752
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 174 4753 4760 "ocamlbuild/my_std.ml" 174 4753 4764
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 169 4610 4622 "ocamlbuild/my_std.ml" 169 4610 4626
+)
+"ocamlbuild/my_std.ml" 174 4753 4765 "ocamlbuild/my_std.ml" 174 4753 4766
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 174 4753 4760 "ocamlbuild/my_std.ml" 174 4753 4766
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 174 4753 4768 "ocamlbuild/my_std.ml" 174 4753 4772
+type(
+  string
+)
+ident(
+  int_ref text "ocamlbuild/my_std.ml" 168 4582 4590 "ocamlbuild/my_std.ml" 168 4582 4594
+)
+"ocamlbuild/my_std.ml" 174 4753 4760 "ocamlbuild/my_std.ml" 174 4753 4772
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 169 4610 4614 "ocamlbuild/my_std.ml" 174 4753 4772
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 168 4582 4586 "ocamlbuild/my_std.ml" 174 4753 4772
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 167 4553 4557 "ocamlbuild/my_std.ml" 174 4753 4772
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 177 4817 4823 "ocamlbuild/my_std.ml" 177 4817 4832
+type(
+  string -> string -> bool
+)
+ident(
+  def is_prefix "ocamlbuild/my_std.ml" 187 5048 5050 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 177 4817 4833 "ocamlbuild/my_std.ml" 177 4817 4834
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/my_std.ml" 177 4817 4835 "ocamlbuild/my_std.ml" 183 4981 4993
+)
+"ocamlbuild/my_std.ml" 177 4817 4835 "ocamlbuild/my_std.ml" 177 4817 4836
+type(
+  string
+)
+ident(
+  def v "ocamlbuild/my_std.ml" 178 4839 4843 "ocamlbuild/my_std.ml" 183 4981 4993
+)
+"ocamlbuild/my_std.ml" 178 4839 4847 "ocamlbuild/my_std.ml" 178 4839 4848
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 178 4839 4851 "ocamlbuild/my_std.ml" 178 4839 4864
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 178 4839 4865 "ocamlbuild/my_std.ml" 178 4839 4866
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/my_std.ml" 177 4817 4833 "ocamlbuild/my_std.ml" 177 4817 4834
+)
+"ocamlbuild/my_std.ml" 178 4839 4851 "ocamlbuild/my_std.ml" 178 4839 4866
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 179 4867 4875 "ocamlbuild/my_std.ml" 179 4867 4876
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 179 4867 4879 "ocamlbuild/my_std.ml" 179 4867 4892
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 179 4867 4893 "ocamlbuild/my_std.ml" 179 4867 4894
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/my_std.ml" 177 4817 4835 "ocamlbuild/my_std.ml" 177 4817 4836
+)
+"ocamlbuild/my_std.ml" 179 4867 4879 "ocamlbuild/my_std.ml" 179 4867 4894
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 181 4902 4906 "ocamlbuild/my_std.ml" 181 4902 4907
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 178 4839 4847 "ocamlbuild/my_std.ml" 178 4839 4848
+)
+"ocamlbuild/my_std.ml" 181 4902 4908 "ocamlbuild/my_std.ml" 181 4902 4910
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/my_std.ml" 181 4902 4911 "ocamlbuild/my_std.ml" 181 4902 4912
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 179 4867 4875 "ocamlbuild/my_std.ml" 179 4867 4876
+)
+"ocamlbuild/my_std.ml" 181 4902 4906 "ocamlbuild/my_std.ml" 181 4902 4912
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 181 4902 4913 "ocamlbuild/my_std.ml" 181 4902 4915
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/my_std.ml" 182 4916 4930 "ocamlbuild/my_std.ml" 182 4916 4934
+type(
+  int -> bool
+)
+"ocamlbuild/my_std.ml" 182 4916 4935 "ocamlbuild/my_std.ml" 182 4916 4936
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/my_std.ml" 182 4916 4939 "ocamlbuild/my_std.ml" 182 4916 4977
+)
+"ocamlbuild/my_std.ml" 182 4916 4939 "ocamlbuild/my_std.ml" 182 4916 4940
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 182 4916 4935 "ocamlbuild/my_std.ml" 182 4916 4936
+)
+"ocamlbuild/my_std.ml" 182 4916 4941 "ocamlbuild/my_std.ml" 182 4916 4942
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 182 4916 4943 "ocamlbuild/my_std.ml" 182 4916 4944
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 178 4839 4847 "ocamlbuild/my_std.ml" 178 4839 4848
+)
+"ocamlbuild/my_std.ml" 182 4916 4939 "ocamlbuild/my_std.ml" 182 4916 4944
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 182 4916 4945 "ocamlbuild/my_std.ml" 182 4916 4947
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.or
+)
+"ocamlbuild/my_std.ml" 182 4916 4948 "ocamlbuild/my_std.ml" 182 4916 4949
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/my_std.ml" 177 4817 4833 "ocamlbuild/my_std.ml" 177 4817 4834
+)
+"ocamlbuild/my_std.ml" 182 4916 4951 "ocamlbuild/my_std.ml" 182 4916 4952
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 182 4916 4935 "ocamlbuild/my_std.ml" 182 4916 4936
+)
+"ocamlbuild/my_std.ml" 182 4916 4948 "ocamlbuild/my_std.ml" 182 4916 4953
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 182 4916 4954 "ocamlbuild/my_std.ml" 182 4916 4955
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 182 4916 4956 "ocamlbuild/my_std.ml" 182 4916 4957
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/my_std.ml" 177 4817 4835 "ocamlbuild/my_std.ml" 177 4817 4836
+)
+"ocamlbuild/my_std.ml" 182 4916 4959 "ocamlbuild/my_std.ml" 182 4916 4960
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 182 4916 4935 "ocamlbuild/my_std.ml" 182 4916 4936
+)
+"ocamlbuild/my_std.ml" 182 4916 4956 "ocamlbuild/my_std.ml" 182 4916 4961
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 182 4916 4948 "ocamlbuild/my_std.ml" 182 4916 4961
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 182 4916 4962 "ocamlbuild/my_std.ml" 182 4916 4964
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/my_std.ml" 182 4916 4965 "ocamlbuild/my_std.ml" 182 4916 4969
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 182 4916 4930 "ocamlbuild/my_std.ml" 182 4916 4934
+)
+"ocamlbuild/my_std.ml" 182 4916 4971 "ocamlbuild/my_std.ml" 182 4916 4972
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 182 4916 4935 "ocamlbuild/my_std.ml" 182 4916 4936
+)
+"ocamlbuild/my_std.ml" 182 4916 4973 "ocamlbuild/my_std.ml" 182 4916 4974
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 182 4916 4975 "ocamlbuild/my_std.ml" 182 4916 4976
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 182 4916 4970 "ocamlbuild/my_std.ml" 182 4916 4977
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 182 4916 4965 "ocamlbuild/my_std.ml" 182 4916 4977
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 182 4916 4948 "ocamlbuild/my_std.ml" 182 4916 4977
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 182 4916 4939 "ocamlbuild/my_std.ml" 182 4916 4977
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 183 4981 4987 "ocamlbuild/my_std.ml" 183 4981 4991
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 182 4916 4930 "ocamlbuild/my_std.ml" 182 4916 4934
+)
+"ocamlbuild/my_std.ml" 183 4981 4992 "ocamlbuild/my_std.ml" 183 4981 4993
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 183 4981 4987 "ocamlbuild/my_std.ml" 183 4981 4993
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 182 4916 4922 "ocamlbuild/my_std.ml" 183 4981 4993
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 181 4902 4906 "ocamlbuild/my_std.ml" 183 4981 4993
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 178 4839 4843 "ocamlbuild/my_std.ml" 183 4981 4993
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 187 5048 5054 "ocamlbuild/my_std.ml" 187 5048 5063
+type(
+  string -> string -> bool
+)
+ident(
+  def is_suffix "ocamlbuild/my_std.ml" 196 5252 5254 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 187 5048 5064 "ocamlbuild/my_std.ml" 187 5048 5065
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/my_std.ml" 187 5048 5066 "ocamlbuild/my_std.ml" 193 5228 5240
+)
+"ocamlbuild/my_std.ml" 187 5048 5066 "ocamlbuild/my_std.ml" 187 5048 5067
+type(
+  string
+)
+ident(
+  def v "ocamlbuild/my_std.ml" 188 5070 5074 "ocamlbuild/my_std.ml" 193 5228 5240
+)
+"ocamlbuild/my_std.ml" 188 5070 5078 "ocamlbuild/my_std.ml" 188 5070 5079
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 188 5070 5082 "ocamlbuild/my_std.ml" 188 5070 5095
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 188 5070 5096 "ocamlbuild/my_std.ml" 188 5070 5097
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/my_std.ml" 187 5048 5064 "ocamlbuild/my_std.ml" 187 5048 5065
+)
+"ocamlbuild/my_std.ml" 188 5070 5082 "ocamlbuild/my_std.ml" 188 5070 5097
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 189 5098 5106 "ocamlbuild/my_std.ml" 189 5098 5107
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 189 5098 5110 "ocamlbuild/my_std.ml" 189 5098 5123
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 189 5098 5124 "ocamlbuild/my_std.ml" 189 5098 5125
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/my_std.ml" 187 5048 5066 "ocamlbuild/my_std.ml" 187 5048 5067
+)
+"ocamlbuild/my_std.ml" 189 5098 5110 "ocamlbuild/my_std.ml" 189 5098 5125
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 191 5133 5137 "ocamlbuild/my_std.ml" 191 5133 5138
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 189 5098 5106 "ocamlbuild/my_std.ml" 189 5098 5107
+)
+"ocamlbuild/my_std.ml" 191 5133 5139 "ocamlbuild/my_std.ml" 191 5133 5141
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/my_std.ml" 191 5133 5142 "ocamlbuild/my_std.ml" 191 5133 5143
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 188 5070 5078 "ocamlbuild/my_std.ml" 188 5070 5079
+)
+"ocamlbuild/my_std.ml" 191 5133 5137 "ocamlbuild/my_std.ml" 191 5133 5143
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 191 5133 5144 "ocamlbuild/my_std.ml" 191 5133 5146
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/my_std.ml" 192 5147 5161 "ocamlbuild/my_std.ml" 192 5147 5165
+type(
+  int -> bool
+)
+"ocamlbuild/my_std.ml" 192 5147 5166 "ocamlbuild/my_std.ml" 192 5147 5167
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/my_std.ml" 192 5147 5170 "ocamlbuild/my_std.ml" 192 5147 5224
+)
+"ocamlbuild/my_std.ml" 192 5147 5170 "ocamlbuild/my_std.ml" 192 5147 5171
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 192 5147 5166 "ocamlbuild/my_std.ml" 192 5147 5167
+)
+"ocamlbuild/my_std.ml" 192 5147 5172 "ocamlbuild/my_std.ml" 192 5147 5173
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 192 5147 5174 "ocamlbuild/my_std.ml" 192 5147 5175
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 189 5098 5106 "ocamlbuild/my_std.ml" 189 5098 5107
+)
+"ocamlbuild/my_std.ml" 192 5147 5170 "ocamlbuild/my_std.ml" 192 5147 5175
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 192 5147 5176 "ocamlbuild/my_std.ml" 192 5147 5178
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.or
+)
+"ocamlbuild/my_std.ml" 192 5147 5179 "ocamlbuild/my_std.ml" 192 5147 5180
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/my_std.ml" 187 5048 5064 "ocamlbuild/my_std.ml" 187 5048 5065
+)
+"ocamlbuild/my_std.ml" 192 5147 5182 "ocamlbuild/my_std.ml" 192 5147 5183
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 188 5070 5078 "ocamlbuild/my_std.ml" 188 5070 5079
+)
+"ocamlbuild/my_std.ml" 192 5147 5184 "ocamlbuild/my_std.ml" 192 5147 5185
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 192 5147 5186 "ocamlbuild/my_std.ml" 192 5147 5187
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5182 "ocamlbuild/my_std.ml" 192 5147 5187
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5188 "ocamlbuild/my_std.ml" 192 5147 5189
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 192 5147 5190 "ocamlbuild/my_std.ml" 192 5147 5191
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 192 5147 5166 "ocamlbuild/my_std.ml" 192 5147 5167
+)
+"ocamlbuild/my_std.ml" 192 5147 5182 "ocamlbuild/my_std.ml" 192 5147 5191
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5179 "ocamlbuild/my_std.ml" 192 5147 5192
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 192 5147 5193 "ocamlbuild/my_std.ml" 192 5147 5194
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 192 5147 5195 "ocamlbuild/my_std.ml" 192 5147 5196
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/my_std.ml" 187 5048 5066 "ocamlbuild/my_std.ml" 187 5048 5067
+)
+"ocamlbuild/my_std.ml" 192 5147 5198 "ocamlbuild/my_std.ml" 192 5147 5199
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/my_std.ml" 189 5098 5106 "ocamlbuild/my_std.ml" 189 5098 5107
+)
+"ocamlbuild/my_std.ml" 192 5147 5200 "ocamlbuild/my_std.ml" 192 5147 5201
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 192 5147 5202 "ocamlbuild/my_std.ml" 192 5147 5203
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5198 "ocamlbuild/my_std.ml" 192 5147 5203
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5204 "ocamlbuild/my_std.ml" 192 5147 5205
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 192 5147 5206 "ocamlbuild/my_std.ml" 192 5147 5207
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 192 5147 5166 "ocamlbuild/my_std.ml" 192 5147 5167
+)
+"ocamlbuild/my_std.ml" 192 5147 5198 "ocamlbuild/my_std.ml" 192 5147 5207
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5195 "ocamlbuild/my_std.ml" 192 5147 5208
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 192 5147 5179 "ocamlbuild/my_std.ml" 192 5147 5208
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 192 5147 5209 "ocamlbuild/my_std.ml" 192 5147 5211
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/my_std.ml" 192 5147 5212 "ocamlbuild/my_std.ml" 192 5147 5216
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 192 5147 5161 "ocamlbuild/my_std.ml" 192 5147 5165
+)
+"ocamlbuild/my_std.ml" 192 5147 5218 "ocamlbuild/my_std.ml" 192 5147 5219
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/my_std.ml" 192 5147 5166 "ocamlbuild/my_std.ml" 192 5147 5167
+)
+"ocamlbuild/my_std.ml" 192 5147 5220 "ocamlbuild/my_std.ml" 192 5147 5221
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 192 5147 5222 "ocamlbuild/my_std.ml" 192 5147 5223
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5217 "ocamlbuild/my_std.ml" 192 5147 5224
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 192 5147 5212 "ocamlbuild/my_std.ml" 192 5147 5224
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 192 5147 5179 "ocamlbuild/my_std.ml" 192 5147 5224
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 192 5147 5170 "ocamlbuild/my_std.ml" 192 5147 5224
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 193 5228 5234 "ocamlbuild/my_std.ml" 193 5228 5238
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 192 5147 5161 "ocamlbuild/my_std.ml" 192 5147 5165
+)
+"ocamlbuild/my_std.ml" 193 5228 5239 "ocamlbuild/my_std.ml" 193 5228 5240
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 193 5228 5234 "ocamlbuild/my_std.ml" 193 5228 5240
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 192 5147 5153 "ocamlbuild/my_std.ml" 193 5228 5240
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 191 5133 5137 "ocamlbuild/my_std.ml" 193 5228 5240
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 188 5070 5074 "ocamlbuild/my_std.ml" 193 5228 5240
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 196 5252 5258 "ocamlbuild/my_std.ml" 196 5252 5261
+type(
+  string -> string
+)
+ident(
+  def rev "ocamlbuild/my_std.ml" 204 5409 5411 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 196 5252 5262 "ocamlbuild/my_std.ml" 196 5252 5263
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 197 5266 5270 "ocamlbuild/my_std.ml" 202 5399 5405
+)
+"ocamlbuild/my_std.ml" 197 5266 5274 "ocamlbuild/my_std.ml" 197 5266 5276
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 197 5266 5279 "ocamlbuild/my_std.ml" 197 5266 5292
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 197 5266 5293 "ocamlbuild/my_std.ml" 197 5266 5294
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 196 5252 5262 "ocamlbuild/my_std.ml" 196 5252 5263
+)
+"ocamlbuild/my_std.ml" 197 5266 5279 "ocamlbuild/my_std.ml" 197 5266 5294
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 198 5298 5306 "ocamlbuild/my_std.ml" 198 5298 5308
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 198 5298 5311 "ocamlbuild/my_std.ml" 198 5298 5324
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"ocamlbuild/my_std.ml" 198 5298 5325 "ocamlbuild/my_std.ml" 198 5298 5327
+type(
+  int
+)
+ident(
+  int_ref sl "ocamlbuild/my_std.ml" 197 5266 5274 "ocamlbuild/my_std.ml" 197 5266 5276
+)
+"ocamlbuild/my_std.ml" 198 5298 5311 "ocamlbuild/my_std.ml" 198 5298 5327
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 199 5331 5343 "ocamlbuild/my_std.ml" 199 5331 5344
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 199 5331 5348 "ocamlbuild/my_std.ml" 199 5331 5350
+type(
+  int
+)
+ident(
+  int_ref sl "ocamlbuild/my_std.ml" 197 5266 5274 "ocamlbuild/my_std.ml" 197 5266 5276
+)
+"ocamlbuild/my_std.ml" 199 5331 5351 "ocamlbuild/my_std.ml" 199 5331 5352
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 199 5331 5353 "ocamlbuild/my_std.ml" 199 5331 5354
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 199 5331 5348 "ocamlbuild/my_std.ml" 199 5331 5354
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 200 5358 5364 "ocamlbuild/my_std.ml" 200 5358 5366
+type(
+  string
+)
+ident(
+  int_ref s' "ocamlbuild/my_std.ml" 198 5298 5306 "ocamlbuild/my_std.ml" 198 5298 5308
+)
+"ocamlbuild/my_std.ml" 200 5358 5368 "ocamlbuild/my_std.ml" 200 5358 5369
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 200 5358 5374 "ocamlbuild/my_std.ml" 200 5358 5375
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 196 5252 5262 "ocamlbuild/my_std.ml" 196 5252 5263
+)
+"ocamlbuild/my_std.ml" 200 5358 5377 "ocamlbuild/my_std.ml" 200 5358 5379
+type(
+  int
+)
+ident(
+  int_ref sl "ocamlbuild/my_std.ml" 197 5266 5274 "ocamlbuild/my_std.ml" 197 5266 5276
+)
+"ocamlbuild/my_std.ml" 200 5358 5380 "ocamlbuild/my_std.ml" 200 5358 5381
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 200 5358 5382 "ocamlbuild/my_std.ml" 200 5358 5383
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 200 5358 5377 "ocamlbuild/my_std.ml" 200 5358 5383
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 200 5358 5384 "ocamlbuild/my_std.ml" 200 5358 5385
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 200 5358 5386 "ocamlbuild/my_std.ml" 200 5358 5387
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 200 5358 5377 "ocamlbuild/my_std.ml" 200 5358 5387
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 200 5358 5374 "ocamlbuild/my_std.ml" 200 5358 5388
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 200 5358 5364 "ocamlbuild/my_std.ml" 200 5358 5388
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 199 5331 5335 "ocamlbuild/my_std.ml" 201 5389 5397
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 202 5399 5403 "ocamlbuild/my_std.ml" 202 5399 5405
+type(
+  string
+)
+ident(
+  int_ref s' "ocamlbuild/my_std.ml" 198 5298 5306 "ocamlbuild/my_std.ml" 198 5298 5308
+)
+"ocamlbuild/my_std.ml" 199 5331 5335 "ocamlbuild/my_std.ml" 202 5399 5405
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 198 5298 5302 "ocamlbuild/my_std.ml" 202 5399 5405
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 197 5266 5270 "ocamlbuild/my_std.ml" 202 5399 5405
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 204 5409 5415 "ocamlbuild/my_std.ml" 204 5409 5422
+type(
+  char list -> string
+)
+ident(
+  def implode "ocamlbuild/my_std.ml" 216 5651 5653 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 204 5409 5423 "ocamlbuild/my_std.ml" 204 5409 5424
+type(
+  char list
+)
+ident(
+  def l "ocamlbuild/my_std.ml" 205 5427 5431 "ocamlbuild/my_std.ml" 214 5640 5649
+)
+"ocamlbuild/my_std.ml" 205 5427 5437 "ocamlbuild/my_std.ml" 205 5427 5438
+type(
+  char list
+)
+ident(
+  int_ref l "ocamlbuild/my_std.ml" 204 5409 5423 "ocamlbuild/my_std.ml" 204 5409 5424
+)
+"ocamlbuild/my_std.ml" 206 5444 5450 "ocamlbuild/my_std.ml" 206 5444 5452
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 206 5444 5456 "ocamlbuild/my_std.ml" 206 5444 5458
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 207 5459 5465 "ocamlbuild/my_std.ml" 207 5459 5467
+type(
+  char list
+)
+ident(
+  def cs "ocamlbuild/my_std.ml" 208 5471 5479 "ocamlbuild/my_std.ml" 214 5640 5649
+)
+"ocamlbuild/my_std.ml" 208 5471 5483 "ocamlbuild/my_std.ml" 208 5471 5484
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 208 5471 5487 "ocamlbuild/my_std.ml" 208 5471 5493
+type(
+  int -> string
+)
+"ocamlbuild/my_std.ml" 208 5471 5495 "ocamlbuild/my_std.ml" 208 5471 5506
+type(
+  char list -> int
+)
+ident(
+  ext_ref List.length
+)
+"ocamlbuild/my_std.ml" 208 5471 5507 "ocamlbuild/my_std.ml" 208 5471 5509
+type(
+  char list
+)
+ident(
+  int_ref cs "ocamlbuild/my_std.ml" 207 5459 5465 "ocamlbuild/my_std.ml" 207 5459 5467
+)
+"ocamlbuild/my_std.ml" 208 5471 5494 "ocamlbuild/my_std.ml" 208 5471 5510
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 208 5471 5487 "ocamlbuild/my_std.ml" 208 5471 5510
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 209 5514 5526 "ocamlbuild/my_std.ml" 209 5514 5529
+type(
+  int ref
+)
+"ocamlbuild/my_std.ml" 209 5514 5532 "ocamlbuild/my_std.ml" 209 5514 5535
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/my_std.ml" 209 5514 5536 "ocamlbuild/my_std.ml" 209 5514 5537
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 209 5514 5532 "ocamlbuild/my_std.ml" 209 5514 5537
+type(
+  int ref
+)
+"ocamlbuild/my_std.ml" 210 5541 5549 "ocamlbuild/my_std.ml" 210 5541 5558
+type(
+  (char -> unit) -> char list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocamlbuild/my_std.ml" 210 5541 5569 "ocamlbuild/my_std.ml" 210 5541 5570
+type(
+  char
+)
+ident(
+  def c "ocamlbuild/my_std.ml" 211 5574 5584 "ocamlbuild/my_std.ml" 212 5605 5623
+)
+"ocamlbuild/my_std.ml" 211 5574 5584 "ocamlbuild/my_std.ml" 211 5574 5594
+type(
+  string -> int -> char -> unit
+)
+"ocamlbuild/my_std.ml" 211 5574 5595 "ocamlbuild/my_std.ml" 211 5574 5596
+type(
+  string
+)
+ident(
+  int_ref r "ocamlbuild/my_std.ml" 208 5471 5483 "ocamlbuild/my_std.ml" 208 5471 5484
+)
+"ocamlbuild/my_std.ml" 211 5574 5597 "ocamlbuild/my_std.ml" 211 5574 5598
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/my_std.ml" 211 5574 5598 "ocamlbuild/my_std.ml" 211 5574 5601
+type(
+  int ref
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 209 5514 5526 "ocamlbuild/my_std.ml" 209 5514 5529
+)
+"ocamlbuild/my_std.ml" 211 5574 5597 "ocamlbuild/my_std.ml" 211 5574 5601
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 211 5574 5602 "ocamlbuild/my_std.ml" 211 5574 5603
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/my_std.ml" 210 5541 5569 "ocamlbuild/my_std.ml" 210 5541 5570
+)
+"ocamlbuild/my_std.ml" 211 5574 5584 "ocamlbuild/my_std.ml" 211 5574 5603
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 212 5605 5615 "ocamlbuild/my_std.ml" 212 5605 5619
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocamlbuild/my_std.ml" 212 5605 5620 "ocamlbuild/my_std.ml" 212 5605 5623
+type(
+  int ref
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 209 5514 5526 "ocamlbuild/my_std.ml" 209 5514 5529
+)
+"ocamlbuild/my_std.ml" 212 5605 5615 "ocamlbuild/my_std.ml" 212 5605 5623
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 211 5574 5584 "ocamlbuild/my_std.ml" 212 5605 5623
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 210 5541 5559 "ocamlbuild/my_std.ml" 213 5624 5635
+type(
+  char -> unit
+)
+"ocamlbuild/my_std.ml" 213 5624 5636 "ocamlbuild/my_std.ml" 213 5624 5638
+type(
+  char list
+)
+ident(
+  int_ref cs "ocamlbuild/my_std.ml" 207 5459 5465 "ocamlbuild/my_std.ml" 207 5459 5467
+)
+"ocamlbuild/my_std.ml" 210 5541 5549 "ocamlbuild/my_std.ml" 213 5624 5638
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 214 5640 5648 "ocamlbuild/my_std.ml" 214 5640 5649
+type(
+  string
+)
+ident(
+  int_ref r "ocamlbuild/my_std.ml" 208 5471 5483 "ocamlbuild/my_std.ml" 208 5471 5484
+)
+"ocamlbuild/my_std.ml" 210 5541 5549 "ocamlbuild/my_std.ml" 214 5640 5649
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 209 5514 5522 "ocamlbuild/my_std.ml" 214 5640 5649
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 208 5471 5479 "ocamlbuild/my_std.ml" 214 5640 5649
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 205 5427 5431 "ocamlbuild/my_std.ml" 214 5640 5649
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 216 5651 5657 "ocamlbuild/my_std.ml" 216 5651 5664
+type(
+  string -> char list
+)
+ident(
+  def explode "ocamlbuild/my_std.ml" 220 5787 5798 "ocamlbuild/my_std.ml" 221 5799 5802
+)
+"ocamlbuild/my_std.ml" 216 5651 5665 "ocamlbuild/my_std.ml" 216 5651 5666
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_std.ml" 217 5669 5673 "ocamlbuild/my_std.ml" 220 5787 5798
+)
+"ocamlbuild/my_std.ml" 217 5669 5677 "ocamlbuild/my_std.ml" 217 5669 5679
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 217 5669 5682 "ocamlbuild/my_std.ml" 217 5669 5695
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 217 5669 5696 "ocamlbuild/my_std.ml" 217 5669 5697
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 216 5651 5665 "ocamlbuild/my_std.ml" 216 5651 5666
+)
+"ocamlbuild/my_std.ml" 217 5669 5682 "ocamlbuild/my_std.ml" 217 5669 5697
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 218 5701 5713 "ocamlbuild/my_std.ml" 218 5701 5715
+type(
+  int -> char list
+)
+"ocamlbuild/my_std.ml" 218 5701 5716 "ocamlbuild/my_std.ml" 218 5701 5719
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_std.ml" 219 5722 5728 "ocamlbuild/my_std.ml" 219 5722 5786
+)
+"ocamlbuild/my_std.ml" 219 5722 5731 "ocamlbuild/my_std.ml" 219 5722 5734
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 218 5701 5716 "ocamlbuild/my_std.ml" 218 5701 5719
+)
+"ocamlbuild/my_std.ml" 219 5722 5735 "ocamlbuild/my_std.ml" 219 5722 5737
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"ocamlbuild/my_std.ml" 219 5722 5738 "ocamlbuild/my_std.ml" 219 5722 5740
+type(
+  int
+)
+ident(
+  int_ref sl "ocamlbuild/my_std.ml" 217 5669 5677 "ocamlbuild/my_std.ml" 217 5669 5679
+)
+"ocamlbuild/my_std.ml" 219 5722 5731 "ocamlbuild/my_std.ml" 219 5722 5740
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 219 5722 5746 "ocamlbuild/my_std.ml" 219 5722 5748
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 219 5722 5754 "ocamlbuild/my_std.ml" 219 5722 5764
+type(
+  string -> int -> char
+)
+"ocamlbuild/my_std.ml" 219 5722 5765 "ocamlbuild/my_std.ml" 219 5722 5766
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_std.ml" 216 5651 5665 "ocamlbuild/my_std.ml" 216 5651 5666
+)
+"ocamlbuild/my_std.ml" 219 5722 5767 "ocamlbuild/my_std.ml" 219 5722 5770
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 218 5701 5716 "ocamlbuild/my_std.ml" 218 5701 5719
+)
+"ocamlbuild/my_std.ml" 219 5722 5754 "ocamlbuild/my_std.ml" 219 5722 5770
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 219 5722 5774 "ocamlbuild/my_std.ml" 219 5722 5776
+type(
+  int -> char list
+)
+ident(
+  int_ref go "ocamlbuild/my_std.ml" 218 5701 5713 "ocamlbuild/my_std.ml" 218 5701 5715
+)
+"ocamlbuild/my_std.ml" 219 5722 5778 "ocamlbuild/my_std.ml" 219 5722 5781
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_std.ml" 218 5701 5716 "ocamlbuild/my_std.ml" 218 5701 5719
+)
+"ocamlbuild/my_std.ml" 219 5722 5782 "ocamlbuild/my_std.ml" 219 5722 5783
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_std.ml" 219 5722 5784 "ocamlbuild/my_std.ml" 219 5722 5785
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 219 5722 5777 "ocamlbuild/my_std.ml" 219 5722 5786
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 219 5722 5774 "ocamlbuild/my_std.ml" 219 5722 5786
+call(
+  stack
+)
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 219 5722 5754 "ocamlbuild/my_std.ml" 219 5722 5786
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 219 5722 5728 "ocamlbuild/my_std.ml" 219 5722 5786
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 220 5787 5794 "ocamlbuild/my_std.ml" 220 5787 5796
+type(
+  int -> char list
+)
+ident(
+  int_ref go "ocamlbuild/my_std.ml" 218 5701 5713 "ocamlbuild/my_std.ml" 218 5701 5715
+)
+"ocamlbuild/my_std.ml" 220 5787 5797 "ocamlbuild/my_std.ml" 220 5787 5798
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 220 5787 5794 "ocamlbuild/my_std.ml" 220 5787 5798
+call(
+  tail
+)
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 218 5701 5705 "ocamlbuild/my_std.ml" 220 5787 5798
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 217 5669 5673 "ocamlbuild/my_std.ml" 220 5787 5798
+type(
+  char list
+)
+"ocamlbuild/my_std.ml" 223 5804 5823 "ocamlbuild/my_std.ml" 223 5804 5839
+call(
+  stack
+)
+"ocamlbuild/my_std.ml" 225 5841 5845 "ocamlbuild/my_std.ml" 225 5841 5856
+type(
+  string -> (string array, exn) Outcome.t
+)
+ident(
+  def sys_readdir "ocamlbuild/my_std.ml" 237 6287 6287 --
+)
+"ocamlbuild/my_std.ml" 225 5841 5858 "ocamlbuild/my_std.ml" 225 5841 5877
+type(
+  unit -> unit
+)
+ident(
+  def reset_readdir_cache "ocamlbuild/my_std.ml" 237 6287 6287 --
+)
+"ocamlbuild/my_std.ml" 225 5841 5879 "ocamlbuild/my_std.ml" 225 5841 5902
+type(
+  string -> unit
+)
+ident(
+  def reset_readdir_cache_for "ocamlbuild/my_std.ml" 237 6287 6287 --
+)
+"ocamlbuild/my_std.ml" 225 5841 5845 "ocamlbuild/my_std.ml" 225 5841 5902
+type(
+  (string -> (string array, exn) Outcome.t) * (unit -> unit) *
+  (string -> unit)
+)
+"ocamlbuild/my_std.ml" 226 5905 5911 "ocamlbuild/my_std.ml" 226 5905 5916
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+"ocamlbuild/my_std.ml" 226 5905 5919 "ocamlbuild/my_std.ml" 226 5905 5933
+type(
+  int -> (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/my_std.ml" 226 5905 5934 "ocamlbuild/my_std.ml" 226 5905 5937
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 226 5905 5919 "ocamlbuild/my_std.ml" 226 5905 5937
+call(
+  stack
+)
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+"ocamlbuild/my_std.ml" 227 5941 5947 "ocamlbuild/my_std.ml" 227 5941 5958
+type(
+  string -> (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 227 5941 5959 "ocamlbuild/my_std.ml" 227 5941 5962
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/my_std.ml" 228 5965 5969 "ocamlbuild/my_std.ml" 230 6062 6100
+)
+"ocamlbuild/my_std.ml" 228 5965 5973 "ocamlbuild/my_std.ml" 228 5965 5985
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t ->
+  string -> (string array, exn) Outcome.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/my_std.ml" 228 5965 5986 "ocamlbuild/my_std.ml" 228 5965 5991
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_std.ml" 226 5905 5911 "ocamlbuild/my_std.ml" 226 5905 5916
+)
+"ocamlbuild/my_std.ml" 228 5965 5992 "ocamlbuild/my_std.ml" 228 5965 5995
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/my_std.ml" 227 5941 5959 "ocamlbuild/my_std.ml" 227 5941 5962
+)
+"ocamlbuild/my_std.ml" 228 5965 5973 "ocamlbuild/my_std.ml" 228 5965 5995
+call(
+  stack
+)
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 228 5965 6001 "ocamlbuild/my_std.ml" 228 5965 6010
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 229 6014 6024 "ocamlbuild/my_std.ml" 229 6014 6027
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 229 6014 6030 "ocamlbuild/my_std.ml" 229 6014 6042
+type(
+  (string -> string array) -> string -> (string array, exn) Outcome.t
+)
+ident(
+  ext_ref Outcome.wrap
+)
+"ocamlbuild/my_std.ml" 229 6014 6043 "ocamlbuild/my_std.ml" 229 6014 6054
+type(
+  string -> string array
+)
+ident(
+  ext_ref Sys.readdir
+)
+"ocamlbuild/my_std.ml" 229 6014 6055 "ocamlbuild/my_std.ml" 229 6014 6058
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/my_std.ml" 227 5941 5959 "ocamlbuild/my_std.ml" 227 5941 5962
+)
+"ocamlbuild/my_std.ml" 229 6014 6030 "ocamlbuild/my_std.ml" 229 6014 6058
+call(
+  stack
+)
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 230 6062 6069 "ocamlbuild/my_std.ml" 230 6062 6080
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t ->
+  string -> (string array, exn) Outcome.t -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocamlbuild/my_std.ml" 230 6062 6081 "ocamlbuild/my_std.ml" 230 6062 6086
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_std.ml" 226 5905 5911 "ocamlbuild/my_std.ml" 226 5905 5916
+)
+"ocamlbuild/my_std.ml" 230 6062 6087 "ocamlbuild/my_std.ml" 230 6062 6090
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/my_std.ml" 227 5941 5959 "ocamlbuild/my_std.ml" 227 5941 5962
+)
+"ocamlbuild/my_std.ml" 230 6062 6091 "ocamlbuild/my_std.ml" 230 6062 6094
+type(
+  (string array, exn) Outcome.t
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 229 6014 6024 "ocamlbuild/my_std.ml" 229 6014 6027
+)
+"ocamlbuild/my_std.ml" 230 6062 6069 "ocamlbuild/my_std.ml" 230 6062 6094
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 230 6062 6096 "ocamlbuild/my_std.ml" 230 6062 6099
+type(
+  (string array, exn) Outcome.t
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 229 6014 6024 "ocamlbuild/my_std.ml" 229 6014 6027
+)
+"ocamlbuild/my_std.ml" 230 6062 6068 "ocamlbuild/my_std.ml" 230 6062 6100
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 229 6014 6020 "ocamlbuild/my_std.ml" 230 6062 6100
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 228 5965 5969 "ocamlbuild/my_std.ml" 230 6062 6100
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 231 6101 6107 "ocamlbuild/my_std.ml" 231 6101 6126
+type(
+  unit -> unit
+)
+"ocamlbuild/my_std.ml" 231 6101 6127 "ocamlbuild/my_std.ml" 231 6101 6129
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 232 6132 6136 "ocamlbuild/my_std.ml" 232 6132 6149
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"ocamlbuild/my_std.ml" 232 6132 6150 "ocamlbuild/my_std.ml" 232 6132 6155
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_std.ml" 226 5905 5911 "ocamlbuild/my_std.ml" 226 5905 5916
+)
+"ocamlbuild/my_std.ml" 232 6132 6136 "ocamlbuild/my_std.ml" 232 6132 6155
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 233 6156 6162 "ocamlbuild/my_std.ml" 233 6156 6185
+type(
+  string -> unit
+)
+"ocamlbuild/my_std.ml" 233 6156 6186 "ocamlbuild/my_std.ml" 233 6156 6189
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/my_std.ml" 234 6192 6196 "ocamlbuild/my_std.ml" 234 6192 6220
+)
+"ocamlbuild/my_std.ml" 234 6192 6196 "ocamlbuild/my_std.ml" 234 6192 6210
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"ocamlbuild/my_std.ml" 234 6192 6211 "ocamlbuild/my_std.ml" 234 6192 6216
+type(
+  (string, (string array, exn) Outcome.t) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_std.ml" 226 5905 5911 "ocamlbuild/my_std.ml" 226 5905 5916
+)
+"ocamlbuild/my_std.ml" 234 6192 6217 "ocamlbuild/my_std.ml" 234 6192 6220
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/my_std.ml" 233 6156 6186 "ocamlbuild/my_std.ml" 233 6156 6189
+)
+"ocamlbuild/my_std.ml" 234 6192 6196 "ocamlbuild/my_std.ml" 234 6192 6220
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 235 6224 6227 "ocamlbuild/my_std.ml" 235 6224 6238
+type(
+  string -> (string array, exn) Outcome.t
+)
+ident(
+  int_ref sys_readdir "ocamlbuild/my_std.ml" 227 5941 5947 "ocamlbuild/my_std.ml" 227 5941 5958
+)
+"ocamlbuild/my_std.ml" 235 6224 6240 "ocamlbuild/my_std.ml" 235 6224 6259
+type(
+  unit -> unit
+)
+ident(
+  int_ref reset_readdir_cache "ocamlbuild/my_std.ml" 231 6101 6107 "ocamlbuild/my_std.ml" 231 6101 6126
+)
+"ocamlbuild/my_std.ml" 235 6224 6261 "ocamlbuild/my_std.ml" 235 6224 6284
+type(
+  string -> unit
+)
+ident(
+  int_ref reset_readdir_cache_for "ocamlbuild/my_std.ml" 233 6156 6162 "ocamlbuild/my_std.ml" 233 6156 6185
+)
+"ocamlbuild/my_std.ml" 235 6224 6226 "ocamlbuild/my_std.ml" 235 6224 6285
+type(
+  (string -> (string array, exn) Outcome.t) * (unit -> unit) *
+  (string -> unit)
+)
+"ocamlbuild/my_std.ml" 227 5941 5943 "ocamlbuild/my_std.ml" 235 6224 6285
+type(
+  (string -> (string array, exn) Outcome.t) * (unit -> unit) *
+  (string -> unit)
+)
+"ocamlbuild/my_std.ml" 226 5905 5907 "ocamlbuild/my_std.ml" 235 6224 6285
+type(
+  (string -> (string array, exn) Outcome.t) * (unit -> unit) *
+  (string -> unit)
+)
+"ocamlbuild/my_std.ml" 237 6287 6291 "ocamlbuild/my_std.ml" 237 6287 6306
+type(
+  string -> bool
+)
+ident(
+  def sys_file_exists "ocamlbuild/my_std.ml" 247 6630 6630 --
+)
+"ocamlbuild/my_std.ml" 237 6287 6307 "ocamlbuild/my_std.ml" 237 6287 6308
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 238 6311 6313 "ocamlbuild/my_std.ml" 245 6605 6628
+)
+"ocamlbuild/my_std.ml" 238 6311 6317 "ocamlbuild/my_std.ml" 238 6311 6324
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 238 6311 6327 "ocamlbuild/my_std.ml" 238 6311 6343
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/my_std.ml" 238 6311 6344 "ocamlbuild/my_std.ml" 238 6311 6345
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 237 6287 6307 "ocamlbuild/my_std.ml" 237 6287 6308
+)
+"ocamlbuild/my_std.ml" 238 6311 6327 "ocamlbuild/my_std.ml" 238 6311 6345
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 239 6349 6355 "ocamlbuild/my_std.ml" 239 6349 6363
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 239 6349 6366 "ocamlbuild/my_std.ml" 239 6349 6383
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"ocamlbuild/my_std.ml" 239 6349 6384 "ocamlbuild/my_std.ml" 239 6349 6385
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 237 6287 6307 "ocamlbuild/my_std.ml" 237 6287 6308
+)
+"ocamlbuild/my_std.ml" 239 6349 6366 "ocamlbuild/my_std.ml" 239 6349 6385
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 240 6389 6397 "ocamlbuild/my_std.ml" 240 6389 6408
+type(
+  string -> (string array, exn) Outcome.t
+)
+ident(
+  int_ref sys_readdir "ocamlbuild/my_std.ml" 225 5841 5845 "ocamlbuild/my_std.ml" 225 5841 5856
+)
+"ocamlbuild/my_std.ml" 240 6389 6409 "ocamlbuild/my_std.ml" 240 6389 6416
+type(
+  string
+)
+ident(
+  int_ref dirname "ocamlbuild/my_std.ml" 238 6311 6317 "ocamlbuild/my_std.ml" 238 6311 6324
+)
+"ocamlbuild/my_std.ml" 240 6389 6397 "ocamlbuild/my_std.ml" 240 6389 6416
+call(
+  stack
+)
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 241 6422 6438 "ocamlbuild/my_std.ml" 241 6422 6439
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 241 6422 6426 "ocamlbuild/my_std.ml" 241 6422 6439
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 241 6422 6443 "ocamlbuild/my_std.ml" 241 6422 6448
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 242 6449 6466 "ocamlbuild/my_std.ml" 242 6449 6467
+type(
+  string array
+)
+ident(
+  def a "ocamlbuild/my_std.ml" 243 6471 6477 "ocamlbuild/my_std.ml" 245 6605 6628
+)
+"ocamlbuild/my_std.ml" 242 6449 6453 "ocamlbuild/my_std.ml" 242 6449 6467
+type(
+  (string array, exn) Outcome.t
+)
+"ocamlbuild/my_std.ml" 243 6471 6480 "ocamlbuild/my_std.ml" 243 6471 6488
+type(
+  string
+)
+ident(
+  int_ref basename "ocamlbuild/my_std.ml" 239 6349 6355 "ocamlbuild/my_std.ml" 239 6349 6363
+)
+"ocamlbuild/my_std.ml" 243 6471 6489 "ocamlbuild/my_std.ml" 243 6471 6490
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 243 6471 6491 "ocamlbuild/my_std.ml" 243 6471 6516
+type(
+  string
+)
+ident(
+  ext_ref Filename.current_dir_name
+)
+"ocamlbuild/my_std.ml" 243 6471 6480 "ocamlbuild/my_std.ml" 243 6471 6516
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 243 6471 6522 "ocamlbuild/my_std.ml" 243 6471 6526
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 244 6532 6542 "ocamlbuild/my_std.ml" 244 6532 6552
+type(
+  (string -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"ocamlbuild/my_std.ml" 244 6532 6558 "ocamlbuild/my_std.ml" 244 6532 6559
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 244 6532 6563 "ocamlbuild/my_std.ml" 244 6532 6594
+)
+"ocamlbuild/my_std.ml" 244 6532 6566 "ocamlbuild/my_std.ml" 244 6532 6567
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 244 6532 6558 "ocamlbuild/my_std.ml" 244 6532 6559
+)
+"ocamlbuild/my_std.ml" 244 6532 6568 "ocamlbuild/my_std.ml" 244 6532 6569
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 244 6532 6570 "ocamlbuild/my_std.ml" 244 6532 6578
+type(
+  string
+)
+ident(
+  int_ref basename "ocamlbuild/my_std.ml" 239 6349 6355 "ocamlbuild/my_std.ml" 239 6349 6363
+)
+"ocamlbuild/my_std.ml" 244 6532 6566 "ocamlbuild/my_std.ml" 244 6532 6578
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 244 6532 6584 "ocamlbuild/my_std.ml" 244 6532 6589
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 244 6532 6590 "ocamlbuild/my_std.ml" 244 6532 6594
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 244 6532 6584 "ocamlbuild/my_std.ml" 244 6532 6594
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 244 6532 6563 "ocamlbuild/my_std.ml" 244 6532 6594
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 244 6532 6553 "ocamlbuild/my_std.ml" 244 6532 6595
+type(
+  string -> unit
+)
+"ocamlbuild/my_std.ml" 244 6532 6596 "ocamlbuild/my_std.ml" 244 6532 6597
+type(
+  string array
+)
+ident(
+  int_ref a "ocamlbuild/my_std.ml" 242 6449 6466 "ocamlbuild/my_std.ml" 242 6449 6467
+)
+"ocamlbuild/my_std.ml" 244 6532 6542 "ocamlbuild/my_std.ml" 244 6532 6597
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 244 6532 6599 "ocamlbuild/my_std.ml" 244 6532 6604
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 244 6532 6542 "ocamlbuild/my_std.ml" 244 6532 6604
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 245 6605 6616 "ocamlbuild/my_std.ml" 245 6605 6620
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 245 6605 6624 "ocamlbuild/my_std.ml" 245 6605 6628
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 244 6532 6538 "ocamlbuild/my_std.ml" 245 6605 6628
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 243 6471 6477 "ocamlbuild/my_std.ml" 245 6605 6628
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 240 6389 6391 "ocamlbuild/my_std.ml" 245 6605 6628
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 239 6349 6351 "ocamlbuild/my_std.ml" 245 6605 6628
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 238 6311 6313 "ocamlbuild/my_std.ml" 245 6605 6628
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 247 6630 6634 "ocamlbuild/my_std.ml" 247 6630 6645
+type(
+  string -> int
+)
+ident(
+  def sys_command "ocamlbuild/my_std.ml" 258 7012 7012 --
+)
+"ocamlbuild/my_std.ml" 248 6648 6656 "ocamlbuild/my_std.ml" 248 6648 6667
+type(
+  string
+)
+ident(
+  ext_ref Sys.os_type
+)
+"ocamlbuild/my_std.ml" 249 6673 6677 "ocamlbuild/my_std.ml" 249 6673 6684
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 249 6673 6692 "ocamlbuild/my_std.ml" 249 6673 6695
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/my_std.ml" 250 6699 6705 "ocamlbuild/my_std.ml" 254 6881 6902
+)
+"ocamlbuild/my_std.ml" 250 6699 6708 "ocamlbuild/my_std.ml" 250 6699 6711
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_std.ml" 249 6673 6692 "ocamlbuild/my_std.ml" 249 6673 6695
+)
+"ocamlbuild/my_std.ml" 250 6699 6712 "ocamlbuild/my_std.ml" 250 6699 6713
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 250 6699 6714 "ocamlbuild/my_std.ml" 250 6699 6716
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 250 6699 6708 "ocamlbuild/my_std.ml" 250 6699 6716
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 250 6699 6722 "ocamlbuild/my_std.ml" 250 6699 6723
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 251 6729 6739 "ocamlbuild/my_std.ml" 251 6729 6742
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 251 6729 6745 "ocamlbuild/my_std.ml" 251 6729 6755
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 251 6729 6755 "ocamlbuild/my_std.ml" 251 6729 6756
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/my_std.ml" 251 6729 6756 "ocamlbuild/my_std.ml" 251 6729 6770
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocamlbuild/my_std.ml" 251 6729 6771 "ocamlbuild/my_std.ml" 251 6729 6774
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_std.ml" 249 6673 6692 "ocamlbuild/my_std.ml" 249 6673 6695
+)
+"ocamlbuild/my_std.ml" 251 6729 6756 "ocamlbuild/my_std.ml" 251 6729 6774
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 251 6729 6745 "ocamlbuild/my_std.ml" 251 6729 6774
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 253 6827 6837 "ocamlbuild/my_std.ml" 253 6827 6840
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 253 6827 6843 "ocamlbuild/my_std.ml" 253 6827 6855
+type(
+  string -> string -> string -> string
+)
+ident(
+  ext_ref String.subst
+)
+"ocamlbuild/my_std.ml" 253 6827 6856 "ocamlbuild/my_std.ml" 253 6827 6868
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 253 6827 6869 "ocamlbuild/my_std.ml" 253 6827 6873
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 253 6827 6874 "ocamlbuild/my_std.ml" 253 6827 6877
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_std.ml" 251 6729 6739 "ocamlbuild/my_std.ml" 251 6729 6742
+)
+"ocamlbuild/my_std.ml" 253 6827 6843 "ocamlbuild/my_std.ml" 253 6827 6877
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 254 6881 6887 "ocamlbuild/my_std.ml" 254 6881 6898
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"ocamlbuild/my_std.ml" 254 6881 6899 "ocamlbuild/my_std.ml" 254 6881 6902
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_std.ml" 253 6827 6837 "ocamlbuild/my_std.ml" 253 6827 6840
+)
+"ocamlbuild/my_std.ml" 254 6881 6887 "ocamlbuild/my_std.ml" 254 6881 6902
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 253 6827 6833 "ocamlbuild/my_std.ml" 254 6881 6902
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 251 6729 6735 "ocamlbuild/my_std.ml" 254 6881 6902
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 250 6699 6705 "ocamlbuild/my_std.ml" 254 6881 6902
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 249 6673 6688 "ocamlbuild/my_std.ml" 254 6881 6902
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 255 6903 6907 "ocamlbuild/my_std.ml" 255 6903 6908
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 255 6903 6916 "ocamlbuild/my_std.ml" 255 6903 6919
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/my_std.ml" 255 6903 6923 "ocamlbuild/my_std.ml" 255 6903 6962
+)
+"ocamlbuild/my_std.ml" 255 6903 6926 "ocamlbuild/my_std.ml" 255 6903 6929
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_std.ml" 255 6903 6916 "ocamlbuild/my_std.ml" 255 6903 6919
+)
+"ocamlbuild/my_std.ml" 255 6903 6930 "ocamlbuild/my_std.ml" 255 6903 6931
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 255 6903 6932 "ocamlbuild/my_std.ml" 255 6903 6934
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 255 6903 6926 "ocamlbuild/my_std.ml" 255 6903 6934
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 255 6903 6940 "ocamlbuild/my_std.ml" 255 6903 6941
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 255 6903 6947 "ocamlbuild/my_std.ml" 255 6903 6958
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"ocamlbuild/my_std.ml" 255 6903 6959 "ocamlbuild/my_std.ml" 255 6903 6962
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_std.ml" 255 6903 6916 "ocamlbuild/my_std.ml" 255 6903 6919
+)
+"ocamlbuild/my_std.ml" 255 6903 6947 "ocamlbuild/my_std.ml" 255 6903 6962
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 255 6903 6923 "ocamlbuild/my_std.ml" 255 6903 6962
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 255 6903 6912 "ocamlbuild/my_std.ml" 255 6903 6962
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 248 6648 6650 "ocamlbuild/my_std.ml" 255 6903 6962
+type(
+  string -> int
+)
+"ocamlbuild/my_std.ml" 258 7012 7016 "ocamlbuild/my_std.ml" 258 7012 7031
+type(
+  string -> string -> string
+)
+ident(
+  def filename_concat "ocamlbuild/my_std.ml" 270 7288 7288 --
+)
+"ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 258 7012 7034 "ocamlbuild/my_std.ml" 263 7171 7189
+)
+"ocamlbuild/my_std.ml" 258 7012 7034 "ocamlbuild/my_std.ml" 258 7012 7035
+type(
+  string
+)
+ident(
+  def y "ocamlbuild/my_std.ml" 259 7038 7040 "ocamlbuild/my_std.ml" 263 7171 7189
+)
+"ocamlbuild/my_std.ml" 259 7038 7043 "ocamlbuild/my_std.ml" 259 7038 7044
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 259 7038 7045 "ocamlbuild/my_std.ml" 259 7038 7046
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 259 7038 7047 "ocamlbuild/my_std.ml" 259 7038 7072
+type(
+  string
+)
+ident(
+  ext_ref Filename.current_dir_name
+)
+"ocamlbuild/my_std.ml" 259 7038 7043 "ocamlbuild/my_std.ml" 259 7038 7072
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 259 7038 7073 "ocamlbuild/my_std.ml" 259 7038 7075
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"ocamlbuild/my_std.ml" 259 7038 7076 "ocamlbuild/my_std.ml" 259 7038 7077
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 259 7038 7078 "ocamlbuild/my_std.ml" 259 7038 7079
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 259 7038 7080 "ocamlbuild/my_std.ml" 259 7038 7082
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 259 7038 7076 "ocamlbuild/my_std.ml" 259 7038 7082
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 259 7038 7043 "ocamlbuild/my_std.ml" 259 7038 7082
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 259 7038 7088 "ocamlbuild/my_std.ml" 259 7038 7089
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_std.ml" 258 7012 7034 "ocamlbuild/my_std.ml" 258 7012 7035
+)
+"ocamlbuild/my_std.ml" 260 7095 7100 "ocamlbuild/my_std.ml" 260 7095 7101
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 260 7095 7103 "ocamlbuild/my_std.ml" 260 7095 7116
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/my_std.ml" 260 7095 7117 "ocamlbuild/my_std.ml" 260 7095 7118
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 260 7095 7103 "ocamlbuild/my_std.ml" 260 7095 7118
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 260 7095 7119 "ocamlbuild/my_std.ml" 260 7095 7120
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/my_std.ml" 260 7095 7121 "ocamlbuild/my_std.ml" 260 7095 7122
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 260 7095 7103 "ocamlbuild/my_std.ml" 260 7095 7122
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 260 7095 7100 "ocamlbuild/my_std.ml" 260 7095 7123
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 260 7095 7124 "ocamlbuild/my_std.ml" 260 7095 7125
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 260 7095 7126 "ocamlbuild/my_std.ml" 260 7095 7129
+type(
+  char
+)
+"ocamlbuild/my_std.ml" 260 7095 7100 "ocamlbuild/my_std.ml" 260 7095 7129
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 261 7135 7142 "ocamlbuild/my_std.ml" 261 7135 7143
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_std.ml" 258 7012 7034 "ocamlbuild/my_std.ml" 258 7012 7035
+)
+"ocamlbuild/my_std.ml" 261 7135 7144 "ocamlbuild/my_std.ml" 261 7135 7145
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_std.ml" 261 7135 7146 "ocamlbuild/my_std.ml" 261 7135 7148
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 261 7135 7142 "ocamlbuild/my_std.ml" 261 7135 7148
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 261 7135 7154 "ocamlbuild/my_std.ml" 261 7135 7155
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 262 7156 7165 "ocamlbuild/my_std.ml" 262 7156 7166
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 262 7156 7167 "ocamlbuild/my_std.ml" 262 7156 7168
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/my_std.ml" 262 7156 7169 "ocamlbuild/my_std.ml" 262 7156 7170
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_std.ml" 258 7012 7034 "ocamlbuild/my_std.ml" 258 7012 7035
+)
+"ocamlbuild/my_std.ml" 262 7156 7165 "ocamlbuild/my_std.ml" 262 7156 7170
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 261 7135 7139 "ocamlbuild/my_std.ml" 262 7156 7170
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 263 7171 7178 "ocamlbuild/my_std.ml" 263 7171 7179
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 258 7012 7032 "ocamlbuild/my_std.ml" 258 7012 7033
+)
+"ocamlbuild/my_std.ml" 263 7171 7180 "ocamlbuild/my_std.ml" 263 7171 7181
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/my_std.ml" 263 7171 7182 "ocamlbuild/my_std.ml" 263 7171 7185
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 263 7171 7186 "ocamlbuild/my_std.ml" 263 7171 7187
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/my_std.ml" 263 7171 7188 "ocamlbuild/my_std.ml" 263 7171 7189
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_std.ml" 258 7012 7034 "ocamlbuild/my_std.ml" 258 7012 7035
+)
+"ocamlbuild/my_std.ml" 263 7171 7182 "ocamlbuild/my_std.ml" 263 7171 7189
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 263 7171 7178 "ocamlbuild/my_std.ml" 263 7171 7189
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 260 7095 7097 "ocamlbuild/my_std.ml" 263 7171 7189
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 259 7038 7040 "ocamlbuild/my_std.ml" 263 7171 7189
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 272 7301 7305 "ocamlbuild/my_std.ml" 272 7301 7317
+type(
+  ('a, Format.formatter, unit, 'b) format4 -> 'a
+)
+ident(
+  def invalid_arg' "ocamlbuild/my_std.ml" 274 7351 7351 --
+)
+"ocamlbuild/my_std.ml" 272 7301 7318 "ocamlbuild/my_std.ml" 272 7301 7321
+type(
+  ('a, Format.formatter, unit, 'b) format4
+)
+ident(
+  def fmt "ocamlbuild/my_std.ml" 272 7301 7324 "ocamlbuild/my_std.ml" 272 7301 7349
+)
+"ocamlbuild/my_std.ml" 272 7301 7324 "ocamlbuild/my_std.ml" 272 7301 7333
+type(
+  (string -> 'b) -> ('a, Format.formatter, unit, 'b) format4 -> 'a
+)
+ident(
+  int_ref ksbprintf "ocamlbuild/my_std.ml" 48 1378 1382 "ocamlbuild/my_std.ml" 48 1378 1391
+)
+"ocamlbuild/my_std.ml" 272 7301 7334 "ocamlbuild/my_std.ml" 272 7301 7345
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"ocamlbuild/my_std.ml" 272 7301 7346 "ocamlbuild/my_std.ml" 272 7301 7349
+type(
+  ('a, Format.formatter, unit, 'b) format4
+)
+ident(
+  int_ref fmt "ocamlbuild/my_std.ml" 272 7301 7318 "ocamlbuild/my_std.ml" 272 7301 7321
+)
+"ocamlbuild/my_std.ml" 272 7301 7324 "ocamlbuild/my_std.ml" 272 7301 7349
+call(
+  tail
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 274 7351 7355 "ocamlbuild/my_std.ml" 274 7351 7358
+type(
+  'a option -> 'a
+)
+ident(
+  def the "ocamlbuild/my_std.ml" 276 7433 7433 --
+)
+"ocamlbuild/my_std.ml" 274 7351 7375 "ocamlbuild/my_std.ml" 274 7351 7376
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 274 7351 7380 "ocamlbuild/my_std.ml" 274 7351 7381
+)
+"ocamlbuild/my_std.ml" 274 7351 7370 "ocamlbuild/my_std.ml" 274 7351 7376
+type(
+  'a option
+)
+"ocamlbuild/my_std.ml" 274 7351 7380 "ocamlbuild/my_std.ml" 274 7351 7381
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 274 7351 7375 "ocamlbuild/my_std.ml" 274 7351 7376
+)
+"ocamlbuild/my_std.ml" 274 7351 7384 "ocamlbuild/my_std.ml" 274 7351 7388
+type(
+  'a option
+)
+"ocamlbuild/my_std.ml" 274 7351 7392 "ocamlbuild/my_std.ml" 274 7351 7403
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"ocamlbuild/my_std.ml" 274 7351 7404 "ocamlbuild/my_std.ml" 274 7351 7431
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 274 7351 7392 "ocamlbuild/my_std.ml" 274 7351 7431
+call(
+  tail
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 274 7351 7361 "ocamlbuild/my_std.ml" 274 7351 7431
+type(
+  'a option -> 'a
+)
+"ocamlbuild/my_std.ml" 276 7433 7437 "ocamlbuild/my_std.ml" 276 7433 7443
+type(
+  ?default:string -> string -> string
+)
+ident(
+  def getenv "ocamlbuild/my_std.ml" 283 7628 7628 --
+)
+"ocamlbuild/my_std.ml" 276 7433 7445 "ocamlbuild/my_std.ml" 276 7433 7452
+type(
+  string option
+)
+ident(
+  def default "ocamlbuild/my_std.ml" 276 7433 7453 "ocamlbuild/my_std.ml" 281 7541 7624
+)
+"ocamlbuild/my_std.ml" 276 7433 7453 "ocamlbuild/my_std.ml" 276 7433 7456
+type(
+  string
+)
+ident(
+  def var "ocamlbuild/my_std.ml" 277 7459 7461 "ocamlbuild/my_std.ml" 281 7541 7624
+)
+"ocamlbuild/my_std.ml" 277 7459 7465 "ocamlbuild/my_std.ml" 277 7459 7475
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"ocamlbuild/my_std.ml" 277 7459 7476 "ocamlbuild/my_std.ml" 277 7459 7479
+type(
+  string
+)
+ident(
+  int_ref var "ocamlbuild/my_std.ml" 276 7433 7453 "ocamlbuild/my_std.ml" 276 7433 7456
+)
+"ocamlbuild/my_std.ml" 277 7459 7465 "ocamlbuild/my_std.ml" 277 7459 7479
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 278 7480 7487 "ocamlbuild/my_std.ml" 278 7480 7496
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 279 7500 7510 "ocamlbuild/my_std.ml" 279 7500 7517
+type(
+  string option
+)
+ident(
+  int_ref default "ocamlbuild/my_std.ml" 276 7433 7445 "ocamlbuild/my_std.ml" 276 7433 7452
+)
+"ocamlbuild/my_std.ml" 280 7523 7534 "ocamlbuild/my_std.ml" 280 7523 7535
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 280 7523 7539 "ocamlbuild/my_std.ml" 280 7523 7540
+)
+"ocamlbuild/my_std.ml" 280 7523 7529 "ocamlbuild/my_std.ml" 280 7523 7535
+type(
+  string option
+)
+"ocamlbuild/my_std.ml" 280 7523 7539 "ocamlbuild/my_std.ml" 280 7523 7540
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 280 7523 7534 "ocamlbuild/my_std.ml" 280 7523 7535
+)
+"ocamlbuild/my_std.ml" 281 7541 7547 "ocamlbuild/my_std.ml" 281 7541 7551
+type(
+  string option
+)
+"ocamlbuild/my_std.ml" 281 7541 7555 "ocamlbuild/my_std.ml" 281 7541 7563
+type(
+  string -> string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ocamlbuild/my_std.ml" 281 7541 7565 "ocamlbuild/my_std.ml" 281 7541 7572
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"ocamlbuild/my_std.ml" 281 7541 7573 "ocamlbuild/my_std.ml" 281 7541 7619
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/my_std.ml" 281 7541 7620 "ocamlbuild/my_std.ml" 281 7541 7623
+type(
+  string
+)
+ident(
+  int_ref var "ocamlbuild/my_std.ml" 276 7433 7453 "ocamlbuild/my_std.ml" 276 7433 7456
+)
+"ocamlbuild/my_std.ml" 281 7541 7564 "ocamlbuild/my_std.ml" 281 7541 7624
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 281 7541 7555 "ocamlbuild/my_std.ml" 281 7541 7624
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 279 7500 7504 "ocamlbuild/my_std.ml" 281 7541 7624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 277 7459 7461 "ocamlbuild/my_std.ml" 281 7541 7624
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 283 7628 7632 "ocamlbuild/my_std.ml" 283 7628 7647
+type(
+  ?bin:bool -> string -> (in_channel -> 'a) -> 'a
+)
+ident(
+  def with_input_file "ocamlbuild/my_std.ml" 287 7797 7797 --
+)
+"ocamlbuild/my_std.ml" 283 7628 7650 "ocamlbuild/my_std.ml" 283 7628 7653
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 283 7628 7654 "ocamlbuild/my_std.ml" 283 7628 7659
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/my_std.ml" 283 7628 7654 "ocamlbuild/my_std.ml" 283 7628 7659
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ocamlbuild/my_std.ml" 283 7628 7654 "ocamlbuild/my_std.ml" 283 7628 7659
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "ocamlbuild/my_std.ml" 283 7628 7654 "ocamlbuild/my_std.ml" 283 7628 7659
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "ocamlbuild/my_std.ml" 283 7628 7648 "ocamlbuild/my_std.ml" 285 7722 7795
+)
+"ocamlbuild/my_std.ml" 283 7628 7661 "ocamlbuild/my_std.ml" 283 7628 7662
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 283 7628 7663 "ocamlbuild/my_std.ml" 285 7722 7795
+)
+"ocamlbuild/my_std.ml" 283 7628 7663 "ocamlbuild/my_std.ml" 283 7628 7664
+type(
+  in_channel -> 'a
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 284 7667 7669 "ocamlbuild/my_std.ml" 285 7722 7795
+)
+"ocamlbuild/my_std.ml" 284 7667 7673 "ocamlbuild/my_std.ml" 284 7667 7675
+type(
+  in_channel
+)
+"ocamlbuild/my_std.ml" 284 7667 7682 "ocamlbuild/my_std.ml" 284 7667 7685
+type(
+  bool
+)
+ident(
+  int_ref bin "ocamlbuild/my_std.ml" 283 7628 7650 "ocamlbuild/my_std.ml" 283 7628 7653
+)
+"ocamlbuild/my_std.ml" 284 7667 7691 "ocamlbuild/my_std.ml" 284 7667 7702
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in_bin
+)
+"ocamlbuild/my_std.ml" 284 7667 7708 "ocamlbuild/my_std.ml" 284 7667 7715
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"ocamlbuild/my_std.ml" 284 7667 7678 "ocamlbuild/my_std.ml" 284 7667 7716
+type(
+  string -> in_channel
+)
+"ocamlbuild/my_std.ml" 284 7667 7717 "ocamlbuild/my_std.ml" 284 7667 7718
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 283 7628 7661 "ocamlbuild/my_std.ml" 283 7628 7662
+)
+"ocamlbuild/my_std.ml" 284 7667 7678 "ocamlbuild/my_std.ml" 284 7667 7718
+call(
+  stack
+)
+type(
+  in_channel
+)
+"ocamlbuild/my_std.ml" 285 7722 7732 "ocamlbuild/my_std.ml" 285 7722 7735
+type(
+  'a
+)
+ident(
+  def res "ocamlbuild/my_std.ml" 285 7722 7746 "ocamlbuild/my_std.ml" 285 7722 7762
+)
+"ocamlbuild/my_std.ml" 285 7722 7738 "ocamlbuild/my_std.ml" 285 7722 7739
+type(
+  in_channel -> 'a
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 283 7628 7663 "ocamlbuild/my_std.ml" 283 7628 7664
+)
+"ocamlbuild/my_std.ml" 285 7722 7740 "ocamlbuild/my_std.ml" 285 7722 7742
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 284 7667 7673 "ocamlbuild/my_std.ml" 284 7667 7675
+)
+"ocamlbuild/my_std.ml" 285 7722 7738 "ocamlbuild/my_std.ml" 285 7722 7742
+call(
+  stack
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 285 7722 7746 "ocamlbuild/my_std.ml" 285 7722 7754
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"ocamlbuild/my_std.ml" 285 7722 7755 "ocamlbuild/my_std.ml" 285 7722 7757
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 284 7667 7673 "ocamlbuild/my_std.ml" 284 7667 7675
+)
+"ocamlbuild/my_std.ml" 285 7722 7746 "ocamlbuild/my_std.ml" 285 7722 7757
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 285 7722 7759 "ocamlbuild/my_std.ml" 285 7722 7762
+type(
+  'a
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 285 7722 7732 "ocamlbuild/my_std.ml" 285 7722 7735
+)
+"ocamlbuild/my_std.ml" 285 7722 7746 "ocamlbuild/my_std.ml" 285 7722 7762
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 285 7722 7728 "ocamlbuild/my_std.ml" 285 7722 7762
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 285 7722 7768 "ocamlbuild/my_std.ml" 285 7722 7769
+type(
+  exn
+)
+ident(
+  def e "ocamlbuild/my_std.ml" 285 7722 7773 "ocamlbuild/my_std.ml" 285 7722 7795
+)
+"ocamlbuild/my_std.ml" 285 7722 7774 "ocamlbuild/my_std.ml" 285 7722 7782
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"ocamlbuild/my_std.ml" 285 7722 7783 "ocamlbuild/my_std.ml" 285 7722 7785
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 284 7667 7673 "ocamlbuild/my_std.ml" 284 7667 7675
+)
+"ocamlbuild/my_std.ml" 285 7722 7774 "ocamlbuild/my_std.ml" 285 7722 7785
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 285 7722 7787 "ocamlbuild/my_std.ml" 285 7722 7792
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 285 7722 7793 "ocamlbuild/my_std.ml" 285 7722 7794
+type(
+  exn
+)
+ident(
+  int_ref e "ocamlbuild/my_std.ml" 285 7722 7768 "ocamlbuild/my_std.ml" 285 7722 7769
+)
+"ocamlbuild/my_std.ml" 285 7722 7787 "ocamlbuild/my_std.ml" 285 7722 7794
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 285 7722 7773 "ocamlbuild/my_std.ml" 285 7722 7795
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 285 7722 7724 "ocamlbuild/my_std.ml" 285 7722 7795
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 284 7667 7669 "ocamlbuild/my_std.ml" 285 7722 7795
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 287 7797 7801 "ocamlbuild/my_std.ml" 287 7797 7817
+type(
+  ?bin:bool -> string -> (out_channel -> 'a) -> 'a
+)
+ident(
+  def with_output_file "ocamlbuild/my_std.ml" 292 8019 8019 --
+)
+"ocamlbuild/my_std.ml" 287 7797 7820 "ocamlbuild/my_std.ml" 287 7797 7823
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 287 7797 7824 "ocamlbuild/my_std.ml" 287 7797 7829
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/my_std.ml" 287 7797 7824 "ocamlbuild/my_std.ml" 287 7797 7829
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ocamlbuild/my_std.ml" 287 7797 7824 "ocamlbuild/my_std.ml" 287 7797 7829
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "ocamlbuild/my_std.ml" 287 7797 7824 "ocamlbuild/my_std.ml" 287 7797 7829
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "ocamlbuild/my_std.ml" 287 7797 7818 "ocamlbuild/my_std.ml" 290 7942 8017
+)
+"ocamlbuild/my_std.ml" 287 7797 7831 "ocamlbuild/my_std.ml" 287 7797 7832
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 287 7797 7833 "ocamlbuild/my_std.ml" 290 7942 8017
+)
+"ocamlbuild/my_std.ml" 287 7797 7833 "ocamlbuild/my_std.ml" 287 7797 7834
+type(
+  out_channel -> 'a
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 288 7837 7839 "ocamlbuild/my_std.ml" 290 7942 8017
+)
+"ocamlbuild/my_std.ml" 288 7837 7839 "ocamlbuild/my_std.ml" 288 7837 7862
+type(
+  string -> unit
+)
+ident(
+  int_ref reset_readdir_cache_for "ocamlbuild/my_std.ml" 225 5841 5879 "ocamlbuild/my_std.ml" 225 5841 5902
+)
+"ocamlbuild/my_std.ml" 288 7837 7864 "ocamlbuild/my_std.ml" 288 7837 7880
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/my_std.ml" 288 7837 7881 "ocamlbuild/my_std.ml" 288 7837 7882
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 287 7797 7831 "ocamlbuild/my_std.ml" 287 7797 7832
+)
+"ocamlbuild/my_std.ml" 288 7837 7863 "ocamlbuild/my_std.ml" 288 7837 7883
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 288 7837 7839 "ocamlbuild/my_std.ml" 288 7837 7883
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 289 7885 7891 "ocamlbuild/my_std.ml" 289 7885 7893
+type(
+  out_channel
+)
+"ocamlbuild/my_std.ml" 289 7885 7900 "ocamlbuild/my_std.ml" 289 7885 7903
+type(
+  bool
+)
+ident(
+  int_ref bin "ocamlbuild/my_std.ml" 287 7797 7820 "ocamlbuild/my_std.ml" 287 7797 7823
+)
+"ocamlbuild/my_std.ml" 289 7885 7909 "ocamlbuild/my_std.ml" 289 7885 7921
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_bin
+)
+"ocamlbuild/my_std.ml" 289 7885 7927 "ocamlbuild/my_std.ml" 289 7885 7935
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"ocamlbuild/my_std.ml" 289 7885 7896 "ocamlbuild/my_std.ml" 289 7885 7936
+type(
+  string -> out_channel
+)
+"ocamlbuild/my_std.ml" 289 7885 7937 "ocamlbuild/my_std.ml" 289 7885 7938
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 287 7797 7831 "ocamlbuild/my_std.ml" 287 7797 7832
+)
+"ocamlbuild/my_std.ml" 289 7885 7896 "ocamlbuild/my_std.ml" 289 7885 7938
+call(
+  stack
+)
+type(
+  out_channel
+)
+"ocamlbuild/my_std.ml" 290 7942 7952 "ocamlbuild/my_std.ml" 290 7942 7955
+type(
+  'a
+)
+ident(
+  def res "ocamlbuild/my_std.ml" 290 7942 7966 "ocamlbuild/my_std.ml" 290 7942 7983
+)
+"ocamlbuild/my_std.ml" 290 7942 7958 "ocamlbuild/my_std.ml" 290 7942 7959
+type(
+  out_channel -> 'a
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 287 7797 7833 "ocamlbuild/my_std.ml" 287 7797 7834
+)
+"ocamlbuild/my_std.ml" 290 7942 7960 "ocamlbuild/my_std.ml" 290 7942 7962
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/my_std.ml" 289 7885 7891 "ocamlbuild/my_std.ml" 289 7885 7893
+)
+"ocamlbuild/my_std.ml" 290 7942 7958 "ocamlbuild/my_std.ml" 290 7942 7962
+call(
+  stack
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 290 7942 7966 "ocamlbuild/my_std.ml" 290 7942 7975
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"ocamlbuild/my_std.ml" 290 7942 7976 "ocamlbuild/my_std.ml" 290 7942 7978
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/my_std.ml" 289 7885 7891 "ocamlbuild/my_std.ml" 289 7885 7893
+)
+"ocamlbuild/my_std.ml" 290 7942 7966 "ocamlbuild/my_std.ml" 290 7942 7978
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 290 7942 7980 "ocamlbuild/my_std.ml" 290 7942 7983
+type(
+  'a
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 290 7942 7952 "ocamlbuild/my_std.ml" 290 7942 7955
+)
+"ocamlbuild/my_std.ml" 290 7942 7966 "ocamlbuild/my_std.ml" 290 7942 7983
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 290 7942 7948 "ocamlbuild/my_std.ml" 290 7942 7983
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 290 7942 7989 "ocamlbuild/my_std.ml" 290 7942 7990
+type(
+  exn
+)
+ident(
+  def e "ocamlbuild/my_std.ml" 290 7942 7994 "ocamlbuild/my_std.ml" 290 7942 8017
+)
+"ocamlbuild/my_std.ml" 290 7942 7995 "ocamlbuild/my_std.ml" 290 7942 8004
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"ocamlbuild/my_std.ml" 290 7942 8005 "ocamlbuild/my_std.ml" 290 7942 8007
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/my_std.ml" 289 7885 7891 "ocamlbuild/my_std.ml" 289 7885 7893
+)
+"ocamlbuild/my_std.ml" 290 7942 7995 "ocamlbuild/my_std.ml" 290 7942 8007
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 290 7942 8009 "ocamlbuild/my_std.ml" 290 7942 8014
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 290 7942 8015 "ocamlbuild/my_std.ml" 290 7942 8016
+type(
+  exn
+)
+ident(
+  int_ref e "ocamlbuild/my_std.ml" 290 7942 7989 "ocamlbuild/my_std.ml" 290 7942 7990
+)
+"ocamlbuild/my_std.ml" 290 7942 8009 "ocamlbuild/my_std.ml" 290 7942 8016
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 290 7942 7994 "ocamlbuild/my_std.ml" 290 7942 8017
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 290 7942 7944 "ocamlbuild/my_std.ml" 290 7942 8017
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 289 7885 7887 "ocamlbuild/my_std.ml" 290 7942 8017
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 288 7837 7839 "ocamlbuild/my_std.ml" 290 7942 8017
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 292 8019 8023 "ocamlbuild/my_std.ml" 292 8019 8032
+type(
+  string -> string
+)
+ident(
+  def read_file "ocamlbuild/my_std.ml" 300 8213 8213 --
+)
+"ocamlbuild/my_std.ml" 292 8019 8033 "ocamlbuild/my_std.ml" 292 8019 8034
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 293 8037 8039 "ocamlbuild/my_std.ml" 298 8206 8211
+)
+"ocamlbuild/my_std.ml" 293 8037 8039 "ocamlbuild/my_std.ml" 293 8037 8054
+type(
+  ?bin:bool -> string -> (in_channel -> string) -> string
+)
+ident(
+  int_ref with_input_file "ocamlbuild/my_std.ml" 283 7628 7632 "ocamlbuild/my_std.ml" 283 7628 7647
+)
+"ocamlbuild/my_std.ml" 293 8037 8060 "ocamlbuild/my_std.ml" 293 8037 8064
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 293 8037 8065 "ocamlbuild/my_std.ml" 293 8037 8066
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 292 8019 8033 "ocamlbuild/my_std.ml" 292 8019 8034
+)
+"ocamlbuild/my_std.ml" 293 8037 8077 "ocamlbuild/my_std.ml" 293 8037 8079
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/my_std.ml" 294 8083 8087 "ocamlbuild/my_std.ml" 297 8198 8205
+)
+"ocamlbuild/my_std.ml" 294 8083 8091 "ocamlbuild/my_std.ml" 294 8083 8094
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 294 8083 8097 "ocamlbuild/my_std.ml" 294 8083 8114
+type(
+  in_channel -> int
+)
+ident(
+  ext_ref Pervasives.in_channel_length
+)
+"ocamlbuild/my_std.ml" 294 8083 8115 "ocamlbuild/my_std.ml" 294 8083 8117
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 293 8037 8077 "ocamlbuild/my_std.ml" 293 8037 8079
+)
+"ocamlbuild/my_std.ml" 294 8083 8097 "ocamlbuild/my_std.ml" 294 8083 8117
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 295 8121 8129 "ocamlbuild/my_std.ml" 295 8121 8132
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 295 8121 8135 "ocamlbuild/my_std.ml" 295 8121 8148
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"ocamlbuild/my_std.ml" 295 8121 8149 "ocamlbuild/my_std.ml" 295 8121 8152
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 294 8083 8091 "ocamlbuild/my_std.ml" 294 8083 8094
+)
+"ocamlbuild/my_std.ml" 295 8121 8135 "ocamlbuild/my_std.ml" 295 8121 8152
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 296 8156 8164 "ocamlbuild/my_std.ml" 296 8156 8166
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 296 8156 8169 "ocamlbuild/my_std.ml" 296 8156 8181
+type(
+  in_channel -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.really_input
+)
+"ocamlbuild/my_std.ml" 296 8156 8182 "ocamlbuild/my_std.ml" 296 8156 8184
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 293 8037 8077 "ocamlbuild/my_std.ml" 293 8037 8079
+)
+"ocamlbuild/my_std.ml" 296 8156 8185 "ocamlbuild/my_std.ml" 296 8156 8188
+type(
+  string
+)
+ident(
+  int_ref buf "ocamlbuild/my_std.ml" 295 8121 8129 "ocamlbuild/my_std.ml" 295 8121 8132
+)
+"ocamlbuild/my_std.ml" 296 8156 8189 "ocamlbuild/my_std.ml" 296 8156 8190
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 296 8156 8191 "ocamlbuild/my_std.ml" 296 8156 8194
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 294 8083 8091 "ocamlbuild/my_std.ml" 294 8083 8094
+)
+"ocamlbuild/my_std.ml" 296 8156 8169 "ocamlbuild/my_std.ml" 296 8156 8194
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 297 8198 8202 "ocamlbuild/my_std.ml" 297 8198 8205
+type(
+  string
+)
+ident(
+  int_ref buf "ocamlbuild/my_std.ml" 295 8121 8129 "ocamlbuild/my_std.ml" 295 8121 8132
+)
+"ocamlbuild/my_std.ml" 296 8156 8160 "ocamlbuild/my_std.ml" 297 8198 8205
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 295 8121 8125 "ocamlbuild/my_std.ml" 297 8198 8205
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 294 8083 8087 "ocamlbuild/my_std.ml" 297 8198 8205
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 293 8037 8067 "ocamlbuild/my_std.ml" 298 8206 8211
+type(
+  in_channel -> string
+)
+"ocamlbuild/my_std.ml" 293 8037 8039 "ocamlbuild/my_std.ml" 298 8206 8211
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 300 8213 8217 "ocamlbuild/my_std.ml" 300 8213 8226
+type(
+  in_channel -> out_channel -> unit
+)
+ident(
+  def copy_chan "ocamlbuild/my_std.ml" 313 8527 8527 --
+)
+"ocamlbuild/my_std.ml" 300 8213 8227 "ocamlbuild/my_std.ml" 300 8213 8229
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/my_std.ml" 300 8213 8230 "ocamlbuild/my_std.ml" 311 8513 8525
+)
+"ocamlbuild/my_std.ml" 300 8213 8230 "ocamlbuild/my_std.ml" 300 8213 8232
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/my_std.ml" 301 8235 8237 "ocamlbuild/my_std.ml" 311 8513 8525
+)
+"ocamlbuild/my_std.ml" 301 8235 8241 "ocamlbuild/my_std.ml" 301 8235 8242
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 301 8235 8245 "ocamlbuild/my_std.ml" 301 8235 8262
+type(
+  in_channel -> int
+)
+ident(
+  ext_ref Pervasives.in_channel_length
+)
+"ocamlbuild/my_std.ml" 301 8235 8263 "ocamlbuild/my_std.ml" 301 8235 8265
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 300 8213 8227 "ocamlbuild/my_std.ml" 300 8213 8229
+)
+"ocamlbuild/my_std.ml" 301 8235 8245 "ocamlbuild/my_std.ml" 301 8235 8265
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 302 8269 8275 "ocamlbuild/my_std.ml" 302 8269 8276
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 302 8269 8280 "ocamlbuild/my_std.ml" 302 8269 8281
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 301 8235 8241 "ocamlbuild/my_std.ml" 301 8235 8242
+)
+"ocamlbuild/my_std.ml" 302 8269 8282 "ocamlbuild/my_std.ml" 302 8269 8285
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.lsr
+)
+"ocamlbuild/my_std.ml" 302 8269 8286 "ocamlbuild/my_std.ml" 302 8269 8288
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 302 8269 8279 "ocamlbuild/my_std.ml" 302 8269 8289
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 302 8269 8290 "ocamlbuild/my_std.ml" 302 8269 8293
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.lsl
+)
+"ocamlbuild/my_std.ml" 302 8269 8294 "ocamlbuild/my_std.ml" 302 8269 8296
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 302 8269 8279 "ocamlbuild/my_std.ml" 302 8269 8296
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 303 8300 8306 "ocamlbuild/my_std.ml" 303 8300 8307
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 303 8300 8310 "ocamlbuild/my_std.ml" 303 8300 8313
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"ocamlbuild/my_std.ml" 303 8300 8314 "ocamlbuild/my_std.ml" 303 8300 8319
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 303 8300 8321 "ocamlbuild/my_std.ml" 303 8300 8324
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"ocamlbuild/my_std.ml" 303 8300 8325 "ocamlbuild/my_std.ml" 303 8300 8346
+type(
+  int
+)
+ident(
+  ext_ref Sys.max_string_length
+)
+"ocamlbuild/my_std.ml" 303 8300 8347 "ocamlbuild/my_std.ml" 303 8300 8348
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 302 8269 8275 "ocamlbuild/my_std.ml" 302 8269 8276
+)
+"ocamlbuild/my_std.ml" 303 8300 8320 "ocamlbuild/my_std.ml" 303 8300 8349
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 303 8300 8310 "ocamlbuild/my_std.ml" 303 8300 8349
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 304 8353 8359 "ocamlbuild/my_std.ml" 304 8353 8362
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 304 8353 8365 "ocamlbuild/my_std.ml" 304 8353 8378
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"ocamlbuild/my_std.ml" 304 8353 8379 "ocamlbuild/my_std.ml" 304 8353 8380
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 303 8300 8306 "ocamlbuild/my_std.ml" 303 8300 8307
+)
+"ocamlbuild/my_std.ml" 304 8353 8365 "ocamlbuild/my_std.ml" 304 8353 8380
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 305 8384 8394 "ocamlbuild/my_std.ml" 305 8384 8398
+type(
+  unit -> unit
+)
+"ocamlbuild/my_std.ml" 305 8384 8399 "ocamlbuild/my_std.ml" 305 8384 8401
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 306 8404 8412 "ocamlbuild/my_std.ml" 306 8404 8415
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 306 8404 8418 "ocamlbuild/my_std.ml" 306 8404 8423
+type(
+  in_channel -> string -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"ocamlbuild/my_std.ml" 306 8404 8424 "ocamlbuild/my_std.ml" 306 8404 8426
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 300 8213 8227 "ocamlbuild/my_std.ml" 300 8213 8229
+)
+"ocamlbuild/my_std.ml" 306 8404 8427 "ocamlbuild/my_std.ml" 306 8404 8430
+type(
+  string
+)
+ident(
+  int_ref buf "ocamlbuild/my_std.ml" 304 8353 8359 "ocamlbuild/my_std.ml" 304 8353 8362
+)
+"ocamlbuild/my_std.ml" 306 8404 8431 "ocamlbuild/my_std.ml" 306 8404 8432
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 306 8404 8433 "ocamlbuild/my_std.ml" 306 8404 8434
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/my_std.ml" 303 8300 8306 "ocamlbuild/my_std.ml" 303 8300 8307
+)
+"ocamlbuild/my_std.ml" 306 8404 8418 "ocamlbuild/my_std.ml" 306 8404 8434
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 307 8438 8445 "ocamlbuild/my_std.ml" 307 8438 8448
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 306 8404 8412 "ocamlbuild/my_std.ml" 306 8404 8415
+)
+"ocamlbuild/my_std.ml" 307 8438 8449 "ocamlbuild/my_std.ml" 307 8438 8450
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/my_std.ml" 307 8438 8451 "ocamlbuild/my_std.ml" 307 8438 8452
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 307 8438 8445 "ocamlbuild/my_std.ml" 307 8438 8452
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 308 8464 8470 "ocamlbuild/my_std.ml" 308 8464 8476
+type(
+  out_channel -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"ocamlbuild/my_std.ml" 308 8464 8477 "ocamlbuild/my_std.ml" 308 8464 8479
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/my_std.ml" 300 8213 8230 "ocamlbuild/my_std.ml" 300 8213 8232
+)
+"ocamlbuild/my_std.ml" 308 8464 8480 "ocamlbuild/my_std.ml" 308 8464 8483
+type(
+  string
+)
+ident(
+  int_ref buf "ocamlbuild/my_std.ml" 304 8353 8359 "ocamlbuild/my_std.ml" 304 8353 8362
+)
+"ocamlbuild/my_std.ml" 308 8464 8484 "ocamlbuild/my_std.ml" 308 8464 8485
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 308 8464 8486 "ocamlbuild/my_std.ml" 308 8464 8489
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_std.ml" 306 8404 8412 "ocamlbuild/my_std.ml" 306 8404 8415
+)
+"ocamlbuild/my_std.ml" 308 8464 8470 "ocamlbuild/my_std.ml" 308 8464 8489
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 309 8491 8497 "ocamlbuild/my_std.ml" 309 8491 8501
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 305 8384 8394 "ocamlbuild/my_std.ml" 305 8384 8398
+)
+"ocamlbuild/my_std.ml" 309 8491 8502 "ocamlbuild/my_std.ml" 309 8491 8504
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 309 8491 8497 "ocamlbuild/my_std.ml" 309 8491 8504
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 307 8438 8458 "ocamlbuild/my_std.ml" 310 8505 8512
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 307 8438 8442 "ocamlbuild/my_std.ml" 310 8505 8512
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 306 8404 8408 "ocamlbuild/my_std.ml" 310 8505 8512
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 311 8513 8518 "ocamlbuild/my_std.ml" 311 8513 8522
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/my_std.ml" 305 8384 8394 "ocamlbuild/my_std.ml" 305 8384 8398
+)
+"ocamlbuild/my_std.ml" 311 8513 8523 "ocamlbuild/my_std.ml" 311 8513 8525
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 311 8513 8518 "ocamlbuild/my_std.ml" 311 8513 8525
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 305 8384 8386 "ocamlbuild/my_std.ml" 311 8513 8525
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 304 8353 8355 "ocamlbuild/my_std.ml" 311 8513 8525
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 303 8300 8302 "ocamlbuild/my_std.ml" 311 8513 8525
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 302 8269 8271 "ocamlbuild/my_std.ml" 311 8513 8525
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 301 8235 8237 "ocamlbuild/my_std.ml" 311 8513 8525
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 313 8527 8531 "ocamlbuild/my_std.ml" 313 8527 8540
+type(
+  string -> string -> unit
+)
+ident(
+  def copy_file "ocamlbuild/my_std.ml" 321 8740 8740 --
+)
+"ocamlbuild/my_std.ml" 313 8527 8541 "ocamlbuild/my_std.ml" 313 8527 8544
+type(
+  string
+)
+ident(
+  def src "ocamlbuild/my_std.ml" 313 8527 8545 "ocamlbuild/my_std.ml" 319 8733 8738
+)
+"ocamlbuild/my_std.ml" 313 8527 8545 "ocamlbuild/my_std.ml" 313 8527 8549
+type(
+  string
+)
+ident(
+  def dest "ocamlbuild/my_std.ml" 314 8552 8554 "ocamlbuild/my_std.ml" 319 8733 8738
+)
+"ocamlbuild/my_std.ml" 314 8552 8554 "ocamlbuild/my_std.ml" 314 8552 8577
+type(
+  string -> unit
+)
+ident(
+  int_ref reset_readdir_cache_for "ocamlbuild/my_std.ml" 225 5841 5879 "ocamlbuild/my_std.ml" 225 5841 5902
+)
+"ocamlbuild/my_std.ml" 314 8552 8579 "ocamlbuild/my_std.ml" 314 8552 8595
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/my_std.ml" 314 8552 8596 "ocamlbuild/my_std.ml" 314 8552 8600
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/my_std.ml" 313 8527 8545 "ocamlbuild/my_std.ml" 313 8527 8549
+)
+"ocamlbuild/my_std.ml" 314 8552 8578 "ocamlbuild/my_std.ml" 314 8552 8601
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 314 8552 8554 "ocamlbuild/my_std.ml" 314 8552 8601
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 315 8603 8605 "ocamlbuild/my_std.ml" 315 8603 8620
+type(
+  ?bin:bool -> string -> (in_channel -> unit) -> unit
+)
+ident(
+  int_ref with_input_file "ocamlbuild/my_std.ml" 283 7628 7632 "ocamlbuild/my_std.ml" 283 7628 7647
+)
+"ocamlbuild/my_std.ml" 315 8603 8626 "ocamlbuild/my_std.ml" 315 8603 8630
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 315 8603 8631 "ocamlbuild/my_std.ml" 315 8603 8634
+type(
+  string
+)
+ident(
+  int_ref src "ocamlbuild/my_std.ml" 313 8527 8541 "ocamlbuild/my_std.ml" 313 8527 8544
+)
+"ocamlbuild/my_std.ml" 315 8603 8645 "ocamlbuild/my_std.ml" 315 8603 8647
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/my_std.ml" 316 8651 8655 "ocamlbuild/my_std.ml" 318 8725 8732
+)
+"ocamlbuild/my_std.ml" 316 8651 8655 "ocamlbuild/my_std.ml" 316 8651 8671
+type(
+  ?bin:bool -> string -> (out_channel -> unit) -> unit
+)
+ident(
+  int_ref with_output_file "ocamlbuild/my_std.ml" 287 7797 7801 "ocamlbuild/my_std.ml" 287 7797 7817
+)
+"ocamlbuild/my_std.ml" 316 8651 8677 "ocamlbuild/my_std.ml" 316 8651 8681
+type(
+  bool
+)
+"ocamlbuild/my_std.ml" 316 8651 8682 "ocamlbuild/my_std.ml" 316 8651 8686
+type(
+  string
+)
+ident(
+  int_ref dest "ocamlbuild/my_std.ml" 313 8527 8545 "ocamlbuild/my_std.ml" 313 8527 8549
+)
+"ocamlbuild/my_std.ml" 316 8651 8697 "ocamlbuild/my_std.ml" 316 8651 8699
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/my_std.ml" 317 8703 8709 "ocamlbuild/my_std.ml" 317 8703 8724
+)
+"ocamlbuild/my_std.ml" 317 8703 8709 "ocamlbuild/my_std.ml" 317 8703 8718
+type(
+  in_channel -> out_channel -> unit
+)
+ident(
+  int_ref copy_chan "ocamlbuild/my_std.ml" 300 8213 8217 "ocamlbuild/my_std.ml" 300 8213 8226
+)
+"ocamlbuild/my_std.ml" 317 8703 8719 "ocamlbuild/my_std.ml" 317 8703 8721
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_std.ml" 315 8603 8645 "ocamlbuild/my_std.ml" 315 8603 8647
+)
+"ocamlbuild/my_std.ml" 317 8703 8722 "ocamlbuild/my_std.ml" 317 8703 8724
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/my_std.ml" 316 8651 8697 "ocamlbuild/my_std.ml" 316 8651 8699
+)
+"ocamlbuild/my_std.ml" 317 8703 8709 "ocamlbuild/my_std.ml" 317 8703 8724
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 316 8651 8687 "ocamlbuild/my_std.ml" 318 8725 8732
+type(
+  out_channel -> unit
+)
+"ocamlbuild/my_std.ml" 316 8651 8655 "ocamlbuild/my_std.ml" 318 8725 8732
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 315 8603 8635 "ocamlbuild/my_std.ml" 319 8733 8738
+type(
+  in_channel -> unit
+)
+"ocamlbuild/my_std.ml" 315 8603 8605 "ocamlbuild/my_std.ml" 319 8733 8738
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 314 8552 8554 "ocamlbuild/my_std.ml" 319 8733 8738
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 321 8740 8744 "ocamlbuild/my_std.ml" 321 8740 8750
+type(
+  'a Lazy.t -> 'a
+)
+ident(
+  def !* "ocamlbuild/my_std.ml" 323 8765 8765 --
+)
+"ocamlbuild/my_std.ml" 321 8740 8753 "ocamlbuild/my_std.ml" 321 8740 8763
+type(
+  'a Lazy.t -> 'a
+)
+ident(
+  ext_ref Lazy.force
+)
+"ocamlbuild/my_std.ml" 323 8765 8769 "ocamlbuild/my_std.ml" 323 8765 8776
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  def @:= "ocamlbuild/my_std.ml" 325 8808 8808 --
+)
+"ocamlbuild/my_std.ml" 323 8765 8777 "ocamlbuild/my_std.ml" 323 8765 8780
+type(
+  'a list ref
+)
+ident(
+  def ref "ocamlbuild/my_std.ml" 323 8765 8781 "ocamlbuild/my_std.ml" 323 8765 8806
+)
+"ocamlbuild/my_std.ml" 323 8765 8781 "ocamlbuild/my_std.ml" 323 8765 8785
+type(
+  'a list
+)
+ident(
+  def list "ocamlbuild/my_std.ml" 323 8765 8788 "ocamlbuild/my_std.ml" 323 8765 8806
+)
+"ocamlbuild/my_std.ml" 323 8765 8788 "ocamlbuild/my_std.ml" 323 8765 8791
+type(
+  'a list ref
+)
+ident(
+  int_ref ref "ocamlbuild/my_std.ml" 323 8765 8777 "ocamlbuild/my_std.ml" 323 8765 8780
+)
+"ocamlbuild/my_std.ml" 323 8765 8792 "ocamlbuild/my_std.ml" 323 8765 8794
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/my_std.ml" 323 8765 8795 "ocamlbuild/my_std.ml" 323 8765 8796
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/my_std.ml" 323 8765 8796 "ocamlbuild/my_std.ml" 323 8765 8799
+type(
+  'a list ref
+)
+ident(
+  int_ref ref "ocamlbuild/my_std.ml" 323 8765 8777 "ocamlbuild/my_std.ml" 323 8765 8780
+)
+"ocamlbuild/my_std.ml" 323 8765 8795 "ocamlbuild/my_std.ml" 323 8765 8799
+type(
+  'a list
+)
+"ocamlbuild/my_std.ml" 323 8765 8800 "ocamlbuild/my_std.ml" 323 8765 8801
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"ocamlbuild/my_std.ml" 323 8765 8802 "ocamlbuild/my_std.ml" 323 8765 8806
+type(
+  'a list
+)
+ident(
+  int_ref list "ocamlbuild/my_std.ml" 323 8765 8781 "ocamlbuild/my_std.ml" 323 8765 8785
+)
+"ocamlbuild/my_std.ml" 323 8765 8795 "ocamlbuild/my_std.ml" 323 8765 8806
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/my_std.ml" 323 8765 8788 "ocamlbuild/my_std.ml" 323 8765 8806
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 325 8808 8812 "ocamlbuild/my_std.ml" 325 8808 8817
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def & "ocamlbuild/my_std.ml" 327 8829 8829 --
+)
+"ocamlbuild/my_std.ml" 325 8808 8818 "ocamlbuild/my_std.ml" 325 8808 8819
+type(
+  'a -> 'b
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 325 8808 8820 "ocamlbuild/my_std.ml" 325 8808 8827
+)
+"ocamlbuild/my_std.ml" 325 8808 8820 "ocamlbuild/my_std.ml" 325 8808 8821
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 325 8808 8824 "ocamlbuild/my_std.ml" 325 8808 8827
+)
+"ocamlbuild/my_std.ml" 325 8808 8824 "ocamlbuild/my_std.ml" 325 8808 8825
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 325 8808 8818 "ocamlbuild/my_std.ml" 325 8808 8819
+)
+"ocamlbuild/my_std.ml" 325 8808 8826 "ocamlbuild/my_std.ml" 325 8808 8827
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 325 8808 8820 "ocamlbuild/my_std.ml" 325 8808 8821
+)
+"ocamlbuild/my_std.ml" 325 8808 8824 "ocamlbuild/my_std.ml" 325 8808 8827
+call(
+  tail
+)
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 327 8829 8833 "ocamlbuild/my_std.ml" 327 8829 8839
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def |> "ocamlbuild/my_std.ml" 329 8851 8851 --
+)
+"ocamlbuild/my_std.ml" 327 8829 8840 "ocamlbuild/my_std.ml" 327 8829 8841
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 327 8829 8842 "ocamlbuild/my_std.ml" 327 8829 8849
+)
+"ocamlbuild/my_std.ml" 327 8829 8842 "ocamlbuild/my_std.ml" 327 8829 8843
+type(
+  'a -> 'b
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 327 8829 8846 "ocamlbuild/my_std.ml" 327 8829 8849
+)
+"ocamlbuild/my_std.ml" 327 8829 8846 "ocamlbuild/my_std.ml" 327 8829 8847
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 327 8829 8842 "ocamlbuild/my_std.ml" 327 8829 8843
+)
+"ocamlbuild/my_std.ml" 327 8829 8848 "ocamlbuild/my_std.ml" 327 8829 8849
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 327 8829 8840 "ocamlbuild/my_std.ml" 327 8829 8841
+)
+"ocamlbuild/my_std.ml" 327 8829 8846 "ocamlbuild/my_std.ml" 327 8829 8849
+call(
+  tail
+)
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 329 8851 8855 "ocamlbuild/my_std.ml" 329 8851 8872
+type(
+  Format.formatter -> string list -> unit
+)
+ident(
+  def print_string_list "ocamlbuild/my_std.ml" 331 8900 8900 --
+)
+"ocamlbuild/my_std.ml" 329 8851 8875 "ocamlbuild/my_std.ml" 329 8851 8885
+type(
+  (Format.formatter -> string -> unit) ->
+  Format.formatter -> string list -> unit
+)
+ident(
+  ext_ref List.print
+)
+"ocamlbuild/my_std.ml" 329 8851 8886 "ocamlbuild/my_std.ml" 329 8851 8898
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref String.print
+)
+"ocamlbuild/my_std.ml" 329 8851 8875 "ocamlbuild/my_std.ml" 329 8851 8898
+call(
+  stack
+)
+type(
+  Format.formatter -> string list -> unit
+)
+"ocamlbuild/my_std.ml" 356 9762 9768 "ocamlbuild/my_std.ml" 356 9762 9780
+type(
+  (string, t) Hashtbl.t
+)
+ident(
+  def digest_cache "ocamlbuild/my_std.ml" 357 9802 9804 "ocamlbuild/my_std.ml" 364 10071 10074
+)
+"ocamlbuild/my_std.ml" 356 9762 9783 "ocamlbuild/my_std.ml" 356 9762 9797
+type(
+  int -> (string, t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/my_std.ml" 356 9762 9798 "ocamlbuild/my_std.ml" 356 9762 9801
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 356 9762 9783 "ocamlbuild/my_std.ml" 356 9762 9801
+call(
+  stack
+)
+type(
+  (string, t) Hashtbl.t
+)
+"ocamlbuild/my_std.ml" 357 9802 9808 "ocamlbuild/my_std.ml" 357 9802 9826
+type(
+  unit -> unit
+)
+ident(
+  def reset_digest_cache "ocamlbuild/my_std.ml" 358 9859 9861 "ocamlbuild/my_std.ml" 364 10071 10074
+)
+"ocamlbuild/my_std.ml" 357 9802 9827 "ocamlbuild/my_std.ml" 357 9802 9829
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 357 9802 9832 "ocamlbuild/my_std.ml" 357 9802 9845
+type(
+  (string, t) Hashtbl.t -> unit
+)
+ident(
+  ext_ref Hashtbl.clear
+)
+"ocamlbuild/my_std.ml" 357 9802 9846 "ocamlbuild/my_std.ml" 357 9802 9858
+type(
+  (string, t) Hashtbl.t
+)
+ident(
+  int_ref digest_cache "ocamlbuild/my_std.ml" 356 9762 9768 "ocamlbuild/my_std.ml" 356 9762 9780
+)
+"ocamlbuild/my_std.ml" 357 9802 9832 "ocamlbuild/my_std.ml" 357 9802 9858
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 358 9859 9865 "ocamlbuild/my_std.ml" 358 9859 9887
+type(
+  string -> unit
+)
+ident(
+  def reset_digest_cache_for "ocamlbuild/my_std.ml" 359 9928 9930 "ocamlbuild/my_std.ml" 364 10071 10074
+)
+"ocamlbuild/my_std.ml" 358 9859 9888 "ocamlbuild/my_std.ml" 358 9859 9892
+type(
+  string
+)
+ident(
+  def file "ocamlbuild/my_std.ml" 358 9859 9895 "ocamlbuild/my_std.ml" 358 9859 9927
+)
+"ocamlbuild/my_std.ml" 358 9859 9895 "ocamlbuild/my_std.ml" 358 9859 9909
+type(
+  (string, t) Hashtbl.t -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"ocamlbuild/my_std.ml" 358 9859 9910 "ocamlbuild/my_std.ml" 358 9859 9922
+type(
+  (string, t) Hashtbl.t
+)
+ident(
+  int_ref digest_cache "ocamlbuild/my_std.ml" 356 9762 9768 "ocamlbuild/my_std.ml" 356 9762 9780
+)
+"ocamlbuild/my_std.ml" 358 9859 9923 "ocamlbuild/my_std.ml" 358 9859 9927
+type(
+  string
+)
+ident(
+  int_ref file "ocamlbuild/my_std.ml" 358 9859 9888 "ocamlbuild/my_std.ml" 358 9859 9892
+)
+"ocamlbuild/my_std.ml" 358 9859 9895 "ocamlbuild/my_std.ml" 358 9859 9927
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 359 9928 9934 "ocamlbuild/my_std.ml" 359 9928 9938
+type(
+  string -> t
+)
+ident(
+  def file "ocamlbuild/my_std.ml" 363 10027 10070 "ocamlbuild/my_std.ml" 364 10071 10074
+)
+"ocamlbuild/my_std.ml" 359 9928 9939 "ocamlbuild/my_std.ml" 359 9928 9940
+type(
+  string
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 360 9943 9947 "ocamlbuild/my_std.ml" 363 10027 10070
+)
+"ocamlbuild/my_std.ml" 360 9943 9951 "ocamlbuild/my_std.ml" 360 9943 9963
+type(
+  (string, t) Hashtbl.t -> string -> t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/my_std.ml" 360 9943 9964 "ocamlbuild/my_std.ml" 360 9943 9976
+type(
+  (string, t) Hashtbl.t
+)
+ident(
+  int_ref digest_cache "ocamlbuild/my_std.ml" 356 9762 9768 "ocamlbuild/my_std.ml" 356 9762 9780
+)
+"ocamlbuild/my_std.ml" 360 9943 9977 "ocamlbuild/my_std.ml" 360 9943 9978
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 359 9928 9939 "ocamlbuild/my_std.ml" 359 9928 9940
+)
+"ocamlbuild/my_std.ml" 360 9943 9951 "ocamlbuild/my_std.ml" 360 9943 9978
+call(
+  stack
+)
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 361 9979 9988 "ocamlbuild/my_std.ml" 361 9979 9997
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 362 10001 10011 "ocamlbuild/my_std.ml" 362 10001 10014
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 362 10001 10017 "ocamlbuild/my_std.ml" 362 10001 10021
+type(
+  string -> t
+)
+"ocamlbuild/my_std.ml" 362 10001 10022 "ocamlbuild/my_std.ml" 362 10001 10023
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 359 9928 9939 "ocamlbuild/my_std.ml" 359 9928 9940
+)
+"ocamlbuild/my_std.ml" 362 10001 10017 "ocamlbuild/my_std.ml" 362 10001 10023
+call(
+  stack
+)
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 363 10027 10034 "ocamlbuild/my_std.ml" 363 10027 10045
+type(
+  (string, t) Hashtbl.t -> string -> t -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocamlbuild/my_std.ml" 363 10027 10046 "ocamlbuild/my_std.ml" 363 10027 10058
+type(
+  (string, t) Hashtbl.t
+)
+ident(
+  int_ref digest_cache "ocamlbuild/my_std.ml" 356 9762 9768 "ocamlbuild/my_std.ml" 356 9762 9780
+)
+"ocamlbuild/my_std.ml" 363 10027 10059 "ocamlbuild/my_std.ml" 363 10027 10060
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 359 9928 9939 "ocamlbuild/my_std.ml" 359 9928 9940
+)
+"ocamlbuild/my_std.ml" 363 10027 10061 "ocamlbuild/my_std.ml" 363 10027 10064
+type(
+  t
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 362 10001 10011 "ocamlbuild/my_std.ml" 362 10001 10014
+)
+"ocamlbuild/my_std.ml" 363 10027 10034 "ocamlbuild/my_std.ml" 363 10027 10064
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 363 10027 10066 "ocamlbuild/my_std.ml" 363 10027 10069
+type(
+  t
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 362 10001 10011 "ocamlbuild/my_std.ml" 362 10001 10014
+)
+"ocamlbuild/my_std.ml" 363 10027 10033 "ocamlbuild/my_std.ml" 363 10027 10070
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 362 10001 10007 "ocamlbuild/my_std.ml" 363 10027 10070
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 360 9943 9947 "ocamlbuild/my_std.ml" 363 10027 10070
+type(
+  t
+)
+"ocamlbuild/my_std.ml" 366 10076 10080 "ocamlbuild/my_std.ml" 366 10076 10099
+type(
+  unit -> unit
+)
+ident(
+  def reset_filesys_cache "ocamlbuild/my_std.ml" 370 10163 10163 --
+)
+"ocamlbuild/my_std.ml" 366 10076 10100 "ocamlbuild/my_std.ml" 366 10076 10102
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 367 10105 10107 "ocamlbuild/my_std.ml" 367 10105 10132
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Digest.reset_digest_cache
+)
+"ocamlbuild/my_std.ml" 367 10105 10133 "ocamlbuild/my_std.ml" 367 10105 10135
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 367 10105 10107 "ocamlbuild/my_std.ml" 367 10105 10135
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 368 10137 10139 "ocamlbuild/my_std.ml" 368 10137 10158
+type(
+  unit -> unit
+)
+ident(
+  int_ref reset_readdir_cache "ocamlbuild/my_std.ml" 225 5841 5858 "ocamlbuild/my_std.ml" 225 5841 5877
+)
+"ocamlbuild/my_std.ml" 368 10137 10159 "ocamlbuild/my_std.ml" 368 10137 10161
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 368 10137 10139 "ocamlbuild/my_std.ml" 368 10137 10161
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 367 10105 10107 "ocamlbuild/my_std.ml" 368 10137 10161
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 370 10163 10167 "ocamlbuild/my_std.ml" 370 10163 10195
+type(
+  string -> unit
+)
+ident(
+  def reset_filesys_cache_for_file "ocamlbuild/my_std.ml" 374 10292 10292 --
+)
+"ocamlbuild/my_std.ml" 370 10163 10196 "ocamlbuild/my_std.ml" 370 10163 10200
+type(
+  string
+)
+ident(
+  def file "ocamlbuild/my_std.ml" 371 10203 10205 "ocamlbuild/my_std.ml" 372 10241 10290
+)
+"ocamlbuild/my_std.ml" 371 10203 10205 "ocamlbuild/my_std.ml" 371 10203 10234
+type(
+  string -> unit
+)
+ident(
+  ext_ref Digest.reset_digest_cache_for
+)
+"ocamlbuild/my_std.ml" 371 10203 10235 "ocamlbuild/my_std.ml" 371 10203 10239
+type(
+  string
+)
+ident(
+  int_ref file "ocamlbuild/my_std.ml" 370 10163 10196 "ocamlbuild/my_std.ml" 370 10163 10200
+)
+"ocamlbuild/my_std.ml" 371 10203 10205 "ocamlbuild/my_std.ml" 371 10203 10239
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 372 10241 10243 "ocamlbuild/my_std.ml" 372 10241 10266
+type(
+  string -> unit
+)
+ident(
+  int_ref reset_readdir_cache_for "ocamlbuild/my_std.ml" 225 5841 5879 "ocamlbuild/my_std.ml" 225 5841 5902
+)
+"ocamlbuild/my_std.ml" 372 10241 10268 "ocamlbuild/my_std.ml" 372 10241 10284
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/my_std.ml" 372 10241 10285 "ocamlbuild/my_std.ml" 372 10241 10289
+type(
+  string
+)
+ident(
+  int_ref file "ocamlbuild/my_std.ml" 370 10163 10196 "ocamlbuild/my_std.ml" 370 10163 10200
+)
+"ocamlbuild/my_std.ml" 372 10241 10267 "ocamlbuild/my_std.ml" 372 10241 10290
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 372 10241 10243 "ocamlbuild/my_std.ml" 372 10241 10290
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 371 10203 10205 "ocamlbuild/my_std.ml" 372 10241 10290
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 374 10292 10296 "ocamlbuild/my_std.ml" 374 10292 10306
+type(
+  string -> unit
+)
+ident(
+  def sys_remove "ocamlbuild/my_std.ml" 378 10361 10361 --
+)
+"ocamlbuild/my_std.ml" 374 10292 10307 "ocamlbuild/my_std.ml" 374 10292 10308
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 375 10311 10313 "ocamlbuild/my_std.ml" 376 10345 10359
+)
+"ocamlbuild/my_std.ml" 375 10311 10313 "ocamlbuild/my_std.ml" 375 10311 10341
+type(
+  string -> unit
+)
+ident(
+  int_ref reset_filesys_cache_for_file "ocamlbuild/my_std.ml" 370 10163 10167 "ocamlbuild/my_std.ml" 370 10163 10195
+)
+"ocamlbuild/my_std.ml" 375 10311 10342 "ocamlbuild/my_std.ml" 375 10311 10343
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 374 10292 10307 "ocamlbuild/my_std.ml" 374 10292 10308
+)
+"ocamlbuild/my_std.ml" 375 10311 10313 "ocamlbuild/my_std.ml" 375 10311 10343
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 376 10345 10347 "ocamlbuild/my_std.ml" 376 10345 10357
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"ocamlbuild/my_std.ml" 376 10345 10358 "ocamlbuild/my_std.ml" 376 10345 10359
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 374 10292 10307 "ocamlbuild/my_std.ml" 374 10292 10308
+)
+"ocamlbuild/my_std.ml" 376 10345 10347 "ocamlbuild/my_std.ml" 376 10345 10359
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 375 10311 10313 "ocamlbuild/my_std.ml" 376 10345 10359
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 378 10361 10365 "ocamlbuild/my_std.ml" 378 10361 10379
+type(
+  string -> string -> (string -> 'a) -> 'a
+)
+ident(
+  def with_temp_file "ocamlbuild/my_std.ml" 384 10625 10625 --
+)
+"ocamlbuild/my_std.ml" 378 10361 10380 "ocamlbuild/my_std.ml" 378 10361 10383
+type(
+  string
+)
+ident(
+  def pre "ocamlbuild/my_std.ml" 378 10361 10384 "ocamlbuild/my_std.ml" 382 10586 10623
+)
+"ocamlbuild/my_std.ml" 378 10361 10384 "ocamlbuild/my_std.ml" 378 10361 10387
+type(
+  string
+)
+ident(
+  def suf "ocamlbuild/my_std.ml" 378 10361 10388 "ocamlbuild/my_std.ml" 382 10586 10623
+)
+"ocamlbuild/my_std.ml" 378 10361 10388 "ocamlbuild/my_std.ml" 378 10361 10391
+type(
+  string -> 'a
+)
+ident(
+  def fct "ocamlbuild/my_std.ml" 379 10394 10396 "ocamlbuild/my_std.ml" 382 10586 10623
+)
+"ocamlbuild/my_std.ml" 379 10394 10400 "ocamlbuild/my_std.ml" 379 10394 10403
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 379 10394 10406 "ocamlbuild/my_std.ml" 379 10394 10424
+type(
+  ?temp_dir:string -> string -> string -> string
+)
+ident(
+  ext_ref Filename.temp_file
+)
+"ocamlbuild/my_std.ml" 379 10394 10425 "ocamlbuild/my_std.ml" 379 10394 10428
+type(
+  string
+)
+ident(
+  int_ref pre "ocamlbuild/my_std.ml" 378 10361 10380 "ocamlbuild/my_std.ml" 378 10361 10383
+)
+"ocamlbuild/my_std.ml" 379 10394 10429 "ocamlbuild/my_std.ml" 379 10394 10432
+type(
+  string
+)
+ident(
+  int_ref suf "ocamlbuild/my_std.ml" 378 10361 10384 "ocamlbuild/my_std.ml" 378 10361 10387
+)
+"ocamlbuild/my_std.ml" 379 10394 10406 "ocamlbuild/my_std.ml" 379 10394 10432
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_std.ml" 381 10539 10549 "ocamlbuild/my_std.ml" 381 10539 10552
+type(
+  'a
+)
+ident(
+  def res "ocamlbuild/my_std.ml" 381 10539 10566 "ocamlbuild/my_std.ml" 381 10539 10585
+)
+"ocamlbuild/my_std.ml" 381 10539 10555 "ocamlbuild/my_std.ml" 381 10539 10558
+type(
+  string -> 'a
+)
+ident(
+  int_ref fct "ocamlbuild/my_std.ml" 378 10361 10388 "ocamlbuild/my_std.ml" 378 10361 10391
+)
+"ocamlbuild/my_std.ml" 381 10539 10559 "ocamlbuild/my_std.ml" 381 10539 10562
+type(
+  string
+)
+ident(
+  int_ref tmp "ocamlbuild/my_std.ml" 379 10394 10400 "ocamlbuild/my_std.ml" 379 10394 10403
+)
+"ocamlbuild/my_std.ml" 381 10539 10555 "ocamlbuild/my_std.ml" 381 10539 10562
+call(
+  stack
+)
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 381 10539 10566 "ocamlbuild/my_std.ml" 381 10539 10576
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"ocamlbuild/my_std.ml" 381 10539 10577 "ocamlbuild/my_std.ml" 381 10539 10580
+type(
+  string
+)
+ident(
+  int_ref tmp "ocamlbuild/my_std.ml" 379 10394 10400 "ocamlbuild/my_std.ml" 379 10394 10403
+)
+"ocamlbuild/my_std.ml" 381 10539 10566 "ocamlbuild/my_std.ml" 381 10539 10580
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 381 10539 10582 "ocamlbuild/my_std.ml" 381 10539 10585
+type(
+  'a
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 381 10539 10549 "ocamlbuild/my_std.ml" 381 10539 10552
+)
+"ocamlbuild/my_std.ml" 381 10539 10566 "ocamlbuild/my_std.ml" 381 10539 10585
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 381 10539 10545 "ocamlbuild/my_std.ml" 381 10539 10585
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 382 10586 10593 "ocamlbuild/my_std.ml" 382 10586 10594
+type(
+  exn
+)
+ident(
+  def e "ocamlbuild/my_std.ml" 382 10586 10598 "ocamlbuild/my_std.ml" 382 10586 10623
+)
+"ocamlbuild/my_std.ml" 382 10586 10599 "ocamlbuild/my_std.ml" 382 10586 10609
+type(
+  string -> unit
+)
+ident(
+  ext_ref Sys.remove
+)
+"ocamlbuild/my_std.ml" 382 10586 10610 "ocamlbuild/my_std.ml" 382 10586 10613
+type(
+  string
+)
+ident(
+  int_ref tmp "ocamlbuild/my_std.ml" 379 10394 10400 "ocamlbuild/my_std.ml" 379 10394 10403
+)
+"ocamlbuild/my_std.ml" 382 10586 10599 "ocamlbuild/my_std.ml" 382 10586 10613
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 382 10586 10615 "ocamlbuild/my_std.ml" 382 10586 10620
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_std.ml" 382 10586 10621 "ocamlbuild/my_std.ml" 382 10586 10622
+type(
+  exn
+)
+ident(
+  int_ref e "ocamlbuild/my_std.ml" 382 10586 10593 "ocamlbuild/my_std.ml" 382 10586 10594
+)
+"ocamlbuild/my_std.ml" 382 10586 10615 "ocamlbuild/my_std.ml" 382 10586 10622
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 382 10586 10598 "ocamlbuild/my_std.ml" 382 10586 10623
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 381 10539 10541 "ocamlbuild/my_std.ml" 382 10586 10623
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 379 10394 10396 "ocamlbuild/my_std.ml" 382 10586 10623
+type(
+  'a
+)
+"ocamlbuild/my_std.ml" 384 10625 10629 "ocamlbuild/my_std.ml" 384 10625 10633
+type(
+  ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def memo "ocamlbuild/my_std.ml" 390 10759 10795 --
+)
+"ocamlbuild/my_std.ml" 384 10625 10634 "ocamlbuild/my_std.ml" 384 10625 10635
+type(
+  'a -> 'b
+)
+ident(
+  def f "ocamlbuild/my_std.ml" 385 10638 10640 "ocamlbuild/my_std.ml" 390 10759 10795
+)
+"ocamlbuild/my_std.ml" 385 10638 10644 "ocamlbuild/my_std.ml" 385 10638 10649
+type(
+  ('a, 'b) Hashtbl.t
+)
+"ocamlbuild/my_std.ml" 385 10638 10652 "ocamlbuild/my_std.ml" 385 10638 10666
+type(
+  int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/my_std.ml" 385 10638 10667 "ocamlbuild/my_std.ml" 385 10638 10670
+type(
+  int
+)
+"ocamlbuild/my_std.ml" 385 10638 10652 "ocamlbuild/my_std.ml" 385 10638 10670
+call(
+  stack
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"ocamlbuild/my_std.ml" 386 10674 10680 "ocamlbuild/my_std.ml" 386 10674 10681
+type(
+  'a
+)
+ident(
+  def x "ocamlbuild/my_std.ml" 387 10685 10689 "ocamlbuild/my_std.ml" 390 10759 10795
+)
+"ocamlbuild/my_std.ml" 387 10685 10693 "ocamlbuild/my_std.ml" 387 10685 10705
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/my_std.ml" 387 10685 10706 "ocamlbuild/my_std.ml" 387 10685 10711
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_std.ml" 385 10638 10644 "ocamlbuild/my_std.ml" 385 10638 10649
+)
+"ocamlbuild/my_std.ml" 387 10685 10712 "ocamlbuild/my_std.ml" 387 10685 10713
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 386 10674 10680 "ocamlbuild/my_std.ml" 386 10674 10681
+)
+"ocamlbuild/my_std.ml" 387 10685 10693 "ocamlbuild/my_std.ml" 387 10685 10713
+call(
+  stack
+)
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 388 10714 10723 "ocamlbuild/my_std.ml" 388 10714 10732
+type(
+  exn
+)
+"ocamlbuild/my_std.ml" 389 10736 10746 "ocamlbuild/my_std.ml" 389 10736 10749
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 389 10736 10752 "ocamlbuild/my_std.ml" 389 10736 10753
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/my_std.ml" 384 10625 10634 "ocamlbuild/my_std.ml" 384 10625 10635
+)
+"ocamlbuild/my_std.ml" 389 10736 10754 "ocamlbuild/my_std.ml" 389 10736 10755
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 386 10674 10680 "ocamlbuild/my_std.ml" 386 10674 10681
+)
+"ocamlbuild/my_std.ml" 389 10736 10752 "ocamlbuild/my_std.ml" 389 10736 10755
+call(
+  stack
+)
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 390 10759 10766 "ocamlbuild/my_std.ml" 390 10759 10777
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocamlbuild/my_std.ml" 390 10759 10778 "ocamlbuild/my_std.ml" 390 10759 10783
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_std.ml" 385 10638 10644 "ocamlbuild/my_std.ml" 385 10638 10649
+)
+"ocamlbuild/my_std.ml" 390 10759 10784 "ocamlbuild/my_std.ml" 390 10759 10785
+type(
+  'a
+)
+ident(
+  int_ref x "ocamlbuild/my_std.ml" 386 10674 10680 "ocamlbuild/my_std.ml" 386 10674 10681
+)
+"ocamlbuild/my_std.ml" 390 10759 10786 "ocamlbuild/my_std.ml" 390 10759 10789
+type(
+  'b
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 389 10736 10746 "ocamlbuild/my_std.ml" 389 10736 10749
+)
+"ocamlbuild/my_std.ml" 390 10759 10766 "ocamlbuild/my_std.ml" 390 10759 10789
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_std.ml" 390 10759 10791 "ocamlbuild/my_std.ml" 390 10759 10794
+type(
+  'b
+)
+ident(
+  int_ref res "ocamlbuild/my_std.ml" 389 10736 10746 "ocamlbuild/my_std.ml" 389 10736 10749
+)
+"ocamlbuild/my_std.ml" 390 10759 10765 "ocamlbuild/my_std.ml" 390 10759 10795
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 389 10736 10742 "ocamlbuild/my_std.ml" 390 10759 10795
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 387 10685 10689 "ocamlbuild/my_std.ml" 390 10759 10795
+type(
+  'b
+)
+"ocamlbuild/my_std.ml" 386 10674 10676 "ocamlbuild/my_std.ml" 390 10759 10795
+type(
+  'a -> 'b
+)
+"ocamlbuild/my_std.ml" 385 10638 10640 "ocamlbuild/my_std.ml" 390 10759 10795
+type(
+  'a -> 'b
+)

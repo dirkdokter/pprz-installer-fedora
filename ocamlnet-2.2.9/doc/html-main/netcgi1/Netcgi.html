@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netcgi_types.html">
+<link rel="next" href="Netcgi_jserv.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi</title>
+</head>
+<body>
+<div class="navbar"><a href="Netcgi_types.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Netcgi_jserv.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Netcgi.html">Netcgi</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Netcgi: <code class="code">sig</code> <a href="Netcgi.html">..</a> <code class="code">end</code></pre>Classical CGI implementation
+<p>
+
+ For in introduction, see the guide "Introduction into OcamlNet".<br>
+<hr width="100%">
+<br>
+Classical CGI implementation
+<p>
+
+ For in introduction, see the guide "Introduction into OcamlNet".<br>
+<pre><span class="keyword">class</span> <a name="TYPEsimple_argument"></a><a href="Netcgi.simple_argument.html">simple_argument</a> : <code class="type">?ro:bool -> string -> string -> </code><code class="type"><a href="Netcgi_types.cgi_argument.html">Netcgi_types.cgi_argument</a></code></pre><div class="info">
+<code class="code">new simple_argument name value</code>: Creates an unstructured CGI
+ argument called <code class="code">name</code> with contents <code class="code">value</code>.
+</div>
+<pre><span class="keyword">class</span> <a name="TYPEmime_argument"></a><a href="Netcgi.mime_argument.html">mime_argument</a> : <code class="type">?work_around_backslash_bug:bool -> string -> Netmime.mime_message -> </code><code class="type"><a href="Netcgi_types.cgi_argument.html">Netcgi_types.cgi_argument</a></code></pre><div class="info">
+<code class="code">new mime_argument name msg</code>: Creates a MIME-structured CGI
+ argument called <code class="code">name</code> with contents <code class="code">msg</code>.
+</div>
+<pre><span class="keyword">type</span> <a name="TYPEargument_processing"></a><code class="type"></code>argument_processing = <code class="type">[ `Automatic | `File | `Memory ]</code> </pre>
+<div class="info">
+How to process CGI arguments:<ul>
+<li><code class="code">`Memory</code>: Keep the value of the argument in memory</li>
+<li><code class="code">`File</code>: Store the value of the argument in an external file</li>
+<li><code class="code">`Automatic</code>: If the argument is structured and carries a file name,
+   the value will be stored in a file; otherwise it is loaded into
+   memory. (Note: The meaning of <code class="code">`Automatic</code> changed in OcamlNet 0.92.)</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEoperating_type"></a><code class="type"></code>operating_type = <code class="type">[ `Direct of string<br>       | `Transactional of<br>           <a href="Netcgi_env.html#TYPEcgi_config">Netcgi_env.cgi_config</a> -><br>           Netchannels.out_obj_channel -> Netchannels.trans_out_obj_channel ]</code> </pre>
+<div class="info">
+The operating type determines how generated data are buffered.<ul>
+<li><code class="code">`Direct sep</code>: Data written to the output channel of the activation
+   object is not collected in a transaction buffer, but directly sent to
+   the browser (the normal I/O buffering is still active, however,
+   so call <code class="code">flush</code> to ensure data are really sent). The method
+   <code class="code">commit_work</code> of the output channel is the same as <code class="code">flush</code>. The method
+   <code class="code">rollback_work</code> causes that
+   the string <code class="code">sep</code> is sent, meant as a separator between the already
+   generated output, and the now following error message.</li>
+<li><code class="code">`Transactional f</code>: A transactional channel <code class="code">tc</code> is created from the
+   real output channel <code class="code">ch</code> by calling <code class="code">f cfg ch</code> (here, <code class="code">cfg</code> is
+   the CGI configuration). The channel <code class="code">tc</code> is propagated as the
+   output channel of the activation object. This means that the
+   methods <code class="code">commit_work</code> and <code class="code">rollback_work</code> are implemented by
+   <code class="code">tc</code>, and the intended behaviour is that data is buffered in a
+   special transaction buffer until <code class="code">commit_work</code> is called.
+   This invocation forces the buffered data to be sent to the 
+   browser. If, however, <code class="code">rollback_work</code> is called, the buffer is
+   cleared.</li>
+</ul>
+
+ Two important examples for <code class="code">`Transactional</code>:<ul>
+<li><code class="code">`Transactional(fun cfg ch -&gt; new Netchannels.buffered_output_channel ch)</code>:
+   The transaction buffer is implemented in memory</li>
+<li><code class="code">`Transactional(fun cfg ch -&gt; new Netchannels.tempfile_output_channel ch)</code>:
+   The transaction buffer is implemented as an external file</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">class</span> <a name="TYPEstd_activation"></a><a href="Netcgi.std_activation.html">std_activation</a> : <code class="type">?env:<a href="Netcgi_env.cgi_environment.html">Netcgi_env.cgi_environment</a> -> ?processing:string -> Netmime.mime_header -> <a href="Netcgi.html#TYPEargument_processing">argument_processing</a> -> ?operating_type:<a href="Netcgi.html#TYPEoperating_type">operating_type</a> -> unit -> </code><code class="type"><a href="Netcgi_types.cgi_activation.html">Netcgi_types.cgi_activation</a></code></pre><div class="info">
+This class is an implementation of classical CGI.
+</div>
+<pre><span class="keyword">val</span> <a name="VALbuffered_transactional_optype"></a>buffered_transactional_optype : <code class="type"><a href="Netcgi.html#TYPEoperating_type">operating_type</a></code></pre><div class="info">
+A predefined transactional <code class="code">operating_type</code> using a <code class="code">Buffer.t</code> to store
+ the not yet completed transaction.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALtempfile_transactional_optype"></a>tempfile_transactional_optype : <code class="type"><a href="Netcgi.html#TYPEoperating_type">operating_type</a></code></pre><div class="info">
+A predefined transactional <code class="code">operating_type</code> using a temporary file to store
+ the not yet completed transaction<br>
+</div>
+<pre><span class="keyword">class</span> <a name="TYPEcustom_activation"></a><a href="Netcgi.custom_activation.html">custom_activation</a> : <code class="type">?env:<a href="Netcgi_env.cgi_environment.html">Netcgi_env.cgi_environment</a> -> ?args:<a href="Netcgi_types.cgi_argument.html">Netcgi_types.cgi_argument</a> list -> ?meth:<a href="Netcgi_types.html#TYPErequest_method">Netcgi_types.request_method</a> -> ?operating_type:<a href="Netcgi.html#TYPEoperating_type">operating_type</a> -> unit -> </code><code class="type"><a href="Netcgi_types.cgi_activation.html">Netcgi_types.cgi_activation</a></code></pre><div class="info">
+This class can be used to implement a non-standard connector that
+ has the same output format as CGI.
+</div>
+</body></html>

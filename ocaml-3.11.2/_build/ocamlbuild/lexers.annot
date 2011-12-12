@@ -1,0 +1,7354 @@
+"ocamlbuild/lexers.mll" 26 286 290 "ocamlbuild/lexers.mll" 26 286 295
+type(
+  conf_values
+)
+ident(
+  def empty "ocamlbuild/lexers.ml" 17 398 398 --
+)
+"ocamlbuild/lexers.mll" 26 286 313 "ocamlbuild/lexers.mll" 26 286 315
+type(
+  (string * string) list
+)
+"ocamlbuild/lexers.mll" 26 286 331 "ocamlbuild/lexers.mll" 26 286 333
+type(
+  (string * string) list
+)
+"ocamlbuild/lexers.mll" 26 286 347 "ocamlbuild/lexers.mll" 26 286 349
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 26 286 364 "ocamlbuild/lexers.mll" 26 286 366
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 26 286 298 "ocamlbuild/lexers.mll" 26 286 368
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 19 446 449 "ocamlbuild/lexers.ml" 35 1566 1627
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 37 1653 1656 "ocamlbuild/lexers.ml" 53 2773 2834
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 55 2860 2863 "ocamlbuild/lexers.ml" 71 3980 4041
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 73 4065 4068 "ocamlbuild/lexers.ml" 196 12675 12728
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 198 12752 12755 "ocamlbuild/lexers.ml" 321 21362 21415
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 323 21443 21446 "ocamlbuild/lexers.ml" 339 22563 22624
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 341 22655 22658 "ocamlbuild/lexers.ml" 357 23775 23836
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 359 23867 23870 "ocamlbuild/lexers.ml" 375 24987 25048
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 377 25077 25080 "ocamlbuild/lexers.ml" 458 30747 30808
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 460 30837 30840 "ocamlbuild/lexers.ml" 541 36507 36568
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 543 36591 36594 "ocamlbuild/lexers.ml" 548 36941 36994
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 17 398 423 "ocamlbuild/lexers.ml" 549 36996 36997
+type(
+  Lexing.lex_tables
+)
+"ocamlbuild/lexers.ml" 551 36999 37007 "ocamlbuild/lexers.ml" 551 36999 37022
+type(
+  Lexing.lexbuf -> (string * string list) list
+)
+ident(
+  def ocamldep_output "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 551 36999 37023 "ocamlbuild/lexers.ml" 551 36999 37029
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 552 37032 37036 "ocamlbuild/lexers.ml" 552 37032 37076
+)
+"ocamlbuild/lexers.ml" 552 37032 37036 "ocamlbuild/lexers.ml" 552 37032 37067
+type(
+  Lexing.lexbuf -> int -> (string * string list) list
+)
+ident(
+  int_ref __ocaml_lex_ocamldep_output_rec "ocamlbuild/lexers.ml" 553 37077 37081 "ocamlbuild/lexers.ml" 553 37077 37112
+)
+"ocamlbuild/lexers.ml" 552 37032 37068 "ocamlbuild/lexers.ml" 552 37032 37074
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 551 36999 37023 "ocamlbuild/lexers.ml" 551 36999 37029
+)
+"ocamlbuild/lexers.ml" 552 37032 37075 "ocamlbuild/lexers.ml" 552 37032 37076
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 552 37032 37036 "ocamlbuild/lexers.ml" 552 37032 37076
+call(
+  tail
+)
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 553 37077 37081 "ocamlbuild/lexers.ml" 553 37077 37112
+type(
+  Lexing.lexbuf -> int -> (string * string list) list
+)
+ident(
+  def __ocaml_lex_ocamldep_output_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 553 37077 37120 "ocamlbuild/lexers.ml" 575 37816 37931
+)
+"ocamlbuild/lexers.ml" 553 37077 37120 "ocamlbuild/lexers.ml" 553 37077 37137
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 554 37140 37142 "ocamlbuild/lexers.ml" 575 37816 37931
+)
+"ocamlbuild/lexers.ml" 554 37140 37148 "ocamlbuild/lexers.ml" 554 37140 37161
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"ocamlbuild/lexers.ml" 554 37140 37162 "ocamlbuild/lexers.ml" 554 37140 37180
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 554 37140 37181 "ocamlbuild/lexers.ml" 554 37140 37198
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 553 37077 37120 "ocamlbuild/lexers.ml" 553 37077 37137
+)
+"ocamlbuild/lexers.ml" 554 37140 37199 "ocamlbuild/lexers.ml" 554 37140 37205
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 554 37140 37148 "ocamlbuild/lexers.ml" 554 37140 37205
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 555 37211 37219 "ocamlbuild/lexers.ml" 555 37211 37220
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 46 37257 37285 "ocamlbuild/lexers.mll" 46 37257 37286
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 560 37316 37318 "ocamlbuild/lexers.ml" 560 37316 37335
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 560 37316 37336 "ocamlbuild/lexers.ml" 560 37316 37342
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 560 37316 37343 "ocamlbuild/lexers.ml" 560 37316 37349
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 560 37316 37343 "ocamlbuild/lexers.ml" 560 37316 37370
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 560 37316 37372 "ocamlbuild/lexers.ml" 560 37316 37378
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 560 37316 37372 "ocamlbuild/lexers.ml" 560 37316 37398
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 560 37316 37399 "ocamlbuild/lexers.ml" 560 37316 37400
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 560 37316 37401 "ocamlbuild/lexers.ml" 560 37316 37403
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 560 37316 37371 "ocamlbuild/lexers.ml" 560 37316 37404
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 560 37316 37318 "ocamlbuild/lexers.ml" 560 37316 37404
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 46 37437 37478 "ocamlbuild/lexers.mll" 46 37437 37479
+type(
+  string * string list
+)
+"ocamlbuild/lexers.mll" 46 37437 37483 "ocamlbuild/lexers.mll" 46 37437 37484
+type(
+  string
+)
+ident(
+  int_ref k "ocamlbuild/lexers.mll" 46 37257 37285 "ocamlbuild/lexers.mll" 46 37257 37286
+)
+"ocamlbuild/lexers.mll" 46 37437 37486 "ocamlbuild/lexers.mll" 46 37437 37506
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref space_sep_strings_nl "ocamlbuild/lexers.ml" 577 37933 37937 "ocamlbuild/lexers.ml" 577 37933 37957
+)
+"ocamlbuild/lexers.mll" 46 37437 37507 "ocamlbuild/lexers.mll" 46 37437 37513
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.mll" 46 37437 37486 "ocamlbuild/lexers.mll" 46 37437 37513
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 46 37437 37482 "ocamlbuild/lexers.mll" 46 37437 37514
+type(
+  string * string list
+)
+"ocamlbuild/lexers.mll" 46 37437 37518 "ocamlbuild/lexers.mll" 46 37437 37519
+type(
+  string * string list
+)
+ident(
+  int_ref x "ocamlbuild/lexers.mll" 46 37437 37478 "ocamlbuild/lexers.mll" 46 37437 37479
+)
+"ocamlbuild/lexers.mll" 46 37437 37523 "ocamlbuild/lexers.mll" 46 37437 37538
+type(
+  Lexing.lexbuf -> (string * string list) list
+)
+ident(
+  int_ref ocamldep_output "ocamlbuild/lexers.ml" 551 36999 37007 "ocamlbuild/lexers.ml" 551 36999 37022
+)
+"ocamlbuild/lexers.mll" 46 37437 37539 "ocamlbuild/lexers.mll" 46 37437 37545
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.mll" 46 37437 37523 "ocamlbuild/lexers.mll" 46 37437 37545
+call(
+  stack
+)
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.mll" 46 37437 37518 "ocamlbuild/lexers.mll" 46 37437 37545
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.mll" 46 37437 37472 "ocamlbuild/lexers.mll" 46 37437 37547
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 556 37224 37224 "ocamlbuild/lexers.mll" 46 37437 37547
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 565 37578 37582 "ocamlbuild/lexers.ml" 565 37578 37583
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 47 37616 37624 "ocamlbuild/lexers.mll" 47 37616 37630
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 570 37661 37665 "ocamlbuild/lexers.ml" 570 37661 37666
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 48 37699 37707 "ocamlbuild/lexers.mll" 48 37699 37712
+type(
+  exn -> (string * string list) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 48 37699 37720 "ocamlbuild/lexers.mll" 48 37699 37782
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 48 37699 37713 "ocamlbuild/lexers.mll" 48 37699 37783
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 48 37699 37705 "ocamlbuild/lexers.mll" 48 37699 37785
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 575 37816 37820 "ocamlbuild/lexers.ml" 575 37816 37837
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 575 37816 37841 "ocamlbuild/lexers.ml" 575 37816 37931
+)
+"ocamlbuild/lexers.ml" 575 37816 37841 "ocamlbuild/lexers.ml" 575 37816 37847
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 575 37816 37841 "ocamlbuild/lexers.ml" 575 37816 37866
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 575 37816 37867 "ocamlbuild/lexers.ml" 575 37816 37873
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 575 37816 37841 "ocamlbuild/lexers.ml" 575 37816 37873
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 575 37816 37875 "ocamlbuild/lexers.ml" 575 37816 37906
+type(
+  Lexing.lexbuf -> int -> (string * string list) list
+)
+ident(
+  int_ref __ocaml_lex_ocamldep_output_rec "ocamlbuild/lexers.ml" 553 37077 37081 "ocamlbuild/lexers.ml" 553 37077 37112
+)
+"ocamlbuild/lexers.ml" 575 37816 37907 "ocamlbuild/lexers.ml" 575 37816 37913
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 553 37077 37113 "ocamlbuild/lexers.ml" 553 37077 37119
+)
+"ocamlbuild/lexers.ml" 575 37816 37914 "ocamlbuild/lexers.ml" 575 37816 37931
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 575 37816 37820 "ocamlbuild/lexers.ml" 575 37816 37837
+)
+"ocamlbuild/lexers.ml" 575 37816 37875 "ocamlbuild/lexers.ml" 575 37816 37931
+call(
+  tail
+)
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 575 37816 37841 "ocamlbuild/lexers.ml" 575 37816 37931
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 554 37140 37142 "ocamlbuild/lexers.ml" 575 37816 37931
+type(
+  (string * string list) list
+)
+"ocamlbuild/lexers.ml" 577 37933 37937 "ocamlbuild/lexers.ml" 577 37933 37957
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def space_sep_strings_nl "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 577 37933 37958 "ocamlbuild/lexers.ml" 577 37933 37964
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 578 37967 37969 "ocamlbuild/lexers.ml" 580 38098 38145
+)
+"ocamlbuild/lexers.ml" 578 37967 37969 "ocamlbuild/lexers.ml" 578 37967 37975
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 577 37933 37958 "ocamlbuild/lexers.ml" 577 37933 37964
+)
+"ocamlbuild/lexers.ml" 578 37967 37994 "ocamlbuild/lexers.ml" 578 37967 38006
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 578 37967 38007 "ocamlbuild/lexers.ml" 578 37967 38008
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 578 37967 38009 "ocamlbuild/lexers.ml" 578 37967 38013
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 578 37967 37994 "ocamlbuild/lexers.ml" 578 37967 38013
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 578 37967 37969 "ocamlbuild/lexers.ml" 578 37967 38013
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 579 38038 38040 "ocamlbuild/lexers.ml" 579 38038 38046
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 577 37933 37958 "ocamlbuild/lexers.ml" 577 37933 37964
+)
+"ocamlbuild/lexers.ml" 579 38038 38040 "ocamlbuild/lexers.ml" 579 38038 38061
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 579 38038 38063 "ocamlbuild/lexers.ml" 579 38038 38064
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 579 38038 38069 "ocamlbuild/lexers.ml" 579 38038 38075
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 577 37933 37958 "ocamlbuild/lexers.ml" 577 37933 37964
+)
+"ocamlbuild/lexers.ml" 579 38038 38069 "ocamlbuild/lexers.ml" 579 38038 38095
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 579 38038 38040 "ocamlbuild/lexers.ml" 579 38038 38095
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 580 38098 38100 "ocamlbuild/lexers.ml" 580 38098 38136
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_space_sep_strings_nl_rec "ocamlbuild/lexers.ml" 581 38146 38150 "ocamlbuild/lexers.ml" 581 38146 38186
+)
+"ocamlbuild/lexers.ml" 580 38098 38137 "ocamlbuild/lexers.ml" 580 38098 38143
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 577 37933 37958 "ocamlbuild/lexers.ml" 577 37933 37964
+)
+"ocamlbuild/lexers.ml" 580 38098 38144 "ocamlbuild/lexers.ml" 580 38098 38145
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 580 38098 38100 "ocamlbuild/lexers.ml" 580 38098 38145
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 579 38038 38040 "ocamlbuild/lexers.ml" 580 38098 38145
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 578 37967 37969 "ocamlbuild/lexers.ml" 580 38098 38145
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 581 38146 38150 "ocamlbuild/lexers.ml" 581 38146 38186
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_space_sep_strings_nl_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 581 38146 38194 "ocamlbuild/lexers.ml" 603 38855 38975
+)
+"ocamlbuild/lexers.ml" 581 38146 38194 "ocamlbuild/lexers.ml" 581 38146 38211
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 582 38214 38216 "ocamlbuild/lexers.ml" 603 38855 38975
+)
+"ocamlbuild/lexers.ml" 582 38214 38222 "ocamlbuild/lexers.ml" 582 38214 38239
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 582 38214 38240 "ocamlbuild/lexers.ml" 582 38214 38258
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 582 38214 38259 "ocamlbuild/lexers.ml" 582 38214 38276
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 581 38146 38194 "ocamlbuild/lexers.ml" 581 38146 38211
+)
+"ocamlbuild/lexers.ml" 582 38214 38277 "ocamlbuild/lexers.ml" 582 38214 38283
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 582 38214 38222 "ocamlbuild/lexers.ml" 582 38214 38283
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 583 38289 38297 "ocamlbuild/lexers.ml" 583 38289 38298
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 51 38335 38361 "ocamlbuild/lexers.mll" 51 38335 38365
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 588 38395 38397 "ocamlbuild/lexers.ml" 588 38395 38414
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 588 38395 38415 "ocamlbuild/lexers.ml" 588 38395 38421
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 588 38395 38422 "ocamlbuild/lexers.ml" 588 38395 38428
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 588 38395 38422 "ocamlbuild/lexers.ml" 588 38395 38443
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 588 38395 38445 "ocamlbuild/lexers.ml" 588 38395 38446
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 588 38395 38422 "ocamlbuild/lexers.ml" 588 38395 38447
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 588 38395 38448 "ocamlbuild/lexers.ml" 588 38395 38454
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 588 38395 38448 "ocamlbuild/lexers.ml" 588 38395 38474
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 588 38395 38397 "ocamlbuild/lexers.ml" 588 38395 38474
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 51 38507 38541 "ocamlbuild/lexers.mll" 51 38507 38545
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 51 38335 38361 "ocamlbuild/lexers.mll" 51 38335 38365
+)
+"ocamlbuild/lexers.mll" 51 38507 38549 "ocamlbuild/lexers.mll" 51 38507 38569
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref space_sep_strings_nl "ocamlbuild/lexers.ml" 577 37933 37937 "ocamlbuild/lexers.ml" 577 37933 37957
+)
+"ocamlbuild/lexers.mll" 51 38507 38570 "ocamlbuild/lexers.mll" 51 38507 38576
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.mll" 51 38507 38549 "ocamlbuild/lexers.mll" 51 38507 38576
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 51 38507 38539 "ocamlbuild/lexers.mll" 51 38507 38578
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 584 38302 38302 "ocamlbuild/lexers.mll" 51 38507 38578
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 593 38609 38613 "ocamlbuild/lexers.ml" 593 38609 38614
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 52 38647 38666 "ocamlbuild/lexers.mll" 52 38647 38672
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 598 38703 38707 "ocamlbuild/lexers.ml" 598 38703 38708
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 53 38741 38749 "ocamlbuild/lexers.mll" 53 38741 38754
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 53 38741 38762 "ocamlbuild/lexers.mll" 53 38741 38821
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 53 38741 38755 "ocamlbuild/lexers.mll" 53 38741 38822
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 53 38741 38747 "ocamlbuild/lexers.mll" 53 38741 38824
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 603 38855 38859 "ocamlbuild/lexers.ml" 603 38855 38876
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 603 38855 38880 "ocamlbuild/lexers.ml" 603 38855 38975
+)
+"ocamlbuild/lexers.ml" 603 38855 38880 "ocamlbuild/lexers.ml" 603 38855 38886
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 603 38855 38880 "ocamlbuild/lexers.ml" 603 38855 38905
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 603 38855 38906 "ocamlbuild/lexers.ml" 603 38855 38912
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 603 38855 38880 "ocamlbuild/lexers.ml" 603 38855 38912
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 603 38855 38914 "ocamlbuild/lexers.ml" 603 38855 38950
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_space_sep_strings_nl_rec "ocamlbuild/lexers.ml" 581 38146 38150 "ocamlbuild/lexers.ml" 581 38146 38186
+)
+"ocamlbuild/lexers.ml" 603 38855 38951 "ocamlbuild/lexers.ml" 603 38855 38957
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 581 38146 38187 "ocamlbuild/lexers.ml" 581 38146 38193
+)
+"ocamlbuild/lexers.ml" 603 38855 38958 "ocamlbuild/lexers.ml" 603 38855 38975
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 603 38855 38859 "ocamlbuild/lexers.ml" 603 38855 38876
+)
+"ocamlbuild/lexers.ml" 603 38855 38914 "ocamlbuild/lexers.ml" 603 38855 38975
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 603 38855 38880 "ocamlbuild/lexers.ml" 603 38855 38975
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 582 38214 38216 "ocamlbuild/lexers.ml" 603 38855 38975
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 605 38977 38981 "ocamlbuild/lexers.ml" 605 38977 38998
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def space_sep_strings "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 605 38977 38999 "ocamlbuild/lexers.ml" 605 38977 39005
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 606 39008 39010 "ocamlbuild/lexers.ml" 608 39139 39184
+)
+"ocamlbuild/lexers.ml" 606 39008 39010 "ocamlbuild/lexers.ml" 606 39008 39016
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 605 38977 38999 "ocamlbuild/lexers.ml" 605 38977 39005
+)
+"ocamlbuild/lexers.ml" 606 39008 39035 "ocamlbuild/lexers.ml" 606 39008 39047
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 606 39008 39048 "ocamlbuild/lexers.ml" 606 39008 39049
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 606 39008 39050 "ocamlbuild/lexers.ml" 606 39008 39054
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 606 39008 39035 "ocamlbuild/lexers.ml" 606 39008 39054
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 606 39008 39010 "ocamlbuild/lexers.ml" 606 39008 39054
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 607 39079 39081 "ocamlbuild/lexers.ml" 607 39079 39087
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 605 38977 38999 "ocamlbuild/lexers.ml" 605 38977 39005
+)
+"ocamlbuild/lexers.ml" 607 39079 39081 "ocamlbuild/lexers.ml" 607 39079 39102
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 607 39079 39104 "ocamlbuild/lexers.ml" 607 39079 39105
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 607 39079 39110 "ocamlbuild/lexers.ml" 607 39079 39116
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 605 38977 38999 "ocamlbuild/lexers.ml" 605 38977 39005
+)
+"ocamlbuild/lexers.ml" 607 39079 39110 "ocamlbuild/lexers.ml" 607 39079 39136
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 607 39079 39081 "ocamlbuild/lexers.ml" 607 39079 39136
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 608 39139 39141 "ocamlbuild/lexers.ml" 608 39139 39174
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_space_sep_strings_rec "ocamlbuild/lexers.ml" 609 39185 39189 "ocamlbuild/lexers.ml" 609 39185 39222
+)
+"ocamlbuild/lexers.ml" 608 39139 39175 "ocamlbuild/lexers.ml" 608 39139 39181
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 605 38977 38999 "ocamlbuild/lexers.ml" 605 38977 39005
+)
+"ocamlbuild/lexers.ml" 608 39139 39182 "ocamlbuild/lexers.ml" 608 39139 39184
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 608 39139 39141 "ocamlbuild/lexers.ml" 608 39139 39184
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 607 39079 39081 "ocamlbuild/lexers.ml" 608 39139 39184
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 606 39008 39010 "ocamlbuild/lexers.ml" 608 39139 39184
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 609 39185 39189 "ocamlbuild/lexers.ml" 609 39185 39222
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_space_sep_strings_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 609 39185 39230 "ocamlbuild/lexers.ml" 631 39869 39986
+)
+"ocamlbuild/lexers.ml" 609 39185 39230 "ocamlbuild/lexers.ml" 609 39185 39247
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 610 39250 39252 "ocamlbuild/lexers.ml" 631 39869 39986
+)
+"ocamlbuild/lexers.ml" 610 39250 39258 "ocamlbuild/lexers.ml" 610 39250 39275
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 610 39250 39276 "ocamlbuild/lexers.ml" 610 39250 39294
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 610 39250 39295 "ocamlbuild/lexers.ml" 610 39250 39312
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 609 39185 39230 "ocamlbuild/lexers.ml" 609 39185 39247
+)
+"ocamlbuild/lexers.ml" 610 39250 39313 "ocamlbuild/lexers.ml" 610 39250 39319
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 610 39250 39258 "ocamlbuild/lexers.ml" 610 39250 39319
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 611 39325 39333 "ocamlbuild/lexers.ml" 611 39325 39334
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 56 39371 39397 "ocamlbuild/lexers.mll" 56 39371 39401
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 616 39431 39433 "ocamlbuild/lexers.ml" 616 39431 39450
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 616 39431 39451 "ocamlbuild/lexers.ml" 616 39431 39457
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 616 39431 39458 "ocamlbuild/lexers.ml" 616 39431 39464
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 616 39431 39458 "ocamlbuild/lexers.ml" 616 39431 39479
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 616 39431 39481 "ocamlbuild/lexers.ml" 616 39431 39482
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 616 39431 39458 "ocamlbuild/lexers.ml" 616 39431 39483
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 616 39431 39484 "ocamlbuild/lexers.ml" 616 39431 39490
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 616 39431 39484 "ocamlbuild/lexers.ml" 616 39431 39510
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 616 39431 39433 "ocamlbuild/lexers.ml" 616 39431 39510
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 56 39543 39577 "ocamlbuild/lexers.mll" 56 39543 39581
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 56 39371 39397 "ocamlbuild/lexers.mll" 56 39371 39401
+)
+"ocamlbuild/lexers.mll" 56 39543 39585 "ocamlbuild/lexers.mll" 56 39543 39602
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref space_sep_strings "ocamlbuild/lexers.ml" 605 38977 38981 "ocamlbuild/lexers.ml" 605 38977 38998
+)
+"ocamlbuild/lexers.mll" 56 39543 39603 "ocamlbuild/lexers.mll" 56 39543 39609
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.mll" 56 39543 39585 "ocamlbuild/lexers.mll" 56 39543 39609
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 56 39543 39575 "ocamlbuild/lexers.mll" 56 39543 39611
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 612 39338 39338 "ocamlbuild/lexers.mll" 56 39543 39611
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 621 39642 39646 "ocamlbuild/lexers.ml" 621 39642 39647
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 57 39680 39704 "ocamlbuild/lexers.mll" 57 39680 39710
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 626 39741 39745 "ocamlbuild/lexers.ml" 626 39741 39746
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 58 39779 39787 "ocamlbuild/lexers.mll" 58 39779 39792
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 58 39779 39800 "ocamlbuild/lexers.mll" 58 39779 39835
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 58 39779 39793 "ocamlbuild/lexers.mll" 58 39779 39836
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 58 39779 39785 "ocamlbuild/lexers.mll" 58 39779 39838
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 631 39869 39873 "ocamlbuild/lexers.ml" 631 39869 39890
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 631 39869 39894 "ocamlbuild/lexers.ml" 631 39869 39986
+)
+"ocamlbuild/lexers.ml" 631 39869 39894 "ocamlbuild/lexers.ml" 631 39869 39900
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 631 39869 39894 "ocamlbuild/lexers.ml" 631 39869 39919
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 631 39869 39920 "ocamlbuild/lexers.ml" 631 39869 39926
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 631 39869 39894 "ocamlbuild/lexers.ml" 631 39869 39926
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 631 39869 39928 "ocamlbuild/lexers.ml" 631 39869 39961
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_space_sep_strings_rec "ocamlbuild/lexers.ml" 609 39185 39189 "ocamlbuild/lexers.ml" 609 39185 39222
+)
+"ocamlbuild/lexers.ml" 631 39869 39962 "ocamlbuild/lexers.ml" 631 39869 39968
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 609 39185 39223 "ocamlbuild/lexers.ml" 609 39185 39229
+)
+"ocamlbuild/lexers.ml" 631 39869 39969 "ocamlbuild/lexers.ml" 631 39869 39986
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 631 39869 39873 "ocamlbuild/lexers.ml" 631 39869 39890
+)
+"ocamlbuild/lexers.ml" 631 39869 39928 "ocamlbuild/lexers.ml" 631 39869 39986
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 631 39869 39894 "ocamlbuild/lexers.ml" 631 39869 39986
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 610 39250 39252 "ocamlbuild/lexers.ml" 631 39869 39986
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 633 39988 39992 "ocamlbuild/lexers.ml" 633 39988 40009
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def blank_sep_strings "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 633 39988 40010 "ocamlbuild/lexers.ml" 633 39988 40016
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 634 40019 40021 "ocamlbuild/lexers.ml" 636 40150 40195
+)
+"ocamlbuild/lexers.ml" 634 40019 40021 "ocamlbuild/lexers.ml" 634 40019 40027
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 633 39988 40010 "ocamlbuild/lexers.ml" 633 39988 40016
+)
+"ocamlbuild/lexers.ml" 634 40019 40046 "ocamlbuild/lexers.ml" 634 40019 40058
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 634 40019 40059 "ocamlbuild/lexers.ml" 634 40019 40060
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 634 40019 40061 "ocamlbuild/lexers.ml" 634 40019 40065
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 634 40019 40046 "ocamlbuild/lexers.ml" 634 40019 40065
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 634 40019 40021 "ocamlbuild/lexers.ml" 634 40019 40065
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 635 40090 40092 "ocamlbuild/lexers.ml" 635 40090 40098
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 633 39988 40010 "ocamlbuild/lexers.ml" 633 39988 40016
+)
+"ocamlbuild/lexers.ml" 635 40090 40092 "ocamlbuild/lexers.ml" 635 40090 40113
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 635 40090 40115 "ocamlbuild/lexers.ml" 635 40090 40116
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 635 40090 40121 "ocamlbuild/lexers.ml" 635 40090 40127
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 633 39988 40010 "ocamlbuild/lexers.ml" 633 39988 40016
+)
+"ocamlbuild/lexers.ml" 635 40090 40121 "ocamlbuild/lexers.ml" 635 40090 40147
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 635 40090 40092 "ocamlbuild/lexers.ml" 635 40090 40147
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 636 40150 40152 "ocamlbuild/lexers.ml" 636 40150 40185
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_blank_sep_strings_rec "ocamlbuild/lexers.ml" 637 40196 40200 "ocamlbuild/lexers.ml" 637 40196 40233
+)
+"ocamlbuild/lexers.ml" 636 40150 40186 "ocamlbuild/lexers.ml" 636 40150 40192
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 633 39988 40010 "ocamlbuild/lexers.ml" 633 39988 40016
+)
+"ocamlbuild/lexers.ml" 636 40150 40193 "ocamlbuild/lexers.ml" 636 40150 40195
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 636 40150 40152 "ocamlbuild/lexers.ml" 636 40150 40195
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 635 40090 40092 "ocamlbuild/lexers.ml" 636 40150 40195
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 634 40019 40021 "ocamlbuild/lexers.ml" 636 40150 40195
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 637 40196 40200 "ocamlbuild/lexers.ml" 637 40196 40233
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_blank_sep_strings_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 637 40196 40241 "ocamlbuild/lexers.ml" 669 41111 41228
+)
+"ocamlbuild/lexers.ml" 637 40196 40241 "ocamlbuild/lexers.ml" 637 40196 40258
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 638 40261 40263 "ocamlbuild/lexers.ml" 669 41111 41228
+)
+"ocamlbuild/lexers.ml" 638 40261 40269 "ocamlbuild/lexers.ml" 638 40261 40286
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 638 40261 40287 "ocamlbuild/lexers.ml" 638 40261 40305
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 638 40261 40306 "ocamlbuild/lexers.ml" 638 40261 40323
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 637 40196 40241 "ocamlbuild/lexers.ml" 637 40196 40258
+)
+"ocamlbuild/lexers.ml" 638 40261 40324 "ocamlbuild/lexers.ml" 638 40261 40330
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 638 40261 40269 "ocamlbuild/lexers.ml" 638 40261 40330
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 639 40336 40344 "ocamlbuild/lexers.ml" 639 40336 40345
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 61 40378 40416 "ocamlbuild/lexers.mll" 61 40378 40433
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref blank_sep_strings "ocamlbuild/lexers.ml" 633 39988 39992 "ocamlbuild/lexers.ml" 633 39988 40009
+)
+"ocamlbuild/lexers.mll" 61 40378 40434 "ocamlbuild/lexers.mll" 61 40378 40440
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.mll" 61 40378 40414 "ocamlbuild/lexers.mll" 61 40378 40442
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 644 40473 40477 "ocamlbuild/lexers.ml" 644 40473 40478
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 62 40511 40543 "ocamlbuild/lexers.mll" 62 40511 40549
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 649 40580 40584 "ocamlbuild/lexers.ml" 649 40580 40585
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 63 40622 40648 "ocamlbuild/lexers.mll" 63 40622 40652
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 654 40682 40684 "ocamlbuild/lexers.ml" 654 40682 40701
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 654 40682 40702 "ocamlbuild/lexers.ml" 654 40682 40708
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 654 40682 40709 "ocamlbuild/lexers.ml" 654 40682 40715
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 654 40682 40709 "ocamlbuild/lexers.ml" 654 40682 40730
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 654 40682 40732 "ocamlbuild/lexers.ml" 654 40682 40733
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 654 40682 40709 "ocamlbuild/lexers.ml" 654 40682 40734
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 654 40682 40735 "ocamlbuild/lexers.ml" 654 40682 40741
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 654 40682 40735 "ocamlbuild/lexers.ml" 654 40682 40761
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 654 40682 40684 "ocamlbuild/lexers.ml" 654 40682 40761
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 63 40794 40828 "ocamlbuild/lexers.mll" 63 40794 40832
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 63 40622 40648 "ocamlbuild/lexers.mll" 63 40622 40652
+)
+"ocamlbuild/lexers.mll" 63 40794 40836 "ocamlbuild/lexers.mll" 63 40794 40853
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref blank_sep_strings "ocamlbuild/lexers.ml" 633 39988 39992 "ocamlbuild/lexers.ml" 633 39988 40009
+)
+"ocamlbuild/lexers.mll" 63 40794 40854 "ocamlbuild/lexers.mll" 63 40794 40860
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.mll" 63 40794 40836 "ocamlbuild/lexers.mll" 63 40794 40860
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 63 40794 40826 "ocamlbuild/lexers.mll" 63 40794 40862
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 650 40589 40589 "ocamlbuild/lexers.mll" 63 40794 40862
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 659 40893 40897 "ocamlbuild/lexers.ml" 659 40893 40898
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 64 40931 40946 "ocamlbuild/lexers.mll" 64 40931 40952
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 664 40983 40987 "ocamlbuild/lexers.ml" 664 40983 40988
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 65 41021 41029 "ocamlbuild/lexers.mll" 65 41021 41034
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 65 41021 41042 "ocamlbuild/lexers.mll" 65 41021 41077
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 65 41021 41035 "ocamlbuild/lexers.mll" 65 41021 41078
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 65 41021 41027 "ocamlbuild/lexers.mll" 65 41021 41080
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 669 41111 41115 "ocamlbuild/lexers.ml" 669 41111 41132
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 669 41111 41136 "ocamlbuild/lexers.ml" 669 41111 41228
+)
+"ocamlbuild/lexers.ml" 669 41111 41136 "ocamlbuild/lexers.ml" 669 41111 41142
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 669 41111 41136 "ocamlbuild/lexers.ml" 669 41111 41161
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 669 41111 41162 "ocamlbuild/lexers.ml" 669 41111 41168
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 669 41111 41136 "ocamlbuild/lexers.ml" 669 41111 41168
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 669 41111 41170 "ocamlbuild/lexers.ml" 669 41111 41203
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_blank_sep_strings_rec "ocamlbuild/lexers.ml" 637 40196 40200 "ocamlbuild/lexers.ml" 637 40196 40233
+)
+"ocamlbuild/lexers.ml" 669 41111 41204 "ocamlbuild/lexers.ml" 669 41111 41210
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 637 40196 40234 "ocamlbuild/lexers.ml" 637 40196 40240
+)
+"ocamlbuild/lexers.ml" 669 41111 41211 "ocamlbuild/lexers.ml" 669 41111 41228
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 669 41111 41115 "ocamlbuild/lexers.ml" 669 41111 41132
+)
+"ocamlbuild/lexers.ml" 669 41111 41170 "ocamlbuild/lexers.ml" 669 41111 41228
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 669 41111 41136 "ocamlbuild/lexers.ml" 669 41111 41228
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 638 40261 40263 "ocamlbuild/lexers.ml" 669 41111 41228
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 671 41230 41234 "ocamlbuild/lexers.ml" 671 41230 41251
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def comma_sep_strings "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 672 41261 41263 "ocamlbuild/lexers.ml" 675 41463 41508
+)
+"ocamlbuild/lexers.ml" 672 41261 41263 "ocamlbuild/lexers.ml" 672 41261 41269
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+)
+"ocamlbuild/lexers.ml" 672 41261 41288 "ocamlbuild/lexers.ml" 672 41261 41300
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 672 41261 41301 "ocamlbuild/lexers.ml" 672 41261 41302
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 672 41261 41303 "ocamlbuild/lexers.ml" 672 41261 41307
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 672 41261 41288 "ocamlbuild/lexers.ml" 672 41261 41307
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 672 41261 41263 "ocamlbuild/lexers.ml" 672 41261 41307
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 673 41343 41345 "ocamlbuild/lexers.ml" 673 41343 41351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+)
+"ocamlbuild/lexers.ml" 673 41343 41345 "ocamlbuild/lexers.ml" 673 41343 41366
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 673 41343 41368 "ocamlbuild/lexers.ml" 673 41343 41369
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 673 41343 41374 "ocamlbuild/lexers.ml" 673 41343 41380
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+)
+"ocamlbuild/lexers.ml" 673 41343 41374 "ocamlbuild/lexers.ml" 673 41343 41400
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 673 41343 41345 "ocamlbuild/lexers.ml" 673 41343 41400
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 674 41403 41405 "ocamlbuild/lexers.ml" 674 41403 41411
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+)
+"ocamlbuild/lexers.ml" 674 41403 41405 "ocamlbuild/lexers.ml" 674 41403 41426
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 674 41403 41428 "ocamlbuild/lexers.ml" 674 41403 41429
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 674 41403 41434 "ocamlbuild/lexers.ml" 674 41403 41440
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+)
+"ocamlbuild/lexers.ml" 674 41403 41434 "ocamlbuild/lexers.ml" 674 41403 41460
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 674 41403 41405 "ocamlbuild/lexers.ml" 674 41403 41460
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 675 41463 41465 "ocamlbuild/lexers.ml" 675 41463 41498
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_sep_strings_rec "ocamlbuild/lexers.ml" 676 41509 41513 "ocamlbuild/lexers.ml" 676 41509 41546
+)
+"ocamlbuild/lexers.ml" 675 41463 41499 "ocamlbuild/lexers.ml" 675 41463 41505
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 671 41230 41252 "ocamlbuild/lexers.ml" 671 41230 41258
+)
+"ocamlbuild/lexers.ml" 675 41463 41506 "ocamlbuild/lexers.ml" 675 41463 41508
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 675 41463 41465 "ocamlbuild/lexers.ml" 675 41463 41508
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 674 41403 41405 "ocamlbuild/lexers.ml" 675 41463 41508
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 673 41343 41345 "ocamlbuild/lexers.ml" 675 41463 41508
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 672 41261 41263 "ocamlbuild/lexers.ml" 675 41463 41508
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 676 41509 41513 "ocamlbuild/lexers.ml" 676 41509 41546
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_comma_sep_strings_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 676 41509 41554 "ocamlbuild/lexers.ml" 708 42529 42646
+)
+"ocamlbuild/lexers.ml" 676 41509 41554 "ocamlbuild/lexers.ml" 676 41509 41571
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 677 41574 41576 "ocamlbuild/lexers.ml" 708 42529 42646
+)
+"ocamlbuild/lexers.ml" 677 41574 41582 "ocamlbuild/lexers.ml" 677 41574 41599
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 677 41574 41600 "ocamlbuild/lexers.ml" 677 41574 41618
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 677 41574 41619 "ocamlbuild/lexers.ml" 677 41574 41636
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 676 41509 41554 "ocamlbuild/lexers.ml" 676 41509 41571
+)
+"ocamlbuild/lexers.ml" 677 41574 41637 "ocamlbuild/lexers.ml" 677 41574 41643
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 677 41574 41582 "ocamlbuild/lexers.ml" 677 41574 41643
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 678 41649 41657 "ocamlbuild/lexers.ml" 678 41649 41658
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 68 41695 41731 "ocamlbuild/lexers.mll" 68 41695 41735
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 683 41765 41767 "ocamlbuild/lexers.ml" 683 41765 41784
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 683 41765 41785 "ocamlbuild/lexers.ml" 683 41765 41791
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 683 41765 41792 "ocamlbuild/lexers.ml" 683 41765 41798
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 683 41765 41792 "ocamlbuild/lexers.ml" 683 41765 41813
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 683 41765 41815 "ocamlbuild/lexers.ml" 683 41765 41816
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 683 41765 41792 "ocamlbuild/lexers.ml" 683 41765 41817
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 683 41765 41818 "ocamlbuild/lexers.ml" 683 41765 41824
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 683 41765 41818 "ocamlbuild/lexers.ml" 683 41765 41839
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 683 41765 41841 "ocamlbuild/lexers.ml" 683 41765 41842
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 683 41765 41818 "ocamlbuild/lexers.ml" 683 41765 41843
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 683 41765 41767 "ocamlbuild/lexers.ml" 683 41765 41843
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 68 41876 41932 "ocamlbuild/lexers.mll" 68 41876 41936
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 68 41695 41731 "ocamlbuild/lexers.mll" 68 41695 41735
+)
+"ocamlbuild/lexers.mll" 68 41876 41929 "ocamlbuild/lexers.mll" 68 41876 41939
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 679 41662 41662 "ocamlbuild/lexers.mll" 68 41876 41939
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 688 41970 41974 "ocamlbuild/lexers.ml" 688 41970 41975
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 69 42012 42048 "ocamlbuild/lexers.mll" 69 42012 42052
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 693 42082 42084 "ocamlbuild/lexers.ml" 693 42082 42101
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 693 42082 42102 "ocamlbuild/lexers.ml" 693 42082 42108
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 693 42082 42109 "ocamlbuild/lexers.ml" 693 42082 42115
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 693 42082 42109 "ocamlbuild/lexers.ml" 693 42082 42130
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 693 42082 42132 "ocamlbuild/lexers.ml" 693 42082 42133
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 693 42082 42109 "ocamlbuild/lexers.ml" 693 42082 42134
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 693 42082 42135 "ocamlbuild/lexers.ml" 693 42082 42141
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 693 42082 42135 "ocamlbuild/lexers.ml" 693 42082 42161
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 693 42082 42084 "ocamlbuild/lexers.ml" 693 42082 42161
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 69 42194 42238 "ocamlbuild/lexers.mll" 69 42194 42242
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 69 42012 42048 "ocamlbuild/lexers.mll" 69 42012 42052
+)
+"ocamlbuild/lexers.mll" 69 42194 42246 "ocamlbuild/lexers.mll" 69 42194 42267
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_sep_strings_aux "ocamlbuild/lexers.ml" 710 42648 42652 "ocamlbuild/lexers.ml" 710 42648 42673
+)
+"ocamlbuild/lexers.mll" 69 42194 42268 "ocamlbuild/lexers.mll" 69 42194 42274
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.mll" 69 42194 42246 "ocamlbuild/lexers.mll" 69 42194 42274
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 69 42194 42236 "ocamlbuild/lexers.mll" 69 42194 42276
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 689 41979 41979 "ocamlbuild/lexers.mll" 69 42194 42276
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 698 42307 42311 "ocamlbuild/lexers.ml" 698 42307 42312
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 70 42345 42360 "ocamlbuild/lexers.mll" 70 42345 42366
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 703 42397 42401 "ocamlbuild/lexers.ml" 703 42397 42402
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 71 42435 42443 "ocamlbuild/lexers.mll" 71 42435 42448
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 71 42435 42456 "ocamlbuild/lexers.mll" 71 42435 42495
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 71 42435 42449 "ocamlbuild/lexers.mll" 71 42435 42496
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 71 42435 42441 "ocamlbuild/lexers.mll" 71 42435 42498
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 708 42529 42533 "ocamlbuild/lexers.ml" 708 42529 42550
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 708 42529 42554 "ocamlbuild/lexers.ml" 708 42529 42646
+)
+"ocamlbuild/lexers.ml" 708 42529 42554 "ocamlbuild/lexers.ml" 708 42529 42560
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 708 42529 42554 "ocamlbuild/lexers.ml" 708 42529 42579
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 708 42529 42580 "ocamlbuild/lexers.ml" 708 42529 42586
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 708 42529 42554 "ocamlbuild/lexers.ml" 708 42529 42586
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 708 42529 42588 "ocamlbuild/lexers.ml" 708 42529 42621
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_sep_strings_rec "ocamlbuild/lexers.ml" 676 41509 41513 "ocamlbuild/lexers.ml" 676 41509 41546
+)
+"ocamlbuild/lexers.ml" 708 42529 42622 "ocamlbuild/lexers.ml" 708 42529 42628
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 676 41509 41547 "ocamlbuild/lexers.ml" 676 41509 41553
+)
+"ocamlbuild/lexers.ml" 708 42529 42629 "ocamlbuild/lexers.ml" 708 42529 42646
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 708 42529 42533 "ocamlbuild/lexers.ml" 708 42529 42550
+)
+"ocamlbuild/lexers.ml" 708 42529 42588 "ocamlbuild/lexers.ml" 708 42529 42646
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 708 42529 42554 "ocamlbuild/lexers.ml" 708 42529 42646
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 677 41574 41576 "ocamlbuild/lexers.ml" 708 42529 42646
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 710 42648 42652 "ocamlbuild/lexers.ml" 710 42648 42673
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def comma_sep_strings_aux "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 710 42648 42674 "ocamlbuild/lexers.ml" 710 42648 42680
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 711 42683 42685 "ocamlbuild/lexers.ml" 711 42683 42781
+)
+"ocamlbuild/lexers.ml" 711 42683 42685 "ocamlbuild/lexers.ml" 711 42683 42691
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 710 42648 42674 "ocamlbuild/lexers.ml" 710 42648 42680
+)
+"ocamlbuild/lexers.ml" 711 42683 42710 "ocamlbuild/lexers.ml" 711 42683 42722
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 711 42683 42723 "ocamlbuild/lexers.ml" 711 42683 42724
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 711 42683 42725 "ocamlbuild/lexers.ml" 711 42683 42729
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 711 42683 42710 "ocamlbuild/lexers.ml" 711 42683 42729
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 711 42683 42685 "ocamlbuild/lexers.ml" 711 42683 42729
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 711 42683 42734 "ocamlbuild/lexers.ml" 711 42683 42771
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_sep_strings_aux_rec "ocamlbuild/lexers.ml" 712 42782 42786 "ocamlbuild/lexers.ml" 712 42782 42823
+)
+"ocamlbuild/lexers.ml" 711 42683 42772 "ocamlbuild/lexers.ml" 711 42683 42778
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 710 42648 42674 "ocamlbuild/lexers.ml" 710 42648 42680
+)
+"ocamlbuild/lexers.ml" 711 42683 42779 "ocamlbuild/lexers.ml" 711 42683 42781
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 711 42683 42734 "ocamlbuild/lexers.ml" 711 42683 42781
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 711 42683 42685 "ocamlbuild/lexers.ml" 711 42683 42781
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 712 42782 42786 "ocamlbuild/lexers.ml" 712 42782 42823
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_comma_sep_strings_aux_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 712 42782 42831 "ocamlbuild/lexers.ml" 734 43511 43632
+)
+"ocamlbuild/lexers.ml" 712 42782 42831 "ocamlbuild/lexers.ml" 712 42782 42848
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 713 42851 42853 "ocamlbuild/lexers.ml" 734 43511 43632
+)
+"ocamlbuild/lexers.ml" 713 42851 42859 "ocamlbuild/lexers.ml" 713 42851 42876
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 713 42851 42877 "ocamlbuild/lexers.ml" 713 42851 42895
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 713 42851 42896 "ocamlbuild/lexers.ml" 713 42851 42913
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 712 42782 42831 "ocamlbuild/lexers.ml" 712 42782 42848
+)
+"ocamlbuild/lexers.ml" 713 42851 42914 "ocamlbuild/lexers.ml" 713 42851 42920
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 713 42851 42859 "ocamlbuild/lexers.ml" 713 42851 42920
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 714 42926 42934 "ocamlbuild/lexers.ml" 714 42926 42935
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 73 42972 43019 "ocamlbuild/lexers.mll" 73 42972 43023
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 719 43053 43055 "ocamlbuild/lexers.ml" 719 43053 43072
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 719 43053 43073 "ocamlbuild/lexers.ml" 719 43053 43079
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 719 43053 43080 "ocamlbuild/lexers.ml" 719 43053 43086
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 719 43053 43080 "ocamlbuild/lexers.ml" 719 43053 43101
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 719 43053 43103 "ocamlbuild/lexers.ml" 719 43053 43104
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 719 43053 43080 "ocamlbuild/lexers.ml" 719 43053 43105
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 719 43053 43106 "ocamlbuild/lexers.ml" 719 43053 43112
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 719 43053 43106 "ocamlbuild/lexers.ml" 719 43053 43132
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 719 43053 43055 "ocamlbuild/lexers.ml" 719 43053 43132
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 73 43165 43220 "ocamlbuild/lexers.mll" 73 43165 43224
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 73 42972 43019 "ocamlbuild/lexers.mll" 73 42972 43023
+)
+"ocamlbuild/lexers.mll" 73 43165 43228 "ocamlbuild/lexers.mll" 73 43165 43249
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_sep_strings_aux "ocamlbuild/lexers.ml" 710 42648 42652 "ocamlbuild/lexers.ml" 710 42648 42673
+)
+"ocamlbuild/lexers.mll" 73 43165 43250 "ocamlbuild/lexers.mll" 73 43165 43256
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.mll" 73 43165 43228 "ocamlbuild/lexers.mll" 73 43165 43256
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 73 43165 43218 "ocamlbuild/lexers.mll" 73 43165 43258
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 715 42939 42939 "ocamlbuild/lexers.mll" 73 43165 43258
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 724 43289 43293 "ocamlbuild/lexers.ml" 724 43289 43294
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 74 43327 43342 "ocamlbuild/lexers.mll" 74 43327 43348
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 729 43379 43383 "ocamlbuild/lexers.ml" 729 43379 43384
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 75 43417 43425 "ocamlbuild/lexers.mll" 75 43417 43430
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 75 43417 43438 "ocamlbuild/lexers.mll" 75 43417 43477
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 75 43417 43431 "ocamlbuild/lexers.mll" 75 43417 43478
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 75 43417 43423 "ocamlbuild/lexers.mll" 75 43417 43480
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 734 43511 43515 "ocamlbuild/lexers.ml" 734 43511 43532
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 734 43511 43536 "ocamlbuild/lexers.ml" 734 43511 43632
+)
+"ocamlbuild/lexers.ml" 734 43511 43536 "ocamlbuild/lexers.ml" 734 43511 43542
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 734 43511 43536 "ocamlbuild/lexers.ml" 734 43511 43561
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 734 43511 43562 "ocamlbuild/lexers.ml" 734 43511 43568
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 734 43511 43536 "ocamlbuild/lexers.ml" 734 43511 43568
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 734 43511 43570 "ocamlbuild/lexers.ml" 734 43511 43607
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_sep_strings_aux_rec "ocamlbuild/lexers.ml" 712 42782 42786 "ocamlbuild/lexers.ml" 712 42782 42823
+)
+"ocamlbuild/lexers.ml" 734 43511 43608 "ocamlbuild/lexers.ml" 734 43511 43614
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 712 42782 42824 "ocamlbuild/lexers.ml" 712 42782 42830
+)
+"ocamlbuild/lexers.ml" 734 43511 43615 "ocamlbuild/lexers.ml" 734 43511 43632
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 734 43511 43515 "ocamlbuild/lexers.ml" 734 43511 43532
+)
+"ocamlbuild/lexers.ml" 734 43511 43570 "ocamlbuild/lexers.ml" 734 43511 43632
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 734 43511 43536 "ocamlbuild/lexers.ml" 734 43511 43632
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 713 42851 42853 "ocamlbuild/lexers.ml" 734 43511 43632
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 736 43634 43638 "ocamlbuild/lexers.ml" 736 43634 43664
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def comma_or_blank_sep_strings "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 737 43674 43676 "ocamlbuild/lexers.ml" 740 43876 43930
+)
+"ocamlbuild/lexers.ml" 737 43674 43676 "ocamlbuild/lexers.ml" 737 43674 43682
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+)
+"ocamlbuild/lexers.ml" 737 43674 43701 "ocamlbuild/lexers.ml" 737 43674 43713
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 737 43674 43714 "ocamlbuild/lexers.ml" 737 43674 43715
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 737 43674 43716 "ocamlbuild/lexers.ml" 737 43674 43720
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 737 43674 43701 "ocamlbuild/lexers.ml" 737 43674 43720
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 737 43674 43676 "ocamlbuild/lexers.ml" 737 43674 43720
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 738 43756 43758 "ocamlbuild/lexers.ml" 738 43756 43764
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+)
+"ocamlbuild/lexers.ml" 738 43756 43758 "ocamlbuild/lexers.ml" 738 43756 43779
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 738 43756 43781 "ocamlbuild/lexers.ml" 738 43756 43782
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 738 43756 43787 "ocamlbuild/lexers.ml" 738 43756 43793
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+)
+"ocamlbuild/lexers.ml" 738 43756 43787 "ocamlbuild/lexers.ml" 738 43756 43813
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 738 43756 43758 "ocamlbuild/lexers.ml" 738 43756 43813
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 739 43816 43818 "ocamlbuild/lexers.ml" 739 43816 43824
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+)
+"ocamlbuild/lexers.ml" 739 43816 43818 "ocamlbuild/lexers.ml" 739 43816 43839
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 739 43816 43841 "ocamlbuild/lexers.ml" 739 43816 43842
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 739 43816 43847 "ocamlbuild/lexers.ml" 739 43816 43853
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+)
+"ocamlbuild/lexers.ml" 739 43816 43847 "ocamlbuild/lexers.ml" 739 43816 43873
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 739 43816 43818 "ocamlbuild/lexers.ml" 739 43816 43873
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 740 43876 43878 "ocamlbuild/lexers.ml" 740 43876 43920
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_or_blank_sep_strings_rec "ocamlbuild/lexers.ml" 741 43931 43935 "ocamlbuild/lexers.ml" 741 43931 43977
+)
+"ocamlbuild/lexers.ml" 740 43876 43921 "ocamlbuild/lexers.ml" 740 43876 43927
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 736 43634 43665 "ocamlbuild/lexers.ml" 736 43634 43671
+)
+"ocamlbuild/lexers.ml" 740 43876 43928 "ocamlbuild/lexers.ml" 740 43876 43930
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 740 43876 43878 "ocamlbuild/lexers.ml" 740 43876 43930
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 739 43816 43818 "ocamlbuild/lexers.ml" 740 43876 43930
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 738 43756 43758 "ocamlbuild/lexers.ml" 740 43876 43930
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 737 43674 43676 "ocamlbuild/lexers.ml" 740 43876 43930
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 741 43931 43935 "ocamlbuild/lexers.ml" 741 43931 43977
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_comma_or_blank_sep_strings_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 741 43931 43985 "ocamlbuild/lexers.ml" 773 44977 45103
+)
+"ocamlbuild/lexers.ml" 741 43931 43985 "ocamlbuild/lexers.ml" 741 43931 44002
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 742 44005 44007 "ocamlbuild/lexers.ml" 773 44977 45103
+)
+"ocamlbuild/lexers.ml" 742 44005 44013 "ocamlbuild/lexers.ml" 742 44005 44030
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 742 44005 44031 "ocamlbuild/lexers.ml" 742 44005 44049
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 742 44005 44050 "ocamlbuild/lexers.ml" 742 44005 44067
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 741 43931 43985 "ocamlbuild/lexers.ml" 741 43931 44002
+)
+"ocamlbuild/lexers.ml" 742 44005 44068 "ocamlbuild/lexers.ml" 742 44005 44074
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 742 44005 44013 "ocamlbuild/lexers.ml" 742 44005 44074
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 743 44080 44088 "ocamlbuild/lexers.ml" 743 44080 44089
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 78 44126 44162 "ocamlbuild/lexers.mll" 78 44126 44166
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 748 44196 44198 "ocamlbuild/lexers.ml" 748 44196 44215
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 748 44196 44216 "ocamlbuild/lexers.ml" 748 44196 44222
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 748 44196 44223 "ocamlbuild/lexers.ml" 748 44196 44229
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 748 44196 44223 "ocamlbuild/lexers.ml" 748 44196 44244
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 748 44196 44246 "ocamlbuild/lexers.ml" 748 44196 44247
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 748 44196 44223 "ocamlbuild/lexers.ml" 748 44196 44248
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 748 44196 44249 "ocamlbuild/lexers.ml" 748 44196 44255
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 748 44196 44249 "ocamlbuild/lexers.ml" 748 44196 44270
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 748 44196 44272 "ocamlbuild/lexers.ml" 748 44196 44273
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 748 44196 44249 "ocamlbuild/lexers.ml" 748 44196 44274
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 748 44196 44198 "ocamlbuild/lexers.ml" 748 44196 44274
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 78 44307 44363 "ocamlbuild/lexers.mll" 78 44307 44367
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 78 44126 44162 "ocamlbuild/lexers.mll" 78 44126 44166
+)
+"ocamlbuild/lexers.mll" 78 44307 44360 "ocamlbuild/lexers.mll" 78 44307 44370
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 744 44093 44093 "ocamlbuild/lexers.mll" 78 44307 44370
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 753 44401 44405 "ocamlbuild/lexers.ml" 753 44401 44406
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 79 44443 44479 "ocamlbuild/lexers.mll" 79 44443 44483
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 758 44513 44515 "ocamlbuild/lexers.ml" 758 44513 44532
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 758 44513 44533 "ocamlbuild/lexers.ml" 758 44513 44539
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 758 44513 44540 "ocamlbuild/lexers.ml" 758 44513 44546
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 758 44513 44540 "ocamlbuild/lexers.ml" 758 44513 44561
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 758 44513 44563 "ocamlbuild/lexers.ml" 758 44513 44564
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 758 44513 44540 "ocamlbuild/lexers.ml" 758 44513 44565
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 758 44513 44566 "ocamlbuild/lexers.ml" 758 44513 44572
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 758 44513 44566 "ocamlbuild/lexers.ml" 758 44513 44592
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 758 44513 44515 "ocamlbuild/lexers.ml" 758 44513 44592
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 79 44625 44669 "ocamlbuild/lexers.mll" 79 44625 44673
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 79 44443 44479 "ocamlbuild/lexers.mll" 79 44443 44483
+)
+"ocamlbuild/lexers.mll" 79 44625 44677 "ocamlbuild/lexers.mll" 79 44625 44707
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_or_blank_sep_strings_aux "ocamlbuild/lexers.ml" 775 45105 45109 "ocamlbuild/lexers.ml" 775 45105 45139
+)
+"ocamlbuild/lexers.mll" 79 44625 44708 "ocamlbuild/lexers.mll" 79 44625 44714
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.mll" 79 44625 44677 "ocamlbuild/lexers.mll" 79 44625 44714
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 79 44625 44667 "ocamlbuild/lexers.mll" 79 44625 44716
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 754 44410 44410 "ocamlbuild/lexers.mll" 79 44625 44716
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 763 44747 44751 "ocamlbuild/lexers.ml" 763 44747 44752
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 80 44785 44800 "ocamlbuild/lexers.mll" 80 44785 44806
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 768 44837 44841 "ocamlbuild/lexers.ml" 768 44837 44842
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 81 44875 44883 "ocamlbuild/lexers.mll" 81 44875 44888
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 81 44875 44896 "ocamlbuild/lexers.mll" 81 44875 44943
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 81 44875 44889 "ocamlbuild/lexers.mll" 81 44875 44944
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 81 44875 44881 "ocamlbuild/lexers.mll" 81 44875 44946
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 773 44977 44981 "ocamlbuild/lexers.ml" 773 44977 44998
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 773 44977 45002 "ocamlbuild/lexers.ml" 773 44977 45103
+)
+"ocamlbuild/lexers.ml" 773 44977 45002 "ocamlbuild/lexers.ml" 773 44977 45008
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 773 44977 45002 "ocamlbuild/lexers.ml" 773 44977 45027
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 773 44977 45028 "ocamlbuild/lexers.ml" 773 44977 45034
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 773 44977 45002 "ocamlbuild/lexers.ml" 773 44977 45034
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 773 44977 45036 "ocamlbuild/lexers.ml" 773 44977 45078
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_or_blank_sep_strings_rec "ocamlbuild/lexers.ml" 741 43931 43935 "ocamlbuild/lexers.ml" 741 43931 43977
+)
+"ocamlbuild/lexers.ml" 773 44977 45079 "ocamlbuild/lexers.ml" 773 44977 45085
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 741 43931 43978 "ocamlbuild/lexers.ml" 741 43931 43984
+)
+"ocamlbuild/lexers.ml" 773 44977 45086 "ocamlbuild/lexers.ml" 773 44977 45103
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 773 44977 44981 "ocamlbuild/lexers.ml" 773 44977 44998
+)
+"ocamlbuild/lexers.ml" 773 44977 45036 "ocamlbuild/lexers.ml" 773 44977 45103
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 773 44977 45002 "ocamlbuild/lexers.ml" 773 44977 45103
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 742 44005 44007 "ocamlbuild/lexers.ml" 773 44977 45103
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 775 45105 45109 "ocamlbuild/lexers.ml" 775 45105 45139
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def comma_or_blank_sep_strings_aux "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 775 45105 45140 "ocamlbuild/lexers.ml" 775 45105 45146
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 776 45149 45151 "ocamlbuild/lexers.ml" 778 45280 45338
+)
+"ocamlbuild/lexers.ml" 776 45149 45151 "ocamlbuild/lexers.ml" 776 45149 45157
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 775 45105 45140 "ocamlbuild/lexers.ml" 775 45105 45146
+)
+"ocamlbuild/lexers.ml" 776 45149 45176 "ocamlbuild/lexers.ml" 776 45149 45188
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 776 45149 45189 "ocamlbuild/lexers.ml" 776 45149 45190
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 776 45149 45191 "ocamlbuild/lexers.ml" 776 45149 45195
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 776 45149 45176 "ocamlbuild/lexers.ml" 776 45149 45195
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 776 45149 45151 "ocamlbuild/lexers.ml" 776 45149 45195
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 777 45220 45222 "ocamlbuild/lexers.ml" 777 45220 45228
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 775 45105 45140 "ocamlbuild/lexers.ml" 775 45105 45146
+)
+"ocamlbuild/lexers.ml" 777 45220 45222 "ocamlbuild/lexers.ml" 777 45220 45243
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 777 45220 45245 "ocamlbuild/lexers.ml" 777 45220 45246
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 777 45220 45251 "ocamlbuild/lexers.ml" 777 45220 45257
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 775 45105 45140 "ocamlbuild/lexers.ml" 775 45105 45146
+)
+"ocamlbuild/lexers.ml" 777 45220 45251 "ocamlbuild/lexers.ml" 777 45220 45277
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 777 45220 45222 "ocamlbuild/lexers.ml" 777 45220 45277
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 778 45280 45282 "ocamlbuild/lexers.ml" 778 45280 45328
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_or_blank_sep_strings_aux_rec "ocamlbuild/lexers.ml" 779 45339 45343 "ocamlbuild/lexers.ml" 779 45339 45389
+)
+"ocamlbuild/lexers.ml" 778 45280 45329 "ocamlbuild/lexers.ml" 778 45280 45335
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 775 45105 45140 "ocamlbuild/lexers.ml" 775 45105 45146
+)
+"ocamlbuild/lexers.ml" 778 45280 45336 "ocamlbuild/lexers.ml" 778 45280 45338
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 778 45280 45282 "ocamlbuild/lexers.ml" 778 45280 45338
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 777 45220 45222 "ocamlbuild/lexers.ml" 778 45280 45338
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 776 45149 45151 "ocamlbuild/lexers.ml" 778 45280 45338
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 779 45339 45343 "ocamlbuild/lexers.ml" 779 45339 45389
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_comma_or_blank_sep_strings_aux_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 779 45339 45397 "ocamlbuild/lexers.ml" 811 46440 46570
+)
+"ocamlbuild/lexers.ml" 779 45339 45397 "ocamlbuild/lexers.ml" 779 45339 45414
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 780 45417 45419 "ocamlbuild/lexers.ml" 811 46440 46570
+)
+"ocamlbuild/lexers.ml" 780 45417 45425 "ocamlbuild/lexers.ml" 780 45417 45442
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 780 45417 45443 "ocamlbuild/lexers.ml" 780 45417 45461
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 780 45417 45462 "ocamlbuild/lexers.ml" 780 45417 45479
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 779 45339 45397 "ocamlbuild/lexers.ml" 779 45339 45414
+)
+"ocamlbuild/lexers.ml" 780 45417 45480 "ocamlbuild/lexers.ml" 780 45417 45486
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 780 45417 45425 "ocamlbuild/lexers.ml" 780 45417 45486
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 781 45492 45500 "ocamlbuild/lexers.ml" 781 45492 45501
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 83 45538 45585 "ocamlbuild/lexers.mll" 83 45538 45589
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 786 45619 45621 "ocamlbuild/lexers.ml" 786 45619 45638
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 786 45619 45639 "ocamlbuild/lexers.ml" 786 45619 45645
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 786 45619 45646 "ocamlbuild/lexers.ml" 786 45619 45652
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 786 45619 45646 "ocamlbuild/lexers.ml" 786 45619 45667
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 786 45619 45669 "ocamlbuild/lexers.ml" 786 45619 45670
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 786 45619 45646 "ocamlbuild/lexers.ml" 786 45619 45671
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 786 45619 45672 "ocamlbuild/lexers.ml" 786 45619 45678
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 786 45619 45672 "ocamlbuild/lexers.ml" 786 45619 45698
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 786 45619 45621 "ocamlbuild/lexers.ml" 786 45619 45698
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 83 45731 45786 "ocamlbuild/lexers.mll" 83 45731 45790
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 83 45538 45585 "ocamlbuild/lexers.mll" 83 45538 45589
+)
+"ocamlbuild/lexers.mll" 83 45731 45794 "ocamlbuild/lexers.mll" 83 45731 45824
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_or_blank_sep_strings_aux "ocamlbuild/lexers.ml" 775 45105 45109 "ocamlbuild/lexers.ml" 775 45105 45139
+)
+"ocamlbuild/lexers.mll" 83 45731 45825 "ocamlbuild/lexers.mll" 83 45731 45831
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.mll" 83 45731 45794 "ocamlbuild/lexers.mll" 83 45731 45831
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 83 45731 45784 "ocamlbuild/lexers.mll" 83 45731 45833
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 782 45505 45505 "ocamlbuild/lexers.mll" 83 45731 45833
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 791 45864 45868 "ocamlbuild/lexers.ml" 791 45864 45869
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 84 45906 45942 "ocamlbuild/lexers.mll" 84 45906 45946
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 796 45976 45978 "ocamlbuild/lexers.ml" 796 45976 45995
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 796 45976 45996 "ocamlbuild/lexers.ml" 796 45976 46002
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 796 45976 46003 "ocamlbuild/lexers.ml" 796 45976 46009
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 796 45976 46003 "ocamlbuild/lexers.ml" 796 45976 46024
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 796 45976 46026 "ocamlbuild/lexers.ml" 796 45976 46027
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 796 45976 46003 "ocamlbuild/lexers.ml" 796 45976 46028
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 796 45976 46029 "ocamlbuild/lexers.ml" 796 45976 46035
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 796 45976 46029 "ocamlbuild/lexers.ml" 796 45976 46055
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 796 45976 45978 "ocamlbuild/lexers.ml" 796 45976 46055
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 84 46088 46132 "ocamlbuild/lexers.mll" 84 46088 46136
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 84 45906 45942 "ocamlbuild/lexers.mll" 84 45906 45946
+)
+"ocamlbuild/lexers.mll" 84 46088 46140 "ocamlbuild/lexers.mll" 84 46088 46170
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref comma_or_blank_sep_strings_aux "ocamlbuild/lexers.ml" 775 45105 45109 "ocamlbuild/lexers.ml" 775 45105 45139
+)
+"ocamlbuild/lexers.mll" 84 46088 46171 "ocamlbuild/lexers.mll" 84 46088 46177
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.mll" 84 46088 46140 "ocamlbuild/lexers.mll" 84 46088 46177
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 84 46088 46130 "ocamlbuild/lexers.mll" 84 46088 46179
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 792 45873 45873 "ocamlbuild/lexers.mll" 84 46088 46179
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 801 46210 46214 "ocamlbuild/lexers.ml" 801 46210 46215
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 85 46248 46263 "ocamlbuild/lexers.mll" 85 46248 46269
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 806 46300 46304 "ocamlbuild/lexers.ml" 806 46300 46305
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 86 46338 46346 "ocamlbuild/lexers.mll" 86 46338 46351
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 86 46338 46359 "ocamlbuild/lexers.mll" 86 46338 46406
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 86 46338 46352 "ocamlbuild/lexers.mll" 86 46338 46407
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 86 46338 46344 "ocamlbuild/lexers.mll" 86 46338 46409
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 811 46440 46444 "ocamlbuild/lexers.ml" 811 46440 46461
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 811 46440 46465 "ocamlbuild/lexers.ml" 811 46440 46570
+)
+"ocamlbuild/lexers.ml" 811 46440 46465 "ocamlbuild/lexers.ml" 811 46440 46471
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 811 46440 46465 "ocamlbuild/lexers.ml" 811 46440 46490
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 811 46440 46491 "ocamlbuild/lexers.ml" 811 46440 46497
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 811 46440 46465 "ocamlbuild/lexers.ml" 811 46440 46497
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 811 46440 46499 "ocamlbuild/lexers.ml" 811 46440 46545
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_comma_or_blank_sep_strings_aux_rec "ocamlbuild/lexers.ml" 779 45339 45343 "ocamlbuild/lexers.ml" 779 45339 45389
+)
+"ocamlbuild/lexers.ml" 811 46440 46546 "ocamlbuild/lexers.ml" 811 46440 46552
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 779 45339 45390 "ocamlbuild/lexers.ml" 779 45339 45396
+)
+"ocamlbuild/lexers.ml" 811 46440 46553 "ocamlbuild/lexers.ml" 811 46440 46570
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 811 46440 46444 "ocamlbuild/lexers.ml" 811 46440 46461
+)
+"ocamlbuild/lexers.ml" 811 46440 46499 "ocamlbuild/lexers.ml" 811 46440 46570
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 811 46440 46465 "ocamlbuild/lexers.ml" 811 46440 46570
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 780 45417 45419 "ocamlbuild/lexers.ml" 811 46440 46570
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 813 46572 46576 "ocamlbuild/lexers.ml" 813 46572 46593
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def colon_sep_strings "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 813 46572 46594 "ocamlbuild/lexers.ml" 813 46572 46600
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 814 46603 46607 "ocamlbuild/lexers.ml" 814 46603 46650
+)
+"ocamlbuild/lexers.ml" 814 46603 46607 "ocamlbuild/lexers.ml" 814 46603 46640
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_colon_sep_strings_rec "ocamlbuild/lexers.ml" 815 46651 46655 "ocamlbuild/lexers.ml" 815 46651 46688
+)
+"ocamlbuild/lexers.ml" 814 46603 46641 "ocamlbuild/lexers.ml" 814 46603 46647
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 813 46572 46594 "ocamlbuild/lexers.ml" 813 46572 46600
+)
+"ocamlbuild/lexers.ml" 814 46603 46648 "ocamlbuild/lexers.ml" 814 46603 46650
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 814 46603 46607 "ocamlbuild/lexers.ml" 814 46603 46650
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 815 46651 46655 "ocamlbuild/lexers.ml" 815 46651 46688
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_colon_sep_strings_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 815 46651 46696 "ocamlbuild/lexers.ml" 847 47582 47699
+)
+"ocamlbuild/lexers.ml" 815 46651 46696 "ocamlbuild/lexers.ml" 815 46651 46713
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 816 46716 46718 "ocamlbuild/lexers.ml" 847 47582 47699
+)
+"ocamlbuild/lexers.ml" 816 46716 46724 "ocamlbuild/lexers.ml" 816 46716 46737
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"ocamlbuild/lexers.ml" 816 46716 46738 "ocamlbuild/lexers.ml" 816 46716 46756
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 816 46716 46757 "ocamlbuild/lexers.ml" 816 46716 46774
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 815 46651 46696 "ocamlbuild/lexers.ml" 815 46651 46713
+)
+"ocamlbuild/lexers.ml" 816 46716 46775 "ocamlbuild/lexers.ml" 816 46716 46781
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 816 46716 46724 "ocamlbuild/lexers.ml" 816 46716 46781
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 817 46787 46795 "ocamlbuild/lexers.ml" 817 46787 46796
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 89 46833 46850 "ocamlbuild/lexers.mll" 89 46833 46854
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 822 46884 46886 "ocamlbuild/lexers.ml" 822 46884 46903
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 822 46884 46904 "ocamlbuild/lexers.ml" 822 46884 46910
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 822 46884 46911 "ocamlbuild/lexers.ml" 822 46884 46917
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 822 46884 46911 "ocamlbuild/lexers.ml" 822 46884 46938
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 822 46884 46939 "ocamlbuild/lexers.ml" 822 46884 46945
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 822 46884 46939 "ocamlbuild/lexers.ml" 822 46884 46965
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 822 46884 46886 "ocamlbuild/lexers.ml" 822 46884 46965
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 89 46998 47028 "ocamlbuild/lexers.mll" 89 46998 47032
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 89 46833 46850 "ocamlbuild/lexers.mll" 89 46833 46854
+)
+"ocamlbuild/lexers.mll" 89 46998 47025 "ocamlbuild/lexers.mll" 89 46998 47035
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 818 46800 46800 "ocamlbuild/lexers.mll" 89 46998 47035
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 827 47066 47070 "ocamlbuild/lexers.ml" 827 47066 47071
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 90 47108 47125 "ocamlbuild/lexers.mll" 90 47108 47129
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 832 47159 47161 "ocamlbuild/lexers.ml" 832 47159 47178
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 832 47159 47179 "ocamlbuild/lexers.ml" 832 47159 47185
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 832 47159 47186 "ocamlbuild/lexers.ml" 832 47159 47192
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 832 47159 47186 "ocamlbuild/lexers.ml" 832 47159 47213
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 832 47159 47214 "ocamlbuild/lexers.ml" 832 47159 47220
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 832 47159 47214 "ocamlbuild/lexers.ml" 832 47159 47240
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 832 47159 47161 "ocamlbuild/lexers.ml" 832 47159 47240
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 90 47273 47298 "ocamlbuild/lexers.mll" 90 47273 47302
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 90 47108 47125 "ocamlbuild/lexers.mll" 90 47108 47129
+)
+"ocamlbuild/lexers.mll" 90 47273 47306 "ocamlbuild/lexers.mll" 90 47273 47327
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref colon_sep_strings_aux "ocamlbuild/lexers.ml" 849 47701 47705 "ocamlbuild/lexers.ml" 849 47701 47726
+)
+"ocamlbuild/lexers.mll" 90 47273 47328 "ocamlbuild/lexers.mll" 90 47273 47334
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.mll" 90 47273 47306 "ocamlbuild/lexers.mll" 90 47273 47334
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 90 47273 47296 "ocamlbuild/lexers.mll" 90 47273 47336
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 828 47075 47075 "ocamlbuild/lexers.mll" 90 47273 47336
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 837 47367 47371 "ocamlbuild/lexers.ml" 837 47367 47372
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 91 47405 47413 "ocamlbuild/lexers.mll" 91 47405 47419
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 842 47450 47454 "ocamlbuild/lexers.ml" 842 47450 47455
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 92 47488 47496 "ocamlbuild/lexers.mll" 92 47488 47501
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 92 47488 47509 "ocamlbuild/lexers.mll" 92 47488 47548
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 92 47488 47502 "ocamlbuild/lexers.mll" 92 47488 47549
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 92 47488 47494 "ocamlbuild/lexers.mll" 92 47488 47551
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 847 47582 47586 "ocamlbuild/lexers.ml" 847 47582 47603
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 847 47582 47607 "ocamlbuild/lexers.ml" 847 47582 47699
+)
+"ocamlbuild/lexers.ml" 847 47582 47607 "ocamlbuild/lexers.ml" 847 47582 47613
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 847 47582 47607 "ocamlbuild/lexers.ml" 847 47582 47632
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 847 47582 47633 "ocamlbuild/lexers.ml" 847 47582 47639
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 847 47582 47607 "ocamlbuild/lexers.ml" 847 47582 47639
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 847 47582 47641 "ocamlbuild/lexers.ml" 847 47582 47674
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_colon_sep_strings_rec "ocamlbuild/lexers.ml" 815 46651 46655 "ocamlbuild/lexers.ml" 815 46651 46688
+)
+"ocamlbuild/lexers.ml" 847 47582 47675 "ocamlbuild/lexers.ml" 847 47582 47681
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 815 46651 46689 "ocamlbuild/lexers.ml" 815 46651 46695
+)
+"ocamlbuild/lexers.ml" 847 47582 47682 "ocamlbuild/lexers.ml" 847 47582 47699
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 847 47582 47586 "ocamlbuild/lexers.ml" 847 47582 47603
+)
+"ocamlbuild/lexers.ml" 847 47582 47641 "ocamlbuild/lexers.ml" 847 47582 47699
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 847 47582 47607 "ocamlbuild/lexers.ml" 847 47582 47699
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 816 46716 46718 "ocamlbuild/lexers.ml" 847 47582 47699
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 849 47701 47705 "ocamlbuild/lexers.ml" 849 47701 47726
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  def colon_sep_strings_aux "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 849 47701 47727 "ocamlbuild/lexers.ml" 849 47701 47733
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 850 47736 47738 "ocamlbuild/lexers.ml" 850 47736 47834
+)
+"ocamlbuild/lexers.ml" 850 47736 47738 "ocamlbuild/lexers.ml" 850 47736 47744
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 849 47701 47727 "ocamlbuild/lexers.ml" 849 47701 47733
+)
+"ocamlbuild/lexers.ml" 850 47736 47763 "ocamlbuild/lexers.ml" 850 47736 47775
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 850 47736 47776 "ocamlbuild/lexers.ml" 850 47736 47777
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 850 47736 47778 "ocamlbuild/lexers.ml" 850 47736 47782
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 850 47736 47763 "ocamlbuild/lexers.ml" 850 47736 47782
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 850 47736 47738 "ocamlbuild/lexers.ml" 850 47736 47782
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 850 47736 47787 "ocamlbuild/lexers.ml" 850 47736 47824
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_colon_sep_strings_aux_rec "ocamlbuild/lexers.ml" 851 47835 47839 "ocamlbuild/lexers.ml" 851 47835 47876
+)
+"ocamlbuild/lexers.ml" 850 47736 47825 "ocamlbuild/lexers.ml" 850 47736 47831
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 849 47701 47727 "ocamlbuild/lexers.ml" 849 47701 47733
+)
+"ocamlbuild/lexers.ml" 850 47736 47832 "ocamlbuild/lexers.ml" 850 47736 47834
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 850 47736 47787 "ocamlbuild/lexers.ml" 850 47736 47834
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 850 47736 47738 "ocamlbuild/lexers.ml" 850 47736 47834
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 851 47835 47839 "ocamlbuild/lexers.ml" 851 47835 47876
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  def __ocaml_lex_colon_sep_strings_aux_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 851 47835 47884 "ocamlbuild/lexers.ml" 873 48507 48628
+)
+"ocamlbuild/lexers.ml" 851 47835 47884 "ocamlbuild/lexers.ml" 851 47835 47901
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 852 47904 47906 "ocamlbuild/lexers.ml" 873 48507 48628
+)
+"ocamlbuild/lexers.ml" 852 47904 47912 "ocamlbuild/lexers.ml" 852 47904 47929
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 852 47904 47930 "ocamlbuild/lexers.ml" 852 47904 47948
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 852 47904 47949 "ocamlbuild/lexers.ml" 852 47904 47966
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 851 47835 47884 "ocamlbuild/lexers.ml" 851 47835 47901
+)
+"ocamlbuild/lexers.ml" 852 47904 47967 "ocamlbuild/lexers.ml" 852 47904 47973
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 852 47904 47912 "ocamlbuild/lexers.ml" 852 47904 47973
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 853 47979 47987 "ocamlbuild/lexers.ml" 853 47979 47988
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 94 48025 48047 "ocamlbuild/lexers.mll" 94 48025 48051
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 858 48081 48083 "ocamlbuild/lexers.ml" 858 48081 48100
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 858 48081 48101 "ocamlbuild/lexers.ml" 858 48081 48107
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 858 48081 48108 "ocamlbuild/lexers.ml" 858 48081 48114
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 858 48081 48108 "ocamlbuild/lexers.ml" 858 48081 48129
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 858 48081 48131 "ocamlbuild/lexers.ml" 858 48081 48132
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 858 48081 48108 "ocamlbuild/lexers.ml" 858 48081 48133
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 858 48081 48134 "ocamlbuild/lexers.ml" 858 48081 48140
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 858 48081 48134 "ocamlbuild/lexers.ml" 858 48081 48160
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 858 48081 48083 "ocamlbuild/lexers.ml" 858 48081 48160
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 94 48193 48223 "ocamlbuild/lexers.mll" 94 48193 48227
+type(
+  string
+)
+ident(
+  int_ref word "ocamlbuild/lexers.mll" 94 48025 48047 "ocamlbuild/lexers.mll" 94 48025 48051
+)
+"ocamlbuild/lexers.mll" 94 48193 48231 "ocamlbuild/lexers.mll" 94 48193 48252
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  int_ref colon_sep_strings_aux "ocamlbuild/lexers.ml" 849 47701 47705 "ocamlbuild/lexers.ml" 849 47701 47726
+)
+"ocamlbuild/lexers.mll" 94 48193 48253 "ocamlbuild/lexers.mll" 94 48193 48259
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.mll" 94 48193 48231 "ocamlbuild/lexers.mll" 94 48193 48259
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 94 48193 48221 "ocamlbuild/lexers.mll" 94 48193 48261
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 854 47992 47992 "ocamlbuild/lexers.mll" 94 48193 48261
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 863 48292 48296 "ocamlbuild/lexers.ml" 863 48292 48297
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 95 48330 48338 "ocamlbuild/lexers.mll" 95 48330 48344
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 868 48375 48379 "ocamlbuild/lexers.ml" 868 48375 48380
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 96 48413 48421 "ocamlbuild/lexers.mll" 96 48413 48426
+type(
+  exn -> string list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 96 48413 48434 "ocamlbuild/lexers.mll" 96 48413 48473
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 96 48413 48427 "ocamlbuild/lexers.mll" 96 48413 48474
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 96 48413 48419 "ocamlbuild/lexers.mll" 96 48413 48476
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 873 48507 48511 "ocamlbuild/lexers.ml" 873 48507 48528
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 873 48507 48532 "ocamlbuild/lexers.ml" 873 48507 48628
+)
+"ocamlbuild/lexers.ml" 873 48507 48532 "ocamlbuild/lexers.ml" 873 48507 48538
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 873 48507 48532 "ocamlbuild/lexers.ml" 873 48507 48557
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 873 48507 48558 "ocamlbuild/lexers.ml" 873 48507 48564
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 873 48507 48532 "ocamlbuild/lexers.ml" 873 48507 48564
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 873 48507 48566 "ocamlbuild/lexers.ml" 873 48507 48603
+type(
+  Lexing.lexbuf -> int -> string list
+)
+ident(
+  int_ref __ocaml_lex_colon_sep_strings_aux_rec "ocamlbuild/lexers.ml" 851 47835 47839 "ocamlbuild/lexers.ml" 851 47835 47876
+)
+"ocamlbuild/lexers.ml" 873 48507 48604 "ocamlbuild/lexers.ml" 873 48507 48610
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 851 47835 47877 "ocamlbuild/lexers.ml" 851 47835 47883
+)
+"ocamlbuild/lexers.ml" 873 48507 48611 "ocamlbuild/lexers.ml" 873 48507 48628
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 873 48507 48511 "ocamlbuild/lexers.ml" 873 48507 48528
+)
+"ocamlbuild/lexers.ml" 873 48507 48566 "ocamlbuild/lexers.ml" 873 48507 48628
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 873 48507 48532 "ocamlbuild/lexers.ml" 873 48507 48628
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 852 47904 47906 "ocamlbuild/lexers.ml" 873 48507 48628
+type(
+  string list
+)
+"ocamlbuild/lexers.ml" 875 48630 48634 "ocamlbuild/lexers.ml" 875 48630 48644
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> (Glob.globber * conf_values) list
+)
+ident(
+  def conf_lines "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 875 48630 48645 "ocamlbuild/lexers.ml" 875 48630 48648
+type(
+  string option
+)
+ident(
+  def dir "ocamlbuild/lexers.ml" 875 48630 48649 "ocamlbuild/lexers.ml" 878 48797 48847
+)
+"ocamlbuild/lexers.ml" 875 48630 48649 "ocamlbuild/lexers.ml" 875 48630 48652
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/lexers.ml" 875 48630 48653 "ocamlbuild/lexers.ml" 878 48797 48847
+)
+"ocamlbuild/lexers.ml" 875 48630 48653 "ocamlbuild/lexers.ml" 875 48630 48656
+type(
+  string
+)
+ident(
+  def err "ocamlbuild/lexers.ml" 875 48630 48657 "ocamlbuild/lexers.ml" 878 48797 48847
+)
+"ocamlbuild/lexers.ml" 875 48630 48657 "ocamlbuild/lexers.ml" 875 48630 48663
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 876 48666 48668 "ocamlbuild/lexers.ml" 878 48797 48847
+)
+"ocamlbuild/lexers.ml" 876 48666 48668 "ocamlbuild/lexers.ml" 876 48666 48674
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 875 48630 48657 "ocamlbuild/lexers.ml" 875 48630 48663
+)
+"ocamlbuild/lexers.ml" 876 48666 48693 "ocamlbuild/lexers.ml" 876 48666 48705
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 876 48666 48706 "ocamlbuild/lexers.ml" 876 48666 48707
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 876 48666 48708 "ocamlbuild/lexers.ml" 876 48666 48712
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 876 48666 48693 "ocamlbuild/lexers.ml" 876 48666 48712
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 876 48666 48668 "ocamlbuild/lexers.ml" 876 48666 48712
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 877 48737 48739 "ocamlbuild/lexers.ml" 877 48737 48745
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 875 48630 48657 "ocamlbuild/lexers.ml" 875 48630 48663
+)
+"ocamlbuild/lexers.ml" 877 48737 48739 "ocamlbuild/lexers.ml" 877 48737 48760
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 877 48737 48762 "ocamlbuild/lexers.ml" 877 48737 48763
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 877 48737 48768 "ocamlbuild/lexers.ml" 877 48737 48774
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 875 48630 48657 "ocamlbuild/lexers.ml" 875 48630 48663
+)
+"ocamlbuild/lexers.ml" 877 48737 48768 "ocamlbuild/lexers.ml" 877 48737 48794
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 877 48737 48739 "ocamlbuild/lexers.ml" 877 48737 48794
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 878 48797 48799 "ocamlbuild/lexers.ml" 878 48797 48825
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> int -> (Glob.globber * conf_values) list
+)
+ident(
+  int_ref __ocaml_lex_conf_lines_rec "ocamlbuild/lexers.ml" 879 48848 48852 "ocamlbuild/lexers.ml" 879 48848 48878
+)
+"ocamlbuild/lexers.ml" 878 48797 48826 "ocamlbuild/lexers.ml" 878 48797 48829
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/lexers.ml" 875 48630 48645 "ocamlbuild/lexers.ml" 875 48630 48648
+)
+"ocamlbuild/lexers.ml" 878 48797 48830 "ocamlbuild/lexers.ml" 878 48797 48833
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 875 48630 48649 "ocamlbuild/lexers.ml" 875 48630 48652
+)
+"ocamlbuild/lexers.ml" 878 48797 48834 "ocamlbuild/lexers.ml" 878 48797 48837
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 875 48630 48653 "ocamlbuild/lexers.ml" 875 48630 48656
+)
+"ocamlbuild/lexers.ml" 878 48797 48838 "ocamlbuild/lexers.ml" 878 48797 48844
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 875 48630 48657 "ocamlbuild/lexers.ml" 875 48630 48663
+)
+"ocamlbuild/lexers.ml" 878 48797 48845 "ocamlbuild/lexers.ml" 878 48797 48847
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 878 48797 48799 "ocamlbuild/lexers.ml" 878 48797 48847
+call(
+  tail
+)
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 877 48737 48739 "ocamlbuild/lexers.ml" 878 48797 48847
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 876 48666 48668 "ocamlbuild/lexers.ml" 878 48797 48847
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 879 48848 48852 "ocamlbuild/lexers.ml" 879 48848 48878
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> int -> (Glob.globber * conf_values) list
+)
+ident(
+  def __ocaml_lex_conf_lines_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 879 48848 48879 "ocamlbuild/lexers.ml" 879 48848 48882
+type(
+  string option
+)
+ident(
+  def dir "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 921 50129 50251
+)
+"ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 921 50129 50251
+)
+"ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+type(
+  string
+)
+ident(
+  def err "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 921 50129 50251
+)
+"ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 879 48848 48898 "ocamlbuild/lexers.ml" 921 50129 50251
+)
+"ocamlbuild/lexers.ml" 879 48848 48898 "ocamlbuild/lexers.ml" 879 48848 48915
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 880 48918 48920 "ocamlbuild/lexers.ml" 921 50129 50251
+)
+"ocamlbuild/lexers.ml" 880 48918 48926 "ocamlbuild/lexers.ml" 880 48918 48943
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 880 48918 48944 "ocamlbuild/lexers.ml" 880 48918 48962
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 880 48918 48963 "ocamlbuild/lexers.ml" 880 48918 48980
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 879 48848 48898 "ocamlbuild/lexers.ml" 879 48848 48915
+)
+"ocamlbuild/lexers.ml" 880 48918 48981 "ocamlbuild/lexers.ml" 880 48918 48987
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 880 48918 48926 "ocamlbuild/lexers.ml" 880 48918 48987
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 881 48993 49001 "ocamlbuild/lexers.ml" 881 48993 49002
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 99 49035 49073 "ocamlbuild/lexers.mll" 99 49035 49083
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> (Glob.globber * conf_values) list
+)
+ident(
+  int_ref conf_lines "ocamlbuild/lexers.ml" 875 48630 48634 "ocamlbuild/lexers.ml" 875 48630 48644
+)
+"ocamlbuild/lexers.mll" 99 49035 49084 "ocamlbuild/lexers.mll" 99 49035 49087
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/lexers.ml" 879 48848 48879 "ocamlbuild/lexers.ml" 879 48848 48882
+)
+"ocamlbuild/lexers.mll" 99 49035 49089 "ocamlbuild/lexers.mll" 99 49035 49092
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.mll" 99 49035 49093 "ocamlbuild/lexers.mll" 99 49035 49094
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.mll" 99 49035 49095 "ocamlbuild/lexers.mll" 99 49035 49096
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 99 49035 49088 "ocamlbuild/lexers.mll" 99 49035 49097
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 99 49035 49098 "ocamlbuild/lexers.mll" 99 49035 49101
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.mll" 99 49035 49102 "ocamlbuild/lexers.mll" 99 49035 49108
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.mll" 99 49035 49071 "ocamlbuild/lexers.mll" 99 49035 49110
+call(
+  tail
+)
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 886 49141 49145 "ocamlbuild/lexers.ml" 886 49141 49146
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 100 49180 49212 "ocamlbuild/lexers.mll" 100 49180 49218
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 891 49249 49253 "ocamlbuild/lexers.ml" 891 49249 49254
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 101 49288 49309 "ocamlbuild/lexers.mll" 101 49288 49319
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> (Glob.globber * conf_values) list
+)
+ident(
+  int_ref conf_lines "ocamlbuild/lexers.ml" 875 48630 48634 "ocamlbuild/lexers.ml" 875 48630 48644
+)
+"ocamlbuild/lexers.mll" 101 49288 49320 "ocamlbuild/lexers.mll" 101 49288 49323
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/lexers.ml" 879 48848 48879 "ocamlbuild/lexers.ml" 879 48848 48882
+)
+"ocamlbuild/lexers.mll" 101 49288 49325 "ocamlbuild/lexers.mll" 101 49288 49328
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.mll" 101 49288 49329 "ocamlbuild/lexers.mll" 101 49288 49330
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.mll" 101 49288 49331 "ocamlbuild/lexers.mll" 101 49288 49332
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 101 49288 49324 "ocamlbuild/lexers.mll" 101 49288 49333
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 101 49288 49334 "ocamlbuild/lexers.mll" 101 49288 49337
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.mll" 101 49288 49338 "ocamlbuild/lexers.mll" 101 49288 49344
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.mll" 101 49288 49307 "ocamlbuild/lexers.mll" 101 49288 49346
+call(
+  tail
+)
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 896 49377 49381 "ocamlbuild/lexers.ml" 896 49377 49382
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 102 49416 49431 "ocamlbuild/lexers.mll" 102 49416 49437
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 901 49468 49472 "ocamlbuild/lexers.ml" 901 49468 49473
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 103 49511 49549 "ocamlbuild/lexers.mll" 103 49511 49550
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 906 49580 49582 "ocamlbuild/lexers.ml" 906 49580 49599
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 906 49580 49600 "ocamlbuild/lexers.ml" 906 49580 49606
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 906 49580 49607 "ocamlbuild/lexers.ml" 906 49580 49613
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 906 49580 49607 "ocamlbuild/lexers.ml" 906 49580 49628
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 906 49580 49630 "ocamlbuild/lexers.ml" 906 49580 49631
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 906 49580 49607 "ocamlbuild/lexers.ml" 906 49580 49632
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 906 49580 49633 "ocamlbuild/lexers.ml" 906 49580 49639
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 906 49580 49633 "ocamlbuild/lexers.ml" 906 49580 49654
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 906 49580 49656 "ocamlbuild/lexers.ml" 906 49580 49657
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 906 49580 49633 "ocamlbuild/lexers.ml" 906 49580 49658
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 906 49580 49582 "ocamlbuild/lexers.ml" 906 49580 49658
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 105 49700 49712 "ocamlbuild/lexers.mll" 105 49700 49717
+type(
+  Glob.globber
+)
+"ocamlbuild/lexers.mll" 105 49700 49720 "ocamlbuild/lexers.mll" 105 49700 49730
+type(
+  ?dir:string -> string -> Glob.globber
+)
+ident(
+  ext_ref Glob.parse
+)
+"ocamlbuild/lexers.mll" 105 49700 49732 "ocamlbuild/lexers.mll" 105 49700 49735
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/lexers.ml" 879 48848 48879 "ocamlbuild/lexers.ml" 879 48848 48882
+)
+"ocamlbuild/lexers.mll" 105 49700 49736 "ocamlbuild/lexers.mll" 105 49700 49737
+type(
+  string
+)
+ident(
+  int_ref k "ocamlbuild/lexers.mll" 103 49511 49549 "ocamlbuild/lexers.mll" 103 49511 49550
+)
+"ocamlbuild/lexers.mll" 105 49700 49720 "ocamlbuild/lexers.mll" 105 49700 49737
+call(
+  stack
+)
+type(
+  Glob.globber
+)
+"ocamlbuild/lexers.mll" 106 49741 49753 "ocamlbuild/lexers.mll" 106 49741 49755
+type(
+  conf_values
+)
+"ocamlbuild/lexers.mll" 106 49741 49758 "ocamlbuild/lexers.mll" 106 49741 49768
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> conf_values
+)
+ident(
+  int_ref conf_value "ocamlbuild/lexers.ml" 923 50253 50257 "ocamlbuild/lexers.ml" 923 50253 50267
+)
+"ocamlbuild/lexers.mll" 106 49741 49769 "ocamlbuild/lexers.mll" 106 49741 49772
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.mll" 106 49741 49773 "ocamlbuild/lexers.mll" 106 49741 49776
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.mll" 106 49741 49777 "ocamlbuild/lexers.mll" 106 49741 49782
+type(
+  conf_values
+)
+ident(
+  int_ref empty "ocamlbuild/lexers.mll" 26 286 290 "ocamlbuild/lexers.mll" 26 286 295
+)
+"ocamlbuild/lexers.mll" 106 49741 49783 "ocamlbuild/lexers.mll" 106 49741 49789
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.mll" 106 49741 49758 "ocamlbuild/lexers.mll" 106 49741 49789
+call(
+  stack
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.mll" 107 49793 49805 "ocamlbuild/lexers.mll" 107 49793 49807
+type(
+  conf_values
+)
+"ocamlbuild/lexers.mll" 107 49793 49810 "ocamlbuild/lexers.mll" 107 49793 49821
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> conf_values
+)
+ident(
+  int_ref conf_values "ocamlbuild/lexers.ml" 987 52727 52731 "ocamlbuild/lexers.ml" 987 52727 52742
+)
+"ocamlbuild/lexers.mll" 107 49793 49822 "ocamlbuild/lexers.mll" 107 49793 49825
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.mll" 107 49793 49826 "ocamlbuild/lexers.mll" 107 49793 49829
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.mll" 107 49793 49830 "ocamlbuild/lexers.mll" 107 49793 49832
+type(
+  conf_values
+)
+ident(
+  int_ref v1 "ocamlbuild/lexers.mll" 106 49741 49753 "ocamlbuild/lexers.mll" 106 49741 49755
+)
+"ocamlbuild/lexers.mll" 107 49793 49833 "ocamlbuild/lexers.mll" 107 49793 49839
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.mll" 107 49793 49810 "ocamlbuild/lexers.mll" 107 49793 49839
+call(
+  stack
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.mll" 108 49843 49855 "ocamlbuild/lexers.mll" 108 49843 49859
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.mll" 108 49843 49862 "ocamlbuild/lexers.mll" 108 49843 49872
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> (Glob.globber * conf_values) list
+)
+ident(
+  int_ref conf_lines "ocamlbuild/lexers.ml" 875 48630 48634 "ocamlbuild/lexers.ml" 875 48630 48644
+)
+"ocamlbuild/lexers.mll" 108 49843 49873 "ocamlbuild/lexers.mll" 108 49843 49876
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/lexers.ml" 879 48848 48879 "ocamlbuild/lexers.ml" 879 48848 48882
+)
+"ocamlbuild/lexers.mll" 108 49843 49878 "ocamlbuild/lexers.mll" 108 49843 49881
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.mll" 108 49843 49882 "ocamlbuild/lexers.mll" 108 49843 49883
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.mll" 108 49843 49884 "ocamlbuild/lexers.mll" 108 49843 49885
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 108 49843 49877 "ocamlbuild/lexers.mll" 108 49843 49886
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 108 49843 49887 "ocamlbuild/lexers.mll" 108 49843 49890
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.mll" 108 49843 49891 "ocamlbuild/lexers.mll" 108 49843 49897
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.mll" 108 49843 49862 "ocamlbuild/lexers.mll" 108 49843 49897
+call(
+  stack
+)
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.mll" 108 49843 49902 "ocamlbuild/lexers.mll" 108 49843 49907
+type(
+  Glob.globber
+)
+ident(
+  int_ref bexpr "ocamlbuild/lexers.mll" 105 49700 49712 "ocamlbuild/lexers.mll" 105 49700 49717
+)
+"ocamlbuild/lexers.mll" 108 49843 49909 "ocamlbuild/lexers.mll" 108 49843 49911
+type(
+  conf_values
+)
+ident(
+  int_ref v2 "ocamlbuild/lexers.mll" 107 49793 49805 "ocamlbuild/lexers.mll" 107 49793 49807
+)
+"ocamlbuild/lexers.mll" 108 49843 49901 "ocamlbuild/lexers.mll" 108 49843 49912
+type(
+  Glob.globber * conf_values
+)
+"ocamlbuild/lexers.mll" 108 49843 49916 "ocamlbuild/lexers.mll" 108 49843 49920
+type(
+  (Glob.globber * conf_values) list
+)
+ident(
+  int_ref rest "ocamlbuild/lexers.mll" 108 49843 49855 "ocamlbuild/lexers.mll" 108 49843 49859
+)
+"ocamlbuild/lexers.mll" 108 49843 49901 "ocamlbuild/lexers.mll" 108 49843 49920
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.mll" 108 49843 49851 "ocamlbuild/lexers.mll" 108 49843 49920
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.mll" 107 49793 49801 "ocamlbuild/lexers.mll" 108 49843 49920
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.mll" 106 49741 49749 "ocamlbuild/lexers.mll" 108 49843 49920
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.mll" 104 49692 49698 "ocamlbuild/lexers.mll" 109 49921 49928
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 902 49477 49477 "ocamlbuild/lexers.mll" 109 49921 49928
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 916 49959 49963 "ocamlbuild/lexers.ml" 916 49959 49964
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 110 49998 50006 "ocamlbuild/lexers.mll" 110 49998 50011
+type(
+  exn -> (Glob.globber * conf_values) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 110 49998 50019 "ocamlbuild/lexers.mll" 110 49998 50033
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/lexers.mll" 110 49998 50034 "ocamlbuild/lexers.mll" 110 49998 50086
+type(
+  (int -> string -> string, unit, string) format
+)
+"ocamlbuild/lexers.mll" 110 49998 50087 "ocamlbuild/lexers.mll" 110 49998 50090
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.mll" 110 49998 50091 "ocamlbuild/lexers.mll" 110 49998 50094
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.mll" 110 49998 50018 "ocamlbuild/lexers.mll" 110 49998 50095
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 110 49998 50012 "ocamlbuild/lexers.mll" 110 49998 50096
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 110 49998 50004 "ocamlbuild/lexers.mll" 110 49998 50098
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 921 50129 50133 "ocamlbuild/lexers.ml" 921 50129 50150
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 921 50129 50154 "ocamlbuild/lexers.ml" 921 50129 50251
+)
+"ocamlbuild/lexers.ml" 921 50129 50154 "ocamlbuild/lexers.ml" 921 50129 50160
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 921 50129 50154 "ocamlbuild/lexers.ml" 921 50129 50179
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 921 50129 50180 "ocamlbuild/lexers.ml" 921 50129 50186
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 921 50129 50154 "ocamlbuild/lexers.ml" 921 50129 50186
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 921 50129 50188 "ocamlbuild/lexers.ml" 921 50129 50214
+type(
+  string option ->
+  int -> string -> Lexing.lexbuf -> int -> (Glob.globber * conf_values) list
+)
+ident(
+  int_ref __ocaml_lex_conf_lines_rec "ocamlbuild/lexers.ml" 879 48848 48852 "ocamlbuild/lexers.ml" 879 48848 48878
+)
+"ocamlbuild/lexers.ml" 921 50129 50215 "ocamlbuild/lexers.ml" 921 50129 50218
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/lexers.ml" 879 48848 48879 "ocamlbuild/lexers.ml" 879 48848 48882
+)
+"ocamlbuild/lexers.ml" 921 50129 50219 "ocamlbuild/lexers.ml" 921 50129 50222
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 879 48848 48883 "ocamlbuild/lexers.ml" 879 48848 48886
+)
+"ocamlbuild/lexers.ml" 921 50129 50223 "ocamlbuild/lexers.ml" 921 50129 50226
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 879 48848 48887 "ocamlbuild/lexers.ml" 879 48848 48890
+)
+"ocamlbuild/lexers.ml" 921 50129 50227 "ocamlbuild/lexers.ml" 921 50129 50233
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 879 48848 48891 "ocamlbuild/lexers.ml" 879 48848 48897
+)
+"ocamlbuild/lexers.ml" 921 50129 50234 "ocamlbuild/lexers.ml" 921 50129 50251
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 921 50129 50133 "ocamlbuild/lexers.ml" 921 50129 50150
+)
+"ocamlbuild/lexers.ml" 921 50129 50188 "ocamlbuild/lexers.ml" 921 50129 50251
+call(
+  tail
+)
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 921 50129 50154 "ocamlbuild/lexers.ml" 921 50129 50251
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 880 48918 48920 "ocamlbuild/lexers.ml" 921 50129 50251
+type(
+  (Glob.globber * conf_values) list
+)
+"ocamlbuild/lexers.ml" 923 50253 50257 "ocamlbuild/lexers.ml" 923 50253 50267
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> conf_values
+)
+ident(
+  def conf_value "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 923 50253 50268 "ocamlbuild/lexers.ml" 923 50253 50271
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/lexers.ml" 923 50253 50272 "ocamlbuild/lexers.ml" 927 50489 50537
+)
+"ocamlbuild/lexers.ml" 923 50253 50272 "ocamlbuild/lexers.ml" 923 50253 50275
+type(
+  string
+)
+ident(
+  def err "ocamlbuild/lexers.ml" 923 50253 50276 "ocamlbuild/lexers.ml" 927 50489 50537
+)
+"ocamlbuild/lexers.ml" 923 50253 50276 "ocamlbuild/lexers.ml" 923 50253 50277
+type(
+  conf_values
+)
+ident(
+  def x "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 927 50489 50537
+)
+"ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 924 50287 50289 "ocamlbuild/lexers.ml" 927 50489 50537
+)
+"ocamlbuild/lexers.ml" 924 50287 50289 "ocamlbuild/lexers.ml" 924 50287 50295
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+)
+"ocamlbuild/lexers.ml" 924 50287 50314 "ocamlbuild/lexers.ml" 924 50287 50326
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 924 50287 50327 "ocamlbuild/lexers.ml" 924 50287 50328
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 924 50287 50329 "ocamlbuild/lexers.ml" 924 50287 50333
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 924 50287 50314 "ocamlbuild/lexers.ml" 924 50287 50333
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 924 50287 50289 "ocamlbuild/lexers.ml" 924 50287 50333
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 925 50369 50371 "ocamlbuild/lexers.ml" 925 50369 50377
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+)
+"ocamlbuild/lexers.ml" 925 50369 50371 "ocamlbuild/lexers.ml" 925 50369 50392
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 925 50369 50394 "ocamlbuild/lexers.ml" 925 50369 50395
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 925 50369 50400 "ocamlbuild/lexers.ml" 925 50369 50406
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+)
+"ocamlbuild/lexers.ml" 925 50369 50400 "ocamlbuild/lexers.ml" 925 50369 50426
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 925 50369 50371 "ocamlbuild/lexers.ml" 925 50369 50426
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 926 50429 50431 "ocamlbuild/lexers.ml" 926 50429 50437
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+)
+"ocamlbuild/lexers.ml" 926 50429 50431 "ocamlbuild/lexers.ml" 926 50429 50452
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 926 50429 50454 "ocamlbuild/lexers.ml" 926 50429 50455
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 926 50429 50460 "ocamlbuild/lexers.ml" 926 50429 50466
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+)
+"ocamlbuild/lexers.ml" 926 50429 50460 "ocamlbuild/lexers.ml" 926 50429 50486
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 926 50429 50431 "ocamlbuild/lexers.ml" 926 50429 50486
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 927 50489 50491 "ocamlbuild/lexers.ml" 927 50489 50517
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> int -> conf_values
+)
+ident(
+  int_ref __ocaml_lex_conf_value_rec "ocamlbuild/lexers.ml" 928 50538 50542 "ocamlbuild/lexers.ml" 928 50538 50568
+)
+"ocamlbuild/lexers.ml" 927 50489 50518 "ocamlbuild/lexers.ml" 927 50489 50521
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 923 50253 50268 "ocamlbuild/lexers.ml" 923 50253 50271
+)
+"ocamlbuild/lexers.ml" 927 50489 50522 "ocamlbuild/lexers.ml" 927 50489 50525
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 923 50253 50272 "ocamlbuild/lexers.ml" 923 50253 50275
+)
+"ocamlbuild/lexers.ml" 927 50489 50526 "ocamlbuild/lexers.ml" 927 50489 50527
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 923 50253 50276 "ocamlbuild/lexers.ml" 923 50253 50277
+)
+"ocamlbuild/lexers.ml" 927 50489 50528 "ocamlbuild/lexers.ml" 927 50489 50534
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 923 50253 50278 "ocamlbuild/lexers.ml" 923 50253 50284
+)
+"ocamlbuild/lexers.ml" 927 50489 50535 "ocamlbuild/lexers.ml" 927 50489 50537
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 927 50489 50491 "ocamlbuild/lexers.ml" 927 50489 50537
+call(
+  tail
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 926 50429 50431 "ocamlbuild/lexers.ml" 927 50489 50537
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 925 50369 50371 "ocamlbuild/lexers.ml" 927 50489 50537
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 924 50287 50289 "ocamlbuild/lexers.ml" 927 50489 50537
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 928 50538 50542 "ocamlbuild/lexers.ml" 928 50538 50568
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> int -> conf_values
+)
+ident(
+  def __ocaml_lex_conf_value_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 928 50538 50569 "ocamlbuild/lexers.ml" 928 50538 50572
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/lexers.ml" 928 50538 50573 "ocamlbuild/lexers.ml" 985 52605 52725
+)
+"ocamlbuild/lexers.ml" 928 50538 50573 "ocamlbuild/lexers.ml" 928 50538 50576
+type(
+  string
+)
+ident(
+  def err "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 985 52605 52725
+)
+"ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+type(
+  conf_values
+)
+ident(
+  def x "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 985 52605 52725
+)
+"ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 928 50538 50586 "ocamlbuild/lexers.ml" 985 52605 52725
+)
+"ocamlbuild/lexers.ml" 928 50538 50586 "ocamlbuild/lexers.ml" 928 50538 50603
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 929 50606 50608 "ocamlbuild/lexers.ml" 985 52605 52725
+)
+"ocamlbuild/lexers.ml" 929 50606 50614 "ocamlbuild/lexers.ml" 929 50606 50631
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 929 50606 50632 "ocamlbuild/lexers.ml" 929 50606 50650
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 929 50606 50651 "ocamlbuild/lexers.ml" 929 50606 50668
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 928 50538 50586 "ocamlbuild/lexers.ml" 928 50538 50603
+)
+"ocamlbuild/lexers.ml" 929 50606 50669 "ocamlbuild/lexers.ml" 929 50606 50675
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 929 50606 50614 "ocamlbuild/lexers.ml" 929 50606 50675
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 930 50681 50689 "ocamlbuild/lexers.ml" 930 50681 50690
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 113 50728 50751 "ocamlbuild/lexers.mll" 113 50728 50753
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 935 50783 50785 "ocamlbuild/lexers.ml" 935 50783 50802
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 935 50783 50803 "ocamlbuild/lexers.ml" 935 50783 50809
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 935 50783 50811 "ocamlbuild/lexers.ml" 935 50783 50817
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 935 50783 50811 "ocamlbuild/lexers.ml" 935 50783 50838
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 935 50783 50839 "ocamlbuild/lexers.ml" 935 50783 50840
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 935 50783 50841 "ocamlbuild/lexers.ml" 935 50783 50842
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 935 50783 50810 "ocamlbuild/lexers.ml" 935 50783 50843
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 935 50783 50844 "ocamlbuild/lexers.ml" 935 50783 50850
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 935 50783 50844 "ocamlbuild/lexers.ml" 935 50783 50865
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 935 50783 50867 "ocamlbuild/lexers.ml" 935 50783 50868
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 935 50783 50844 "ocamlbuild/lexers.ml" 935 50783 50869
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 935 50783 50785 "ocamlbuild/lexers.ml" 935 50783 50869
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 113 50904 50950 "ocamlbuild/lexers.mll" 113 50904 50952
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 940 50982 50984 "ocamlbuild/lexers.ml" 940 50982 51001
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 940 50982 51002 "ocamlbuild/lexers.ml" 940 50982 51008
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 940 50982 51010 "ocamlbuild/lexers.ml" 940 50982 51016
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 940 50982 51010 "ocamlbuild/lexers.ml" 940 50982 51031
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 940 50982 51033 "ocamlbuild/lexers.ml" 940 50982 51034
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 51010 "ocamlbuild/lexers.ml" 940 50982 51035
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 51036 "ocamlbuild/lexers.ml" 940 50982 51037
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 940 50982 51038 "ocamlbuild/lexers.ml" 940 50982 51039
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 51009 "ocamlbuild/lexers.ml" 940 50982 51040
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 51042 "ocamlbuild/lexers.ml" 940 50982 51048
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 940 50982 51042 "ocamlbuild/lexers.ml" 940 50982 51068
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 51069 "ocamlbuild/lexers.ml" 940 50982 51070
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 940 50982 51071 "ocamlbuild/lexers.ml" 940 50982 51073
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 51041 "ocamlbuild/lexers.ml" 940 50982 51074
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 940 50982 50984 "ocamlbuild/lexers.ml" 940 50982 51074
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 113 51108 51166 "ocamlbuild/lexers.mll" 113 51108 51169
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 113 51108 51190 "ocamlbuild/lexers.mll" 113 51108 51192
+type(
+  string
+)
+ident(
+  int_ref t1 "ocamlbuild/lexers.mll" 113 50728 50751 "ocamlbuild/lexers.mll" 113 50728 50753
+)
+"ocamlbuild/lexers.mll" 113 51108 51194 "ocamlbuild/lexers.mll" 113 51108 51196
+type(
+  string
+)
+ident(
+  int_ref t2 "ocamlbuild/lexers.mll" 113 50904 50950 "ocamlbuild/lexers.mll" 113 50904 50952
+)
+"ocamlbuild/lexers.mll" 113 51108 51189 "ocamlbuild/lexers.mll" 113 51108 51197
+type(
+  string * string
+)
+"ocamlbuild/lexers.mll" 113 51108 51201 "ocamlbuild/lexers.mll" 113 51108 51202
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 113 51108 51201 "ocamlbuild/lexers.mll" 113 51108 51214
+type(
+  (string * string) list
+)
+"ocamlbuild/lexers.mll" 113 51108 51189 "ocamlbuild/lexers.mll" 113 51108 51214
+type(
+  (string * string) list
+)
+"ocamlbuild/lexers.mll" 113 51108 51162 "ocamlbuild/lexers.mll" 113 51108 51218
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 931 50694 50694 "ocamlbuild/lexers.mll" 113 51108 51218
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 945 51249 51253 "ocamlbuild/lexers.ml" 945 51249 51254
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 114 51292 51315 "ocamlbuild/lexers.mll" 114 51292 51317
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 950 51347 51349 "ocamlbuild/lexers.ml" 950 51347 51366
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 950 51347 51367 "ocamlbuild/lexers.ml" 950 51347 51373
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 950 51347 51374 "ocamlbuild/lexers.ml" 950 51347 51380
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 950 51347 51374 "ocamlbuild/lexers.ml" 950 51347 51395
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 950 51347 51397 "ocamlbuild/lexers.ml" 950 51347 51398
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 950 51347 51374 "ocamlbuild/lexers.ml" 950 51347 51399
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 950 51347 51400 "ocamlbuild/lexers.ml" 950 51347 51406
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 950 51347 51400 "ocamlbuild/lexers.ml" 950 51347 51421
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 950 51347 51423 "ocamlbuild/lexers.ml" 950 51347 51424
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 950 51347 51400 "ocamlbuild/lexers.ml" 950 51347 51425
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 950 51347 51349 "ocamlbuild/lexers.ml" 950 51347 51425
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 114 51460 51506 "ocamlbuild/lexers.mll" 114 51460 51508
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 955 51538 51540 "ocamlbuild/lexers.ml" 955 51538 51557
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 955 51538 51558 "ocamlbuild/lexers.ml" 955 51538 51564
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 955 51538 51566 "ocamlbuild/lexers.ml" 955 51538 51572
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 955 51538 51566 "ocamlbuild/lexers.ml" 955 51538 51587
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 955 51538 51589 "ocamlbuild/lexers.ml" 955 51538 51590
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51566 "ocamlbuild/lexers.ml" 955 51538 51591
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51592 "ocamlbuild/lexers.ml" 955 51538 51593
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 955 51538 51594 "ocamlbuild/lexers.ml" 955 51538 51595
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51565 "ocamlbuild/lexers.ml" 955 51538 51596
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51598 "ocamlbuild/lexers.ml" 955 51538 51604
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 955 51538 51598 "ocamlbuild/lexers.ml" 955 51538 51624
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51625 "ocamlbuild/lexers.ml" 955 51538 51626
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 955 51538 51627 "ocamlbuild/lexers.ml" 955 51538 51629
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51597 "ocamlbuild/lexers.ml" 955 51538 51630
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 955 51538 51540 "ocamlbuild/lexers.ml" 955 51538 51630
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 114 51664 51722 "ocamlbuild/lexers.mll" 114 51664 51725
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 114 51664 51745 "ocamlbuild/lexers.mll" 114 51664 51747
+type(
+  string
+)
+ident(
+  int_ref t1 "ocamlbuild/lexers.mll" 114 51292 51315 "ocamlbuild/lexers.mll" 114 51292 51317
+)
+"ocamlbuild/lexers.mll" 114 51664 51749 "ocamlbuild/lexers.mll" 114 51664 51751
+type(
+  string
+)
+ident(
+  int_ref t2 "ocamlbuild/lexers.mll" 114 51460 51506 "ocamlbuild/lexers.mll" 114 51460 51508
+)
+"ocamlbuild/lexers.mll" 114 51664 51744 "ocamlbuild/lexers.mll" 114 51664 51752
+type(
+  string * string
+)
+"ocamlbuild/lexers.mll" 114 51664 51756 "ocamlbuild/lexers.mll" 114 51664 51757
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 114 51664 51756 "ocamlbuild/lexers.mll" 114 51664 51768
+type(
+  (string * string) list
+)
+"ocamlbuild/lexers.mll" 114 51664 51744 "ocamlbuild/lexers.mll" 114 51664 51768
+type(
+  (string * string) list
+)
+"ocamlbuild/lexers.mll" 114 51664 51718 "ocamlbuild/lexers.mll" 114 51664 51772
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 946 51258 51258 "ocamlbuild/lexers.mll" 114 51664 51772
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 960 51803 51807 "ocamlbuild/lexers.ml" 960 51803 51808
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 115 51846 51863 "ocamlbuild/lexers.mll" 115 51846 51866
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 965 51896 51898 "ocamlbuild/lexers.ml" 965 51896 51915
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 965 51896 51916 "ocamlbuild/lexers.ml" 965 51896 51922
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 965 51896 51924 "ocamlbuild/lexers.ml" 965 51896 51930
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 965 51896 51924 "ocamlbuild/lexers.ml" 965 51896 51951
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 965 51896 51952 "ocamlbuild/lexers.ml" 965 51896 51953
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 965 51896 51954 "ocamlbuild/lexers.ml" 965 51896 51955
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 965 51896 51923 "ocamlbuild/lexers.ml" 965 51896 51956
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 965 51896 51957 "ocamlbuild/lexers.ml" 965 51896 51963
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 965 51896 51957 "ocamlbuild/lexers.ml" 965 51896 51983
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 965 51896 51898 "ocamlbuild/lexers.ml" 965 51896 51983
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 115 52017 52043 "ocamlbuild/lexers.mll" 115 52017 52046
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 115 52017 52065 "ocamlbuild/lexers.mll" 115 52017 52068
+type(
+  string
+)
+ident(
+  int_ref tag "ocamlbuild/lexers.mll" 115 51846 51863 "ocamlbuild/lexers.mll" 115 51846 51866
+)
+"ocamlbuild/lexers.mll" 115 52017 52072 "ocamlbuild/lexers.mll" 115 52017 52073
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 115 52017 52072 "ocamlbuild/lexers.mll" 115 52017 52084
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 115 52017 52065 "ocamlbuild/lexers.mll" 115 52017 52084
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 115 52017 52039 "ocamlbuild/lexers.mll" 115 52017 52088
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 961 51812 51812 "ocamlbuild/lexers.mll" 115 52017 52088
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 970 52119 52123 "ocamlbuild/lexers.ml" 970 52119 52124
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 116 52162 52179 "ocamlbuild/lexers.mll" 116 52162 52182
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 975 52212 52214 "ocamlbuild/lexers.ml" 975 52212 52231
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 975 52212 52232 "ocamlbuild/lexers.ml" 975 52212 52238
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 975 52212 52239 "ocamlbuild/lexers.ml" 975 52212 52245
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 975 52212 52239 "ocamlbuild/lexers.ml" 975 52212 52260
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 975 52212 52262 "ocamlbuild/lexers.ml" 975 52212 52263
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 975 52212 52239 "ocamlbuild/lexers.ml" 975 52212 52264
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 975 52212 52265 "ocamlbuild/lexers.ml" 975 52212 52271
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 975 52212 52265 "ocamlbuild/lexers.ml" 975 52212 52291
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 975 52212 52214 "ocamlbuild/lexers.ml" 975 52212 52291
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 116 52325 52351 "ocamlbuild/lexers.mll" 116 52325 52354
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 116 52325 52372 "ocamlbuild/lexers.mll" 116 52325 52375
+type(
+  string
+)
+ident(
+  int_ref tag "ocamlbuild/lexers.mll" 116 52162 52179 "ocamlbuild/lexers.mll" 116 52162 52182
+)
+"ocamlbuild/lexers.mll" 116 52325 52379 "ocamlbuild/lexers.mll" 116 52325 52380
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.mll" 116 52325 52379 "ocamlbuild/lexers.mll" 116 52325 52390
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 116 52325 52372 "ocamlbuild/lexers.mll" 116 52325 52390
+type(
+  string list
+)
+"ocamlbuild/lexers.mll" 116 52325 52347 "ocamlbuild/lexers.mll" 116 52325 52394
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 971 52128 52128 "ocamlbuild/lexers.mll" 116 52325 52394
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 980 52425 52429 "ocamlbuild/lexers.ml" 980 52425 52430
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 117 52464 52480 "ocamlbuild/lexers.mll" 117 52464 52485
+type(
+  exn -> conf_values
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 117 52464 52493 "ocamlbuild/lexers.mll" 117 52464 52507
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/lexers.mll" 117 52464 52508 "ocamlbuild/lexers.mll" 117 52464 52562
+type(
+  (int -> string -> string, unit, string) format
+)
+"ocamlbuild/lexers.mll" 117 52464 52563 "ocamlbuild/lexers.mll" 117 52464 52566
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 928 50538 50569 "ocamlbuild/lexers.ml" 928 50538 50572
+)
+"ocamlbuild/lexers.mll" 117 52464 52567 "ocamlbuild/lexers.mll" 117 52464 52570
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 928 50538 50573 "ocamlbuild/lexers.ml" 928 50538 50576
+)
+"ocamlbuild/lexers.mll" 117 52464 52492 "ocamlbuild/lexers.mll" 117 52464 52571
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 117 52464 52486 "ocamlbuild/lexers.mll" 117 52464 52572
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 117 52464 52478 "ocamlbuild/lexers.mll" 117 52464 52574
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 985 52605 52609 "ocamlbuild/lexers.ml" 985 52605 52626
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 985 52605 52630 "ocamlbuild/lexers.ml" 985 52605 52725
+)
+"ocamlbuild/lexers.ml" 985 52605 52630 "ocamlbuild/lexers.ml" 985 52605 52636
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 985 52605 52630 "ocamlbuild/lexers.ml" 985 52605 52655
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 985 52605 52656 "ocamlbuild/lexers.ml" 985 52605 52662
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 985 52605 52630 "ocamlbuild/lexers.ml" 985 52605 52662
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 985 52605 52664 "ocamlbuild/lexers.ml" 985 52605 52690
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> int -> conf_values
+)
+ident(
+  int_ref __ocaml_lex_conf_value_rec "ocamlbuild/lexers.ml" 928 50538 50542 "ocamlbuild/lexers.ml" 928 50538 50568
+)
+"ocamlbuild/lexers.ml" 985 52605 52691 "ocamlbuild/lexers.ml" 985 52605 52694
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 928 50538 50569 "ocamlbuild/lexers.ml" 928 50538 50572
+)
+"ocamlbuild/lexers.ml" 985 52605 52695 "ocamlbuild/lexers.ml" 985 52605 52698
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 928 50538 50573 "ocamlbuild/lexers.ml" 928 50538 50576
+)
+"ocamlbuild/lexers.ml" 985 52605 52699 "ocamlbuild/lexers.ml" 985 52605 52700
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 928 50538 50577 "ocamlbuild/lexers.ml" 928 50538 50578
+)
+"ocamlbuild/lexers.ml" 985 52605 52701 "ocamlbuild/lexers.ml" 985 52605 52707
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 928 50538 50579 "ocamlbuild/lexers.ml" 928 50538 50585
+)
+"ocamlbuild/lexers.ml" 985 52605 52708 "ocamlbuild/lexers.ml" 985 52605 52725
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 985 52605 52609 "ocamlbuild/lexers.ml" 985 52605 52626
+)
+"ocamlbuild/lexers.ml" 985 52605 52664 "ocamlbuild/lexers.ml" 985 52605 52725
+call(
+  tail
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 985 52605 52630 "ocamlbuild/lexers.ml" 985 52605 52725
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 929 50606 50608 "ocamlbuild/lexers.ml" 985 52605 52725
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 987 52727 52731 "ocamlbuild/lexers.ml" 987 52727 52742
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> conf_values
+)
+ident(
+  def conf_values "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 987 52727 52743 "ocamlbuild/lexers.ml" 987 52727 52746
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/lexers.ml" 987 52727 52747 "ocamlbuild/lexers.ml" 988 52762 52814
+)
+"ocamlbuild/lexers.ml" 987 52727 52747 "ocamlbuild/lexers.ml" 987 52727 52750
+type(
+  string
+)
+ident(
+  def err "ocamlbuild/lexers.ml" 987 52727 52751 "ocamlbuild/lexers.ml" 988 52762 52814
+)
+"ocamlbuild/lexers.ml" 987 52727 52751 "ocamlbuild/lexers.ml" 987 52727 52752
+type(
+  conf_values
+)
+ident(
+  def x "ocamlbuild/lexers.ml" 987 52727 52753 "ocamlbuild/lexers.ml" 988 52762 52814
+)
+"ocamlbuild/lexers.ml" 987 52727 52753 "ocamlbuild/lexers.ml" 987 52727 52759
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 988 52762 52766 "ocamlbuild/lexers.ml" 988 52762 52814
+)
+"ocamlbuild/lexers.ml" 988 52762 52766 "ocamlbuild/lexers.ml" 988 52762 52793
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> int -> conf_values
+)
+ident(
+  int_ref __ocaml_lex_conf_values_rec "ocamlbuild/lexers.ml" 989 52815 52819 "ocamlbuild/lexers.ml" 989 52815 52846
+)
+"ocamlbuild/lexers.ml" 988 52762 52794 "ocamlbuild/lexers.ml" 988 52762 52797
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 987 52727 52743 "ocamlbuild/lexers.ml" 987 52727 52746
+)
+"ocamlbuild/lexers.ml" 988 52762 52798 "ocamlbuild/lexers.ml" 988 52762 52801
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 987 52727 52747 "ocamlbuild/lexers.ml" 987 52727 52750
+)
+"ocamlbuild/lexers.ml" 988 52762 52802 "ocamlbuild/lexers.ml" 988 52762 52803
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 987 52727 52751 "ocamlbuild/lexers.ml" 987 52727 52752
+)
+"ocamlbuild/lexers.ml" 988 52762 52804 "ocamlbuild/lexers.ml" 988 52762 52810
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 987 52727 52753 "ocamlbuild/lexers.ml" 987 52727 52759
+)
+"ocamlbuild/lexers.ml" 988 52762 52811 "ocamlbuild/lexers.ml" 988 52762 52814
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 988 52762 52766 "ocamlbuild/lexers.ml" 988 52762 52814
+call(
+  tail
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 989 52815 52819 "ocamlbuild/lexers.ml" 989 52815 52846
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> int -> conf_values
+)
+ident(
+  def __ocaml_lex_conf_values_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 989 52815 52847 "ocamlbuild/lexers.ml" 989 52815 52850
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/lexers.ml" 989 52815 52851 "ocamlbuild/lexers.ml" 1006 53409 53530
+)
+"ocamlbuild/lexers.ml" 989 52815 52851 "ocamlbuild/lexers.ml" 989 52815 52854
+type(
+  string
+)
+ident(
+  def err "ocamlbuild/lexers.ml" 989 52815 52855 "ocamlbuild/lexers.ml" 1006 53409 53530
+)
+"ocamlbuild/lexers.ml" 989 52815 52855 "ocamlbuild/lexers.ml" 989 52815 52856
+type(
+  conf_values
+)
+ident(
+  def x "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 1006 53409 53530
+)
+"ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 989 52815 52864 "ocamlbuild/lexers.ml" 1006 53409 53530
+)
+"ocamlbuild/lexers.ml" 989 52815 52864 "ocamlbuild/lexers.ml" 989 52815 52881
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 990 52884 52886 "ocamlbuild/lexers.ml" 1006 53409 53530
+)
+"ocamlbuild/lexers.ml" 990 52884 52892 "ocamlbuild/lexers.ml" 990 52884 52905
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"ocamlbuild/lexers.ml" 990 52884 52906 "ocamlbuild/lexers.ml" 990 52884 52924
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 990 52884 52925 "ocamlbuild/lexers.ml" 990 52884 52942
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 989 52815 52864 "ocamlbuild/lexers.ml" 989 52815 52881
+)
+"ocamlbuild/lexers.ml" 990 52884 52943 "ocamlbuild/lexers.ml" 990 52884 52949
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+)
+"ocamlbuild/lexers.ml" 990 52884 52892 "ocamlbuild/lexers.ml" 990 52884 52949
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 991 52955 52963 "ocamlbuild/lexers.ml" 991 52955 52964
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 120 52998 53042 "ocamlbuild/lexers.mll" 120 52998 53053
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> conf_values
+)
+ident(
+  int_ref conf_values "ocamlbuild/lexers.ml" 987 52727 52731 "ocamlbuild/lexers.ml" 987 52727 52742
+)
+"ocamlbuild/lexers.mll" 120 52998 53054 "ocamlbuild/lexers.mll" 120 52998 53057
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 989 52815 52847 "ocamlbuild/lexers.ml" 989 52815 52850
+)
+"ocamlbuild/lexers.mll" 120 52998 53058 "ocamlbuild/lexers.mll" 120 52998 53061
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 989 52815 52851 "ocamlbuild/lexers.ml" 989 52815 52854
+)
+"ocamlbuild/lexers.mll" 120 52998 53063 "ocamlbuild/lexers.mll" 120 52998 53073
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> conf_values
+)
+ident(
+  int_ref conf_value "ocamlbuild/lexers.ml" 923 50253 50257 "ocamlbuild/lexers.ml" 923 50253 50267
+)
+"ocamlbuild/lexers.mll" 120 52998 53074 "ocamlbuild/lexers.mll" 120 52998 53077
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 989 52815 52847 "ocamlbuild/lexers.ml" 989 52815 52850
+)
+"ocamlbuild/lexers.mll" 120 52998 53078 "ocamlbuild/lexers.mll" 120 52998 53081
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 989 52815 52851 "ocamlbuild/lexers.ml" 989 52815 52854
+)
+"ocamlbuild/lexers.mll" 120 52998 53082 "ocamlbuild/lexers.mll" 120 52998 53083
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 989 52815 52855 "ocamlbuild/lexers.ml" 989 52815 52856
+)
+"ocamlbuild/lexers.mll" 120 52998 53084 "ocamlbuild/lexers.mll" 120 52998 53090
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+)
+"ocamlbuild/lexers.mll" 120 52998 53062 "ocamlbuild/lexers.mll" 120 52998 53091
+call(
+  stack
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.mll" 120 52998 53092 "ocamlbuild/lexers.mll" 120 52998 53098
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+)
+"ocamlbuild/lexers.mll" 120 52998 53040 "ocamlbuild/lexers.mll" 120 52998 53100
+call(
+  tail
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 996 53131 53135 "ocamlbuild/lexers.ml" 996 53131 53136
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 121 53170 53190 "ocamlbuild/lexers.mll" 121 53170 53195
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 989 52815 52855 "ocamlbuild/lexers.ml" 989 52815 52856
+)
+"ocamlbuild/lexers.ml" 1001 53227 53231 "ocamlbuild/lexers.ml" 1001 53227 53232
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 122 53266 53282 "ocamlbuild/lexers.mll" 122 53266 53287
+type(
+  exn -> conf_values
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 122 53266 53295 "ocamlbuild/lexers.mll" 122 53266 53309
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/lexers.mll" 122 53266 53310 "ocamlbuild/lexers.mll" 122 53266 53365
+type(
+  (int -> string -> string, unit, string) format
+)
+"ocamlbuild/lexers.mll" 122 53266 53366 "ocamlbuild/lexers.mll" 122 53266 53369
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 989 52815 52847 "ocamlbuild/lexers.ml" 989 52815 52850
+)
+"ocamlbuild/lexers.mll" 122 53266 53370 "ocamlbuild/lexers.mll" 122 53266 53373
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 989 52815 52851 "ocamlbuild/lexers.ml" 989 52815 52854
+)
+"ocamlbuild/lexers.mll" 122 53266 53294 "ocamlbuild/lexers.mll" 122 53266 53374
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 122 53266 53288 "ocamlbuild/lexers.mll" 122 53266 53375
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 122 53266 53280 "ocamlbuild/lexers.mll" 122 53266 53377
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 1006 53409 53413 "ocamlbuild/lexers.ml" 1006 53409 53430
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 1006 53409 53434 "ocamlbuild/lexers.ml" 1006 53409 53530
+)
+"ocamlbuild/lexers.ml" 1006 53409 53434 "ocamlbuild/lexers.ml" 1006 53409 53440
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+)
+"ocamlbuild/lexers.ml" 1006 53409 53434 "ocamlbuild/lexers.ml" 1006 53409 53459
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 1006 53409 53460 "ocamlbuild/lexers.ml" 1006 53409 53466
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+)
+"ocamlbuild/lexers.ml" 1006 53409 53434 "ocamlbuild/lexers.ml" 1006 53409 53466
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 1006 53409 53468 "ocamlbuild/lexers.ml" 1006 53409 53495
+type(
+  int -> string -> conf_values -> Lexing.lexbuf -> int -> conf_values
+)
+ident(
+  int_ref __ocaml_lex_conf_values_rec "ocamlbuild/lexers.ml" 989 52815 52819 "ocamlbuild/lexers.ml" 989 52815 52846
+)
+"ocamlbuild/lexers.ml" 1006 53409 53496 "ocamlbuild/lexers.ml" 1006 53409 53499
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/lexers.ml" 989 52815 52847 "ocamlbuild/lexers.ml" 989 52815 52850
+)
+"ocamlbuild/lexers.ml" 1006 53409 53500 "ocamlbuild/lexers.ml" 1006 53409 53503
+type(
+  string
+)
+ident(
+  int_ref err "ocamlbuild/lexers.ml" 989 52815 52851 "ocamlbuild/lexers.ml" 989 52815 52854
+)
+"ocamlbuild/lexers.ml" 1006 53409 53504 "ocamlbuild/lexers.ml" 1006 53409 53505
+type(
+  conf_values
+)
+ident(
+  int_ref x "ocamlbuild/lexers.ml" 989 52815 52855 "ocamlbuild/lexers.ml" 989 52815 52856
+)
+"ocamlbuild/lexers.ml" 1006 53409 53506 "ocamlbuild/lexers.ml" 1006 53409 53512
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 989 52815 52857 "ocamlbuild/lexers.ml" 989 52815 52863
+)
+"ocamlbuild/lexers.ml" 1006 53409 53513 "ocamlbuild/lexers.ml" 1006 53409 53530
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 1006 53409 53413 "ocamlbuild/lexers.ml" 1006 53409 53430
+)
+"ocamlbuild/lexers.ml" 1006 53409 53468 "ocamlbuild/lexers.ml" 1006 53409 53530
+call(
+  tail
+)
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 1006 53409 53434 "ocamlbuild/lexers.ml" 1006 53409 53530
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 990 52884 52886 "ocamlbuild/lexers.ml" 1006 53409 53530
+type(
+  conf_values
+)
+"ocamlbuild/lexers.ml" 1008 53532 53536 "ocamlbuild/lexers.ml" 1008 53532 53547
+type(
+  bool ->
+  Lexing.lexbuf -> [> `Var of string * Glob.globber | `Word of string ] list
+)
+ident(
+  def path_scheme "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 1008 53532 53548 "ocamlbuild/lexers.ml" 1008 53532 53560
+type(
+  bool
+)
+ident(
+  def patt_allowed "ocamlbuild/lexers.ml" 1008 53532 53561 "ocamlbuild/lexers.ml" 1009 53570 53672
+)
+"ocamlbuild/lexers.ml" 1008 53532 53561 "ocamlbuild/lexers.ml" 1008 53532 53567
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 1009 53570 53572 "ocamlbuild/lexers.ml" 1009 53570 53672
+)
+"ocamlbuild/lexers.ml" 1009 53570 53572 "ocamlbuild/lexers.ml" 1009 53570 53578
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1008 53532 53561 "ocamlbuild/lexers.ml" 1008 53532 53567
+)
+"ocamlbuild/lexers.ml" 1009 53570 53597 "ocamlbuild/lexers.ml" 1009 53570 53609
+type(
+  int -> int -> int array
+)
+ident(
+  ext_ref Array.create
+)
+"ocamlbuild/lexers.ml" 1009 53570 53610 "ocamlbuild/lexers.ml" 1009 53570 53611
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1009 53570 53612 "ocamlbuild/lexers.ml" 1009 53570 53616
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1009 53570 53597 "ocamlbuild/lexers.ml" 1009 53570 53616
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 1009 53570 53572 "ocamlbuild/lexers.ml" 1009 53570 53616
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 1009 53570 53621 "ocamlbuild/lexers.ml" 1009 53570 53648
+type(
+  bool ->
+  Lexing.lexbuf ->
+  int -> ([> `Var of string * Glob.globber | `Word of string ] as 'a) list
+)
+ident(
+  int_ref __ocaml_lex_path_scheme_rec "ocamlbuild/lexers.ml" 1010 53673 53677 "ocamlbuild/lexers.ml" 1010 53673 53704
+)
+"ocamlbuild/lexers.ml" 1009 53570 53649 "ocamlbuild/lexers.ml" 1009 53570 53661
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1008 53532 53548 "ocamlbuild/lexers.ml" 1008 53532 53560
+)
+"ocamlbuild/lexers.ml" 1009 53570 53662 "ocamlbuild/lexers.ml" 1009 53570 53668
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1008 53532 53561 "ocamlbuild/lexers.ml" 1008 53532 53567
+)
+"ocamlbuild/lexers.ml" 1009 53570 53669 "ocamlbuild/lexers.ml" 1009 53570 53672
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1009 53570 53621 "ocamlbuild/lexers.ml" 1009 53570 53672
+call(
+  tail
+)
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1009 53570 53572 "ocamlbuild/lexers.ml" 1009 53570 53672
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1010 53673 53677 "ocamlbuild/lexers.ml" 1010 53673 53704
+type(
+  bool -> Lexing.lexbuf -> int -> 'a list
+)
+ident(
+  def __ocaml_lex_path_scheme_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+type(
+  bool
+)
+ident(
+  def patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1067 55574 55698
+)
+"ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 1010 53673 53725 "ocamlbuild/lexers.ml" 1067 55574 55698
+)
+"ocamlbuild/lexers.ml" 1010 53673 53725 "ocamlbuild/lexers.ml" 1010 53673 53742
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 1011 53745 53747 "ocamlbuild/lexers.ml" 1067 55574 55698
+)
+"ocamlbuild/lexers.ml" 1011 53745 53753 "ocamlbuild/lexers.ml" 1011 53745 53770
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.new_engine
+)
+"ocamlbuild/lexers.ml" 1011 53745 53771 "ocamlbuild/lexers.ml" 1011 53745 53789
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 1011 53745 53790 "ocamlbuild/lexers.ml" 1011 53745 53807
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 1010 53673 53725 "ocamlbuild/lexers.ml" 1010 53673 53742
+)
+"ocamlbuild/lexers.ml" 1011 53745 53808 "ocamlbuild/lexers.ml" 1011 53745 53814
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1011 53745 53753 "ocamlbuild/lexers.ml" 1011 53745 53814
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1012 53820 53828 "ocamlbuild/lexers.ml" 1012 53820 53829
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 125 53867 53885 "ocamlbuild/lexers.mll" 125 53867 53891
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 1017 53922 53924 "ocamlbuild/lexers.ml" 1017 53922 53941
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 1017 53922 53942 "ocamlbuild/lexers.ml" 1017 53922 53948
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1017 53922 53949 "ocamlbuild/lexers.ml" 1017 53922 53955
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1017 53922 53949 "ocamlbuild/lexers.ml" 1017 53922 53976
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1017 53922 53977 "ocamlbuild/lexers.ml" 1017 53922 53983
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1017 53922 53977 "ocamlbuild/lexers.ml" 1017 53922 54003
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1017 53922 53924 "ocamlbuild/lexers.ml" 1017 53922 54003
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 126 54037 54051 "ocamlbuild/lexers.mll" 126 54037 54057
+type(
+  string
+)
+ident(
+  int_ref prefix "ocamlbuild/lexers.mll" 125 53867 53885 "ocamlbuild/lexers.mll" 125 53867 53891
+)
+"ocamlbuild/lexers.mll" 126 54037 54045 "ocamlbuild/lexers.mll" 126 54037 54057
+type(
+  'a
+)
+"ocamlbuild/lexers.mll" 126 54037 54061 "ocamlbuild/lexers.mll" 126 54037 54072
+type(
+  bool -> Lexing.lexbuf -> 'a list
+)
+ident(
+  int_ref path_scheme "ocamlbuild/lexers.ml" 1008 53532 53536 "ocamlbuild/lexers.ml" 1008 53532 53547
+)
+"ocamlbuild/lexers.mll" 126 54037 54073 "ocamlbuild/lexers.mll" 126 54037 54085
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+)
+"ocamlbuild/lexers.mll" 126 54037 54086 "ocamlbuild/lexers.mll" 126 54037 54092
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.mll" 126 54037 54061 "ocamlbuild/lexers.mll" 126 54037 54092
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 126 54037 54043 "ocamlbuild/lexers.mll" 126 54037 54094
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1013 53833 53833 "ocamlbuild/lexers.mll" 126 54037 54094
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1022 54126 54130 "ocamlbuild/lexers.ml" 1022 54126 54131
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 127 54169 54191 "ocamlbuild/lexers.mll" 127 54169 54194
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 1027 54225 54227 "ocamlbuild/lexers.ml" 1027 54225 54244
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 1027 54225 54245 "ocamlbuild/lexers.ml" 1027 54225 54251
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1027 54225 54253 "ocamlbuild/lexers.ml" 1027 54225 54259
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1027 54225 54253 "ocamlbuild/lexers.ml" 1027 54225 54280
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1027 54225 54281 "ocamlbuild/lexers.ml" 1027 54225 54282
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 1027 54225 54283 "ocamlbuild/lexers.ml" 1027 54225 54284
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1027 54225 54252 "ocamlbuild/lexers.ml" 1027 54225 54285
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1027 54225 54287 "ocamlbuild/lexers.ml" 1027 54225 54293
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1027 54225 54287 "ocamlbuild/lexers.ml" 1027 54225 54313
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1027 54225 54314 "ocamlbuild/lexers.ml" 1027 54225 54315
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 1027 54225 54316 "ocamlbuild/lexers.ml" 1027 54225 54318
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1027 54225 54286 "ocamlbuild/lexers.ml" 1027 54225 54319
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1027 54225 54227 "ocamlbuild/lexers.ml" 1027 54225 54319
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 128 54353 54367 "ocamlbuild/lexers.mll" 128 54353 54370
+type(
+  string
+)
+ident(
+  int_ref var "ocamlbuild/lexers.mll" 127 54169 54191 "ocamlbuild/lexers.mll" 127 54169 54194
+)
+"ocamlbuild/lexers.mll" 128 54353 54372 "ocamlbuild/lexers.mll" 128 54353 54381
+type(
+  Glob.globber
+)
+"ocamlbuild/lexers.mll" 128 54353 54366 "ocamlbuild/lexers.mll" 128 54353 54382
+type(
+  string * Glob.globber
+)
+"ocamlbuild/lexers.mll" 128 54353 54361 "ocamlbuild/lexers.mll" 128 54353 54382
+type(
+  'a
+)
+"ocamlbuild/lexers.mll" 128 54353 54386 "ocamlbuild/lexers.mll" 128 54353 54397
+type(
+  bool -> Lexing.lexbuf -> 'a list
+)
+ident(
+  int_ref path_scheme "ocamlbuild/lexers.ml" 1008 53532 53536 "ocamlbuild/lexers.ml" 1008 53532 53547
+)
+"ocamlbuild/lexers.mll" 128 54353 54398 "ocamlbuild/lexers.mll" 128 54353 54410
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+)
+"ocamlbuild/lexers.mll" 128 54353 54411 "ocamlbuild/lexers.mll" 128 54353 54417
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.mll" 128 54353 54386 "ocamlbuild/lexers.mll" 128 54353 54417
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 128 54353 54359 "ocamlbuild/lexers.mll" 128 54353 54419
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1023 54135 54135 "ocamlbuild/lexers.mll" 128 54353 54419
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1032 54451 54455 "ocamlbuild/lexers.ml" 1032 54451 54456
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 129 54494 54516 "ocamlbuild/lexers.mll" 129 54494 54519
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 1037 54550 54552 "ocamlbuild/lexers.ml" 1037 54550 54569
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 1037 54550 54570 "ocamlbuild/lexers.ml" 1037 54550 54576
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1037 54550 54578 "ocamlbuild/lexers.ml" 1037 54550 54584
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1037 54550 54578 "ocamlbuild/lexers.ml" 1037 54550 54605
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1037 54550 54606 "ocamlbuild/lexers.ml" 1037 54550 54607
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 1037 54550 54608 "ocamlbuild/lexers.ml" 1037 54550 54609
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1037 54550 54577 "ocamlbuild/lexers.ml" 1037 54550 54610
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1037 54550 54611 "ocamlbuild/lexers.ml" 1037 54550 54617
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1037 54550 54611 "ocamlbuild/lexers.ml" 1037 54550 54632
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 1037 54550 54634 "ocamlbuild/lexers.ml" 1037 54550 54635
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1037 54550 54611 "ocamlbuild/lexers.ml" 1037 54550 54636
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1037 54550 54552 "ocamlbuild/lexers.ml" 1037 54550 54636
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 129 54671 54714 "ocamlbuild/lexers.mll" 129 54671 54718
+type(
+  string
+)
+"ocamlbuild/lexers.ml" 1042 54749 54751 "ocamlbuild/lexers.ml" 1042 54749 54768
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"ocamlbuild/lexers.ml" 1042 54749 54769 "ocamlbuild/lexers.ml" 1042 54749 54775
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1042 54749 54777 "ocamlbuild/lexers.ml" 1042 54749 54783
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1042 54749 54777 "ocamlbuild/lexers.ml" 1042 54749 54798
+type(
+  int array
+)
+"ocamlbuild/lexers.ml" 1042 54749 54800 "ocamlbuild/lexers.ml" 1042 54749 54801
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54777 "ocamlbuild/lexers.ml" 1042 54749 54802
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54803 "ocamlbuild/lexers.ml" 1042 54749 54804
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 1042 54749 54805 "ocamlbuild/lexers.ml" 1042 54749 54806
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54776 "ocamlbuild/lexers.ml" 1042 54749 54807
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54809 "ocamlbuild/lexers.ml" 1042 54749 54815
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1042 54749 54809 "ocamlbuild/lexers.ml" 1042 54749 54835
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54836 "ocamlbuild/lexers.ml" 1042 54749 54837
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 1042 54749 54838 "ocamlbuild/lexers.ml" 1042 54749 54840
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54808 "ocamlbuild/lexers.ml" 1042 54749 54841
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1042 54749 54751 "ocamlbuild/lexers.ml" 1042 54749 54841
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 130 54875 54886 "ocamlbuild/lexers.mll" 130 54875 54898
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+)
+"ocamlbuild/lexers.mll" 131 54904 54918 "ocamlbuild/lexers.mll" 131 54904 54922
+type(
+  string
+)
+ident(
+  def patt "ocamlbuild/lexers.mll" 132 54987 54997 "ocamlbuild/lexers.mll" 132 54987 55059
+)
+"ocamlbuild/lexers.mll" 131 54904 54925 "ocamlbuild/lexers.mll" 131 54904 54946
+type(
+  char list -> string
+)
+ident(
+  ext_ref My_std.String.implode
+)
+"ocamlbuild/lexers.mll" 131 54904 54948 "ocamlbuild/lexers.mll" 131 54904 54956
+type(
+  Lexing.lexbuf -> char list
+)
+ident(
+  int_ref unescape "ocamlbuild/lexers.ml" 1069 55700 55704 "ocamlbuild/lexers.ml" 1069 55700 55712
+)
+"ocamlbuild/lexers.mll" 131 54904 54958 "ocamlbuild/lexers.mll" 131 54904 54976
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"ocamlbuild/lexers.mll" 131 54904 54977 "ocamlbuild/lexers.mll" 131 54904 54981
+type(
+  string
+)
+ident(
+  int_ref patt "ocamlbuild/lexers.mll" 129 54671 54714 "ocamlbuild/lexers.mll" 129 54671 54718
+)
+"ocamlbuild/lexers.mll" 131 54904 54957 "ocamlbuild/lexers.mll" 131 54904 54982
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/lexers.mll" 131 54904 54947 "ocamlbuild/lexers.mll" 131 54904 54983
+call(
+  stack
+)
+type(
+  char list
+)
+"ocamlbuild/lexers.mll" 131 54904 54925 "ocamlbuild/lexers.mll" 131 54904 54983
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 132 54987 55003 "ocamlbuild/lexers.mll" 132 54987 55006
+type(
+  string
+)
+ident(
+  int_ref var "ocamlbuild/lexers.mll" 129 54494 54516 "ocamlbuild/lexers.mll" 129 54494 54519
+)
+"ocamlbuild/lexers.mll" 132 54987 55008 "ocamlbuild/lexers.mll" 132 54987 55018
+type(
+  ?dir:string -> string -> Glob.globber
+)
+ident(
+  ext_ref Glob.parse
+)
+"ocamlbuild/lexers.mll" 132 54987 55019 "ocamlbuild/lexers.mll" 132 54987 55023
+type(
+  string
+)
+ident(
+  int_ref patt "ocamlbuild/lexers.mll" 131 54904 54918 "ocamlbuild/lexers.mll" 131 54904 54922
+)
+"ocamlbuild/lexers.mll" 132 54987 55008 "ocamlbuild/lexers.mll" 132 54987 55023
+call(
+  stack
+)
+type(
+  Glob.globber
+)
+"ocamlbuild/lexers.mll" 132 54987 55002 "ocamlbuild/lexers.mll" 132 54987 55024
+type(
+  string * Glob.globber
+)
+"ocamlbuild/lexers.mll" 132 54987 54997 "ocamlbuild/lexers.mll" 132 54987 55024
+type(
+  'a
+)
+"ocamlbuild/lexers.mll" 132 54987 55028 "ocamlbuild/lexers.mll" 132 54987 55039
+type(
+  bool -> Lexing.lexbuf -> 'a list
+)
+ident(
+  int_ref path_scheme "ocamlbuild/lexers.ml" 1008 53532 53536 "ocamlbuild/lexers.ml" 1008 53532 53547
+)
+"ocamlbuild/lexers.mll" 132 54987 55040 "ocamlbuild/lexers.mll" 132 54987 55052
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+)
+"ocamlbuild/lexers.mll" 132 54987 55053 "ocamlbuild/lexers.mll" 132 54987 55059
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.mll" 132 54987 55028 "ocamlbuild/lexers.mll" 132 54987 55059
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 132 54987 54997 "ocamlbuild/lexers.mll" 132 54987 55059
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 131 54904 54914 "ocamlbuild/lexers.mll" 132 54987 55059
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 133 55060 55073 "ocamlbuild/lexers.mll" 133 55060 55078
+type(
+  exn -> 'a list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 134 55087 55097 "ocamlbuild/lexers.mll" 134 55087 55111
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/lexers.mll" 134 55087 55112 "ocamlbuild/lexers.mll" 134 55087 55181
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocamlbuild/lexers.mll" 135 55182 55194 "ocamlbuild/lexers.mll" 135 55182 55197
+type(
+  string
+)
+ident(
+  int_ref var "ocamlbuild/lexers.mll" 129 54494 54516 "ocamlbuild/lexers.mll" 129 54494 54519
+)
+"ocamlbuild/lexers.mll" 135 55182 55198 "ocamlbuild/lexers.mll" 135 55182 55202
+type(
+  string
+)
+ident(
+  int_ref patt "ocamlbuild/lexers.mll" 129 54671 54714 "ocamlbuild/lexers.mll" 129 54671 54718
+)
+"ocamlbuild/lexers.mll" 133 55060 55085 "ocamlbuild/lexers.mll" 135 55182 55203
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 133 55060 55079 "ocamlbuild/lexers.mll" 135 55182 55204
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 133 55060 55073 "ocamlbuild/lexers.mll" 135 55182 55204
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 130 54875 54881 "ocamlbuild/lexers.mll" 135 55182 55206
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1033 54460 54460 "ocamlbuild/lexers.mll" 135 55182 55206
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1052 55238 55242 "ocamlbuild/lexers.ml" 1052 55238 55243
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 137 55277 55291 "ocamlbuild/lexers.mll" 137 55277 55293
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 137 55277 55295 "ocamlbuild/lexers.mll" 137 55277 55304
+type(
+  Glob.globber
+)
+"ocamlbuild/lexers.mll" 137 55277 55290 "ocamlbuild/lexers.mll" 137 55277 55305
+type(
+  string * Glob.globber
+)
+"ocamlbuild/lexers.mll" 137 55277 55285 "ocamlbuild/lexers.mll" 137 55277 55305
+type(
+  'a
+)
+"ocamlbuild/lexers.mll" 137 55277 55309 "ocamlbuild/lexers.mll" 137 55277 55320
+type(
+  bool -> Lexing.lexbuf -> 'a list
+)
+ident(
+  int_ref path_scheme "ocamlbuild/lexers.ml" 1008 53532 53536 "ocamlbuild/lexers.ml" 1008 53532 53547
+)
+"ocamlbuild/lexers.mll" 137 55277 55321 "ocamlbuild/lexers.mll" 137 55277 55333
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+)
+"ocamlbuild/lexers.mll" 137 55277 55334 "ocamlbuild/lexers.mll" 137 55277 55340
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.mll" 137 55277 55309 "ocamlbuild/lexers.mll" 137 55277 55340
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/lexers.mll" 137 55277 55283 "ocamlbuild/lexers.mll" 137 55277 55342
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1057 55374 55378 "ocamlbuild/lexers.ml" 1057 55374 55379
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 139 55413 55419 "ocamlbuild/lexers.mll" 139 55413 55425
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1062 55457 55461 "ocamlbuild/lexers.ml" 1062 55457 55462
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 140 55496 55504 "ocamlbuild/lexers.mll" 140 55496 55509
+type(
+  exn -> 'a list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/lexers.mll" 140 55496 55516 "ocamlbuild/lexers.mll" 140 55496 55539
+type(
+  string
+)
+"ocamlbuild/lexers.mll" 140 55496 55510 "ocamlbuild/lexers.mll" 140 55496 55540
+type(
+  exn
+)
+"ocamlbuild/lexers.mll" 140 55496 55502 "ocamlbuild/lexers.mll" 140 55496 55542
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1067 55574 55578 "ocamlbuild/lexers.ml" 1067 55574 55595
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 1067 55574 55599 "ocamlbuild/lexers.ml" 1067 55574 55698
+)
+"ocamlbuild/lexers.ml" 1067 55574 55599 "ocamlbuild/lexers.ml" 1067 55574 55605
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1067 55574 55599 "ocamlbuild/lexers.ml" 1067 55574 55624
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 1067 55574 55625 "ocamlbuild/lexers.ml" 1067 55574 55631
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1067 55574 55599 "ocamlbuild/lexers.ml" 1067 55574 55631
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 1067 55574 55633 "ocamlbuild/lexers.ml" 1067 55574 55660
+type(
+  bool -> Lexing.lexbuf -> int -> 'a list
+)
+ident(
+  int_ref __ocaml_lex_path_scheme_rec "ocamlbuild/lexers.ml" 1010 53673 53677 "ocamlbuild/lexers.ml" 1010 53673 53704
+)
+"ocamlbuild/lexers.ml" 1067 55574 55661 "ocamlbuild/lexers.ml" 1067 55574 55673
+type(
+  bool
+)
+ident(
+  int_ref patt_allowed "ocamlbuild/lexers.ml" 1010 53673 53705 "ocamlbuild/lexers.ml" 1010 53673 53717
+)
+"ocamlbuild/lexers.ml" 1067 55574 55674 "ocamlbuild/lexers.ml" 1067 55574 55680
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1010 53673 53718 "ocamlbuild/lexers.ml" 1010 53673 53724
+)
+"ocamlbuild/lexers.ml" 1067 55574 55681 "ocamlbuild/lexers.ml" 1067 55574 55698
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 1067 55574 55578 "ocamlbuild/lexers.ml" 1067 55574 55595
+)
+"ocamlbuild/lexers.ml" 1067 55574 55633 "ocamlbuild/lexers.ml" 1067 55574 55698
+call(
+  tail
+)
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1067 55574 55599 "ocamlbuild/lexers.ml" 1067 55574 55698
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1011 53745 53747 "ocamlbuild/lexers.ml" 1067 55574 55698
+type(
+  'a list
+)
+"ocamlbuild/lexers.ml" 1069 55700 55704 "ocamlbuild/lexers.ml" 1069 55700 55712
+type(
+  Lexing.lexbuf -> char list
+)
+ident(
+  def unescape "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 1069 55700 55713 "ocamlbuild/lexers.ml" 1069 55700 55719
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 1070 55722 55726 "ocamlbuild/lexers.ml" 1070 55722 55761
+)
+"ocamlbuild/lexers.ml" 1070 55722 55726 "ocamlbuild/lexers.ml" 1070 55722 55750
+type(
+  Lexing.lexbuf -> int -> char list
+)
+ident(
+  int_ref __ocaml_lex_unescape_rec "ocamlbuild/lexers.ml" 1071 55762 55766 "ocamlbuild/lexers.ml" 1071 55762 55790
+)
+"ocamlbuild/lexers.ml" 1070 55722 55751 "ocamlbuild/lexers.ml" 1070 55722 55757
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1069 55700 55713 "ocamlbuild/lexers.ml" 1069 55700 55719
+)
+"ocamlbuild/lexers.ml" 1070 55722 55758 "ocamlbuild/lexers.ml" 1070 55722 55761
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1070 55722 55726 "ocamlbuild/lexers.ml" 1070 55722 55761
+call(
+  tail
+)
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1071 55762 55766 "ocamlbuild/lexers.ml" 1071 55762 55790
+type(
+  Lexing.lexbuf -> int -> char list
+)
+ident(
+  def __ocaml_lex_unescape_rec "ocamlbuild/lexers.ml" 551 36999 36999 --
+)
+"ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "ocamlbuild/lexers.ml" 1071 55762 55798 "ocamlbuild/lexers.ml" 1098 56555 56663
+)
+"ocamlbuild/lexers.ml" 1071 55762 55798 "ocamlbuild/lexers.ml" 1071 55762 55815
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 1072 55818 55820 "ocamlbuild/lexers.ml" 1098 56555 56663
+)
+"ocamlbuild/lexers.ml" 1072 55818 55826 "ocamlbuild/lexers.ml" 1072 55818 55839
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"ocamlbuild/lexers.ml" 1072 55818 55840 "ocamlbuild/lexers.ml" 1072 55818 55858
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "ocamlbuild/lexers.ml" 17 398 402 "ocamlbuild/lexers.ml" 17 398 420
+)
+"ocamlbuild/lexers.ml" 1072 55818 55859 "ocamlbuild/lexers.ml" 1072 55818 55876
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 1071 55762 55798 "ocamlbuild/lexers.ml" 1071 55762 55815
+)
+"ocamlbuild/lexers.ml" 1072 55818 55877 "ocamlbuild/lexers.ml" 1072 55818 55883
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1072 55818 55826 "ocamlbuild/lexers.ml" 1072 55818 55883
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1073 55889 55897 "ocamlbuild/lexers.ml" 1073 55889 55898
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 143 55936 55959 "ocamlbuild/lexers.mll" 143 55936 55960
+type(
+  char
+)
+"ocamlbuild/lexers.ml" 1078 55991 55993 "ocamlbuild/lexers.ml" 1078 55991 56015
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"ocamlbuild/lexers.ml" 1078 55991 56016 "ocamlbuild/lexers.ml" 1078 55991 56022
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1078 55991 56024 "ocamlbuild/lexers.ml" 1078 55991 56030
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1078 55991 56024 "ocamlbuild/lexers.ml" 1078 55991 56051
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1078 55991 56052 "ocamlbuild/lexers.ml" 1078 55991 56053
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/lexers.ml" 1078 55991 56054 "ocamlbuild/lexers.ml" 1078 55991 56055
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1078 55991 56023 "ocamlbuild/lexers.ml" 1078 55991 56056
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1078 55991 55993 "ocamlbuild/lexers.ml" 1078 55991 56056
+call(
+  stack
+)
+type(
+  char
+)
+"ocamlbuild/lexers.mll" 143 56090 56125 "ocamlbuild/lexers.mll" 143 56090 56126
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/lexers.mll" 143 55936 55959 "ocamlbuild/lexers.mll" 143 55936 55960
+)
+"ocamlbuild/lexers.mll" 143 56090 56130 "ocamlbuild/lexers.mll" 143 56090 56138
+type(
+  Lexing.lexbuf -> char list
+)
+ident(
+  int_ref unescape "ocamlbuild/lexers.ml" 1069 55700 55704 "ocamlbuild/lexers.ml" 1069 55700 55712
+)
+"ocamlbuild/lexers.mll" 143 56090 56139 "ocamlbuild/lexers.mll" 143 56090 56145
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.mll" 143 56090 56130 "ocamlbuild/lexers.mll" 143 56090 56145
+call(
+  stack
+)
+type(
+  char list
+)
+"ocamlbuild/lexers.mll" 143 56090 56123 "ocamlbuild/lexers.mll" 143 56090 56147
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1074 55902 55902 "ocamlbuild/lexers.mll" 143 56090 56147
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1083 56179 56183 "ocamlbuild/lexers.ml" 1083 56179 56184
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 144 56222 56231 "ocamlbuild/lexers.mll" 144 56222 56232
+type(
+  char
+)
+"ocamlbuild/lexers.ml" 1088 56263 56265 "ocamlbuild/lexers.ml" 1088 56263 56287
+type(
+  Lexing.lexbuf -> int -> char
+)
+ident(
+  ext_ref Lexing.sub_lexeme_char
+)
+"ocamlbuild/lexers.ml" 1088 56263 56288 "ocamlbuild/lexers.ml" 1088 56263 56294
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1088 56263 56295 "ocamlbuild/lexers.ml" 1088 56263 56301
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1088 56263 56295 "ocamlbuild/lexers.ml" 1088 56263 56322
+type(
+  int
+)
+"ocamlbuild/lexers.ml" 1088 56263 56265 "ocamlbuild/lexers.ml" 1088 56263 56322
+call(
+  stack
+)
+type(
+  char
+)
+"ocamlbuild/lexers.mll" 144 56356 56391 "ocamlbuild/lexers.mll" 144 56356 56392
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/lexers.mll" 144 56222 56231 "ocamlbuild/lexers.mll" 144 56222 56232
+)
+"ocamlbuild/lexers.mll" 144 56356 56396 "ocamlbuild/lexers.mll" 144 56356 56404
+type(
+  Lexing.lexbuf -> char list
+)
+ident(
+  int_ref unescape "ocamlbuild/lexers.ml" 1069 55700 55704 "ocamlbuild/lexers.ml" 1069 55700 55712
+)
+"ocamlbuild/lexers.mll" 144 56356 56405 "ocamlbuild/lexers.mll" 144 56356 56411
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.mll" 144 56356 56396 "ocamlbuild/lexers.mll" 144 56356 56411
+call(
+  stack
+)
+type(
+  char list
+)
+"ocamlbuild/lexers.mll" 144 56356 56389 "ocamlbuild/lexers.mll" 144 56356 56413
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1084 56188 56188 "ocamlbuild/lexers.mll" 144 56356 56413
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1093 56445 56449 "ocamlbuild/lexers.ml" 1093 56445 56450
+type(
+  int
+)
+"ocamlbuild/lexers.mll" 145 56484 56517 "ocamlbuild/lexers.mll" 145 56484 56523
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1098 56555 56559 "ocamlbuild/lexers.ml" 1098 56555 56576
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "ocamlbuild/lexers.ml" 1098 56555 56580 "ocamlbuild/lexers.ml" 1098 56555 56663
+)
+"ocamlbuild/lexers.ml" 1098 56555 56580 "ocamlbuild/lexers.ml" 1098 56555 56586
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1098 56555 56580 "ocamlbuild/lexers.ml" 1098 56555 56605
+type(
+  Lexing.lexbuf -> unit
+)
+"ocamlbuild/lexers.ml" 1098 56555 56606 "ocamlbuild/lexers.ml" 1098 56555 56612
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1098 56555 56580 "ocamlbuild/lexers.ml" 1098 56555 56612
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/lexers.ml" 1098 56555 56614 "ocamlbuild/lexers.ml" 1098 56555 56638
+type(
+  Lexing.lexbuf -> int -> char list
+)
+ident(
+  int_ref __ocaml_lex_unescape_rec "ocamlbuild/lexers.ml" 1071 55762 55766 "ocamlbuild/lexers.ml" 1071 55762 55790
+)
+"ocamlbuild/lexers.ml" 1098 56555 56639 "ocamlbuild/lexers.ml" 1098 56555 56645
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "ocamlbuild/lexers.ml" 1071 55762 55791 "ocamlbuild/lexers.ml" 1071 55762 55797
+)
+"ocamlbuild/lexers.ml" 1098 56555 56646 "ocamlbuild/lexers.ml" 1098 56555 56663
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "ocamlbuild/lexers.ml" 1098 56555 56559 "ocamlbuild/lexers.ml" 1098 56555 56576
+)
+"ocamlbuild/lexers.ml" 1098 56555 56614 "ocamlbuild/lexers.ml" 1098 56555 56663
+call(
+  tail
+)
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1098 56555 56580 "ocamlbuild/lexers.ml" 1098 56555 56663
+type(
+  char list
+)
+"ocamlbuild/lexers.ml" 1072 55818 55820 "ocamlbuild/lexers.ml" 1098 56555 56663
+type(
+  char list
+)

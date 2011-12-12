@@ -1,0 +1,2 @@
+fchdir.c: In function ‘check’:
+fchdir.c:18:27: warning: statement with no effect [-Wunused-value]

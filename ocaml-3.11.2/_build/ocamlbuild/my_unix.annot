@@ -1,0 +1,1791 @@
+"ocamlbuild/my_unix.ml" 49 1782 1786 "ocamlbuild/my_unix.ml" 49 1782 1797
+type(
+  bool
+)
+ident(
+  def is_degraded "ocamlbuild/my_unix.ml" 51 1806 1806 --
+)
+"ocamlbuild/my_unix.ml" 49 1782 1800 "ocamlbuild/my_unix.ml" 49 1782 1804
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 51 1806 1810 "ocamlbuild/my_unix.ml" 51 1806 1814
+type(
+  string -> stats
+)
+ident(
+  def stat "ocamlbuild/my_unix.ml" 61 2040 2040 --
+)
+"ocamlbuild/my_unix.ml" 51 1806 1815 "ocamlbuild/my_unix.ml" 51 1806 1816
+type(
+  string
+)
+ident(
+  def f "ocamlbuild/my_unix.ml" 52 1819 1821 "ocamlbuild/my_unix.ml" 59 1973 2038
+)
+"ocamlbuild/my_unix.ml" 52 1819 1834 "ocamlbuild/my_unix.ml" 52 1819 1835
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_unix.ml" 51 1806 1815 "ocamlbuild/my_unix.ml" 51 1806 1816
+)
+"ocamlbuild/my_unix.ml" 54 1858 1867 "ocamlbuild/my_unix.ml" 54 1858 1882
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/my_unix.ml" 54 1858 1883 "ocamlbuild/my_unix.ml" 54 1858 1884
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_unix.ml" 51 1806 1815 "ocamlbuild/my_unix.ml" 51 1806 1816
+)
+"ocamlbuild/my_unix.ml" 54 1858 1867 "ocamlbuild/my_unix.ml" 54 1858 1884
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 55 1890 1901 "ocamlbuild/my_unix.ml" 55 1890 1917
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.is_directory
+)
+"ocamlbuild/my_unix.ml" 55 1890 1918 "ocamlbuild/my_unix.ml" 55 1890 1919
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_unix.ml" 51 1806 1815 "ocamlbuild/my_unix.ml" 51 1806 1816
+)
+"ocamlbuild/my_unix.ml" 55 1890 1901 "ocamlbuild/my_unix.ml" 55 1890 1919
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 56 1925 1935 "ocamlbuild/my_unix.ml" 56 1925 1941
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 58 1955 1965 "ocamlbuild/my_unix.ml" 58 1955 1972
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 55 1890 1898 "ocamlbuild/my_unix.ml" 58 1955 1972
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 59 1973 1988 "ocamlbuild/my_unix.ml" 59 1973 1989
+type(
+  char
+)
+"ocamlbuild/my_unix.ml" 59 1973 1992 "ocamlbuild/my_unix.ml" 59 1973 2007
+type(
+  ?bin:bool -> string -> (in_channel -> char) -> char
+)
+ident(
+  ext_ref My_std.with_input_file
+)
+"ocamlbuild/my_unix.ml" 59 1973 2008 "ocamlbuild/my_unix.ml" 59 1973 2009
+type(
+  string
+)
+ident(
+  int_ref f "ocamlbuild/my_unix.ml" 51 1806 1815 "ocamlbuild/my_unix.ml" 51 1806 1816
+)
+"ocamlbuild/my_unix.ml" 59 1973 2010 "ocamlbuild/my_unix.ml" 59 1973 2020
+type(
+  in_channel -> char
+)
+ident(
+  ext_ref Pervasives.input_char
+)
+"ocamlbuild/my_unix.ml" 59 1973 1992 "ocamlbuild/my_unix.ml" 59 1973 2020
+call(
+  stack
+)
+type(
+  char
+)
+"ocamlbuild/my_unix.ml" 59 1973 2024 "ocamlbuild/my_unix.ml" 59 1973 2036
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 59 1973 1984 "ocamlbuild/my_unix.ml" 59 1973 2036
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 54 1858 1864 "ocamlbuild/my_unix.ml" 59 1973 2036
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 52 1819 1821 "ocamlbuild/my_unix.ml" 59 1973 2038
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 61 2040 2044 "ocamlbuild/my_unix.ml" 61 2040 2056
+type(
+  string -> (in_channel -> 'a) -> 'a
+)
+ident(
+  def run_and_open "ocamlbuild/my_unix.ml" 69 2301 2301 --
+)
+"ocamlbuild/my_unix.ml" 61 2040 2057 "ocamlbuild/my_unix.ml" 61 2040 2058
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/my_unix.ml" 61 2040 2059 "ocamlbuild/my_unix.ml" 67 2294 2299
+)
+"ocamlbuild/my_unix.ml" 61 2040 2059 "ocamlbuild/my_unix.ml" 61 2040 2063
+type(
+  in_channel -> 'a
+)
+ident(
+  def kont "ocamlbuild/my_unix.ml" 62 2066 2068 "ocamlbuild/my_unix.ml" 67 2294 2299
+)
+"ocamlbuild/my_unix.ml" 62 2066 2068 "ocamlbuild/my_unix.ml" 62 2066 2082
+type(
+  string -> string -> (string -> 'a) -> 'a
+)
+ident(
+  ext_ref My_std.with_temp_file
+)
+"ocamlbuild/my_unix.ml" 62 2066 2083 "ocamlbuild/my_unix.ml" 62 2066 2095
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 62 2066 2096 "ocamlbuild/my_unix.ml" 62 2066 2101
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 62 2066 2112 "ocamlbuild/my_unix.ml" 62 2066 2115
+type(
+  string
+)
+ident(
+  def tmp "ocamlbuild/my_unix.ml" 63 2119 2123 "ocamlbuild/my_unix.ml" 66 2265 2293
+)
+"ocamlbuild/my_unix.ml" 63 2119 2127 "ocamlbuild/my_unix.ml" 63 2119 2128
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 63 2119 2131 "ocamlbuild/my_unix.ml" 63 2119 2138
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"ocamlbuild/my_unix.ml" 63 2119 2139 "ocamlbuild/my_unix.ml" 63 2119 2150
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocamlbuild/my_unix.ml" 63 2119 2151 "ocamlbuild/my_unix.ml" 63 2119 2152
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_unix.ml" 61 2040 2057 "ocamlbuild/my_unix.ml" 61 2040 2058
+)
+"ocamlbuild/my_unix.ml" 63 2119 2153 "ocamlbuild/my_unix.ml" 63 2119 2156
+type(
+  string
+)
+ident(
+  int_ref tmp "ocamlbuild/my_unix.ml" 62 2066 2112 "ocamlbuild/my_unix.ml" 62 2066 2115
+)
+"ocamlbuild/my_unix.ml" 63 2119 2131 "ocamlbuild/my_unix.ml" 63 2119 2156
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 64 2160 2168 "ocamlbuild/my_unix.ml" 64 2160 2170
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 64 2160 2173 "ocamlbuild/my_unix.ml" 64 2160 2184
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.sys_command
+)
+"ocamlbuild/my_unix.ml" 64 2160 2185 "ocamlbuild/my_unix.ml" 64 2160 2186
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_unix.ml" 63 2119 2127 "ocamlbuild/my_unix.ml" 63 2119 2128
+)
+"ocamlbuild/my_unix.ml" 64 2160 2173 "ocamlbuild/my_unix.ml" 64 2160 2186
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 65 2190 2197 "ocamlbuild/my_unix.ml" 65 2190 2199
+type(
+  int
+)
+ident(
+  int_ref st "ocamlbuild/my_unix.ml" 64 2160 2168 "ocamlbuild/my_unix.ml" 64 2160 2170
+)
+"ocamlbuild/my_unix.ml" 65 2190 2200 "ocamlbuild/my_unix.ml" 65 2190 2202
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"ocamlbuild/my_unix.ml" 65 2190 2203 "ocamlbuild/my_unix.ml" 65 2190 2204
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 65 2190 2197 "ocamlbuild/my_unix.ml" 65 2190 2204
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 65 2190 2210 "ocamlbuild/my_unix.ml" 65 2190 2218
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ocamlbuild/my_unix.ml" 65 2190 2220 "ocamlbuild/my_unix.ml" 65 2190 2234
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/my_unix.ml" 65 2190 2235 "ocamlbuild/my_unix.ml" 65 2190 2260
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/my_unix.ml" 65 2190 2261 "ocamlbuild/my_unix.ml" 65 2190 2262
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/my_unix.ml" 63 2119 2127 "ocamlbuild/my_unix.ml" 63 2119 2128
+)
+"ocamlbuild/my_unix.ml" 65 2190 2219 "ocamlbuild/my_unix.ml" 65 2190 2263
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 65 2190 2210 "ocamlbuild/my_unix.ml" 65 2190 2263
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 65 2190 2194 "ocamlbuild/my_unix.ml" 65 2190 2263
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 66 2265 2269 "ocamlbuild/my_unix.ml" 66 2265 2284
+type(
+  ?bin:bool -> string -> (in_channel -> 'a) -> 'a
+)
+ident(
+  ext_ref My_std.with_input_file
+)
+"ocamlbuild/my_unix.ml" 66 2265 2285 "ocamlbuild/my_unix.ml" 66 2265 2288
+type(
+  string
+)
+ident(
+  int_ref tmp "ocamlbuild/my_unix.ml" 62 2066 2112 "ocamlbuild/my_unix.ml" 62 2066 2115
+)
+"ocamlbuild/my_unix.ml" 66 2265 2289 "ocamlbuild/my_unix.ml" 66 2265 2293
+type(
+  in_channel -> 'a
+)
+ident(
+  int_ref kont "ocamlbuild/my_unix.ml" 61 2040 2059 "ocamlbuild/my_unix.ml" 61 2040 2063
+)
+"ocamlbuild/my_unix.ml" 66 2265 2269 "ocamlbuild/my_unix.ml" 66 2265 2293
+call(
+  tail
+)
+type(
+  'a
+)
+"ocamlbuild/my_unix.ml" 65 2190 2194 "ocamlbuild/my_unix.ml" 66 2265 2293
+type(
+  'a
+)
+"ocamlbuild/my_unix.ml" 64 2160 2164 "ocamlbuild/my_unix.ml" 66 2265 2293
+type(
+  'a
+)
+"ocamlbuild/my_unix.ml" 63 2119 2123 "ocamlbuild/my_unix.ml" 66 2265 2293
+type(
+  'a
+)
+"ocamlbuild/my_unix.ml" 62 2066 2102 "ocamlbuild/my_unix.ml" 67 2294 2299
+type(
+  string -> 'a
+)
+"ocamlbuild/my_unix.ml" 62 2066 2068 "ocamlbuild/my_unix.ml" 67 2294 2299
+call(
+  tail
+)
+type(
+  'a
+)
+"ocamlbuild/my_unix.ml" 73 2390 2394 "ocamlbuild/my_unix.ml" 73 2390 2405
+type(
+  string -> string
+)
+ident(
+  def readlinkcmd "ocamlbuild/my_unix.ml" 83 2686 2686 --
+)
+"ocamlbuild/my_unix.ml" 74 2408 2414 "ocamlbuild/my_unix.ml" 74 2408 2419
+type(
+  (string, string) Hashtbl.t
+)
+"ocamlbuild/my_unix.ml" 74 2408 2422 "ocamlbuild/my_unix.ml" 74 2408 2436
+type(
+  int -> (string, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/my_unix.ml" 74 2408 2437 "ocamlbuild/my_unix.ml" 74 2408 2439
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 74 2408 2422 "ocamlbuild/my_unix.ml" 74 2408 2439
+call(
+  stack
+)
+type(
+  (string, string) Hashtbl.t
+)
+"ocamlbuild/my_unix.ml" 75 2443 2449 "ocamlbuild/my_unix.ml" 75 2443 2450
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 76 2454 2458 "ocamlbuild/my_unix.ml" 81 2675 2684
+)
+"ocamlbuild/my_unix.ml" 76 2454 2462 "ocamlbuild/my_unix.ml" 76 2454 2474
+type(
+  (string, string) Hashtbl.t -> string -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/my_unix.ml" 76 2454 2475 "ocamlbuild/my_unix.ml" 76 2454 2480
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_unix.ml" 74 2408 2414 "ocamlbuild/my_unix.ml" 74 2408 2419
+)
+"ocamlbuild/my_unix.ml" 76 2454 2481 "ocamlbuild/my_unix.ml" 76 2454 2482
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 75 2443 2449 "ocamlbuild/my_unix.ml" 75 2443 2450
+)
+"ocamlbuild/my_unix.ml" 76 2454 2462 "ocamlbuild/my_unix.ml" 76 2454 2482
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 77 2483 2492 "ocamlbuild/my_unix.ml" 77 2483 2501
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 78 2505 2511 "ocamlbuild/my_unix.ml" 78 2505 2523
+type(
+  string -> (in_channel -> string) -> string
+)
+ident(
+  int_ref run_and_open "ocamlbuild/my_unix.ml" 61 2040 2044 "ocamlbuild/my_unix.ml" 61 2040 2056
+)
+"ocamlbuild/my_unix.ml" 78 2505 2525 "ocamlbuild/my_unix.ml" 78 2505 2539
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/my_unix.ml" 78 2505 2540 "ocamlbuild/my_unix.ml" 78 2505 2553
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/my_unix.ml" 78 2505 2555 "ocamlbuild/my_unix.ml" 78 2505 2569
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocamlbuild/my_unix.ml" 78 2505 2570 "ocamlbuild/my_unix.ml" 78 2505 2571
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 75 2443 2449 "ocamlbuild/my_unix.ml" 75 2443 2450
+)
+"ocamlbuild/my_unix.ml" 78 2505 2554 "ocamlbuild/my_unix.ml" 78 2505 2572
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 78 2505 2524 "ocamlbuild/my_unix.ml" 78 2505 2573
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 78 2505 2584 "ocamlbuild/my_unix.ml" 78 2505 2586
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/my_unix.ml" 79 2590 2598 "ocamlbuild/my_unix.ml" 80 2638 2674
+)
+"ocamlbuild/my_unix.ml" 79 2590 2602 "ocamlbuild/my_unix.ml" 79 2590 2603
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 79 2590 2606 "ocamlbuild/my_unix.ml" 79 2590 2618
+type(
+  string -> string
+)
+ident(
+  ext_ref My_std.String.chomp
+)
+"ocamlbuild/my_unix.ml" 79 2590 2620 "ocamlbuild/my_unix.ml" 79 2590 2630
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"ocamlbuild/my_unix.ml" 79 2590 2631 "ocamlbuild/my_unix.ml" 79 2590 2633
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_unix.ml" 78 2505 2584 "ocamlbuild/my_unix.ml" 78 2505 2586
+)
+"ocamlbuild/my_unix.ml" 79 2590 2619 "ocamlbuild/my_unix.ml" 79 2590 2634
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 79 2590 2606 "ocamlbuild/my_unix.ml" 79 2590 2634
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 80 2638 2646 "ocamlbuild/my_unix.ml" 80 2638 2661
+type(
+  (string, string) Hashtbl.t -> string -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/my_unix.ml" 80 2638 2662 "ocamlbuild/my_unix.ml" 80 2638 2667
+type(
+  (string, string) Hashtbl.t
+)
+ident(
+  int_ref cache "ocamlbuild/my_unix.ml" 74 2408 2414 "ocamlbuild/my_unix.ml" 74 2408 2419
+)
+"ocamlbuild/my_unix.ml" 80 2638 2668 "ocamlbuild/my_unix.ml" 80 2638 2669
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 75 2443 2449 "ocamlbuild/my_unix.ml" 75 2443 2450
+)
+"ocamlbuild/my_unix.ml" 80 2638 2670 "ocamlbuild/my_unix.ml" 80 2638 2671
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_unix.ml" 79 2590 2602 "ocamlbuild/my_unix.ml" 79 2590 2603
+)
+"ocamlbuild/my_unix.ml" 80 2638 2646 "ocamlbuild/my_unix.ml" 80 2638 2671
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 80 2638 2673 "ocamlbuild/my_unix.ml" 80 2638 2674
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_unix.ml" 79 2590 2602 "ocamlbuild/my_unix.ml" 79 2590 2603
+)
+"ocamlbuild/my_unix.ml" 80 2638 2646 "ocamlbuild/my_unix.ml" 80 2638 2674
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 79 2590 2598 "ocamlbuild/my_unix.ml" 80 2638 2674
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 78 2505 2574 "ocamlbuild/my_unix.ml" 81 2675 2684
+type(
+  in_channel -> string
+)
+"ocamlbuild/my_unix.ml" 78 2505 2511 "ocamlbuild/my_unix.ml" 81 2675 2684
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 76 2454 2458 "ocamlbuild/my_unix.ml" 81 2675 2684
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 75 2443 2445 "ocamlbuild/my_unix.ml" 81 2675 2684
+type(
+  string -> string
+)
+"ocamlbuild/my_unix.ml" 74 2408 2410 "ocamlbuild/my_unix.ml" 81 2675 2684
+type(
+  string -> string
+)
+"ocamlbuild/my_unix.ml" 83 2686 2694 "ocamlbuild/my_unix.ml" 83 2686 2702
+type(
+  string -> string
+)
+ident(
+  def readlink "ocamlbuild/my_unix.ml" 83 2686 2686 --
+)
+"ocamlbuild/my_unix.ml" 83 2686 2703 "ocamlbuild/my_unix.ml" 83 2686 2704
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 84 2707 2709 "ocamlbuild/my_unix.ml" 89 2909 2934
+)
+"ocamlbuild/my_unix.ml" 84 2707 2712 "ocamlbuild/my_unix.ml" 84 2707 2727
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/my_unix.ml" 84 2707 2728 "ocamlbuild/my_unix.ml" 84 2707 2729
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 83 2686 2703 "ocamlbuild/my_unix.ml" 83 2686 2704
+)
+"ocamlbuild/my_unix.ml" 84 2707 2712 "ocamlbuild/my_unix.ml" 84 2707 2729
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 86 2743 2753 "ocamlbuild/my_unix.ml" 86 2743 2754
+type(
+  string
+)
+ident(
+  def y "ocamlbuild/my_unix.ml" 87 2774 2780 "ocamlbuild/my_unix.ml" 87 2774 2868
+)
+"ocamlbuild/my_unix.ml" 86 2743 2757 "ocamlbuild/my_unix.ml" 86 2743 2768
+type(
+  string -> string
+)
+ident(
+  int_ref readlinkcmd "ocamlbuild/my_unix.ml" 73 2390 2394 "ocamlbuild/my_unix.ml" 73 2390 2405
+)
+"ocamlbuild/my_unix.ml" 86 2743 2769 "ocamlbuild/my_unix.ml" 86 2743 2770
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 83 2686 2703 "ocamlbuild/my_unix.ml" 83 2686 2704
+)
+"ocamlbuild/my_unix.ml" 86 2743 2757 "ocamlbuild/my_unix.ml" 86 2743 2770
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 87 2774 2784 "ocamlbuild/my_unix.ml" 87 2774 2789
+type(
+  string -> stats
+)
+ident(
+  int_ref lstat "ocamlbuild/my_unix.ml" 95 3028 3032 "ocamlbuild/my_unix.ml" 95 3028 3037
+)
+"ocamlbuild/my_unix.ml" 87 2774 2790 "ocamlbuild/my_unix.ml" 87 2774 2791
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_unix.ml" 86 2743 2753 "ocamlbuild/my_unix.ml" 86 2743 2754
+)
+"ocamlbuild/my_unix.ml" 87 2774 2783 "ocamlbuild/my_unix.ml" 87 2774 2792
+call(
+  stack
+)
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 87 2774 2783 "ocamlbuild/my_unix.ml" 87 2774 2807
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 87 2774 2808 "ocamlbuild/my_unix.ml" 87 2774 2809
+type(
+  file_kind -> file_kind -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/my_unix.ml" 87 2774 2810 "ocamlbuild/my_unix.ml" 87 2774 2816
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 87 2774 2783 "ocamlbuild/my_unix.ml" 87 2774 2816
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 87 2774 2822 "ocamlbuild/my_unix.ml" 87 2774 2827
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_unix.ml" 87 2774 2828 "ocamlbuild/my_unix.ml" 87 2774 2861
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 87 2774 2822 "ocamlbuild/my_unix.ml" 87 2774 2861
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 87 2774 2867 "ocamlbuild/my_unix.ml" 87 2774 2868
+type(
+  string
+)
+ident(
+  int_ref y "ocamlbuild/my_unix.ml" 86 2743 2753 "ocamlbuild/my_unix.ml" 86 2743 2754
+)
+"ocamlbuild/my_unix.ml" 87 2774 2780 "ocamlbuild/my_unix.ml" 87 2774 2868
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 86 2743 2749 "ocamlbuild/my_unix.ml" 87 2774 2868
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 88 2869 2885 "ocamlbuild/my_unix.ml" 88 2869 2888
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 88 2869 2878 "ocamlbuild/my_unix.ml" 88 2869 2888
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 88 2869 2892 "ocamlbuild/my_unix.ml" 88 2869 2897
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_unix.ml" 88 2869 2898 "ocamlbuild/my_unix.ml" 88 2869 2908
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 88 2869 2892 "ocamlbuild/my_unix.ml" 88 2869 2908
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 85 2735 2739 "ocamlbuild/my_unix.ml" 88 2869 2908
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 89 2909 2916 "ocamlbuild/my_unix.ml" 89 2909 2921
+type(
+  exn -> string
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_unix.ml" 89 2909 2922 "ocamlbuild/my_unix.ml" 89 2909 2934
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 89 2909 2916 "ocamlbuild/my_unix.ml" 89 2909 2934
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 84 2707 2709 "ocamlbuild/my_unix.ml" 89 2909 2934
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 91 2936 2940 "ocamlbuild/my_unix.ml" 91 2936 2947
+type(
+  string -> bool
+)
+ident(
+  def is_link "ocamlbuild/my_unix.ml" 83 2686 2686 --
+)
+"ocamlbuild/my_unix.ml" 91 2936 2948 "ocamlbuild/my_unix.ml" 91 2936 2949
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 92 2952 2954 "ocamlbuild/my_unix.ml" 93 2988 3026
+)
+"ocamlbuild/my_unix.ml" 92 2952 2958 "ocamlbuild/my_unix.ml" 92 2952 2964
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ocamlbuild/my_unix.ml" 92 2952 2965 "ocamlbuild/my_unix.ml" 92 2952 2973
+type(
+  string -> string
+)
+ident(
+  int_ref readlink "ocamlbuild/my_unix.ml" 83 2686 2694 "ocamlbuild/my_unix.ml" 83 2686 2702
+)
+"ocamlbuild/my_unix.ml" 92 2952 2974 "ocamlbuild/my_unix.ml" 92 2952 2975
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 91 2936 2948 "ocamlbuild/my_unix.ml" 91 2936 2949
+)
+"ocamlbuild/my_unix.ml" 92 2952 2964 "ocamlbuild/my_unix.ml" 92 2952 2976
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 92 2952 2958 "ocamlbuild/my_unix.ml" 92 2952 2976
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 92 2952 2978 "ocamlbuild/my_unix.ml" 92 2952 2982
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 92 2952 2958 "ocamlbuild/my_unix.ml" 92 2952 2982
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 93 2988 2992 "ocamlbuild/my_unix.ml" 93 2988 3004
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 93 2988 3007 "ocamlbuild/my_unix.ml" 93 2988 3017
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 93 2988 2992 "ocamlbuild/my_unix.ml" 93 2988 3017
+type(
+  exn
+)
+"ocamlbuild/my_unix.ml" 93 2988 3021 "ocamlbuild/my_unix.ml" 93 2988 3026
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 92 2952 2954 "ocamlbuild/my_unix.ml" 93 2988 3026
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 95 3028 3032 "ocamlbuild/my_unix.ml" 95 3028 3037
+type(
+  string -> stats
+)
+ident(
+  def lstat "ocamlbuild/my_unix.ml" 83 2686 2686 --
+)
+"ocamlbuild/my_unix.ml" 95 3028 3038 "ocamlbuild/my_unix.ml" 95 3028 3039
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 96 3042 3044 "ocamlbuild/my_unix.ml" 96 3042 3116
+)
+"ocamlbuild/my_unix.ml" 96 3042 3047 "ocamlbuild/my_unix.ml" 96 3042 3054
+type(
+  string -> bool
+)
+ident(
+  int_ref is_link "ocamlbuild/my_unix.ml" 91 2936 2940 "ocamlbuild/my_unix.ml" 91 2936 2947
+)
+"ocamlbuild/my_unix.ml" 96 3042 3055 "ocamlbuild/my_unix.ml" 96 3042 3056
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 95 3028 3038 "ocamlbuild/my_unix.ml" 95 3028 3039
+)
+"ocamlbuild/my_unix.ml" 96 3042 3047 "ocamlbuild/my_unix.ml" 96 3042 3056
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 96 3042 3075 "ocamlbuild/my_unix.ml" 96 3042 3076
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 95 3028 3038 "ocamlbuild/my_unix.ml" 95 3028 3039
+)
+"ocamlbuild/my_unix.ml" 96 3042 3095 "ocamlbuild/my_unix.ml" 96 3042 3102
+type(
+  file_kind
+)
+"ocamlbuild/my_unix.ml" 96 3042 3062 "ocamlbuild/my_unix.ml" 96 3042 3104
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 96 3042 3110 "ocamlbuild/my_unix.ml" 96 3042 3114
+type(
+  string -> stats
+)
+ident(
+  int_ref stat "ocamlbuild/my_unix.ml" 51 1806 1810 "ocamlbuild/my_unix.ml" 51 1806 1814
+)
+"ocamlbuild/my_unix.ml" 96 3042 3115 "ocamlbuild/my_unix.ml" 96 3042 3116
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 95 3028 3038 "ocamlbuild/my_unix.ml" 95 3028 3039
+)
+"ocamlbuild/my_unix.ml" 96 3042 3110 "ocamlbuild/my_unix.ml" 96 3042 3116
+call(
+  tail
+)
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 96 3042 3044 "ocamlbuild/my_unix.ml" 96 3042 3116
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+type(
+  implem
+)
+ident(
+  def implem "ocamlbuild/my_unix.ml" 116 3631 3631 --
+)
+"ocamlbuild/my_unix.ml" 100 3143 3161 "ocamlbuild/my_unix.ml" 100 3143 3165
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 102 3168 3179 "ocamlbuild/my_unix.ml" 102 3168 3183
+type(
+  string -> stats
+)
+ident(
+  int_ref stat "ocamlbuild/my_unix.ml" 51 1806 1810 "ocamlbuild/my_unix.ml" 51 1806 1814
+)
+"ocamlbuild/my_unix.ml" 103 3185 3197 "ocamlbuild/my_unix.ml" 103 3185 3202
+type(
+  string -> stats
+)
+ident(
+  int_ref lstat "ocamlbuild/my_unix.ml" 95 3028 3032 "ocamlbuild/my_unix.ml" 95 3028 3037
+)
+"ocamlbuild/my_unix.ml" 104 3204 3219 "ocamlbuild/my_unix.ml" 104 3204 3227
+type(
+  string -> string
+)
+ident(
+  int_ref readlink "ocamlbuild/my_unix.ml" 83 2686 2694 "ocamlbuild/my_unix.ml" 83 2686 2702
+)
+"ocamlbuild/my_unix.ml" 105 3229 3243 "ocamlbuild/my_unix.ml" 105 3229 3250
+type(
+  string -> bool
+)
+ident(
+  int_ref is_link "ocamlbuild/my_unix.ml" 91 2936 2940 "ocamlbuild/my_unix.ml" 91 2936 2947
+)
+"ocamlbuild/my_unix.ml" 106 3252 3271 "ocamlbuild/my_unix.ml" 106 3252 3283
+type(
+  string -> (in_channel -> 'a) -> 'a
+)
+ident(
+  int_ref run_and_open "ocamlbuild/my_unix.ml" 61 2040 2044 "ocamlbuild/my_unix.ml" 61 2040 2056
+)
+"ocamlbuild/my_unix.ml" 109 3383 3402 "ocamlbuild/my_unix.ml" 109 3383 3409
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  ext_ref Pervasives.at_exit
+)
+"ocamlbuild/my_unix.ml" 110 3411 3435 "ocamlbuild/my_unix.ml" 110 3411 3436
+type(
+  Format.formatter
+)
+"ocamlbuild/my_unix.ml" 110 3411 3440 "ocamlbuild/my_unix.ml" 110 3411 3445
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/my_unix.ml" 110 3411 3430 "ocamlbuild/my_unix.ml" 110 3411 3446
+type(
+  Format.formatter -> exn -> unit
+)
+"ocamlbuild/my_unix.ml" 111 3448 3472 "ocamlbuild/my_unix.ml" 111 3448 3474
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 111 3448 3478 "ocamlbuild/my_unix.ml" 111 3448 3490
+type(
+  float
+)
+"ocamlbuild/my_unix.ml" 111 3448 3467 "ocamlbuild/my_unix.ml" 111 3448 3491
+type(
+  unit -> float
+)
+"ocamlbuild/my_unix.ml" 112 3493 3518 "ocamlbuild/my_unix.ml" 112 3493 3520
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 112 3493 3524 "ocamlbuild/my_unix.ml" 112 3493 3529
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 112 3493 3513 "ocamlbuild/my_unix.ml" 112 3493 3530
+type(
+  unit -> bool
+)
+"ocamlbuild/my_unix.ml" 113 3532 3567 "ocamlbuild/my_unix.ml" 113 3532 3568
+type(
+  int option
+)
+"ocamlbuild/my_unix.ml" 113 3532 3579 "ocamlbuild/my_unix.ml" 113 3532 3580
+type(
+  (unit -> unit) option
+)
+"ocamlbuild/my_unix.ml" 113 3532 3591 "ocamlbuild/my_unix.ml" 113 3532 3592
+type(
+  float option
+)
+"ocamlbuild/my_unix.ml" 113 3532 3604 "ocamlbuild/my_unix.ml" 113 3532 3605
+type(
+  ((out_channel -> unit) -> unit) option
+)
+"ocamlbuild/my_unix.ml" 113 3532 3607 "ocamlbuild/my_unix.ml" 113 3532 3608
+type(
+  (unit -> string) list list
+)
+"ocamlbuild/my_unix.ml" 113 3532 3612 "ocamlbuild/my_unix.ml" 113 3532 3624
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/my_unix.ml" 113 3532 3551 "ocamlbuild/my_unix.ml" 113 3532 3625
+type(
+  ?max_jobs:int ->
+  ?ticker:(unit -> unit) ->
+  ?period:float ->
+  ?display:((out_channel -> unit) -> unit) ->
+  (unit -> string) list list -> (bool list * exn) option
+)
+"ocamlbuild/my_unix.ml" 99 3139 3141 "ocamlbuild/my_unix.ml" 114 3626 3629
+type(
+  implem
+)
+"ocamlbuild/my_unix.ml" 116 3631 3635 "ocamlbuild/my_unix.ml" 116 3631 3646
+type(
+  bool lazy_t
+)
+ident(
+  def is_degraded "ocamlbuild/my_unix.ml" 117 3673 3673 --
+)
+"ocamlbuild/my_unix.ml" 116 3631 3654 "ocamlbuild/my_unix.ml" 116 3631 3660
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 116 3631 3654 "ocamlbuild/my_unix.ml" 116 3631 3672
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 116 3631 3649 "ocamlbuild/my_unix.ml" 116 3631 3672
+type(
+  bool lazy_t
+)
+"ocamlbuild/my_unix.ml" 117 3673 3677 "ocamlbuild/my_unix.ml" 117 3673 3681
+type(
+  string -> stats
+)
+ident(
+  def stat "ocamlbuild/my_unix.ml" 118 3700 3700 --
+)
+"ocamlbuild/my_unix.ml" 117 3673 3682 "ocamlbuild/my_unix.ml" 117 3673 3683
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 117 3673 3686 "ocamlbuild/my_unix.ml" 117 3673 3699
+)
+"ocamlbuild/my_unix.ml" 117 3673 3686 "ocamlbuild/my_unix.ml" 117 3673 3692
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 117 3673 3686 "ocamlbuild/my_unix.ml" 117 3673 3697
+type(
+  string -> stats
+)
+"ocamlbuild/my_unix.ml" 117 3673 3698 "ocamlbuild/my_unix.ml" 117 3673 3699
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 117 3673 3682 "ocamlbuild/my_unix.ml" 117 3673 3683
+)
+"ocamlbuild/my_unix.ml" 117 3673 3686 "ocamlbuild/my_unix.ml" 117 3673 3699
+call(
+  tail
+)
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 118 3700 3704 "ocamlbuild/my_unix.ml" 118 3700 3709
+type(
+  string -> stats
+)
+ident(
+  def lstat "ocamlbuild/my_unix.ml" 119 3729 3729 --
+)
+"ocamlbuild/my_unix.ml" 118 3700 3710 "ocamlbuild/my_unix.ml" 118 3700 3711
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 118 3700 3714 "ocamlbuild/my_unix.ml" 118 3700 3728
+)
+"ocamlbuild/my_unix.ml" 118 3700 3714 "ocamlbuild/my_unix.ml" 118 3700 3720
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 118 3700 3714 "ocamlbuild/my_unix.ml" 118 3700 3726
+type(
+  string -> stats
+)
+"ocamlbuild/my_unix.ml" 118 3700 3727 "ocamlbuild/my_unix.ml" 118 3700 3728
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 118 3700 3710 "ocamlbuild/my_unix.ml" 118 3700 3711
+)
+"ocamlbuild/my_unix.ml" 118 3700 3714 "ocamlbuild/my_unix.ml" 118 3700 3728
+call(
+  tail
+)
+type(
+  stats
+)
+"ocamlbuild/my_unix.ml" 119 3729 3733 "ocamlbuild/my_unix.ml" 119 3729 3741
+type(
+  string -> string
+)
+ident(
+  def readlink "ocamlbuild/my_unix.ml" 120 3764 3764 --
+)
+"ocamlbuild/my_unix.ml" 119 3729 3742 "ocamlbuild/my_unix.ml" 119 3729 3743
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 119 3729 3746 "ocamlbuild/my_unix.ml" 119 3729 3763
+)
+"ocamlbuild/my_unix.ml" 119 3729 3746 "ocamlbuild/my_unix.ml" 119 3729 3752
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 119 3729 3746 "ocamlbuild/my_unix.ml" 119 3729 3761
+type(
+  string -> string
+)
+"ocamlbuild/my_unix.ml" 119 3729 3762 "ocamlbuild/my_unix.ml" 119 3729 3763
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 119 3729 3742 "ocamlbuild/my_unix.ml" 119 3729 3743
+)
+"ocamlbuild/my_unix.ml" 119 3729 3746 "ocamlbuild/my_unix.ml" 119 3729 3763
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 120 3764 3768 "ocamlbuild/my_unix.ml" 120 3764 3775
+type(
+  string -> bool
+)
+ident(
+  def is_link "ocamlbuild/my_unix.ml" 121 3797 3797 --
+)
+"ocamlbuild/my_unix.ml" 120 3764 3776 "ocamlbuild/my_unix.ml" 120 3764 3777
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 120 3764 3780 "ocamlbuild/my_unix.ml" 120 3764 3796
+)
+"ocamlbuild/my_unix.ml" 120 3764 3780 "ocamlbuild/my_unix.ml" 120 3764 3786
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 120 3764 3780 "ocamlbuild/my_unix.ml" 120 3764 3794
+type(
+  string -> bool
+)
+"ocamlbuild/my_unix.ml" 120 3764 3795 "ocamlbuild/my_unix.ml" 120 3764 3796
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 120 3764 3776 "ocamlbuild/my_unix.ml" 120 3764 3777
+)
+"ocamlbuild/my_unix.ml" 120 3764 3780 "ocamlbuild/my_unix.ml" 120 3764 3796
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 121 3797 3801 "ocamlbuild/my_unix.ml" 121 3797 3813
+type(
+  string -> (in_channel -> 'a) -> 'a
+)
+ident(
+  def run_and_open "ocamlbuild/my_unix.ml" 122 3840 3840 --
+)
+"ocamlbuild/my_unix.ml" 121 3797 3814 "ocamlbuild/my_unix.ml" 121 3797 3815
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 121 3797 3818 "ocamlbuild/my_unix.ml" 121 3797 3839
+)
+"ocamlbuild/my_unix.ml" 121 3797 3818 "ocamlbuild/my_unix.ml" 121 3797 3824
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 121 3797 3818 "ocamlbuild/my_unix.ml" 121 3797 3837
+type(
+  string -> (in_channel -> 'a) -> 'a
+)
+"ocamlbuild/my_unix.ml" 121 3797 3838 "ocamlbuild/my_unix.ml" 121 3797 3839
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 121 3797 3814 "ocamlbuild/my_unix.ml" 121 3797 3815
+)
+"ocamlbuild/my_unix.ml" 121 3797 3818 "ocamlbuild/my_unix.ml" 121 3797 3839
+call(
+  tail
+)
+type(
+  (in_channel -> 'a) -> 'a
+)
+"ocamlbuild/my_unix.ml" 122 3840 3844 "ocamlbuild/my_unix.ml" 122 3840 3856
+type(
+  (unit -> unit) -> unit
+)
+ident(
+  def at_exit_once "ocamlbuild/my_unix.ml" 123 3883 3883 --
+)
+"ocamlbuild/my_unix.ml" 122 3840 3857 "ocamlbuild/my_unix.ml" 122 3840 3858
+type(
+  unit -> unit
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 122 3840 3861 "ocamlbuild/my_unix.ml" 122 3840 3882
+)
+"ocamlbuild/my_unix.ml" 122 3840 3861 "ocamlbuild/my_unix.ml" 122 3840 3867
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 122 3840 3861 "ocamlbuild/my_unix.ml" 122 3840 3880
+type(
+  (unit -> unit) -> unit
+)
+"ocamlbuild/my_unix.ml" 122 3840 3881 "ocamlbuild/my_unix.ml" 122 3840 3882
+type(
+  unit -> unit
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 122 3840 3857 "ocamlbuild/my_unix.ml" 122 3840 3858
+)
+"ocamlbuild/my_unix.ml" 122 3840 3861 "ocamlbuild/my_unix.ml" 122 3840 3882
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 123 3883 3887 "ocamlbuild/my_unix.ml" 123 3883 3899
+type(
+  Format.formatter -> exn -> unit
+)
+ident(
+  def report_error "ocamlbuild/my_unix.ml" 124 3926 3926 --
+)
+"ocamlbuild/my_unix.ml" 123 3883 3900 "ocamlbuild/my_unix.ml" 123 3883 3901
+type(
+  Format.formatter
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 123 3883 3904 "ocamlbuild/my_unix.ml" 123 3883 3925
+)
+"ocamlbuild/my_unix.ml" 123 3883 3904 "ocamlbuild/my_unix.ml" 123 3883 3910
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 123 3883 3904 "ocamlbuild/my_unix.ml" 123 3883 3923
+type(
+  Format.formatter -> exn -> unit
+)
+"ocamlbuild/my_unix.ml" 123 3883 3924 "ocamlbuild/my_unix.ml" 123 3883 3925
+type(
+  Format.formatter
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 123 3883 3900 "ocamlbuild/my_unix.ml" 123 3883 3901
+)
+"ocamlbuild/my_unix.ml" 123 3883 3904 "ocamlbuild/my_unix.ml" 123 3883 3925
+call(
+  tail
+)
+type(
+  exn -> unit
+)
+"ocamlbuild/my_unix.ml" 124 3926 3930 "ocamlbuild/my_unix.ml" 124 3926 3942
+type(
+  unit -> float
+)
+ident(
+  def gettimeofday "ocamlbuild/my_unix.ml" 125 3969 3969 --
+)
+"ocamlbuild/my_unix.ml" 124 3926 3943 "ocamlbuild/my_unix.ml" 124 3926 3944
+type(
+  unit
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 124 3926 3947 "ocamlbuild/my_unix.ml" 124 3926 3968
+)
+"ocamlbuild/my_unix.ml" 124 3926 3947 "ocamlbuild/my_unix.ml" 124 3926 3953
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 124 3926 3947 "ocamlbuild/my_unix.ml" 124 3926 3966
+type(
+  unit -> float
+)
+"ocamlbuild/my_unix.ml" 124 3926 3967 "ocamlbuild/my_unix.ml" 124 3926 3968
+type(
+  unit
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 124 3926 3943 "ocamlbuild/my_unix.ml" 124 3926 3944
+)
+"ocamlbuild/my_unix.ml" 124 3926 3947 "ocamlbuild/my_unix.ml" 124 3926 3968
+call(
+  tail
+)
+type(
+  float
+)
+"ocamlbuild/my_unix.ml" 125 3969 3973 "ocamlbuild/my_unix.ml" 125 3969 3986
+type(
+  unit -> bool
+)
+ident(
+  def stdout_isatty "ocamlbuild/my_unix.ml" 126 4014 4014 --
+)
+"ocamlbuild/my_unix.ml" 125 3969 3987 "ocamlbuild/my_unix.ml" 125 3969 3988
+type(
+  unit
+)
+ident(
+  def x "ocamlbuild/my_unix.ml" 125 3969 3991 "ocamlbuild/my_unix.ml" 125 3969 4013
+)
+"ocamlbuild/my_unix.ml" 125 3969 3991 "ocamlbuild/my_unix.ml" 125 3969 3997
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 125 3969 3991 "ocamlbuild/my_unix.ml" 125 3969 4011
+type(
+  unit -> bool
+)
+"ocamlbuild/my_unix.ml" 125 3969 4012 "ocamlbuild/my_unix.ml" 125 3969 4013
+type(
+  unit
+)
+ident(
+  int_ref x "ocamlbuild/my_unix.ml" 125 3969 3987 "ocamlbuild/my_unix.ml" 125 3969 3988
+)
+"ocamlbuild/my_unix.ml" 125 3969 3991 "ocamlbuild/my_unix.ml" 125 3969 4013
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 126 4014 4018 "ocamlbuild/my_unix.ml" 126 4014 4030
+type(
+  ?max_jobs:int ->
+  ?ticker:(unit -> unit) ->
+  ?period:float ->
+  ?display:((out_channel -> unit) -> unit) ->
+  (unit -> string) list list -> (bool list * exn) option
+)
+ident(
+  def execute_many "ocamlbuild/my_unix.ml" 128 4074 4074 --
+)
+"ocamlbuild/my_unix.ml" 126 4014 4032 "ocamlbuild/my_unix.ml" 126 4014 4040
+type(
+  int option
+)
+ident(
+  def max_jobs "ocamlbuild/my_unix.ml" 126 4014 4043 "ocamlbuild/my_unix.ml" 126 4014 4072
+)
+"ocamlbuild/my_unix.ml" 126 4014 4043 "ocamlbuild/my_unix.ml" 126 4014 4049
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 126 4014 4043 "ocamlbuild/my_unix.ml" 126 4014 4062
+type(
+  ?max_jobs:int ->
+  ?ticker:(unit -> unit) ->
+  ?period:float ->
+  ?display:((out_channel -> unit) -> unit) ->
+  (unit -> string) list list -> (bool list * exn) option
+)
+"ocamlbuild/my_unix.ml" 126 4014 4064 "ocamlbuild/my_unix.ml" 126 4014 4072
+type(
+  int option
+)
+ident(
+  int_ref max_jobs "ocamlbuild/my_unix.ml" 126 4014 4032 "ocamlbuild/my_unix.ml" 126 4014 4040
+)
+"ocamlbuild/my_unix.ml" 126 4014 4043 "ocamlbuild/my_unix.ml" 126 4014 4072
+call(
+  tail
+)
+type(
+  ?ticker:(unit -> unit) ->
+  ?period:float ->
+  ?display:((out_channel -> unit) -> unit) ->
+  (unit -> string) list list -> (bool list * exn) option
+)
+"ocamlbuild/my_unix.ml" 128 4074 4078 "ocamlbuild/my_unix.ml" 128 4074 4090
+type(
+  string -> string
+)
+ident(
+  def run_and_read "ocamlbuild/my_unix.ml" 140 4454 4459 --
+)
+"ocamlbuild/my_unix.ml" 128 4074 4091 "ocamlbuild/my_unix.ml" 128 4074 4094
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/my_unix.ml" 129 4097 4099 "ocamlbuild/my_unix.ml" 140 4454 4459
+)
+"ocamlbuild/my_unix.ml" 129 4097 4103 "ocamlbuild/my_unix.ml" 129 4097 4109
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 129 4097 4112 "ocamlbuild/my_unix.ml" 129 4097 4116
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 130 4120 4126 "ocamlbuild/my_unix.ml" 130 4120 4129
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 130 4120 4132 "ocamlbuild/my_unix.ml" 130 4120 4145
+type(
+  int -> string
+)
+ident(
+  ext_ref My_std.String.create
+)
+"ocamlbuild/my_unix.ml" 130 4120 4146 "ocamlbuild/my_unix.ml" 130 4120 4152
+type(
+  int
+)
+ident(
+  int_ref bufsiz "ocamlbuild/my_unix.ml" 129 4097 4103 "ocamlbuild/my_unix.ml" 129 4097 4109
+)
+"ocamlbuild/my_unix.ml" 130 4120 4132 "ocamlbuild/my_unix.ml" 130 4120 4152
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 131 4156 4162 "ocamlbuild/my_unix.ml" 131 4156 4170
+type(
+  Buffer.t
+)
+"ocamlbuild/my_unix.ml" 131 4156 4173 "ocamlbuild/my_unix.ml" 131 4156 4186
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"ocamlbuild/my_unix.ml" 131 4156 4187 "ocamlbuild/my_unix.ml" 131 4156 4191
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 131 4156 4173 "ocamlbuild/my_unix.ml" 131 4156 4191
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"ocamlbuild/my_unix.ml" 132 4195 4197 "ocamlbuild/my_unix.ml" 132 4195 4203
+type(
+  implem
+)
+ident(
+  int_ref implem "ocamlbuild/my_unix.ml" 98 3126 3130 "ocamlbuild/my_unix.ml" 98 3126 3136
+)
+"ocamlbuild/my_unix.ml" 132 4195 4197 "ocamlbuild/my_unix.ml" 132 4195 4216
+type(
+  string -> (in_channel -> string) -> string
+)
+"ocamlbuild/my_unix.ml" 132 4195 4217 "ocamlbuild/my_unix.ml" 132 4195 4220
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/my_unix.ml" 128 4074 4091 "ocamlbuild/my_unix.ml" 128 4074 4094
+)
+"ocamlbuild/my_unix.ml" 132 4195 4231 "ocamlbuild/my_unix.ml" 132 4195 4233
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/my_unix.ml" 133 4237 4241 "ocamlbuild/my_unix.ml" 139 4414 4453
+)
+"ocamlbuild/my_unix.ml" 133 4237 4249 "ocamlbuild/my_unix.ml" 133 4237 4253
+type(
+  int -> unit
+)
+"ocamlbuild/my_unix.ml" 133 4237 4254 "ocamlbuild/my_unix.ml" 133 4237 4257
+type(
+  int
+)
+ident(
+  def pos "ocamlbuild/my_unix.ml" 134 4260 4266 "ocamlbuild/my_unix.ml" 138 4403 4412
+)
+"ocamlbuild/my_unix.ml" 134 4260 4270 "ocamlbuild/my_unix.ml" 134 4260 4273
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 134 4260 4276 "ocamlbuild/my_unix.ml" 134 4260 4281
+type(
+  in_channel -> string -> int -> int -> int
+)
+ident(
+  ext_ref Pervasives.input
+)
+"ocamlbuild/my_unix.ml" 134 4260 4282 "ocamlbuild/my_unix.ml" 134 4260 4284
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/my_unix.ml" 132 4195 4231 "ocamlbuild/my_unix.ml" 132 4195 4233
+)
+"ocamlbuild/my_unix.ml" 134 4260 4285 "ocamlbuild/my_unix.ml" 134 4260 4288
+type(
+  string
+)
+ident(
+  int_ref buf "ocamlbuild/my_unix.ml" 130 4120 4126 "ocamlbuild/my_unix.ml" 130 4120 4129
+)
+"ocamlbuild/my_unix.ml" 134 4260 4289 "ocamlbuild/my_unix.ml" 134 4260 4290
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 134 4260 4291 "ocamlbuild/my_unix.ml" 134 4260 4297
+type(
+  int
+)
+ident(
+  int_ref bufsiz "ocamlbuild/my_unix.ml" 129 4097 4103 "ocamlbuild/my_unix.ml" 129 4097 4109
+)
+"ocamlbuild/my_unix.ml" 134 4260 4276 "ocamlbuild/my_unix.ml" 134 4260 4297
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 135 4301 4310 "ocamlbuild/my_unix.ml" 135 4301 4313
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_unix.ml" 134 4260 4270 "ocamlbuild/my_unix.ml" 134 4260 4273
+)
+"ocamlbuild/my_unix.ml" 135 4301 4314 "ocamlbuild/my_unix.ml" 135 4301 4315
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/my_unix.ml" 135 4301 4316 "ocamlbuild/my_unix.ml" 135 4301 4317
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 135 4301 4310 "ocamlbuild/my_unix.ml" 135 4301 4317
+type(
+  bool
+)
+"ocamlbuild/my_unix.ml" 136 4329 4337 "ocamlbuild/my_unix.ml" 136 4329 4357
+type(
+  Buffer.t -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Buffer.add_substring
+)
+"ocamlbuild/my_unix.ml" 136 4329 4358 "ocamlbuild/my_unix.ml" 136 4329 4366
+type(
+  Buffer.t
+)
+ident(
+  int_ref totalbuf "ocamlbuild/my_unix.ml" 131 4156 4162 "ocamlbuild/my_unix.ml" 131 4156 4170
+)
+"ocamlbuild/my_unix.ml" 136 4329 4367 "ocamlbuild/my_unix.ml" 136 4329 4370
+type(
+  string
+)
+ident(
+  int_ref buf "ocamlbuild/my_unix.ml" 130 4120 4126 "ocamlbuild/my_unix.ml" 130 4120 4129
+)
+"ocamlbuild/my_unix.ml" 136 4329 4371 "ocamlbuild/my_unix.ml" 136 4329 4372
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 136 4329 4373 "ocamlbuild/my_unix.ml" 136 4329 4376
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_unix.ml" 134 4260 4270 "ocamlbuild/my_unix.ml" 134 4260 4273
+)
+"ocamlbuild/my_unix.ml" 136 4329 4337 "ocamlbuild/my_unix.ml" 136 4329 4376
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 137 4378 4386 "ocamlbuild/my_unix.ml" 137 4378 4390
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/my_unix.ml" 133 4237 4249 "ocamlbuild/my_unix.ml" 133 4237 4253
+)
+"ocamlbuild/my_unix.ml" 137 4378 4392 "ocamlbuild/my_unix.ml" 137 4378 4395
+type(
+  int
+)
+ident(
+  int_ref pos "ocamlbuild/my_unix.ml" 133 4237 4254 "ocamlbuild/my_unix.ml" 133 4237 4257
+)
+"ocamlbuild/my_unix.ml" 137 4378 4396 "ocamlbuild/my_unix.ml" 137 4378 4397
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/my_unix.ml" 137 4378 4398 "ocamlbuild/my_unix.ml" 137 4378 4401
+type(
+  int
+)
+ident(
+  int_ref len "ocamlbuild/my_unix.ml" 134 4260 4270 "ocamlbuild/my_unix.ml" 134 4260 4273
+)
+"ocamlbuild/my_unix.ml" 137 4378 4391 "ocamlbuild/my_unix.ml" 137 4378 4402
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 137 4378 4386 "ocamlbuild/my_unix.ml" 137 4378 4402
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 135 4301 4323 "ocamlbuild/my_unix.ml" 138 4403 4412
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 135 4301 4307 "ocamlbuild/my_unix.ml" 138 4403 4412
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 134 4260 4266 "ocamlbuild/my_unix.ml" 138 4403 4412
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 139 4414 4421 "ocamlbuild/my_unix.ml" 139 4414 4425
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/my_unix.ml" 133 4237 4249 "ocamlbuild/my_unix.ml" 133 4237 4253
+)
+"ocamlbuild/my_unix.ml" 139 4414 4426 "ocamlbuild/my_unix.ml" 139 4414 4427
+type(
+  int
+)
+"ocamlbuild/my_unix.ml" 139 4414 4421 "ocamlbuild/my_unix.ml" 139 4414 4427
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/my_unix.ml" 139 4414 4429 "ocamlbuild/my_unix.ml" 139 4414 4444
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"ocamlbuild/my_unix.ml" 139 4414 4445 "ocamlbuild/my_unix.ml" 139 4414 4453
+type(
+  Buffer.t
+)
+ident(
+  int_ref totalbuf "ocamlbuild/my_unix.ml" 131 4156 4162 "ocamlbuild/my_unix.ml" 131 4156 4170
+)
+"ocamlbuild/my_unix.ml" 139 4414 4429 "ocamlbuild/my_unix.ml" 139 4414 4453
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 139 4414 4421 "ocamlbuild/my_unix.ml" 139 4414 4453
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 133 4237 4241 "ocamlbuild/my_unix.ml" 139 4414 4453
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 132 4195 4221 "ocamlbuild/my_unix.ml" 140 4454 4459
+type(
+  in_channel -> string
+)
+"ocamlbuild/my_unix.ml" 132 4195 4197 "ocamlbuild/my_unix.ml" 140 4454 4459
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 131 4156 4158 "ocamlbuild/my_unix.ml" 140 4454 4459
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 130 4120 4122 "ocamlbuild/my_unix.ml" 140 4454 4459
+type(
+  string
+)
+"ocamlbuild/my_unix.ml" 129 4097 4099 "ocamlbuild/my_unix.ml" 140 4454 4459
+type(
+  string
+)

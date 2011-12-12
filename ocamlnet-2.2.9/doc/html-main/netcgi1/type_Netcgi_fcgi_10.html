@@ -1,0 +1,49 @@
+<html><head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_fcgi_10</title>
+</head>
+<body>
+<code class="code"><span class="keyword">sig</span><br>
+&nbsp;&nbsp;<span class="keyword">exception</span>&nbsp;<span class="constructor">FCGI_error</span>&nbsp;<span class="keyword">of</span>&nbsp;string&nbsp;*&nbsp;exn<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;max_rec_size&nbsp;:&nbsp;int<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;fcgiHeader&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;version&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;rtype&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;requestid&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;contentlen&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;padlen&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;fcgiBeginRequestBody&nbsp;=&nbsp;{&nbsp;role&nbsp;:&nbsp;int;&nbsp;flags&nbsp;:&nbsp;int;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;fcgiEndRequestBody&nbsp;=&nbsp;{&nbsp;astatus&nbsp;:&nbsp;int;&nbsp;pstatus&nbsp;:&nbsp;int;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">type</span>&nbsp;fcgiRequest&nbsp;=&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;id&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;app_type&nbsp;:&nbsp;int;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;params&nbsp;:&nbsp;(string&nbsp;*&nbsp;string)&nbsp;list;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;stdin&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;:&nbsp;string;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;con&nbsp;:&nbsp;<span class="constructor">Unix</span>.file_descr;<br>
+&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;fcgi_accept&nbsp;:&nbsp;unit&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Netcgi_fcgi_10</span>.fcgiRequest<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;fcgi_destroy&nbsp;:&nbsp;<span class="constructor">Netcgi_fcgi_10</span>.fcgiRequest&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;fcgi_write_stdout&nbsp;:&nbsp;<span class="constructor">Netcgi_fcgi_10</span>.fcgiRequest&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;fcgi_write_stderr&nbsp;:&nbsp;<span class="constructor">Netcgi_fcgi_10</span>.fcgiRequest&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;string&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+&nbsp;&nbsp;<span class="keyword">val</span>&nbsp;fcgi_write_end_request&nbsp;:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="constructor">Netcgi_fcgi_10</span>.fcgiRequest&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;<span class="constructor">Netcgi_fcgi_10</span>.fcgiEndRequestBody&nbsp;<span class="keywordsign">-&gt;</span>&nbsp;unit<br>
+<span class="keyword">end</span></code></body></html>

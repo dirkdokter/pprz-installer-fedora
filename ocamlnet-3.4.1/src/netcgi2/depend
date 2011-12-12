@@ -1,0 +1,31 @@
+netcgi1_compat.cmo: netcgi_common.cmi netcgi_cgi.cmi netcgi.cmi \
+    netcgi1_compat.cmi
+netcgi1_compat.cmx: netcgi_common.cmx netcgi_cgi.cmx netcgi.cmx \
+    netcgi1_compat.cmi
+netcgi_ajp.cmo: netcgi_common.cmi netcgi.cmi netcgi_ajp.cmi
+netcgi_ajp.cmx: netcgi_common.cmx netcgi.cmx netcgi_ajp.cmi
+netcgi_cgi.cmo: netcgi_common.cmi netcgi.cmi netcgi_cgi.cmi
+netcgi_cgi.cmx: netcgi_common.cmx netcgi.cmx netcgi_cgi.cmi
+netcgi_common.cmo: netcgi_common.cmi
+netcgi_common.cmx: netcgi_common.cmi
+netcgi_dbi.cmo: netcgi.cmi netcgi_dbi.cmi
+netcgi_dbi.cmx: netcgi.cmx netcgi_dbi.cmi
+netcgi_fcgi.cmo: netcgi_common.cmi netcgi.cmi netcgi_fcgi.cmi
+netcgi_fcgi.cmx: netcgi_common.cmx netcgi.cmx netcgi_fcgi.cmi
+netcgi.cmo: netcgi_common.cmi netcgi.cmi
+netcgi.cmx: netcgi_common.cmx netcgi.cmi
+netcgi_scgi.cmo: netcgi_common.cmi netcgi.cmi netcgi_scgi.cmi
+netcgi_scgi.cmx: netcgi_common.cmx netcgi.cmx netcgi_scgi.cmi
+netcgi_template.cmo:
+netcgi_template.cmx:
+netcgi_test.cmo: netcgi_common.cmi netcgi.cmi netcgi_test.cmi
+netcgi_test.cmx: netcgi_common.cmx netcgi.cmx netcgi_test.cmi
+netcgi1_compat.cmi: netcgi.cmi
+netcgi_ajp.cmi: netcgi.cmi
+netcgi_cgi.cmi: netcgi.cmi
+netcgi_common.cmi:
+netcgi_dbi.cmi: netcgi.cmi
+netcgi_fcgi.cmi: netcgi.cmi
+netcgi.cmi: netcgi_common.cmi
+netcgi_scgi.cmi: netcgi.cmi
+netcgi_test.cmi: netcgi.cmi

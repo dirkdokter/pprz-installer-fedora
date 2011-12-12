@@ -1,0 +1,251 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="Up" href="Netcgi_env.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_env.cgi_environment</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="Netcgi_env.html">Up</a>
+&nbsp;</div>
+<center><h1>Class type <a href="type_Netcgi_env.cgi_environment.html">Netcgi_env.cgi_environment</a></h1></center>
+<br>
+<pre><span class="keyword">class type</span> <a name="TYPEcgi_environment"></a>cgi_environment = <code class="code">object</code> <a href="Netcgi_env.cgi_environment.html">..</a> <code class="code">end</code></pre>The class type cgi_environment contains the resources by which
+ the CGI activation is connected to the "outer world". In particular,
+ the following applies:
+<p>
+<ul>
+<li>CGI properties: These are the global properties of the CGI request
+   such as the HTTP method, which HTTP server serves the request, and
+   which client sent the request.
+   For a classic CGI environment, the properties are the environment
+   variables not beginning with <code class="code">"HTTP_"</code>, and neither <code class="code">"CONTENT_LENGTH"</code>
+   nor <code class="code">"CONTENT_TYPE"</code>.</li>
+<li>Input header: The header of the HTTP request. 
+   For a classic CGI environment, the input header can be extracted
+   from the process environment. It consists of all variables beginning
+   with <code class="code">"HTTP_"</code> and the variables <code class="code">"CONTENT_LENGTH"</code> and <code class="code">"CONTENT_TYPE"</code>.</li>
+<li>Input channel: Over the input channel the HTTP request can be read in.
+   The input state tracks which parts of the request have already be
+   read.
+   For a classic CGI environment, the input channel contains only the
+   body of the request, and the (required) header field content-length
+   specifies the length of the body in bytes.</li>
+<li>Output header: The header of the HTTP response.</li>
+<li>Output channel: Over the output channel the HTTP response is sent.
+   The output state tracks which parts of the response have already been
+   sent.</li>
+</ul>
+
+ The CGI environment cannot only be used for classic CGI but also for
+ non-standard ways of communication with the HTTP server. By design,
+ the header and the body of both the request and the response are
+ separated, and because of this every of these message parts can be
+ processed independently of the other parts.
+<p>
+
+ There is a certain protocol between the environment and the 
+ <code class="code">cgi_activation</code> objects. <ul>
+<li>The <code class="code">cgi_activation</code> object expects that the input state of the
+   environment is at least <code class="code">`Received_header</code> when it starts to 
+   process the request. This means that it is the task of the
+   environment to read the request header in.</li>
+<li>The <code class="code">cgi_activation</code> object reads the request body from
+   <code class="code">input_ch</code>, and modifies the input state as it reads the body</li>
+<li>The <code class="code">cgi_activation</code> object sets the response header in the
+   environment, and calls <code class="code">send_output_header</code> when the right
+   moment for sending the output header is reached. It does not
+   write the response header to <code class="code">output_ch</code> itself. This is the
+   sole task of the <code class="code">send_output_header</code> method of the environment.</li>
+<li>After the output header is sent, the <code class="code">cgi_activation</code> object
+   writes the response body to <code class="code">output_ch</code>. The output state is
+   modified by this object.</li>
+</ul>
+<br>
+<hr width="100%">
+<pre><span class="keyword">method</span> <a name="METHODconfig"></a>config : <code class="type"><a href="Netcgi_env.html#TYPEcgi_config">cgi_config</a></code></pre><div class="info">
+The CGI configuration<br>
+</div>
+<a name="2_Standardproperties"></a>
+<h2>Standard properties</h2>
+<p>
+
+ The following properties are standardised by CGI. The methods
+ return <code class="code">""</code> or <code class="code">None</code> (in the case of the port number) when 
+ the property is not available.<pre><span class="keyword">method</span> <a name="METHODcgi_gateway_interface"></a>cgi_gateway_interface : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_server_software"></a>cgi_server_software : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_server_name"></a>cgi_server_name : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_server_protocol"></a>cgi_server_protocol : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_server_port"></a>cgi_server_port : <code class="type">int option</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_request_method"></a>cgi_request_method : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_path_info"></a>cgi_path_info : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_path_translated"></a>cgi_path_translated : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_script_name"></a>cgi_script_name : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_query_string"></a>cgi_query_string : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_remote_host"></a>cgi_remote_host : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_remote_addr"></a>cgi_remote_addr : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_auth_type"></a>cgi_auth_type : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_remote_user"></a>cgi_remote_user : <code class="type">string</code></pre><pre><span class="keyword">method</span> <a name="METHODcgi_remote_ident"></a>cgi_remote_ident : <code class="type">string</code></pre><a name="2_Nonstandardproperties"></a>
+<h2>Non-standard properties</h2><pre><span class="keyword">method</span> <a name="METHODcgi_property"></a>cgi_property : <code class="type">?default:string -> string -> string</code></pre><div class="info">
+Returns a (possibly non-standard) environment property. If the property
+ is not set, <code class="code">Not_found</code> will be raised unless the <code class="code">default</code> argument is 
+ passed. The <code class="code">default</code> argument determines the result of the function in
+ this case.
+<p>
+
+ The method takes the case-sensitive name and returns the value
+ of the property. Usually, these properties have uppercase names.
+<p>
+
+ For example, <code class="code">cgi_gateway_interface</code> returns the same as
+ <pre><code class="code"> cgi_property ~default:"" "GATEWAY_INTERFACE" </code></pre>
+<p>
+
+ You can normally not access those fields coming from the HTTP
+ header. Use the method <code class="code">input_header_field</code> instead.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODcgi_properties"></a>cgi_properties : <code class="type">(string * string) list</code></pre><div class="info">
+All properties<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODcgi_https"></a>cgi_https : <code class="type">bool</code></pre><div class="info">
+A well-known extension is the <code class="code">HTTPS</code> property. It indicates whether
+ a secure connection is used (SSL/TLS). This method interprets this
+ property and returns true if the connection is secure.
+ This method fails if there is a <code class="code">HTTPS</code> property with an unknown value.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODcgi_request_uri"></a>cgi_request_uri : <code class="type">string</code></pre><div class="info">
+This is the URI path as passed in the HTTP request, without preprocessing<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODprotocol"></a>protocol : <code class="type"><a href="Netcgi_env.html#TYPEprotocol">protocol</a></code></pre><a name="2_Requestheader"></a>
+<h2>Request header</h2><pre><span class="keyword">method</span> <a name="METHODinput_header"></a>input_header : <code class="type">Netmime.mime_header</code></pre><div class="info">
+The whole header<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinput_header_field"></a>input_header_field : <code class="type">?default:string -> string -> string</code></pre><div class="info">
+Returns the value of a field of the request header. If the field
+ does not exist, <code class="code">Not_found</code> will be raised unless the <code class="code">default</code> argument
+ is passed. The <code class="code">default</code> argument determines the result of the function in
+ this case.
+<p>
+
+ If there are several fields with the same name only the first field
+ will be returned.
+<p>
+
+ The anonymous string is the name of the field. The name is case-insensitive,
+ and it does not matter whether it consists of lowercase or uppercase
+ letters. If the name is a compound name, the parts are separated by "-",
+ e.g. <code class="code">"content-length"</code>.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODmultiple_input_header_field"></a>multiple_input_header_field : <code class="type">string -> string list</code></pre><div class="info">
+Returns the values of all fields with the passed name of the request
+ header.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinput_header_fields"></a>input_header_fields : <code class="type">(string * string) list</code></pre><div class="info">
+Returns the input header as (name,value) pairs. The names may consist
+ of lowercase or uppercase letters.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODuser_agent"></a>user_agent : <code class="type">string</code></pre><div class="info">
+Returns the <code class="code">"User-agent"</code> field of the request header<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODcookies"></a>cookies : <code class="type">(string * string) list</code></pre><div class="info">
+Returns the list of cookies found in the request header<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinput_content_length"></a>input_content_length : <code class="type">int</code></pre><div class="info">
+Returns the <code class="code">"Content-length"</code> request header field, or raises 
+ <code class="code">Not_found</code> if it is not set<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinput_content_type_string"></a>input_content_type_string : <code class="type">string</code></pre><div class="info">
+Returns the <code class="code">"Content-type"</code> request header field or <code class="code">""</code> if it is
+ not set<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinput_content_type"></a>input_content_type : <code class="type">string * (string * Mimestring.s_param) list</code></pre><div class="info">
+Returns the parsed <code class="code">"Content-type"</code> request header field, or raises
+ <code class="code">Not_found</code> if it is not set.
+ See also <code class="code">Mimestring.scan_mime_type_ep</code>.<br>
+</div>
+<a name="2_Theinputchanneltransferringtherequestbody"></a>
+<h2>The input channel transferring the request body</h2><pre><span class="keyword">method</span> <a name="METHODinput_ch"></a>input_ch : <code class="type">Netchannels.in_obj_channel</code></pre><div class="info">
+The input channel as such<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinput_state"></a>input_state : <code class="type"><a href="Netcgi_env.html#TYPEinput_state">input_state</a></code></pre><div class="info">
+Returns the current input state<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_input_state"></a>set_input_state : <code class="type"><a href="Netcgi_env.html#TYPEinput_state">input_state</a> -> unit</code></pre><div class="info">
+Sets the input state. This method should only be called by
+ <code class="code">cgi_activation</code> implementations.<br>
+</div>
+<a name="2_Responseheader"></a>
+<h2>Response header</h2><pre><span class="keyword">method</span> <a name="METHODoutput_header"></a>output_header : <code class="type">Netmime.mime_header</code></pre><div class="info">
+The whole response header<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODoutput_header_field"></a>output_header_field : <code class="type">?default:string -> string -> string</code></pre><div class="info">
+Returns the value of a field of the response header. If the field
+ does not exist, <code class="code">Not_found</code> will be raised unless the <code class="code">default</code> argument
+ is passed. The <code class="code">default</code> argument determines the result of the function in
+ this case.
+<p>
+
+ If there are several fields with the same name only the first field
+ will be returned.
+<p>
+
+ The anonymous string is the name of the field. The name is case-insensitive,
+ and it does not matter whether it consists of lowercase or uppercase
+ letters. If the name is a compound name, the parts are separated by "-",
+ e.g. <code class="code">"content-length"</code>.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODmultiple_output_header_field"></a>multiple_output_header_field : <code class="type">string -> string list</code></pre><div class="info">
+Returns the values of all fields with the passed name of the repsonse
+ header.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODoutput_header_fields"></a>output_header_fields : <code class="type">(string * string) list</code></pre><div class="info">
+Returns the output header as (name,value) pairs. The names may consist
+ of lowercase or uppercase letters.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_output_header_field"></a>set_output_header_field : <code class="type">string -> string -> unit</code></pre><div class="info">
+Sets the value of a field of the response header. The previous value, if 
+ any, is overwritten. If there have been multiple values, all values
+ will be removed and replaced by the single new value.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_multiple_output_header_field"></a>set_multiple_output_header_field : <code class="type">string -> string list -> unit</code></pre><div class="info">
+Sets multiple values of a field of the response header. Any previous
+ values are removed and replaced by the new values.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_output_header_fields"></a>set_output_header_fields : <code class="type">(string * string) list -> unit</code></pre><div class="info">
+Sets the complete repsonse header at once.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_status"></a>set_status : <code class="type">Nethttp.http_status -> unit</code></pre><div class="info">
+Sets the response status. This is by definition the same as setting the
+ <code class="code">Status</code> output header field.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODsend_output_header"></a>send_output_header : <code class="type">unit -> unit</code></pre><div class="info">
+If the output state is <code class="code">`Start</code>, this method will encode and send
+ the output header to the output channel, and the state will be
+ changed to <code class="code">`Sent_header</code>.
+<p>
+
+ The method will fail if the output state is not <code class="code">`Start</code>.
+<p>
+
+ Note that this method is usually only called by the
+ <code class="code">cgi_activation</code> object.<br>
+</div>
+<a name="2_Theoutputchanneltransferringtheresponse"></a>
+<h2>The output channel transferring the response</h2><pre><span class="keyword">method</span> <a name="METHODoutput_ch"></a>output_ch : <code class="type">Netchannels.out_obj_channel</code></pre><div class="info">
+The output channel as such<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODoutput_state"></a>output_state : <code class="type"><a href="Netcgi_env.html#TYPEoutput_state">output_state</a></code></pre><div class="info">
+Returns the output state<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_output_state"></a>set_output_state : <code class="type"><a href="Netcgi_env.html#TYPEoutput_state">output_state</a> -> unit</code></pre><div class="info">
+Sets the output state. This method should only be called by
+ <code class="code">cgi_activation</code> implementations.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODlog_error"></a>log_error : <code class="type">string -> unit</code></pre><div class="info">
+Outputs a log message to the error log.<br>
+</div>
+</body></html>

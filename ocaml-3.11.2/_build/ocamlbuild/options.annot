@@ -1,0 +1,5962 @@
+"ocamlbuild/options.ml" 15 784 788 "ocamlbuild/options.ml" 15 784 795
+type(
+  string
+)
+ident(
+  def version "ocamlbuild/options.ml" 17 835 835 --
+)
+"ocamlbuild/options.ml" 15 784 798 "ocamlbuild/options.ml" 15 784 811
+type(
+  string
+)
+"ocamlbuild/options.ml" 15 784 811 "ocamlbuild/options.ml" 15 784 812
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/options.ml" 15 784 812 "ocamlbuild/options.ml" 15 784 831
+type(
+  string
+)
+ident(
+  ext_ref Sys.ocaml_version
+)
+"ocamlbuild/options.ml" 15 784 798 "ocamlbuild/options.ml" 15 784 831
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 24 916 920 "ocamlbuild/options.ml" 24 916 925
+type(
+  bool Slurp.entry option ref
+)
+ident(
+  def entry "ocamlbuild/options.ml" 25 937 937 --
+)
+"ocamlbuild/options.ml" 24 916 928 "ocamlbuild/options.ml" 24 916 931
+type(
+  bool Slurp.entry option -> bool Slurp.entry option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 24 916 932 "ocamlbuild/options.ml" 24 916 936
+type(
+  bool Slurp.entry option
+)
+"ocamlbuild/options.ml" 24 916 928 "ocamlbuild/options.ml" 24 916 936
+type(
+  bool Slurp.entry option ref
+)
+"ocamlbuild/options.ml" 25 937 941 "ocamlbuild/options.ml" 25 937 950
+type(
+  string ref
+)
+ident(
+  def build_dir "ocamlbuild/options.ml" 26 966 966 --
+)
+"ocamlbuild/options.ml" 25 937 953 "ocamlbuild/options.ml" 25 937 956
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 25 937 957 "ocamlbuild/options.ml" 25 937 965
+type(
+  string
+)
+"ocamlbuild/options.ml" 25 937 953 "ocamlbuild/options.ml" 25 937 965
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 26 966 970 "ocamlbuild/options.ml" 26 966 982
+type(
+  string list ref
+)
+ident(
+  def include_dirs "ocamlbuild/options.ml" 27 992 992 --
+)
+"ocamlbuild/options.ml" 26 966 985 "ocamlbuild/options.ml" 26 966 988
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 26 966 989 "ocamlbuild/options.ml" 26 966 991
+type(
+  string list
+)
+"ocamlbuild/options.ml" 26 966 985 "ocamlbuild/options.ml" 26 966 991
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 27 992 996 "ocamlbuild/options.ml" 27 992 1008
+type(
+  string list ref
+)
+ident(
+  def exclude_dirs "ocamlbuild/options.ml" 28 1018 1018 --
+)
+"ocamlbuild/options.ml" 27 992 1011 "ocamlbuild/options.ml" 27 992 1014
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 27 992 1015 "ocamlbuild/options.ml" 27 992 1017
+type(
+  string list
+)
+"ocamlbuild/options.ml" 27 992 1011 "ocamlbuild/options.ml" 27 992 1017
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 28 1018 1022 "ocamlbuild/options.ml" 28 1018 1047
+type(
+  bool ref
+)
+ident(
+  def nothing_should_be_rebuilt "ocamlbuild/options.ml" 29 1060 1060 --
+)
+"ocamlbuild/options.ml" 28 1018 1050 "ocamlbuild/options.ml" 28 1018 1053
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 28 1018 1054 "ocamlbuild/options.ml" 28 1018 1059
+type(
+  bool
+)
+"ocamlbuild/options.ml" 28 1018 1050 "ocamlbuild/options.ml" 28 1018 1059
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 29 1060 1064 "ocamlbuild/options.ml" 29 1060 1072
+type(
+  bool ref
+)
+ident(
+  def sanitize "ocamlbuild/options.ml" 30 1084 1084 --
+)
+"ocamlbuild/options.ml" 29 1060 1075 "ocamlbuild/options.ml" 29 1060 1078
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 29 1060 1079 "ocamlbuild/options.ml" 29 1060 1083
+type(
+  bool
+)
+"ocamlbuild/options.ml" 29 1060 1075 "ocamlbuild/options.ml" 29 1060 1083
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 30 1084 1088 "ocamlbuild/options.ml" 30 1084 1107
+type(
+  string ref
+)
+ident(
+  def sanitization_script "ocamlbuild/options.ml" 31 1128 1128 --
+)
+"ocamlbuild/options.ml" 30 1084 1110 "ocamlbuild/options.ml" 30 1084 1113
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 30 1084 1114 "ocamlbuild/options.ml" 30 1084 1127
+type(
+  string
+)
+"ocamlbuild/options.ml" 30 1084 1110 "ocamlbuild/options.ml" 30 1084 1127
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 31 1128 1132 "ocamlbuild/options.ml" 31 1128 1139
+type(
+  bool ref
+)
+ident(
+  def hygiene "ocamlbuild/options.ml" 32 1151 1151 --
+)
+"ocamlbuild/options.ml" 31 1128 1142 "ocamlbuild/options.ml" 31 1128 1145
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 31 1128 1146 "ocamlbuild/options.ml" 31 1128 1150
+type(
+  bool
+)
+"ocamlbuild/options.ml" 31 1128 1142 "ocamlbuild/options.ml" 31 1128 1150
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 32 1151 1155 "ocamlbuild/options.ml" 32 1151 1166
+type(
+  bool ref
+)
+ident(
+  def ignore_auto "ocamlbuild/options.ml" 33 1178 1178 --
+)
+"ocamlbuild/options.ml" 32 1151 1169 "ocamlbuild/options.ml" 32 1151 1172
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 32 1151 1173 "ocamlbuild/options.ml" 32 1151 1177
+type(
+  bool
+)
+"ocamlbuild/options.ml" 32 1151 1169 "ocamlbuild/options.ml" 32 1151 1177
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 33 1178 1182 "ocamlbuild/options.ml" 33 1178 1188
+type(
+  bool ref
+)
+ident(
+  def plugin "ocamlbuild/options.ml" 34 1200 1200 --
+)
+"ocamlbuild/options.ml" 33 1178 1191 "ocamlbuild/options.ml" 33 1178 1194
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 33 1178 1195 "ocamlbuild/options.ml" 33 1178 1199
+type(
+  bool
+)
+"ocamlbuild/options.ml" 33 1178 1191 "ocamlbuild/options.ml" 33 1178 1199
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 34 1200 1204 "ocamlbuild/options.ml" 34 1200 1215
+type(
+  bool ref
+)
+ident(
+  def just_plugin "ocamlbuild/options.ml" 35 1228 1228 --
+)
+"ocamlbuild/options.ml" 34 1200 1218 "ocamlbuild/options.ml" 34 1200 1221
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 34 1200 1222 "ocamlbuild/options.ml" 34 1200 1227
+type(
+  bool
+)
+"ocamlbuild/options.ml" 34 1200 1218 "ocamlbuild/options.ml" 34 1200 1227
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 35 1228 1232 "ocamlbuild/options.ml" 35 1228 1245
+type(
+  bool ref
+)
+ident(
+  def native_plugin "ocamlbuild/options.ml" 36 1257 1257 --
+)
+"ocamlbuild/options.ml" 35 1228 1248 "ocamlbuild/options.ml" 35 1228 1251
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 35 1228 1252 "ocamlbuild/options.ml" 35 1228 1256
+type(
+  bool
+)
+"ocamlbuild/options.ml" 35 1228 1248 "ocamlbuild/options.ml" 35 1228 1256
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 36 1257 1261 "ocamlbuild/options.ml" 36 1257 1271
+type(
+  bool ref
+)
+ident(
+  def make_links "ocamlbuild/options.ml" 37 1283 1283 --
+)
+"ocamlbuild/options.ml" 36 1257 1274 "ocamlbuild/options.ml" 36 1257 1277
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 36 1257 1278 "ocamlbuild/options.ml" 36 1257 1282
+type(
+  bool
+)
+"ocamlbuild/options.ml" 36 1257 1274 "ocamlbuild/options.ml" 36 1257 1282
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 37 1283 1287 "ocamlbuild/options.ml" 37 1283 1295
+type(
+  bool ref
+)
+ident(
+  def nostdlib "ocamlbuild/options.ml" 38 1308 1308 --
+)
+"ocamlbuild/options.ml" 37 1283 1298 "ocamlbuild/options.ml" 37 1283 1301
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 37 1283 1302 "ocamlbuild/options.ml" 37 1283 1307
+type(
+  bool
+)
+"ocamlbuild/options.ml" 37 1283 1298 "ocamlbuild/options.ml" 37 1283 1307
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 38 1308 1312 "ocamlbuild/options.ml" 38 1308 1322
+type(
+  bool ref
+)
+ident(
+  def use_menhir "ocamlbuild/options.ml" 39 1335 1335 --
+)
+"ocamlbuild/options.ml" 38 1308 1325 "ocamlbuild/options.ml" 38 1308 1328
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 38 1308 1329 "ocamlbuild/options.ml" 38 1308 1334
+type(
+  bool
+)
+"ocamlbuild/options.ml" 38 1308 1325 "ocamlbuild/options.ml" 38 1308 1334
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 39 1335 1339 "ocamlbuild/options.ml" 39 1335 1351
+type(
+  bool ref
+)
+ident(
+  def catch_errors "ocamlbuild/options.ml" 41 1364 1364 --
+)
+"ocamlbuild/options.ml" 39 1335 1354 "ocamlbuild/options.ml" 39 1335 1357
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 39 1335 1358 "ocamlbuild/options.ml" 39 1335 1362
+type(
+  bool
+)
+"ocamlbuild/options.ml" 39 1335 1354 "ocamlbuild/options.ml" 39 1335 1362
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 41 1364 1368 "ocamlbuild/options.ml" 41 1364 1386
+type(
+  string list -> unit
+)
+ident(
+  def mk_virtual_solvers "ocamlbuild/options.ml" 62 2093 2093 --
+)
+"ocamlbuild/options.ml" 42 1389 1395 "ocamlbuild/options.ml" 42 1389 1398
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 42 1389 1401 "ocamlbuild/options.ml" 42 1389 1424
+type(
+  string ref
+)
+ident(
+  ext_ref Ocamlbuild_where.bindir
+)
+"ocamlbuild/options.ml" 43 1428 1430 "ocamlbuild/options.ml" 43 1428 1439
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/options.ml" 43 1428 1450 "ocamlbuild/options.ml" 43 1428 1453
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/options.ml" 44 1457 1461 "ocamlbuild/options.ml" 59 2012 2085
+)
+"ocamlbuild/options.ml" 44 1457 1465 "ocamlbuild/options.ml" 44 1457 1468
+type(
+  string
+)
+"ocamlbuild/options.ml" 44 1457 1471 "ocamlbuild/options.ml" 44 1457 1474
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/options.ml" 43 1428 1450 "ocamlbuild/options.ml" 43 1428 1453
+)
+"ocamlbuild/options.ml" 44 1457 1475 "ocamlbuild/options.ml" 44 1457 1476
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/options.ml" 44 1457 1477 "ocamlbuild/options.ml" 44 1457 1483
+type(
+  string
+)
+"ocamlbuild/options.ml" 44 1457 1471 "ocamlbuild/options.ml" 44 1457 1483
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 45 1487 1495 "ocamlbuild/options.ml" 45 1487 1500
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 45 1487 1505 "ocamlbuild/options.ml" 45 1487 1508
+type(
+  string
+)
+ident(
+  int_ref opt "ocamlbuild/options.ml" 44 1457 1465 "ocamlbuild/options.ml" 44 1457 1468
+)
+"ocamlbuild/options.ml" 45 1487 1503 "ocamlbuild/options.ml" 45 1487 1508
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 46 1512 1520 "ocamlbuild/options.ml" 46 1512 1525
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 46 1512 1530 "ocamlbuild/options.ml" 46 1512 1533
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/options.ml" 43 1428 1450 "ocamlbuild/options.ml" 43 1428 1453
+)
+"ocamlbuild/options.ml" 46 1512 1528 "ocamlbuild/options.ml" 46 1512 1533
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 47 1537 1545 "ocamlbuild/options.ml" 47 1537 1559
+type(
+  string -> string
+)
+"ocamlbuild/options.ml" 47 1537 1562 "ocamlbuild/options.ml" 47 1537 1566
+type(
+  (string -> string) -> string -> string
+)
+ident(
+  ext_ref My_std.memo
+)
+"ocamlbuild/options.ml" 47 1537 1567 "ocamlbuild/options.ml" 47 1537 1589
+type(
+  string -> string
+)
+ident(
+  ext_ref Command.search_in_path
+)
+"ocamlbuild/options.ml" 47 1537 1562 "ocamlbuild/options.ml" 47 1537 1589
+call(
+  stack
+)
+type(
+  string -> string
+)
+"ocamlbuild/options.ml" 48 1593 1601 "ocamlbuild/options.ml" 48 1593 1607
+type(
+  unit -> Command.spec
+)
+"ocamlbuild/options.ml" 48 1593 1608 "ocamlbuild/options.ml" 48 1593 1610
+type(
+  unit
+)
+"ocamlbuild/options.ml" 49 1613 1622 "ocamlbuild/options.ml" 49 1613 1637
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/options.ml" 49 1613 1638 "ocamlbuild/options.ml" 49 1613 1639
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 49 1613 1639 "ocamlbuild/options.ml" 49 1613 1642
+type(
+  string ref
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 42 1389 1395 "ocamlbuild/options.ml" 42 1389 1398
+)
+"ocamlbuild/options.ml" 49 1613 1638 "ocamlbuild/options.ml" 49 1613 1642
+type(
+  string
+)
+"ocamlbuild/options.ml" 49 1613 1622 "ocamlbuild/options.ml" 49 1613 1642
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 50 1648 1660 "ocamlbuild/options.ml" 50 1648 1664
+type(
+  string
+)
+ident(
+  def long "ocamlbuild/options.ml" 51 1695 1703 "ocamlbuild/options.ml" 55 1889 1920
+)
+"ocamlbuild/options.ml" 50 1648 1667 "ocamlbuild/options.ml" 50 1648 1682
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/options.ml" 50 1648 1683 "ocamlbuild/options.ml" 50 1648 1684
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 50 1648 1684 "ocamlbuild/options.ml" 50 1648 1687
+type(
+  string ref
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 42 1389 1395 "ocamlbuild/options.ml" 42 1389 1398
+)
+"ocamlbuild/options.ml" 50 1648 1683 "ocamlbuild/options.ml" 50 1648 1687
+type(
+  string
+)
+"ocamlbuild/options.ml" 50 1648 1688 "ocamlbuild/options.ml" 50 1648 1691
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/options.ml" 43 1428 1450 "ocamlbuild/options.ml" 43 1428 1453
+)
+"ocamlbuild/options.ml" 50 1648 1667 "ocamlbuild/options.ml" 50 1648 1691
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 51 1695 1707 "ocamlbuild/options.ml" 51 1695 1715
+type(
+  string
+)
+ident(
+  def long_opt "ocamlbuild/options.ml" 52 1735 1743 "ocamlbuild/options.ml" 55 1889 1920
+)
+"ocamlbuild/options.ml" 51 1695 1718 "ocamlbuild/options.ml" 51 1695 1722
+type(
+  string
+)
+ident(
+  int_ref long "ocamlbuild/options.ml" 50 1648 1660 "ocamlbuild/options.ml" 50 1648 1664
+)
+"ocamlbuild/options.ml" 51 1695 1723 "ocamlbuild/options.ml" 51 1695 1724
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"ocamlbuild/options.ml" 51 1695 1725 "ocamlbuild/options.ml" 51 1695 1731
+type(
+  string
+)
+"ocamlbuild/options.ml" 51 1695 1718 "ocamlbuild/options.ml" 51 1695 1731
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 52 1735 1746 "ocamlbuild/options.ml" 52 1735 1761
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/options.ml" 52 1735 1762 "ocamlbuild/options.ml" 52 1735 1770
+type(
+  string
+)
+ident(
+  int_ref long_opt "ocamlbuild/options.ml" 51 1695 1707 "ocamlbuild/options.ml" 51 1695 1715
+)
+"ocamlbuild/options.ml" 52 1735 1746 "ocamlbuild/options.ml" 52 1735 1770
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 52 1735 1778 "ocamlbuild/options.ml" 52 1735 1786
+type(
+  string
+)
+ident(
+  int_ref long_opt "ocamlbuild/options.ml" 51 1695 1707 "ocamlbuild/options.ml" 51 1695 1715
+)
+"ocamlbuild/options.ml" 52 1735 1776 "ocamlbuild/options.ml" 52 1735 1786
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 53 1787 1803 "ocamlbuild/options.ml" 53 1787 1818
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/options.ml" 53 1787 1819 "ocamlbuild/options.ml" 53 1787 1823
+type(
+  string
+)
+ident(
+  int_ref long "ocamlbuild/options.ml" 50 1648 1660 "ocamlbuild/options.ml" 50 1648 1664
+)
+"ocamlbuild/options.ml" 53 1787 1803 "ocamlbuild/options.ml" 53 1787 1823
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 53 1787 1831 "ocamlbuild/options.ml" 53 1787 1835
+type(
+  string
+)
+ident(
+  int_ref long "ocamlbuild/options.ml" 50 1648 1660 "ocamlbuild/options.ml" 50 1648 1664
+)
+"ocamlbuild/options.ml" 53 1787 1829 "ocamlbuild/options.ml" 53 1787 1835
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 54 1836 1857 "ocamlbuild/options.ml" 54 1836 1858
+type(
+  string
+)
+"ocamlbuild/options.ml" 54 1836 1861 "ocamlbuild/options.ml" 54 1836 1875
+type(
+  string -> string
+)
+ident(
+  int_ref search_in_path "ocamlbuild/options.ml" 47 1537 1545 "ocamlbuild/options.ml" 47 1537 1559
+)
+"ocamlbuild/options.ml" 54 1836 1876 "ocamlbuild/options.ml" 54 1836 1879
+type(
+  string
+)
+ident(
+  int_ref opt "ocamlbuild/options.ml" 44 1457 1465 "ocamlbuild/options.ml" 44 1457 1468
+)
+"ocamlbuild/options.ml" 54 1836 1861 "ocamlbuild/options.ml" 54 1836 1879
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 54 1836 1883 "ocamlbuild/options.ml" 54 1836 1888
+type(
+  Command.spec
+)
+ident(
+  int_ref a_opt "ocamlbuild/options.ml" 45 1487 1495 "ocamlbuild/options.ml" 45 1487 1500
+)
+"ocamlbuild/options.ml" 54 1836 1853 "ocamlbuild/options.ml" 54 1836 1888
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 55 1889 1902 "ocamlbuild/options.ml" 55 1889 1911
+type(
+  exn
+)
+"ocamlbuild/options.ml" 55 1889 1915 "ocamlbuild/options.ml" 55 1889 1920
+type(
+  Command.spec
+)
+ident(
+  int_ref a_cmd "ocamlbuild/options.ml" 46 1512 1520 "ocamlbuild/options.ml" 46 1512 1525
+)
+"ocamlbuild/options.ml" 54 1836 1849 "ocamlbuild/options.ml" 55 1889 1920
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 53 1787 1800 "ocamlbuild/options.ml" 55 1889 1920
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 52 1735 1743 "ocamlbuild/options.ml" 55 1889 1920
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 51 1695 1703 "ocamlbuild/options.ml" 55 1889 1920
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 50 1648 1656 "ocamlbuild/options.ml" 55 1889 1920
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 57 1932 1948 "ocamlbuild/options.ml" 57 1932 1949
+type(
+  string
+)
+"ocamlbuild/options.ml" 57 1932 1952 "ocamlbuild/options.ml" 57 1932 1966
+type(
+  string -> string
+)
+ident(
+  int_ref search_in_path "ocamlbuild/options.ml" 47 1537 1545 "ocamlbuild/options.ml" 47 1537 1559
+)
+"ocamlbuild/options.ml" 57 1932 1967 "ocamlbuild/options.ml" 57 1932 1970
+type(
+  string
+)
+ident(
+  int_ref opt "ocamlbuild/options.ml" 44 1457 1465 "ocamlbuild/options.ml" 44 1457 1468
+)
+"ocamlbuild/options.ml" 57 1932 1952 "ocamlbuild/options.ml" 57 1932 1970
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 57 1932 1974 "ocamlbuild/options.ml" 57 1932 1979
+type(
+  Command.spec
+)
+ident(
+  int_ref a_opt "ocamlbuild/options.ml" 45 1487 1495 "ocamlbuild/options.ml" 45 1487 1500
+)
+"ocamlbuild/options.ml" 57 1932 1944 "ocamlbuild/options.ml" 57 1932 1979
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 58 1980 1993 "ocamlbuild/options.ml" 58 1980 2002
+type(
+  exn
+)
+"ocamlbuild/options.ml" 58 1980 2006 "ocamlbuild/options.ml" 58 1980 2011
+type(
+  Command.spec
+)
+ident(
+  int_ref a_cmd "ocamlbuild/options.ml" 46 1512 1520 "ocamlbuild/options.ml" 46 1512 1525
+)
+"ocamlbuild/options.ml" 57 1932 1940 "ocamlbuild/options.ml" 58 1980 2011
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 49 1613 1619 "ocamlbuild/options.ml" 58 1980 2011
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 59 2012 2019 "ocamlbuild/options.ml" 59 2012 2055
+type(
+  string -> (unit -> Command.spec) -> unit
+)
+ident(
+  ext_ref Command.setup_virtual_command_solver
+)
+"ocamlbuild/options.ml" 59 2012 2057 "ocamlbuild/options.ml" 59 2012 2073
+type(
+  string -> string
+)
+ident(
+  ext_ref My_std.String.uppercase
+)
+"ocamlbuild/options.ml" 59 2012 2074 "ocamlbuild/options.ml" 59 2012 2077
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/options.ml" 43 1428 1450 "ocamlbuild/options.ml" 43 1428 1453
+)
+"ocamlbuild/options.ml" 59 2012 2056 "ocamlbuild/options.ml" 59 2012 2078
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 59 2012 2079 "ocamlbuild/options.ml" 59 2012 2085
+type(
+  unit -> Command.spec
+)
+ident(
+  int_ref solver "ocamlbuild/options.ml" 48 1593 1601 "ocamlbuild/options.ml" 48 1593 1607
+)
+"ocamlbuild/options.ml" 59 2012 2019 "ocamlbuild/options.ml" 59 2012 2085
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 48 1593 1597 "ocamlbuild/options.ml" 59 2012 2085
+type(
+  unit
+)
+"ocamlbuild/options.ml" 47 1537 1541 "ocamlbuild/options.ml" 59 2012 2085
+type(
+  unit
+)
+"ocamlbuild/options.ml" 46 1512 1516 "ocamlbuild/options.ml" 59 2012 2085
+type(
+  unit
+)
+"ocamlbuild/options.ml" 45 1487 1491 "ocamlbuild/options.ml" 59 2012 2085
+type(
+  unit
+)
+"ocamlbuild/options.ml" 44 1457 1461 "ocamlbuild/options.ml" 59 2012 2085
+type(
+  unit
+)
+"ocamlbuild/options.ml" 43 1428 1440 "ocamlbuild/options.ml" 60 2086 2091
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 43 1428 1430 "ocamlbuild/options.ml" 60 2086 2091
+call(
+  stack
+)
+type(
+  string list -> unit
+)
+"ocamlbuild/options.ml" 42 1389 1391 "ocamlbuild/options.ml" 60 2086 2091
+type(
+  string list -> unit
+)
+"ocamlbuild/options.ml" 62 2093 2097 "ocamlbuild/options.ml" 62 2093 2099
+type(
+  unit
+)
+"ocamlbuild/options.ml" 63 2102 2104 "ocamlbuild/options.ml" 63 2102 2122
+type(
+  string list -> unit
+)
+ident(
+  int_ref mk_virtual_solvers "ocamlbuild/options.ml" 41 1364 1368 "ocamlbuild/options.ml" 41 1364 1386
+)
+"ocamlbuild/options.ml" 64 2123 2128 "ocamlbuild/options.ml" 64 2123 2136
+type(
+  string
+)
+"ocamlbuild/options.ml" 64 2123 2138 "ocamlbuild/options.ml" 64 2123 2148
+type(
+  string
+)
+"ocamlbuild/options.ml" 64 2123 2150 "ocamlbuild/options.ml" 64 2123 2160
+type(
+  string
+)
+"ocamlbuild/options.ml" 64 2123 2162 "ocamlbuild/options.ml" 64 2123 2172
+type(
+  string
+)
+"ocamlbuild/options.ml" 65 2174 2178 "ocamlbuild/options.ml" 65 2174 2189
+type(
+  string
+)
+"ocamlbuild/options.ml" 65 2174 2191 "ocamlbuild/options.ml" 65 2174 2199
+type(
+  string
+)
+"ocamlbuild/options.ml" 65 2174 2201 "ocamlbuild/options.ml" 65 2174 2211
+type(
+  string
+)
+"ocamlbuild/options.ml" 65 2174 2213 "ocamlbuild/options.ml" 65 2174 2225
+type(
+  string
+)
+"ocamlbuild/options.ml" 65 2174 2227 "ocamlbuild/options.ml" 65 2174 2239
+type(
+  string
+)
+"ocamlbuild/options.ml" 64 2123 2127 "ocamlbuild/options.ml" 65 2174 2240
+type(
+  string list
+)
+"ocamlbuild/options.ml" 63 2102 2104 "ocamlbuild/options.ml" 65 2174 2240
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 66 2241 2245 "ocamlbuild/options.ml" 66 2241 2251
+type(
+  Command.spec ref
+)
+ident(
+  def ocamlc "ocamlbuild/options.ml" 67 2270 2270 --
+)
+"ocamlbuild/options.ml" 66 2241 2254 "ocamlbuild/options.ml" 66 2241 2257
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 66 2241 2260 "ocamlbuild/options.ml" 66 2241 2268
+type(
+  string
+)
+"ocamlbuild/options.ml" 66 2241 2258 "ocamlbuild/options.ml" 66 2241 2269
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 66 2241 2254 "ocamlbuild/options.ml" 66 2241 2269
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 67 2270 2274 "ocamlbuild/options.ml" 67 2270 2282
+type(
+  Command.spec ref
+)
+ident(
+  def ocamlopt "ocamlbuild/options.ml" 68 2303 2303 --
+)
+"ocamlbuild/options.ml" 67 2270 2285 "ocamlbuild/options.ml" 67 2270 2288
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 67 2270 2291 "ocamlbuild/options.ml" 67 2270 2301
+type(
+  string
+)
+"ocamlbuild/options.ml" 67 2270 2289 "ocamlbuild/options.ml" 67 2270 2302
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 67 2270 2285 "ocamlbuild/options.ml" 67 2270 2302
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 68 2303 2307 "ocamlbuild/options.ml" 68 2303 2315
+type(
+  Command.spec ref
+)
+ident(
+  def ocamldep "ocamlbuild/options.ml" 69 2336 2336 --
+)
+"ocamlbuild/options.ml" 68 2303 2318 "ocamlbuild/options.ml" 68 2303 2321
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 68 2303 2324 "ocamlbuild/options.ml" 68 2303 2334
+type(
+  string
+)
+"ocamlbuild/options.ml" 68 2303 2322 "ocamlbuild/options.ml" 68 2303 2335
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 68 2303 2318 "ocamlbuild/options.ml" 68 2303 2335
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 69 2336 2340 "ocamlbuild/options.ml" 69 2336 2348
+type(
+  Command.spec ref
+)
+ident(
+  def ocamldoc "ocamlbuild/options.ml" 70 2369 2369 --
+)
+"ocamlbuild/options.ml" 69 2336 2351 "ocamlbuild/options.ml" 69 2336 2354
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 69 2336 2357 "ocamlbuild/options.ml" 69 2336 2367
+type(
+  string
+)
+"ocamlbuild/options.ml" 69 2336 2355 "ocamlbuild/options.ml" 69 2336 2368
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 69 2336 2351 "ocamlbuild/options.ml" 69 2336 2368
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 70 2369 2373 "ocamlbuild/options.ml" 70 2369 2382
+type(
+  Command.spec ref
+)
+ident(
+  def ocamlyacc "ocamlbuild/options.ml" 71 2391 2391 --
+)
+"ocamlbuild/options.ml" 70 2369 2385 "ocamlbuild/options.ml" 70 2369 2388
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 70 2369 2389 "ocamlbuild/options.ml" 70 2369 2390
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 70 2369 2385 "ocamlbuild/options.ml" 70 2369 2390
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 71 2391 2395 "ocamlbuild/options.ml" 71 2391 2403
+type(
+  Command.spec ref
+)
+ident(
+  def ocamllex "ocamlbuild/options.ml" 72 2424 2424 --
+)
+"ocamlbuild/options.ml" 71 2391 2406 "ocamlbuild/options.ml" 71 2391 2409
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 71 2391 2412 "ocamlbuild/options.ml" 71 2391 2422
+type(
+  string
+)
+"ocamlbuild/options.ml" 71 2391 2410 "ocamlbuild/options.ml" 71 2391 2423
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 71 2391 2406 "ocamlbuild/options.ml" 71 2391 2423
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 72 2424 2428 "ocamlbuild/options.ml" 72 2424 2438
+type(
+  Command.spec ref
+)
+ident(
+  def ocamlmklib "ocamlbuild/options.ml" 73 2461 2461 --
+)
+"ocamlbuild/options.ml" 72 2424 2441 "ocamlbuild/options.ml" 72 2424 2444
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 72 2424 2447 "ocamlbuild/options.ml" 72 2424 2459
+type(
+  string
+)
+"ocamlbuild/options.ml" 72 2424 2445 "ocamlbuild/options.ml" 72 2424 2460
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 72 2424 2441 "ocamlbuild/options.ml" 72 2424 2460
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 73 2461 2465 "ocamlbuild/options.ml" 73 2461 2475
+type(
+  Command.spec ref
+)
+ident(
+  def ocamlmktop "ocamlbuild/options.ml" 74 2498 2498 --
+)
+"ocamlbuild/options.ml" 73 2461 2478 "ocamlbuild/options.ml" 73 2461 2481
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 73 2461 2484 "ocamlbuild/options.ml" 73 2461 2496
+type(
+  string
+)
+"ocamlbuild/options.ml" 73 2461 2482 "ocamlbuild/options.ml" 73 2461 2497
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 73 2461 2478 "ocamlbuild/options.ml" 73 2461 2497
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 74 2498 2502 "ocamlbuild/options.ml" 74 2498 2510
+type(
+  Command.spec ref
+)
+ident(
+  def ocamlrun "ocamlbuild/options.ml" 75 2519 2519 --
+)
+"ocamlbuild/options.ml" 74 2498 2513 "ocamlbuild/options.ml" 74 2498 2516
+type(
+  Command.spec -> Command.spec ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 74 2498 2517 "ocamlbuild/options.ml" 74 2498 2518
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 74 2498 2513 "ocamlbuild/options.ml" 74 2498 2518
+type(
+  Command.spec ref
+)
+"ocamlbuild/options.ml" 75 2519 2523 "ocamlbuild/options.ml" 75 2519 2541
+type(
+  bool ref
+)
+ident(
+  def program_to_execute "ocamlbuild/options.ml" 76 2554 2554 --
+)
+"ocamlbuild/options.ml" 75 2519 2544 "ocamlbuild/options.ml" 75 2519 2547
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 75 2519 2548 "ocamlbuild/options.ml" 75 2519 2553
+type(
+  bool
+)
+"ocamlbuild/options.ml" 75 2519 2544 "ocamlbuild/options.ml" 75 2519 2553
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 76 2554 2558 "ocamlbuild/options.ml" 76 2554 2568
+type(
+  bool ref
+)
+ident(
+  def must_clean "ocamlbuild/options.ml" 77 2581 2581 --
+)
+"ocamlbuild/options.ml" 76 2554 2571 "ocamlbuild/options.ml" 76 2554 2574
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 76 2554 2575 "ocamlbuild/options.ml" 76 2554 2580
+type(
+  bool
+)
+"ocamlbuild/options.ml" 76 2554 2571 "ocamlbuild/options.ml" 76 2554 2580
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 77 2581 2585 "ocamlbuild/options.ml" 77 2581 2603
+type(
+  bool ref
+)
+ident(
+  def show_documentation "ocamlbuild/options.ml" 78 2616 2616 --
+)
+"ocamlbuild/options.ml" 77 2581 2606 "ocamlbuild/options.ml" 77 2581 2609
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 77 2581 2610 "ocamlbuild/options.ml" 77 2581 2615
+type(
+  bool
+)
+"ocamlbuild/options.ml" 77 2581 2606 "ocamlbuild/options.ml" 77 2581 2615
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 78 2616 2620 "ocamlbuild/options.ml" 78 2616 2629
+type(
+  bool ref
+)
+ident(
+  def recursive "ocamlbuild/options.ml" 79 2642 2642 --
+)
+"ocamlbuild/options.ml" 78 2616 2632 "ocamlbuild/options.ml" 78 2616 2635
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 78 2616 2636 "ocamlbuild/options.ml" 78 2616 2641
+type(
+  bool
+)
+"ocamlbuild/options.ml" 78 2616 2632 "ocamlbuild/options.ml" 78 2616 2641
+type(
+  bool ref
+)
+"ocamlbuild/options.ml" 79 2642 2646 "ocamlbuild/options.ml" 79 2642 2653
+type(
+  string ref
+)
+ident(
+  def ext_lib "ocamlbuild/options.ml" 80 2693 2693 --
+)
+"ocamlbuild/options.ml" 79 2642 2656 "ocamlbuild/options.ml" 79 2642 2659
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 79 2642 2660 "ocamlbuild/options.ml" 79 2642 2692
+type(
+  string
+)
+ident(
+  ext_ref Ocamlbuild_Myocamlbuild_config.a
+)
+"ocamlbuild/options.ml" 79 2642 2656 "ocamlbuild/options.ml" 79 2642 2692
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 80 2693 2697 "ocamlbuild/options.ml" 80 2693 2704
+type(
+  string ref
+)
+ident(
+  def ext_obj "ocamlbuild/options.ml" 81 2744 2744 --
+)
+"ocamlbuild/options.ml" 80 2693 2707 "ocamlbuild/options.ml" 80 2693 2710
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 80 2693 2711 "ocamlbuild/options.ml" 80 2693 2743
+type(
+  string
+)
+ident(
+  ext_ref Ocamlbuild_Myocamlbuild_config.o
+)
+"ocamlbuild/options.ml" 80 2693 2707 "ocamlbuild/options.ml" 80 2693 2743
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 81 2744 2748 "ocamlbuild/options.ml" 81 2744 2755
+type(
+  string ref
+)
+ident(
+  def ext_dll "ocamlbuild/options.ml" 82 2796 2796 --
+)
+"ocamlbuild/options.ml" 81 2744 2758 "ocamlbuild/options.ml" 81 2744 2761
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 81 2744 2762 "ocamlbuild/options.ml" 81 2744 2795
+type(
+  string
+)
+ident(
+  ext_ref Ocamlbuild_Myocamlbuild_config.so
+)
+"ocamlbuild/options.ml" 81 2744 2758 "ocamlbuild/options.ml" 81 2744 2795
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 82 2796 2800 "ocamlbuild/options.ml" 82 2796 2803
+type(
+  string ref
+)
+ident(
+  def exe "ocamlbuild/options.ml" 84 2846 2846 --
+)
+"ocamlbuild/options.ml" 82 2796 2806 "ocamlbuild/options.ml" 82 2796 2809
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 82 2796 2810 "ocamlbuild/options.ml" 82 2796 2844
+type(
+  string
+)
+ident(
+  ext_ref Ocamlbuild_Myocamlbuild_config.exe
+)
+"ocamlbuild/options.ml" 82 2796 2806 "ocamlbuild/options.ml" 82 2796 2844
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 84 2846 2850 "ocamlbuild/options.ml" 84 2846 2866
+type(
+  string list list ref
+)
+ident(
+  def targets_internal "ocamlbuild/options.ml" 85 2876 2876 --
+)
+"ocamlbuild/options.ml" 84 2846 2869 "ocamlbuild/options.ml" 84 2846 2872
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 84 2846 2873 "ocamlbuild/options.ml" 84 2846 2875
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 84 2846 2869 "ocamlbuild/options.ml" 84 2846 2875
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 85 2876 2880 "ocamlbuild/options.ml" 85 2876 2899
+type(
+  string list list ref
+)
+ident(
+  def ocaml_libs_internal "ocamlbuild/options.ml" 86 2909 2909 --
+)
+"ocamlbuild/options.ml" 85 2876 2902 "ocamlbuild/options.ml" 85 2876 2905
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 85 2876 2906 "ocamlbuild/options.ml" 85 2876 2908
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 85 2876 2902 "ocamlbuild/options.ml" 85 2876 2908
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 86 2909 2913 "ocamlbuild/options.ml" 86 2909 2934
+type(
+  string list list ref
+)
+ident(
+  def ocaml_lflags_internal "ocamlbuild/options.ml" 87 2944 2944 --
+)
+"ocamlbuild/options.ml" 86 2909 2937 "ocamlbuild/options.ml" 86 2909 2940
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 86 2909 2941 "ocamlbuild/options.ml" 86 2909 2943
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 86 2909 2937 "ocamlbuild/options.ml" 86 2909 2943
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 87 2944 2948 "ocamlbuild/options.ml" 87 2944 2969
+type(
+  string list list ref
+)
+ident(
+  def ocaml_cflags_internal "ocamlbuild/options.ml" 88 2979 2979 --
+)
+"ocamlbuild/options.ml" 87 2944 2972 "ocamlbuild/options.ml" 87 2944 2975
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 87 2944 2976 "ocamlbuild/options.ml" 87 2944 2978
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 87 2944 2972 "ocamlbuild/options.ml" 87 2944 2978
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 88 2979 2983 "ocamlbuild/options.ml" 88 2979 3005
+type(
+  string list list ref
+)
+ident(
+  def ocaml_ppflags_internal "ocamlbuild/options.ml" 89 3015 3015 --
+)
+"ocamlbuild/options.ml" 88 2979 3008 "ocamlbuild/options.ml" 88 2979 3011
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 88 2979 3012 "ocamlbuild/options.ml" 88 2979 3014
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 88 2979 3008 "ocamlbuild/options.ml" 88 2979 3014
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 89 3015 3019 "ocamlbuild/options.ml" 89 3015 3043
+type(
+  string list list ref
+)
+ident(
+  def ocaml_yaccflags_internal "ocamlbuild/options.ml" 90 3053 3053 --
+)
+"ocamlbuild/options.ml" 89 3015 3046 "ocamlbuild/options.ml" 89 3015 3049
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 89 3015 3050 "ocamlbuild/options.ml" 89 3015 3052
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 89 3015 3046 "ocamlbuild/options.ml" 89 3015 3052
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 90 3053 3057 "ocamlbuild/options.ml" 90 3053 3080
+type(
+  string list list ref
+)
+ident(
+  def ocaml_lexflags_internal "ocamlbuild/options.ml" 91 3090 3090 --
+)
+"ocamlbuild/options.ml" 90 3053 3083 "ocamlbuild/options.ml" 90 3053 3086
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 90 3053 3087 "ocamlbuild/options.ml" 90 3053 3089
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 90 3053 3083 "ocamlbuild/options.ml" 90 3053 3089
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 91 3090 3094 "ocamlbuild/options.ml" 91 3090 3115
+type(
+  string list list ref
+)
+ident(
+  def program_args_internal "ocamlbuild/options.ml" 92 3125 3125 --
+)
+"ocamlbuild/options.ml" 91 3090 3118 "ocamlbuild/options.ml" 91 3090 3121
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 91 3090 3122 "ocamlbuild/options.ml" 91 3090 3124
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 91 3090 3118 "ocamlbuild/options.ml" 91 3090 3124
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 92 3125 3129 "ocamlbuild/options.ml" 92 3125 3149
+type(
+  string list list ref
+)
+ident(
+  def ignore_list_internal "ocamlbuild/options.ml" 93 3159 3159 --
+)
+"ocamlbuild/options.ml" 92 3125 3152 "ocamlbuild/options.ml" 92 3125 3155
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 92 3125 3156 "ocamlbuild/options.ml" 92 3125 3158
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 92 3125 3152 "ocamlbuild/options.ml" 92 3125 3158
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 93 3159 3163 "ocamlbuild/options.ml" 93 3159 3176
+type(
+  string list list ref
+)
+ident(
+  def tags_internal "ocamlbuild/options.ml" 94 3195 3195 --
+)
+"ocamlbuild/options.ml" 93 3159 3179 "ocamlbuild/options.ml" 93 3159 3182
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 93 3159 3185 "ocamlbuild/options.ml" 93 3159 3192
+type(
+  string
+)
+"ocamlbuild/options.ml" 93 3159 3184 "ocamlbuild/options.ml" 93 3159 3193
+type(
+  string list
+)
+"ocamlbuild/options.ml" 93 3159 3183 "ocamlbuild/options.ml" 93 3159 3194
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 93 3159 3179 "ocamlbuild/options.ml" 93 3159 3194
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 94 3195 3199 "ocamlbuild/options.ml" 94 3195 3217
+type(
+  string list list ref
+)
+ident(
+  def tag_lines_internal "ocamlbuild/options.ml" 95 3227 3227 --
+)
+"ocamlbuild/options.ml" 94 3195 3220 "ocamlbuild/options.ml" 94 3195 3223
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 94 3195 3224 "ocamlbuild/options.ml" 94 3195 3226
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 94 3195 3220 "ocamlbuild/options.ml" 94 3195 3226
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 95 3227 3231 "ocamlbuild/options.ml" 95 3227 3249
+type(
+  string list list ref
+)
+ident(
+  def show_tags_internal "ocamlbuild/options.ml" 96 3259 3259 --
+)
+"ocamlbuild/options.ml" 95 3227 3252 "ocamlbuild/options.ml" 95 3227 3255
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 95 3227 3256 "ocamlbuild/options.ml" 95 3227 3258
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 95 3227 3252 "ocamlbuild/options.ml" 95 3227 3258
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 96 3259 3263 "ocamlbuild/options.ml" 96 3259 3280
+type(
+  string ref
+)
+ident(
+  def log_file_internal "ocamlbuild/options.ml" 98 3295 3295 --
+)
+"ocamlbuild/options.ml" 96 3259 3283 "ocamlbuild/options.ml" 96 3259 3286
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 96 3259 3287 "ocamlbuild/options.ml" 96 3259 3293
+type(
+  string
+)
+"ocamlbuild/options.ml" 96 3259 3283 "ocamlbuild/options.ml" 96 3259 3293
+type(
+  string ref
+)
+"ocamlbuild/options.ml" 98 3295 3299 "ocamlbuild/options.ml" 98 3295 3314
+type(
+  string list list ref
+)
+ident(
+  def my_include_dirs "ocamlbuild/options.ml" 99 3351 3351 --
+)
+"ocamlbuild/options.ml" 98 3295 3317 "ocamlbuild/options.ml" 98 3295 3320
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 98 3295 3323 "ocamlbuild/options.ml" 98 3295 3348
+type(
+  string
+)
+ident(
+  ext_ref Filename.current_dir_name
+)
+"ocamlbuild/options.ml" 98 3295 3322 "ocamlbuild/options.ml" 98 3295 3349
+type(
+  string list
+)
+"ocamlbuild/options.ml" 98 3295 3321 "ocamlbuild/options.ml" 98 3295 3350
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 98 3295 3317 "ocamlbuild/options.ml" 98 3295 3350
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 99 3351 3355 "ocamlbuild/options.ml" 99 3351 3370
+type(
+  string list list ref
+)
+ident(
+  def my_exclude_dirs "ocamlbuild/options.ml" 101 3396 3396 --
+)
+"ocamlbuild/options.ml" 99 3351 3373 "ocamlbuild/options.ml" 99 3351 3376
+type(
+  string list list -> string list list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 99 3351 3379 "ocamlbuild/options.ml" 99 3351 3385
+type(
+  string
+)
+"ocamlbuild/options.ml" 99 3351 3387 "ocamlbuild/options.ml" 99 3351 3392
+type(
+  string
+)
+"ocamlbuild/options.ml" 99 3351 3378 "ocamlbuild/options.ml" 99 3351 3393
+type(
+  string list
+)
+"ocamlbuild/options.ml" 99 3351 3377 "ocamlbuild/options.ml" 99 3351 3394
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 99 3351 3373 "ocamlbuild/options.ml" 99 3351 3394
+type(
+  string list list ref
+)
+"ocamlbuild/options.ml" 101 3396 3400 "ocamlbuild/options.ml" 101 3396 3405
+type(
+  string
+)
+ident(
+  def dummy "ocamlbuild/options.ml" 105 3601 3601 --
+)
+"ocamlbuild/options.ml" 101 3396 3408 "ocamlbuild/options.ml" 101 3396 3432
+type(
+  string
+)
+"ocamlbuild/options.ml" 105 3601 3605 "ocamlbuild/options.ml" 105 3601 3615
+type(
+  unit -> unit
+)
+ident(
+  def use_jocaml "ocamlbuild/options.ml" 116 3863 3863 --
+)
+"ocamlbuild/options.ml" 105 3601 3616 "ocamlbuild/options.ml" 105 3601 3618
+type(
+  unit
+)
+"ocamlbuild/options.ml" 106 3621 3623 "ocamlbuild/options.ml" 106 3621 3629
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlc "ocamlbuild/options.ml" 66 2241 2245 "ocamlbuild/options.ml" 66 2241 2251
+)
+"ocamlbuild/options.ml" 106 3621 3630 "ocamlbuild/options.ml" 106 3621 3632
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 106 3621 3635 "ocamlbuild/options.ml" 106 3621 3644
+type(
+  string
+)
+"ocamlbuild/options.ml" 106 3621 3633 "ocamlbuild/options.ml" 106 3621 3644
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 106 3621 3623 "ocamlbuild/options.ml" 106 3621 3644
+type(
+  unit
+)
+"ocamlbuild/options.ml" 107 3646 3648 "ocamlbuild/options.ml" 107 3646 3656
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlopt "ocamlbuild/options.ml" 67 2270 2274 "ocamlbuild/options.ml" 67 2270 2282
+)
+"ocamlbuild/options.ml" 107 3646 3657 "ocamlbuild/options.ml" 107 3646 3659
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 107 3646 3662 "ocamlbuild/options.ml" 107 3646 3673
+type(
+  string
+)
+"ocamlbuild/options.ml" 107 3646 3660 "ocamlbuild/options.ml" 107 3646 3673
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 107 3646 3648 "ocamlbuild/options.ml" 107 3646 3673
+type(
+  unit
+)
+"ocamlbuild/options.ml" 108 3675 3677 "ocamlbuild/options.ml" 108 3675 3685
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamldep "ocamlbuild/options.ml" 68 2303 2307 "ocamlbuild/options.ml" 68 2303 2315
+)
+"ocamlbuild/options.ml" 108 3675 3686 "ocamlbuild/options.ml" 108 3675 3688
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 108 3675 3691 "ocamlbuild/options.ml" 108 3675 3702
+type(
+  string
+)
+"ocamlbuild/options.ml" 108 3675 3689 "ocamlbuild/options.ml" 108 3675 3702
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 108 3675 3677 "ocamlbuild/options.ml" 108 3675 3702
+type(
+  unit
+)
+"ocamlbuild/options.ml" 109 3704 3706 "ocamlbuild/options.ml" 109 3704 3715
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlyacc "ocamlbuild/options.ml" 70 2369 2373 "ocamlbuild/options.ml" 70 2369 2382
+)
+"ocamlbuild/options.ml" 109 3704 3716 "ocamlbuild/options.ml" 109 3704 3718
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 109 3704 3721 "ocamlbuild/options.ml" 109 3704 3733
+type(
+  string
+)
+"ocamlbuild/options.ml" 109 3704 3719 "ocamlbuild/options.ml" 109 3704 3733
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 109 3704 3706 "ocamlbuild/options.ml" 109 3704 3733
+type(
+  unit
+)
+"ocamlbuild/options.ml" 110 3735 3737 "ocamlbuild/options.ml" 110 3735 3745
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamllex "ocamlbuild/options.ml" 71 2391 2395 "ocamlbuild/options.ml" 71 2391 2403
+)
+"ocamlbuild/options.ml" 110 3735 3746 "ocamlbuild/options.ml" 110 3735 3748
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 110 3735 3751 "ocamlbuild/options.ml" 110 3735 3762
+type(
+  string
+)
+"ocamlbuild/options.ml" 110 3735 3749 "ocamlbuild/options.ml" 110 3735 3762
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 110 3735 3737 "ocamlbuild/options.ml" 110 3735 3762
+type(
+  unit
+)
+"ocamlbuild/options.ml" 111 3764 3766 "ocamlbuild/options.ml" 111 3764 3776
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlmklib "ocamlbuild/options.ml" 72 2424 2428 "ocamlbuild/options.ml" 72 2424 2438
+)
+"ocamlbuild/options.ml" 111 3764 3777 "ocamlbuild/options.ml" 111 3764 3779
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 111 3764 3782 "ocamlbuild/options.ml" 111 3764 3795
+type(
+  string
+)
+"ocamlbuild/options.ml" 111 3764 3780 "ocamlbuild/options.ml" 111 3764 3795
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 111 3764 3766 "ocamlbuild/options.ml" 111 3764 3795
+type(
+  unit
+)
+"ocamlbuild/options.ml" 112 3797 3799 "ocamlbuild/options.ml" 112 3797 3809
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlmktop "ocamlbuild/options.ml" 73 2461 2465 "ocamlbuild/options.ml" 73 2461 2475
+)
+"ocamlbuild/options.ml" 112 3797 3810 "ocamlbuild/options.ml" 112 3797 3812
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 112 3797 3815 "ocamlbuild/options.ml" 112 3797 3828
+type(
+  string
+)
+"ocamlbuild/options.ml" 112 3797 3813 "ocamlbuild/options.ml" 112 3797 3828
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 112 3797 3799 "ocamlbuild/options.ml" 112 3797 3828
+type(
+  unit
+)
+"ocamlbuild/options.ml" 113 3830 3832 "ocamlbuild/options.ml" 113 3830 3840
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlrun "ocamlbuild/options.ml" 74 2498 2502 "ocamlbuild/options.ml" 74 2498 2510
+)
+"ocamlbuild/options.ml" 113 3830 3841 "ocamlbuild/options.ml" 113 3830 3843
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 113 3830 3846 "ocamlbuild/options.ml" 113 3830 3857
+type(
+  string
+)
+"ocamlbuild/options.ml" 113 3830 3844 "ocamlbuild/options.ml" 113 3830 3857
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 113 3830 3832 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 112 3797 3799 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 111 3764 3766 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 110 3735 3737 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 109 3704 3706 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 108 3675 3677 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 107 3646 3648 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 106 3621 3623 "ocamlbuild/options.ml" 113 3830 3858
+type(
+  unit
+)
+"ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  def add_to "ocamlbuild/options.ml" 119 3973 3973 --
+)
+"ocamlbuild/options.ml" 116 3863 3874 "ocamlbuild/options.ml" 116 3863 3877
+type(
+  string list list ref
+)
+ident(
+  def rxs "ocamlbuild/options.ml" 116 3863 3878 "ocamlbuild/options.ml" 118 3953 3972
+)
+"ocamlbuild/options.ml" 116 3863 3878 "ocamlbuild/options.ml" 116 3863 3879
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/options.ml" 117 3882 3884 "ocamlbuild/options.ml" 118 3953 3972
+)
+"ocamlbuild/options.ml" 117 3882 3888 "ocamlbuild/options.ml" 117 3882 3890
+type(
+  string list
+)
+"ocamlbuild/options.ml" 117 3882 3893 "ocamlbuild/options.ml" 117 3882 3926
+type(
+  Lexing.lexbuf -> string list
+)
+ident(
+  ext_ref Lexers.comma_or_blank_sep_strings
+)
+"ocamlbuild/options.ml" 117 3882 3928 "ocamlbuild/options.ml" 117 3882 3946
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"ocamlbuild/options.ml" 117 3882 3947 "ocamlbuild/options.ml" 117 3882 3948
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/options.ml" 116 3863 3878 "ocamlbuild/options.ml" 116 3863 3879
+)
+"ocamlbuild/options.ml" 117 3882 3927 "ocamlbuild/options.ml" 117 3882 3949
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/options.ml" 117 3882 3893 "ocamlbuild/options.ml" 117 3882 3949
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/options.ml" 118 3953 3955 "ocamlbuild/options.ml" 118 3953 3958
+type(
+  string list list ref
+)
+ident(
+  int_ref rxs "ocamlbuild/options.ml" 116 3863 3874 "ocamlbuild/options.ml" 116 3863 3877
+)
+"ocamlbuild/options.ml" 118 3953 3959 "ocamlbuild/options.ml" 118 3953 3961
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 118 3953 3962 "ocamlbuild/options.ml" 118 3953 3964
+type(
+  string list
+)
+ident(
+  int_ref xs "ocamlbuild/options.ml" 117 3882 3888 "ocamlbuild/options.ml" 117 3882 3890
+)
+"ocamlbuild/options.ml" 118 3953 3968 "ocamlbuild/options.ml" 118 3953 3969
+type(
+  string list list ref -> string list list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 118 3953 3969 "ocamlbuild/options.ml" 118 3953 3972
+type(
+  string list list ref
+)
+ident(
+  int_ref rxs "ocamlbuild/options.ml" 116 3863 3874 "ocamlbuild/options.ml" 116 3863 3877
+)
+"ocamlbuild/options.ml" 118 3953 3968 "ocamlbuild/options.ml" 118 3953 3972
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 118 3953 3962 "ocamlbuild/options.ml" 118 3953 3972
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 118 3953 3955 "ocamlbuild/options.ml" 118 3953 3972
+type(
+  unit
+)
+"ocamlbuild/options.ml" 117 3882 3884 "ocamlbuild/options.ml" 118 3953 3972
+type(
+  unit
+)
+"ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  def add_to' "ocamlbuild/options.ml" 124 4051 4051 --
+)
+"ocamlbuild/options.ml" 119 3973 3985 "ocamlbuild/options.ml" 119 3973 3988
+type(
+  string list list ref
+)
+ident(
+  def rxs "ocamlbuild/options.ml" 119 3973 3989 "ocamlbuild/options.ml" 123 4044 4050
+)
+"ocamlbuild/options.ml" 119 3973 3989 "ocamlbuild/options.ml" 119 3973 3990
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/options.ml" 120 3993 3995 "ocamlbuild/options.ml" 123 4044 4050
+)
+"ocamlbuild/options.ml" 120 3993 3998 "ocamlbuild/options.ml" 120 3993 3999
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/options.ml" 119 3973 3989 "ocamlbuild/options.ml" 119 3973 3990
+)
+"ocamlbuild/options.ml" 120 3993 4000 "ocamlbuild/options.ml" 120 3993 4002
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"ocamlbuild/options.ml" 120 3993 4003 "ocamlbuild/options.ml" 120 3993 4008
+type(
+  string
+)
+ident(
+  int_ref dummy "ocamlbuild/options.ml" 101 3396 3400 "ocamlbuild/options.ml" 101 3396 3405
+)
+"ocamlbuild/options.ml" 120 3993 3998 "ocamlbuild/options.ml" 120 3993 4008
+type(
+  bool
+)
+"ocamlbuild/options.ml" 121 4014 4018 "ocamlbuild/options.ml" 121 4014 4021
+type(
+  string list list ref
+)
+ident(
+  int_ref rxs "ocamlbuild/options.ml" 119 3973 3985 "ocamlbuild/options.ml" 119 3973 3988
+)
+"ocamlbuild/options.ml" 121 4014 4022 "ocamlbuild/options.ml" 121 4014 4024
+type(
+  string list list ref -> string list list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 121 4014 4026 "ocamlbuild/options.ml" 121 4014 4027
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/options.ml" 119 3973 3989 "ocamlbuild/options.ml" 119 3973 3990
+)
+"ocamlbuild/options.ml" 121 4014 4025 "ocamlbuild/options.ml" 121 4014 4028
+type(
+  string list
+)
+"ocamlbuild/options.ml" 121 4014 4032 "ocamlbuild/options.ml" 121 4014 4033
+type(
+  string list list ref -> string list list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 121 4014 4033 "ocamlbuild/options.ml" 121 4014 4036
+type(
+  string list list ref
+)
+ident(
+  int_ref rxs "ocamlbuild/options.ml" 119 3973 3985 "ocamlbuild/options.ml" 119 3973 3988
+)
+"ocamlbuild/options.ml" 121 4014 4032 "ocamlbuild/options.ml" 121 4014 4036
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 121 4014 4025 "ocamlbuild/options.ml" 121 4014 4036
+type(
+  string list list
+)
+"ocamlbuild/options.ml" 121 4014 4018 "ocamlbuild/options.ml" 121 4014 4036
+type(
+  unit
+)
+"ocamlbuild/options.ml" 123 4044 4048 "ocamlbuild/options.ml" 123 4044 4050
+type(
+  unit
+)
+"ocamlbuild/options.ml" 120 3993 3995 "ocamlbuild/options.ml" 123 4044 4050
+type(
+  unit
+)
+"ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  def set_cmd "ocamlbuild/options.ml" 125 4101 4101 --
+)
+"ocamlbuild/options.ml" 124 4051 4063 "ocamlbuild/options.ml" 124 4051 4067
+type(
+  Command.spec ref
+)
+ident(
+  def rcmd "ocamlbuild/options.ml" 124 4051 4070 "ocamlbuild/options.ml" 124 4051 4100
+)
+"ocamlbuild/options.ml" 124 4051 4082 "ocamlbuild/options.ml" 124 4051 4083
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/options.ml" 124 4051 4087 "ocamlbuild/options.ml" 124 4051 4099
+)
+"ocamlbuild/options.ml" 124 4051 4087 "ocamlbuild/options.ml" 124 4051 4091
+type(
+  Command.spec ref
+)
+ident(
+  int_ref rcmd "ocamlbuild/options.ml" 124 4051 4063 "ocamlbuild/options.ml" 124 4051 4067
+)
+"ocamlbuild/options.ml" 124 4051 4092 "ocamlbuild/options.ml" 124 4051 4094
+type(
+  Command.spec ref -> Command.spec -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 124 4051 4098 "ocamlbuild/options.ml" 124 4051 4099
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/options.ml" 124 4051 4082 "ocamlbuild/options.ml" 124 4051 4083
+)
+"ocamlbuild/options.ml" 124 4051 4095 "ocamlbuild/options.ml" 124 4051 4099
+type(
+  Command.spec
+)
+"ocamlbuild/options.ml" 124 4051 4087 "ocamlbuild/options.ml" 124 4051 4099
+type(
+  unit
+)
+"ocamlbuild/options.ml" 124 4051 4077 "ocamlbuild/options.ml" 124 4051 4100
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 124 4051 4070 "ocamlbuild/options.ml" 124 4051 4100
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 125 4101 4105 "ocamlbuild/options.ml" 125 4101 4118
+type(
+  string -> unit
+)
+ident(
+  def set_build_dir "ocamlbuild/options.ml" 126 4159 4159 --
+)
+"ocamlbuild/options.ml" 125 4101 4119 "ocamlbuild/options.ml" 125 4101 4120
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/options.ml" 125 4101 4123 "ocamlbuild/options.ml" 125 4101 4158
+)
+"ocamlbuild/options.ml" 125 4101 4123 "ocamlbuild/options.ml" 125 4101 4133
+type(
+  bool ref
+)
+ident(
+  int_ref make_links "ocamlbuild/options.ml" 36 1257 1261 "ocamlbuild/options.ml" 36 1257 1271
+)
+"ocamlbuild/options.ml" 125 4101 4134 "ocamlbuild/options.ml" 125 4101 4136
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 125 4101 4137 "ocamlbuild/options.ml" 125 4101 4142
+type(
+  bool
+)
+"ocamlbuild/options.ml" 125 4101 4123 "ocamlbuild/options.ml" 125 4101 4142
+type(
+  unit
+)
+"ocamlbuild/options.ml" 125 4101 4144 "ocamlbuild/options.ml" 125 4101 4153
+type(
+  string ref
+)
+ident(
+  int_ref build_dir "ocamlbuild/options.ml" 25 937 941 "ocamlbuild/options.ml" 25 937 950
+)
+"ocamlbuild/options.ml" 125 4101 4154 "ocamlbuild/options.ml" 125 4101 4156
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 125 4101 4157 "ocamlbuild/options.ml" 125 4101 4158
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/options.ml" 125 4101 4119 "ocamlbuild/options.ml" 125 4101 4120
+)
+"ocamlbuild/options.ml" 125 4101 4144 "ocamlbuild/options.ml" 125 4101 4158
+type(
+  unit
+)
+"ocamlbuild/options.ml" 125 4101 4123 "ocamlbuild/options.ml" 125 4101 4158
+type(
+  unit
+)
+"ocamlbuild/options.ml" 126 4159 4163 "ocamlbuild/options.ml" 126 4159 4167
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  def spec "ocamlbuild/options.ml" 198 9209 9209 --
+)
+"ocamlbuild/options.ml" 127 4170 4172 "ocamlbuild/options.ml" 127 4170 4181
+type(
+  (Arg.key * Arg.spec * Arg.doc) list -> (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  ext_ref Arg.align
+)
+"ocamlbuild/options.ml" 129 4186 4189 "ocamlbuild/options.ml" 129 4186 4199
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 129 4186 4211 "ocamlbuild/options.ml" 129 4186 4213
+type(
+  unit
+)
+"ocamlbuild/options.ml" 129 4186 4217 "ocamlbuild/options.ml" 129 4186 4230
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ocamlbuild/options.ml" 129 4186 4231 "ocamlbuild/options.ml" 129 4186 4238
+type(
+  string
+)
+ident(
+  int_ref version "ocamlbuild/options.ml" 15 784 788 "ocamlbuild/options.ml" 15 784 795
+)
+"ocamlbuild/options.ml" 129 4186 4217 "ocamlbuild/options.ml" 129 4186 4238
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 129 4186 4240 "ocamlbuild/options.ml" 129 4186 4245
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/options.ml" 129 4186 4246 "ocamlbuild/options.ml" 129 4186 4253
+type(
+  exn
+)
+"ocamlbuild/options.ml" 129 4186 4240 "ocamlbuild/options.ml" 129 4186 4253
+type(
+  unit
+)
+"ocamlbuild/options.ml" 129 4186 4217 "ocamlbuild/options.ml" 129 4186 4253
+type(
+  unit
+)
+"ocamlbuild/options.ml" 129 4186 4206 "ocamlbuild/options.ml" 129 4186 4254
+type(
+  unit -> unit
+)
+"ocamlbuild/options.ml" 129 4186 4201 "ocamlbuild/options.ml" 129 4186 4254
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 129 4186 4256 "ocamlbuild/options.ml" 129 4186 4278
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 129 4186 4189 "ocamlbuild/options.ml" 129 4186 4278
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 130 4280 4283 "ocamlbuild/options.ml" 130 4280 4291
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 130 4280 4303 "ocamlbuild/options.ml" 130 4280 4305
+type(
+  unit
+)
+"ocamlbuild/options.ml" 130 4280 4309 "ocamlbuild/options.ml" 130 4280 4318
+type(
+  int ref
+)
+ident(
+  ext_ref Log.level
+)
+"ocamlbuild/options.ml" 130 4280 4319 "ocamlbuild/options.ml" 130 4280 4321
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 130 4280 4322 "ocamlbuild/options.ml" 130 4280 4323
+type(
+  int
+)
+"ocamlbuild/options.ml" 130 4280 4309 "ocamlbuild/options.ml" 130 4280 4323
+type(
+  unit
+)
+"ocamlbuild/options.ml" 130 4280 4298 "ocamlbuild/options.ml" 130 4280 4324
+type(
+  unit -> unit
+)
+"ocamlbuild/options.ml" 130 4280 4293 "ocamlbuild/options.ml" 130 4280 4324
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 130 4280 4326 "ocamlbuild/options.ml" 130 4280 4354
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 130 4280 4283 "ocamlbuild/options.ml" 130 4280 4354
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 131 4356 4359 "ocamlbuild/options.ml" 131 4356 4369
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 131 4356 4380 "ocamlbuild/options.ml" 131 4356 4381
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/options.ml" 131 4356 4385 "ocamlbuild/options.ml" 131 4356 4403
+)
+"ocamlbuild/options.ml" 131 4356 4385 "ocamlbuild/options.ml" 131 4356 4394
+type(
+  int ref
+)
+ident(
+  ext_ref Log.level
+)
+"ocamlbuild/options.ml" 131 4356 4395 "ocamlbuild/options.ml" 131 4356 4397
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 131 4356 4398 "ocamlbuild/options.ml" 131 4356 4399
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/options.ml" 131 4356 4380 "ocamlbuild/options.ml" 131 4356 4381
+)
+"ocamlbuild/options.ml" 131 4356 4400 "ocamlbuild/options.ml" 131 4356 4401
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/options.ml" 131 4356 4402 "ocamlbuild/options.ml" 131 4356 4403
+type(
+  int
+)
+"ocamlbuild/options.ml" 131 4356 4398 "ocamlbuild/options.ml" 131 4356 4403
+type(
+  int
+)
+"ocamlbuild/options.ml" 131 4356 4385 "ocamlbuild/options.ml" 131 4356 4403
+type(
+  unit
+)
+"ocamlbuild/options.ml" 131 4356 4375 "ocamlbuild/options.ml" 131 4356 4404
+type(
+  int -> unit
+)
+"ocamlbuild/options.ml" 131 4356 4371 "ocamlbuild/options.ml" 131 4356 4404
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 131 4356 4406 "ocamlbuild/options.ml" 131 4356 4439
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 131 4356 4359 "ocamlbuild/options.ml" 131 4356 4439
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 132 4441 4444 "ocamlbuild/options.ml" 132 4441 4460
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 132 4441 4466 "ocamlbuild/options.ml" 132 4441 4484
+type(
+  bool ref
+)
+ident(
+  int_ref show_documentation "ocamlbuild/options.ml" 77 2581 2585 "ocamlbuild/options.ml" 77 2581 2603
+)
+"ocamlbuild/options.ml" 132 4441 4462 "ocamlbuild/options.ml" 132 4441 4484
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 132 4441 4486 "ocamlbuild/options.ml" 132 4441 4509
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 132 4441 4444 "ocamlbuild/options.ml" 132 4441 4509
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 133 4511 4514 "ocamlbuild/options.ml" 133 4511 4520
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 133 4511 4533 "ocamlbuild/options.ml" 133 4511 4550
+type(
+  string ref
+)
+ident(
+  int_ref log_file_internal "ocamlbuild/options.ml" 96 3259 3263 "ocamlbuild/options.ml" 96 3259 3280
+)
+"ocamlbuild/options.ml" 133 4511 4522 "ocamlbuild/options.ml" 133 4511 4550
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 133 4511 4552 "ocamlbuild/options.ml" 133 4511 4573
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 133 4511 4514 "ocamlbuild/options.ml" 133 4511 4573
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 134 4575 4578 "ocamlbuild/options.ml" 134 4575 4587
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 134 4575 4599 "ocamlbuild/options.ml" 134 4575 4601
+type(
+  unit
+)
+"ocamlbuild/options.ml" 134 4575 4605 "ocamlbuild/options.ml" 134 4575 4622
+type(
+  string ref
+)
+ident(
+  int_ref log_file_internal "ocamlbuild/options.ml" 96 3259 3263 "ocamlbuild/options.ml" 96 3259 3280
+)
+"ocamlbuild/options.ml" 134 4575 4623 "ocamlbuild/options.ml" 134 4575 4625
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 134 4575 4626 "ocamlbuild/options.ml" 134 4575 4628
+type(
+  string
+)
+"ocamlbuild/options.ml" 134 4575 4605 "ocamlbuild/options.ml" 134 4575 4628
+type(
+  unit
+)
+"ocamlbuild/options.ml" 134 4575 4594 "ocamlbuild/options.ml" 134 4575 4629
+type(
+  unit -> unit
+)
+"ocamlbuild/options.ml" 134 4575 4589 "ocamlbuild/options.ml" 134 4575 4629
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 134 4575 4631 "ocamlbuild/options.ml" 134 4575 4645
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 134 4575 4578 "ocamlbuild/options.ml" 134 4575 4645
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 135 4647 4650 "ocamlbuild/options.ml" 135 4647 4658
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 135 4647 4664 "ocamlbuild/options.ml" 135 4647 4674
+type(
+  bool ref
+)
+ident(
+  int_ref must_clean "ocamlbuild/options.ml" 76 2554 2558 "ocamlbuild/options.ml" 76 2554 2568
+)
+"ocamlbuild/options.ml" 135 4647 4660 "ocamlbuild/options.ml" 135 4647 4674
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 135 4647 4676 "ocamlbuild/options.ml" 135 4647 4728
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 135 4647 4650 "ocamlbuild/options.ml" 135 4647 4728
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 136 4731 4734 "ocamlbuild/options.ml" 136 4731 4738
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 136 4731 4744 "ocamlbuild/options.ml" 136 4731 4753
+type(
+  bool ref
+)
+ident(
+  int_ref recursive "ocamlbuild/options.ml" 78 2616 2620 "ocamlbuild/options.ml" 78 2616 2629
+)
+"ocamlbuild/options.ml" 136 4731 4740 "ocamlbuild/options.ml" 136 4731 4753
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 136 4731 4755 "ocamlbuild/options.ml" 136 4731 4806
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 136 4731 4734 "ocamlbuild/options.ml" 136 4731 4806
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 138 4810 4813 "ocamlbuild/options.ml" 138 4810 4817
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 138 4810 4827 "ocamlbuild/options.ml" 138 4810 4834
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 138 4810 4835 "ocamlbuild/options.ml" 138 4810 4850
+type(
+  string list list ref
+)
+ident(
+  int_ref my_include_dirs "ocamlbuild/options.ml" 98 3295 3299 "ocamlbuild/options.ml" 98 3295 3314
+)
+"ocamlbuild/options.ml" 138 4810 4826 "ocamlbuild/options.ml" 138 4810 4851
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 138 4810 4819 "ocamlbuild/options.ml" 138 4810 4851
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 138 4810 4853 "ocamlbuild/options.ml" 138 4810 4888
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 138 4810 4813 "ocamlbuild/options.ml" 138 4810 4888
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 139 4890 4893 "ocamlbuild/options.ml" 139 4890 4898
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 139 4890 4908 "ocamlbuild/options.ml" 139 4890 4914
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 139 4890 4915 "ocamlbuild/options.ml" 139 4890 4930
+type(
+  string list list ref
+)
+ident(
+  int_ref my_include_dirs "ocamlbuild/options.ml" 98 3295 3299 "ocamlbuild/options.ml" 98 3295 3314
+)
+"ocamlbuild/options.ml" 139 4890 4907 "ocamlbuild/options.ml" 139 4890 4931
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 139 4890 4900 "ocamlbuild/options.ml" 139 4890 4931
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 139 4890 4933 "ocamlbuild/options.ml" 139 4890 5008
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 139 4890 4893 "ocamlbuild/options.ml" 139 4890 5008
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 140 5010 5013 "ocamlbuild/options.ml" 140 5010 5017
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 140 5010 5027 "ocamlbuild/options.ml" 140 5010 5034
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 140 5010 5035 "ocamlbuild/options.ml" 140 5010 5050
+type(
+  string list list ref
+)
+ident(
+  int_ref my_exclude_dirs "ocamlbuild/options.ml" 99 3351 3355 "ocamlbuild/options.ml" 99 3351 3370
+)
+"ocamlbuild/options.ml" 140 5010 5026 "ocamlbuild/options.ml" 140 5010 5051
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 140 5010 5019 "ocamlbuild/options.ml" 140 5010 5051
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 140 5010 5053 "ocamlbuild/options.ml" 140 5010 5081
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 140 5010 5013 "ocamlbuild/options.ml" 140 5010 5081
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 141 5083 5086 "ocamlbuild/options.ml" 141 5083 5091
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 141 5083 5101 "ocamlbuild/options.ml" 141 5083 5107
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 141 5083 5108 "ocamlbuild/options.ml" 141 5083 5123
+type(
+  string list list ref
+)
+ident(
+  int_ref my_exclude_dirs "ocamlbuild/options.ml" 99 3351 3355 "ocamlbuild/options.ml" 99 3351 3370
+)
+"ocamlbuild/options.ml" 141 5083 5100 "ocamlbuild/options.ml" 141 5083 5124
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 141 5083 5093 "ocamlbuild/options.ml" 141 5083 5124
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 141 5083 5126 "ocamlbuild/options.ml" 141 5083 5145
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 141 5083 5086 "ocamlbuild/options.ml" 141 5083 5145
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 143 5148 5151 "ocamlbuild/options.ml" 143 5148 5157
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 143 5148 5167 "ocamlbuild/options.ml" 143 5148 5174
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 143 5148 5175 "ocamlbuild/options.ml" 143 5148 5194
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_libs_internal "ocamlbuild/options.ml" 85 2876 2880 "ocamlbuild/options.ml" 85 2876 2899
+)
+"ocamlbuild/options.ml" 143 5148 5166 "ocamlbuild/options.ml" 143 5148 5195
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 143 5148 5159 "ocamlbuild/options.ml" 143 5148 5195
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 143 5148 5197 "ocamlbuild/options.ml" 143 5148 5232
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 143 5148 5151 "ocamlbuild/options.ml" 143 5148 5232
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 144 5234 5237 "ocamlbuild/options.ml" 144 5234 5244
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 144 5234 5254 "ocamlbuild/options.ml" 144 5234 5260
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 144 5234 5261 "ocamlbuild/options.ml" 144 5234 5280
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_libs_internal "ocamlbuild/options.ml" 85 2876 2880 "ocamlbuild/options.ml" 85 2876 2899
+)
+"ocamlbuild/options.ml" 144 5234 5253 "ocamlbuild/options.ml" 144 5234 5281
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 144 5234 5246 "ocamlbuild/options.ml" 144 5234 5281
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 144 5234 5283 "ocamlbuild/options.ml" 144 5234 5302
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 144 5234 5237 "ocamlbuild/options.ml" 144 5234 5302
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 145 5304 5307 "ocamlbuild/options.ml" 145 5304 5315
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 145 5304 5325 "ocamlbuild/options.ml" 145 5304 5332
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 145 5304 5333 "ocamlbuild/options.ml" 145 5304 5354
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_lflags_internal "ocamlbuild/options.ml" 86 2909 2913 "ocamlbuild/options.ml" 86 2909 2934
+)
+"ocamlbuild/options.ml" 145 5304 5324 "ocamlbuild/options.ml" 145 5304 5355
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 145 5304 5317 "ocamlbuild/options.ml" 145 5304 5355
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 145 5304 5357 "ocamlbuild/options.ml" 145 5304 5390
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 145 5304 5307 "ocamlbuild/options.ml" 145 5304 5390
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 146 5392 5395 "ocamlbuild/options.ml" 146 5392 5404
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 146 5392 5414 "ocamlbuild/options.ml" 146 5392 5420
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 146 5392 5421 "ocamlbuild/options.ml" 146 5392 5442
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_lflags_internal "ocamlbuild/options.ml" 86 2909 2913 "ocamlbuild/options.ml" 86 2909 2934
+)
+"ocamlbuild/options.ml" 146 5392 5413 "ocamlbuild/options.ml" 146 5392 5443
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 146 5392 5406 "ocamlbuild/options.ml" 146 5392 5443
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 146 5392 5445 "ocamlbuild/options.ml" 146 5392 5464
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 146 5392 5395 "ocamlbuild/options.ml" 146 5392 5464
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 147 5466 5469 "ocamlbuild/options.ml" 147 5466 5477
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 147 5466 5487 "ocamlbuild/options.ml" 147 5466 5494
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 147 5466 5495 "ocamlbuild/options.ml" 147 5466 5516
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_cflags_internal "ocamlbuild/options.ml" 87 2944 2948 "ocamlbuild/options.ml" 87 2944 2969
+)
+"ocamlbuild/options.ml" 147 5466 5486 "ocamlbuild/options.ml" 147 5466 5517
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 147 5466 5479 "ocamlbuild/options.ml" 147 5466 5517
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 147 5466 5519 "ocamlbuild/options.ml" 147 5466 5555
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 147 5466 5469 "ocamlbuild/options.ml" 147 5466 5555
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 148 5557 5560 "ocamlbuild/options.ml" 148 5557 5569
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 148 5557 5579 "ocamlbuild/options.ml" 148 5557 5585
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 148 5557 5586 "ocamlbuild/options.ml" 148 5557 5607
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_cflags_internal "ocamlbuild/options.ml" 87 2944 2948 "ocamlbuild/options.ml" 87 2944 2969
+)
+"ocamlbuild/options.ml" 148 5557 5578 "ocamlbuild/options.ml" 148 5557 5608
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 148 5557 5571 "ocamlbuild/options.ml" 148 5557 5608
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 148 5557 5610 "ocamlbuild/options.ml" 148 5557 5629
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 148 5557 5560 "ocamlbuild/options.ml" 148 5557 5629
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 149 5631 5634 "ocamlbuild/options.ml" 149 5631 5645
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 149 5631 5655 "ocamlbuild/options.ml" 149 5631 5662
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 149 5631 5663 "ocamlbuild/options.ml" 149 5631 5687
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_yaccflags_internal "ocamlbuild/options.ml" 89 3015 3019 "ocamlbuild/options.ml" 89 3015 3043
+)
+"ocamlbuild/options.ml" 149 5631 5654 "ocamlbuild/options.ml" 149 5631 5688
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 149 5631 5647 "ocamlbuild/options.ml" 149 5631 5688
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 149 5631 5690 "ocamlbuild/options.ml" 149 5631 5721
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 149 5631 5634 "ocamlbuild/options.ml" 149 5631 5721
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 150 5723 5726 "ocamlbuild/options.ml" 150 5723 5738
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 150 5723 5748 "ocamlbuild/options.ml" 150 5723 5754
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 150 5723 5755 "ocamlbuild/options.ml" 150 5723 5779
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_yaccflags_internal "ocamlbuild/options.ml" 89 3015 3019 "ocamlbuild/options.ml" 89 3015 3043
+)
+"ocamlbuild/options.ml" 150 5723 5747 "ocamlbuild/options.ml" 150 5723 5780
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 150 5723 5740 "ocamlbuild/options.ml" 150 5723 5780
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 150 5723 5782 "ocamlbuild/options.ml" 150 5723 5801
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 150 5723 5726 "ocamlbuild/options.ml" 150 5723 5801
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 151 5803 5806 "ocamlbuild/options.ml" 151 5803 5816
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 151 5803 5826 "ocamlbuild/options.ml" 151 5803 5833
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 151 5803 5834 "ocamlbuild/options.ml" 151 5803 5857
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_lexflags_internal "ocamlbuild/options.ml" 90 3053 3057 "ocamlbuild/options.ml" 90 3053 3080
+)
+"ocamlbuild/options.ml" 151 5803 5825 "ocamlbuild/options.ml" 151 5803 5858
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 151 5803 5818 "ocamlbuild/options.ml" 151 5803 5858
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 151 5803 5860 "ocamlbuild/options.ml" 151 5803 5890
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 151 5803 5806 "ocamlbuild/options.ml" 151 5803 5890
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 152 5892 5895 "ocamlbuild/options.ml" 152 5892 5906
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 152 5892 5916 "ocamlbuild/options.ml" 152 5892 5922
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 152 5892 5923 "ocamlbuild/options.ml" 152 5892 5946
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_lexflags_internal "ocamlbuild/options.ml" 90 3053 3057 "ocamlbuild/options.ml" 90 3053 3080
+)
+"ocamlbuild/options.ml" 152 5892 5915 "ocamlbuild/options.ml" 152 5892 5947
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 152 5892 5908 "ocamlbuild/options.ml" 152 5892 5947
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 152 5892 5949 "ocamlbuild/options.ml" 152 5892 5968
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 152 5892 5895 "ocamlbuild/options.ml" 152 5892 5968
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 153 5970 5973 "ocamlbuild/options.ml" 153 5970 5982
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 153 5970 5992 "ocamlbuild/options.ml" 153 5970 5999
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 153 5970 6000 "ocamlbuild/options.ml" 153 5970 6022
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_ppflags_internal "ocamlbuild/options.ml" 88 2979 2983 "ocamlbuild/options.ml" 88 2979 3005
+)
+"ocamlbuild/options.ml" 153 5970 5991 "ocamlbuild/options.ml" 153 5970 6023
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 153 5970 5984 "ocamlbuild/options.ml" 153 5970 6023
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 153 5970 6025 "ocamlbuild/options.ml" 153 5970 6066
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 153 5970 5973 "ocamlbuild/options.ml" 153 5970 6066
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 154 6068 6071 "ocamlbuild/options.ml" 154 6068 6076
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 154 6068 6086 "ocamlbuild/options.ml" 154 6068 6092
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 154 6068 6093 "ocamlbuild/options.ml" 154 6068 6115
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_ppflags_internal "ocamlbuild/options.ml" 88 2979 2983 "ocamlbuild/options.ml" 88 2979 3005
+)
+"ocamlbuild/options.ml" 154 6068 6085 "ocamlbuild/options.ml" 154 6068 6116
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 154 6068 6078 "ocamlbuild/options.ml" 154 6068 6116
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 154 6068 6118 "ocamlbuild/options.ml" 154 6068 6137
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 154 6068 6071 "ocamlbuild/options.ml" 154 6068 6137
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 155 6139 6142 "ocamlbuild/options.ml" 155 6139 6148
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 155 6139 6158 "ocamlbuild/options.ml" 155 6139 6165
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 155 6139 6166 "ocamlbuild/options.ml" 155 6139 6179
+type(
+  string list list ref
+)
+ident(
+  int_ref tags_internal "ocamlbuild/options.ml" 93 3159 3163 "ocamlbuild/options.ml" 93 3159 3176
+)
+"ocamlbuild/options.ml" 155 6139 6157 "ocamlbuild/options.ml" 155 6139 6180
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 155 6139 6150 "ocamlbuild/options.ml" 155 6139 6180
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 155 6139 6182 "ocamlbuild/options.ml" 155 6139 6209
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 155 6139 6142 "ocamlbuild/options.ml" 155 6139 6209
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 156 6211 6214 "ocamlbuild/options.ml" 156 6211 6221
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 156 6211 6231 "ocamlbuild/options.ml" 156 6211 6237
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 156 6211 6238 "ocamlbuild/options.ml" 156 6211 6251
+type(
+  string list list ref
+)
+ident(
+  int_ref tags_internal "ocamlbuild/options.ml" 93 3159 3163 "ocamlbuild/options.ml" 93 3159 3176
+)
+"ocamlbuild/options.ml" 156 6211 6230 "ocamlbuild/options.ml" 156 6211 6252
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 156 6211 6223 "ocamlbuild/options.ml" 156 6211 6252
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 156 6211 6254 "ocamlbuild/options.ml" 156 6211 6272
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 156 6211 6214 "ocamlbuild/options.ml" 156 6211 6272
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 157 6274 6277 "ocamlbuild/options.ml" 157 6274 6288
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 157 6274 6298 "ocamlbuild/options.ml" 157 6274 6305
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 157 6274 6306 "ocamlbuild/options.ml" 157 6274 6324
+type(
+  string list list ref
+)
+ident(
+  int_ref tag_lines_internal "ocamlbuild/options.ml" 94 3195 3199 "ocamlbuild/options.ml" 94 3195 3217
+)
+"ocamlbuild/options.ml" 157 6274 6297 "ocamlbuild/options.ml" 157 6274 6325
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 157 6274 6290 "ocamlbuild/options.ml" 157 6274 6325
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 157 6274 6327 "ocamlbuild/options.ml" 157 6274 6370
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 157 6274 6277 "ocamlbuild/options.ml" 157 6274 6370
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 158 6372 6375 "ocamlbuild/options.ml" 158 6372 6387
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 158 6372 6397 "ocamlbuild/options.ml" 158 6372 6404
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 158 6372 6405 "ocamlbuild/options.ml" 158 6372 6423
+type(
+  string list list ref
+)
+ident(
+  int_ref show_tags_internal "ocamlbuild/options.ml" 95 3227 3231 "ocamlbuild/options.ml" 95 3227 3249
+)
+"ocamlbuild/options.ml" 158 6372 6396 "ocamlbuild/options.ml" 158 6372 6424
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 158 6372 6389 "ocamlbuild/options.ml" 158 6372 6424
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 158 6372 6426 "ocamlbuild/options.ml" 158 6372 6474
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 158 6372 6375 "ocamlbuild/options.ml" 158 6372 6474
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 160 6477 6480 "ocamlbuild/options.ml" 160 6477 6489
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 160 6477 6499 "ocamlbuild/options.ml" 160 6477 6505
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to "ocamlbuild/options.ml" 116 3863 3867 "ocamlbuild/options.ml" 116 3863 3873
+)
+"ocamlbuild/options.ml" 160 6477 6506 "ocamlbuild/options.ml" 160 6477 6526
+type(
+  string list list ref
+)
+ident(
+  int_ref ignore_list_internal "ocamlbuild/options.ml" 92 3125 3129 "ocamlbuild/options.ml" 92 3125 3149
+)
+"ocamlbuild/options.ml" 160 6477 6498 "ocamlbuild/options.ml" 160 6477 6527
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 160 6477 6491 "ocamlbuild/options.ml" 160 6477 6527
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 160 6477 6529 "ocamlbuild/options.ml" 160 6477 6576
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 160 6477 6480 "ocamlbuild/options.ml" 160 6477 6576
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 161 6578 6581 "ocamlbuild/options.ml" 161 6578 6592
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 161 6578 6600 "ocamlbuild/options.ml" 161 6578 6610
+type(
+  bool ref
+)
+ident(
+  int_ref make_links "ocamlbuild/options.ml" 36 1257 1261 "ocamlbuild/options.ml" 36 1257 1271
+)
+"ocamlbuild/options.ml" 161 6578 6594 "ocamlbuild/options.ml" 161 6578 6610
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 161 6578 6612 "ocamlbuild/options.ml" 161 6578 6657
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 161 6578 6581 "ocamlbuild/options.ml" 161 6578 6657
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 162 6659 6662 "ocamlbuild/options.ml" 162 6659 6672
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 162 6659 6680 "ocamlbuild/options.ml" 162 6659 6691
+type(
+  bool ref
+)
+ident(
+  int_ref ignore_auto "ocamlbuild/options.ml" 32 1151 1155 "ocamlbuild/options.ml" 32 1151 1166
+)
+"ocamlbuild/options.ml" 162 6659 6674 "ocamlbuild/options.ml" 162 6659 6691
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 162 6659 6693 "ocamlbuild/options.ml" 162 6659 6765
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 162 6659 6662 "ocamlbuild/options.ml" 162 6659 6765
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 163 6767 6770 "ocamlbuild/options.ml" 163 6767 6783
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 163 6767 6791 "ocamlbuild/options.ml" 163 6767 6798
+type(
+  bool ref
+)
+ident(
+  int_ref hygiene "ocamlbuild/options.ml" 31 1128 1132 "ocamlbuild/options.ml" 31 1128 1139
+)
+"ocamlbuild/options.ml" 163 6767 6785 "ocamlbuild/options.ml" 163 6767 6798
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 163 6767 6800 "ocamlbuild/options.ml" 163 6767 6833
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 163 6767 6770 "ocamlbuild/options.ml" 163 6767 6833
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 164 6835 6838 "ocamlbuild/options.ml" 164 6835 6850
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 164 6835 6858 "ocamlbuild/options.ml" 164 6835 6864
+type(
+  bool ref
+)
+ident(
+  int_ref plugin "ocamlbuild/options.ml" 33 1178 1182 "ocamlbuild/options.ml" 33 1178 1188
+)
+"ocamlbuild/options.ml" 164 6835 6852 "ocamlbuild/options.ml" 164 6835 6864
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 164 6835 6866 "ocamlbuild/options.ml" 164 6835 6896
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 164 6835 6838 "ocamlbuild/options.ml" 164 6835 6896
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 165 6898 6901 "ocamlbuild/options.ml" 165 6898 6913
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 165 6898 6919 "ocamlbuild/options.ml" 165 6898 6927
+type(
+  bool ref
+)
+ident(
+  int_ref nostdlib "ocamlbuild/options.ml" 37 1283 1287 "ocamlbuild/options.ml" 37 1283 1295
+)
+"ocamlbuild/options.ml" 165 6898 6915 "ocamlbuild/options.ml" 165 6898 6927
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 165 6898 6929 "ocamlbuild/options.ml" 165 6898 6959
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 165 6898 6901 "ocamlbuild/options.ml" 165 6898 6959
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 166 6961 6964 "ocamlbuild/options.ml" 166 6961 6984
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 166 6961 6992 "ocamlbuild/options.ml" 166 6961 7004
+type(
+  bool ref
+)
+ident(
+  int_ref catch_errors "ocamlbuild/options.ml" 39 1335 1339 "ocamlbuild/options.ml" 39 1335 1351
+)
+"ocamlbuild/options.ml" 166 6961 6986 "ocamlbuild/options.ml" 166 6961 7004
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 166 6961 7006 "ocamlbuild/options.ml" 166 6961 7078
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 166 6961 6964 "ocamlbuild/options.ml" 166 6961 7078
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 167 7080 7083 "ocamlbuild/options.ml" 167 7080 7097
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 167 7080 7103 "ocamlbuild/options.ml" 167 7080 7114
+type(
+  bool ref
+)
+ident(
+  int_ref just_plugin "ocamlbuild/options.ml" 34 1200 1204 "ocamlbuild/options.ml" 34 1200 1215
+)
+"ocamlbuild/options.ml" 167 7080 7099 "ocamlbuild/options.ml" 167 7080 7114
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 167 7080 7116 "ocamlbuild/options.ml" 167 7080 7145
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 167 7080 7083 "ocamlbuild/options.ml" 167 7080 7145
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 168 7147 7150 "ocamlbuild/options.ml" 168 7147 7164
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 168 7147 7172 "ocamlbuild/options.ml" 168 7147 7185
+type(
+  bool ref
+)
+ident(
+  int_ref native_plugin "ocamlbuild/options.ml" 35 1228 1232 "ocamlbuild/options.ml" 35 1228 1245
+)
+"ocamlbuild/options.ml" 168 7147 7166 "ocamlbuild/options.ml" 168 7147 7185
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 168 7147 7187 "ocamlbuild/options.ml" 168 7147 7228
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 168 7147 7150 "ocamlbuild/options.ml" 168 7147 7228
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 169 7230 7233 "ocamlbuild/options.ml" 169 7230 7255
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 169 7230 7268 "ocamlbuild/options.ml" 169 7230 7287
+type(
+  string ref
+)
+ident(
+  int_ref sanitization_script "ocamlbuild/options.ml" 30 1084 1088 "ocamlbuild/options.ml" 30 1084 1107
+)
+"ocamlbuild/options.ml" 169 7230 7257 "ocamlbuild/options.ml" 169 7230 7287
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 169 7230 7289 "ocamlbuild/options.ml" 169 7230 7350
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 169 7230 7233 "ocamlbuild/options.ml" 169 7230 7350
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 170 7352 7355 "ocamlbuild/options.ml" 170 7352 7369
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 170 7352 7377 "ocamlbuild/options.ml" 170 7352 7385
+type(
+  bool ref
+)
+ident(
+  int_ref sanitize "ocamlbuild/options.ml" 29 1060 1064 "ocamlbuild/options.ml" 29 1060 1072
+)
+"ocamlbuild/options.ml" 170 7352 7371 "ocamlbuild/options.ml" 170 7352 7385
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 170 7352 7387 "ocamlbuild/options.ml" 170 7352 7425
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 170 7352 7355 "ocamlbuild/options.ml" 170 7352 7425
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 171 7427 7430 "ocamlbuild/options.ml" 171 7427 7458
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 171 7427 7464 "ocamlbuild/options.ml" 171 7427 7489
+type(
+  bool ref
+)
+ident(
+  int_ref nothing_should_be_rebuilt "ocamlbuild/options.ml" 28 1018 1022 "ocamlbuild/options.ml" 28 1018 1047
+)
+"ocamlbuild/options.ml" 171 7427 7460 "ocamlbuild/options.ml" 171 7427 7489
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 171 7427 7491 "ocamlbuild/options.ml" 171 7427 7531
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 171 7427 7430 "ocamlbuild/options.ml" 171 7427 7531
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 172 7533 7536 "ocamlbuild/options.ml" 172 7533 7554
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 172 7533 7560 "ocamlbuild/options.ml" 172 7533 7579
+type(
+  bool ref
+)
+ident(
+  ext_ref Log.classic_display
+)
+"ocamlbuild/options.ml" 172 7533 7556 "ocamlbuild/options.ml" 172 7533 7579
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 172 7533 7581 "ocamlbuild/options.ml" 172 7533 7631
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 172 7533 7536 "ocamlbuild/options.ml" 172 7533 7631
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 173 7633 7636 "ocamlbuild/options.ml" 173 7633 7649
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 173 7633 7655 "ocamlbuild/options.ml" 173 7633 7665
+type(
+  bool ref
+)
+ident(
+  int_ref use_menhir "ocamlbuild/options.ml" 38 1308 1312 "ocamlbuild/options.ml" 38 1308 1322
+)
+"ocamlbuild/options.ml" 173 7633 7651 "ocamlbuild/options.ml" 173 7633 7665
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 173 7633 7667 "ocamlbuild/options.ml" 173 7633 7701
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 173 7633 7636 "ocamlbuild/options.ml" 173 7633 7701
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 174 7703 7706 "ocamlbuild/options.ml" 174 7703 7719
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 174 7703 7726 "ocamlbuild/options.ml" 174 7703 7736
+type(
+  unit -> unit
+)
+ident(
+  int_ref use_jocaml "ocamlbuild/options.ml" 105 3601 3605 "ocamlbuild/options.ml" 105 3601 3615
+)
+"ocamlbuild/options.ml" 174 7703 7721 "ocamlbuild/options.ml" 174 7703 7736
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 174 7703 7738 "ocamlbuild/options.ml" 174 7703 7783
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 174 7703 7706 "ocamlbuild/options.ml" 174 7703 7783
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 176 7786 7789 "ocamlbuild/options.ml" 176 7786 7793
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 176 7786 7803 "ocamlbuild/options.ml" 176 7786 7815
+type(
+  int ref
+)
+ident(
+  ext_ref Command.jobs
+)
+"ocamlbuild/options.ml" 176 7786 7795 "ocamlbuild/options.ml" 176 7786 7815
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 176 7786 7817 "ocamlbuild/options.ml" 176 7786 7861
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 176 7786 7789 "ocamlbuild/options.ml" 176 7786 7861
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 178 7864 7867 "ocamlbuild/options.ml" 178 7864 7879
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 178 7864 7888 "ocamlbuild/options.ml" 178 7864 7901
+type(
+  string -> unit
+)
+ident(
+  int_ref set_build_dir "ocamlbuild/options.ml" 125 4101 4105 "ocamlbuild/options.ml" 125 4101 4118
+)
+"ocamlbuild/options.ml" 178 7864 7881 "ocamlbuild/options.ml" 178 7864 7901
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 178 7864 7903 "ocamlbuild/options.ml" 178 7864 7950
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 178 7864 7867 "ocamlbuild/options.ml" 178 7864 7950
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 179 7952 7955 "ocamlbuild/options.ml" 179 7952 7973
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 179 7952 7986 "ocamlbuild/options.ml" 179 7952 8009
+type(
+  string ref
+)
+ident(
+  ext_ref Ocamlbuild_where.libdir
+)
+"ocamlbuild/options.ml" 179 7952 7975 "ocamlbuild/options.ml" 179 7952 8009
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 179 7952 8011 "ocamlbuild/options.ml" 179 7952 8053
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 179 7952 7955 "ocamlbuild/options.ml" 179 7952 8053
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 180 8055 8058 "ocamlbuild/options.ml" 180 8055 8076
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 180 8055 8089 "ocamlbuild/options.ml" 180 8055 8112
+type(
+  string ref
+)
+ident(
+  ext_ref Ocamlbuild_where.bindir
+)
+"ocamlbuild/options.ml" 180 8055 8078 "ocamlbuild/options.ml" 180 8055 8112
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 180 8055 8114 "ocamlbuild/options.ml" 180 8055 8155
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 180 8055 8058 "ocamlbuild/options.ml" 180 8055 8155
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 181 8157 8160 "ocamlbuild/options.ml" 181 8157 8168
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 181 8157 8180 "ocamlbuild/options.ml" 181 8157 8182
+type(
+  unit
+)
+"ocamlbuild/options.ml" 181 8157 8186 "ocamlbuild/options.ml" 181 8157 8199
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"ocamlbuild/options.ml" 181 8157 8200 "ocamlbuild/options.ml" 181 8157 8201
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 181 8157 8201 "ocamlbuild/options.ml" 181 8157 8224
+type(
+  string ref
+)
+ident(
+  ext_ref Ocamlbuild_where.libdir
+)
+"ocamlbuild/options.ml" 181 8157 8200 "ocamlbuild/options.ml" 181 8157 8224
+type(
+  string
+)
+"ocamlbuild/options.ml" 181 8157 8186 "ocamlbuild/options.ml" 181 8157 8224
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 181 8157 8226 "ocamlbuild/options.ml" 181 8157 8231
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/options.ml" 181 8157 8232 "ocamlbuild/options.ml" 181 8157 8239
+type(
+  exn
+)
+"ocamlbuild/options.ml" 181 8157 8226 "ocamlbuild/options.ml" 181 8157 8239
+type(
+  unit
+)
+"ocamlbuild/options.ml" 181 8157 8186 "ocamlbuild/options.ml" 181 8157 8239
+type(
+  unit
+)
+"ocamlbuild/options.ml" 181 8157 8175 "ocamlbuild/options.ml" 181 8157 8240
+type(
+  unit -> unit
+)
+"ocamlbuild/options.ml" 181 8157 8170 "ocamlbuild/options.ml" 181 8157 8240
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 181 8157 8242 "ocamlbuild/options.ml" 181 8157 8282
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 181 8157 8160 "ocamlbuild/options.ml" 181 8157 8282
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 183 8285 8288 "ocamlbuild/options.ml" 183 8285 8297
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 183 8285 8299 "ocamlbuild/options.ml" 183 8285 8306
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 183 8285 8307 "ocamlbuild/options.ml" 183 8285 8313
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlc "ocamlbuild/options.ml" 66 2241 2245 "ocamlbuild/options.ml" 66 2241 2251
+)
+"ocamlbuild/options.ml" 183 8285 8299 "ocamlbuild/options.ml" 183 8285 8313
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 183 8285 8315 "ocamlbuild/options.ml" 183 8285 8358
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 183 8285 8288 "ocamlbuild/options.ml" 183 8285 8358
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 184 8360 8363 "ocamlbuild/options.ml" 184 8360 8374
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 184 8360 8376 "ocamlbuild/options.ml" 184 8360 8383
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 184 8360 8384 "ocamlbuild/options.ml" 184 8360 8392
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlopt "ocamlbuild/options.ml" 67 2270 2274 "ocamlbuild/options.ml" 67 2270 2282
+)
+"ocamlbuild/options.ml" 184 8360 8376 "ocamlbuild/options.ml" 184 8360 8392
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 184 8360 8394 "ocamlbuild/options.ml" 184 8360 8435
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 184 8360 8363 "ocamlbuild/options.ml" 184 8360 8435
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 185 8437 8440 "ocamlbuild/options.ml" 185 8437 8451
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 185 8437 8453 "ocamlbuild/options.ml" 185 8437 8460
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 185 8437 8461 "ocamlbuild/options.ml" 185 8437 8469
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamldep "ocamlbuild/options.ml" 68 2303 2307 "ocamlbuild/options.ml" 68 2303 2315
+)
+"ocamlbuild/options.ml" 185 8437 8453 "ocamlbuild/options.ml" 185 8437 8469
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 185 8437 8471 "ocamlbuild/options.ml" 185 8437 8512
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 185 8437 8440 "ocamlbuild/options.ml" 185 8437 8512
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 186 8514 8517 "ocamlbuild/options.ml" 186 8514 8529
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 186 8514 8531 "ocamlbuild/options.ml" 186 8514 8538
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 186 8514 8539 "ocamlbuild/options.ml" 186 8514 8548
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlyacc "ocamlbuild/options.ml" 70 2369 2373 "ocamlbuild/options.ml" 70 2369 2382
+)
+"ocamlbuild/options.ml" 186 8514 8531 "ocamlbuild/options.ml" 186 8514 8548
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 186 8514 8550 "ocamlbuild/options.ml" 186 8514 8584
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 186 8514 8517 "ocamlbuild/options.ml" 186 8514 8584
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 187 8586 8589 "ocamlbuild/options.ml" 187 8586 8598
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 187 8586 8600 "ocamlbuild/options.ml" 187 8586 8607
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 187 8586 8608 "ocamlbuild/options.ml" 187 8586 8617
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlyacc "ocamlbuild/options.ml" 70 2369 2373 "ocamlbuild/options.ml" 70 2369 2382
+)
+"ocamlbuild/options.ml" 187 8586 8600 "ocamlbuild/options.ml" 187 8586 8617
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 187 8586 8619 "ocamlbuild/options.ml" 187 8586 8677
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 187 8586 8589 "ocamlbuild/options.ml" 187 8586 8677
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 188 8679 8682 "ocamlbuild/options.ml" 188 8679 8693
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 188 8679 8695 "ocamlbuild/options.ml" 188 8679 8702
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 188 8679 8703 "ocamlbuild/options.ml" 188 8679 8711
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamllex "ocamlbuild/options.ml" 71 2391 2395 "ocamlbuild/options.ml" 71 2391 2403
+)
+"ocamlbuild/options.ml" 188 8679 8695 "ocamlbuild/options.ml" 188 8679 8711
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 188 8679 8713 "ocamlbuild/options.ml" 188 8679 8746
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 188 8679 8682 "ocamlbuild/options.ml" 188 8679 8746
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 191 8890 8893 "ocamlbuild/options.ml" 191 8890 8906
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 191 8890 8908 "ocamlbuild/options.ml" 191 8890 8915
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 191 8890 8916 "ocamlbuild/options.ml" 191 8890 8926
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlmktop "ocamlbuild/options.ml" 73 2461 2465 "ocamlbuild/options.ml" 73 2461 2475
+)
+"ocamlbuild/options.ml" 191 8890 8908 "ocamlbuild/options.ml" 191 8890 8926
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 191 8890 8928 "ocamlbuild/options.ml" 191 8890 8963
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 191 8890 8893 "ocamlbuild/options.ml" 191 8890 8963
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 192 8965 8968 "ocamlbuild/options.ml" 192 8965 8979
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 192 8965 8981 "ocamlbuild/options.ml" 192 8965 8988
+type(
+  Command.spec ref -> Arg.spec
+)
+ident(
+  int_ref set_cmd "ocamlbuild/options.ml" 124 4051 4055 "ocamlbuild/options.ml" 124 4051 4062
+)
+"ocamlbuild/options.ml" 192 8965 8989 "ocamlbuild/options.ml" 192 8965 8997
+type(
+  Command.spec ref
+)
+ident(
+  int_ref ocamlrun "ocamlbuild/options.ml" 74 2498 2502 "ocamlbuild/options.ml" 74 2498 2510
+)
+"ocamlbuild/options.ml" 192 8965 8981 "ocamlbuild/options.ml" 192 8965 8997
+call(
+  stack
+)
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 192 8965 8999 "ocamlbuild/options.ml" 192 8965 9032
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 192 8965 8968 "ocamlbuild/options.ml" 192 8965 9032
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 194 9035 9038 "ocamlbuild/options.ml" 194 9035 9042
+type(
+  Arg.key
+)
+"ocamlbuild/options.ml" 194 9035 9054 "ocamlbuild/options.ml" 194 9035 9055
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/options.ml" 194 9035 9059 "ocamlbuild/options.ml" 194 9035 9118
+)
+"ocamlbuild/options.ml" 194 9035 9059 "ocamlbuild/options.ml" 194 9035 9077
+type(
+  bool ref
+)
+ident(
+  int_ref program_to_execute "ocamlbuild/options.ml" 75 2519 2523 "ocamlbuild/options.ml" 75 2519 2541
+)
+"ocamlbuild/options.ml" 194 9035 9078 "ocamlbuild/options.ml" 194 9035 9080
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 194 9035 9081 "ocamlbuild/options.ml" 194 9035 9085
+type(
+  bool
+)
+"ocamlbuild/options.ml" 194 9035 9059 "ocamlbuild/options.ml" 194 9035 9085
+type(
+  unit
+)
+"ocamlbuild/options.ml" 194 9035 9087 "ocamlbuild/options.ml" 194 9035 9094
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 194 9035 9095 "ocamlbuild/options.ml" 194 9035 9116
+type(
+  string list list ref
+)
+ident(
+  int_ref program_args_internal "ocamlbuild/options.ml" 91 3090 3094 "ocamlbuild/options.ml" 91 3090 3115
+)
+"ocamlbuild/options.ml" 194 9035 9117 "ocamlbuild/options.ml" 194 9035 9118
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/options.ml" 194 9035 9054 "ocamlbuild/options.ml" 194 9035 9055
+)
+"ocamlbuild/options.ml" 194 9035 9087 "ocamlbuild/options.ml" 194 9035 9118
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 194 9035 9059 "ocamlbuild/options.ml" 194 9035 9118
+type(
+  unit
+)
+"ocamlbuild/options.ml" 194 9035 9049 "ocamlbuild/options.ml" 194 9035 9119
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 194 9035 9044 "ocamlbuild/options.ml" 194 9035 9119
+type(
+  Arg.spec
+)
+"ocamlbuild/options.ml" 195 9121 9124 "ocamlbuild/options.ml" 195 9121 9202
+type(
+  Arg.doc
+)
+"ocamlbuild/options.ml" 194 9035 9038 "ocamlbuild/options.ml" 195 9121 9202
+type(
+  Arg.key * Arg.spec * Arg.doc
+)
+"ocamlbuild/options.ml" 128 4182 4184 "ocamlbuild/options.ml" 196 9204 9207
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"ocamlbuild/options.ml" 127 4170 4172 "ocamlbuild/options.ml" 196 9204 9207
+call(
+  stack
+)
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+"ocamlbuild/options.ml" 198 9209 9213 "ocamlbuild/options.ml" 198 9209 9220
+type(
+  string list ref
+)
+ident(
+  def targets "ocamlbuild/options.ml" 199 9230 9230 --
+)
+"ocamlbuild/options.ml" 198 9209 9223 "ocamlbuild/options.ml" 198 9209 9226
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 198 9209 9227 "ocamlbuild/options.ml" 198 9209 9229
+type(
+  string list
+)
+"ocamlbuild/options.ml" 198 9209 9223 "ocamlbuild/options.ml" 198 9209 9229
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 199 9230 9234 "ocamlbuild/options.ml" 199 9230 9244
+type(
+  string list ref
+)
+ident(
+  def ocaml_libs "ocamlbuild/options.ml" 200 9254 9254 --
+)
+"ocamlbuild/options.ml" 199 9230 9247 "ocamlbuild/options.ml" 199 9230 9250
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 199 9230 9251 "ocamlbuild/options.ml" 199 9230 9253
+type(
+  string list
+)
+"ocamlbuild/options.ml" 199 9230 9247 "ocamlbuild/options.ml" 199 9230 9253
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 200 9254 9258 "ocamlbuild/options.ml" 200 9254 9270
+type(
+  string list ref
+)
+ident(
+  def ocaml_lflags "ocamlbuild/options.ml" 201 9280 9280 --
+)
+"ocamlbuild/options.ml" 200 9254 9273 "ocamlbuild/options.ml" 200 9254 9276
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 200 9254 9277 "ocamlbuild/options.ml" 200 9254 9279
+type(
+  string list
+)
+"ocamlbuild/options.ml" 200 9254 9273 "ocamlbuild/options.ml" 200 9254 9279
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 201 9280 9284 "ocamlbuild/options.ml" 201 9280 9296
+type(
+  string list ref
+)
+ident(
+  def ocaml_cflags "ocamlbuild/options.ml" 202 9306 9306 --
+)
+"ocamlbuild/options.ml" 201 9280 9299 "ocamlbuild/options.ml" 201 9280 9302
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 201 9280 9303 "ocamlbuild/options.ml" 201 9280 9305
+type(
+  string list
+)
+"ocamlbuild/options.ml" 201 9280 9299 "ocamlbuild/options.ml" 201 9280 9305
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 202 9306 9310 "ocamlbuild/options.ml" 202 9306 9323
+type(
+  string list ref
+)
+ident(
+  def ocaml_ppflags "ocamlbuild/options.ml" 203 9333 9333 --
+)
+"ocamlbuild/options.ml" 202 9306 9326 "ocamlbuild/options.ml" 202 9306 9329
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 202 9306 9330 "ocamlbuild/options.ml" 202 9306 9332
+type(
+  string list
+)
+"ocamlbuild/options.ml" 202 9306 9326 "ocamlbuild/options.ml" 202 9306 9332
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 203 9333 9337 "ocamlbuild/options.ml" 203 9333 9352
+type(
+  string list ref
+)
+ident(
+  def ocaml_yaccflags "ocamlbuild/options.ml" 204 9362 9362 --
+)
+"ocamlbuild/options.ml" 203 9333 9355 "ocamlbuild/options.ml" 203 9333 9358
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 203 9333 9359 "ocamlbuild/options.ml" 203 9333 9361
+type(
+  string list
+)
+"ocamlbuild/options.ml" 203 9333 9355 "ocamlbuild/options.ml" 203 9333 9361
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 204 9362 9366 "ocamlbuild/options.ml" 204 9362 9380
+type(
+  string list ref
+)
+ident(
+  def ocaml_lexflags "ocamlbuild/options.ml" 205 9390 9390 --
+)
+"ocamlbuild/options.ml" 204 9362 9383 "ocamlbuild/options.ml" 204 9362 9386
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 204 9362 9387 "ocamlbuild/options.ml" 204 9362 9389
+type(
+  string list
+)
+"ocamlbuild/options.ml" 204 9362 9383 "ocamlbuild/options.ml" 204 9362 9389
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 205 9390 9394 "ocamlbuild/options.ml" 205 9390 9406
+type(
+  string list ref
+)
+ident(
+  def program_args "ocamlbuild/options.ml" 206 9416 9416 --
+)
+"ocamlbuild/options.ml" 205 9390 9409 "ocamlbuild/options.ml" 205 9390 9412
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 205 9390 9413 "ocamlbuild/options.ml" 205 9390 9415
+type(
+  string list
+)
+"ocamlbuild/options.ml" 205 9390 9409 "ocamlbuild/options.ml" 205 9390 9415
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 206 9416 9420 "ocamlbuild/options.ml" 206 9416 9431
+type(
+  string list ref
+)
+ident(
+  def ignore_list "ocamlbuild/options.ml" 207 9441 9441 --
+)
+"ocamlbuild/options.ml" 206 9416 9434 "ocamlbuild/options.ml" 206 9416 9437
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 206 9416 9438 "ocamlbuild/options.ml" 206 9416 9440
+type(
+  string list
+)
+"ocamlbuild/options.ml" 206 9416 9434 "ocamlbuild/options.ml" 206 9416 9440
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 207 9441 9445 "ocamlbuild/options.ml" 207 9441 9449
+type(
+  string list ref
+)
+ident(
+  def tags "ocamlbuild/options.ml" 208 9459 9459 --
+)
+"ocamlbuild/options.ml" 207 9441 9452 "ocamlbuild/options.ml" 207 9441 9455
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 207 9441 9456 "ocamlbuild/options.ml" 207 9441 9458
+type(
+  string list
+)
+"ocamlbuild/options.ml" 207 9441 9452 "ocamlbuild/options.ml" 207 9441 9458
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 208 9459 9463 "ocamlbuild/options.ml" 208 9459 9472
+type(
+  string list ref
+)
+ident(
+  def tag_lines "ocamlbuild/options.ml" 209 9482 9482 --
+)
+"ocamlbuild/options.ml" 208 9459 9475 "ocamlbuild/options.ml" 208 9459 9478
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 208 9459 9479 "ocamlbuild/options.ml" 208 9459 9481
+type(
+  string list
+)
+"ocamlbuild/options.ml" 208 9459 9475 "ocamlbuild/options.ml" 208 9459 9481
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 209 9482 9486 "ocamlbuild/options.ml" 209 9482 9495
+type(
+  string list ref
+)
+ident(
+  def show_tags "ocamlbuild/options.ml" 211 9506 9506 --
+)
+"ocamlbuild/options.ml" 209 9482 9498 "ocamlbuild/options.ml" 209 9482 9501
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/options.ml" 209 9482 9502 "ocamlbuild/options.ml" 209 9482 9504
+type(
+  string list
+)
+"ocamlbuild/options.ml" 209 9482 9498 "ocamlbuild/options.ml" 209 9482 9504
+type(
+  string list ref
+)
+"ocamlbuild/options.ml" 211 9506 9510 "ocamlbuild/options.ml" 211 9506 9514
+type(
+  unit -> unit
+)
+ident(
+  def init "ocamlbuild/options.ml" 261 11185 11241 --
+)
+"ocamlbuild/options.ml" 211 9506 9515 "ocamlbuild/options.ml" 211 9506 9517
+type(
+  unit
+)
+"ocamlbuild/options.ml" 212 9520 9526 "ocamlbuild/options.ml" 212 9520 9534
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 212 9520 9537 "ocamlbuild/options.ml" 212 9520 9544
+type(
+  string list list ref -> string -> unit
+)
+ident(
+  int_ref add_to' "ocamlbuild/options.ml" 119 3973 3977 "ocamlbuild/options.ml" 119 3973 3984
+)
+"ocamlbuild/options.ml" 212 9520 9545 "ocamlbuild/options.ml" 212 9520 9561
+type(
+  string list list ref
+)
+ident(
+  int_ref targets_internal "ocamlbuild/options.ml" 84 2846 2850 "ocamlbuild/options.ml" 84 2846 2866
+)
+"ocamlbuild/options.ml" 212 9520 9537 "ocamlbuild/options.ml" 212 9520 9561
+call(
+  stack
+)
+type(
+  string -> unit
+)
+"ocamlbuild/options.ml" 213 9565 9571 "ocamlbuild/options.ml" 213 9565 9580
+type(
+  string
+)
+"ocamlbuild/options.ml" 213 9565 9583 "ocamlbuild/options.ml" 213 9565 9590
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"ocamlbuild/options.ml" 213 9565 9591 "ocamlbuild/options.ml" 213 9565 9620
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/options.ml" 213 9565 9621 "ocamlbuild/options.ml" 213 9565 9629
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"ocamlbuild/options.ml" 213 9565 9631 "ocamlbuild/options.ml" 213 9565 9632
+type(
+  int
+)
+"ocamlbuild/options.ml" 213 9565 9621 "ocamlbuild/options.ml" 213 9565 9633
+type(
+  string
+)
+"ocamlbuild/options.ml" 213 9565 9583 "ocamlbuild/options.ml" 213 9565 9633
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 214 9637 9643 "ocamlbuild/options.ml" 214 9637 9648
+type(
+  string array
+)
+"ocamlbuild/options.ml" 214 9637 9651 "ocamlbuild/options.ml" 214 9637 9663
+type(
+  string array list -> string array
+)
+ident(
+  ext_ref Array.concat
+)
+"ocamlbuild/options.ml" 214 9637 9665 "ocamlbuild/options.ml" 214 9637 9673
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"ocamlbuild/options.ml" 214 9637 9677 "ocamlbuild/options.ml" 214 9637 9682
+type(
+  string
+)
+ident(
+  int_ref dummy "ocamlbuild/options.ml" 101 3396 3400 "ocamlbuild/options.ml" 101 3396 3405
+)
+"ocamlbuild/options.ml" 214 9637 9675 "ocamlbuild/options.ml" 214 9637 9684
+type(
+  string array
+)
+"ocamlbuild/options.ml" 214 9637 9664 "ocamlbuild/options.ml" 214 9637 9685
+type(
+  string array list
+)
+"ocamlbuild/options.ml" 214 9637 9651 "ocamlbuild/options.ml" 214 9637 9685
+call(
+  stack
+)
+type(
+  string array
+)
+"ocamlbuild/options.ml" 215 9689 9691 "ocamlbuild/options.ml" 215 9689 9701
+type(
+  ?current:int ref ->
+  string array ->
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse_argv
+)
+"ocamlbuild/options.ml" 215 9689 9702 "ocamlbuild/options.ml" 215 9689 9707
+type(
+  string array
+)
+ident(
+  int_ref argv' "ocamlbuild/options.ml" 214 9637 9643 "ocamlbuild/options.ml" 214 9637 9648
+)
+"ocamlbuild/options.ml" 215 9689 9708 "ocamlbuild/options.ml" 215 9689 9712
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref spec "ocamlbuild/options.ml" 126 4159 4163 "ocamlbuild/options.ml" 126 4159 4167
+)
+"ocamlbuild/options.ml" 215 9689 9713 "ocamlbuild/options.ml" 215 9689 9721
+type(
+  Arg.anon_fun
+)
+ident(
+  int_ref anon_fun "ocamlbuild/options.ml" 212 9520 9526 "ocamlbuild/options.ml" 212 9520 9534
+)
+"ocamlbuild/options.ml" 215 9689 9722 "ocamlbuild/options.ml" 215 9689 9731
+type(
+  Arg.usage_msg
+)
+ident(
+  int_ref usage_msg "ocamlbuild/options.ml" 213 9565 9571 "ocamlbuild/options.ml" 213 9565 9580
+)
+"ocamlbuild/options.ml" 215 9689 9691 "ocamlbuild/options.ml" 215 9689 9731
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 216 9733 9735 "ocamlbuild/options.ml" 216 9733 9748
+type(
+  string -> unit
+)
+ident(
+  ext_ref Shell.mkdir_p
+)
+"ocamlbuild/options.ml" 216 9733 9749 "ocamlbuild/options.ml" 216 9733 9750
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 216 9733 9750 "ocamlbuild/options.ml" 216 9733 9759
+type(
+  string ref
+)
+ident(
+  int_ref build_dir "ocamlbuild/options.ml" 25 937 941 "ocamlbuild/options.ml" 25 937 950
+)
+"ocamlbuild/options.ml" 216 9733 9749 "ocamlbuild/options.ml" 216 9733 9759
+type(
+  string
+)
+"ocamlbuild/options.ml" 216 9733 9735 "ocamlbuild/options.ml" 216 9733 9759
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 218 9762 9768 "ocamlbuild/options.ml" 218 9762 9770
+type(
+  unit
+)
+"ocamlbuild/options.ml" 219 9773 9781 "ocamlbuild/options.ml" 219 9773 9784
+type(
+  string
+)
+"ocamlbuild/options.ml" 219 9773 9787 "ocamlbuild/options.ml" 219 9773 9788
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 219 9773 9788 "ocamlbuild/options.ml" 219 9773 9805
+type(
+  string ref
+)
+ident(
+  int_ref log_file_internal "ocamlbuild/options.ml" 96 3259 3263 "ocamlbuild/options.ml" 96 3259 3280
+)
+"ocamlbuild/options.ml" 219 9773 9787 "ocamlbuild/options.ml" 219 9773 9805
+type(
+  string
+)
+"ocamlbuild/options.ml" 220 9809 9816 "ocamlbuild/options.ml" 220 9809 9819
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 219 9773 9781 "ocamlbuild/options.ml" 219 9773 9784
+)
+"ocamlbuild/options.ml" 220 9809 9820 "ocamlbuild/options.ml" 220 9809 9821
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/options.ml" 220 9809 9822 "ocamlbuild/options.ml" 220 9809 9824
+type(
+  string
+)
+"ocamlbuild/options.ml" 220 9809 9816 "ocamlbuild/options.ml" 220 9809 9824
+type(
+  bool
+)
+"ocamlbuild/options.ml" 220 9809 9830 "ocamlbuild/options.ml" 220 9809 9838
+type(
+  string option -> unit
+)
+ident(
+  ext_ref Log.init
+)
+"ocamlbuild/options.ml" 220 9809 9839 "ocamlbuild/options.ml" 220 9809 9843
+type(
+  string option
+)
+"ocamlbuild/options.ml" 220 9809 9830 "ocamlbuild/options.ml" 220 9809 9843
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 221 9844 9856 "ocamlbuild/options.ml" 221 9844 9859
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/options.ml" 221 9844 9861 "ocamlbuild/options.ml" 221 9844 9881
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"ocamlbuild/options.ml" 221 9844 9882 "ocamlbuild/options.ml" 221 9844 9885
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 219 9773 9781 "ocamlbuild/options.ml" 219 9773 9784
+)
+"ocamlbuild/options.ml" 221 9844 9860 "ocamlbuild/options.ml" 221 9844 9886
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 221 9844 9856 "ocamlbuild/options.ml" 221 9844 9886
+type(
+  bool
+)
+"ocamlbuild/options.ml" 222 9892 9898 "ocamlbuild/options.ml" 222 9892 9906
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ocamlbuild/options.ml" 223 9907 9916 "ocamlbuild/options.ml" 223 9907 9923
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"ocamlbuild/options.ml" 223 9907 9924 "ocamlbuild/options.ml" 223 9907 9984
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/options.ml" 223 9907 9985 "ocamlbuild/options.ml" 223 9907 9988
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 219 9773 9781 "ocamlbuild/options.ml" 219 9773 9784
+)
+"ocamlbuild/options.ml" 223 9907 9915 "ocamlbuild/options.ml" 223 9907 9989
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 222 9892 9898 "ocamlbuild/options.ml" 223 9907 9989
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 225 9999 10009 "ocamlbuild/options.ml" 225 9999 10012
+type(
+  string
+)
+"ocamlbuild/options.ml" 225 9999 10015 "ocamlbuild/options.ml" 225 9999 10030
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/options.ml" 225 9999 10031 "ocamlbuild/options.ml" 225 9999 10032
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 225 9999 10032 "ocamlbuild/options.ml" 225 9999 10041
+type(
+  string ref
+)
+ident(
+  int_ref build_dir "ocamlbuild/options.ml" 25 937 941 "ocamlbuild/options.ml" 25 937 950
+)
+"ocamlbuild/options.ml" 225 9999 10031 "ocamlbuild/options.ml" 225 9999 10041
+type(
+  string
+)
+"ocamlbuild/options.ml" 225 9999 10042 "ocamlbuild/options.ml" 225 9999 10045
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 219 9773 9781 "ocamlbuild/options.ml" 219 9773 9784
+)
+"ocamlbuild/options.ml" 225 9999 10015 "ocamlbuild/options.ml" 225 9999 10045
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 226 10049 10055 "ocamlbuild/options.ml" 226 10049 10068
+type(
+  string -> unit
+)
+ident(
+  ext_ref Shell.mkdir_p
+)
+"ocamlbuild/options.ml" 226 10049 10070 "ocamlbuild/options.ml" 226 10049 10086
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/options.ml" 226 10049 10087 "ocamlbuild/options.ml" 226 10049 10090
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 225 9999 10009 "ocamlbuild/options.ml" 225 9999 10012
+)
+"ocamlbuild/options.ml" 226 10049 10069 "ocamlbuild/options.ml" 226 10049 10091
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 226 10049 10055 "ocamlbuild/options.ml" 226 10049 10091
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 227 10093 10099 "ocamlbuild/options.ml" 227 10093 10109
+type(
+  string -> unit
+)
+ident(
+  ext_ref Shell.rm_f
+)
+"ocamlbuild/options.ml" 227 10093 10110 "ocamlbuild/options.ml" 227 10093 10113
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 225 9999 10009 "ocamlbuild/options.ml" 225 9999 10012
+)
+"ocamlbuild/options.ml" 227 10093 10099 "ocamlbuild/options.ml" 227 10093 10113
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 228 10115 10125 "ocamlbuild/options.ml" 228 10115 10128
+type(
+  string option
+)
+"ocamlbuild/options.ml" 228 10115 10134 "ocamlbuild/options.ml" 228 10115 10135
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 228 10115 10135 "ocamlbuild/options.ml" 228 10115 10144
+type(
+  int ref
+)
+ident(
+  ext_ref Log.level
+)
+"ocamlbuild/options.ml" 228 10115 10134 "ocamlbuild/options.ml" 228 10115 10144
+type(
+  int
+)
+"ocamlbuild/options.ml" 228 10115 10145 "ocamlbuild/options.ml" 228 10115 10146
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/options.ml" 228 10115 10147 "ocamlbuild/options.ml" 228 10115 10148
+type(
+  int
+)
+"ocamlbuild/options.ml" 228 10115 10134 "ocamlbuild/options.ml" 228 10115 10148
+type(
+  bool
+)
+"ocamlbuild/options.ml" 228 10115 10159 "ocamlbuild/options.ml" 228 10115 10162
+type(
+  string
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 225 9999 10009 "ocamlbuild/options.ml" 225 9999 10012
+)
+"ocamlbuild/options.ml" 228 10115 10154 "ocamlbuild/options.ml" 228 10115 10162
+type(
+  string option
+)
+"ocamlbuild/options.ml" 228 10115 10168 "ocamlbuild/options.ml" 228 10115 10172
+type(
+  string option
+)
+"ocamlbuild/options.ml" 228 10115 10131 "ocamlbuild/options.ml" 228 10115 10172
+type(
+  string option
+)
+"ocamlbuild/options.ml" 229 10176 10182 "ocamlbuild/options.ml" 229 10176 10190
+type(
+  string option -> unit
+)
+ident(
+  ext_ref Log.init
+)
+"ocamlbuild/options.ml" 229 10176 10191 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  string option
+)
+ident(
+  int_ref log "ocamlbuild/options.ml" 228 10115 10125 "ocamlbuild/options.ml" 228 10115 10128
+)
+"ocamlbuild/options.ml" 229 10176 10182 "ocamlbuild/options.ml" 229 10176 10194
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 228 10115 10121 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 227 10093 10099 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 226 10049 10055 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 225 9999 10005 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 221 9844 9853 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 220 9809 9813 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 219 9773 9777 "ocamlbuild/options.ml" 229 10176 10194
+type(
+  unit
+)
+"ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+type(
+  'a list ref -> 'a list list ref -> unit
+)
+"ocamlbuild/options.ml" 232 10201 10215 "ocamlbuild/options.ml" 232 10201 10216
+type(
+  'a list ref
+)
+ident(
+  def x "ocamlbuild/options.ml" 232 10201 10217 "ocamlbuild/options.ml" 232 10201 10258
+)
+"ocamlbuild/options.ml" 232 10201 10217 "ocamlbuild/options.ml" 232 10201 10218
+type(
+  'a list list ref
+)
+ident(
+  def y "ocamlbuild/options.ml" 232 10201 10221 "ocamlbuild/options.ml" 232 10201 10258
+)
+"ocamlbuild/options.ml" 232 10201 10221 "ocamlbuild/options.ml" 232 10201 10222
+type(
+  'a list ref
+)
+ident(
+  int_ref x "ocamlbuild/options.ml" 232 10201 10215 "ocamlbuild/options.ml" 232 10201 10216
+)
+"ocamlbuild/options.ml" 232 10201 10223 "ocamlbuild/options.ml" 232 10201 10225
+type(
+  'a list ref -> 'a list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 232 10201 10226 "ocamlbuild/options.ml" 232 10201 10227
+type(
+  'a list ref -> 'a list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 232 10201 10227 "ocamlbuild/options.ml" 232 10201 10228
+type(
+  'a list ref
+)
+ident(
+  int_ref x "ocamlbuild/options.ml" 232 10201 10215 "ocamlbuild/options.ml" 232 10201 10216
+)
+"ocamlbuild/options.ml" 232 10201 10226 "ocamlbuild/options.ml" 232 10201 10228
+type(
+  'a list
+)
+"ocamlbuild/options.ml" 232 10201 10229 "ocamlbuild/options.ml" 232 10201 10230
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"ocamlbuild/options.ml" 232 10201 10232 "ocamlbuild/options.ml" 232 10201 10243
+type(
+  'a list list -> 'a list
+)
+ident(
+  ext_ref My_std.List.concat
+)
+"ocamlbuild/options.ml" 232 10201 10245 "ocamlbuild/options.ml" 232 10201 10253
+type(
+  'a list list -> 'a list list
+)
+ident(
+  ext_ref My_std.List.rev
+)
+"ocamlbuild/options.ml" 232 10201 10254 "ocamlbuild/options.ml" 232 10201 10255
+type(
+  'a list list ref -> 'a list list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 232 10201 10255 "ocamlbuild/options.ml" 232 10201 10256
+type(
+  'a list list ref
+)
+ident(
+  int_ref y "ocamlbuild/options.ml" 232 10201 10217 "ocamlbuild/options.ml" 232 10201 10218
+)
+"ocamlbuild/options.ml" 232 10201 10254 "ocamlbuild/options.ml" 232 10201 10256
+type(
+  'a list list
+)
+"ocamlbuild/options.ml" 232 10201 10244 "ocamlbuild/options.ml" 232 10201 10257
+call(
+  stack
+)
+type(
+  'a list list
+)
+"ocamlbuild/options.ml" 232 10201 10231 "ocamlbuild/options.ml" 232 10201 10258
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/options.ml" 232 10201 10226 "ocamlbuild/options.ml" 232 10201 10258
+call(
+  stack
+)
+type(
+  'a list
+)
+"ocamlbuild/options.ml" 232 10201 10221 "ocamlbuild/options.ml" 232 10201 10258
+type(
+  unit
+)
+"ocamlbuild/options.ml" 233 10262 10264 "ocamlbuild/options.ml" 233 10262 10271
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 233 10262 10272 "ocamlbuild/options.ml" 233 10262 10279
+type(
+  string list ref
+)
+ident(
+  int_ref targets "ocamlbuild/options.ml" 198 9209 9213 "ocamlbuild/options.ml" 198 9209 9220
+)
+"ocamlbuild/options.ml" 233 10262 10280 "ocamlbuild/options.ml" 233 10262 10296
+type(
+  string list list ref
+)
+ident(
+  int_ref targets_internal "ocamlbuild/options.ml" 84 2846 2850 "ocamlbuild/options.ml" 84 2846 2866
+)
+"ocamlbuild/options.ml" 233 10262 10264 "ocamlbuild/options.ml" 233 10262 10296
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 234 10298 10300 "ocamlbuild/options.ml" 234 10298 10307
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 234 10298 10308 "ocamlbuild/options.ml" 234 10298 10318
+type(
+  string list ref
+)
+ident(
+  int_ref ocaml_libs "ocamlbuild/options.ml" 199 9230 9234 "ocamlbuild/options.ml" 199 9230 9244
+)
+"ocamlbuild/options.ml" 234 10298 10319 "ocamlbuild/options.ml" 234 10298 10338
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_libs_internal "ocamlbuild/options.ml" 85 2876 2880 "ocamlbuild/options.ml" 85 2876 2899
+)
+"ocamlbuild/options.ml" 234 10298 10300 "ocamlbuild/options.ml" 234 10298 10338
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 235 10340 10342 "ocamlbuild/options.ml" 235 10340 10349
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 235 10340 10350 "ocamlbuild/options.ml" 235 10340 10362
+type(
+  string list ref
+)
+ident(
+  int_ref ocaml_cflags "ocamlbuild/options.ml" 201 9280 9284 "ocamlbuild/options.ml" 201 9280 9296
+)
+"ocamlbuild/options.ml" 235 10340 10363 "ocamlbuild/options.ml" 235 10340 10384
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_cflags_internal "ocamlbuild/options.ml" 87 2944 2948 "ocamlbuild/options.ml" 87 2944 2969
+)
+"ocamlbuild/options.ml" 235 10340 10342 "ocamlbuild/options.ml" 235 10340 10384
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 236 10386 10388 "ocamlbuild/options.ml" 236 10386 10395
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 236 10386 10396 "ocamlbuild/options.ml" 236 10386 10408
+type(
+  string list ref
+)
+ident(
+  int_ref ocaml_lflags "ocamlbuild/options.ml" 200 9254 9258 "ocamlbuild/options.ml" 200 9254 9270
+)
+"ocamlbuild/options.ml" 236 10386 10409 "ocamlbuild/options.ml" 236 10386 10430
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_lflags_internal "ocamlbuild/options.ml" 86 2909 2913 "ocamlbuild/options.ml" 86 2909 2934
+)
+"ocamlbuild/options.ml" 236 10386 10388 "ocamlbuild/options.ml" 236 10386 10430
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 237 10432 10434 "ocamlbuild/options.ml" 237 10432 10441
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 237 10432 10442 "ocamlbuild/options.ml" 237 10432 10455
+type(
+  string list ref
+)
+ident(
+  int_ref ocaml_ppflags "ocamlbuild/options.ml" 202 9306 9310 "ocamlbuild/options.ml" 202 9306 9323
+)
+"ocamlbuild/options.ml" 237 10432 10456 "ocamlbuild/options.ml" 237 10432 10478
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_ppflags_internal "ocamlbuild/options.ml" 88 2979 2983 "ocamlbuild/options.ml" 88 2979 3005
+)
+"ocamlbuild/options.ml" 237 10432 10434 "ocamlbuild/options.ml" 237 10432 10478
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 238 10480 10482 "ocamlbuild/options.ml" 238 10480 10489
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 238 10480 10490 "ocamlbuild/options.ml" 238 10480 10505
+type(
+  string list ref
+)
+ident(
+  int_ref ocaml_yaccflags "ocamlbuild/options.ml" 203 9333 9337 "ocamlbuild/options.ml" 203 9333 9352
+)
+"ocamlbuild/options.ml" 238 10480 10506 "ocamlbuild/options.ml" 238 10480 10530
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_yaccflags_internal "ocamlbuild/options.ml" 89 3015 3019 "ocamlbuild/options.ml" 89 3015 3043
+)
+"ocamlbuild/options.ml" 238 10480 10482 "ocamlbuild/options.ml" 238 10480 10530
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 239 10532 10534 "ocamlbuild/options.ml" 239 10532 10541
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 239 10532 10542 "ocamlbuild/options.ml" 239 10532 10556
+type(
+  string list ref
+)
+ident(
+  int_ref ocaml_lexflags "ocamlbuild/options.ml" 204 9362 9366 "ocamlbuild/options.ml" 204 9362 9380
+)
+"ocamlbuild/options.ml" 239 10532 10557 "ocamlbuild/options.ml" 239 10532 10580
+type(
+  string list list ref
+)
+ident(
+  int_ref ocaml_lexflags_internal "ocamlbuild/options.ml" 90 3053 3057 "ocamlbuild/options.ml" 90 3053 3080
+)
+"ocamlbuild/options.ml" 239 10532 10534 "ocamlbuild/options.ml" 239 10532 10580
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 240 10582 10584 "ocamlbuild/options.ml" 240 10582 10591
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 240 10582 10592 "ocamlbuild/options.ml" 240 10582 10604
+type(
+  string list ref
+)
+ident(
+  int_ref program_args "ocamlbuild/options.ml" 205 9390 9394 "ocamlbuild/options.ml" 205 9390 9406
+)
+"ocamlbuild/options.ml" 240 10582 10605 "ocamlbuild/options.ml" 240 10582 10626
+type(
+  string list list ref
+)
+ident(
+  int_ref program_args_internal "ocamlbuild/options.ml" 91 3090 3094 "ocamlbuild/options.ml" 91 3090 3115
+)
+"ocamlbuild/options.ml" 240 10582 10584 "ocamlbuild/options.ml" 240 10582 10626
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 241 10628 10630 "ocamlbuild/options.ml" 241 10628 10637
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 241 10628 10638 "ocamlbuild/options.ml" 241 10628 10642
+type(
+  string list ref
+)
+ident(
+  int_ref tags "ocamlbuild/options.ml" 207 9441 9445 "ocamlbuild/options.ml" 207 9441 9449
+)
+"ocamlbuild/options.ml" 241 10628 10643 "ocamlbuild/options.ml" 241 10628 10656
+type(
+  string list list ref
+)
+ident(
+  int_ref tags_internal "ocamlbuild/options.ml" 93 3159 3163 "ocamlbuild/options.ml" 93 3159 3176
+)
+"ocamlbuild/options.ml" 241 10628 10630 "ocamlbuild/options.ml" 241 10628 10656
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 242 10658 10660 "ocamlbuild/options.ml" 242 10658 10667
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 242 10658 10668 "ocamlbuild/options.ml" 242 10658 10677
+type(
+  string list ref
+)
+ident(
+  int_ref tag_lines "ocamlbuild/options.ml" 208 9459 9463 "ocamlbuild/options.ml" 208 9459 9472
+)
+"ocamlbuild/options.ml" 242 10658 10678 "ocamlbuild/options.ml" 242 10658 10696
+type(
+  string list list ref
+)
+ident(
+  int_ref tag_lines_internal "ocamlbuild/options.ml" 94 3195 3199 "ocamlbuild/options.ml" 94 3195 3217
+)
+"ocamlbuild/options.ml" 242 10658 10660 "ocamlbuild/options.ml" 242 10658 10696
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 243 10698 10700 "ocamlbuild/options.ml" 243 10698 10707
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 243 10698 10708 "ocamlbuild/options.ml" 243 10698 10719
+type(
+  string list ref
+)
+ident(
+  int_ref ignore_list "ocamlbuild/options.ml" 206 9416 9420 "ocamlbuild/options.ml" 206 9416 9431
+)
+"ocamlbuild/options.ml" 243 10698 10720 "ocamlbuild/options.ml" 243 10698 10740
+type(
+  string list list ref
+)
+ident(
+  int_ref ignore_list_internal "ocamlbuild/options.ml" 92 3125 3129 "ocamlbuild/options.ml" 92 3125 3149
+)
+"ocamlbuild/options.ml" 243 10698 10700 "ocamlbuild/options.ml" 243 10698 10740
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 244 10742 10744 "ocamlbuild/options.ml" 244 10742 10751
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 244 10742 10752 "ocamlbuild/options.ml" 244 10742 10761
+type(
+  string list ref
+)
+ident(
+  int_ref show_tags "ocamlbuild/options.ml" 209 9482 9486 "ocamlbuild/options.ml" 209 9482 9495
+)
+"ocamlbuild/options.ml" 244 10742 10762 "ocamlbuild/options.ml" 244 10742 10780
+type(
+  string list list ref
+)
+ident(
+  int_ref show_tags_internal "ocamlbuild/options.ml" 95 3227 3231 "ocamlbuild/options.ml" 95 3227 3249
+)
+"ocamlbuild/options.ml" 244 10742 10744 "ocamlbuild/options.ml" 244 10742 10780
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 246 10783 10789 "ocamlbuild/options.ml" 246 10783 10798
+type(
+  string -> bool
+)
+"ocamlbuild/options.ml" 246 10783 10799 "ocamlbuild/options.ml" 246 10783 10802
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/options.ml" 247 10805 10809 "ocamlbuild/options.ml" 251 10892 10974
+)
+"ocamlbuild/options.ml" 247 10805 10812 "ocamlbuild/options.ml" 247 10805 10832
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"ocamlbuild/options.ml" 247 10805 10833 "ocamlbuild/options.ml" 247 10805 10836
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 246 10783 10799 "ocamlbuild/options.ml" 246 10783 10802
+)
+"ocamlbuild/options.ml" 247 10805 10812 "ocamlbuild/options.ml" 247 10805 10836
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 248 10842 10848 "ocamlbuild/options.ml" 248 10842 10863
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/options.ml" 248 10842 10864 "ocamlbuild/options.ml" 248 10842 10867
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 246 10783 10799 "ocamlbuild/options.ml" 246 10783 10802
+)
+"ocamlbuild/options.ml" 248 10842 10848 "ocamlbuild/options.ml" 248 10842 10867
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 250 10877 10883 "ocamlbuild/options.ml" 250 10877 10891
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ocamlbuild/options.ml" 251 10892 10901 "ocamlbuild/options.ml" 251 10892 10908
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"ocamlbuild/options.ml" 251 10892 10909 "ocamlbuild/options.ml" 251 10892 10969
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/options.ml" 251 10892 10970 "ocamlbuild/options.ml" 251 10892 10973
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 246 10783 10799 "ocamlbuild/options.ml" 246 10783 10802
+)
+"ocamlbuild/options.ml" 251 10892 10900 "ocamlbuild/options.ml" 251 10892 10974
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/options.ml" 250 10877 10883 "ocamlbuild/options.ml" 251 10892 10974
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/options.ml" 247 10805 10809 "ocamlbuild/options.ml" 251 10892 10974
+type(
+  bool
+)
+"ocamlbuild/options.ml" 253 10980 10986 "ocamlbuild/options.ml" 253 10980 10997
+type(
+  string list list ref -> string list ref -> unit
+)
+"ocamlbuild/options.ml" 253 10980 10998 "ocamlbuild/options.ml" 253 10980 11000
+type(
+  string list list ref
+)
+ident(
+  def my "ocamlbuild/options.ml" 253 10980 11001 "ocamlbuild/options.ml" 256 11047 11090
+)
+"ocamlbuild/options.ml" 253 10980 11001 "ocamlbuild/options.ml" 253 10980 11004
+type(
+  string list ref
+)
+ident(
+  def dir "ocamlbuild/options.ml" 254 11007 11011 "ocamlbuild/options.ml" 256 11047 11090
+)
+"ocamlbuild/options.ml" 254 11007 11015 "ocamlbuild/options.ml" 254 11007 11016
+type(
+  string list
+)
+"ocamlbuild/options.ml" 254 11007 11019 "ocamlbuild/options.ml" 254 11007 11020
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 254 11007 11020 "ocamlbuild/options.ml" 254 11007 11023
+type(
+  string list ref
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 253 10980 11001 "ocamlbuild/options.ml" 253 10980 11004
+)
+"ocamlbuild/options.ml" 254 11007 11019 "ocamlbuild/options.ml" 254 11007 11023
+type(
+  string list
+)
+"ocamlbuild/options.ml" 255 11027 11031 "ocamlbuild/options.ml" 255 11027 11038
+type(
+  string list ref -> string list list ref -> unit
+)
+ident(
+  int_ref reorder "ocamlbuild/options.ml" 232 10201 10207 "ocamlbuild/options.ml" 232 10201 10214
+)
+"ocamlbuild/options.ml" 255 11027 11039 "ocamlbuild/options.ml" 255 11027 11042
+type(
+  string list ref
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 253 10980 11001 "ocamlbuild/options.ml" 253 10980 11004
+)
+"ocamlbuild/options.ml" 255 11027 11043 "ocamlbuild/options.ml" 255 11027 11045
+type(
+  string list list ref
+)
+ident(
+  int_ref my "ocamlbuild/options.ml" 253 10980 10998 "ocamlbuild/options.ml" 253 10980 11000
+)
+"ocamlbuild/options.ml" 255 11027 11031 "ocamlbuild/options.ml" 255 11027 11045
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 256 11047 11051 "ocamlbuild/options.ml" 256 11047 11054
+type(
+  string list ref
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 253 10980 11001 "ocamlbuild/options.ml" 253 10980 11004
+)
+"ocamlbuild/options.ml" 256 11047 11055 "ocamlbuild/options.ml" 256 11047 11057
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 256 11047 11058 "ocamlbuild/options.ml" 256 11047 11069
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref My_std.List.filter
+)
+"ocamlbuild/options.ml" 256 11047 11070 "ocamlbuild/options.ml" 256 11047 11079
+type(
+  string -> bool
+)
+ident(
+  int_ref check_dir "ocamlbuild/options.ml" 246 10783 10789 "ocamlbuild/options.ml" 246 10783 10798
+)
+"ocamlbuild/options.ml" 256 11047 11081 "ocamlbuild/options.ml" 256 11047 11082
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 256 11047 11082 "ocamlbuild/options.ml" 256 11047 11085
+type(
+  string list ref
+)
+ident(
+  int_ref dir "ocamlbuild/options.ml" 253 10980 11001 "ocamlbuild/options.ml" 253 10980 11004
+)
+"ocamlbuild/options.ml" 256 11047 11081 "ocamlbuild/options.ml" 256 11047 11085
+type(
+  string list
+)
+"ocamlbuild/options.ml" 256 11047 11086 "ocamlbuild/options.ml" 256 11047 11087
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"ocamlbuild/options.ml" 256 11047 11088 "ocamlbuild/options.ml" 256 11047 11089
+type(
+  string list
+)
+ident(
+  int_ref d "ocamlbuild/options.ml" 254 11007 11015 "ocamlbuild/options.ml" 254 11007 11016
+)
+"ocamlbuild/options.ml" 256 11047 11080 "ocamlbuild/options.ml" 256 11047 11090
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/options.ml" 256 11047 11058 "ocamlbuild/options.ml" 256 11047 11090
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/options.ml" 256 11047 11051 "ocamlbuild/options.ml" 256 11047 11090
+type(
+  unit
+)
+"ocamlbuild/options.ml" 255 11027 11031 "ocamlbuild/options.ml" 256 11047 11090
+type(
+  unit
+)
+"ocamlbuild/options.ml" 254 11007 11011 "ocamlbuild/options.ml" 256 11047 11090
+type(
+  unit
+)
+"ocamlbuild/options.ml" 258 11096 11098 "ocamlbuild/options.ml" 258 11096 11109
+type(
+  string list list ref -> string list ref -> unit
+)
+ident(
+  int_ref dir_reorder "ocamlbuild/options.ml" 253 10980 10986 "ocamlbuild/options.ml" 253 10980 10997
+)
+"ocamlbuild/options.ml" 258 11096 11110 "ocamlbuild/options.ml" 258 11096 11125
+type(
+  string list list ref
+)
+ident(
+  int_ref my_include_dirs "ocamlbuild/options.ml" 98 3295 3299 "ocamlbuild/options.ml" 98 3295 3314
+)
+"ocamlbuild/options.ml" 258 11096 11126 "ocamlbuild/options.ml" 258 11096 11138
+type(
+  string list ref
+)
+ident(
+  int_ref include_dirs "ocamlbuild/options.ml" 26 966 970 "ocamlbuild/options.ml" 26 966 982
+)
+"ocamlbuild/options.ml" 258 11096 11098 "ocamlbuild/options.ml" 258 11096 11138
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 259 11140 11142 "ocamlbuild/options.ml" 259 11140 11153
+type(
+  string list list ref -> string list ref -> unit
+)
+ident(
+  int_ref dir_reorder "ocamlbuild/options.ml" 253 10980 10986 "ocamlbuild/options.ml" 253 10980 10997
+)
+"ocamlbuild/options.ml" 259 11140 11154 "ocamlbuild/options.ml" 259 11140 11169
+type(
+  string list list ref
+)
+ident(
+  int_ref my_exclude_dirs "ocamlbuild/options.ml" 99 3351 3355 "ocamlbuild/options.ml" 99 3351 3370
+)
+"ocamlbuild/options.ml" 259 11140 11170 "ocamlbuild/options.ml" 259 11140 11182
+type(
+  string list ref
+)
+ident(
+  int_ref exclude_dirs "ocamlbuild/options.ml" 27 992 996 "ocamlbuild/options.ml" 27 992 1008
+)
+"ocamlbuild/options.ml" 259 11140 11142 "ocamlbuild/options.ml" 259 11140 11182
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/options.ml" 261 11185 11187 "ocamlbuild/options.ml" 261 11185 11198
+type(
+  string list ref
+)
+ident(
+  int_ref ignore_list "ocamlbuild/options.ml" 206 9416 9420 "ocamlbuild/options.ml" 206 9416 9431
+)
+"ocamlbuild/options.ml" 261 11185 11199 "ocamlbuild/options.ml" 261 11185 11201
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/options.ml" 261 11185 11202 "ocamlbuild/options.ml" 261 11185 11210
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref My_std.List.map
+)
+"ocamlbuild/options.ml" 261 11185 11211 "ocamlbuild/options.ml" 261 11185 11228
+type(
+  string -> string
+)
+ident(
+  ext_ref My_std.String.capitalize
+)
+"ocamlbuild/options.ml" 261 11185 11229 "ocamlbuild/options.ml" 261 11185 11230
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/options.ml" 261 11185 11230 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  string list ref
+)
+ident(
+  int_ref ignore_list "ocamlbuild/options.ml" 206 9416 9420 "ocamlbuild/options.ml" 206 9416 9431
+)
+"ocamlbuild/options.ml" 261 11185 11229 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  string list
+)
+"ocamlbuild/options.ml" 261 11185 11202 "ocamlbuild/options.ml" 261 11185 11241
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/options.ml" 261 11185 11187 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 259 11140 11142 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 258 11096 11098 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 253 10980 10982 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 246 10783 10785 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 244 10742 10744 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 243 10698 10700 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 242 10658 10660 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 241 10628 10630 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 240 10582 10584 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 239 10532 10534 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 238 10480 10482 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 237 10432 10434 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 236 10386 10388 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 235 10340 10342 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 234 10298 10300 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 233 10262 10264 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 232 10201 10203 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 218 9762 9764 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 216 9733 9735 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 215 9689 9691 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 214 9637 9639 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 213 9565 9567 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)
+"ocamlbuild/options.ml" 212 9520 9522 "ocamlbuild/options.ml" 261 11185 11241
+type(
+  unit
+)

@@ -1,0 +1,6 @@
+requires = "netstring,netsys"
+version = "2.2.9"
+description = "Ocamlnet - Common Gateway Interface"
+archive(byte) = "cgi.cma"
+archive(native) = "cgi.cmxa"
+error(pkg_netcgi2) = "The packages netcgi1 and netcgi2 cannot be used together"

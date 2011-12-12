@@ -1,0 +1,242 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="next" href="Netcgi_types.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_env</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Netcgi_types.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Netcgi_env.html">Netcgi_env</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Netcgi_env: <code class="code">sig</code> <a href="Netcgi_env.html">..</a> <code class="code">end</code></pre>Access to the environment for CGI and related protocols<br>
+<hr width="100%">
+<pre><span class="keyword">type</span> <a name="TYPEinput_mode"></a><code class="type"></code>input_mode = <code class="type">[ `Standard ]</code> </pre>
+<div class="info">
+Determines how to read the request:<ul>
+<li><code class="code">`Standard</code>: Only the request body is read from the input
+    channel (CGI standard)</li>
+<li>Not yet implemented: <code class="code">`Direct</code>: Both header and body of the
+   request are read from the input channel</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEinput_state"></a><code class="type"></code>input_state = <code class="type">[ `Received_body<br>       | `Received_header<br>       | `Receiving_body<br>       | `Receiving_header<br>       | `Start ]</code> </pre>
+<div class="info">
+The input processing state:<ul>
+<li><code class="code">`Start</code>: Input data have not yet been received</li>
+<li><code class="code">`Receiving_header</code>: The request header is currently being 
+   received</li>
+<li><code class="code">`Received_header</code>: The request header has been completely
+   received, and nothing of the request body has yet been
+   received</li>
+<li><code class="code">`Receiving_body</code>: The request body is currently being 
+   received</li>
+<li><code class="code">`Received_body</code>: The request body has been completely
+   received</li>
+</ul>
+
+ Transition diagram:
+ <pre><code class="code"> 
+ `Start -&gt; 
+ `Receiving_header -&gt; 
+ `Received_header -&gt;
+ `Receiving_body -&gt; 
+ `Received_body </code></pre><br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEoutput_mode"></a><code class="type"></code>output_mode = <code class="type">[ `Standard ]</code> </pre>
+<div class="info">
+Determines how to deliver the response:<ul>
+<li><code class="code">`Standard</code>: The format of the response header has CGI format,
+   followed by the response body</li>
+<li>Not yet implemented: <code class="code">`Direct</code>: The format of the response
+   header has HTTP format, followed by the response body. This
+   is also known as "non-parsed header" format.</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEoutput_state"></a><code class="type"></code>output_state = <code class="type">[ `End<br>       | `Sending_body<br>       | `Sending_header<br>       | `Sending_part_body<br>       | `Sending_part_header<br>       | `Sent_body<br>       | `Sent_header<br>       | `Sent_part_body<br>       | `Sent_part_header<br>       | `Start ]</code> </pre>
+<div class="info">
+The output processing state:<ul>
+<li><code class="code">`Start</code>: Output has not yet been sent</li>
+<li><code class="code">`Sending_header</code>: The response header is currently being sent</li>
+<li><code class="code">`Sent_header</code>: The response header has been completely sent,
+   and nothing of the body has yet been sent</li>
+<li><code class="code">`Sending_body</code>: The response body is currently being sent</li>
+<li><code class="code">`Sent_body</code>: The response body has been sent up to a
+   check point</li>
+<li><code class="code">`End</code>: The response has been completely sent</li>
+</ul>
+
+ Transition diagram:
+ <pre><code class="code">              `Start -&gt;
+              `Sending_header -&gt;
+              `Sent_header -&gt;
+          +-&gt; `Sending_body 
+          |      |
+          |      V
+          +-- `Sent_body 
+                 |
+                 V
+              `End </code></pre>
+<p>
+
+ The state <code class="code">`Sent_body</code> is reached when the output data are 
+ committed. It is possible to continue with another transaction,
+ which would mean to go back to <code class="code">`Sending_body</code>, or to finish
+ the body completely, by going to <code class="code">`End</code>.
+<p>
+
+ Extension for multi-part response messages (e.g. needed for
+ server push, not yet implemented):<ul>
+<li><code class="code">`Sending_part_header</code>: The header of a message part is being
+   sent</li>
+<li><code class="code">`Sent_part_header</code>: The header of a message part has been
+   completely sent</li>
+<li><code class="code">`Sending_part_body</code>: The body of a message part is being
+   sent</li>
+<li><code class="code">`Sent_part_body</code>: The body of a message part has been sent
+   up to a check point</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEprotocol_version"></a><code class="type"></code>protocol_version = <code class="type">Nethttp.protocol_version</code> </pre>
+<div class="info">
+Now defined in <code class="code">Nethttp</code><br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEprotocol_attribute"></a><code class="type"></code>protocol_attribute = <code class="type">Nethttp.protocol_attribute</code> </pre>
+<div class="info">
+Now defined in <code class="code">Nethttp</code><br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEprotocol"></a><code class="type"></code>protocol = <code class="type">Nethttp.protocol</code> </pre>
+<div class="info">
+Now defined in <code class="code">Nethttp</code><br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEworkaround"></a><code class="type"></code>workaround = <code class="type">[ `Work_around_MSIE_Content_type_bug | `Work_around_backslash_bug ]</code> </pre>
+<div class="info">
+Indicates special behaviour:<ul>
+<li><code class="code">`Work_around_MSIE_Content_type_bug</code>: Versions of the Internet
+   Explorer send illegal content types. This workaround extracts
+   the right data from the malformed data field</li>
+<li><code class="code">`Work_around_backslash_bug</code>: Almost all browsers send illegal
+   backslash sequences when backslashes occur in filenames.
+   This workaround accepts such sequences.</li>
+</ul>
+<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEcgi_config"></a><code class="type"></code>cgi_config = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>tmp_directory&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The directory where to create temporary files. This should be
+ an absolute path name</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>tmp_prefix&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The name prefix for temporary files. This must be a non-empty
+ string. It must not contain '/'.</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>permitted_http_methods&nbsp;: <code class="type">string list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The list of accepted HTTP methods (uppercase letters)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>permitted_input_content_types&nbsp;: <code class="type">string list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The list of accepted content types in requests.
+ Content type parameters (like "charset") are ignored.
+ If the list is empty, all content types are allowed.</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>input_content_length_limit&nbsp;: <code class="type">int</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The maximum size of the request</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>workarounds&nbsp;: <code class="type"><a href="Netcgi_env.html#TYPEworkaround">workaround</a> list</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The list of enabled workarounds</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+
+<pre><span class="keyword">val</span> <a name="VALdefault_config"></a>default_config : <code class="type"><a href="Netcgi_env.html#TYPEcgi_config">cgi_config</a></code></pre><div class="info">
+The default configuration is:<ul>
+<li><code class="code">tmp_directory</code>: one of /var/tmp, /tmp, C:\temp, .</li>
+<li><code class="code">tmp_prefix</code>: "netstring"</li>
+<li><code class="code">permitted_http_methods</code>: <code class="code">"GET"</code>, <code class="code">"POST"</code></li>
+<li><code class="code">permitted_input_content_types</code>: <code class="code">"multipart/form-data"</code>, 
+     <code class="code">"application/x-www-form-urlencoded"</code></li>
+<li><code class="code">input_content_length_limit</code>: <code class="code">maxint</code></li>
+<li><code class="code">workarounds</code>: all</li>
+</ul>
+
+ To create a custom configuration, it is suggested to use this
+ syntax:
+ <pre><code class="code"> let custom_config =
+    { default_config with tmp_prefix = "my_prefix" }
+ </code></pre><br>
+</div>
+<pre><span class="keyword">class type</span> <a name="TYPEcgi_environment"></a><a href="Netcgi_env.cgi_environment.html">cgi_environment</a> = <code class="code">object</code> <a href="Netcgi_env.cgi_environment.html">..</a> <code class="code">end</code></pre><div class="info">
+The class type cgi_environment contains the resources by which
+ the CGI activation is connected to the "outer world".
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONStd_environment_not_found"></a>Std_environment_not_found</pre>
+<div class="info">
+Indicates that the process environment does not contain the
+ variables that are typical of CGI<br>
+</div>
+<pre><span class="keyword">class</span> <a name="TYPEstd_environment"></a><a href="Netcgi_env.std_environment.html">std_environment</a> : <code class="type">?config:<a href="Netcgi_env.html#TYPEcgi_config">cgi_config</a> -> unit -> </code><code class="type"><a href="Netcgi_env.cgi_environment.html">cgi_environment</a></code></pre><div class="info">
+An implementation of <code class="code">cgi_environment</code>, intended to be used
+ for classical CGI.
+</div>
+<pre><span class="keyword">class</span> <a name="TYPEtest_environment"></a><a href="Netcgi_env.test_environment.html">test_environment</a> : <code class="type">?config:<a href="Netcgi_env.html#TYPEcgi_config">cgi_config</a> -> unit -> </code><code class="type"><a href="Netcgi_env.cgi_environment.html">cgi_environment</a></code></pre><div class="info">
+An implementation of <code class="code">cgi_environment</code>, intended to test CGI
+ programs from the command-line.
+</div>
+<pre><span class="keyword">class</span> <a name="TYPEcustom_environment"></a><a href="Netcgi_env.custom_environment.html">custom_environment</a> : <code class="type">?config:<a href="Netcgi_env.html#TYPEcgi_config">cgi_config</a> -> unit -> </code><code class="code">object</code> <a href="Netcgi_env.custom_environment.html">..</a> <code class="code">end</code></pre><div class="info">
+This class can be used to set up non-standard environments.
+</div>
+</body></html>

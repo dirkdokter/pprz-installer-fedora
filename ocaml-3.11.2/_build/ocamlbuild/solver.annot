@@ -1,0 +1,2707 @@
+"ocamlbuild/solver.ml" 27 1050 1054 "ocamlbuild/solver.ml" 27 1050 1060
+type(
+  Pathname.t -> backtrace -> 'a
+)
+ident(
+  def failed "ocamlbuild/solver.ml" 31 1149 1149 --
+)
+"ocamlbuild/solver.ml" 27 1050 1061 "ocamlbuild/solver.ml" 27 1050 1067
+type(
+  Pathname.t
+)
+ident(
+  def target "ocamlbuild/solver.ml" 27 1050 1068 "ocamlbuild/solver.ml" 29 1121 1147
+)
+"ocamlbuild/solver.ml" 27 1050 1068 "ocamlbuild/solver.ml" 27 1050 1077
+type(
+  backtrace
+)
+ident(
+  def backtrace "ocamlbuild/solver.ml" 28 1080 1082 "ocamlbuild/solver.ml" 29 1121 1147
+)
+"ocamlbuild/solver.ml" 28 1080 1082 "ocamlbuild/solver.ml" 28 1080 1112
+type(
+  Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.Cache.resource_failed
+)
+"ocamlbuild/solver.ml" 28 1080 1113 "ocamlbuild/solver.ml" 28 1080 1119
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 27 1050 1061 "ocamlbuild/solver.ml" 27 1050 1067
+)
+"ocamlbuild/solver.ml" 28 1080 1082 "ocamlbuild/solver.ml" 28 1080 1119
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 29 1121 1123 "ocamlbuild/solver.ml" 29 1121 1128
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/solver.ml" 29 1121 1137 "ocamlbuild/solver.ml" 29 1121 1146
+type(
+  backtrace
+)
+ident(
+  int_ref backtrace "ocamlbuild/solver.ml" 27 1050 1068 "ocamlbuild/solver.ml" 27 1050 1077
+)
+"ocamlbuild/solver.ml" 29 1121 1129 "ocamlbuild/solver.ml" 29 1121 1147
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 29 1121 1123 "ocamlbuild/solver.ml" 29 1121 1147
+type(
+  'a
+)
+"ocamlbuild/solver.ml" 28 1080 1082 "ocamlbuild/solver.ml" 29 1121 1147
+type(
+  'a
+)
+"ocamlbuild/solver.ml" 31 1149 1157 "ocamlbuild/solver.ml" 31 1149 1166
+type(
+  Format.formatter -> int * string -> unit
+)
+ident(
+  def pp_repeat "ocamlbuild/solver.ml" 31 1149 1149 --
+)
+"ocamlbuild/solver.ml" 31 1149 1167 "ocamlbuild/solver.ml" 31 1149 1168
+type(
+  Format.formatter
+)
+ident(
+  def f "ocamlbuild/solver.ml" 31 1149 1169 "ocamlbuild/solver.ml" 32 1178 1239
+)
+"ocamlbuild/solver.ml" 31 1149 1170 "ocamlbuild/solver.ml" 31 1149 1171
+type(
+  int
+)
+ident(
+  def n "ocamlbuild/solver.ml" 32 1178 1180 "ocamlbuild/solver.ml" 32 1178 1239
+)
+"ocamlbuild/solver.ml" 31 1149 1173 "ocamlbuild/solver.ml" 31 1149 1174
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/solver.ml" 32 1178 1180 "ocamlbuild/solver.ml" 32 1178 1239
+)
+"ocamlbuild/solver.ml" 31 1149 1169 "ocamlbuild/solver.ml" 31 1149 1175
+type(
+  int * string
+)
+"ocamlbuild/solver.ml" 32 1178 1183 "ocamlbuild/solver.ml" 32 1178 1184
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/solver.ml" 31 1149 1170 "ocamlbuild/solver.ml" 31 1149 1171
+)
+"ocamlbuild/solver.ml" 32 1178 1185 "ocamlbuild/solver.ml" 32 1178 1186
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/solver.ml" 32 1178 1187 "ocamlbuild/solver.ml" 32 1178 1188
+type(
+  int
+)
+"ocamlbuild/solver.ml" 32 1178 1183 "ocamlbuild/solver.ml" 32 1178 1188
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 32 1178 1195 "ocamlbuild/solver.ml" 32 1178 1210
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"ocamlbuild/solver.ml" 32 1178 1211 "ocamlbuild/solver.ml" 32 1178 1212
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/solver.ml" 31 1149 1167 "ocamlbuild/solver.ml" 31 1149 1168
+)
+"ocamlbuild/solver.ml" 32 1178 1213 "ocamlbuild/solver.ml" 32 1178 1214
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/solver.ml" 31 1149 1173 "ocamlbuild/solver.ml" 31 1149 1174
+)
+"ocamlbuild/solver.ml" 32 1178 1195 "ocamlbuild/solver.ml" 32 1178 1214
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 32 1178 1216 "ocamlbuild/solver.ml" 32 1178 1225
+type(
+  Format.formatter -> int * string -> unit
+)
+ident(
+  int_ref pp_repeat "ocamlbuild/solver.ml" 31 1149 1157 "ocamlbuild/solver.ml" 31 1149 1166
+)
+"ocamlbuild/solver.ml" 32 1178 1226 "ocamlbuild/solver.ml" 32 1178 1227
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/solver.ml" 31 1149 1167 "ocamlbuild/solver.ml" 31 1149 1168
+)
+"ocamlbuild/solver.ml" 32 1178 1229 "ocamlbuild/solver.ml" 32 1178 1230
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/solver.ml" 31 1149 1170 "ocamlbuild/solver.ml" 31 1149 1171
+)
+"ocamlbuild/solver.ml" 32 1178 1231 "ocamlbuild/solver.ml" 32 1178 1232
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/solver.ml" 32 1178 1233 "ocamlbuild/solver.ml" 32 1178 1234
+type(
+  int
+)
+"ocamlbuild/solver.ml" 32 1178 1229 "ocamlbuild/solver.ml" 32 1178 1234
+type(
+  int
+)
+"ocamlbuild/solver.ml" 32 1178 1236 "ocamlbuild/solver.ml" 32 1178 1237
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/solver.ml" 31 1149 1173 "ocamlbuild/solver.ml" 31 1149 1174
+)
+"ocamlbuild/solver.ml" 32 1178 1228 "ocamlbuild/solver.ml" 32 1178 1238
+type(
+  int * string
+)
+"ocamlbuild/solver.ml" 32 1178 1216 "ocamlbuild/solver.ml" 32 1178 1238
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 32 1178 1194 "ocamlbuild/solver.ml" 32 1178 1239
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 32 1178 1180 "ocamlbuild/solver.ml" 32 1178 1239
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 38 1402 1410 "ocamlbuild/solver.ml" 38 1402 1414
+type(
+  int -> Pathname.t list -> Pathname.t -> unit
+)
+ident(
+  def self "ocamlbuild/solver.ml" 38 1402 1402 --
+)
+"ocamlbuild/solver.ml" 38 1402 1415 "ocamlbuild/solver.ml" 38 1402 1420
+type(
+  int
+)
+ident(
+  def depth "ocamlbuild/solver.ml" 38 1402 1421 "ocamlbuild/solver.ml" 84 3567 3605
+)
+"ocamlbuild/solver.ml" 38 1402 1421 "ocamlbuild/solver.ml" 38 1402 1435
+type(
+  Pathname.t list
+)
+ident(
+  def on_the_go_orig "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 84 3567 3605
+)
+"ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+type(
+  Pathname.t
+)
+ident(
+  def target "ocamlbuild/solver.ml" 39 1445 1447 "ocamlbuild/solver.ml" 84 3567 3605
+)
+"ocamlbuild/solver.ml" 39 1445 1451 "ocamlbuild/solver.ml" 39 1445 1456
+type(
+  Rule.rule_scheme list
+)
+"ocamlbuild/solver.ml" 39 1445 1459 "ocamlbuild/solver.ml" 39 1445 1473
+type(
+  unit -> Rule.rule_scheme list
+)
+ident(
+  ext_ref Rule.get_rules
+)
+"ocamlbuild/solver.ml" 39 1445 1474 "ocamlbuild/solver.ml" 39 1445 1476
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 39 1445 1459 "ocamlbuild/solver.ml" 39 1445 1476
+call(
+  stack
+)
+type(
+  Rule.rule_scheme list
+)
+"ocamlbuild/solver.ml" 40 1480 1486 "ocamlbuild/solver.ml" 40 1480 1495
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 40 1480 1498 "ocamlbuild/solver.ml" 40 1480 1504
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 40 1480 1508 "ocamlbuild/solver.ml" 40 1480 1522
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go_orig "ocamlbuild/solver.ml" 38 1402 1421 "ocamlbuild/solver.ml" 38 1402 1435
+)
+"ocamlbuild/solver.ml" 40 1480 1498 "ocamlbuild/solver.ml" 40 1480 1522
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 42 1527 1529 "ocamlbuild/solver.ml" 42 1527 1536
+type(
+  int ->
+  ((Format.formatter -> int * string -> unit) ->
+   int * string ->
+   (Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> int * string -> unit) ->
+  int * string ->
+  (Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/solver.ml" 42 1527 1537 "ocamlbuild/solver.ml" 42 1527 1538
+type(
+  int
+)
+"ocamlbuild/solver.ml" 42 1527 1539 "ocamlbuild/solver.ml" 42 1527 1549
+type(
+  ((Format.formatter -> int * string -> unit) ->
+   int * string ->
+   (Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocamlbuild/solver.ml" 42 1527 1550 "ocamlbuild/solver.ml" 42 1527 1559
+type(
+  Format.formatter -> int * string -> unit
+)
+ident(
+  int_ref pp_repeat "ocamlbuild/solver.ml" 31 1149 1157 "ocamlbuild/solver.ml" 31 1149 1166
+)
+"ocamlbuild/solver.ml" 42 1527 1561 "ocamlbuild/solver.ml" 42 1527 1566
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 38 1402 1415 "ocamlbuild/solver.ml" 38 1402 1420
+)
+"ocamlbuild/solver.ml" 42 1527 1568 "ocamlbuild/solver.ml" 42 1527 1572
+type(
+  string
+)
+"ocamlbuild/solver.ml" 42 1527 1560 "ocamlbuild/solver.ml" 42 1527 1573
+type(
+  int * string
+)
+"ocamlbuild/solver.ml" 42 1527 1574 "ocamlbuild/solver.ml" 42 1527 1588
+type(
+  Format.formatter -> Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.print
+)
+"ocamlbuild/solver.ml" 42 1527 1589 "ocamlbuild/solver.ml" 42 1527 1595
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 42 1527 1529 "ocamlbuild/solver.ml" 42 1527 1595
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 43 1597 1602 "ocamlbuild/solver.ml" 43 1597 1610
+type(
+  Pathname.t -> Pathname.t list -> bool
+)
+ident(
+  ext_ref My_std.List.mem
+)
+"ocamlbuild/solver.ml" 43 1597 1611 "ocamlbuild/solver.ml" 43 1597 1617
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 43 1597 1618 "ocamlbuild/solver.ml" 43 1597 1632
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go_orig "ocamlbuild/solver.ml" 38 1402 1421 "ocamlbuild/solver.ml" 38 1402 1435
+)
+"ocamlbuild/solver.ml" 43 1597 1602 "ocamlbuild/solver.ml" 43 1597 1632
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 43 1597 1638 "ocamlbuild/solver.ml" 43 1597 1643
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/solver.ml" 43 1597 1654 "ocamlbuild/solver.ml" 43 1597 1660
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 43 1597 1662 "ocamlbuild/solver.ml" 43 1597 1676
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go_orig "ocamlbuild/solver.ml" 38 1402 1421 "ocamlbuild/solver.ml" 38 1402 1435
+)
+"ocamlbuild/solver.ml" 43 1597 1644 "ocamlbuild/solver.ml" 43 1597 1678
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 43 1597 1638 "ocamlbuild/solver.ml" 43 1597 1678
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 43 1597 1599 "ocamlbuild/solver.ml" 43 1597 1678
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 44 1680 1688 "ocamlbuild/solver.ml" 44 1680 1717
+type(
+  Pathname.t -> Resource.Cache.build_status
+)
+ident(
+  ext_ref Resource.Cache.resource_state
+)
+"ocamlbuild/solver.ml" 44 1680 1718 "ocamlbuild/solver.ml" 44 1680 1724
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 44 1680 1688 "ocamlbuild/solver.ml" 44 1680 1724
+call(
+  stack
+)
+type(
+  Resource.Cache.build_status
+)
+"ocamlbuild/solver.ml" 45 1730 1734 "ocamlbuild/solver.ml" 45 1730 1755
+type(
+  Resource.Cache.build_status
+)
+"ocamlbuild/solver.ml" 46 1759 1766 "ocamlbuild/solver.ml" 46 1759 1773
+type(
+  int ->
+  ((Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/solver.ml" 46 1759 1774 "ocamlbuild/solver.ml" 46 1759 1775
+type(
+  int
+)
+"ocamlbuild/solver.ml" 46 1759 1776 "ocamlbuild/solver.ml" 46 1759 1794
+type(
+  ((Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocamlbuild/solver.ml" 46 1759 1795 "ocamlbuild/solver.ml" 46 1759 1809
+type(
+  Format.formatter -> Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.print
+)
+"ocamlbuild/solver.ml" 46 1759 1810 "ocamlbuild/solver.ml" 46 1759 1816
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 46 1759 1765 "ocamlbuild/solver.ml" 46 1759 1817
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 47 1818 1822 "ocamlbuild/solver.ml" 47 1818 1853
+type(
+  Resource.Cache.build_status
+)
+"ocamlbuild/solver.ml" 48 1857 1864 "ocamlbuild/solver.ml" 48 1857 1871
+type(
+  int ->
+  ((Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/solver.ml" 48 1857 1872 "ocamlbuild/solver.ml" 48 1857 1873
+type(
+  int
+)
+"ocamlbuild/solver.ml" 48 1857 1874 "ocamlbuild/solver.ml" 48 1857 1893
+type(
+  ((Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocamlbuild/solver.ml" 48 1857 1894 "ocamlbuild/solver.ml" 48 1857 1908
+type(
+  Format.formatter -> Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.print
+)
+"ocamlbuild/solver.ml" 48 1857 1909 "ocamlbuild/solver.ml" 48 1857 1915
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 48 1857 1864 "ocamlbuild/solver.ml" 48 1857 1915
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 48 1857 1917 "ocamlbuild/solver.ml" 48 1857 1923
+type(
+  Pathname.t -> backtrace -> unit
+)
+ident(
+  int_ref failed "ocamlbuild/solver.ml" 27 1050 1054 "ocamlbuild/solver.ml" 27 1050 1060
+)
+"ocamlbuild/solver.ml" 48 1857 1924 "ocamlbuild/solver.ml" 48 1857 1930
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 48 1857 1937 "ocamlbuild/solver.ml" 48 1857 1943
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 48 1857 1931 "ocamlbuild/solver.ml" 48 1857 1944
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 48 1857 1917 "ocamlbuild/solver.ml" 48 1857 1944
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 48 1857 1863 "ocamlbuild/solver.ml" 48 1857 1945
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 49 1946 1976 "ocamlbuild/solver.ml" 49 1946 1979
+type(
+  Resource.Cache.suspension
+)
+ident(
+  def s "ocamlbuild/solver.ml" 50 1983 1989 "ocamlbuild/solver.ml" 51 2054 2096
+)
+"ocamlbuild/solver.ml" 49 1946 1950 "ocamlbuild/solver.ml" 49 1946 1979
+type(
+  Resource.Cache.build_status
+)
+"ocamlbuild/solver.ml" 50 1983 1990 "ocamlbuild/solver.ml" 50 1983 1997
+type(
+  int ->
+  ((Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/solver.ml" 50 1983 1998 "ocamlbuild/solver.ml" 50 1983 1999
+type(
+  int
+)
+"ocamlbuild/solver.ml" 50 1983 2000 "ocamlbuild/solver.ml" 50 1983 2030
+type(
+  ((Format.formatter -> Pathname.t -> unit) -> Pathname.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocamlbuild/solver.ml" 50 1983 2031 "ocamlbuild/solver.ml" 50 1983 2045
+type(
+  Format.formatter -> Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.print
+)
+"ocamlbuild/solver.ml" 50 1983 2046 "ocamlbuild/solver.ml" 50 1983 2052
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 50 1983 1990 "ocamlbuild/solver.ml" 50 1983 2052
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 51 2054 2061 "ocamlbuild/solver.ml" 51 2054 2093
+type(
+  Resource.Cache.suspension -> unit
+)
+ident(
+  ext_ref Resource.Cache.resume_suspension
+)
+"ocamlbuild/solver.ml" 51 2054 2094 "ocamlbuild/solver.ml" 51 2054 2095
+type(
+  Resource.Cache.suspension
+)
+ident(
+  int_ref s "ocamlbuild/solver.ml" 49 1946 1976 "ocamlbuild/solver.ml" 49 1946 1979
+)
+"ocamlbuild/solver.ml" 51 2054 2061 "ocamlbuild/solver.ml" 51 2054 2095
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 50 1983 1989 "ocamlbuild/solver.ml" 51 2054 2096
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 52 2097 2101 "ocamlbuild/solver.ml" 52 2097 2130
+type(
+  Resource.Cache.build_status
+)
+"ocamlbuild/solver.ml" 53 2134 2141 "ocamlbuild/solver.ml" 53 2134 2144
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/solver.ml" 53 2134 2146 "ocamlbuild/solver.ml" 53 2134 2166
+type(
+  Pathname.t -> bool
+)
+ident(
+  ext_ref Pathname.is_relative
+)
+"ocamlbuild/solver.ml" 53 2134 2167 "ocamlbuild/solver.ml" 53 2134 2173
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 53 2134 2145 "ocamlbuild/solver.ml" 53 2134 2174
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 53 2134 2141 "ocamlbuild/solver.ml" 53 2134 2174
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 53 2134 2175 "ocamlbuild/solver.ml" 53 2134 2177
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/solver.ml" 53 2134 2178 "ocamlbuild/solver.ml" 53 2134 2193
+type(
+  Pathname.t -> bool
+)
+ident(
+  ext_ref Pathname.exists
+)
+"ocamlbuild/solver.ml" 53 2134 2194 "ocamlbuild/solver.ml" 53 2134 2200
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 53 2134 2178 "ocamlbuild/solver.ml" 53 2134 2200
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 53 2134 2141 "ocamlbuild/solver.ml" 53 2134 2200
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 54 2206 2215 "ocamlbuild/solver.ml" 54 2206 2252
+type(
+  Pathname.t -> bool
+)
+ident(
+  ext_ref Resource.Cache.external_is_up_to_date
+)
+"ocamlbuild/solver.ml" 54 2206 2253 "ocamlbuild/solver.ml" 54 2206 2259
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 54 2206 2215 "ocamlbuild/solver.ml" 54 2206 2259
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 54 2206 2265 "ocamlbuild/solver.ml" 54 2206 2267
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 55 2268 2318 "ocamlbuild/solver.ml" 55 2268 2324
+type(
+  Pathname.t -> backtrace -> unit
+)
+ident(
+  int_ref failed "ocamlbuild/solver.ml" 27 1050 1054 "ocamlbuild/solver.ml" 27 1050 1060
+)
+"ocamlbuild/solver.ml" 55 2268 2325 "ocamlbuild/solver.ml" 55 2268 2331
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 55 2268 2338 "ocamlbuild/solver.ml" 55 2268 2344
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 55 2268 2332 "ocamlbuild/solver.ml" 55 2268 2345
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 55 2268 2318 "ocamlbuild/solver.ml" 55 2268 2345
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 54 2206 2212 "ocamlbuild/solver.ml" 55 2268 2345
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 57 2355 2362 "ocamlbuild/solver.ml" 57 2355 2391
+type(
+  Pathname.t -> bool
+)
+ident(
+  ext_ref Resource.exists_in_source_dir
+)
+"ocamlbuild/solver.ml" 57 2355 2392 "ocamlbuild/solver.ml" 57 2355 2398
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 57 2355 2362 "ocamlbuild/solver.ml" 57 2355 2398
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 58 2404 2410 "ocamlbuild/solver.ml" 58 2404 2444
+type(
+  Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.Cache.import_in_build_dir
+)
+"ocamlbuild/solver.ml" 58 2404 2445 "ocamlbuild/solver.ml" 58 2404 2451
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 58 2404 2410 "ocamlbuild/solver.ml" 58 2404 2451
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 63 2621 2629 "ocamlbuild/solver.ml" 63 2621 2643
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 63 2621 2646 "ocamlbuild/solver.ml" 63 2621 2661
+type(
+  (Rule.rule_scheme -> Rule.rule option) ->
+  Rule.rule_scheme list -> Rule.rule list
+)
+ident(
+  ext_ref My_std.List.filter_opt
+)
+"ocamlbuild/solver.ml" 63 2621 2663 "ocamlbuild/solver.ml" 63 2621 2679
+type(
+  Pathname.t -> Rule.rule_scheme -> Rule.rule option
+)
+ident(
+  ext_ref Rule.can_produce
+)
+"ocamlbuild/solver.ml" 63 2621 2680 "ocamlbuild/solver.ml" 63 2621 2686
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 63 2621 2662 "ocamlbuild/solver.ml" 63 2621 2687
+call(
+  stack
+)
+type(
+  Rule.rule_scheme -> Rule.rule option
+)
+"ocamlbuild/solver.ml" 63 2621 2701 "ocamlbuild/solver.ml" 63 2621 2706
+type(
+  Rule.rule_scheme list
+)
+ident(
+  int_ref rules "ocamlbuild/solver.ml" 39 1445 1451 "ocamlbuild/solver.ml" 39 1445 1456
+)
+"ocamlbuild/solver.ml" 63 2621 2646 "ocamlbuild/solver.ml" 63 2621 2706
+call(
+  stack
+)
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 64 2710 2720 "ocamlbuild/solver.ml" 64 2710 2734
+type(
+  Rule.rule list
+)
+ident(
+  int_ref matching_rules "ocamlbuild/solver.ml" 63 2621 2629 "ocamlbuild/solver.ml" 63 2621 2643
+)
+"ocamlbuild/solver.ml" 65 2740 2746 "ocamlbuild/solver.ml" 65 2740 2748
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 65 2740 2752 "ocamlbuild/solver.ml" 65 2740 2758
+type(
+  Pathname.t -> backtrace -> unit
+)
+ident(
+  int_ref failed "ocamlbuild/solver.ml" 27 1050 1054 "ocamlbuild/solver.ml" 27 1050 1060
+)
+"ocamlbuild/solver.ml" 65 2740 2759 "ocamlbuild/solver.ml" 65 2740 2765
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 65 2740 2772 "ocamlbuild/solver.ml" 65 2740 2778
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 65 2740 2766 "ocamlbuild/solver.ml" 65 2740 2779
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 65 2740 2752 "ocamlbuild/solver.ml" 65 2740 2779
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 66 2780 2786 "ocamlbuild/solver.ml" 66 2780 2787
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 67 2791 2805 "ocamlbuild/solver.ml" 67 2791 2816
+type(
+  Rule.rule list -> backtrace list -> unit
+)
+"ocamlbuild/solver.ml" 67 2791 2817 "ocamlbuild/solver.ml" 67 2791 2819
+type(
+  Rule.rule list
+)
+ident(
+  def rs "ocamlbuild/solver.ml" 67 2791 2820 "ocamlbuild/solver.ml" 83 3507 3566
+)
+"ocamlbuild/solver.ml" 67 2791 2820 "ocamlbuild/solver.ml" 67 2791 2830
+type(
+  backtrace list
+)
+ident(
+  def backtraces "ocamlbuild/solver.ml" 68 2833 2841 "ocamlbuild/solver.ml" 83 3507 3566
+)
+"ocamlbuild/solver.ml" 68 2833 2847 "ocamlbuild/solver.ml" 68 2833 2849
+type(
+  Rule.rule list
+)
+ident(
+  int_ref rs "ocamlbuild/solver.ml" 67 2791 2817 "ocamlbuild/solver.ml" 67 2791 2819
+)
+"ocamlbuild/solver.ml" 69 2855 2865 "ocamlbuild/solver.ml" 69 2855 2867
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 69 2855 2871 "ocamlbuild/solver.ml" 69 2855 2883
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 70 2884 2894 "ocamlbuild/solver.ml" 70 2884 2895
+type(
+  Rule.rule
+)
+ident(
+  def r "ocamlbuild/solver.ml" 71 2905 2917 "ocamlbuild/solver.ml" 83 3507 3566
+)
+"ocamlbuild/solver.ml" 70 2884 2899 "ocamlbuild/solver.ml" 70 2884 2901
+type(
+  Rule.rule list
+)
+ident(
+  def rs "ocamlbuild/solver.ml" 71 2905 2917 "ocamlbuild/solver.ml" 83 3507 3566
+)
+"ocamlbuild/solver.ml" 70 2884 2894 "ocamlbuild/solver.ml" 70 2884 2901
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 72 2921 2935 "ocamlbuild/solver.ml" 72 2921 2944
+type(
+  (Pathname.t -> unit) -> Pathname.t list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/solver.ml" 72 2921 2946 "ocamlbuild/solver.ml" 72 2921 2956
+type(
+  int -> Pathname.t list -> Pathname.t -> unit
+)
+ident(
+  int_ref force_self "ocamlbuild/solver.ml" 116 4795 4799 "ocamlbuild/solver.ml" 116 4795 4809
+)
+"ocamlbuild/solver.ml" 72 2921 2958 "ocamlbuild/solver.ml" 72 2921 2963
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 38 1402 1415 "ocamlbuild/solver.ml" 38 1402 1420
+)
+"ocamlbuild/solver.ml" 72 2921 2964 "ocamlbuild/solver.ml" 72 2921 2965
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/solver.ml" 72 2921 2966 "ocamlbuild/solver.ml" 72 2921 2967
+type(
+  int
+)
+"ocamlbuild/solver.ml" 72 2921 2957 "ocamlbuild/solver.ml" 72 2921 2968
+type(
+  int
+)
+"ocamlbuild/solver.ml" 72 2921 2969 "ocamlbuild/solver.ml" 72 2921 2978
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go "ocamlbuild/solver.ml" 40 1480 1486 "ocamlbuild/solver.ml" 40 1480 1495
+)
+"ocamlbuild/solver.ml" 72 2921 2945 "ocamlbuild/solver.ml" 72 2921 2979
+call(
+  stack
+)
+type(
+  Pathname.t -> unit
+)
+"ocamlbuild/solver.ml" 72 2921 2981 "ocamlbuild/solver.ml" 72 2921 2998
+type(
+  Rule.rule -> Pathname.t list
+)
+ident(
+  ext_ref Rule.deps_of_rule
+)
+"ocamlbuild/solver.ml" 72 2921 2999 "ocamlbuild/solver.ml" 72 2921 3000
+type(
+  Rule.rule
+)
+ident(
+  int_ref r "ocamlbuild/solver.ml" 70 2884 2894 "ocamlbuild/solver.ml" 70 2884 2895
+)
+"ocamlbuild/solver.ml" 72 2921 2980 "ocamlbuild/solver.ml" 72 2921 3001
+call(
+  stack
+)
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 72 2921 2935 "ocamlbuild/solver.ml" 72 2921 3001
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 74 3021 3037 "ocamlbuild/solver.ml" 74 3021 3046
+type(
+  Rule.builder -> Rule.rule -> unit
+)
+ident(
+  ext_ref Rule.call
+)
+"ocamlbuild/solver.ml" 74 3021 3048 "ocamlbuild/solver.ml" 74 3021 3059
+type(
+  int -> Pathname.t list -> Rule.builder
+)
+ident(
+  int_ref self_firsts "ocamlbuild/solver.ml" 91 3867 3871 "ocamlbuild/solver.ml" 91 3867 3882
+)
+"ocamlbuild/solver.ml" 74 3021 3061 "ocamlbuild/solver.ml" 74 3021 3066
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 38 1402 1415 "ocamlbuild/solver.ml" 38 1402 1420
+)
+"ocamlbuild/solver.ml" 74 3021 3067 "ocamlbuild/solver.ml" 74 3021 3068
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/solver.ml" 74 3021 3069 "ocamlbuild/solver.ml" 74 3021 3070
+type(
+  int
+)
+"ocamlbuild/solver.ml" 74 3021 3060 "ocamlbuild/solver.ml" 74 3021 3071
+type(
+  int
+)
+"ocamlbuild/solver.ml" 74 3021 3072 "ocamlbuild/solver.ml" 74 3021 3081
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go "ocamlbuild/solver.ml" 40 1480 1486 "ocamlbuild/solver.ml" 40 1480 1495
+)
+"ocamlbuild/solver.ml" 74 3021 3047 "ocamlbuild/solver.ml" 74 3021 3082
+call(
+  stack
+)
+type(
+  Rule.builder
+)
+"ocamlbuild/solver.ml" 74 3021 3083 "ocamlbuild/solver.ml" 74 3021 3084
+type(
+  Rule.rule
+)
+ident(
+  int_ref r "ocamlbuild/solver.ml" 70 2884 2894 "ocamlbuild/solver.ml" 70 2884 2895
+)
+"ocamlbuild/solver.ml" 74 3021 3037 "ocamlbuild/solver.ml" 74 3021 3084
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 75 3085 3104 "ocamlbuild/solver.ml" 75 3085 3115
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 75 3085 3119 "ocamlbuild/solver.ml" 75 3085 3124
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/solver.ml" 75 3085 3139 "ocamlbuild/solver.ml" 75 3085 3145
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 75 3085 3133 "ocamlbuild/solver.ml" 75 3085 3146
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 75 3085 3125 "ocamlbuild/solver.ml" 75 3085 3147
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 75 3085 3119 "ocamlbuild/solver.ml" 75 3085 3147
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 73 3003 3017 "ocamlbuild/solver.ml" 75 3085 3147
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 72 2921 2935 "ocamlbuild/solver.ml" 75 3085 3147
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 76 3148 3172 "ocamlbuild/solver.ml" 76 3148 3181
+type(
+  backtrace
+)
+ident(
+  def backtrace "ocamlbuild/solver.ml" 77 3185 3199 "ocamlbuild/solver.ml" 83 3507 3566
+)
+"ocamlbuild/solver.ml" 76 3148 3165 "ocamlbuild/solver.ml" 76 3148 3181
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 77 3185 3202 "ocamlbuild/solver.ml" 77 3185 3204
+type(
+  Rule.rule list
+)
+ident(
+  int_ref rs "ocamlbuild/solver.ml" 70 2884 2899 "ocamlbuild/solver.ml" 70 2884 2901
+)
+"ocamlbuild/solver.ml" 77 3185 3205 "ocamlbuild/solver.ml" 77 3185 3206
+type(
+  Rule.rule list -> Rule.rule list -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/solver.ml" 77 3185 3207 "ocamlbuild/solver.ml" 77 3185 3209
+type(
+  Rule.rule list
+)
+"ocamlbuild/solver.ml" 77 3185 3202 "ocamlbuild/solver.ml" 77 3185 3209
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 77 3185 3215 "ocamlbuild/solver.ml" 77 3185 3221
+type(
+  Pathname.t -> backtrace -> unit
+)
+ident(
+  int_ref failed "ocamlbuild/solver.ml" 27 1050 1054 "ocamlbuild/solver.ml" 27 1050 1060
+)
+"ocamlbuild/solver.ml" 77 3185 3222 "ocamlbuild/solver.ml" 77 3185 3228
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 77 3185 3237 "ocamlbuild/solver.ml" 77 3185 3243
+type(
+  Pathname.t
+)
+ident(
+  int_ref target "ocamlbuild/solver.ml" 38 1402 1436 "ocamlbuild/solver.ml" 38 1402 1442
+)
+"ocamlbuild/solver.ml" 77 3185 3253 "ocamlbuild/solver.ml" 77 3185 3262
+type(
+  backtrace
+)
+ident(
+  int_ref backtrace "ocamlbuild/solver.ml" 76 3148 3172 "ocamlbuild/solver.ml" 76 3148 3181
+)
+"ocamlbuild/solver.ml" 77 3185 3266 "ocamlbuild/solver.ml" 77 3185 3276
+type(
+  backtrace list
+)
+ident(
+  int_ref backtraces "ocamlbuild/solver.ml" 67 2791 2820 "ocamlbuild/solver.ml" 67 2791 2830
+)
+"ocamlbuild/solver.ml" 77 3185 3252 "ocamlbuild/solver.ml" 77 3185 3277
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 77 3185 3245 "ocamlbuild/solver.ml" 77 3185 3277
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 77 3185 3229 "ocamlbuild/solver.ml" 77 3185 3279
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 77 3185 3215 "ocamlbuild/solver.ml" 77 3185 3279
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 79 3299 3319 "ocamlbuild/solver.ml" 79 3299 3321
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 80 3324 3348 "ocamlbuild/solver.ml" 80 3324 3357
+type(
+  backtrace
+)
+ident(
+  int_ref backtrace "ocamlbuild/solver.ml" 76 3148 3172 "ocamlbuild/solver.ml" 76 3148 3181
+)
+"ocamlbuild/solver.ml" 81 3363 3390 "ocamlbuild/solver.ml" 81 3363 3398
+type(
+  Pathname.t
+)
+ident(
+  def top_prod "ocamlbuild/solver.ml" 81 3363 3406 "ocamlbuild/solver.ml" 81 3363 3451
+)
+"ocamlbuild/solver.ml" 81 3363 3400 "ocamlbuild/solver.ml" 81 3363 3401
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 81 3363 3383 "ocamlbuild/solver.ml" 81 3363 3402
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 81 3363 3406 "ocamlbuild/solver.ml" 81 3363 3442
+type(
+  Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.Cache.clear_resource_failed
+)
+"ocamlbuild/solver.ml" 81 3363 3443 "ocamlbuild/solver.ml" 81 3363 3451
+type(
+  Pathname.t
+)
+ident(
+  int_ref top_prod "ocamlbuild/solver.ml" 81 3363 3390 "ocamlbuild/solver.ml" 81 3363 3398
+)
+"ocamlbuild/solver.ml" 81 3363 3406 "ocamlbuild/solver.ml" 81 3363 3451
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 82 3452 3479 "ocamlbuild/solver.ml" 82 3452 3480
+type(
+  backtrace
+)
+type(
+  string
+)
+"ocamlbuild/solver.ml" 82 3452 3472 "ocamlbuild/solver.ml" 82 3452 3480
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 82 3452 3490 "ocamlbuild/solver.ml" 82 3452 3491
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 82 3452 3483 "ocamlbuild/solver.ml" 82 3452 3491
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 82 3452 3472 "ocamlbuild/solver.ml" 82 3452 3491
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 82 3452 3499 "ocamlbuild/solver.ml" 82 3452 3500
+type(
+  Pathname.t
+)
+"ocamlbuild/solver.ml" 82 3452 3494 "ocamlbuild/solver.ml" 82 3452 3500
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 82 3452 3472 "ocamlbuild/solver.ml" 82 3452 3500
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 82 3452 3504 "ocamlbuild/solver.ml" 82 3452 3506
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 80 3324 3342 "ocamlbuild/solver.ml" 82 3452 3506
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 83 3507 3526 "ocamlbuild/solver.ml" 83 3507 3537
+type(
+  Rule.rule list -> backtrace list -> unit
+)
+ident(
+  int_ref until_works "ocamlbuild/solver.ml" 67 2791 2805 "ocamlbuild/solver.ml" 67 2791 2816
+)
+"ocamlbuild/solver.ml" 83 3507 3538 "ocamlbuild/solver.ml" 83 3507 3540
+type(
+  Rule.rule list
+)
+ident(
+  int_ref rs "ocamlbuild/solver.ml" 70 2884 2899 "ocamlbuild/solver.ml" 70 2884 2901
+)
+"ocamlbuild/solver.ml" 83 3507 3542 "ocamlbuild/solver.ml" 83 3507 3551
+type(
+  backtrace
+)
+ident(
+  int_ref backtrace "ocamlbuild/solver.ml" 76 3148 3172 "ocamlbuild/solver.ml" 76 3148 3181
+)
+"ocamlbuild/solver.ml" 83 3507 3555 "ocamlbuild/solver.ml" 83 3507 3565
+type(
+  backtrace list
+)
+ident(
+  int_ref backtraces "ocamlbuild/solver.ml" 67 2791 2820 "ocamlbuild/solver.ml" 67 2791 2830
+)
+"ocamlbuild/solver.ml" 83 3507 3541 "ocamlbuild/solver.ml" 83 3507 3566
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 83 3507 3526 "ocamlbuild/solver.ml" 83 3507 3566
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 79 3299 3315 "ocamlbuild/solver.ml" 83 3507 3566
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 77 3185 3199 "ocamlbuild/solver.ml" 83 3507 3566
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 71 2905 2917 "ocamlbuild/solver.ml" 83 3507 3566
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 68 2833 2841 "ocamlbuild/solver.ml" 83 3507 3566
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 84 3567 3576 "ocamlbuild/solver.ml" 84 3567 3587
+type(
+  Rule.rule list -> backtrace list -> unit
+)
+ident(
+  int_ref until_works "ocamlbuild/solver.ml" 67 2791 2805 "ocamlbuild/solver.ml" 67 2791 2816
+)
+"ocamlbuild/solver.ml" 84 3567 3588 "ocamlbuild/solver.ml" 84 3567 3602
+type(
+  Rule.rule list
+)
+ident(
+  int_ref matching_rules "ocamlbuild/solver.ml" 63 2621 2629 "ocamlbuild/solver.ml" 63 2621 2643
+)
+"ocamlbuild/solver.ml" 84 3567 3603 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 84 3567 3576 "ocamlbuild/solver.ml" 84 3567 3605
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 67 2791 2797 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 64 2710 2714 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 63 2621 2625 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 57 2355 2359 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 53 2134 2138 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 44 1680 1682 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 43 1597 1599 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 42 1527 1529 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 40 1480 1482 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 39 1445 1447 "ocamlbuild/solver.ml" 84 3567 3605
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 85 3606 3610 "ocamlbuild/solver.ml" 85 3606 3620
+type(
+  int ->
+  Pathname.t list ->
+  backtrace list -> Pathname.t list -> (Pathname.t, exn) My_std.Outcome.t
+)
+ident(
+  def self_first "ocamlbuild/solver.ml" 38 1402 1402 --
+)
+"ocamlbuild/solver.ml" 85 3606 3621 "ocamlbuild/solver.ml" 85 3606 3626
+type(
+  int
+)
+ident(
+  def depth "ocamlbuild/solver.ml" 85 3606 3627 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 85 3606 3627 "ocamlbuild/solver.ml" 85 3606 3636
+type(
+  Pathname.t list
+)
+ident(
+  def on_the_go "ocamlbuild/solver.ml" 85 3606 3637 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 85 3606 3637 "ocamlbuild/solver.ml" 85 3606 3651
+type(
+  backtrace list
+)
+ident(
+  def already_failed "ocamlbuild/solver.ml" 85 3606 3652 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 85 3606 3652 "ocamlbuild/solver.ml" 85 3606 3654
+type(
+  Pathname.t list
+)
+ident(
+  def rs "ocamlbuild/solver.ml" 86 3657 3659 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 86 3657 3665 "ocamlbuild/solver.ml" 86 3657 3667
+type(
+  Pathname.t list
+)
+ident(
+  int_ref rs "ocamlbuild/solver.ml" 85 3606 3652 "ocamlbuild/solver.ml" 85 3606 3654
+)
+"ocamlbuild/solver.ml" 87 3673 3677 "ocamlbuild/solver.ml" 87 3673 3679
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 87 3673 3703 "ocamlbuild/solver.ml" 87 3673 3717
+type(
+  backtrace list
+)
+ident(
+  int_ref already_failed "ocamlbuild/solver.ml" 85 3606 3637 "ocamlbuild/solver.ml" 85 3606 3651
+)
+"ocamlbuild/solver.ml" 87 3673 3695 "ocamlbuild/solver.ml" 87 3673 3718
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 87 3673 3687 "ocamlbuild/solver.ml" 87 3673 3719
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 87 3673 3683 "ocamlbuild/solver.ml" 87 3673 3719
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 88 3720 3724 "ocamlbuild/solver.ml" 88 3720 3725
+type(
+  Pathname.t
+)
+ident(
+  def r "ocamlbuild/solver.ml" 89 3735 3741 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 88 3720 3729 "ocamlbuild/solver.ml" 88 3720 3731
+type(
+  Pathname.t list
+)
+ident(
+  def rs "ocamlbuild/solver.ml" 89 3735 3741 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 88 3720 3724 "ocamlbuild/solver.ml" 88 3720 3731
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 89 3735 3745 "ocamlbuild/solver.ml" 89 3735 3749
+type(
+  int -> Pathname.t list -> Pathname.t -> unit
+)
+ident(
+  int_ref self "ocamlbuild/solver.ml" 38 1402 1410 "ocamlbuild/solver.ml" 38 1402 1414
+)
+"ocamlbuild/solver.ml" 89 3735 3750 "ocamlbuild/solver.ml" 89 3735 3755
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 85 3606 3621 "ocamlbuild/solver.ml" 85 3606 3626
+)
+"ocamlbuild/solver.ml" 89 3735 3756 "ocamlbuild/solver.ml" 89 3735 3765
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go "ocamlbuild/solver.ml" 85 3606 3627 "ocamlbuild/solver.ml" 85 3606 3636
+)
+"ocamlbuild/solver.ml" 89 3735 3766 "ocamlbuild/solver.ml" 89 3735 3767
+type(
+  Pathname.t
+)
+ident(
+  int_ref r "ocamlbuild/solver.ml" 88 3720 3724 "ocamlbuild/solver.ml" 88 3720 3725
+)
+"ocamlbuild/solver.ml" 89 3735 3745 "ocamlbuild/solver.ml" 89 3735 3767
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 89 3735 3774 "ocamlbuild/solver.ml" 89 3735 3775
+type(
+  Pathname.t
+)
+ident(
+  int_ref r "ocamlbuild/solver.ml" 88 3720 3724 "ocamlbuild/solver.ml" 88 3720 3725
+)
+"ocamlbuild/solver.ml" 89 3735 3769 "ocamlbuild/solver.ml" 89 3735 3775
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 89 3735 3745 "ocamlbuild/solver.ml" 89 3735 3775
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 90 3776 3794 "ocamlbuild/solver.ml" 90 3776 3803
+type(
+  backtrace
+)
+ident(
+  def backtrace "ocamlbuild/solver.ml" 90 3776 3807 "ocamlbuild/solver.ml" 90 3776 3866
+)
+"ocamlbuild/solver.ml" 90 3776 3787 "ocamlbuild/solver.ml" 90 3776 3803
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 90 3776 3807 "ocamlbuild/solver.ml" 90 3776 3817
+type(
+  int ->
+  Pathname.t list ->
+  backtrace list -> Pathname.t list -> (Pathname.t, exn) My_std.Outcome.t
+)
+ident(
+  int_ref self_first "ocamlbuild/solver.ml" 85 3606 3610 "ocamlbuild/solver.ml" 85 3606 3620
+)
+"ocamlbuild/solver.ml" 90 3776 3818 "ocamlbuild/solver.ml" 90 3776 3823
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 85 3606 3621 "ocamlbuild/solver.ml" 85 3606 3626
+)
+"ocamlbuild/solver.ml" 90 3776 3824 "ocamlbuild/solver.ml" 90 3776 3833
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go "ocamlbuild/solver.ml" 85 3606 3627 "ocamlbuild/solver.ml" 85 3606 3636
+)
+"ocamlbuild/solver.ml" 90 3776 3835 "ocamlbuild/solver.ml" 90 3776 3844
+type(
+  backtrace
+)
+ident(
+  int_ref backtrace "ocamlbuild/solver.ml" 90 3776 3794 "ocamlbuild/solver.ml" 90 3776 3803
+)
+"ocamlbuild/solver.ml" 90 3776 3848 "ocamlbuild/solver.ml" 90 3776 3862
+type(
+  backtrace list
+)
+ident(
+  int_ref already_failed "ocamlbuild/solver.ml" 85 3606 3637 "ocamlbuild/solver.ml" 85 3606 3651
+)
+"ocamlbuild/solver.ml" 90 3776 3834 "ocamlbuild/solver.ml" 90 3776 3863
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 90 3776 3864 "ocamlbuild/solver.ml" 90 3776 3866
+type(
+  Pathname.t list
+)
+ident(
+  int_ref rs "ocamlbuild/solver.ml" 88 3720 3729 "ocamlbuild/solver.ml" 88 3720 3731
+)
+"ocamlbuild/solver.ml" 90 3776 3807 "ocamlbuild/solver.ml" 90 3776 3866
+call(
+  tail
+)
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 89 3735 3741 "ocamlbuild/solver.ml" 90 3776 3866
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 86 3657 3659 "ocamlbuild/solver.ml" 90 3776 3866
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 91 3867 3871 "ocamlbuild/solver.ml" 91 3867 3882
+type(
+  int -> Pathname.t list -> Rule.builder
+)
+ident(
+  def self_firsts "ocamlbuild/solver.ml" 38 1402 1402 --
+)
+"ocamlbuild/solver.ml" 91 3867 3883 "ocamlbuild/solver.ml" 91 3867 3888
+type(
+  int
+)
+ident(
+  def depth "ocamlbuild/solver.ml" 91 3867 3889 "ocamlbuild/solver.ml" 115 4785 4794
+)
+"ocamlbuild/solver.ml" 91 3867 3889 "ocamlbuild/solver.ml" 91 3867 3898
+type(
+  Pathname.t list
+)
+ident(
+  def on_the_go "ocamlbuild/solver.ml" 91 3867 3899 "ocamlbuild/solver.ml" 115 4785 4794
+)
+"ocamlbuild/solver.ml" 91 3867 3899 "ocamlbuild/solver.ml" 91 3867 3902
+type(
+  Pathname.t list list
+)
+ident(
+  def rss "ocamlbuild/solver.ml" 92 3905 3907 "ocamlbuild/solver.ml" 115 4785 4794
+)
+"ocamlbuild/solver.ml" 92 3905 3911 "ocamlbuild/solver.ml" 92 3905 3918
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 92 3905 3921 "ocamlbuild/solver.ml" 92 3905 3929
+type(
+  (Pathname.t list -> (Pathname.t, exn) My_std.Outcome.t) ->
+  Pathname.t list list -> (Pathname.t, exn) My_std.Outcome.t list
+)
+ident(
+  ext_ref My_std.List.map
+)
+"ocamlbuild/solver.ml" 92 3905 3931 "ocamlbuild/solver.ml" 92 3905 3941
+type(
+  int ->
+  Pathname.t list ->
+  backtrace list -> Pathname.t list -> (Pathname.t, exn) My_std.Outcome.t
+)
+ident(
+  int_ref self_first "ocamlbuild/solver.ml" 85 3606 3610 "ocamlbuild/solver.ml" 85 3606 3620
+)
+"ocamlbuild/solver.ml" 92 3905 3942 "ocamlbuild/solver.ml" 92 3905 3947
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 91 3867 3883 "ocamlbuild/solver.ml" 91 3867 3888
+)
+"ocamlbuild/solver.ml" 92 3905 3948 "ocamlbuild/solver.ml" 92 3905 3957
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go "ocamlbuild/solver.ml" 91 3867 3889 "ocamlbuild/solver.ml" 91 3867 3898
+)
+"ocamlbuild/solver.ml" 92 3905 3958 "ocamlbuild/solver.ml" 92 3905 3960
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 92 3905 3930 "ocamlbuild/solver.ml" 92 3905 3961
+call(
+  stack
+)
+type(
+  Pathname.t list -> (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 92 3905 3962 "ocamlbuild/solver.ml" 92 3905 3965
+type(
+  Pathname.t list list
+)
+ident(
+  int_ref rss "ocamlbuild/solver.ml" 91 3867 3899 "ocamlbuild/solver.ml" 91 3867 3902
+)
+"ocamlbuild/solver.ml" 92 3905 3921 "ocamlbuild/solver.ml" 92 3905 3965
+call(
+  stack
+)
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 93 3969 3975 "ocamlbuild/solver.ml" 93 3969 3979
+type(
+  Command.t list
+)
+"ocamlbuild/solver.ml" 93 3969 3981 "ocamlbuild/solver.ml" 93 3969 3987
+type(
+  (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 93 3969 3975 "ocamlbuild/solver.ml" 93 3969 3987
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 94 3990 3994 "ocamlbuild/solver.ml" 94 3990 4009
+type(
+  ((Pathname.t, exn) My_std.Outcome.t ->
+   Command.t list * (unit -> unit) list ->
+   Command.t list * (unit -> unit) list) ->
+  (Pathname.t, exn) My_std.Outcome.t list ->
+  Command.t list * (unit -> unit) list ->
+  Command.t list * (unit -> unit) list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/solver.ml" 94 3990 4020 "ocamlbuild/solver.ml" 94 3990 4023
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+ident(
+  def res "ocamlbuild/solver.ml" 94 3990 4024 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 94 3990 4026 "ocamlbuild/solver.ml" 94 3990 4030
+type(
+  Command.t list
+)
+ident(
+  def acc1 "ocamlbuild/solver.ml" 95 4049 4055 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 94 3990 4032 "ocamlbuild/solver.ml" 94 3990 4036
+type(
+  (unit -> unit) list
+)
+ident(
+  def acc2 "ocamlbuild/solver.ml" 95 4049 4055 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 94 3990 4025 "ocamlbuild/solver.ml" 94 3990 4037
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 94 3990 4024 "ocamlbuild/solver.ml" 94 3990 4045
+type(
+  Command.t list * (unit -> unit) list
+)
+ident(
+  def acc "ocamlbuild/solver.ml" 95 4049 4055 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 95 4049 4061 "ocamlbuild/solver.ml" 95 4049 4064
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+ident(
+  int_ref res "ocamlbuild/solver.ml" 94 3990 4020 "ocamlbuild/solver.ml" 94 3990 4023
+)
+"ocamlbuild/solver.ml" 96 4070 4082 "ocamlbuild/solver.ml" 96 4070 4083
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 96 4070 4078 "ocamlbuild/solver.ml" 96 4070 4083
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 96 4070 4087 "ocamlbuild/solver.ml" 96 4070 4090
+type(
+  Command.t list * (unit -> unit) list
+)
+ident(
+  int_ref acc "ocamlbuild/solver.ml" 94 3990 4024 "ocamlbuild/solver.ml" 94 3990 4045
+)
+"ocamlbuild/solver.ml" 97 4091 4104 "ocamlbuild/solver.ml" 97 4091 4107
+type(
+  Pathname.t
+)
+ident(
+  def res "ocamlbuild/solver.ml" 98 4111 4121 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 97 4091 4099 "ocamlbuild/solver.ml" 97 4091 4107
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 98 4111 4127 "ocamlbuild/solver.ml" 98 4111 4174
+type(
+  Pathname.t -> (Command.t * (unit -> unit)) option
+)
+ident(
+  ext_ref Resource.Cache.get_optional_resource_suspension
+)
+"ocamlbuild/solver.ml" 98 4111 4175 "ocamlbuild/solver.ml" 98 4111 4178
+type(
+  Pathname.t
+)
+ident(
+  int_ref res "ocamlbuild/solver.ml" 97 4091 4104 "ocamlbuild/solver.ml" 97 4091 4107
+)
+"ocamlbuild/solver.ml" 98 4111 4127 "ocamlbuild/solver.ml" 98 4111 4178
+call(
+  stack
+)
+type(
+  (Command.t * (unit -> unit)) option
+)
+"ocamlbuild/solver.ml" 99 4184 4196 "ocamlbuild/solver.ml" 99 4184 4200
+type(
+  (Command.t * (unit -> unit)) option
+)
+"ocamlbuild/solver.ml" 99 4184 4204 "ocamlbuild/solver.ml" 99 4184 4207
+type(
+  Command.t list * (unit -> unit) list
+)
+ident(
+  int_ref acc "ocamlbuild/solver.ml" 94 3990 4024 "ocamlbuild/solver.ml" 94 3990 4045
+)
+"ocamlbuild/solver.ml" 100 4208 4226 "ocamlbuild/solver.ml" 100 4208 4229
+type(
+  Command.t
+)
+ident(
+  def cmd "ocamlbuild/solver.ml" 100 4208 4241 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 100 4208 4231 "ocamlbuild/solver.ml" 100 4208 4236
+type(
+  unit -> unit
+)
+ident(
+  def thunk "ocamlbuild/solver.ml" 100 4208 4241 "ocamlbuild/solver.ml" 100 4208 4269
+)
+"ocamlbuild/solver.ml" 100 4208 4225 "ocamlbuild/solver.ml" 100 4208 4237
+type(
+  Command.t * (unit -> unit)
+)
+"ocamlbuild/solver.ml" 100 4208 4220 "ocamlbuild/solver.ml" 100 4208 4237
+type(
+  (Command.t * (unit -> unit)) option
+)
+"ocamlbuild/solver.ml" 100 4208 4242 "ocamlbuild/solver.ml" 100 4208 4245
+type(
+  Command.t
+)
+ident(
+  int_ref cmd "ocamlbuild/solver.ml" 100 4208 4226 "ocamlbuild/solver.ml" 100 4208 4229
+)
+"ocamlbuild/solver.ml" 100 4208 4249 "ocamlbuild/solver.ml" 100 4208 4253
+type(
+  Command.t list
+)
+ident(
+  int_ref acc1 "ocamlbuild/solver.ml" 94 3990 4026 "ocamlbuild/solver.ml" 94 3990 4030
+)
+"ocamlbuild/solver.ml" 100 4208 4242 "ocamlbuild/solver.ml" 100 4208 4253
+type(
+  Command.t list
+)
+"ocamlbuild/solver.ml" 100 4208 4255 "ocamlbuild/solver.ml" 100 4208 4260
+type(
+  unit -> unit
+)
+ident(
+  int_ref thunk "ocamlbuild/solver.ml" 100 4208 4231 "ocamlbuild/solver.ml" 100 4208 4236
+)
+"ocamlbuild/solver.ml" 100 4208 4264 "ocamlbuild/solver.ml" 100 4208 4268
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref acc2 "ocamlbuild/solver.ml" 94 3990 4032 "ocamlbuild/solver.ml" 94 3990 4036
+)
+"ocamlbuild/solver.ml" 100 4208 4255 "ocamlbuild/solver.ml" 100 4208 4268
+type(
+  (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 100 4208 4241 "ocamlbuild/solver.ml" 100 4208 4269
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 98 4111 4121 "ocamlbuild/solver.ml" 100 4208 4269
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 95 4049 4055 "ocamlbuild/solver.ml" 100 4208 4269
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 94 3990 4010 "ocamlbuild/solver.ml" 101 4270 4277
+type(
+  (Pathname.t, exn) My_std.Outcome.t ->
+  Command.t list * (unit -> unit) list ->
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 101 4270 4278 "ocamlbuild/solver.ml" 101 4270 4285
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+ident(
+  int_ref results "ocamlbuild/solver.ml" 92 3905 3911 "ocamlbuild/solver.ml" 92 3905 3918
+)
+"ocamlbuild/solver.ml" 101 4270 4287 "ocamlbuild/solver.ml" 101 4270 4289
+type(
+  Command.t list
+)
+"ocamlbuild/solver.ml" 101 4270 4291 "ocamlbuild/solver.ml" 101 4270 4293
+type(
+  (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 101 4270 4286 "ocamlbuild/solver.ml" 101 4270 4294
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 94 3990 3994 "ocamlbuild/solver.ml" 101 4270 4294
+call(
+  stack
+)
+type(
+  Command.t list * (unit -> unit) list
+)
+"ocamlbuild/solver.ml" 102 4298 4304 "ocamlbuild/solver.ml" 102 4298 4309
+type(
+  int
+)
+"ocamlbuild/solver.ml" 102 4298 4312 "ocamlbuild/solver.ml" 102 4298 4323
+type(
+  Command.t list -> int
+)
+ident(
+  ext_ref My_std.List.length
+)
+"ocamlbuild/solver.ml" 102 4298 4324 "ocamlbuild/solver.ml" 102 4298 4328
+type(
+  Command.t list
+)
+ident(
+  int_ref cmds "ocamlbuild/solver.ml" 93 3969 3975 "ocamlbuild/solver.ml" 93 3969 3979
+)
+"ocamlbuild/solver.ml" 102 4298 4312 "ocamlbuild/solver.ml" 102 4298 4328
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/solver.ml" 103 4332 4338 "ocamlbuild/solver.ml" 103 4332 4347
+type(
+  int
+)
+"ocamlbuild/solver.ml" 103 4332 4353 "ocamlbuild/solver.ml" 103 4332 4354
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/solver.ml" 103 4332 4354 "ocamlbuild/solver.ml" 103 4332 4366
+type(
+  int ref
+)
+ident(
+  ext_ref Command.jobs
+)
+"ocamlbuild/solver.ml" 103 4332 4353 "ocamlbuild/solver.ml" 103 4332 4366
+type(
+  int
+)
+"ocamlbuild/solver.ml" 103 4332 4367 "ocamlbuild/solver.ml" 103 4332 4368
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/solver.ml" 103 4332 4369 "ocamlbuild/solver.ml" 103 4332 4370
+type(
+  int
+)
+"ocamlbuild/solver.ml" 103 4332 4353 "ocamlbuild/solver.ml" 103 4332 4370
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 103 4332 4376 "ocamlbuild/solver.ml" 103 4332 4378
+type(
+  int
+)
+"ocamlbuild/solver.ml" 103 4332 4384 "ocamlbuild/solver.ml" 103 4332 4385
+type(
+  int
+)
+"ocamlbuild/solver.ml" 103 4332 4350 "ocamlbuild/solver.ml" 103 4332 4385
+type(
+  int
+)
+"ocamlbuild/solver.ml" 104 4389 4394 "ocamlbuild/solver.ml" 104 4389 4399
+type(
+  int
+)
+ident(
+  int_ref count "ocamlbuild/solver.ml" 102 4298 4304 "ocamlbuild/solver.ml" 102 4298 4309
+)
+"ocamlbuild/solver.ml" 104 4389 4400 "ocamlbuild/solver.ml" 104 4389 4401
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/solver.ml" 104 4389 4402 "ocamlbuild/solver.ml" 104 4389 4403
+type(
+  int
+)
+"ocamlbuild/solver.ml" 104 4389 4394 "ocamlbuild/solver.ml" 104 4389 4403
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 104 4389 4409 "ocamlbuild/solver.ml" 104 4389 4416
+type(
+  int -> (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/solver.ml" 104 4389 4417 "ocamlbuild/solver.ml" 104 4389 4426
+type(
+  int
+)
+ident(
+  int_ref job_debug "ocamlbuild/solver.ml" 103 4332 4338 "ocamlbuild/solver.ml" 103 4332 4347
+)
+"ocamlbuild/solver.ml" 104 4389 4427 "ocamlbuild/solver.ml" 104 4389 4445
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"ocamlbuild/solver.ml" 104 4389 4446 "ocamlbuild/solver.ml" 104 4389 4451
+type(
+  int
+)
+ident(
+  int_ref count "ocamlbuild/solver.ml" 102 4298 4304 "ocamlbuild/solver.ml" 102 4298 4309
+)
+"ocamlbuild/solver.ml" 104 4389 4409 "ocamlbuild/solver.ml" 104 4389 4451
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 104 4389 4391 "ocamlbuild/solver.ml" 104 4389 4451
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 105 4453 4459 "ocamlbuild/solver.ml" 105 4453 4466
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/solver.ml" 105 4453 4469 "ocamlbuild/solver.ml" 105 4453 4489
+type(
+  ?quiet:bool -> ?pretend:bool -> Command.t list -> (bool list * exn) option
+)
+ident(
+  ext_ref Command.execute_many
+)
+"ocamlbuild/solver.ml" 105 4453 4490 "ocamlbuild/solver.ml" 105 4453 4494
+type(
+  Command.t list
+)
+ident(
+  int_ref cmds "ocamlbuild/solver.ml" 93 3969 3975 "ocamlbuild/solver.ml" 93 3969 3979
+)
+"ocamlbuild/solver.ml" 105 4453 4469 "ocamlbuild/solver.ml" 105 4453 4494
+call(
+  stack
+)
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/solver.ml" 106 4498 4503 "ocamlbuild/solver.ml" 106 4498 4508
+type(
+  int
+)
+ident(
+  int_ref count "ocamlbuild/solver.ml" 102 4298 4304 "ocamlbuild/solver.ml" 102 4298 4309
+)
+"ocamlbuild/solver.ml" 106 4498 4509 "ocamlbuild/solver.ml" 106 4498 4510
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/solver.ml" 106 4498 4511 "ocamlbuild/solver.ml" 106 4498 4512
+type(
+  int
+)
+"ocamlbuild/solver.ml" 106 4498 4503 "ocamlbuild/solver.ml" 106 4498 4512
+type(
+  bool
+)
+"ocamlbuild/solver.ml" 106 4498 4518 "ocamlbuild/solver.ml" 106 4498 4525
+type(
+  int -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Log.dprintf
+)
+"ocamlbuild/solver.ml" 106 4498 4526 "ocamlbuild/solver.ml" 106 4498 4535
+type(
+  int
+)
+ident(
+  int_ref job_debug "ocamlbuild/solver.ml" 103 4332 4338 "ocamlbuild/solver.ml" 103 4332 4347
+)
+"ocamlbuild/solver.ml" 106 4498 4536 "ocamlbuild/solver.ml" 106 4498 4550
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/solver.ml" 106 4498 4518 "ocamlbuild/solver.ml" 106 4498 4550
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 106 4498 4500 "ocamlbuild/solver.ml" 106 4498 4550
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 107 4552 4566 "ocamlbuild/solver.ml" 107 4552 4573
+type(
+  (bool list * exn) option
+)
+ident(
+  int_ref opt_exn "ocamlbuild/solver.ml" 105 4453 4459 "ocamlbuild/solver.ml" 105 4453 4466
+)
+"ocamlbuild/solver.ml" 108 4579 4588 "ocamlbuild/solver.ml" 108 4579 4591
+type(
+  bool list
+)
+ident(
+  def res "ocamlbuild/solver.ml" 109 4601 4607 "ocamlbuild/solver.ml" 111 4703 4718
+)
+"ocamlbuild/solver.ml" 108 4579 4593 "ocamlbuild/solver.ml" 108 4579 4596
+type(
+  exn
+)
+ident(
+  def exn "ocamlbuild/solver.ml" 109 4601 4607 "ocamlbuild/solver.ml" 111 4703 4718
+)
+"ocamlbuild/solver.ml" 108 4579 4587 "ocamlbuild/solver.ml" 108 4579 4597
+type(
+  bool list * exn
+)
+"ocamlbuild/solver.ml" 108 4579 4583 "ocamlbuild/solver.ml" 108 4579 4597
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/solver.ml" 109 4601 4607 "ocamlbuild/solver.ml" 109 4601 4617
+type(
+  (bool -> (unit -> unit) -> unit) ->
+  bool list -> (unit -> unit) list -> unit
+)
+ident(
+  ext_ref My_std.List.iter2
+)
+"ocamlbuild/solver.ml" 109 4601 4623 "ocamlbuild/solver.ml" 109 4601 4626
+type(
+  bool
+)
+ident(
+  def res "ocamlbuild/solver.ml" 109 4601 4627 "ocamlbuild/solver.ml" 109 4601 4656
+)
+"ocamlbuild/solver.ml" 109 4601 4627 "ocamlbuild/solver.ml" 109 4601 4632
+type(
+  unit -> unit
+)
+ident(
+  def thunk "ocamlbuild/solver.ml" 109 4601 4636 "ocamlbuild/solver.ml" 109 4601 4656
+)
+"ocamlbuild/solver.ml" 109 4601 4639 "ocamlbuild/solver.ml" 109 4601 4642
+type(
+  bool
+)
+ident(
+  int_ref res "ocamlbuild/solver.ml" 109 4601 4623 "ocamlbuild/solver.ml" 109 4601 4626
+)
+"ocamlbuild/solver.ml" 109 4601 4648 "ocamlbuild/solver.ml" 109 4601 4653
+type(
+  unit -> unit
+)
+ident(
+  int_ref thunk "ocamlbuild/solver.ml" 109 4601 4627 "ocamlbuild/solver.ml" 109 4601 4632
+)
+"ocamlbuild/solver.ml" 109 4601 4654 "ocamlbuild/solver.ml" 109 4601 4656
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 109 4601 4648 "ocamlbuild/solver.ml" 109 4601 4656
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 109 4601 4636 "ocamlbuild/solver.ml" 109 4601 4656
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 109 4601 4618 "ocamlbuild/solver.ml" 109 4601 4657
+type(
+  bool -> (unit -> unit) -> unit
+)
+"ocamlbuild/solver.ml" 109 4601 4658 "ocamlbuild/solver.ml" 109 4601 4661
+type(
+  bool list
+)
+ident(
+  int_ref res "ocamlbuild/solver.ml" 108 4579 4588 "ocamlbuild/solver.ml" 108 4579 4591
+)
+"ocamlbuild/solver.ml" 109 4601 4662 "ocamlbuild/solver.ml" 109 4601 4668
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref thunks "ocamlbuild/solver.ml" 93 3969 3981 "ocamlbuild/solver.ml" 93 3969 3987
+)
+"ocamlbuild/solver.ml" 109 4601 4607 "ocamlbuild/solver.ml" 109 4601 4668
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 110 4670 4676 "ocamlbuild/solver.ml" 110 4670 4686
+type(
+  ?how:[ `Error | `Quiet | `Success ] -> unit -> unit
+)
+ident(
+  ext_ref Log.finish
+)
+"ocamlbuild/solver.ml" 110 4670 4692 "ocamlbuild/solver.ml" 110 4670 4698
+type(
+  [ `Error | `Quiet | `Success ]
+)
+"ocamlbuild/solver.ml" 110 4670 4699 "ocamlbuild/solver.ml" 110 4670 4701
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 110 4670 4676 "ocamlbuild/solver.ml" 110 4670 4701
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 111 4703 4709 "ocamlbuild/solver.ml" 111 4703 4714
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/solver.ml" 111 4703 4715 "ocamlbuild/solver.ml" 111 4703 4718
+type(
+  exn
+)
+ident(
+  int_ref exn "ocamlbuild/solver.ml" 108 4579 4593 "ocamlbuild/solver.ml" 108 4579 4596
+)
+"ocamlbuild/solver.ml" 111 4703 4709 "ocamlbuild/solver.ml" 111 4703 4718
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 110 4670 4676 "ocamlbuild/solver.ml" 111 4703 4718
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 109 4601 4607 "ocamlbuild/solver.ml" 111 4703 4718
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 112 4719 4723 "ocamlbuild/solver.ml" 112 4719 4727
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/solver.ml" 113 4731 4737 "ocamlbuild/solver.ml" 113 4731 4746
+type(
+  ((unit -> unit) -> unit) -> (unit -> unit) list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/solver.ml" 113 4731 4752 "ocamlbuild/solver.ml" 113 4731 4757
+type(
+  unit -> unit
+)
+ident(
+  def thunk "ocamlbuild/solver.ml" 113 4731 4761 "ocamlbuild/solver.ml" 113 4731 4769
+)
+"ocamlbuild/solver.ml" 113 4731 4761 "ocamlbuild/solver.ml" 113 4731 4766
+type(
+  unit -> unit
+)
+ident(
+  int_ref thunk "ocamlbuild/solver.ml" 113 4731 4752 "ocamlbuild/solver.ml" 113 4731 4757
+)
+"ocamlbuild/solver.ml" 113 4731 4767 "ocamlbuild/solver.ml" 113 4731 4769
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 113 4731 4761 "ocamlbuild/solver.ml" 113 4731 4769
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 113 4731 4747 "ocamlbuild/solver.ml" 113 4731 4770
+type(
+  (unit -> unit) -> unit
+)
+"ocamlbuild/solver.ml" 113 4731 4771 "ocamlbuild/solver.ml" 113 4731 4777
+type(
+  (unit -> unit) list
+)
+ident(
+  int_ref thunks "ocamlbuild/solver.ml" 93 3969 3981 "ocamlbuild/solver.ml" 93 3969 3987
+)
+"ocamlbuild/solver.ml" 113 4731 4737 "ocamlbuild/solver.ml" 113 4731 4777
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 107 4552 4554 "ocamlbuild/solver.ml" 114 4778 4783
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 115 4785 4787 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+ident(
+  int_ref results "ocamlbuild/solver.ml" 92 3905 3911 "ocamlbuild/solver.ml" 92 3905 3918
+)
+"ocamlbuild/solver.ml" 107 4552 4554 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 106 4498 4500 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 105 4453 4455 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 104 4389 4391 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 103 4332 4334 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 102 4298 4300 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 93 3969 3971 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 92 3905 3907 "ocamlbuild/solver.ml" 115 4785 4794
+type(
+  (Pathname.t, exn) My_std.Outcome.t list
+)
+"ocamlbuild/solver.ml" 116 4795 4799 "ocamlbuild/solver.ml" 116 4795 4809
+type(
+  int -> Pathname.t list -> Pathname.t -> unit
+)
+ident(
+  def force_self "ocamlbuild/solver.ml" 38 1402 1402 --
+)
+"ocamlbuild/solver.ml" 116 4795 4810 "ocamlbuild/solver.ml" 116 4795 4815
+type(
+  int
+)
+ident(
+  def depth "ocamlbuild/solver.ml" 116 4795 4816 "ocamlbuild/solver.ml" 116 4795 4886
+)
+"ocamlbuild/solver.ml" 116 4795 4816 "ocamlbuild/solver.ml" 116 4795 4825
+type(
+  Pathname.t list
+)
+ident(
+  def on_the_go "ocamlbuild/solver.ml" 116 4795 4826 "ocamlbuild/solver.ml" 116 4795 4886
+)
+"ocamlbuild/solver.ml" 116 4795 4826 "ocamlbuild/solver.ml" 116 4795 4827
+type(
+  Pathname.t
+)
+ident(
+  def x "ocamlbuild/solver.ml" 116 4795 4830 "ocamlbuild/solver.ml" 116 4795 4886
+)
+"ocamlbuild/solver.ml" 116 4795 4830 "ocamlbuild/solver.ml" 116 4795 4834
+type(
+  int -> Pathname.t list -> Pathname.t -> unit
+)
+ident(
+  int_ref self "ocamlbuild/solver.ml" 38 1402 1410 "ocamlbuild/solver.ml" 38 1402 1414
+)
+"ocamlbuild/solver.ml" 116 4795 4835 "ocamlbuild/solver.ml" 116 4795 4840
+type(
+  int
+)
+ident(
+  int_ref depth "ocamlbuild/solver.ml" 116 4795 4810 "ocamlbuild/solver.ml" 116 4795 4815
+)
+"ocamlbuild/solver.ml" 116 4795 4841 "ocamlbuild/solver.ml" 116 4795 4850
+type(
+  Pathname.t list
+)
+ident(
+  int_ref on_the_go "ocamlbuild/solver.ml" 116 4795 4816 "ocamlbuild/solver.ml" 116 4795 4825
+)
+"ocamlbuild/solver.ml" 116 4795 4851 "ocamlbuild/solver.ml" 116 4795 4852
+type(
+  Pathname.t
+)
+ident(
+  int_ref x "ocamlbuild/solver.ml" 116 4795 4826 "ocamlbuild/solver.ml" 116 4795 4827
+)
+"ocamlbuild/solver.ml" 116 4795 4830 "ocamlbuild/solver.ml" 116 4795 4852
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 116 4795 4854 "ocamlbuild/solver.ml" 116 4795 4884
+type(
+  Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.Cache.resume_resource
+)
+"ocamlbuild/solver.ml" 116 4795 4885 "ocamlbuild/solver.ml" 116 4795 4886
+type(
+  Pathname.t
+)
+ident(
+  int_ref x "ocamlbuild/solver.ml" 116 4795 4826 "ocamlbuild/solver.ml" 116 4795 4827
+)
+"ocamlbuild/solver.ml" 116 4795 4854 "ocamlbuild/solver.ml" 116 4795 4886
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 116 4795 4830 "ocamlbuild/solver.ml" 116 4795 4886
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 118 4888 4892 "ocamlbuild/solver.ml" 118 4888 4897
+type(
+  Pathname.t -> unit
+)
+ident(
+  def solve "ocamlbuild/solver.ml" 119 4916 4916 --
+)
+"ocamlbuild/solver.ml" 118 4888 4900 "ocamlbuild/solver.ml" 118 4888 4910
+type(
+  int -> Pathname.t list -> Pathname.t -> unit
+)
+ident(
+  int_ref force_self "ocamlbuild/solver.ml" 116 4795 4799 "ocamlbuild/solver.ml" 116 4795 4809
+)
+"ocamlbuild/solver.ml" 118 4888 4911 "ocamlbuild/solver.ml" 118 4888 4912
+type(
+  int
+)
+"ocamlbuild/solver.ml" 118 4888 4913 "ocamlbuild/solver.ml" 118 4888 4915
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 118 4888 4900 "ocamlbuild/solver.ml" 118 4888 4915
+call(
+  stack
+)
+type(
+  Pathname.t -> unit
+)
+"ocamlbuild/solver.ml" 119 4916 4920 "ocamlbuild/solver.ml" 119 4916 4932
+type(
+  string -> Pathname.t list -> Pathname.t
+)
+ident(
+  def solve_target "ocamlbuild/solver.ml" 123 5106 5130 --
+)
+"ocamlbuild/solver.ml" 119 4916 4933 "ocamlbuild/solver.ml" 119 4916 4937
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/solver.ml" 119 4916 4938 "ocamlbuild/solver.ml" 123 5106 5130
+)
+"ocamlbuild/solver.ml" 119 4916 4938 "ocamlbuild/solver.ml" 119 4916 4940
+type(
+  Pathname.t list
+)
+ident(
+  def rs "ocamlbuild/solver.ml" 120 4943 4945 "ocamlbuild/solver.ml" 123 5106 5130
+)
+"ocamlbuild/solver.ml" 120 4943 4951 "ocamlbuild/solver.ml" 120 4943 4961
+type(
+  int ->
+  Pathname.t list ->
+  backtrace list -> Pathname.t list -> (Pathname.t, exn) My_std.Outcome.t
+)
+ident(
+  int_ref self_first "ocamlbuild/solver.ml" 85 3606 3610 "ocamlbuild/solver.ml" 85 3606 3620
+)
+"ocamlbuild/solver.ml" 120 4943 4962 "ocamlbuild/solver.ml" 120 4943 4963
+type(
+  int
+)
+"ocamlbuild/solver.ml" 120 4943 4964 "ocamlbuild/solver.ml" 120 4943 4966
+type(
+  Pathname.t list
+)
+"ocamlbuild/solver.ml" 120 4943 4967 "ocamlbuild/solver.ml" 120 4943 4969
+type(
+  backtrace list
+)
+"ocamlbuild/solver.ml" 120 4943 4970 "ocamlbuild/solver.ml" 120 4943 4972
+type(
+  Pathname.t list
+)
+ident(
+  int_ref rs "ocamlbuild/solver.ml" 119 4916 4938 "ocamlbuild/solver.ml" 119 4916 4940
+)
+"ocamlbuild/solver.ml" 120 4943 4951 "ocamlbuild/solver.ml" 120 4943 4972
+call(
+  stack
+)
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 121 4978 4987 "ocamlbuild/solver.ml" 121 4978 4990
+type(
+  Pathname.t
+)
+ident(
+  def res "ocamlbuild/solver.ml" 121 4978 4994 "ocamlbuild/solver.ml" 121 4978 5033
+)
+"ocamlbuild/solver.ml" 121 4978 4982 "ocamlbuild/solver.ml" 121 4978 4990
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 121 4978 4994 "ocamlbuild/solver.ml" 121 4978 5024
+type(
+  Pathname.t -> unit
+)
+ident(
+  ext_ref Resource.Cache.resume_resource
+)
+"ocamlbuild/solver.ml" 121 4978 5025 "ocamlbuild/solver.ml" 121 4978 5028
+type(
+  Pathname.t
+)
+ident(
+  int_ref res "ocamlbuild/solver.ml" 121 4978 4987 "ocamlbuild/solver.ml" 121 4978 4990
+)
+"ocamlbuild/solver.ml" 121 4978 4994 "ocamlbuild/solver.ml" 121 4978 5028
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/solver.ml" 121 4978 5030 "ocamlbuild/solver.ml" 121 4978 5033
+type(
+  Pathname.t
+)
+ident(
+  int_ref res "ocamlbuild/solver.ml" 121 4978 4987 "ocamlbuild/solver.ml" 121 4978 4990
+)
+"ocamlbuild/solver.ml" 121 4978 4994 "ocamlbuild/solver.ml" 121 4978 5033
+type(
+  Pathname.t
+)
+"ocamlbuild/solver.ml" 122 5034 5050 "ocamlbuild/solver.ml" 122 5034 5059
+type(
+  backtrace
+)
+ident(
+  def backtrace "ocamlbuild/solver.ml" 122 5034 5064 "ocamlbuild/solver.ml" 122 5034 5105
+)
+"ocamlbuild/solver.ml" 122 5034 5042 "ocamlbuild/solver.ml" 122 5034 5060
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 122 5034 5038 "ocamlbuild/solver.ml" 122 5034 5060
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 122 5034 5064 "ocamlbuild/solver.ml" 122 5034 5069
+type(
+  exn -> Pathname.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/solver.ml" 122 5034 5087 "ocamlbuild/solver.ml" 122 5034 5091
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/solver.ml" 119 4916 4933 "ocamlbuild/solver.ml" 119 4916 4937
+)
+"ocamlbuild/solver.ml" 122 5034 5093 "ocamlbuild/solver.ml" 122 5034 5102
+type(
+  backtrace
+)
+ident(
+  int_ref backtrace "ocamlbuild/solver.ml" 122 5034 5050 "ocamlbuild/solver.ml" 122 5034 5059
+)
+"ocamlbuild/solver.ml" 122 5034 5078 "ocamlbuild/solver.ml" 122 5034 5104
+type(
+  backtrace
+)
+"ocamlbuild/solver.ml" 122 5034 5070 "ocamlbuild/solver.ml" 122 5034 5105
+type(
+  exn
+)
+"ocamlbuild/solver.ml" 122 5034 5064 "ocamlbuild/solver.ml" 122 5034 5105
+type(
+  Pathname.t
+)
+"ocamlbuild/solver.ml" 123 5106 5114 "ocamlbuild/solver.ml" 123 5106 5117
+type(
+  exn
+)
+ident(
+  def exn "ocamlbuild/solver.ml" 123 5106 5121 "ocamlbuild/solver.ml" 123 5106 5130
+)
+"ocamlbuild/solver.ml" 123 5106 5110 "ocamlbuild/solver.ml" 123 5106 5117
+type(
+  (Pathname.t, exn) My_std.Outcome.t
+)
+"ocamlbuild/solver.ml" 123 5106 5121 "ocamlbuild/solver.ml" 123 5106 5126
+type(
+  exn -> Pathname.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/solver.ml" 123 5106 5127 "ocamlbuild/solver.ml" 123 5106 5130
+type(
+  exn
+)
+ident(
+  int_ref exn "ocamlbuild/solver.ml" 123 5106 5114 "ocamlbuild/solver.ml" 123 5106 5117
+)
+"ocamlbuild/solver.ml" 123 5106 5121 "ocamlbuild/solver.ml" 123 5106 5130
+type(
+  Pathname.t
+)
+"ocamlbuild/solver.ml" 120 4943 4945 "ocamlbuild/solver.ml" 123 5106 5130
+type(
+  Pathname.t
+)

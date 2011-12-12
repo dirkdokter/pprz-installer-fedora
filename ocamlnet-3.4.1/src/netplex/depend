@@ -1,0 +1,90 @@
+netplex_admin.cmo: netplex_sockserv.cmi netplex_ctrl_clnt.cmi \
+    netplex_ctrl_aux.cmi
+netplex_admin.cmx: netplex_sockserv.cmx netplex_ctrl_clnt.cmx \
+    netplex_ctrl_aux.cmx
+netplex_cenv.cmo: netplex_util.cmo netplex_types.cmi netplex_encap.cmi \
+    netplex_ctrl_clnt.cmi netplex_cenv.cmi
+netplex_cenv.cmx: netplex_util.cmx netplex_types.cmi netplex_encap.cmx \
+    netplex_ctrl_clnt.cmx netplex_cenv.cmi
+netplex_config.cmo: netplex_types.cmi netplex_controller.cmi \
+    netplex_config.cmi
+netplex_config.cmx: netplex_types.cmi netplex_controller.cmx \
+    netplex_config.cmi
+netplex_container.cmo: netplex_util.cmo netplex_types.cmi \
+    netplex_ctrl_clnt.cmi netplex_ctrl_aux.cmi netplex_cenv.cmi \
+    netplex_container.cmi
+netplex_container.cmx: netplex_util.cmx netplex_types.cmi \
+    netplex_ctrl_clnt.cmx netplex_ctrl_aux.cmx netplex_cenv.cmx \
+    netplex_container.cmi
+netplex_controller.cmo: netplex_workload.cmi netplex_util.cmo \
+    netplex_types.cmi netplex_sockserv.cmi netplex_log.cmi netplex_kit.cmi \
+    netplex_ctrl_srv.cmi netplex_ctrl_aux.cmi netplex_container.cmi \
+    netplex_cenv.cmi netplex_controller.cmi
+netplex_controller.cmx: netplex_workload.cmx netplex_util.cmx \
+    netplex_types.cmi netplex_sockserv.cmx netplex_log.cmx netplex_kit.cmx \
+    netplex_ctrl_srv.cmx netplex_ctrl_aux.cmx netplex_container.cmx \
+    netplex_cenv.cmx netplex_controller.cmi
+netplex_ctrl_aux.cmo: netplex_ctrl_aux.cmi
+netplex_ctrl_aux.cmx: netplex_ctrl_aux.cmi
+netplex_ctrl_clnt.cmo: netplex_ctrl_aux.cmi netplex_ctrl_clnt.cmi
+netplex_ctrl_clnt.cmx: netplex_ctrl_aux.cmx netplex_ctrl_clnt.cmi
+netplex_ctrl_srv.cmo: netplex_ctrl_aux.cmi netplex_ctrl_srv.cmi
+netplex_ctrl_srv.cmx: netplex_ctrl_aux.cmx netplex_ctrl_srv.cmi
+netplex_encap.cmo: netplex_encap.cmi
+netplex_encap.cmx: netplex_encap.cmi
+netplex_kit.cmo: netplex_workload.cmi netplex_types.cmi netplex_sockserv.cmi \
+    netplex_kit.cmi
+netplex_kit.cmx: netplex_workload.cmx netplex_types.cmi netplex_sockserv.cmx \
+    netplex_kit.cmi
+netplex_log.cmo: netplex_log.cmi
+netplex_log.cmx: netplex_log.cmi
+netplex_main.cmo: netplex_types.cmi netplex_sockserv.cmi \
+    netplex_controller.cmi netplex_config.cmi netplex_cenv.cmi \
+    netplex_main.cmi
+netplex_main.cmx: netplex_types.cmi netplex_sockserv.cmx \
+    netplex_controller.cmx netplex_config.cmx netplex_cenv.cmx \
+    netplex_main.cmi
+netplex_mp.cmo: netplex_types.cmi netplex_cenv.cmi netplex_mp.cmi
+netplex_mp.cmx: netplex_types.cmi netplex_cenv.cmx netplex_mp.cmi
+netplex_mt.cmo: netplex_types.cmi netplex_cenv.cmi netplex_mt.cmi
+netplex_mt.cmx: netplex_types.cmi netplex_cenv.cmx netplex_mt.cmi
+netplex_mutex.cmo: netplex_types.cmi netplex_semaphore.cmi netplex_mutex.cmi
+netplex_mutex.cmx: netplex_types.cmi netplex_semaphore.cmx netplex_mutex.cmi
+netplex_semaphore.cmo: netplex_types.cmi netplex_ctrl_aux.cmi \
+    netplex_cenv.cmi netplex_semaphore.cmi
+netplex_semaphore.cmx: netplex_types.cmi netplex_ctrl_aux.cmx \
+    netplex_cenv.cmx netplex_semaphore.cmi
+netplex_sharedvar.cmo: netplex_types.cmi netplex_encap.cmi \
+    netplex_ctrl_aux.cmi netplex_cenv.cmi netplex_sharedvar.cmi
+netplex_sharedvar.cmx: netplex_types.cmi netplex_encap.cmx \
+    netplex_ctrl_aux.cmx netplex_cenv.cmx netplex_sharedvar.cmi
+netplex_sockserv.cmo: netplex_util.cmo netplex_types.cmi \
+    netplex_container.cmi netplex_sockserv.cmi
+netplex_sockserv.cmx: netplex_util.cmx netplex_types.cmi \
+    netplex_container.cmx netplex_sockserv.cmi
+netplex_util.cmo: netplex_types.cmi
+netplex_util.cmx: netplex_types.cmi
+netplex_workload.cmo: netplex_types.cmi netplex_workload.cmi
+netplex_workload.cmx: netplex_types.cmi netplex_workload.cmi
+rpc_netplex.cmo: netplex_kit.cmi rpc_netplex.cmi
+rpc_netplex.cmx: netplex_kit.cmx rpc_netplex.cmi
+netplex_cenv.cmi: netplex_types.cmi
+netplex_config.cmi: netplex_types.cmi
+netplex_container.cmi: netplex_types.cmi netplex_ctrl_aux.cmi
+netplex_controller.cmi: netplex_types.cmi
+netplex_ctrl_aux.cmi:
+netplex_ctrl_clnt.cmi: netplex_ctrl_aux.cmi
+netplex_ctrl_srv.cmi: netplex_ctrl_aux.cmi
+netplex_encap.cmi:
+netplex_kit.cmi: netplex_types.cmi
+netplex_log.cmi: netplex_types.cmi
+netplex_main.cmi: netplex_types.cmi
+netplex_mp.cmi: netplex_types.cmi
+netplex_mt.cmi: netplex_types.cmi
+netplex_mutex.cmi: netplex_types.cmi
+netplex_semaphore.cmi: netplex_types.cmi
+netplex_sharedvar.cmi: netplex_types.cmi netplex_cenv.cmi
+netplex_sockserv.cmi: netplex_types.cmi
+netplex_types.cmi: netplex_encap.cmi
+netplex_workload.cmi: netplex_types.cmi
+rpc_netplex.cmi: netplex_types.cmi

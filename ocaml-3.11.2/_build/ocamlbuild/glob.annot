@@ -1,0 +1,6948 @@
+"ocamlbuild/glob.ml" 20 852 856 "ocamlbuild/glob.ml" 20 852 858
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  def sf "ocamlbuild/glob.ml" 22 879 879 --
+)
+"ocamlbuild/glob.ml" 20 852 861 "ocamlbuild/glob.ml" 20 852 875
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/glob.ml" 22 879 883 "ocamlbuild/glob.ml" 22 879 894
+type(
+  int
+)
+ident(
+  def brute_limit "ocamlbuild/glob.ml" 25 927 927 --
+)
+"ocamlbuild/glob.ml" 22 879 897 "ocamlbuild/glob.ml" 22 879 899
+type(
+  int
+)
+"ocamlbuild/glob.ml" 25 927 931 "ocamlbuild/glob.ml" 25 927 946
+type(
+  Glob_lexer.token -> string
+)
+ident(
+  def string_of_token "ocamlbuild/glob.ml" 38 1146 1146 --
+)
+"ocamlbuild/glob.ml" 26 958 965 "ocamlbuild/glob.ml" 26 958 966
+type(
+  Glob_ast.pattern Glob_ast.atom
+)
+"ocamlbuild/glob.ml" 26 958 960 "ocamlbuild/glob.ml" 26 958 966
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 26 958 970 "ocamlbuild/glob.ml" 26 958 976
+type(
+  string
+)
+"ocamlbuild/glob.ml" 27 977 979 "ocamlbuild/glob.ml" 27 977 982
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 27 977 986 "ocamlbuild/glob.ml" 27 977 991
+type(
+  string
+)
+"ocamlbuild/glob.ml" 28 992 994 "ocamlbuild/glob.ml" 28 992 996
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 28 992 1000 "ocamlbuild/glob.ml" 28 992 1004
+type(
+  string
+)
+"ocamlbuild/glob.ml" 29 1005 1007 "ocamlbuild/glob.ml" 29 1005 1010
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 29 1005 1014 "ocamlbuild/glob.ml" 29 1005 1019
+type(
+  string
+)
+"ocamlbuild/glob.ml" 30 1020 1022 "ocamlbuild/glob.ml" 30 1020 1026
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 30 1020 1030 "ocamlbuild/glob.ml" 30 1020 1036
+type(
+  string
+)
+"ocamlbuild/glob.ml" 31 1037 1039 "ocamlbuild/glob.ml" 31 1037 1043
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 31 1037 1047 "ocamlbuild/glob.ml" 31 1037 1053
+type(
+  string
+)
+"ocamlbuild/glob.ml" 32 1054 1056 "ocamlbuild/glob.ml" 32 1054 1060
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 32 1054 1064 "ocamlbuild/glob.ml" 32 1054 1070
+type(
+  string
+)
+"ocamlbuild/glob.ml" 33 1071 1073 "ocamlbuild/glob.ml" 33 1071 1078
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 33 1071 1082 "ocamlbuild/glob.ml" 33 1071 1089
+type(
+  string
+)
+"ocamlbuild/glob.ml" 34 1090 1092 "ocamlbuild/glob.ml" 34 1090 1095
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 34 1090 1099 "ocamlbuild/glob.ml" 34 1090 1104
+type(
+  string
+)
+"ocamlbuild/glob.ml" 25 927 949 "ocamlbuild/glob.ml" 34 1090 1104
+type(
+  Glob_lexer.token -> string
+)
+"ocamlbuild/glob.ml" 38 1146 1150 "ocamlbuild/glob.ml" 38 1146 1171
+type(
+  ('a * 'a) Bool.boolean -> 'a -> bool
+)
+ident(
+  def match_character_class "ocamlbuild/glob.ml" 47 1284 1284 --
+)
+"ocamlbuild/glob.ml" 38 1146 1172 "ocamlbuild/glob.ml" 38 1146 1174
+type(
+  ('a * 'a) Bool.boolean
+)
+ident(
+  def cl "ocamlbuild/glob.ml" 38 1146 1175 "ocamlbuild/glob.ml" 43 1254 1260
+)
+"ocamlbuild/glob.ml" 38 1146 1175 "ocamlbuild/glob.ml" 38 1146 1176
+type(
+  'a
+)
+ident(
+  def c "ocamlbuild/glob.ml" 39 1179 1181 "ocamlbuild/glob.ml" 43 1254 1260
+)
+"ocamlbuild/glob.ml" 39 1179 1181 "ocamlbuild/glob.ml" 39 1179 1190
+type(
+  ('a * 'a -> bool) -> ('a * 'a) Bool.boolean -> bool
+)
+ident(
+  ext_ref Bool.eval
+)
+"ocamlbuild/glob.ml" 40 1191 1211 "ocamlbuild/glob.ml" 40 1191 1213
+type(
+  'a
+)
+ident(
+  def c1 "ocamlbuild/glob.ml" 41 1221 1227 "ocamlbuild/glob.ml" 41 1221 1245
+)
+"ocamlbuild/glob.ml" 40 1191 1214 "ocamlbuild/glob.ml" 40 1191 1216
+type(
+  'a
+)
+ident(
+  def c2 "ocamlbuild/glob.ml" 41 1221 1227 "ocamlbuild/glob.ml" 41 1221 1245
+)
+"ocamlbuild/glob.ml" 40 1191 1210 "ocamlbuild/glob.ml" 40 1191 1217
+type(
+  'a * 'a
+)
+"ocamlbuild/glob.ml" 41 1221 1227 "ocamlbuild/glob.ml" 41 1221 1229
+type(
+  'a
+)
+ident(
+  int_ref c1 "ocamlbuild/glob.ml" 40 1191 1211 "ocamlbuild/glob.ml" 40 1191 1213
+)
+"ocamlbuild/glob.ml" 41 1221 1230 "ocamlbuild/glob.ml" 41 1221 1232
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/glob.ml" 41 1221 1233 "ocamlbuild/glob.ml" 41 1221 1234
+type(
+  'a
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 38 1146 1175 "ocamlbuild/glob.ml" 38 1146 1176
+)
+"ocamlbuild/glob.ml" 41 1221 1227 "ocamlbuild/glob.ml" 41 1221 1234
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 41 1221 1235 "ocamlbuild/glob.ml" 41 1221 1237
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 41 1221 1238 "ocamlbuild/glob.ml" 41 1221 1239
+type(
+  'a
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 38 1146 1175 "ocamlbuild/glob.ml" 38 1146 1176
+)
+"ocamlbuild/glob.ml" 41 1221 1240 "ocamlbuild/glob.ml" 41 1221 1242
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/glob.ml" 41 1221 1243 "ocamlbuild/glob.ml" 41 1221 1245
+type(
+  'a
+)
+ident(
+  int_ref c2 "ocamlbuild/glob.ml" 40 1191 1214 "ocamlbuild/glob.ml" 40 1191 1216
+)
+"ocamlbuild/glob.ml" 41 1221 1238 "ocamlbuild/glob.ml" 41 1221 1245
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 41 1221 1227 "ocamlbuild/glob.ml" 41 1221 1245
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 40 1191 1195 "ocamlbuild/glob.ml" 42 1246 1253
+type(
+  'a * 'a -> bool
+)
+"ocamlbuild/glob.ml" 43 1254 1258 "ocamlbuild/glob.ml" 43 1254 1260
+type(
+  ('a * 'a) Bool.boolean
+)
+ident(
+  int_ref cl "ocamlbuild/glob.ml" 38 1146 1172 "ocamlbuild/glob.ml" 38 1146 1174
+)
+"ocamlbuild/glob.ml" 39 1179 1181 "ocamlbuild/glob.ml" 43 1254 1260
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 54 1383 1432 "ocamlbuild/glob.ml" 54 1383 1439
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "ocamlbuild/glob.ml" 54 1383 1450 "ocamlbuild/glob.ml" 54 1383 1485
+)
+"ocamlbuild/glob.ml" 54 1383 1442 "ocamlbuild/glob.ml" 54 1383 1449
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocamlbuild/glob.ml" 54 1383 1454 "ocamlbuild/glob.ml" 54 1383 1459
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  def print "ocamlbuild/glob.ml" 54 1383 1481 "ocamlbuild/glob.ml" 54 1383 1485
+)
+"ocamlbuild/glob.ml" 54 1383 1462 "ocamlbuild/glob.ml" 54 1383 1481
+type(
+  Format.formatter -> int -> unit
+)
+ident(
+  ext_ref Format.pp_print_int
+)
+"ocamlbuild/glob.ml" 54 1383 1399 "ocamlbuild/glob.ml" 54 1383 1486
+call(
+  stack
+)
+"ocamlbuild/glob.ml" 55 1489 1540 "ocamlbuild/glob.ml" 55 1489 1547
+type(
+  IS.t -> IS.t -> int
+)
+ident(
+  def compare "ocamlbuild/glob.ml" 55 1489 1561 "ocamlbuild/glob.ml" 55 1489 1585
+)
+"ocamlbuild/glob.ml" 55 1489 1550 "ocamlbuild/glob.ml" 55 1489 1560
+type(
+  IS.t -> IS.t -> int
+)
+ident(
+  ext_ref IS.compare
+)
+"ocamlbuild/glob.ml" 55 1489 1565 "ocamlbuild/glob.ml" 55 1489 1570
+type(
+  Format.formatter -> IS.t -> unit
+)
+ident(
+  def print "ocamlbuild/glob.ml" 55 1489 1581 "ocamlbuild/glob.ml" 55 1489 1585
+)
+"ocamlbuild/glob.ml" 55 1489 1573 "ocamlbuild/glob.ml" 55 1489 1581
+type(
+  Format.formatter -> IS.t -> unit
+)
+ident(
+  ext_ref IS.print
+)
+"ocamlbuild/glob.ml" 55 1489 1506 "ocamlbuild/glob.ml" 55 1489 1586
+call(
+  stack
+)
+"ocamlbuild/glob.ml" 65 1782 1790 "ocamlbuild/glob.ml" 65 1782 1796
+type(
+  pattern -> IS.t array * IS.t array * machine
+)
+ident(
+  def build' "ocamlbuild/glob.ml" 175 5103 5107 "ocamlbuild/glob.ml" 235 6792 6797
+)
+"ocamlbuild/glob.ml" 65 1782 1797 "ocamlbuild/glob.ml" 65 1782 1798
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 66 1801 1807 "ocamlbuild/glob.ml" 173 5050 5095
+)
+"ocamlbuild/glob.ml" 66 1801 1811 "ocamlbuild/glob.ml" 66 1801 1816
+type(
+  IS.elt ref
+)
+"ocamlbuild/glob.ml" 66 1801 1819 "ocamlbuild/glob.ml" 66 1801 1822
+type(
+  IS.elt -> IS.elt ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 66 1801 1823 "ocamlbuild/glob.ml" 66 1801 1824
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 66 1801 1819 "ocamlbuild/glob.ml" 66 1801 1824
+type(
+  IS.elt ref
+)
+"ocamlbuild/glob.ml" 67 1828 1838 "ocamlbuild/glob.ml" 67 1828 1849
+type(
+  (IS.elt * character_class * IS.elt) list ref
+)
+"ocamlbuild/glob.ml" 67 1828 1852 "ocamlbuild/glob.ml" 67 1828 1855
+type(
+  (IS.elt * character_class * IS.elt) list ->
+  (IS.elt * character_class * IS.elt) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 67 1828 1856 "ocamlbuild/glob.ml" 67 1828 1858
+type(
+  (IS.elt * character_class * IS.elt) list
+)
+"ocamlbuild/glob.ml" 67 1828 1852 "ocamlbuild/glob.ml" 67 1828 1858
+type(
+  (IS.elt * character_class * IS.elt) list ref
+)
+"ocamlbuild/glob.ml" 68 1862 1872 "ocamlbuild/glob.ml" 68 1862 1880
+type(
+  (IS.elt * IS.elt) list ref
+)
+"ocamlbuild/glob.ml" 68 1862 1906 "ocamlbuild/glob.ml" 68 1862 1909
+type(
+  (IS.elt * IS.elt) list -> (IS.elt * IS.elt) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 68 1862 1910 "ocamlbuild/glob.ml" 68 1862 1912
+type(
+  (IS.elt * IS.elt) list
+)
+"ocamlbuild/glob.ml" 68 1862 1906 "ocamlbuild/glob.ml" 68 1862 1912
+type(
+  (IS.elt * IS.elt) list ref
+)
+type(
+  (IS.elt * IS.elt) list ref
+)
+"ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+type(
+  unit -> IS.elt
+)
+"ocamlbuild/glob.ml" 69 1916 1932 "ocamlbuild/glob.ml" 69 1916 1934
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 69 1916 1941 "ocamlbuild/glob.ml" 69 1916 1943
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 69 1916 1946 "ocamlbuild/glob.ml" 69 1916 1947
+type(
+  IS.elt ref -> IS.elt
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 69 1916 1947 "ocamlbuild/glob.ml" 69 1916 1952
+type(
+  IS.elt ref
+)
+ident(
+  int_ref count "ocamlbuild/glob.ml" 66 1801 1811 "ocamlbuild/glob.ml" 66 1801 1816
+)
+"ocamlbuild/glob.ml" 69 1916 1946 "ocamlbuild/glob.ml" 69 1916 1952
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 69 1916 1956 "ocamlbuild/glob.ml" 69 1916 1960
+type(
+  IS.elt ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocamlbuild/glob.ml" 69 1916 1961 "ocamlbuild/glob.ml" 69 1916 1966
+type(
+  IS.elt ref
+)
+ident(
+  int_ref count "ocamlbuild/glob.ml" 66 1801 1811 "ocamlbuild/glob.ml" 66 1801 1816
+)
+"ocamlbuild/glob.ml" 69 1916 1956 "ocamlbuild/glob.ml" 69 1916 1966
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 69 1916 1968 "ocamlbuild/glob.ml" 69 1916 1970
+type(
+  IS.elt
+)
+ident(
+  int_ref id "ocamlbuild/glob.ml" 69 1916 1941 "ocamlbuild/glob.ml" 69 1916 1943
+)
+"ocamlbuild/glob.ml" 69 1916 1956 "ocamlbuild/glob.ml" 69 1916 1970
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 69 1916 1937 "ocamlbuild/glob.ml" 69 1916 1970
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 70 1974 1992 "ocamlbuild/glob.ml" 70 1974 1994
+type(
+  IS.elt
+)
+ident(
+  def q1 "ocamlbuild/glob.ml" 70 1974 1995 "ocamlbuild/glob.ml" 73 2082 2150
+)
+"ocamlbuild/glob.ml" 70 1974 1995 "ocamlbuild/glob.ml" 70 1974 1996
+type(
+  transition
+)
+ident(
+  def t "ocamlbuild/glob.ml" 70 1974 1997 "ocamlbuild/glob.ml" 73 2082 2150
+)
+"ocamlbuild/glob.ml" 70 1974 1997 "ocamlbuild/glob.ml" 70 1974 1999
+type(
+  IS.elt
+)
+ident(
+  def q2 "ocamlbuild/glob.ml" 71 2002 2010 "ocamlbuild/glob.ml" 73 2082 2150
+)
+"ocamlbuild/glob.ml" 71 2002 2016 "ocamlbuild/glob.ml" 71 2002 2017
+type(
+  transition
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 70 1974 1995 "ocamlbuild/glob.ml" 70 1974 1996
+)
+"ocamlbuild/glob.ml" 72 2023 2033 "ocamlbuild/glob.ml" 72 2023 2041
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 72 2023 2045 "ocamlbuild/glob.ml" 72 2023 2053
+type(
+  (IS.elt * IS.elt) list ref
+)
+ident(
+  int_ref epsilons "ocamlbuild/glob.ml" 68 1862 1872 "ocamlbuild/glob.ml" 68 1862 1880
+)
+"ocamlbuild/glob.ml" 72 2023 2054 "ocamlbuild/glob.ml" 72 2023 2056
+type(
+  (IS.elt * IS.elt) list ref -> (IS.elt * IS.elt) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/glob.ml" 72 2023 2058 "ocamlbuild/glob.ml" 72 2023 2060
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 70 1974 1992 "ocamlbuild/glob.ml" 70 1974 1994
+)
+"ocamlbuild/glob.ml" 72 2023 2061 "ocamlbuild/glob.ml" 72 2023 2063
+type(
+  IS.elt
+)
+ident(
+  int_ref q2 "ocamlbuild/glob.ml" 70 1974 1997 "ocamlbuild/glob.ml" 70 1974 1999
+)
+"ocamlbuild/glob.ml" 72 2023 2057 "ocamlbuild/glob.ml" 72 2023 2064
+type(
+  IS.elt * IS.elt
+)
+"ocamlbuild/glob.ml" 72 2023 2068 "ocamlbuild/glob.ml" 72 2023 2069
+type(
+  (IS.elt * IS.elt) list ref -> (IS.elt * IS.elt) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 72 2023 2069 "ocamlbuild/glob.ml" 72 2023 2077
+type(
+  (IS.elt * IS.elt) list ref
+)
+ident(
+  int_ref epsilons "ocamlbuild/glob.ml" 68 1862 1872 "ocamlbuild/glob.ml" 68 1862 1880
+)
+"ocamlbuild/glob.ml" 72 2023 2068 "ocamlbuild/glob.ml" 72 2023 2077
+type(
+  (IS.elt * IS.elt) list
+)
+"ocamlbuild/glob.ml" 72 2023 2057 "ocamlbuild/glob.ml" 72 2023 2077
+type(
+  (IS.elt * IS.elt) list
+)
+"ocamlbuild/glob.ml" 72 2023 2045 "ocamlbuild/glob.ml" 72 2023 2077
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 72 2023 2079 "ocamlbuild/glob.ml" 72 2023 2081
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 70 1974 1992 "ocamlbuild/glob.ml" 70 1974 1994
+)
+"ocamlbuild/glob.ml" 72 2023 2045 "ocamlbuild/glob.ml" 72 2023 2081
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 73 2082 2099 "ocamlbuild/glob.ml" 73 2082 2101
+type(
+  character_class
+)
+ident(
+  def cl "ocamlbuild/glob.ml" 73 2082 2105 "ocamlbuild/glob.ml" 73 2082 2150
+)
+"ocamlbuild/glob.ml" 73 2082 2092 "ocamlbuild/glob.ml" 73 2082 2101
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 73 2082 2105 "ocamlbuild/glob.ml" 73 2082 2116
+type(
+  (IS.elt * character_class * IS.elt) list ref
+)
+ident(
+  int_ref transitions "ocamlbuild/glob.ml" 67 1828 1838 "ocamlbuild/glob.ml" 67 1828 1849
+)
+"ocamlbuild/glob.ml" 73 2082 2117 "ocamlbuild/glob.ml" 73 2082 2119
+type(
+  (IS.elt * character_class * IS.elt) list ref ->
+  (IS.elt * character_class * IS.elt) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/glob.ml" 73 2082 2121 "ocamlbuild/glob.ml" 73 2082 2123
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 70 1974 1992 "ocamlbuild/glob.ml" 70 1974 1994
+)
+"ocamlbuild/glob.ml" 73 2082 2124 "ocamlbuild/glob.ml" 73 2082 2126
+type(
+  character_class
+)
+ident(
+  int_ref cl "ocamlbuild/glob.ml" 73 2082 2099 "ocamlbuild/glob.ml" 73 2082 2101
+)
+"ocamlbuild/glob.ml" 73 2082 2127 "ocamlbuild/glob.ml" 73 2082 2129
+type(
+  IS.elt
+)
+ident(
+  int_ref q2 "ocamlbuild/glob.ml" 70 1974 1997 "ocamlbuild/glob.ml" 70 1974 1999
+)
+"ocamlbuild/glob.ml" 73 2082 2120 "ocamlbuild/glob.ml" 73 2082 2130
+type(
+  IS.elt * character_class * IS.elt
+)
+"ocamlbuild/glob.ml" 73 2082 2134 "ocamlbuild/glob.ml" 73 2082 2135
+type(
+  (IS.elt * character_class * IS.elt) list ref ->
+  (IS.elt * character_class * IS.elt) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 73 2082 2135 "ocamlbuild/glob.ml" 73 2082 2146
+type(
+  (IS.elt * character_class * IS.elt) list ref
+)
+ident(
+  int_ref transitions "ocamlbuild/glob.ml" 67 1828 1838 "ocamlbuild/glob.ml" 67 1828 1849
+)
+"ocamlbuild/glob.ml" 73 2082 2134 "ocamlbuild/glob.ml" 73 2082 2146
+type(
+  (IS.elt * character_class * IS.elt) list
+)
+"ocamlbuild/glob.ml" 73 2082 2120 "ocamlbuild/glob.ml" 73 2082 2146
+type(
+  (IS.elt * character_class * IS.elt) list
+)
+"ocamlbuild/glob.ml" 73 2082 2105 "ocamlbuild/glob.ml" 73 2082 2146
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 73 2082 2148 "ocamlbuild/glob.ml" 73 2082 2150
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 70 1974 1992 "ocamlbuild/glob.ml" 70 1974 1994
+)
+"ocamlbuild/glob.ml" 73 2082 2105 "ocamlbuild/glob.ml" 73 2082 2150
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 71 2002 2010 "ocamlbuild/glob.ml" 73 2082 2150
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 77 2294 2308 "ocamlbuild/glob.ml" 77 2294 2312
+type(
+  IS.elt -> pattern -> IS.elt
+)
+"ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+type(
+  IS.elt
+)
+ident(
+  def qf "ocamlbuild/glob.ml" 77 2294 2318 "ocamlbuild/glob.ml" 124 3808 3822
+)
+"ocamlbuild/glob.ml" 78 2327 2337 "ocamlbuild/glob.ml" 78 2327 2344
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 78 2327 2349 "ocamlbuild/glob.ml" 78 2327 2351
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+)
+"ocamlbuild/glob.ml" 79 2352 2367 "ocamlbuild/glob.ml" 79 2352 2368
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/glob.ml" 80 2374 2386 "ocamlbuild/glob.ml" 97 2868 2889
+)
+"ocamlbuild/glob.ml" 79 2352 2362 "ocamlbuild/glob.ml" 79 2352 2368
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 80 2374 2390 "ocamlbuild/glob.ml" 80 2374 2391
+type(
+  int
+)
+"ocamlbuild/glob.ml" 80 2374 2394 "ocamlbuild/glob.ml" 80 2374 2407
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.String.length
+)
+"ocamlbuild/glob.ml" 80 2374 2408 "ocamlbuild/glob.ml" 80 2374 2409
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 79 2352 2367 "ocamlbuild/glob.ml" 79 2352 2368
+)
+"ocamlbuild/glob.ml" 80 2374 2394 "ocamlbuild/glob.ml" 80 2374 2409
+type(
+  int
+)
+"ocamlbuild/glob.ml" 81 2413 2429 "ocamlbuild/glob.ml" 81 2413 2431
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 81 2413 2434 "ocamlbuild/glob.ml" 81 2413 2439
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 81 2413 2440 "ocamlbuild/glob.ml" 81 2413 2442
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 81 2413 2434 "ocamlbuild/glob.ml" 81 2413 2442
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 82 2446 2466 "ocamlbuild/glob.ml" 82 2446 2470
+type(
+  IS.elt -> int -> IS.elt
+)
+"ocamlbuild/glob.ml" 82 2446 2471 "ocamlbuild/glob.ml" 82 2446 2472
+type(
+  IS.elt
+)
+ident(
+  def q "ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 95 2833 2852
+)
+"ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 82 2446 2474
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/glob.ml" 83 2477 2491 "ocamlbuild/glob.ml" 95 2833 2852
+)
+"ocamlbuild/glob.ml" 83 2477 2494 "ocamlbuild/glob.ml" 83 2477 2495
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 82 2446 2474
+)
+"ocamlbuild/glob.ml" 83 2477 2496 "ocamlbuild/glob.ml" 83 2477 2497
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 83 2477 2498 "ocamlbuild/glob.ml" 83 2477 2499
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 80 2374 2390 "ocamlbuild/glob.ml" 80 2374 2391
+)
+"ocamlbuild/glob.ml" 83 2477 2494 "ocamlbuild/glob.ml" 83 2477 2499
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 84 2505 2521 "ocamlbuild/glob.ml" 84 2505 2523
+type(
+  IS.elt
+)
+ident(
+  int_ref q0 "ocamlbuild/glob.ml" 81 2413 2429 "ocamlbuild/glob.ml" 81 2413 2431
+)
+"ocamlbuild/glob.ml" 87 2565 2587 "ocamlbuild/glob.ml" 87 2565 2589
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 88 2592 2615 "ocamlbuild/glob.ml" 88 2592 2616
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 82 2446 2474
+)
+"ocamlbuild/glob.ml" 88 2592 2617 "ocamlbuild/glob.ml" 88 2592 2618
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 88 2592 2619 "ocamlbuild/glob.ml" 88 2592 2620
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 80 2374 2390 "ocamlbuild/glob.ml" 80 2374 2391
+)
+"ocamlbuild/glob.ml" 88 2592 2621 "ocamlbuild/glob.ml" 88 2592 2622
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/glob.ml" 88 2592 2623 "ocamlbuild/glob.ml" 88 2592 2624
+type(
+  int
+)
+"ocamlbuild/glob.ml" 88 2592 2619 "ocamlbuild/glob.ml" 88 2592 2624
+type(
+  int
+)
+"ocamlbuild/glob.ml" 88 2592 2615 "ocamlbuild/glob.ml" 88 2592 2624
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 89 2630 2652 "ocamlbuild/glob.ml" 89 2630 2654
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+)
+"ocamlbuild/glob.ml" 91 2680 2702 "ocamlbuild/glob.ml" 91 2680 2707
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 91 2680 2708 "ocamlbuild/glob.ml" 91 2680 2710
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 91 2680 2702 "ocamlbuild/glob.ml" 91 2680 2710
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 88 2592 2612 "ocamlbuild/glob.ml" 91 2680 2710
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 93 2732 2754 "ocamlbuild/glob.ml" 93 2732 2755
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 93 2732 2759 "ocamlbuild/glob.ml" 93 2732 2760
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 82 2446 2471 "ocamlbuild/glob.ml" 82 2446 2472
+)
+"ocamlbuild/glob.ml" 93 2732 2761 "ocamlbuild/glob.ml" 93 2732 2764
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 93 2732 2777 "ocamlbuild/glob.ml" 93 2732 2778
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 79 2352 2367 "ocamlbuild/glob.ml" 79 2352 2368
+)
+"ocamlbuild/glob.ml" 93 2732 2780 "ocamlbuild/glob.ml" 93 2732 2781
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 82 2446 2474
+)
+"ocamlbuild/glob.ml" 93 2732 2777 "ocamlbuild/glob.ml" 93 2732 2782
+type(
+  char
+)
+"ocamlbuild/glob.ml" 93 2732 2784 "ocamlbuild/glob.ml" 93 2732 2785
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 79 2352 2367 "ocamlbuild/glob.ml" 79 2352 2368
+)
+"ocamlbuild/glob.ml" 93 2732 2787 "ocamlbuild/glob.ml" 93 2732 2788
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 82 2446 2474
+)
+"ocamlbuild/glob.ml" 93 2732 2784 "ocamlbuild/glob.ml" 93 2732 2789
+type(
+  char
+)
+"ocamlbuild/glob.ml" 93 2732 2776 "ocamlbuild/glob.ml" 93 2732 2790
+type(
+  char * char
+)
+"ocamlbuild/glob.ml" 93 2732 2771 "ocamlbuild/glob.ml" 93 2732 2791
+type(
+  character_class
+)
+"ocamlbuild/glob.ml" 93 2732 2765 "ocamlbuild/glob.ml" 93 2732 2791
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 93 2732 2758 "ocamlbuild/glob.ml" 93 2732 2792
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 93 2732 2793 "ocamlbuild/glob.ml" 93 2732 2795
+type(
+  IS.elt
+)
+ident(
+  int_ref q' "ocamlbuild/glob.ml" 87 2565 2587 "ocamlbuild/glob.ml" 87 2565 2589
+)
+"ocamlbuild/glob.ml" 93 2732 2758 "ocamlbuild/glob.ml" 93 2732 2795
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 94 2799 2817 "ocamlbuild/glob.ml" 94 2799 2821
+type(
+  IS.elt -> int -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 82 2446 2466 "ocamlbuild/glob.ml" 82 2446 2470
+)
+"ocamlbuild/glob.ml" 94 2799 2822 "ocamlbuild/glob.ml" 94 2799 2824
+type(
+  IS.elt
+)
+ident(
+  int_ref q' "ocamlbuild/glob.ml" 87 2565 2587 "ocamlbuild/glob.ml" 87 2565 2589
+)
+"ocamlbuild/glob.ml" 94 2799 2826 "ocamlbuild/glob.ml" 94 2799 2827
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 82 2446 2473 "ocamlbuild/glob.ml" 82 2446 2474
+)
+"ocamlbuild/glob.ml" 94 2799 2828 "ocamlbuild/glob.ml" 94 2799 2829
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 94 2799 2830 "ocamlbuild/glob.ml" 94 2799 2831
+type(
+  int
+)
+"ocamlbuild/glob.ml" 94 2799 2825 "ocamlbuild/glob.ml" 94 2799 2832
+type(
+  int
+)
+"ocamlbuild/glob.ml" 94 2799 2817 "ocamlbuild/glob.ml" 94 2799 2832
+call(
+  tail
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 93 2732 2750 "ocamlbuild/glob.ml" 94 2799 2832
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 86 2543 2559 "ocamlbuild/glob.ml" 95 2833 2852
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 83 2477 2491 "ocamlbuild/glob.ml" 95 2833 2852
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 97 2868 2880 "ocamlbuild/glob.ml" 97 2868 2884
+type(
+  IS.elt -> int -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 82 2446 2466 "ocamlbuild/glob.ml" 82 2446 2470
+)
+"ocamlbuild/glob.ml" 97 2868 2885 "ocamlbuild/glob.ml" 97 2868 2887
+type(
+  IS.elt
+)
+ident(
+  int_ref q0 "ocamlbuild/glob.ml" 81 2413 2429 "ocamlbuild/glob.ml" 81 2413 2431
+)
+"ocamlbuild/glob.ml" 97 2868 2888 "ocamlbuild/glob.ml" 97 2868 2889
+type(
+  int
+)
+"ocamlbuild/glob.ml" 97 2868 2880 "ocamlbuild/glob.ml" 97 2868 2889
+call(
+  tail
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 82 2446 2458 "ocamlbuild/glob.ml" 97 2868 2889
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 81 2413 2425 "ocamlbuild/glob.ml" 97 2868 2889
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 80 2374 2386 "ocamlbuild/glob.ml" 97 2868 2889
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 98 2890 2906 "ocamlbuild/glob.ml" 98 2890 2908
+type(
+  character_class
+)
+ident(
+  def cl "ocamlbuild/glob.ml" 99 2912 2924 "ocamlbuild/glob.ml" 100 2945 2978
+)
+"ocamlbuild/glob.ml" 98 2890 2900 "ocamlbuild/glob.ml" 98 2890 2908
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 99 2912 2928 "ocamlbuild/glob.ml" 99 2912 2930
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 99 2912 2933 "ocamlbuild/glob.ml" 99 2912 2938
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 99 2912 2939 "ocamlbuild/glob.ml" 99 2912 2941
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 99 2912 2933 "ocamlbuild/glob.ml" 99 2912 2941
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 100 2945 2958 "ocamlbuild/glob.ml" 100 2945 2960
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 99 2912 2928 "ocamlbuild/glob.ml" 99 2912 2930
+)
+"ocamlbuild/glob.ml" 100 2945 2961 "ocamlbuild/glob.ml" 100 2945 2964
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 100 2945 2972 "ocamlbuild/glob.ml" 100 2945 2974
+type(
+  character_class
+)
+ident(
+  int_ref cl "ocamlbuild/glob.ml" 98 2890 2906 "ocamlbuild/glob.ml" 98 2890 2908
+)
+"ocamlbuild/glob.ml" 100 2945 2965 "ocamlbuild/glob.ml" 100 2945 2974
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 100 2945 2957 "ocamlbuild/glob.ml" 100 2945 2975
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 100 2945 2976 "ocamlbuild/glob.ml" 100 2945 2978
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+)
+"ocamlbuild/glob.ml" 100 2945 2957 "ocamlbuild/glob.ml" 100 2945 2978
+call(
+  tail
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 99 2912 2924 "ocamlbuild/glob.ml" 100 2945 2978
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 101 2979 2994 "ocamlbuild/glob.ml" 101 2979 2995
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 103 3041 3053 "ocamlbuild/glob.ml" 108 3259 3273
+)
+"ocamlbuild/glob.ml" 101 2979 2989 "ocamlbuild/glob.ml" 101 2979 2995
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 103 3041 3057 "ocamlbuild/glob.ml" 103 3041 3059
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 103 3041 3062 "ocamlbuild/glob.ml" 103 3041 3067
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 103 3041 3068 "ocamlbuild/glob.ml" 103 3041 3070
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 103 3041 3062 "ocamlbuild/glob.ml" 103 3041 3070
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 104 3074 3090 "ocamlbuild/glob.ml" 104 3074 3092
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 104 3074 3095 "ocamlbuild/glob.ml" 104 3074 3099
+type(
+  IS.elt -> pattern -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 77 2294 2308 "ocamlbuild/glob.ml" 77 2294 2312
+)
+"ocamlbuild/glob.ml" 104 3074 3100 "ocamlbuild/glob.ml" 104 3074 3102
+type(
+  IS.elt
+)
+ident(
+  int_ref q2 "ocamlbuild/glob.ml" 103 3041 3057 "ocamlbuild/glob.ml" 103 3041 3059
+)
+"ocamlbuild/glob.ml" 104 3074 3103 "ocamlbuild/glob.ml" 104 3074 3104
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 101 2979 2994 "ocamlbuild/glob.ml" 101 2979 2995
+)
+"ocamlbuild/glob.ml" 104 3074 3095 "ocamlbuild/glob.ml" 104 3074 3104
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 105 3127 3143 "ocamlbuild/glob.ml" 105 3127 3144
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 105 3127 3148 "ocamlbuild/glob.ml" 105 3127 3150
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 104 3074 3090 "ocamlbuild/glob.ml" 104 3074 3092
+)
+"ocamlbuild/glob.ml" 105 3127 3151 "ocamlbuild/glob.ml" 105 3127 3154
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 105 3127 3155 "ocamlbuild/glob.ml" 105 3127 3163
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 105 3127 3147 "ocamlbuild/glob.ml" 105 3127 3164
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 105 3127 3165 "ocamlbuild/glob.ml" 105 3127 3167
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+)
+"ocamlbuild/glob.ml" 105 3127 3147 "ocamlbuild/glob.ml" 105 3127 3167
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 106 3171 3187 "ocamlbuild/glob.ml" 106 3171 3188
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 106 3171 3192 "ocamlbuild/glob.ml" 106 3171 3194
+type(
+  IS.elt
+)
+ident(
+  int_ref q2 "ocamlbuild/glob.ml" 103 3041 3057 "ocamlbuild/glob.ml" 103 3041 3059
+)
+"ocamlbuild/glob.ml" 106 3171 3195 "ocamlbuild/glob.ml" 106 3171 3198
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 106 3171 3199 "ocamlbuild/glob.ml" 106 3171 3207
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 106 3171 3191 "ocamlbuild/glob.ml" 106 3171 3208
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 106 3171 3209 "ocamlbuild/glob.ml" 106 3171 3211
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 104 3074 3090 "ocamlbuild/glob.ml" 104 3074 3092
+)
+"ocamlbuild/glob.ml" 106 3171 3191 "ocamlbuild/glob.ml" 106 3171 3211
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 107 3215 3231 "ocamlbuild/glob.ml" 107 3215 3232
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 107 3215 3236 "ocamlbuild/glob.ml" 107 3215 3238
+type(
+  IS.elt
+)
+ident(
+  int_ref q2 "ocamlbuild/glob.ml" 103 3041 3057 "ocamlbuild/glob.ml" 103 3041 3059
+)
+"ocamlbuild/glob.ml" 107 3215 3239 "ocamlbuild/glob.ml" 107 3215 3242
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 107 3215 3243 "ocamlbuild/glob.ml" 107 3215 3251
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 107 3215 3235 "ocamlbuild/glob.ml" 107 3215 3252
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 107 3215 3253 "ocamlbuild/glob.ml" 107 3215 3255
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 104 3074 3090 "ocamlbuild/glob.ml" 104 3074 3092
+)
+"ocamlbuild/glob.ml" 107 3215 3235 "ocamlbuild/glob.ml" 107 3215 3255
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 108 3259 3271 "ocamlbuild/glob.ml" 108 3259 3273
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 104 3074 3090 "ocamlbuild/glob.ml" 104 3074 3092
+)
+"ocamlbuild/glob.ml" 107 3215 3227 "ocamlbuild/glob.ml" 108 3259 3273
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 106 3171 3183 "ocamlbuild/glob.ml" 108 3259 3273
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 105 3127 3139 "ocamlbuild/glob.ml" 108 3259 3273
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 104 3074 3086 "ocamlbuild/glob.ml" 108 3259 3273
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 103 3041 3053 "ocamlbuild/glob.ml" 108 3259 3273
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 109 3274 3291 "ocamlbuild/glob.ml" 109 3274 3293
+type(
+  pattern
+)
+ident(
+  def p1 "ocamlbuild/glob.ml" 110 3301 3313 "ocamlbuild/glob.ml" 114 3499 3513
+)
+"ocamlbuild/glob.ml" 109 3274 3294 "ocamlbuild/glob.ml" 109 3274 3296
+type(
+  pattern
+)
+ident(
+  def p2 "ocamlbuild/glob.ml" 110 3301 3313 "ocamlbuild/glob.ml" 114 3499 3513
+)
+"ocamlbuild/glob.ml" 109 3274 3284 "ocamlbuild/glob.ml" 109 3274 3297
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 110 3301 3317 "ocamlbuild/glob.ml" 110 3301 3320
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 110 3301 3323 "ocamlbuild/glob.ml" 110 3301 3328
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 110 3301 3329 "ocamlbuild/glob.ml" 110 3301 3331
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 110 3301 3323 "ocamlbuild/glob.ml" 110 3301 3331
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 111 3335 3351 "ocamlbuild/glob.ml" 111 3335 3353
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 111 3335 3357 "ocamlbuild/glob.ml" 111 3335 3361
+type(
+  IS.elt -> pattern -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 77 2294 2308 "ocamlbuild/glob.ml" 77 2294 2312
+)
+"ocamlbuild/glob.ml" 111 3335 3362 "ocamlbuild/glob.ml" 111 3335 3365
+type(
+  IS.elt
+)
+ident(
+  int_ref q12 "ocamlbuild/glob.ml" 110 3301 3317 "ocamlbuild/glob.ml" 110 3301 3320
+)
+"ocamlbuild/glob.ml" 111 3335 3366 "ocamlbuild/glob.ml" 111 3335 3368
+type(
+  pattern
+)
+ident(
+  int_ref p1 "ocamlbuild/glob.ml" 109 3274 3291 "ocamlbuild/glob.ml" 109 3274 3293
+)
+"ocamlbuild/glob.ml" 111 3335 3357 "ocamlbuild/glob.ml" 111 3335 3368
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 112 3394 3410 "ocamlbuild/glob.ml" 112 3394 3412
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 112 3394 3416 "ocamlbuild/glob.ml" 112 3394 3420
+type(
+  IS.elt -> pattern -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 77 2294 2308 "ocamlbuild/glob.ml" 77 2294 2312
+)
+"ocamlbuild/glob.ml" 112 3394 3421 "ocamlbuild/glob.ml" 112 3394 3423
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+)
+"ocamlbuild/glob.ml" 112 3394 3425 "ocamlbuild/glob.ml" 112 3394 3427
+type(
+  pattern
+)
+ident(
+  int_ref p2 "ocamlbuild/glob.ml" 109 3274 3294 "ocamlbuild/glob.ml" 109 3274 3296
+)
+"ocamlbuild/glob.ml" 112 3394 3416 "ocamlbuild/glob.ml" 112 3394 3427
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 113 3452 3468 "ocamlbuild/glob.ml" 113 3452 3469
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 113 3452 3475 "ocamlbuild/glob.ml" 113 3452 3478
+type(
+  IS.elt
+)
+ident(
+  int_ref q12 "ocamlbuild/glob.ml" 110 3301 3317 "ocamlbuild/glob.ml" 110 3301 3320
+)
+"ocamlbuild/glob.ml" 113 3452 3479 "ocamlbuild/glob.ml" 113 3452 3482
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 113 3452 3483 "ocamlbuild/glob.ml" 113 3452 3491
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 113 3452 3474 "ocamlbuild/glob.ml" 113 3452 3492
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 113 3452 3493 "ocamlbuild/glob.ml" 113 3452 3495
+type(
+  IS.elt
+)
+ident(
+  int_ref q2 "ocamlbuild/glob.ml" 112 3394 3410 "ocamlbuild/glob.ml" 112 3394 3412
+)
+"ocamlbuild/glob.ml" 113 3452 3474 "ocamlbuild/glob.ml" 113 3452 3495
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 114 3499 3511 "ocamlbuild/glob.ml" 114 3499 3513
+type(
+  IS.elt
+)
+ident(
+  int_ref q1 "ocamlbuild/glob.ml" 111 3335 3351 "ocamlbuild/glob.ml" 111 3335 3353
+)
+"ocamlbuild/glob.ml" 113 3452 3464 "ocamlbuild/glob.ml" 114 3499 3513
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 112 3394 3406 "ocamlbuild/glob.ml" 114 3499 3513
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 111 3335 3347 "ocamlbuild/glob.ml" 114 3499 3513
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 110 3301 3313 "ocamlbuild/glob.ml" 114 3499 3513
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 115 3514 3530 "ocamlbuild/glob.ml" 115 3514 3532
+type(
+  pattern list
+)
+ident(
+  def pl "ocamlbuild/glob.ml" 116 3536 3548 "ocamlbuild/glob.ml" 124 3808 3822
+)
+"ocamlbuild/glob.ml" 115 3514 3524 "ocamlbuild/glob.ml" 115 3514 3532
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 116 3536 3552 "ocamlbuild/glob.ml" 116 3536 3554
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 116 3536 3557 "ocamlbuild/glob.ml" 116 3536 3562
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 116 3536 3563 "ocamlbuild/glob.ml" 116 3536 3565
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 116 3536 3557 "ocamlbuild/glob.ml" 116 3536 3565
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 117 3569 3581 "ocamlbuild/glob.ml" 117 3569 3590
+type(
+  (pattern -> unit) -> pattern list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/glob.ml" 118 3591 3615 "ocamlbuild/glob.ml" 118 3591 3616
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 119 3620 3636 "ocamlbuild/glob.ml" 121 3753 3771
+)
+"ocamlbuild/glob.ml" 119 3620 3640 "ocamlbuild/glob.ml" 119 3620 3641
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 119 3620 3644 "ocamlbuild/glob.ml" 119 3620 3648
+type(
+  IS.elt -> pattern -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 77 2294 2308 "ocamlbuild/glob.ml" 77 2294 2312
+)
+"ocamlbuild/glob.ml" 119 3620 3649 "ocamlbuild/glob.ml" 119 3620 3651
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 77 2294 2313 "ocamlbuild/glob.ml" 77 2294 2315
+)
+"ocamlbuild/glob.ml" 119 3620 3652 "ocamlbuild/glob.ml" 119 3620 3653
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 118 3591 3615 "ocamlbuild/glob.ml" 118 3591 3616
+)
+"ocamlbuild/glob.ml" 119 3620 3644 "ocamlbuild/glob.ml" 119 3620 3653
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 120 3686 3706 "ocamlbuild/glob.ml" 120 3686 3707
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 120 3686 3711 "ocamlbuild/glob.ml" 120 3686 3713
+type(
+  IS.elt
+)
+ident(
+  int_ref qi "ocamlbuild/glob.ml" 116 3536 3552 "ocamlbuild/glob.ml" 116 3536 3554
+)
+"ocamlbuild/glob.ml" 120 3686 3714 "ocamlbuild/glob.ml" 120 3686 3717
+type(
+  IS.elt -> transition -> IS.elt -> IS.elt
+)
+ident(
+  int_ref --> "ocamlbuild/glob.ml" 70 1974 1984 "ocamlbuild/glob.ml" 70 1974 1991
+)
+"ocamlbuild/glob.ml" 120 3686 3718 "ocamlbuild/glob.ml" 120 3686 3726
+type(
+  transition
+)
+"ocamlbuild/glob.ml" 120 3686 3710 "ocamlbuild/glob.ml" 120 3686 3727
+call(
+  stack
+)
+type(
+  IS.elt -> IS.elt
+)
+"ocamlbuild/glob.ml" 120 3686 3728 "ocamlbuild/glob.ml" 120 3686 3729
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 119 3620 3640 "ocamlbuild/glob.ml" 119 3620 3641
+)
+"ocamlbuild/glob.ml" 120 3686 3710 "ocamlbuild/glob.ml" 120 3686 3729
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 121 3753 3769 "ocamlbuild/glob.ml" 121 3753 3771
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 120 3686 3702 "ocamlbuild/glob.ml" 121 3753 3771
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 119 3620 3636 "ocamlbuild/glob.ml" 121 3753 3771
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 118 3591 3605 "ocamlbuild/glob.ml" 122 3772 3789
+type(
+  pattern -> unit
+)
+"ocamlbuild/glob.ml" 123 3790 3804 "ocamlbuild/glob.ml" 123 3790 3806
+type(
+  pattern list
+)
+ident(
+  int_ref pl "ocamlbuild/glob.ml" 115 3514 3530 "ocamlbuild/glob.ml" 115 3514 3532
+)
+"ocamlbuild/glob.ml" 117 3569 3581 "ocamlbuild/glob.ml" 123 3790 3806
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 124 3808 3820 "ocamlbuild/glob.ml" 124 3808 3822
+type(
+  IS.elt
+)
+ident(
+  int_ref qi "ocamlbuild/glob.ml" 116 3536 3552 "ocamlbuild/glob.ml" 116 3536 3554
+)
+"ocamlbuild/glob.ml" 117 3569 3581 "ocamlbuild/glob.ml" 124 3808 3822
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 116 3536 3548 "ocamlbuild/glob.ml" 124 3808 3822
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 77 2294 2318 "ocamlbuild/glob.ml" 124 3808 3822
+type(
+  pattern -> IS.elt
+)
+"ocamlbuild/glob.ml" 126 3832 3842 "ocamlbuild/glob.ml" 126 3832 3844
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 126 3832 3847 "ocamlbuild/glob.ml" 126 3832 3852
+type(
+  unit -> IS.elt
+)
+ident(
+  int_ref state "ocamlbuild/glob.ml" 69 1916 1926 "ocamlbuild/glob.ml" 69 1916 1931
+)
+"ocamlbuild/glob.ml" 126 3832 3853 "ocamlbuild/glob.ml" 126 3832 3855
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 126 3832 3847 "ocamlbuild/glob.ml" 126 3832 3855
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 127 3859 3869 "ocamlbuild/glob.ml" 127 3859 3871
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 127 3859 3874 "ocamlbuild/glob.ml" 127 3859 3878
+type(
+  IS.elt -> pattern -> IS.elt
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 77 2294 2308 "ocamlbuild/glob.ml" 77 2294 2312
+)
+"ocamlbuild/glob.ml" 127 3859 3879 "ocamlbuild/glob.ml" 127 3859 3881
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 126 3832 3842 "ocamlbuild/glob.ml" 126 3832 3844
+)
+"ocamlbuild/glob.ml" 127 3859 3882 "ocamlbuild/glob.ml" 127 3859 3883
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 65 1782 1797 "ocamlbuild/glob.ml" 65 1782 1798
+)
+"ocamlbuild/glob.ml" 127 3859 3874 "ocamlbuild/glob.ml" 127 3859 3883
+call(
+  stack
+)
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 128 3887 3897 "ocamlbuild/glob.ml" 128 3887 3898
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 128 3887 3901 "ocamlbuild/glob.ml" 128 3887 3902
+type(
+  IS.elt ref -> IS.elt
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 128 3887 3902 "ocamlbuild/glob.ml" 128 3887 3907
+type(
+  IS.elt ref
+)
+ident(
+  int_ref count "ocamlbuild/glob.ml" 66 1801 1811 "ocamlbuild/glob.ml" 66 1801 1816
+)
+"ocamlbuild/glob.ml" 128 3887 3901 "ocamlbuild/glob.ml" 128 3887 3907
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 131 3948 3958 "ocamlbuild/glob.ml" 131 3948 3963
+type(
+  IS.t array
+)
+"ocamlbuild/glob.ml" 131 3948 3966 "ocamlbuild/glob.ml" 131 3948 3976
+type(
+  IS.elt -> IS.t -> IS.t array
+)
+ident(
+  ext_ref Array.make
+)
+"ocamlbuild/glob.ml" 131 3948 3977 "ocamlbuild/glob.ml" 131 3948 3978
+type(
+  IS.elt
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 128 3887 3897 "ocamlbuild/glob.ml" 128 3887 3898
+)
+"ocamlbuild/glob.ml" 131 3948 3979 "ocamlbuild/glob.ml" 131 3948 3987
+type(
+  IS.t
+)
+ident(
+  ext_ref IS.empty
+)
+"ocamlbuild/glob.ml" 131 3948 3966 "ocamlbuild/glob.ml" 131 3948 3987
+type(
+  IS.t array
+)
+"ocamlbuild/glob.ml" 132 3991 3997 "ocamlbuild/glob.ml" 132 3991 4006
+type(
+  (IS.elt * IS.elt -> unit) -> (IS.elt * IS.elt) list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/glob.ml" 133 4007 4026 "ocamlbuild/glob.ml" 133 4007 4027
+type(
+  IS.elt
+)
+ident(
+  def q "ocamlbuild/glob.ml" 134 4035 4045 "ocamlbuild/glob.ml" 134 4035 4077
+)
+"ocamlbuild/glob.ml" 133 4007 4028 "ocamlbuild/glob.ml" 133 4007 4030
+type(
+  IS.elt
+)
+ident(
+  def q' "ocamlbuild/glob.ml" 134 4035 4045 "ocamlbuild/glob.ml" 134 4035 4077
+)
+"ocamlbuild/glob.ml" 133 4007 4025 "ocamlbuild/glob.ml" 133 4007 4031
+type(
+  IS.elt * IS.elt
+)
+"ocamlbuild/glob.ml" 134 4035 4045 "ocamlbuild/glob.ml" 134 4035 4050
+type(
+  IS.t array
+)
+ident(
+  int_ref graph "ocamlbuild/glob.ml" 131 3948 3958 "ocamlbuild/glob.ml" 131 3948 3963
+)
+"ocamlbuild/glob.ml" 134 4035 4052 "ocamlbuild/glob.ml" 134 4035 4053
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 133 4007 4026 "ocamlbuild/glob.ml" 133 4007 4027
+)
+"ocamlbuild/glob.ml" 134 4035 4058 "ocamlbuild/glob.ml" 134 4035 4064
+type(
+  IS.elt -> IS.t -> IS.t
+)
+ident(
+  ext_ref IS.add
+)
+"ocamlbuild/glob.ml" 134 4035 4065 "ocamlbuild/glob.ml" 134 4035 4067
+type(
+  IS.elt
+)
+ident(
+  int_ref q' "ocamlbuild/glob.ml" 133 4007 4028 "ocamlbuild/glob.ml" 133 4007 4030
+)
+"ocamlbuild/glob.ml" 134 4035 4068 "ocamlbuild/glob.ml" 134 4035 4073
+type(
+  IS.t array
+)
+ident(
+  int_ref graph "ocamlbuild/glob.ml" 131 3948 3958 "ocamlbuild/glob.ml" 131 3948 3963
+)
+"ocamlbuild/glob.ml" 134 4035 4075 "ocamlbuild/glob.ml" 134 4035 4076
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 133 4007 4026 "ocamlbuild/glob.ml" 133 4007 4027
+)
+"ocamlbuild/glob.ml" 134 4035 4068 "ocamlbuild/glob.ml" 134 4035 4077
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 134 4035 4058 "ocamlbuild/glob.ml" 134 4035 4077
+call(
+  stack
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 134 4035 4045 "ocamlbuild/glob.ml" 134 4035 4077
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 133 4007 4015 "ocamlbuild/glob.ml" 135 4078 4089
+type(
+  IS.elt * IS.elt -> unit
+)
+"ocamlbuild/glob.ml" 136 4090 4098 "ocamlbuild/glob.ml" 136 4090 4099
+type(
+  (IS.elt * IS.elt) list ref -> (IS.elt * IS.elt) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 136 4090 4099 "ocamlbuild/glob.ml" 136 4090 4107
+type(
+  (IS.elt * IS.elt) list ref
+)
+ident(
+  int_ref epsilons "ocamlbuild/glob.ml" 68 1862 1872 "ocamlbuild/glob.ml" 68 1862 1880
+)
+"ocamlbuild/glob.ml" 136 4090 4098 "ocamlbuild/glob.ml" 136 4090 4107
+type(
+  (IS.elt * IS.elt) list
+)
+"ocamlbuild/glob.ml" 132 3991 3997 "ocamlbuild/glob.ml" 136 4090 4107
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 138 4110 4120 "ocamlbuild/glob.ml" 138 4110 4127
+type(
+  IS.t array
+)
+"ocamlbuild/glob.ml" 138 4110 4130 "ocamlbuild/glob.ml" 138 4110 4140
+type(
+  IS.elt -> IS.t -> IS.t array
+)
+ident(
+  ext_ref Array.make
+)
+"ocamlbuild/glob.ml" 138 4110 4141 "ocamlbuild/glob.ml" 138 4110 4142
+type(
+  IS.elt
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 128 3887 3897 "ocamlbuild/glob.ml" 128 3887 3898
+)
+"ocamlbuild/glob.ml" 138 4110 4143 "ocamlbuild/glob.ml" 138 4110 4151
+type(
+  IS.t
+)
+ident(
+  ext_ref IS.empty
+)
+"ocamlbuild/glob.ml" 138 4110 4130 "ocamlbuild/glob.ml" 138 4110 4151
+type(
+  IS.t array
+)
+"ocamlbuild/glob.ml" 139 4155 4169 "ocamlbuild/glob.ml" 139 4155 4179
+type(
+  IS.t -> IS.elt list -> IS.t
+)
+"ocamlbuild/glob.ml" 139 4155 4180 "ocamlbuild/glob.ml" 139 4155 4184
+type(
+  IS.t
+)
+ident(
+  def past "ocamlbuild/glob.ml" 139 4155 4187 "ocamlbuild/glob.ml" 155 4589 4623
+)
+"ocamlbuild/glob.ml" 140 4196 4204 "ocamlbuild/glob.ml" 140 4196 4206
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 140 4196 4210 "ocamlbuild/glob.ml" 140 4196 4214
+type(
+  IS.t
+)
+ident(
+  int_ref past "ocamlbuild/glob.ml" 139 4155 4180 "ocamlbuild/glob.ml" 139 4155 4184
+)
+"ocamlbuild/glob.ml" 141 4215 4223 "ocamlbuild/glob.ml" 141 4215 4224
+type(
+  IS.elt
+)
+ident(
+  def q "ocamlbuild/glob.ml" 142 4238 4248 "ocamlbuild/glob.ml" 155 4589 4623
+)
+"ocamlbuild/glob.ml" 141 4215 4228 "ocamlbuild/glob.ml" 141 4215 4234
+type(
+  IS.elt list
+)
+ident(
+  def future "ocamlbuild/glob.ml" 142 4238 4248 "ocamlbuild/glob.ml" 155 4589 4623
+)
+"ocamlbuild/glob.ml" 141 4215 4223 "ocamlbuild/glob.ml" 141 4215 4234
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 142 4238 4252 "ocamlbuild/glob.ml" 142 4238 4257
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 142 4238 4260 "ocamlbuild/glob.ml" 142 4238 4266
+type(
+  IS.elt -> IS.t -> IS.t
+)
+ident(
+  ext_ref IS.add
+)
+"ocamlbuild/glob.ml" 142 4238 4267 "ocamlbuild/glob.ml" 142 4238 4268
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 141 4215 4223 "ocamlbuild/glob.ml" 141 4215 4224
+)
+"ocamlbuild/glob.ml" 142 4238 4269 "ocamlbuild/glob.ml" 142 4238 4273
+type(
+  IS.t
+)
+ident(
+  int_ref past "ocamlbuild/glob.ml" 139 4155 4180 "ocamlbuild/glob.ml" 139 4155 4184
+)
+"ocamlbuild/glob.ml" 142 4238 4260 "ocamlbuild/glob.ml" 142 4238 4273
+call(
+  stack
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 143 4277 4291 "ocamlbuild/glob.ml" 143 4277 4298
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 144 4301 4313 "ocamlbuild/glob.ml" 144 4301 4320
+type(
+  (IS.elt -> IS.elt list -> IS.elt list) ->
+  IS.t -> IS.elt list -> IS.elt list
+)
+ident(
+  ext_ref IS.fold
+)
+"ocamlbuild/glob.ml" 145 4321 4345 "ocamlbuild/glob.ml" 145 4321 4347
+type(
+  IS.elt
+)
+ident(
+  def q' "ocamlbuild/glob.ml" 145 4321 4348 "ocamlbuild/glob.ml" 150 4480 4511
+)
+"ocamlbuild/glob.ml" 145 4321 4348 "ocamlbuild/glob.ml" 145 4321 4355
+type(
+  IS.elt list
+)
+ident(
+  def future' "ocamlbuild/glob.ml" 147 4393 4409 "ocamlbuild/glob.ml" 150 4480 4511
+)
+"ocamlbuild/glob.ml" 147 4393 4412 "ocamlbuild/glob.ml" 147 4393 4418
+type(
+  IS.elt -> IS.t -> bool
+)
+ident(
+  ext_ref IS.mem
+)
+"ocamlbuild/glob.ml" 147 4393 4419 "ocamlbuild/glob.ml" 147 4393 4421
+type(
+  IS.elt
+)
+ident(
+  int_ref q' "ocamlbuild/glob.ml" 145 4321 4345 "ocamlbuild/glob.ml" 145 4321 4347
+)
+"ocamlbuild/glob.ml" 147 4393 4422 "ocamlbuild/glob.ml" 147 4393 4427
+type(
+  IS.t
+)
+ident(
+  int_ref past' "ocamlbuild/glob.ml" 142 4238 4252 "ocamlbuild/glob.ml" 142 4238 4257
+)
+"ocamlbuild/glob.ml" 147 4393 4412 "ocamlbuild/glob.ml" 147 4393 4427
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 148 4433 4451 "ocamlbuild/glob.ml" 148 4433 4458
+type(
+  IS.elt list
+)
+ident(
+  int_ref future' "ocamlbuild/glob.ml" 145 4321 4348 "ocamlbuild/glob.ml" 145 4321 4355
+)
+"ocamlbuild/glob.ml" 150 4480 4498 "ocamlbuild/glob.ml" 150 4480 4500
+type(
+  IS.elt
+)
+ident(
+  int_ref q' "ocamlbuild/glob.ml" 145 4321 4345 "ocamlbuild/glob.ml" 145 4321 4347
+)
+"ocamlbuild/glob.ml" 150 4480 4504 "ocamlbuild/glob.ml" 150 4480 4511
+type(
+  IS.elt list
+)
+ident(
+  int_ref future' "ocamlbuild/glob.ml" 145 4321 4348 "ocamlbuild/glob.ml" 145 4321 4355
+)
+"ocamlbuild/glob.ml" 150 4480 4498 "ocamlbuild/glob.ml" 150 4480 4511
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 147 4393 4409 "ocamlbuild/glob.ml" 150 4480 4511
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 145 4321 4335 "ocamlbuild/glob.ml" 151 4512 4529
+type(
+  IS.elt -> IS.elt list -> IS.elt list
+)
+"ocamlbuild/glob.ml" 152 4530 4544 "ocamlbuild/glob.ml" 152 4530 4549
+type(
+  IS.t array
+)
+ident(
+  int_ref graph "ocamlbuild/glob.ml" 131 3948 3958 "ocamlbuild/glob.ml" 131 3948 3963
+)
+"ocamlbuild/glob.ml" 152 4530 4551 "ocamlbuild/glob.ml" 152 4530 4552
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 141 4215 4223 "ocamlbuild/glob.ml" 141 4215 4224
+)
+"ocamlbuild/glob.ml" 152 4530 4544 "ocamlbuild/glob.ml" 152 4530 4553
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 153 4555 4569 "ocamlbuild/glob.ml" 153 4555 4575
+type(
+  IS.elt list
+)
+ident(
+  int_ref future "ocamlbuild/glob.ml" 141 4215 4228 "ocamlbuild/glob.ml" 141 4215 4234
+)
+"ocamlbuild/glob.ml" 144 4301 4313 "ocamlbuild/glob.ml" 153 4555 4575
+call(
+  stack
+)
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 155 4589 4599 "ocamlbuild/glob.ml" 155 4589 4609
+type(
+  IS.t -> IS.elt list -> IS.t
+)
+ident(
+  int_ref transitive "ocamlbuild/glob.ml" 139 4155 4169 "ocamlbuild/glob.ml" 139 4155 4179
+)
+"ocamlbuild/glob.ml" 155 4589 4610 "ocamlbuild/glob.ml" 155 4589 4615
+type(
+  IS.t
+)
+ident(
+  int_ref past' "ocamlbuild/glob.ml" 142 4238 4252 "ocamlbuild/glob.ml" 142 4238 4257
+)
+"ocamlbuild/glob.ml" 155 4589 4616 "ocamlbuild/glob.ml" 155 4589 4623
+type(
+  IS.elt list
+)
+ident(
+  int_ref future' "ocamlbuild/glob.ml" 143 4277 4291 "ocamlbuild/glob.ml" 143 4277 4298
+)
+"ocamlbuild/glob.ml" 155 4589 4599 "ocamlbuild/glob.ml" 155 4589 4623
+call(
+  tail
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 143 4277 4287 "ocamlbuild/glob.ml" 155 4589 4623
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 142 4238 4248 "ocamlbuild/glob.ml" 155 4589 4623
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 139 4155 4187 "ocamlbuild/glob.ml" 155 4589 4623
+type(
+  IS.elt list -> IS.t
+)
+"ocamlbuild/glob.ml" 157 4633 4647 "ocamlbuild/glob.ml" 157 4633 4648
+type(
+  int
+)
+"ocamlbuild/glob.ml" 157 4633 4652 "ocamlbuild/glob.ml" 157 4633 4653
+type(
+  IS.elt
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 128 3887 3897 "ocamlbuild/glob.ml" 128 3887 3898
+)
+"ocamlbuild/glob.ml" 157 4633 4654 "ocamlbuild/glob.ml" 157 4633 4655
+type(
+  IS.elt -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/glob.ml" 157 4633 4656 "ocamlbuild/glob.ml" 157 4633 4657
+type(
+  int
+)
+"ocamlbuild/glob.ml" 157 4633 4652 "ocamlbuild/glob.ml" 157 4633 4657
+type(
+  int
+)
+"ocamlbuild/glob.ml" 158 4661 4669 "ocamlbuild/glob.ml" 158 4661 4676
+type(
+  IS.t array
+)
+ident(
+  int_ref closure "ocamlbuild/glob.ml" 138 4110 4120 "ocamlbuild/glob.ml" 138 4110 4127
+)
+"ocamlbuild/glob.ml" 158 4661 4678 "ocamlbuild/glob.ml" 158 4661 4679
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 158 4661 4684 "ocamlbuild/glob.ml" 158 4661 4694
+type(
+  IS.t -> IS.elt list -> IS.t
+)
+ident(
+  int_ref transitive "ocamlbuild/glob.ml" 139 4155 4169 "ocamlbuild/glob.ml" 139 4155 4179
+)
+"ocamlbuild/glob.ml" 158 4661 4695 "ocamlbuild/glob.ml" 158 4661 4703
+type(
+  IS.t
+)
+ident(
+  ext_ref IS.empty
+)
+"ocamlbuild/glob.ml" 158 4661 4705 "ocamlbuild/glob.ml" 158 4661 4706
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 158 4661 4704 "ocamlbuild/glob.ml" 158 4661 4707
+type(
+  IS.elt list
+)
+"ocamlbuild/glob.ml" 158 4661 4684 "ocamlbuild/glob.ml" 158 4661 4707
+call(
+  stack
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 158 4661 4669 "ocamlbuild/glob.ml" 158 4661 4707
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 157 4633 4639 "ocamlbuild/glob.ml" 159 4729 4739
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 162 4779 4789 "ocamlbuild/glob.ml" 162 4779 4794
+type(
+  (character_class * IS.t) list array
+)
+"ocamlbuild/glob.ml" 162 4779 4797 "ocamlbuild/glob.ml" 162 4779 4807
+type(
+  IS.elt ->
+  (character_class * IS.t) list -> (character_class * IS.t) list array
+)
+ident(
+  ext_ref Array.make
+)
+"ocamlbuild/glob.ml" 162 4779 4808 "ocamlbuild/glob.ml" 162 4779 4809
+type(
+  IS.elt
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 128 3887 3897 "ocamlbuild/glob.ml" 128 3887 3898
+)
+"ocamlbuild/glob.ml" 162 4779 4810 "ocamlbuild/glob.ml" 162 4779 4812
+type(
+  (character_class * IS.t) list
+)
+"ocamlbuild/glob.ml" 162 4779 4797 "ocamlbuild/glob.ml" 162 4779 4812
+type(
+  (character_class * IS.t) list array
+)
+"ocamlbuild/glob.ml" 163 4816 4822 "ocamlbuild/glob.ml" 163 4816 4831
+type(
+  (IS.elt * character_class * IS.elt -> unit) ->
+  (IS.elt * character_class * IS.elt) list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/glob.ml" 164 4832 4851 "ocamlbuild/glob.ml" 164 4832 4852
+type(
+  IS.elt
+)
+ident(
+  def q "ocamlbuild/glob.ml" 165 4862 4872 "ocamlbuild/glob.ml" 165 4862 4915
+)
+"ocamlbuild/glob.ml" 164 4832 4853 "ocamlbuild/glob.ml" 164 4832 4854
+type(
+  character_class
+)
+ident(
+  def t "ocamlbuild/glob.ml" 165 4862 4872 "ocamlbuild/glob.ml" 165 4862 4915
+)
+"ocamlbuild/glob.ml" 164 4832 4855 "ocamlbuild/glob.ml" 164 4832 4857
+type(
+  IS.elt
+)
+ident(
+  def q' "ocamlbuild/glob.ml" 165 4862 4872 "ocamlbuild/glob.ml" 165 4862 4915
+)
+"ocamlbuild/glob.ml" 164 4832 4850 "ocamlbuild/glob.ml" 164 4832 4858
+type(
+  IS.elt * character_class * IS.elt
+)
+"ocamlbuild/glob.ml" 165 4862 4872 "ocamlbuild/glob.ml" 165 4862 4877
+type(
+  (character_class * IS.t) list array
+)
+ident(
+  int_ref table "ocamlbuild/glob.ml" 162 4779 4789 "ocamlbuild/glob.ml" 162 4779 4794
+)
+"ocamlbuild/glob.ml" 165 4862 4879 "ocamlbuild/glob.ml" 165 4862 4880
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 164 4832 4851 "ocamlbuild/glob.ml" 164 4832 4852
+)
+"ocamlbuild/glob.ml" 165 4862 4886 "ocamlbuild/glob.ml" 165 4862 4887
+type(
+  character_class
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 164 4832 4853 "ocamlbuild/glob.ml" 164 4832 4854
+)
+"ocamlbuild/glob.ml" 165 4862 4889 "ocamlbuild/glob.ml" 165 4862 4896
+type(
+  IS.t array
+)
+ident(
+  int_ref closure "ocamlbuild/glob.ml" 138 4110 4120 "ocamlbuild/glob.ml" 138 4110 4127
+)
+"ocamlbuild/glob.ml" 165 4862 4898 "ocamlbuild/glob.ml" 165 4862 4900
+type(
+  IS.elt
+)
+ident(
+  int_ref q' "ocamlbuild/glob.ml" 164 4832 4855 "ocamlbuild/glob.ml" 164 4832 4857
+)
+"ocamlbuild/glob.ml" 165 4862 4889 "ocamlbuild/glob.ml" 165 4862 4901
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 165 4862 4885 "ocamlbuild/glob.ml" 165 4862 4902
+type(
+  character_class * IS.t
+)
+"ocamlbuild/glob.ml" 165 4862 4906 "ocamlbuild/glob.ml" 165 4862 4911
+type(
+  (character_class * IS.t) list array
+)
+ident(
+  int_ref table "ocamlbuild/glob.ml" 162 4779 4789 "ocamlbuild/glob.ml" 162 4779 4794
+)
+"ocamlbuild/glob.ml" 165 4862 4913 "ocamlbuild/glob.ml" 165 4862 4914
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 164 4832 4851 "ocamlbuild/glob.ml" 164 4832 4852
+)
+"ocamlbuild/glob.ml" 165 4862 4906 "ocamlbuild/glob.ml" 165 4862 4915
+type(
+  (character_class * IS.t) list
+)
+"ocamlbuild/glob.ml" 165 4862 4885 "ocamlbuild/glob.ml" 165 4862 4915
+type(
+  (character_class * IS.t) list
+)
+"ocamlbuild/glob.ml" 165 4862 4872 "ocamlbuild/glob.ml" 165 4862 4915
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 164 4832 4840 "ocamlbuild/glob.ml" 166 4916 4927
+type(
+  IS.elt * character_class * IS.elt -> unit
+)
+"ocamlbuild/glob.ml" 167 4928 4936 "ocamlbuild/glob.ml" 167 4928 4937
+type(
+  (IS.elt * character_class * IS.elt) list ref ->
+  (IS.elt * character_class * IS.elt) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 167 4928 4937 "ocamlbuild/glob.ml" 167 4928 4948
+type(
+  (IS.elt * character_class * IS.elt) list ref
+)
+ident(
+  int_ref transitions "ocamlbuild/glob.ml" 67 1828 1838 "ocamlbuild/glob.ml" 67 1828 1849
+)
+"ocamlbuild/glob.ml" 167 4928 4936 "ocamlbuild/glob.ml" 167 4928 4948
+type(
+  (IS.elt * character_class * IS.elt) list
+)
+"ocamlbuild/glob.ml" 163 4816 4822 "ocamlbuild/glob.ml" 167 4928 4948
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 169 4951 4958 "ocamlbuild/glob.ml" 169 4951 4963
+type(
+  IS.t array
+)
+ident(
+  int_ref graph "ocamlbuild/glob.ml" 131 3948 3958 "ocamlbuild/glob.ml" 131 3948 3963
+)
+"ocamlbuild/glob.ml" 169 4951 4965 "ocamlbuild/glob.ml" 169 4951 4972
+type(
+  IS.t array
+)
+ident(
+  int_ref closure "ocamlbuild/glob.ml" 138 4110 4120 "ocamlbuild/glob.ml" 138 4110 4127
+)
+"ocamlbuild/glob.ml" 170 4974 4990 "ocamlbuild/glob.ml" 170 4974 4997
+type(
+  IS.t array
+)
+ident(
+  int_ref closure "ocamlbuild/glob.ml" 138 4110 4120 "ocamlbuild/glob.ml" 138 4110 4127
+)
+"ocamlbuild/glob.ml" 170 4974 4999 "ocamlbuild/glob.ml" 170 4974 5001
+type(
+  IS.elt
+)
+ident(
+  int_ref qi "ocamlbuild/glob.ml" 127 3859 3869 "ocamlbuild/glob.ml" 127 3859 3871
+)
+"ocamlbuild/glob.ml" 170 4974 4990 "ocamlbuild/glob.ml" 170 4974 5002
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 171 5004 5023 "ocamlbuild/glob.ml" 171 5004 5028
+type(
+  (character_class * IS.t) list array
+)
+ident(
+  int_ref table "ocamlbuild/glob.ml" 162 4779 4789 "ocamlbuild/glob.ml" 162 4779 4794
+)
+"ocamlbuild/glob.ml" 172 5030 5046 "ocamlbuild/glob.ml" 172 5030 5048
+type(
+  IS.elt
+)
+ident(
+  int_ref qf "ocamlbuild/glob.ml" 126 3832 3842 "ocamlbuild/glob.ml" 126 3832 3844
+)
+"ocamlbuild/glob.ml" 173 5050 5075 "ocamlbuild/glob.ml" 173 5050 5089
+type(
+  int -> (char, IS.t ISM.t) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/glob.ml" 173 5050 5090 "ocamlbuild/glob.ml" 173 5050 5092
+type(
+  int
+)
+"ocamlbuild/glob.ml" 173 5050 5075 "ocamlbuild/glob.ml" 173 5050 5092
+call(
+  stack
+)
+type(
+  (char, IS.t ISM.t) Hashtbl.t
+)
+"ocamlbuild/glob.ml" 170 4974 4980 "ocamlbuild/glob.ml" 173 5050 5094
+type(
+  machine
+)
+"ocamlbuild/glob.ml" 169 4951 4957 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 163 4816 4822 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 162 4779 4785 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 157 4633 4639 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 139 4155 4161 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 138 4110 4116 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 132 3991 3997 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 131 3948 3954 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 128 3887 3893 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 127 3859 3865 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 126 3832 3838 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 77 2294 2300 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 70 1974 1980 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 69 1916 1922 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 68 1862 1868 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 67 1828 1834 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 66 1801 1807 "ocamlbuild/glob.ml" 173 5050 5095
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 175 5103 5111 "ocamlbuild/glob.ml" 175 5103 5116
+type(
+  pattern -> machine
+)
+ident(
+  def build "ocamlbuild/glob.ml" 178 5192 5196 "ocamlbuild/glob.ml" 235 6792 6797
+)
+"ocamlbuild/glob.ml" 175 5103 5117 "ocamlbuild/glob.ml" 175 5103 5118
+type(
+  pattern
+)
+ident(
+  def x "ocamlbuild/glob.ml" 175 5103 5121 "ocamlbuild/glob.ml" 175 5103 5161
+)
+"ocamlbuild/glob.ml" 175 5103 5126 "ocamlbuild/glob.ml" 175 5103 5127
+type(
+  IS.t array
+)
+"ocamlbuild/glob.ml" 175 5103 5128 "ocamlbuild/glob.ml" 175 5103 5129
+type(
+  IS.t array
+)
+"ocamlbuild/glob.ml" 175 5103 5131 "ocamlbuild/glob.ml" 175 5103 5138
+type(
+  machine
+)
+"ocamlbuild/glob.ml" 175 5103 5125 "ocamlbuild/glob.ml" 175 5103 5139
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 175 5103 5142 "ocamlbuild/glob.ml" 175 5103 5148
+type(
+  pattern -> IS.t array * IS.t array * machine
+)
+ident(
+  int_ref build' "ocamlbuild/glob.ml" 65 1782 1790 "ocamlbuild/glob.ml" 65 1782 1796
+)
+"ocamlbuild/glob.ml" 175 5103 5149 "ocamlbuild/glob.ml" 175 5103 5150
+type(
+  pattern
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 175 5103 5117 "ocamlbuild/glob.ml" 175 5103 5118
+)
+"ocamlbuild/glob.ml" 175 5103 5142 "ocamlbuild/glob.ml" 175 5103 5150
+call(
+  stack
+)
+type(
+  IS.t array * IS.t array * machine
+)
+"ocamlbuild/glob.ml" 175 5103 5154 "ocamlbuild/glob.ml" 175 5103 5161
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 175 5103 5131 "ocamlbuild/glob.ml" 175 5103 5138
+)
+"ocamlbuild/glob.ml" 175 5103 5121 "ocamlbuild/glob.ml" 175 5103 5161
+type(
+  machine
+)
+"ocamlbuild/glob.ml" 178 5192 5200 "ocamlbuild/glob.ml" 178 5192 5203
+type(
+  ?trace:bool -> machine -> string -> bool
+)
+ident(
+  def run "ocamlbuild/glob.ml" 232 6746 6772 "ocamlbuild/glob.ml" 235 6792 6797
+)
+"ocamlbuild/glob.ml" 178 5192 5206 "ocamlbuild/glob.ml" 178 5192 5211
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 178 5192 5212 "ocamlbuild/glob.ml" 178 5192 5217
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/glob.ml" 178 5192 5212 "ocamlbuild/glob.ml" 178 5192 5217
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ocamlbuild/glob.ml" 178 5192 5212 "ocamlbuild/glob.ml" 178 5192 5217
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "ocamlbuild/glob.ml" 178 5192 5212 "ocamlbuild/glob.ml" 178 5192 5217
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "ocamlbuild/glob.ml" 178 5192 5204 "ocamlbuild/glob.ml" 232 6746 6772
+)
+"ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+type(
+  machine
+)
+ident(
+  def machine "ocamlbuild/glob.ml" 178 5192 5227 "ocamlbuild/glob.ml" 232 6746 6772
+)
+"ocamlbuild/glob.ml" 178 5192 5227 "ocamlbuild/glob.ml" 178 5192 5228
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/glob.ml" 179 5231 5237 "ocamlbuild/glob.ml" 232 6746 6772
+)
+"ocamlbuild/glob.ml" 179 5231 5241 "ocamlbuild/glob.ml" 179 5231 5242
+type(
+  int
+)
+"ocamlbuild/glob.ml" 179 5231 5245 "ocamlbuild/glob.ml" 179 5231 5258
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.String.length
+)
+"ocamlbuild/glob.ml" 179 5231 5259 "ocamlbuild/glob.ml" 179 5231 5260
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 178 5192 5227 "ocamlbuild/glob.ml" 178 5192 5228
+)
+"ocamlbuild/glob.ml" 179 5231 5245 "ocamlbuild/glob.ml" 179 5231 5260
+type(
+  int
+)
+"ocamlbuild/glob.ml" 180 5264 5274 "ocamlbuild/glob.ml" 180 5264 5279
+type(
+  ISM.key -> char -> IS.t
+)
+"ocamlbuild/glob.ml" 180 5264 5280 "ocamlbuild/glob.ml" 180 5264 5282
+type(
+  ISM.key
+)
+ident(
+  def qs "ocamlbuild/glob.ml" 180 5264 5283 "ocamlbuild/glob.ml" 209 6137 6152
+)
+"ocamlbuild/glob.ml" 180 5264 5283 "ocamlbuild/glob.ml" 180 5264 5284
+type(
+  char
+)
+ident(
+  def c "ocamlbuild/glob.ml" 181 5287 5295 "ocamlbuild/glob.ml" 209 6137 6152
+)
+"ocamlbuild/glob.ml" 182 5299 5313 "ocamlbuild/glob.ml" 182 5299 5314
+type(
+  IS.t ISM.t
+)
+ident(
+  def t "ocamlbuild/glob.ml" 183 5358 5368 "ocamlbuild/glob.ml" 183 5358 5381
+)
+"ocamlbuild/glob.ml" 182 5299 5317 "ocamlbuild/glob.ml" 182 5299 5329
+type(
+  (char, IS.t ISM.t) Hashtbl.t -> char -> IS.t ISM.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/glob.ml" 182 5299 5330 "ocamlbuild/glob.ml" 182 5299 5337
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+)
+"ocamlbuild/glob.ml" 182 5299 5330 "ocamlbuild/glob.ml" 182 5299 5352
+type(
+  (char, IS.t ISM.t) Hashtbl.t
+)
+"ocamlbuild/glob.ml" 182 5299 5353 "ocamlbuild/glob.ml" 182 5299 5354
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 180 5264 5283 "ocamlbuild/glob.ml" 180 5264 5284
+)
+"ocamlbuild/glob.ml" 182 5299 5317 "ocamlbuild/glob.ml" 182 5299 5354
+call(
+  stack
+)
+type(
+  IS.t ISM.t
+)
+"ocamlbuild/glob.ml" 183 5358 5368 "ocamlbuild/glob.ml" 183 5358 5376
+type(
+  ISM.key -> IS.t ISM.t -> IS.t
+)
+ident(
+  ext_ref ISM.find
+)
+"ocamlbuild/glob.ml" 183 5358 5377 "ocamlbuild/glob.ml" 183 5358 5379
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 180 5264 5280 "ocamlbuild/glob.ml" 180 5264 5282
+)
+"ocamlbuild/glob.ml" 183 5358 5380 "ocamlbuild/glob.ml" 183 5358 5381
+type(
+  IS.t ISM.t
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 182 5299 5313 "ocamlbuild/glob.ml" 182 5299 5314
+)
+"ocamlbuild/glob.ml" 183 5358 5368 "ocamlbuild/glob.ml" 183 5358 5381
+call(
+  stack
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 182 5299 5309 "ocamlbuild/glob.ml" 183 5358 5381
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 185 5395 5405 "ocamlbuild/glob.ml" 185 5395 5414
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 186 5418 5434 "ocamlbuild/glob.ml" 186 5418 5437
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 187 5440 5454 "ocamlbuild/glob.ml" 187 5440 5461
+type(
+  (IS.elt -> IS.t -> IS.t) -> ISM.key -> IS.t -> IS.t
+)
+ident(
+  ext_ref IS.fold
+)
+"ocamlbuild/glob.ml" 188 5462 5488 "ocamlbuild/glob.ml" 188 5462 5489
+type(
+  IS.elt
+)
+ident(
+  def q "ocamlbuild/glob.ml" 188 5462 5490 "ocamlbuild/glob.ml" 197 5779 5819
+)
+"ocamlbuild/glob.ml" 188 5462 5490 "ocamlbuild/glob.ml" 188 5462 5493
+type(
+  IS.t
+)
+ident(
+  def qs' "ocamlbuild/glob.ml" 189 5497 5515 "ocamlbuild/glob.ml" 197 5779 5819
+)
+"ocamlbuild/glob.ml" 189 5497 5515 "ocamlbuild/glob.ml" 189 5497 5529
+type(
+  (IS.t -> character_class * IS.t -> IS.t) ->
+  IS.t -> (character_class * IS.t) list -> IS.t
+)
+ident(
+  ext_ref My_std.List.fold_left
+)
+"ocamlbuild/glob.ml" 190 5530 5560 "ocamlbuild/glob.ml" 190 5530 5563
+type(
+  IS.t
+)
+ident(
+  def qs' "ocamlbuild/glob.ml" 190 5530 5564 "ocamlbuild/glob.ml" 194 5703 5730
+)
+"ocamlbuild/glob.ml" 190 5530 5565 "ocamlbuild/glob.ml" 190 5530 5567
+type(
+  character_class
+)
+ident(
+  def cl "ocamlbuild/glob.ml" 191 5577 5599 "ocamlbuild/glob.ml" 194 5703 5730
+)
+"ocamlbuild/glob.ml" 190 5530 5568 "ocamlbuild/glob.ml" 190 5530 5572
+type(
+  IS.t
+)
+ident(
+  def qs'' "ocamlbuild/glob.ml" 191 5577 5599 "ocamlbuild/glob.ml" 194 5703 5730
+)
+"ocamlbuild/glob.ml" 190 5530 5564 "ocamlbuild/glob.ml" 190 5530 5573
+type(
+  character_class * IS.t
+)
+"ocamlbuild/glob.ml" 191 5577 5602 "ocamlbuild/glob.ml" 191 5577 5623
+type(
+  character_class -> char -> bool
+)
+ident(
+  int_ref match_character_class "ocamlbuild/glob.ml" 38 1146 1150 "ocamlbuild/glob.ml" 38 1146 1171
+)
+"ocamlbuild/glob.ml" 191 5577 5624 "ocamlbuild/glob.ml" 191 5577 5626
+type(
+  character_class
+)
+ident(
+  int_ref cl "ocamlbuild/glob.ml" 190 5530 5565 "ocamlbuild/glob.ml" 190 5530 5567
+)
+"ocamlbuild/glob.ml" 191 5577 5627 "ocamlbuild/glob.ml" 191 5577 5628
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 180 5264 5283 "ocamlbuild/glob.ml" 180 5264 5284
+)
+"ocamlbuild/glob.ml" 191 5577 5602 "ocamlbuild/glob.ml" 191 5577 5628
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 192 5634 5658 "ocamlbuild/glob.ml" 192 5634 5666
+type(
+  IS.t -> IS.t -> IS.t
+)
+ident(
+  ext_ref IS.union
+)
+"ocamlbuild/glob.ml" 192 5634 5667 "ocamlbuild/glob.ml" 192 5634 5670
+type(
+  IS.t
+)
+ident(
+  int_ref qs' "ocamlbuild/glob.ml" 190 5530 5560 "ocamlbuild/glob.ml" 190 5530 5563
+)
+"ocamlbuild/glob.ml" 192 5634 5671 "ocamlbuild/glob.ml" 192 5634 5675
+type(
+  IS.t
+)
+ident(
+  int_ref qs'' "ocamlbuild/glob.ml" 190 5530 5568 "ocamlbuild/glob.ml" 190 5530 5572
+)
+"ocamlbuild/glob.ml" 192 5634 5658 "ocamlbuild/glob.ml" 192 5634 5675
+call(
+  tail
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 194 5703 5727 "ocamlbuild/glob.ml" 194 5703 5730
+type(
+  IS.t
+)
+ident(
+  int_ref qs' "ocamlbuild/glob.ml" 190 5530 5560 "ocamlbuild/glob.ml" 190 5530 5563
+)
+"ocamlbuild/glob.ml" 191 5577 5599 "ocamlbuild/glob.ml" 194 5703 5730
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 190 5530 5550 "ocamlbuild/glob.ml" 195 5731 5754
+type(
+  IS.t -> character_class * IS.t -> IS.t
+)
+"ocamlbuild/glob.ml" 196 5755 5775 "ocamlbuild/glob.ml" 196 5755 5778
+type(
+  IS.t
+)
+ident(
+  int_ref qs' "ocamlbuild/glob.ml" 188 5462 5490 "ocamlbuild/glob.ml" 188 5462 5493
+)
+"ocamlbuild/glob.ml" 197 5779 5799 "ocamlbuild/glob.ml" 197 5779 5806
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+)
+"ocamlbuild/glob.ml" 197 5779 5799 "ocamlbuild/glob.ml" 197 5779 5815
+type(
+  (character_class * IS.t) list array
+)
+"ocamlbuild/glob.ml" 197 5779 5817 "ocamlbuild/glob.ml" 197 5779 5818
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 188 5462 5488 "ocamlbuild/glob.ml" 188 5462 5489
+)
+"ocamlbuild/glob.ml" 197 5779 5799 "ocamlbuild/glob.ml" 197 5779 5819
+type(
+  (character_class * IS.t) list
+)
+"ocamlbuild/glob.ml" 189 5497 5515 "ocamlbuild/glob.ml" 197 5779 5819
+call(
+  tail
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 188 5462 5478 "ocamlbuild/glob.ml" 198 5820 5839
+type(
+  IS.elt -> IS.t -> IS.t
+)
+"ocamlbuild/glob.ml" 199 5840 5856 "ocamlbuild/glob.ml" 199 5840 5858
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 180 5264 5280 "ocamlbuild/glob.ml" 180 5264 5282
+)
+"ocamlbuild/glob.ml" 200 5859 5875 "ocamlbuild/glob.ml" 200 5859 5883
+type(
+  IS.t
+)
+ident(
+  ext_ref IS.empty
+)
+"ocamlbuild/glob.ml" 187 5440 5454 "ocamlbuild/glob.ml" 200 5859 5883
+call(
+  stack
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 202 5899 5915 "ocamlbuild/glob.ml" 202 5899 5916
+type(
+  IS.t ISM.t
+)
+"ocamlbuild/glob.ml" 204 5937 5953 "ocamlbuild/glob.ml" 204 5937 5965
+type(
+  (char, IS.t ISM.t) Hashtbl.t -> char -> IS.t ISM.t
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/glob.ml" 204 5937 5966 "ocamlbuild/glob.ml" 204 5937 5973
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+)
+"ocamlbuild/glob.ml" 204 5937 5966 "ocamlbuild/glob.ml" 204 5937 5988
+type(
+  (char, IS.t ISM.t) Hashtbl.t
+)
+"ocamlbuild/glob.ml" 204 5937 5989 "ocamlbuild/glob.ml" 204 5937 5990
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 180 5264 5283 "ocamlbuild/glob.ml" 180 5264 5284
+)
+"ocamlbuild/glob.ml" 204 5937 5953 "ocamlbuild/glob.ml" 204 5937 5990
+call(
+  stack
+)
+type(
+  IS.t ISM.t
+)
+"ocamlbuild/glob.ml" 206 6010 6026 "ocamlbuild/glob.ml" 206 6010 6035
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 206 6010 6039 "ocamlbuild/glob.ml" 206 6010 6048
+type(
+  IS.t ISM.t
+)
+ident(
+  ext_ref ISM.empty
+)
+"ocamlbuild/glob.ml" 203 5919 5933 "ocamlbuild/glob.ml" 206 6010 6048
+type(
+  IS.t ISM.t
+)
+"ocamlbuild/glob.ml" 208 6064 6076 "ocamlbuild/glob.ml" 208 6064 6091
+type(
+  (char, IS.t ISM.t) Hashtbl.t -> char -> IS.t ISM.t -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/glob.ml" 208 6064 6092 "ocamlbuild/glob.ml" 208 6064 6099
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+)
+"ocamlbuild/glob.ml" 208 6064 6092 "ocamlbuild/glob.ml" 208 6064 6114
+type(
+  (char, IS.t ISM.t) Hashtbl.t
+)
+"ocamlbuild/glob.ml" 208 6064 6115 "ocamlbuild/glob.ml" 208 6064 6116
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 180 5264 5283 "ocamlbuild/glob.ml" 180 5264 5284
+)
+"ocamlbuild/glob.ml" 208 6064 6118 "ocamlbuild/glob.ml" 208 6064 6125
+type(
+  ISM.key -> IS.t -> IS.t ISM.t -> IS.t ISM.t
+)
+ident(
+  ext_ref ISM.add
+)
+"ocamlbuild/glob.ml" 208 6064 6126 "ocamlbuild/glob.ml" 208 6064 6128
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 180 5264 5280 "ocamlbuild/glob.ml" 180 5264 5282
+)
+"ocamlbuild/glob.ml" 208 6064 6129 "ocamlbuild/glob.ml" 208 6064 6132
+type(
+  IS.t
+)
+ident(
+  int_ref qs' "ocamlbuild/glob.ml" 186 5418 5434 "ocamlbuild/glob.ml" 186 5418 5437
+)
+"ocamlbuild/glob.ml" 208 6064 6133 "ocamlbuild/glob.ml" 208 6064 6134
+type(
+  IS.t ISM.t
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 202 5899 5915 "ocamlbuild/glob.ml" 202 5899 5916
+)
+"ocamlbuild/glob.ml" 208 6064 6117 "ocamlbuild/glob.ml" 208 6064 6135
+call(
+  stack
+)
+type(
+  IS.t ISM.t
+)
+"ocamlbuild/glob.ml" 208 6064 6076 "ocamlbuild/glob.ml" 208 6064 6135
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 209 6137 6149 "ocamlbuild/glob.ml" 209 6137 6152
+type(
+  IS.t
+)
+ident(
+  int_ref qs' "ocamlbuild/glob.ml" 186 5418 5434 "ocamlbuild/glob.ml" 186 5418 5437
+)
+"ocamlbuild/glob.ml" 208 6064 6076 "ocamlbuild/glob.ml" 209 6137 6152
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 202 5899 5911 "ocamlbuild/glob.ml" 209 6137 6152
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 186 5418 5430 "ocamlbuild/glob.ml" 209 6137 6152
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 181 5287 5295 "ocamlbuild/glob.ml" 209 6137 6152
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 211 6162 6176 "ocamlbuild/glob.ml" 211 6162 6180
+type(
+  ISM.key -> int -> bool
+)
+"ocamlbuild/glob.ml" 211 6162 6181 "ocamlbuild/glob.ml" 211 6162 6183
+type(
+  ISM.key
+)
+ident(
+  def qs "ocamlbuild/glob.ml" 211 6162 6184 "ocamlbuild/glob.ml" 230 6723 6736
+)
+"ocamlbuild/glob.ml" 211 6162 6184 "ocamlbuild/glob.ml" 211 6162 6185
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/glob.ml" 212 6188 6196 "ocamlbuild/glob.ml" 230 6723 6736
+)
+"ocamlbuild/glob.ml" 212 6188 6199 "ocamlbuild/glob.ml" 212 6188 6210
+type(
+  ISM.key -> bool
+)
+ident(
+  ext_ref IS.is_empty
+)
+"ocamlbuild/glob.ml" 212 6188 6211 "ocamlbuild/glob.ml" 212 6188 6213
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 211 6162 6181 "ocamlbuild/glob.ml" 211 6162 6183
+)
+"ocamlbuild/glob.ml" 212 6188 6199 "ocamlbuild/glob.ml" 212 6188 6213
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 213 6219 6229 "ocamlbuild/glob.ml" 213 6219 6234
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 216 6264 6279 "ocamlbuild/glob.ml" 216 6264 6280
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 211 6162 6184 "ocamlbuild/glob.ml" 211 6162 6185
+)
+"ocamlbuild/glob.ml" 216 6264 6281 "ocamlbuild/glob.ml" 216 6264 6282
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 216 6264 6283 "ocamlbuild/glob.ml" 216 6264 6284
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 179 5231 5241 "ocamlbuild/glob.ml" 179 5231 5242
+)
+"ocamlbuild/glob.ml" 216 6264 6279 "ocamlbuild/glob.ml" 216 6264 6284
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 217 6290 6304 "ocamlbuild/glob.ml" 217 6290 6310
+type(
+  IS.elt -> ISM.key -> bool
+)
+ident(
+  ext_ref IS.mem
+)
+"ocamlbuild/glob.ml" 217 6290 6311 "ocamlbuild/glob.ml" 217 6290 6318
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+)
+"ocamlbuild/glob.ml" 217 6290 6311 "ocamlbuild/glob.ml" 217 6290 6324
+type(
+  IS.elt
+)
+"ocamlbuild/glob.ml" 217 6290 6325 "ocamlbuild/glob.ml" 217 6290 6327
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 211 6162 6181 "ocamlbuild/glob.ml" 211 6162 6183
+)
+"ocamlbuild/glob.ml" 217 6290 6304 "ocamlbuild/glob.ml" 217 6290 6327
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 220 6365 6385 "ocamlbuild/glob.ml" 220 6365 6386
+type(
+  char
+)
+"ocamlbuild/glob.ml" 220 6365 6389 "ocamlbuild/glob.ml" 220 6365 6390
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 178 5192 5227 "ocamlbuild/glob.ml" 178 5192 5228
+)
+"ocamlbuild/glob.ml" 220 6365 6392 "ocamlbuild/glob.ml" 220 6365 6393
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 211 6162 6184 "ocamlbuild/glob.ml" 211 6162 6185
+)
+"ocamlbuild/glob.ml" 220 6365 6389 "ocamlbuild/glob.ml" 220 6365 6394
+type(
+  char
+)
+"ocamlbuild/glob.ml" 221 6398 6417 "ocamlbuild/glob.ml" 221 6398 6422
+type(
+  bool
+)
+ident(
+  int_ref trace "ocamlbuild/glob.ml" 178 5192 5206 "ocamlbuild/glob.ml" 178 5192 5211
+)
+"ocamlbuild/glob.ml" 223 6452 6472 "ocamlbuild/glob.ml" 223 6452 6485
+type(
+  (int -> char -> unit, out_channel, unit) format -> int -> char -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"ocamlbuild/glob.ml" 223 6452 6486 "ocamlbuild/glob.ml" 223 6452 6495
+type(
+  (int -> char -> unit, out_channel, unit) format
+)
+"ocamlbuild/glob.ml" 223 6452 6496 "ocamlbuild/glob.ml" 223 6452 6497
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 211 6162 6184 "ocamlbuild/glob.ml" 211 6162 6185
+)
+"ocamlbuild/glob.ml" 223 6452 6498 "ocamlbuild/glob.ml" 223 6452 6499
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 220 6365 6385 "ocamlbuild/glob.ml" 220 6365 6386
+)
+"ocamlbuild/glob.ml" 223 6452 6472 "ocamlbuild/glob.ml" 223 6452 6499
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 224 6501 6521 "ocamlbuild/glob.ml" 224 6501 6528
+type(
+  (IS.elt -> unit) -> ISM.key -> unit
+)
+ident(
+  ext_ref IS.iter
+)
+"ocamlbuild/glob.ml" 224 6501 6534 "ocamlbuild/glob.ml" 224 6501 6535
+type(
+  IS.elt
+)
+ident(
+  def q "ocamlbuild/glob.ml" 224 6501 6539 "ocamlbuild/glob.ml" 224 6501 6560
+)
+"ocamlbuild/glob.ml" 224 6501 6539 "ocamlbuild/glob.ml" 224 6501 6552
+type(
+  (IS.elt -> unit, out_channel, unit) format -> IS.elt -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"ocamlbuild/glob.ml" 224 6501 6553 "ocamlbuild/glob.ml" 224 6501 6558
+type(
+  (IS.elt -> unit, out_channel, unit) format
+)
+"ocamlbuild/glob.ml" 224 6501 6559 "ocamlbuild/glob.ml" 224 6501 6560
+type(
+  IS.elt
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 224 6501 6534 "ocamlbuild/glob.ml" 224 6501 6535
+)
+"ocamlbuild/glob.ml" 224 6501 6539 "ocamlbuild/glob.ml" 224 6501 6560
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 224 6501 6529 "ocamlbuild/glob.ml" 224 6501 6561
+type(
+  IS.elt -> unit
+)
+"ocamlbuild/glob.ml" 224 6501 6562 "ocamlbuild/glob.ml" 224 6501 6564
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 211 6162 6181 "ocamlbuild/glob.ml" 211 6162 6183
+)
+"ocamlbuild/glob.ml" 224 6501 6521 "ocamlbuild/glob.ml" 224 6501 6564
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 225 6566 6586 "ocamlbuild/glob.ml" 225 6566 6599
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"ocamlbuild/glob.ml" 225 6566 6600 "ocamlbuild/glob.ml" 225 6566 6608
+type(
+  (unit, out_channel, unit) format
+)
+"ocamlbuild/glob.ml" 225 6566 6586 "ocamlbuild/glob.ml" 225 6566 6608
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 224 6501 6521 "ocamlbuild/glob.ml" 225 6566 6608
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 222 6428 6446 "ocamlbuild/glob.ml" 226 6609 6630
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 221 6398 6414 "ocamlbuild/glob.ml" 226 6609 6630
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 227 6632 6652 "ocamlbuild/glob.ml" 227 6632 6655
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 227 6632 6658 "ocamlbuild/glob.ml" 227 6632 6663
+type(
+  ISM.key -> char -> IS.t
+)
+ident(
+  int_ref apply "ocamlbuild/glob.ml" 180 5264 5274 "ocamlbuild/glob.ml" 180 5264 5279
+)
+"ocamlbuild/glob.ml" 227 6632 6664 "ocamlbuild/glob.ml" 227 6632 6666
+type(
+  ISM.key
+)
+ident(
+  int_ref qs "ocamlbuild/glob.ml" 211 6162 6181 "ocamlbuild/glob.ml" 211 6162 6183
+)
+"ocamlbuild/glob.ml" 227 6632 6667 "ocamlbuild/glob.ml" 227 6632 6668
+type(
+  char
+)
+ident(
+  int_ref c "ocamlbuild/glob.ml" 220 6365 6385 "ocamlbuild/glob.ml" 220 6365 6386
+)
+"ocamlbuild/glob.ml" 227 6632 6658 "ocamlbuild/glob.ml" 227 6632 6668
+call(
+  stack
+)
+type(
+  IS.t
+)
+"ocamlbuild/glob.ml" 228 6672 6688 "ocamlbuild/glob.ml" 228 6672 6692
+type(
+  ISM.key -> int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 211 6162 6176 "ocamlbuild/glob.ml" 211 6162 6180
+)
+"ocamlbuild/glob.ml" 228 6672 6693 "ocamlbuild/glob.ml" 228 6672 6696
+type(
+  ISM.key
+)
+ident(
+  int_ref qs' "ocamlbuild/glob.ml" 227 6632 6652 "ocamlbuild/glob.ml" 227 6632 6655
+)
+"ocamlbuild/glob.ml" 228 6672 6698 "ocamlbuild/glob.ml" 228 6672 6699
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 211 6162 6184 "ocamlbuild/glob.ml" 211 6162 6185
+)
+"ocamlbuild/glob.ml" 228 6672 6700 "ocamlbuild/glob.ml" 228 6672 6701
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 228 6672 6702 "ocamlbuild/glob.ml" 228 6672 6703
+type(
+  int
+)
+"ocamlbuild/glob.ml" 228 6672 6697 "ocamlbuild/glob.ml" 228 6672 6704
+type(
+  int
+)
+"ocamlbuild/glob.ml" 228 6672 6688 "ocamlbuild/glob.ml" 228 6672 6704
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 227 6632 6648 "ocamlbuild/glob.ml" 228 6672 6704
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 221 6398 6414 "ocamlbuild/glob.ml" 228 6672 6704
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 219 6345 6359 "ocamlbuild/glob.ml" 229 6705 6722
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 215 6248 6258 "ocamlbuild/glob.ml" 230 6723 6736
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 212 6188 6196 "ocamlbuild/glob.ml" 230 6723 6736
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 232 6746 6752 "ocamlbuild/glob.ml" 232 6746 6756
+type(
+  ISM.key -> int -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 211 6162 6176 "ocamlbuild/glob.ml" 211 6162 6180
+)
+"ocamlbuild/glob.ml" 232 6746 6757 "ocamlbuild/glob.ml" 232 6746 6764
+type(
+  machine
+)
+ident(
+  int_ref machine "ocamlbuild/glob.ml" 178 5192 5219 "ocamlbuild/glob.ml" 178 5192 5226
+)
+"ocamlbuild/glob.ml" 232 6746 6757 "ocamlbuild/glob.ml" 232 6746 6770
+type(
+  ISM.key
+)
+"ocamlbuild/glob.ml" 232 6746 6771 "ocamlbuild/glob.ml" 232 6746 6772
+type(
+  int
+)
+"ocamlbuild/glob.ml" 232 6746 6752 "ocamlbuild/glob.ml" 232 6746 6772
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 211 6162 6168 "ocamlbuild/glob.ml" 232 6746 6772
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 180 5264 5270 "ocamlbuild/glob.ml" 232 6746 6772
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 179 5231 5237 "ocamlbuild/glob.ml" 232 6746 6772
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 246 6944 6952 "ocamlbuild/glob.ml" 246 6944 6965
+type(
+  int ref -> pattern -> string -> bool
+)
+ident(
+  def match_pattern "ocamlbuild/glob.ml" 282 8212 8230 "ocamlbuild/glob.ml" 285 8250 8253
+)
+"ocamlbuild/glob.ml" 246 6944 6966 "ocamlbuild/glob.ml" 246 6944 6973
+type(
+  int ref
+)
+ident(
+  def counter "ocamlbuild/glob.ml" 246 6944 6974 "ocamlbuild/glob.ml" 282 8212 8230
+)
+"ocamlbuild/glob.ml" 246 6944 6974 "ocamlbuild/glob.ml" 246 6944 6975
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 246 6944 6976 "ocamlbuild/glob.ml" 282 8212 8230
+)
+"ocamlbuild/glob.ml" 246 6944 6976 "ocamlbuild/glob.ml" 246 6944 6977
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/glob.ml" 247 6980 6986 "ocamlbuild/glob.ml" 282 8212 8230
+)
+"ocamlbuild/glob.ml" 247 6980 6990 "ocamlbuild/glob.ml" 247 6980 6991
+type(
+  int
+)
+"ocamlbuild/glob.ml" 247 6980 6994 "ocamlbuild/glob.ml" 247 6980 7007
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.String.length
+)
+"ocamlbuild/glob.ml" 247 6980 7008 "ocamlbuild/glob.ml" 247 6980 7009
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 246 6944 6976 "ocamlbuild/glob.ml" 246 6944 6977
+)
+"ocamlbuild/glob.ml" 247 6980 6994 "ocamlbuild/glob.ml" 247 6980 7009
+type(
+  int
+)
+"ocamlbuild/glob.ml" 251 7192 7206 "ocamlbuild/glob.ml" 251 7192 7210
+type(
+  int * int * pattern -> bool
+)
+"ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/glob.ml" 252 7221 7229 "ocamlbuild/glob.ml" 280 8140 8202
+)
+"ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+type(
+  int
+)
+ident(
+  def n "ocamlbuild/glob.ml" 252 7221 7229 "ocamlbuild/glob.ml" 280 8140 8202
+)
+"ocamlbuild/glob.ml" 251 7192 7216 "ocamlbuild/glob.ml" 251 7192 7217
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 252 7221 7229 "ocamlbuild/glob.ml" 280 8140 8202
+)
+"ocamlbuild/glob.ml" 251 7192 7211 "ocamlbuild/glob.ml" 251 7192 7218
+type(
+  int * int * pattern
+)
+"ocamlbuild/glob.ml" 252 7221 7237 "ocamlbuild/glob.ml" 252 7221 7238
+type(
+  int
+)
+"ocamlbuild/glob.ml" 252 7221 7239 "ocamlbuild/glob.ml" 252 7221 7241
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/glob.ml" 252 7221 7242 "ocamlbuild/glob.ml" 252 7221 7243
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 252 7221 7237 "ocamlbuild/glob.ml" 252 7221 7243
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 252 7221 7244 "ocamlbuild/glob.ml" 252 7221 7246
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 252 7221 7247 "ocamlbuild/glob.ml" 252 7221 7248
+type(
+  int
+)
+"ocamlbuild/glob.ml" 252 7221 7249 "ocamlbuild/glob.ml" 252 7221 7251
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/glob.ml" 252 7221 7252 "ocamlbuild/glob.ml" 252 7221 7253
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 252 7221 7247 "ocamlbuild/glob.ml" 252 7221 7253
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 252 7221 7254 "ocamlbuild/glob.ml" 252 7221 7256
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 252 7221 7257 "ocamlbuild/glob.ml" 252 7221 7258
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 252 7221 7259 "ocamlbuild/glob.ml" 252 7221 7260
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 252 7221 7261 "ocamlbuild/glob.ml" 252 7221 7262
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 252 7221 7257 "ocamlbuild/glob.ml" 252 7221 7262
+type(
+  int
+)
+"ocamlbuild/glob.ml" 252 7221 7263 "ocamlbuild/glob.ml" 252 7221 7265
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/glob.ml" 252 7221 7266 "ocamlbuild/glob.ml" 252 7221 7267
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 247 6980 6990 "ocamlbuild/glob.ml" 247 6980 6991
+)
+"ocamlbuild/glob.ml" 252 7221 7257 "ocamlbuild/glob.ml" 252 7221 7267
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 252 7221 7247 "ocamlbuild/glob.ml" 252 7221 7267
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 252 7221 7236 "ocamlbuild/glob.ml" 252 7221 7268
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 252 7221 7229 "ocamlbuild/glob.ml" 252 7221 7268
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 253 7270 7278 "ocamlbuild/glob.ml" 253 7270 7282
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocamlbuild/glob.ml" 253 7270 7283 "ocamlbuild/glob.ml" 253 7270 7290
+type(
+  int ref
+)
+ident(
+  int_ref counter "ocamlbuild/glob.ml" 246 6944 6966 "ocamlbuild/glob.ml" 246 6944 6973
+)
+"ocamlbuild/glob.ml" 253 7270 7278 "ocamlbuild/glob.ml" 253 7270 7290
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 254 7292 7303 "ocamlbuild/glob.ml" 254 7292 7304
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 254 7292 7304 "ocamlbuild/glob.ml" 254 7292 7311
+type(
+  int ref
+)
+ident(
+  int_ref counter "ocamlbuild/glob.ml" 246 6944 6966 "ocamlbuild/glob.ml" 246 6944 6973
+)
+"ocamlbuild/glob.ml" 254 7292 7303 "ocamlbuild/glob.ml" 254 7292 7311
+type(
+  int
+)
+"ocamlbuild/glob.ml" 254 7292 7312 "ocamlbuild/glob.ml" 254 7292 7314
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"ocamlbuild/glob.ml" 254 7292 7315 "ocamlbuild/glob.ml" 254 7292 7326
+type(
+  int
+)
+ident(
+  int_ref brute_limit "ocamlbuild/glob.ml" 22 879 883 "ocamlbuild/glob.ml" 22 879 894
+)
+"ocamlbuild/glob.ml" 254 7292 7303 "ocamlbuild/glob.ml" 254 7292 7326
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 254 7292 7332 "ocamlbuild/glob.ml" 254 7292 7337
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/glob.ml" 254 7292 7338 "ocamlbuild/glob.ml" 254 7292 7346
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 254 7292 7332 "ocamlbuild/glob.ml" 254 7292 7346
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 254 7292 7300 "ocamlbuild/glob.ml" 254 7292 7346
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 255 7348 7362 "ocamlbuild/glob.ml" 255 7348 7363
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 251 7192 7216 "ocamlbuild/glob.ml" 251 7192 7217
+)
+"ocamlbuild/glob.ml" 256 7369 7384 "ocamlbuild/glob.ml" 256 7369 7385
+type(
+  string
+)
+ident(
+  def v "ocamlbuild/glob.ml" 257 7391 7403 "ocamlbuild/glob.ml" 262 7561 7576
+)
+"ocamlbuild/glob.ml" 256 7369 7379 "ocamlbuild/glob.ml" 256 7369 7385
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 257 7391 7403 "ocamlbuild/glob.ml" 257 7391 7416
+type(
+  string -> int
+)
+ident(
+  ext_ref My_std.String.length
+)
+"ocamlbuild/glob.ml" 257 7391 7417 "ocamlbuild/glob.ml" 257 7391 7418
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/glob.ml" 256 7369 7384 "ocamlbuild/glob.ml" 256 7369 7385
+)
+"ocamlbuild/glob.ml" 257 7391 7403 "ocamlbuild/glob.ml" 257 7391 7418
+type(
+  int
+)
+"ocamlbuild/glob.ml" 257 7391 7419 "ocamlbuild/glob.ml" 257 7391 7420
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 257 7391 7421 "ocamlbuild/glob.ml" 257 7391 7422
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 257 7391 7403 "ocamlbuild/glob.ml" 257 7391 7422
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 257 7391 7423 "ocamlbuild/glob.ml" 257 7391 7425
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 259 7444 7466 "ocamlbuild/glob.ml" 259 7444 7471
+type(
+  int -> bool
+)
+"ocamlbuild/glob.ml" 259 7444 7472 "ocamlbuild/glob.ml" 259 7444 7473
+type(
+  int
+)
+ident(
+  def j "ocamlbuild/glob.ml" 259 7444 7476 "ocamlbuild/glob.ml" 259 7444 7521
+)
+"ocamlbuild/glob.ml" 259 7444 7476 "ocamlbuild/glob.ml" 259 7444 7477
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 259 7444 7472 "ocamlbuild/glob.ml" 259 7444 7473
+)
+"ocamlbuild/glob.ml" 259 7444 7478 "ocamlbuild/glob.ml" 259 7444 7479
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 259 7444 7480 "ocamlbuild/glob.ml" 259 7444 7481
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 259 7444 7476 "ocamlbuild/glob.ml" 259 7444 7481
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 259 7444 7482 "ocamlbuild/glob.ml" 259 7444 7484
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.or
+)
+"ocamlbuild/glob.ml" 259 7444 7486 "ocamlbuild/glob.ml" 259 7444 7487
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/glob.ml" 256 7369 7384 "ocamlbuild/glob.ml" 256 7369 7385
+)
+"ocamlbuild/glob.ml" 259 7444 7489 "ocamlbuild/glob.ml" 259 7444 7490
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 259 7444 7472 "ocamlbuild/glob.ml" 259 7444 7473
+)
+"ocamlbuild/glob.ml" 259 7444 7486 "ocamlbuild/glob.ml" 259 7444 7491
+type(
+  char
+)
+"ocamlbuild/glob.ml" 259 7444 7492 "ocamlbuild/glob.ml" 259 7444 7493
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 259 7444 7494 "ocamlbuild/glob.ml" 259 7444 7495
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 246 6944 6976 "ocamlbuild/glob.ml" 246 6944 6977
+)
+"ocamlbuild/glob.ml" 259 7444 7497 "ocamlbuild/glob.ml" 259 7444 7498
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 259 7444 7499 "ocamlbuild/glob.ml" 259 7444 7500
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 259 7444 7501 "ocamlbuild/glob.ml" 259 7444 7502
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 259 7444 7472 "ocamlbuild/glob.ml" 259 7444 7473
+)
+"ocamlbuild/glob.ml" 259 7444 7497 "ocamlbuild/glob.ml" 259 7444 7502
+type(
+  int
+)
+"ocamlbuild/glob.ml" 259 7444 7494 "ocamlbuild/glob.ml" 259 7444 7503
+type(
+  char
+)
+"ocamlbuild/glob.ml" 259 7444 7486 "ocamlbuild/glob.ml" 259 7444 7503
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 259 7444 7504 "ocamlbuild/glob.ml" 259 7444 7506
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 259 7444 7507 "ocamlbuild/glob.ml" 259 7444 7512
+type(
+  int -> bool
+)
+ident(
+  int_ref check "ocamlbuild/glob.ml" 259 7444 7466 "ocamlbuild/glob.ml" 259 7444 7471
+)
+"ocamlbuild/glob.ml" 259 7444 7514 "ocamlbuild/glob.ml" 259 7444 7515
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 259 7444 7472 "ocamlbuild/glob.ml" 259 7444 7473
+)
+"ocamlbuild/glob.ml" 259 7444 7516 "ocamlbuild/glob.ml" 259 7444 7517
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 259 7444 7518 "ocamlbuild/glob.ml" 259 7444 7519
+type(
+  int
+)
+"ocamlbuild/glob.ml" 259 7444 7513 "ocamlbuild/glob.ml" 259 7444 7520
+type(
+  int
+)
+"ocamlbuild/glob.ml" 259 7444 7507 "ocamlbuild/glob.ml" 259 7444 7520
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 259 7444 7485 "ocamlbuild/glob.ml" 259 7444 7521
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 259 7444 7476 "ocamlbuild/glob.ml" 259 7444 7521
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 261 7539 7553 "ocamlbuild/glob.ml" 261 7539 7558
+type(
+  int -> bool
+)
+ident(
+  int_ref check "ocamlbuild/glob.ml" 259 7444 7466 "ocamlbuild/glob.ml" 259 7444 7471
+)
+"ocamlbuild/glob.ml" 261 7539 7559 "ocamlbuild/glob.ml" 261 7539 7560
+type(
+  int
+)
+"ocamlbuild/glob.ml" 261 7539 7553 "ocamlbuild/glob.ml" 261 7539 7560
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 258 7426 7438 "ocamlbuild/glob.ml" 262 7561 7576
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 257 7391 7403 "ocamlbuild/glob.ml" 262 7561 7576
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 263 7577 7587 "ocamlbuild/glob.ml" 263 7577 7594
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 263 7577 7599 "ocamlbuild/glob.ml" 263 7577 7600
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 263 7577 7601 "ocamlbuild/glob.ml" 263 7577 7602
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 263 7577 7603 "ocamlbuild/glob.ml" 263 7577 7604
+type(
+  int
+)
+"ocamlbuild/glob.ml" 263 7577 7599 "ocamlbuild/glob.ml" 263 7577 7604
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 264 7605 7626 "ocamlbuild/glob.ml" 264 7605 7630
+type(
+  character_class
+)
+"ocamlbuild/glob.ml" 264 7605 7619 "ocamlbuild/glob.ml" 264 7605 7631
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 264 7605 7615 "ocamlbuild/glob.ml" 264 7605 7631
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 264 7605 7635 "ocamlbuild/glob.ml" 264 7605 7639
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 265 7640 7661 "ocamlbuild/glob.ml" 265 7640 7663
+type(
+  character_class
+)
+ident(
+  def cl "ocamlbuild/glob.ml" 266 7668 7680 "ocamlbuild/glob.ml" 272 7851 7870
+)
+"ocamlbuild/glob.ml" 265 7640 7654 "ocamlbuild/glob.ml" 265 7640 7664
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 265 7640 7650 "ocamlbuild/glob.ml" 265 7640 7664
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 266 7668 7688 "ocamlbuild/glob.ml" 266 7668 7693
+type(
+  int -> bool
+)
+"ocamlbuild/glob.ml" 266 7668 7694 "ocamlbuild/glob.ml" 266 7668 7695
+type(
+  int
+)
+ident(
+  def k "ocamlbuild/glob.ml" 267 7698 7712 "ocamlbuild/glob.ml" 270 7766 7835
+)
+"ocamlbuild/glob.ml" 267 7698 7715 "ocamlbuild/glob.ml" 267 7698 7716
+type(
+  int
+)
+ident(
+  int_ref k "ocamlbuild/glob.ml" 266 7668 7694 "ocamlbuild/glob.ml" 266 7668 7695
+)
+"ocamlbuild/glob.ml" 267 7698 7717 "ocamlbuild/glob.ml" 267 7698 7718
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 267 7698 7719 "ocamlbuild/glob.ml" 267 7698 7720
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 267 7698 7715 "ocamlbuild/glob.ml" 267 7698 7720
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 268 7726 7742 "ocamlbuild/glob.ml" 268 7726 7746
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 270 7766 7783 "ocamlbuild/glob.ml" 270 7766 7804
+type(
+  character_class -> char -> bool
+)
+ident(
+  int_ref match_character_class "ocamlbuild/glob.ml" 38 1146 1150 "ocamlbuild/glob.ml" 38 1146 1171
+)
+"ocamlbuild/glob.ml" 270 7766 7805 "ocamlbuild/glob.ml" 270 7766 7807
+type(
+  character_class
+)
+ident(
+  int_ref cl "ocamlbuild/glob.ml" 265 7640 7661 "ocamlbuild/glob.ml" 265 7640 7663
+)
+"ocamlbuild/glob.ml" 270 7766 7808 "ocamlbuild/glob.ml" 270 7766 7809
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 246 6944 6976 "ocamlbuild/glob.ml" 246 6944 6977
+)
+"ocamlbuild/glob.ml" 270 7766 7811 "ocamlbuild/glob.ml" 270 7766 7812
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 270 7766 7813 "ocamlbuild/glob.ml" 270 7766 7814
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 270 7766 7815 "ocamlbuild/glob.ml" 270 7766 7816
+type(
+  int
+)
+ident(
+  int_ref k "ocamlbuild/glob.ml" 266 7668 7694 "ocamlbuild/glob.ml" 266 7668 7695
+)
+"ocamlbuild/glob.ml" 270 7766 7811 "ocamlbuild/glob.ml" 270 7766 7816
+type(
+  int
+)
+"ocamlbuild/glob.ml" 270 7766 7808 "ocamlbuild/glob.ml" 270 7766 7817
+type(
+  char
+)
+"ocamlbuild/glob.ml" 270 7766 7782 "ocamlbuild/glob.ml" 270 7766 7818
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 270 7766 7819 "ocamlbuild/glob.ml" 270 7766 7821
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 270 7766 7822 "ocamlbuild/glob.ml" 270 7766 7827
+type(
+  int -> bool
+)
+ident(
+  int_ref check "ocamlbuild/glob.ml" 266 7668 7688 "ocamlbuild/glob.ml" 266 7668 7693
+)
+"ocamlbuild/glob.ml" 270 7766 7829 "ocamlbuild/glob.ml" 270 7766 7830
+type(
+  int
+)
+ident(
+  int_ref k "ocamlbuild/glob.ml" 266 7668 7694 "ocamlbuild/glob.ml" 266 7668 7695
+)
+"ocamlbuild/glob.ml" 270 7766 7831 "ocamlbuild/glob.ml" 270 7766 7832
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 270 7766 7833 "ocamlbuild/glob.ml" 270 7766 7834
+type(
+  int
+)
+"ocamlbuild/glob.ml" 270 7766 7828 "ocamlbuild/glob.ml" 270 7766 7835
+type(
+  int
+)
+"ocamlbuild/glob.ml" 270 7766 7822 "ocamlbuild/glob.ml" 270 7766 7835
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 270 7766 7782 "ocamlbuild/glob.ml" 270 7766 7835
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 267 7698 7712 "ocamlbuild/glob.ml" 270 7766 7835
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 272 7851 7863 "ocamlbuild/glob.ml" 272 7851 7868
+type(
+  int -> bool
+)
+ident(
+  int_ref check "ocamlbuild/glob.ml" 266 7668 7688 "ocamlbuild/glob.ml" 266 7668 7693
+)
+"ocamlbuild/glob.ml" 272 7851 7869 "ocamlbuild/glob.ml" 272 7851 7870
+type(
+  int
+)
+"ocamlbuild/glob.ml" 272 7851 7863 "ocamlbuild/glob.ml" 272 7851 7870
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 266 7668 7680 "ocamlbuild/glob.ml" 272 7851 7870
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 273 7871 7886 "ocamlbuild/glob.ml" 273 7871 7887
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 273 7871 7881 "ocamlbuild/glob.ml" 273 7871 7887
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 273 7871 7891 "ocamlbuild/glob.ml" 273 7871 7896
+type(
+  exn -> bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/glob.ml" 273 7871 7897 "ocamlbuild/glob.ml" 273 7871 7905
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 273 7871 7891 "ocamlbuild/glob.ml" 273 7871 7905
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 274 7906 7922 "ocamlbuild/glob.ml" 274 7906 7924
+type(
+  character_class
+)
+ident(
+  def cl "ocamlbuild/glob.ml" 274 7906 7928 "ocamlbuild/glob.ml" 274 7906 7967
+)
+"ocamlbuild/glob.ml" 274 7906 7916 "ocamlbuild/glob.ml" 274 7906 7924
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 274 7906 7928 "ocamlbuild/glob.ml" 274 7906 7929
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 274 7906 7930 "ocamlbuild/glob.ml" 274 7906 7931
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 274 7906 7932 "ocamlbuild/glob.ml" 274 7906 7933
+type(
+  int
+)
+"ocamlbuild/glob.ml" 274 7906 7928 "ocamlbuild/glob.ml" 274 7906 7933
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 274 7906 7934 "ocamlbuild/glob.ml" 274 7906 7936
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 274 7906 7937 "ocamlbuild/glob.ml" 274 7906 7958
+type(
+  character_class -> char -> bool
+)
+ident(
+  int_ref match_character_class "ocamlbuild/glob.ml" 38 1146 1150 "ocamlbuild/glob.ml" 38 1146 1171
+)
+"ocamlbuild/glob.ml" 274 7906 7959 "ocamlbuild/glob.ml" 274 7906 7961
+type(
+  character_class
+)
+ident(
+  int_ref cl "ocamlbuild/glob.ml" 274 7906 7922 "ocamlbuild/glob.ml" 274 7906 7924
+)
+"ocamlbuild/glob.ml" 274 7906 7962 "ocamlbuild/glob.ml" 274 7906 7963
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 246 6944 6976 "ocamlbuild/glob.ml" 246 6944 6977
+)
+"ocamlbuild/glob.ml" 274 7906 7965 "ocamlbuild/glob.ml" 274 7906 7966
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 274 7906 7962 "ocamlbuild/glob.ml" 274 7906 7967
+type(
+  char
+)
+"ocamlbuild/glob.ml" 274 7906 7937 "ocamlbuild/glob.ml" 274 7906 7967
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 274 7906 7928 "ocamlbuild/glob.ml" 274 7906 7967
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 275 7968 7985 "ocamlbuild/glob.ml" 275 7968 7987
+type(
+  pattern
+)
+ident(
+  def p1 "ocamlbuild/glob.ml" 276 7995 8007 "ocamlbuild/glob.ml" 279 8121 8139
+)
+"ocamlbuild/glob.ml" 275 7968 7988 "ocamlbuild/glob.ml" 275 7968 7990
+type(
+  pattern
+)
+ident(
+  def p2 "ocamlbuild/glob.ml" 276 7995 8007 "ocamlbuild/glob.ml" 279 8121 8139
+)
+"ocamlbuild/glob.ml" 275 7968 7978 "ocamlbuild/glob.ml" 275 7968 7991
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 276 7995 8015 "ocamlbuild/glob.ml" 276 7995 8019
+type(
+  int -> bool
+)
+"ocamlbuild/glob.ml" 276 7995 8020 "ocamlbuild/glob.ml" 276 7995 8021
+type(
+  int
+)
+ident(
+  def j "ocamlbuild/glob.ml" 277 8024 8038 "ocamlbuild/glob.ml" 277 8024 8105
+)
+"ocamlbuild/glob.ml" 277 8024 8038 "ocamlbuild/glob.ml" 277 8024 8039
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 276 7995 8020 "ocamlbuild/glob.ml" 276 7995 8021
+)
+"ocamlbuild/glob.ml" 277 8024 8040 "ocamlbuild/glob.ml" 277 8024 8042
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"ocamlbuild/glob.ml" 277 8024 8043 "ocamlbuild/glob.ml" 277 8024 8044
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 277 8024 8038 "ocamlbuild/glob.ml" 277 8024 8044
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 277 8024 8045 "ocamlbuild/glob.ml" 277 8024 8047
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 277 8024 8050 "ocamlbuild/glob.ml" 277 8024 8054
+type(
+  int * int * pattern -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 251 7192 7206 "ocamlbuild/glob.ml" 251 7192 7210
+)
+"ocamlbuild/glob.ml" 277 8024 8056 "ocamlbuild/glob.ml" 277 8024 8057
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 277 8024 8058 "ocamlbuild/glob.ml" 277 8024 8059
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 276 7995 8020 "ocamlbuild/glob.ml" 276 7995 8021
+)
+"ocamlbuild/glob.ml" 277 8024 8060 "ocamlbuild/glob.ml" 277 8024 8062
+type(
+  pattern
+)
+ident(
+  int_ref p1 "ocamlbuild/glob.ml" 275 7968 7985 "ocamlbuild/glob.ml" 275 7968 7987
+)
+"ocamlbuild/glob.ml" 277 8024 8055 "ocamlbuild/glob.ml" 277 8024 8063
+type(
+  int * int * pattern
+)
+"ocamlbuild/glob.ml" 277 8024 8050 "ocamlbuild/glob.ml" 277 8024 8063
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 277 8024 8064 "ocamlbuild/glob.ml" 277 8024 8066
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/glob.ml" 277 8024 8067 "ocamlbuild/glob.ml" 277 8024 8071
+type(
+  int * int * pattern -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 251 7192 7206 "ocamlbuild/glob.ml" 251 7192 7210
+)
+"ocamlbuild/glob.ml" 277 8024 8073 "ocamlbuild/glob.ml" 277 8024 8074
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 277 8024 8074 "ocamlbuild/glob.ml" 277 8024 8075
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 277 8024 8075 "ocamlbuild/glob.ml" 277 8024 8076
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 276 7995 8020 "ocamlbuild/glob.ml" 276 7995 8021
+)
+"ocamlbuild/glob.ml" 277 8024 8073 "ocamlbuild/glob.ml" 277 8024 8076
+type(
+  int
+)
+"ocamlbuild/glob.ml" 277 8024 8078 "ocamlbuild/glob.ml" 277 8024 8079
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 277 8024 8080 "ocamlbuild/glob.ml" 277 8024 8081
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/glob.ml" 277 8024 8082 "ocamlbuild/glob.ml" 277 8024 8083
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 276 7995 8020 "ocamlbuild/glob.ml" 276 7995 8021
+)
+"ocamlbuild/glob.ml" 277 8024 8078 "ocamlbuild/glob.ml" 277 8024 8083
+type(
+  int
+)
+"ocamlbuild/glob.ml" 277 8024 8084 "ocamlbuild/glob.ml" 277 8024 8086
+type(
+  pattern
+)
+ident(
+  int_ref p2 "ocamlbuild/glob.ml" 275 7968 7988 "ocamlbuild/glob.ml" 275 7968 7990
+)
+"ocamlbuild/glob.ml" 277 8024 8072 "ocamlbuild/glob.ml" 277 8024 8087
+type(
+  int * int * pattern
+)
+"ocamlbuild/glob.ml" 277 8024 8067 "ocamlbuild/glob.ml" 277 8024 8087
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 277 8024 8049 "ocamlbuild/glob.ml" 277 8024 8088
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 277 8024 8089 "ocamlbuild/glob.ml" 277 8024 8091
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"ocamlbuild/glob.ml" 277 8024 8092 "ocamlbuild/glob.ml" 277 8024 8096
+type(
+  int -> bool
+)
+ident(
+  int_ref scan "ocamlbuild/glob.ml" 276 7995 8015 "ocamlbuild/glob.ml" 276 7995 8019
+)
+"ocamlbuild/glob.ml" 277 8024 8098 "ocamlbuild/glob.ml" 277 8024 8099
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/glob.ml" 276 7995 8020 "ocamlbuild/glob.ml" 276 7995 8021
+)
+"ocamlbuild/glob.ml" 277 8024 8100 "ocamlbuild/glob.ml" 277 8024 8101
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/glob.ml" 277 8024 8102 "ocamlbuild/glob.ml" 277 8024 8103
+type(
+  int
+)
+"ocamlbuild/glob.ml" 277 8024 8097 "ocamlbuild/glob.ml" 277 8024 8104
+type(
+  int
+)
+"ocamlbuild/glob.ml" 277 8024 8092 "ocamlbuild/glob.ml" 277 8024 8104
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 277 8024 8048 "ocamlbuild/glob.ml" 277 8024 8105
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 277 8024 8038 "ocamlbuild/glob.ml" 277 8024 8105
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 279 8121 8133 "ocamlbuild/glob.ml" 279 8121 8137
+type(
+  int -> bool
+)
+ident(
+  int_ref scan "ocamlbuild/glob.ml" 276 7995 8015 "ocamlbuild/glob.ml" 276 7995 8019
+)
+"ocamlbuild/glob.ml" 279 8121 8138 "ocamlbuild/glob.ml" 279 8121 8139
+type(
+  int
+)
+"ocamlbuild/glob.ml" 279 8121 8133 "ocamlbuild/glob.ml" 279 8121 8139
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 276 7995 8007 "ocamlbuild/glob.ml" 279 8121 8139
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 280 8140 8156 "ocamlbuild/glob.ml" 280 8140 8158
+type(
+  pattern list
+)
+ident(
+  def pl "ocamlbuild/glob.ml" 280 8140 8162 "ocamlbuild/glob.ml" 280 8140 8202
+)
+"ocamlbuild/glob.ml" 280 8140 8150 "ocamlbuild/glob.ml" 280 8140 8158
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 280 8140 8162 "ocamlbuild/glob.ml" 280 8140 8173
+type(
+  (pattern -> bool) -> pattern list -> bool
+)
+ident(
+  ext_ref My_std.List.exists
+)
+"ocamlbuild/glob.ml" 280 8140 8179 "ocamlbuild/glob.ml" 280 8140 8181
+type(
+  pattern
+)
+ident(
+  def p' "ocamlbuild/glob.ml" 280 8140 8185 "ocamlbuild/glob.ml" 280 8140 8198
+)
+"ocamlbuild/glob.ml" 280 8140 8185 "ocamlbuild/glob.ml" 280 8140 8189
+type(
+  int * int * pattern -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 251 7192 7206 "ocamlbuild/glob.ml" 251 7192 7210
+)
+"ocamlbuild/glob.ml" 280 8140 8191 "ocamlbuild/glob.ml" 280 8140 8192
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/glob.ml" 251 7192 7212 "ocamlbuild/glob.ml" 251 7192 7213
+)
+"ocamlbuild/glob.ml" 280 8140 8193 "ocamlbuild/glob.ml" 280 8140 8194
+type(
+  int
+)
+ident(
+  int_ref n "ocamlbuild/glob.ml" 251 7192 7214 "ocamlbuild/glob.ml" 251 7192 7215
+)
+"ocamlbuild/glob.ml" 280 8140 8195 "ocamlbuild/glob.ml" 280 8140 8197
+type(
+  pattern
+)
+ident(
+  int_ref p' "ocamlbuild/glob.ml" 280 8140 8179 "ocamlbuild/glob.ml" 280 8140 8181
+)
+"ocamlbuild/glob.ml" 280 8140 8190 "ocamlbuild/glob.ml" 280 8140 8198
+type(
+  int * int * pattern
+)
+"ocamlbuild/glob.ml" 280 8140 8185 "ocamlbuild/glob.ml" 280 8140 8198
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 280 8140 8174 "ocamlbuild/glob.ml" 280 8140 8199
+type(
+  pattern -> bool
+)
+"ocamlbuild/glob.ml" 280 8140 8200 "ocamlbuild/glob.ml" 280 8140 8202
+type(
+  pattern list
+)
+ident(
+  int_ref pl "ocamlbuild/glob.ml" 280 8140 8156 "ocamlbuild/glob.ml" 280 8140 8158
+)
+"ocamlbuild/glob.ml" 280 8140 8162 "ocamlbuild/glob.ml" 280 8140 8202
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 255 7348 7356 "ocamlbuild/glob.ml" 280 8140 8202
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 254 7292 7300 "ocamlbuild/glob.ml" 280 8140 8202
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 253 7270 7278 "ocamlbuild/glob.ml" 280 8140 8202
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 252 7221 7229 "ocamlbuild/glob.ml" 280 8140 8202
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 282 8212 8218 "ocamlbuild/glob.ml" 282 8212 8222
+type(
+  int * int * pattern -> bool
+)
+ident(
+  int_ref loop "ocamlbuild/glob.ml" 251 7192 7206 "ocamlbuild/glob.ml" 251 7192 7210
+)
+"ocamlbuild/glob.ml" 282 8212 8224 "ocamlbuild/glob.ml" 282 8212 8225
+type(
+  int
+)
+"ocamlbuild/glob.ml" 282 8212 8226 "ocamlbuild/glob.ml" 282 8212 8227
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 247 6980 6990 "ocamlbuild/glob.ml" 247 6980 6991
+)
+"ocamlbuild/glob.ml" 282 8212 8228 "ocamlbuild/glob.ml" 282 8212 8229
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 246 6944 6974 "ocamlbuild/glob.ml" 246 6944 6975
+)
+"ocamlbuild/glob.ml" 282 8212 8223 "ocamlbuild/glob.ml" 282 8212 8230
+type(
+  int * int * pattern
+)
+"ocamlbuild/glob.ml" 282 8212 8218 "ocamlbuild/glob.ml" 282 8212 8230
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 251 7192 7198 "ocamlbuild/glob.ml" 282 8212 8230
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 247 6980 6986 "ocamlbuild/glob.ml" 282 8212 8230
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 297 8540 8544 "ocamlbuild/glob.ml" 297 8540 8567
+type(
+  pattern -> fast_pattern_contents ref
+)
+ident(
+  def fast_pattern_of_pattern "ocamlbuild/glob.ml" 300 8620 8620 --
+)
+"ocamlbuild/glob.ml" 297 8540 8568 "ocamlbuild/glob.ml" 297 8540 8569
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 297 8540 8572 "ocamlbuild/glob.ml" 297 8540 8593
+)
+"ocamlbuild/glob.ml" 297 8540 8572 "ocamlbuild/glob.ml" 297 8540 8575
+type(
+  fast_pattern_contents -> fast_pattern_contents ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 297 8540 8583 "ocamlbuild/glob.ml" 297 8540 8586
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 297 8540 8587 "ocamlbuild/glob.ml" 297 8540 8588
+type(
+  int
+)
+"ocamlbuild/glob.ml" 297 8540 8583 "ocamlbuild/glob.ml" 297 8540 8588
+type(
+  int ref
+)
+"ocamlbuild/glob.ml" 297 8540 8590 "ocamlbuild/glob.ml" 297 8540 8591
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 297 8540 8568 "ocamlbuild/glob.ml" 297 8540 8569
+)
+"ocamlbuild/glob.ml" 297 8540 8576 "ocamlbuild/glob.ml" 297 8540 8593
+type(
+  fast_pattern_contents
+)
+"ocamlbuild/glob.ml" 297 8540 8572 "ocamlbuild/glob.ml" 297 8540 8593
+type(
+  fast_pattern_contents ref
+)
+"ocamlbuild/glob.ml" 300 8620 8624 "ocamlbuild/glob.ml" 300 8620 8631
+type(
+  string option -> pattern atom -> pattern atom
+)
+ident(
+  def add_dir "ocamlbuild/glob.ml" 312 8898 8898 --
+)
+"ocamlbuild/glob.ml" 300 8620 8632 "ocamlbuild/glob.ml" 300 8620 8635
+type(
+  string option
+)
+ident(
+  def dir "ocamlbuild/glob.ml" 300 8620 8636 "ocamlbuild/glob.ml" 308 8801 8866
+)
+"ocamlbuild/glob.ml" 300 8620 8636 "ocamlbuild/glob.ml" 300 8620 8637
+type(
+  pattern atom
+)
+ident(
+  def x "ocamlbuild/glob.ml" 301 8640 8642 "ocamlbuild/glob.ml" 308 8801 8866
+)
+"ocamlbuild/glob.ml" 301 8640 8648 "ocamlbuild/glob.ml" 301 8640 8651
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 300 8620 8632 "ocamlbuild/glob.ml" 300 8620 8635
+)
+"ocamlbuild/glob.ml" 302 8657 8661 "ocamlbuild/glob.ml" 302 8657 8665
+type(
+  string option
+)
+"ocamlbuild/glob.ml" 302 8657 8669 "ocamlbuild/glob.ml" 302 8657 8670
+type(
+  pattern atom
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 300 8620 8636 "ocamlbuild/glob.ml" 300 8620 8637
+)
+"ocamlbuild/glob.ml" 303 8671 8679 "ocamlbuild/glob.ml" 303 8671 8684
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/glob.ml" 304 8688 8694 "ocamlbuild/glob.ml" 308 8801 8866
+)
+"ocamlbuild/glob.ml" 303 8671 8675 "ocamlbuild/glob.ml" 303 8671 8684
+type(
+  string option
+)
+"ocamlbuild/glob.ml" 304 8688 8700 "ocamlbuild/glob.ml" 304 8688 8701
+type(
+  pattern atom
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 300 8620 8636 "ocamlbuild/glob.ml" 300 8620 8637
+)
+"ocamlbuild/glob.ml" 305 8707 8723 "ocamlbuild/glob.ml" 305 8707 8726
+type(
+  string
+)
+ident(
+  def s "ocamlbuild/glob.ml" 306 8730 8740 "ocamlbuild/glob.ml" 306 8730 8778
+)
+"ocamlbuild/glob.ml" 305 8707 8715 "ocamlbuild/glob.ml" 305 8707 8726
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 306 8730 8749 "ocamlbuild/glob.ml" 306 8730 8771
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/glob.ml" 306 8730 8772 "ocamlbuild/glob.ml" 306 8730 8775
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 303 8671 8679 "ocamlbuild/glob.ml" 303 8671 8684
+)
+"ocamlbuild/glob.ml" 306 8730 8776 "ocamlbuild/glob.ml" 306 8730 8777
+type(
+  string
+)
+ident(
+  int_ref s "ocamlbuild/glob.ml" 305 8707 8723 "ocamlbuild/glob.ml" 305 8707 8726
+)
+"ocamlbuild/glob.ml" 306 8730 8748 "ocamlbuild/glob.ml" 306 8730 8778
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 306 8730 8740 "ocamlbuild/glob.ml" 306 8730 8778
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 307 8779 8794 "ocamlbuild/glob.ml" 307 8779 8797
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 308 8801 8811 "ocamlbuild/glob.ml" 308 8801 8866
+)
+"ocamlbuild/glob.ml" 307 8779 8787 "ocamlbuild/glob.ml" 307 8779 8797
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 308 8801 8831 "ocamlbuild/glob.ml" 308 8801 8853
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/glob.ml" 308 8801 8854 "ocamlbuild/glob.ml" 308 8801 8857
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 303 8671 8679 "ocamlbuild/glob.ml" 303 8671 8684
+)
+"ocamlbuild/glob.ml" 308 8801 8858 "ocamlbuild/glob.ml" 308 8801 8860
+type(
+  string
+)
+"ocamlbuild/glob.ml" 308 8801 8830 "ocamlbuild/glob.ml" 308 8801 8861
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 308 8801 8826 "ocamlbuild/glob.ml" 308 8801 8861
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 308 8801 8863 "ocamlbuild/glob.ml" 308 8801 8864
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 307 8779 8794 "ocamlbuild/glob.ml" 307 8779 8797
+)
+"ocamlbuild/glob.ml" 308 8801 8818 "ocamlbuild/glob.ml" 308 8801 8866
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 308 8801 8811 "ocamlbuild/glob.ml" 308 8801 8866
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 304 8688 8694 "ocamlbuild/glob.ml" 308 8801 8866
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 301 8640 8642 "ocamlbuild/glob.ml" 308 8801 8866
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 312 8898 8902 "ocamlbuild/glob.ml" 312 8898 8913
+type(
+  string option ->
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def add_ast_dir "ocamlbuild/glob.ml" 323 9207 9207 --
+)
+"ocamlbuild/glob.ml" 312 8898 8914 "ocamlbuild/glob.ml" 312 8898 8917
+type(
+  string option
+)
+ident(
+  def dir "ocamlbuild/glob.ml" 312 8898 8918 "ocamlbuild/glob.ml" 319 9113 9181
+)
+"ocamlbuild/glob.ml" 312 8898 8918 "ocamlbuild/glob.ml" 312 8898 8919
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def x "ocamlbuild/glob.ml" 313 8922 8924 "ocamlbuild/glob.ml" 319 9113 9181
+)
+"ocamlbuild/glob.ml" 313 8922 8930 "ocamlbuild/glob.ml" 313 8922 8933
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 312 8898 8914 "ocamlbuild/glob.ml" 312 8898 8917
+)
+"ocamlbuild/glob.ml" 314 8939 8943 "ocamlbuild/glob.ml" 314 8939 8947
+type(
+  string option
+)
+"ocamlbuild/glob.ml" 314 8939 8951 "ocamlbuild/glob.ml" 314 8939 8952
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 312 8898 8918 "ocamlbuild/glob.ml" 312 8898 8919
+)
+"ocamlbuild/glob.ml" 315 8953 8962 "ocamlbuild/glob.ml" 315 8953 8965
+type(
+  string
+)
+ident(
+  def dir "ocamlbuild/glob.ml" 316 8969 8975 "ocamlbuild/glob.ml" 319 9113 9181
+)
+"ocamlbuild/glob.ml" 315 8953 8957 "ocamlbuild/glob.ml" 315 8953 8965
+type(
+  string option
+)
+"ocamlbuild/glob.ml" 316 8969 8979 "ocamlbuild/glob.ml" 316 8969 8984
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 316 8969 8998 "ocamlbuild/glob.ml" 316 8969 9001
+type(
+  char
+)
+"ocamlbuild/glob.ml" 316 8969 9002 "ocamlbuild/glob.ml" 316 8969 9005
+type(
+  char
+)
+"ocamlbuild/glob.ml" 316 8969 8997 "ocamlbuild/glob.ml" 316 8969 9006
+type(
+  char * char
+)
+"ocamlbuild/glob.ml" 316 8969 8992 "ocamlbuild/glob.ml" 316 8969 9007
+type(
+  character_class
+)
+"ocamlbuild/glob.ml" 316 8969 8987 "ocamlbuild/glob.ml" 316 8969 9007
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 317 9011 9021 "ocamlbuild/glob.ml" 317 9011 9024
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 317 9011 9033 "ocamlbuild/glob.ml" 317 9011 9037
+type(
+  character_class
+)
+"ocamlbuild/glob.ml" 317 9011 9027 "ocamlbuild/glob.ml" 317 9011 9037
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 318 9041 9051 "ocamlbuild/glob.ml" 318 9041 9052
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 318 9041 9061 "ocamlbuild/glob.ml" 318 9041 9068
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 318 9041 9077 "ocamlbuild/glob.ml" 318 9041 9082
+type(
+  pattern
+)
+ident(
+  int_ref slash "ocamlbuild/glob.ml" 316 8969 8979 "ocamlbuild/glob.ml" 316 8969 8984
+)
+"ocamlbuild/glob.ml" 318 9041 9089 "ocamlbuild/glob.ml" 318 9041 9092
+type(
+  pattern
+)
+ident(
+  int_ref any "ocamlbuild/glob.ml" 317 9011 9021 "ocamlbuild/glob.ml" 317 9011 9024
+)
+"ocamlbuild/glob.ml" 318 9041 9084 "ocamlbuild/glob.ml" 318 9041 9092
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 318 9041 9070 "ocamlbuild/glob.ml" 318 9041 9093
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 318 9041 9060 "ocamlbuild/glob.ml" 318 9041 9094
+type(
+  pattern list
+)
+"ocamlbuild/glob.ml" 318 9041 9055 "ocamlbuild/glob.ml" 318 9041 9094
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 319 9113 9136 "ocamlbuild/glob.ml" 319 9113 9139
+type(
+  fast_pattern_contents -> fast_pattern_contents ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 319 9113 9147 "ocamlbuild/glob.ml" 319 9113 9150
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 319 9113 9151 "ocamlbuild/glob.ml" 319 9113 9152
+type(
+  int
+)
+"ocamlbuild/glob.ml" 319 9113 9147 "ocamlbuild/glob.ml" 319 9113 9152
+type(
+  int ref
+)
+"ocamlbuild/glob.ml" 319 9113 9166 "ocamlbuild/glob.ml" 319 9113 9169
+type(
+  string
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 315 8953 8962 "ocamlbuild/glob.ml" 315 8953 8965
+)
+"ocamlbuild/glob.ml" 319 9113 9161 "ocamlbuild/glob.ml" 319 9113 9169
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 319 9113 9171 "ocamlbuild/glob.ml" 319 9113 9172
+type(
+  pattern
+)
+ident(
+  int_ref q "ocamlbuild/glob.ml" 318 9041 9051 "ocamlbuild/glob.ml" 318 9041 9052
+)
+"ocamlbuild/glob.ml" 319 9113 9154 "ocamlbuild/glob.ml" 319 9113 9173
+type(
+  pattern
+)
+"ocamlbuild/glob.ml" 319 9113 9140 "ocamlbuild/glob.ml" 319 9113 9175
+type(
+  fast_pattern_contents
+)
+"ocamlbuild/glob.ml" 319 9113 9135 "ocamlbuild/glob.ml" 319 9113 9176
+type(
+  fast_pattern_contents ref
+)
+"ocamlbuild/glob.ml" 319 9113 9127 "ocamlbuild/glob.ml" 319 9113 9177
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 319 9113 9123 "ocamlbuild/glob.ml" 319 9113 9177
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 319 9113 9179 "ocamlbuild/glob.ml" 319 9113 9180
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 312 8898 8918 "ocamlbuild/glob.ml" 312 8898 8919
+)
+"ocamlbuild/glob.ml" 319 9113 9122 "ocamlbuild/glob.ml" 319 9113 9181
+type(
+  fast_pattern_contents ref atom Bool.boolean list
+)
+"ocamlbuild/glob.ml" 319 9113 9119 "ocamlbuild/glob.ml" 319 9113 9181
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 318 9041 9047 "ocamlbuild/glob.ml" 319 9113 9181
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 317 9011 9017 "ocamlbuild/glob.ml" 319 9113 9181
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 316 8969 8975 "ocamlbuild/glob.ml" 319 9113 9181
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 313 8922 8924 "ocamlbuild/glob.ml" 319 9113 9181
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 323 9207 9211 "ocamlbuild/glob.ml" 323 9207 9216
+type(
+  ?dir:string -> string -> fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def parse "ocamlbuild/glob.ml" 382 10804 10804 --
+)
+"ocamlbuild/glob.ml" 323 9207 9218 "ocamlbuild/glob.ml" 323 9207 9221
+type(
+  string option
+)
+ident(
+  def dir "ocamlbuild/glob.ml" 323 9207 9222 "ocamlbuild/glob.ml" 378 10760 10779
+)
+"ocamlbuild/glob.ml" 323 9207 9222 "ocamlbuild/glob.ml" 323 9207 9223
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/glob.ml" 324 9226 9228 "ocamlbuild/glob.ml" 378 10760 10779
+)
+"ocamlbuild/glob.ml" 324 9226 9232 "ocamlbuild/glob.ml" 324 9226 9233
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/glob.ml" 324 9226 9236 "ocamlbuild/glob.ml" 324 9226 9254
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"ocamlbuild/glob.ml" 324 9226 9255 "ocamlbuild/glob.ml" 324 9226 9256
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 323 9207 9222 "ocamlbuild/glob.ml" 323 9207 9223
+)
+"ocamlbuild/glob.ml" 324 9226 9236 "ocamlbuild/glob.ml" 324 9226 9256
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"ocamlbuild/glob.ml" 325 9260 9266 "ocamlbuild/glob.ml" 325 9260 9269
+type(
+  Glob_lexer.token option ref
+)
+"ocamlbuild/glob.ml" 325 9260 9272 "ocamlbuild/glob.ml" 325 9260 9275
+type(
+  Glob_lexer.token option -> Glob_lexer.token option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/glob.ml" 325 9260 9276 "ocamlbuild/glob.ml" 325 9260 9280
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 325 9260 9272 "ocamlbuild/glob.ml" 325 9260 9280
+type(
+  Glob_lexer.token option ref
+)
+"ocamlbuild/glob.ml" 326 9284 9290 "ocamlbuild/glob.ml" 326 9284 9291
+type(
+  unit -> Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 327 9294 9302 "ocamlbuild/glob.ml" 327 9294 9304
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 328 9308 9320 "ocamlbuild/glob.ml" 328 9308 9321
+type(
+  Glob_lexer.token option ref -> Glob_lexer.token option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 328 9308 9321 "ocamlbuild/glob.ml" 328 9308 9324
+type(
+  Glob_lexer.token option ref
+)
+ident(
+  int_ref tok "ocamlbuild/glob.ml" 325 9260 9266 "ocamlbuild/glob.ml" 325 9260 9269
+)
+"ocamlbuild/glob.ml" 328 9308 9320 "ocamlbuild/glob.ml" 328 9308 9324
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 329 9330 9338 "ocamlbuild/glob.ml" 329 9330 9342
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 329 9330 9346 "ocamlbuild/glob.ml" 329 9330 9351
+type(
+  Lexing.lexbuf -> Glob_lexer.token
+)
+ident(
+  ext_ref Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 329 9330 9352 "ocamlbuild/glob.ml" 329 9330 9353
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref l "ocamlbuild/glob.ml" 324 9226 9232 "ocamlbuild/glob.ml" 324 9226 9233
+)
+"ocamlbuild/glob.ml" 329 9330 9346 "ocamlbuild/glob.ml" 329 9330 9353
+call(
+  tail
+)
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 330 9354 9367 "ocamlbuild/glob.ml" 330 9354 9368
+type(
+  Glob_lexer.token
+)
+ident(
+  def x "ocamlbuild/glob.ml" 331 9372 9382 "ocamlbuild/glob.ml" 332 9395 9406
+)
+"ocamlbuild/glob.ml" 330 9354 9362 "ocamlbuild/glob.ml" 330 9354 9368
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 331 9372 9382 "ocamlbuild/glob.ml" 331 9372 9385
+type(
+  Glob_lexer.token option ref
+)
+ident(
+  int_ref tok "ocamlbuild/glob.ml" 325 9260 9266 "ocamlbuild/glob.ml" 325 9260 9269
+)
+"ocamlbuild/glob.ml" 331 9372 9386 "ocamlbuild/glob.ml" 331 9372 9388
+type(
+  Glob_lexer.token option ref -> Glob_lexer.token option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/glob.ml" 331 9372 9389 "ocamlbuild/glob.ml" 331 9372 9393
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 331 9372 9382 "ocamlbuild/glob.ml" 331 9372 9393
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 332 9395 9405 "ocamlbuild/glob.ml" 332 9395 9406
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 330 9354 9367 "ocamlbuild/glob.ml" 330 9354 9368
+)
+"ocamlbuild/glob.ml" 331 9372 9382 "ocamlbuild/glob.ml" 332 9395 9406
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 328 9308 9314 "ocamlbuild/glob.ml" 332 9395 9406
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 327 9294 9298 "ocamlbuild/glob.ml" 332 9395 9406
+type(
+  unit -> Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 334 9412 9418 "ocamlbuild/glob.ml" 334 9412 9419
+type(
+  Glob_lexer.token -> unit
+)
+"ocamlbuild/glob.ml" 334 9412 9420 "ocamlbuild/glob.ml" 334 9412 9421
+type(
+  Glob_lexer.token
+)
+ident(
+  def t "ocamlbuild/glob.ml" 335 9424 9428 "ocamlbuild/glob.ml" 338 9489 9607
+)
+"ocamlbuild/glob.ml" 335 9424 9434 "ocamlbuild/glob.ml" 335 9424 9435
+type(
+  Glob_lexer.token option ref -> Glob_lexer.token option
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 335 9424 9435 "ocamlbuild/glob.ml" 335 9424 9438
+type(
+  Glob_lexer.token option ref
+)
+ident(
+  int_ref tok "ocamlbuild/glob.ml" 325 9260 9266 "ocamlbuild/glob.ml" 325 9260 9269
+)
+"ocamlbuild/glob.ml" 335 9424 9434 "ocamlbuild/glob.ml" 335 9424 9438
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 336 9444 9450 "ocamlbuild/glob.ml" 336 9444 9454
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 336 9444 9458 "ocamlbuild/glob.ml" 336 9444 9461
+type(
+  Glob_lexer.token option ref
+)
+ident(
+  int_ref tok "ocamlbuild/glob.ml" 325 9260 9266 "ocamlbuild/glob.ml" 325 9260 9269
+)
+"ocamlbuild/glob.ml" 336 9444 9462 "ocamlbuild/glob.ml" 336 9444 9464
+type(
+  Glob_lexer.token option ref -> Glob_lexer.token option -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/glob.ml" 336 9444 9470 "ocamlbuild/glob.ml" 336 9444 9471
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 334 9412 9420 "ocamlbuild/glob.ml" 334 9412 9421
+)
+"ocamlbuild/glob.ml" 336 9444 9465 "ocamlbuild/glob.ml" 336 9444 9471
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 336 9444 9458 "ocamlbuild/glob.ml" 336 9444 9471
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 337 9472 9483 "ocamlbuild/glob.ml" 337 9472 9485
+type(
+  Glob_lexer.token
+)
+ident(
+  def t' "ocamlbuild/glob.ml" 338 9489 9497 "ocamlbuild/glob.ml" 338 9489 9607
+)
+"ocamlbuild/glob.ml" 337 9472 9478 "ocamlbuild/glob.ml" 337 9472 9485
+type(
+  Glob_lexer.token option
+)
+"ocamlbuild/glob.ml" 338 9489 9497 "ocamlbuild/glob.ml" 338 9489 9502
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/glob.ml" 338 9489 9516 "ocamlbuild/glob.ml" 338 9489 9518
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref sf "ocamlbuild/glob.ml" 20 852 856 "ocamlbuild/glob.ml" 20 852 858
+)
+"ocamlbuild/glob.ml" 338 9489 9519 "ocamlbuild/glob.ml" 338 9489 9564
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocamlbuild/glob.ml" 338 9489 9566 "ocamlbuild/glob.ml" 338 9489 9581
+type(
+  Glob_lexer.token -> string
+)
+ident(
+  int_ref string_of_token "ocamlbuild/glob.ml" 25 927 931 "ocamlbuild/glob.ml" 25 927 946
+)
+"ocamlbuild/glob.ml" 338 9489 9582 "ocamlbuild/glob.ml" 338 9489 9583
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 334 9412 9420 "ocamlbuild/glob.ml" 334 9412 9421
+)
+"ocamlbuild/glob.ml" 338 9489 9565 "ocamlbuild/glob.ml" 338 9489 9584
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 338 9489 9586 "ocamlbuild/glob.ml" 338 9489 9601
+type(
+  Glob_lexer.token -> string
+)
+ident(
+  int_ref string_of_token "ocamlbuild/glob.ml" 25 927 931 "ocamlbuild/glob.ml" 25 927 946
+)
+"ocamlbuild/glob.ml" 338 9489 9602 "ocamlbuild/glob.ml" 338 9489 9604
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref t' "ocamlbuild/glob.ml" 337 9472 9483 "ocamlbuild/glob.ml" 337 9472 9485
+)
+"ocamlbuild/glob.ml" 338 9489 9585 "ocamlbuild/glob.ml" 338 9489 9605
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 338 9489 9515 "ocamlbuild/glob.ml" 338 9489 9606
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 338 9489 9503 "ocamlbuild/glob.ml" 338 9489 9607
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 338 9489 9497 "ocamlbuild/glob.ml" 338 9489 9607
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 335 9424 9428 "ocamlbuild/glob.ml" 338 9489 9607
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 340 9613 9619 "ocamlbuild/glob.ml" 340 9613 9623
+type(
+  Glob_lexer.token -> unit
+)
+"ocamlbuild/glob.ml" 340 9613 9624 "ocamlbuild/glob.ml" 340 9613 9625
+type(
+  Glob_lexer.token
+)
+ident(
+  def x "ocamlbuild/glob.ml" 341 9628 9632 "ocamlbuild/glob.ml" 345 9684 9794
+)
+"ocamlbuild/glob.ml" 341 9628 9636 "ocamlbuild/glob.ml" 341 9628 9637
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 341 9628 9640 "ocamlbuild/glob.ml" 341 9628 9641
+type(
+  unit -> Glob_lexer.token
+)
+ident(
+  int_ref f "ocamlbuild/glob.ml" 326 9284 9290 "ocamlbuild/glob.ml" 326 9284 9291
+)
+"ocamlbuild/glob.ml" 341 9628 9642 "ocamlbuild/glob.ml" 341 9628 9644
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 341 9628 9640 "ocamlbuild/glob.ml" 341 9628 9644
+call(
+  stack
+)
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 342 9648 9655 "ocamlbuild/glob.ml" 342 9648 9656
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 340 9613 9624 "ocamlbuild/glob.ml" 340 9613 9625
+)
+"ocamlbuild/glob.ml" 342 9648 9657 "ocamlbuild/glob.ml" 342 9648 9658
+type(
+  Glob_lexer.token -> Glob_lexer.token -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 342 9648 9659 "ocamlbuild/glob.ml" 342 9648 9660
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 341 9628 9636 "ocamlbuild/glob.ml" 341 9628 9637
+)
+"ocamlbuild/glob.ml" 342 9648 9655 "ocamlbuild/glob.ml" 342 9648 9660
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 343 9666 9672 "ocamlbuild/glob.ml" 343 9666 9674
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 345 9684 9690 "ocamlbuild/glob.ml" 345 9684 9695
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/glob.ml" 345 9684 9709 "ocamlbuild/glob.ml" 345 9684 9711
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref sf "ocamlbuild/glob.ml" 20 852 856 "ocamlbuild/glob.ml" 20 852 858
+)
+"ocamlbuild/glob.ml" 345 9684 9712 "ocamlbuild/glob.ml" 345 9684 9752
+type(
+  (string -> string -> string, unit, string) format
+)
+"ocamlbuild/glob.ml" 345 9684 9754 "ocamlbuild/glob.ml" 345 9684 9769
+type(
+  Glob_lexer.token -> string
+)
+ident(
+  int_ref string_of_token "ocamlbuild/glob.ml" 25 927 931 "ocamlbuild/glob.ml" 25 927 946
+)
+"ocamlbuild/glob.ml" 345 9684 9770 "ocamlbuild/glob.ml" 345 9684 9771
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 340 9613 9624 "ocamlbuild/glob.ml" 340 9613 9625
+)
+"ocamlbuild/glob.ml" 345 9684 9753 "ocamlbuild/glob.ml" 345 9684 9772
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 345 9684 9774 "ocamlbuild/glob.ml" 345 9684 9789
+type(
+  Glob_lexer.token -> string
+)
+ident(
+  int_ref string_of_token "ocamlbuild/glob.ml" 25 927 931 "ocamlbuild/glob.ml" 25 927 946
+)
+"ocamlbuild/glob.ml" 345 9684 9790 "ocamlbuild/glob.ml" 345 9684 9791
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 341 9628 9636 "ocamlbuild/glob.ml" 341 9628 9637
+)
+"ocamlbuild/glob.ml" 345 9684 9773 "ocamlbuild/glob.ml" 345 9684 9792
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 345 9684 9708 "ocamlbuild/glob.ml" 345 9684 9793
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 345 9684 9696 "ocamlbuild/glob.ml" 345 9684 9794
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 345 9684 9690 "ocamlbuild/glob.ml" 345 9684 9794
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 342 9648 9652 "ocamlbuild/glob.ml" 345 9684 9794
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 341 9628 9632 "ocamlbuild/glob.ml" 345 9684 9794
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 347 9800 9810 "ocamlbuild/glob.ml" 347 9800 9818
+type(
+  (fast_pattern_contents ref atom Bool.boolean ->
+   fast_pattern_contents ref atom Bool.boolean) ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 347 9800 9819 "ocamlbuild/glob.ml" 347 9800 9831
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def continuation "ocamlbuild/glob.ml" 347 9800 9834 "ocamlbuild/glob.ml" 364 10275 10366
+)
+"ocamlbuild/glob.ml" 347 9800 9840 "ocamlbuild/glob.ml" 347 9800 9841
+type(
+  unit -> Glob_lexer.token
+)
+ident(
+  int_ref f "ocamlbuild/glob.ml" 326 9284 9290 "ocamlbuild/glob.ml" 326 9284 9291
+)
+"ocamlbuild/glob.ml" 347 9800 9842 "ocamlbuild/glob.ml" 347 9800 9844
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 347 9800 9840 "ocamlbuild/glob.ml" 347 9800 9844
+call(
+  stack
+)
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 348 9850 9854 "ocamlbuild/glob.ml" 348 9850 9857
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 348 9850 9864 "ocamlbuild/glob.ml" 348 9850 9872
+type(
+  (fast_pattern_contents ref atom Bool.boolean ->
+   fast_pattern_contents ref atom Bool.boolean) ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref atomizer "ocamlbuild/glob.ml" 347 9800 9810 "ocamlbuild/glob.ml" 347 9800 9818
+)
+"ocamlbuild/glob.ml" 348 9850 9878 "ocamlbuild/glob.ml" 348 9850 9879
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def x "ocamlbuild/glob.ml" 348 9850 9883 "ocamlbuild/glob.ml" 348 9850 9903
+)
+"ocamlbuild/glob.ml" 348 9850 9883 "ocamlbuild/glob.ml" 348 9850 9895
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref continuation "ocamlbuild/glob.ml" 347 9800 9819 "ocamlbuild/glob.ml" 347 9800 9831
+)
+"ocamlbuild/glob.ml" 348 9850 9901 "ocamlbuild/glob.ml" 348 9850 9902
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 348 9850 9878 "ocamlbuild/glob.ml" 348 9850 9879
+)
+"ocamlbuild/glob.ml" 348 9850 9896 "ocamlbuild/glob.ml" 348 9850 9903
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 348 9850 9883 "ocamlbuild/glob.ml" 348 9850 9903
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 348 9850 9873 "ocamlbuild/glob.ml" 348 9850 9904
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 348 9850 9864 "ocamlbuild/glob.ml" 348 9850 9904
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 349 9905 9914 "ocamlbuild/glob.ml" 349 9905 9915
+type(
+  pattern atom
+)
+ident(
+  def x "ocamlbuild/glob.ml" 350 9919 9925 "ocamlbuild/glob.ml" 357 10120 10129
+)
+"ocamlbuild/glob.ml" 349 9905 9909 "ocamlbuild/glob.ml" 349 9905 9915
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 351 9931 9943 "ocamlbuild/glob.ml" 351 9931 9944
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 352 9947 9963 "ocamlbuild/glob.ml" 352 9947 9970
+type(
+  string option -> pattern atom -> pattern atom
+)
+ident(
+  int_ref add_dir "ocamlbuild/glob.ml" 300 8620 8624 "ocamlbuild/glob.ml" 300 8620 8631
+)
+"ocamlbuild/glob.ml" 352 9947 9971 "ocamlbuild/glob.ml" 352 9947 9974
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 323 9207 9218 "ocamlbuild/glob.ml" 323 9207 9221
+)
+"ocamlbuild/glob.ml" 352 9947 9975 "ocamlbuild/glob.ml" 352 9947 9976
+type(
+  pattern atom
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 349 9905 9914 "ocamlbuild/glob.ml" 349 9905 9915
+)
+"ocamlbuild/glob.ml" 352 9947 9963 "ocamlbuild/glob.ml" 352 9947 9976
+call(
+  stack
+)
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 353 9982 10003 "ocamlbuild/glob.ml" 353 9982 10004
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/glob.ml" 353 9982 10008 "ocamlbuild/glob.ml" 353 9982 10018
+)
+"ocamlbuild/glob.ml" 353 9982 9994 "ocamlbuild/glob.ml" 353 9982 10004
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 353 9982 10017 "ocamlbuild/glob.ml" 353 9982 10018
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 353 9982 10003 "ocamlbuild/glob.ml" 353 9982 10004
+)
+"ocamlbuild/glob.ml" 353 9982 10008 "ocamlbuild/glob.ml" 353 9982 10018
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 354 10019 10039 "ocamlbuild/glob.ml" 354 10019 10040
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 354 10019 10044 "ocamlbuild/glob.ml" 354 10019 10078
+)
+"ocamlbuild/glob.ml" 354 10019 10031 "ocamlbuild/glob.ml" 354 10019 10040
+type(
+  pattern atom
+)
+"ocamlbuild/glob.ml" 354 10019 10052 "ocamlbuild/glob.ml" 354 10019 10075
+type(
+  pattern -> fast_pattern_contents ref
+)
+ident(
+  int_ref fast_pattern_of_pattern "ocamlbuild/glob.ml" 297 8540 8544 "ocamlbuild/glob.ml" 297 8540 8567
+)
+"ocamlbuild/glob.ml" 354 10019 10076 "ocamlbuild/glob.ml" 354 10019 10077
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 354 10019 10039 "ocamlbuild/glob.ml" 354 10019 10040
+)
+"ocamlbuild/glob.ml" 354 10019 10051 "ocamlbuild/glob.ml" 354 10019 10078
+call(
+  stack
+)
+type(
+  fast_pattern_contents ref
+)
+"ocamlbuild/glob.ml" 354 10019 10044 "ocamlbuild/glob.ml" 354 10019 10078
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 352 9947 9957 "ocamlbuild/glob.ml" 354 10019 10078
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 356 10090 10098 "ocamlbuild/glob.ml" 356 10090 10110
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref continuation "ocamlbuild/glob.ml" 347 9800 9819 "ocamlbuild/glob.ml" 347 9800 9831
+)
+"ocamlbuild/glob.ml" 356 10090 10117 "ocamlbuild/glob.ml" 356 10090 10118
+type(
+  fast_pattern_contents ref atom
+)
+ident(
+  int_ref a "ocamlbuild/glob.ml" 351 9931 9943 "ocamlbuild/glob.ml" 351 9931 9944
+)
+"ocamlbuild/glob.ml" 356 10090 10111 "ocamlbuild/glob.ml" 356 10090 10119
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 356 10090 10098 "ocamlbuild/glob.ml" 356 10090 10119
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 350 9919 9925 "ocamlbuild/glob.ml" 357 10120 10129
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 358 10130 10134 "ocamlbuild/glob.ml" 358 10130 10138
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 358 10130 10144 "ocamlbuild/glob.ml" 358 10130 10156
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref continuation "ocamlbuild/glob.ml" 347 9800 9819 "ocamlbuild/glob.ml" 347 9800 9831
+)
+"ocamlbuild/glob.ml" 358 10130 10157 "ocamlbuild/glob.ml" 358 10130 10161
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 358 10130 10144 "ocamlbuild/glob.ml" 358 10130 10161
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 359 10162 10166 "ocamlbuild/glob.ml" 359 10162 10171
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 359 10162 10176 "ocamlbuild/glob.ml" 359 10162 10188
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref continuation "ocamlbuild/glob.ml" 347 9800 9819 "ocamlbuild/glob.ml" 347 9800 9831
+)
+"ocamlbuild/glob.ml" 359 10162 10189 "ocamlbuild/glob.ml" 359 10162 10194
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 359 10162 10176 "ocamlbuild/glob.ml" 359 10162 10194
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 360 10195 10199 "ocamlbuild/glob.ml" 360 10195 10203
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 361 10209 10219 "ocamlbuild/glob.ml" 361 10209 10220
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 361 10209 10223 "ocamlbuild/glob.ml" 361 10209 10230
+type(
+  unit -> fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_s "ocamlbuild/glob.ml" 373 10642 10648 "ocamlbuild/glob.ml" 373 10642 10655
+)
+"ocamlbuild/glob.ml" 361 10209 10231 "ocamlbuild/glob.ml" 361 10209 10233
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 361 10209 10223 "ocamlbuild/glob.ml" 361 10209 10233
+call(
+  stack
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 362 10237 10243 "ocamlbuild/glob.ml" 362 10237 10247
+type(
+  Glob_lexer.token -> unit
+)
+ident(
+  int_ref read "ocamlbuild/glob.ml" 340 9613 9619 "ocamlbuild/glob.ml" 340 9613 9623
+)
+"ocamlbuild/glob.ml" 362 10237 10248 "ocamlbuild/glob.ml" 362 10237 10252
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 362 10237 10243 "ocamlbuild/glob.ml" 362 10237 10252
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 363 10254 10260 "ocamlbuild/glob.ml" 363 10254 10272
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref continuation "ocamlbuild/glob.ml" 347 9800 9819 "ocamlbuild/glob.ml" 347 9800 9831
+)
+"ocamlbuild/glob.ml" 363 10254 10273 "ocamlbuild/glob.ml" 363 10254 10274
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 361 10209 10219 "ocamlbuild/glob.ml" 361 10209 10220
+)
+"ocamlbuild/glob.ml" 363 10254 10260 "ocamlbuild/glob.ml" 363 10254 10274
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 362 10237 10243 "ocamlbuild/glob.ml" 363 10254 10274
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 361 10209 10215 "ocamlbuild/glob.ml" 363 10254 10274
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 364 10275 10279 "ocamlbuild/glob.ml" 364 10275 10280
+type(
+  Glob_lexer.token
+)
+ident(
+  def t "ocamlbuild/glob.ml" 364 10275 10289 "ocamlbuild/glob.ml" 364 10275 10366
+)
+"ocamlbuild/glob.ml" 364 10275 10289 "ocamlbuild/glob.ml" 364 10275 10294
+type(
+  exn -> fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/glob.ml" 364 10275 10308 "ocamlbuild/glob.ml" 364 10275 10310
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref sf "ocamlbuild/glob.ml" 20 852 856 "ocamlbuild/glob.ml" 20 852 858
+)
+"ocamlbuild/glob.ml" 364 10275 10311 "ocamlbuild/glob.ml" 364 10275 10344
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/glob.ml" 364 10275 10346 "ocamlbuild/glob.ml" 364 10275 10361
+type(
+  Glob_lexer.token -> string
+)
+ident(
+  int_ref string_of_token "ocamlbuild/glob.ml" 25 927 931 "ocamlbuild/glob.ml" 25 927 946
+)
+"ocamlbuild/glob.ml" 364 10275 10362 "ocamlbuild/glob.ml" 364 10275 10363
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 364 10275 10279 "ocamlbuild/glob.ml" 364 10275 10280
+)
+"ocamlbuild/glob.ml" 364 10275 10345 "ocamlbuild/glob.ml" 364 10275 10364
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 364 10275 10307 "ocamlbuild/glob.ml" 364 10275 10365
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/glob.ml" 364 10275 10295 "ocamlbuild/glob.ml" 364 10275 10366
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 364 10275 10289 "ocamlbuild/glob.ml" 364 10275 10366
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 347 9800 9834 "ocamlbuild/glob.ml" 364 10275 10366
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 365 10367 10373 "ocamlbuild/glob.ml" 365 10367 10381
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 365 10367 10382 "ocamlbuild/glob.ml" 365 10367 10383
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def x "ocamlbuild/glob.ml" 365 10367 10386 "ocamlbuild/glob.ml" 368 10471 10491
+)
+"ocamlbuild/glob.ml" 365 10367 10392 "ocamlbuild/glob.ml" 365 10367 10393
+type(
+  unit -> Glob_lexer.token
+)
+ident(
+  int_ref f "ocamlbuild/glob.ml" 326 9284 9290 "ocamlbuild/glob.ml" 326 9284 9291
+)
+"ocamlbuild/glob.ml" 365 10367 10394 "ocamlbuild/glob.ml" 365 10367 10396
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 365 10367 10392 "ocamlbuild/glob.ml" 365 10367 10396
+call(
+  stack
+)
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 366 10402 10406 "ocamlbuild/glob.ml" 366 10402 10408
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 366 10402 10420 "ocamlbuild/glob.ml" 366 10402 10421
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 366 10402 10424 "ocamlbuild/glob.ml" 366 10402 10431
+type(
+  unit -> fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_s "ocamlbuild/glob.ml" 373 10642 10648 "ocamlbuild/glob.ml" 373 10642 10655
+)
+"ocamlbuild/glob.ml" 366 10402 10432 "ocamlbuild/glob.ml" 366 10402 10434
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 366 10402 10424 "ocamlbuild/glob.ml" 366 10402 10434
+call(
+  stack
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 366 10402 10441 "ocamlbuild/glob.ml" 366 10402 10442
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 365 10367 10382 "ocamlbuild/glob.ml" 365 10367 10383
+)
+"ocamlbuild/glob.ml" 366 10402 10444 "ocamlbuild/glob.ml" 366 10402 10445
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 366 10402 10420 "ocamlbuild/glob.ml" 366 10402 10421
+)
+"ocamlbuild/glob.ml" 366 10402 10440 "ocamlbuild/glob.ml" 366 10402 10446
+type(
+  fast_pattern_contents ref atom Bool.boolean list
+)
+"ocamlbuild/glob.ml" 366 10402 10438 "ocamlbuild/glob.ml" 366 10402 10446
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 366 10402 10416 "ocamlbuild/glob.ml" 366 10402 10446
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 367 10447 10451 "ocamlbuild/glob.ml" 367 10447 10454
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 367 10447 10461 "ocamlbuild/glob.ml" 367 10447 10468
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_t "ocamlbuild/glob.ml" 374 10679 10685 "ocamlbuild/glob.ml" 374 10679 10692
+)
+"ocamlbuild/glob.ml" 367 10447 10469 "ocamlbuild/glob.ml" 367 10447 10470
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 365 10367 10382 "ocamlbuild/glob.ml" 365 10367 10383
+)
+"ocamlbuild/glob.ml" 367 10447 10461 "ocamlbuild/glob.ml" 367 10447 10470
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 368 10471 10475 "ocamlbuild/glob.ml" 368 10471 10476
+type(
+  Glob_lexer.token
+)
+ident(
+  def t "ocamlbuild/glob.ml" 368 10471 10485 "ocamlbuild/glob.ml" 368 10471 10491
+)
+"ocamlbuild/glob.ml" 368 10471 10485 "ocamlbuild/glob.ml" 368 10471 10486
+type(
+  Glob_lexer.token -> unit
+)
+ident(
+  int_ref g "ocamlbuild/glob.ml" 334 9412 9418 "ocamlbuild/glob.ml" 334 9412 9419
+)
+"ocamlbuild/glob.ml" 368 10471 10487 "ocamlbuild/glob.ml" 368 10471 10488
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 368 10471 10475 "ocamlbuild/glob.ml" 368 10471 10476
+)
+"ocamlbuild/glob.ml" 368 10471 10485 "ocamlbuild/glob.ml" 368 10471 10488
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 368 10471 10490 "ocamlbuild/glob.ml" 368 10471 10491
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 365 10367 10382 "ocamlbuild/glob.ml" 365 10367 10383
+)
+"ocamlbuild/glob.ml" 368 10471 10485 "ocamlbuild/glob.ml" 368 10471 10491
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 365 10367 10386 "ocamlbuild/glob.ml" 368 10471 10491
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 369 10492 10498 "ocamlbuild/glob.ml" 369 10492 10506
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 369 10492 10507 "ocamlbuild/glob.ml" 369 10492 10508
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def x "ocamlbuild/glob.ml" 369 10492 10509 "ocamlbuild/glob.ml" 372 10614 10641
+)
+"ocamlbuild/glob.ml" 369 10492 10509 "ocamlbuild/glob.ml" 369 10492 10510
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def y "ocamlbuild/glob.ml" 369 10492 10513 "ocamlbuild/glob.ml" 372 10614 10641
+)
+"ocamlbuild/glob.ml" 369 10492 10519 "ocamlbuild/glob.ml" 369 10492 10520
+type(
+  unit -> Glob_lexer.token
+)
+ident(
+  int_ref f "ocamlbuild/glob.ml" 326 9284 9290 "ocamlbuild/glob.ml" 326 9284 9291
+)
+"ocamlbuild/glob.ml" 369 10492 10521 "ocamlbuild/glob.ml" 369 10492 10523
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 369 10492 10519 "ocamlbuild/glob.ml" 369 10492 10523
+call(
+  stack
+)
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 370 10529 10533 "ocamlbuild/glob.ml" 370 10529 10535
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 370 10529 10547 "ocamlbuild/glob.ml" 370 10529 10548
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 370 10529 10551 "ocamlbuild/glob.ml" 370 10529 10558
+type(
+  unit -> fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_s "ocamlbuild/glob.ml" 373 10642 10648 "ocamlbuild/glob.ml" 373 10642 10655
+)
+"ocamlbuild/glob.ml" 370 10529 10559 "ocamlbuild/glob.ml" 370 10529 10561
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 370 10529 10551 "ocamlbuild/glob.ml" 370 10529 10561
+call(
+  stack
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 370 10529 10572 "ocamlbuild/glob.ml" 370 10529 10573
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 369 10492 10507 "ocamlbuild/glob.ml" 369 10492 10508
+)
+"ocamlbuild/glob.ml" 370 10529 10574 "ocamlbuild/glob.ml" 370 10529 10575
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 369 10492 10509 "ocamlbuild/glob.ml" 369 10492 10510
+)
+"ocamlbuild/glob.ml" 370 10529 10571 "ocamlbuild/glob.ml" 370 10529 10576
+type(
+  fast_pattern_contents ref atom Bool.boolean list
+)
+"ocamlbuild/glob.ml" 370 10529 10568 "ocamlbuild/glob.ml" 370 10529 10576
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 370 10529 10578 "ocamlbuild/glob.ml" 370 10529 10579
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref z "ocamlbuild/glob.ml" 370 10529 10547 "ocamlbuild/glob.ml" 370 10529 10548
+)
+"ocamlbuild/glob.ml" 370 10529 10567 "ocamlbuild/glob.ml" 370 10529 10580
+type(
+  fast_pattern_contents ref atom Bool.boolean list
+)
+"ocamlbuild/glob.ml" 370 10529 10565 "ocamlbuild/glob.ml" 370 10529 10580
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 370 10529 10543 "ocamlbuild/glob.ml" 370 10529 10580
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 371 10581 10585 "ocamlbuild/glob.ml" 371 10581 10588
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 371 10581 10595 "ocamlbuild/glob.ml" 371 10581 10602
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_t "ocamlbuild/glob.ml" 374 10679 10685 "ocamlbuild/glob.ml" 374 10679 10692
+)
+"ocamlbuild/glob.ml" 371 10581 10608 "ocamlbuild/glob.ml" 371 10581 10609
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 369 10492 10507 "ocamlbuild/glob.ml" 369 10492 10508
+)
+"ocamlbuild/glob.ml" 371 10581 10610 "ocamlbuild/glob.ml" 371 10581 10611
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 369 10492 10509 "ocamlbuild/glob.ml" 369 10492 10510
+)
+"ocamlbuild/glob.ml" 371 10581 10607 "ocamlbuild/glob.ml" 371 10581 10612
+type(
+  fast_pattern_contents ref atom Bool.boolean list
+)
+"ocamlbuild/glob.ml" 371 10581 10603 "ocamlbuild/glob.ml" 371 10581 10613
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 371 10581 10595 "ocamlbuild/glob.ml" 371 10581 10613
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 372 10614 10618 "ocamlbuild/glob.ml" 372 10614 10619
+type(
+  Glob_lexer.token
+)
+ident(
+  def t "ocamlbuild/glob.ml" 372 10614 10628 "ocamlbuild/glob.ml" 372 10614 10641
+)
+"ocamlbuild/glob.ml" 372 10614 10628 "ocamlbuild/glob.ml" 372 10614 10629
+type(
+  Glob_lexer.token -> unit
+)
+ident(
+  int_ref g "ocamlbuild/glob.ml" 334 9412 9418 "ocamlbuild/glob.ml" 334 9412 9419
+)
+"ocamlbuild/glob.ml" 372 10614 10630 "ocamlbuild/glob.ml" 372 10614 10631
+type(
+  Glob_lexer.token
+)
+ident(
+  int_ref t "ocamlbuild/glob.ml" 372 10614 10618 "ocamlbuild/glob.ml" 372 10614 10619
+)
+"ocamlbuild/glob.ml" 372 10614 10628 "ocamlbuild/glob.ml" 372 10614 10631
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 372 10614 10637 "ocamlbuild/glob.ml" 372 10614 10638
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 369 10492 10507 "ocamlbuild/glob.ml" 369 10492 10508
+)
+"ocamlbuild/glob.ml" 372 10614 10639 "ocamlbuild/glob.ml" 372 10614 10640
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref y "ocamlbuild/glob.ml" 369 10492 10509 "ocamlbuild/glob.ml" 369 10492 10510
+)
+"ocamlbuild/glob.ml" 372 10614 10636 "ocamlbuild/glob.ml" 372 10614 10641
+type(
+  fast_pattern_contents ref atom Bool.boolean list
+)
+"ocamlbuild/glob.ml" 372 10614 10633 "ocamlbuild/glob.ml" 372 10614 10641
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 372 10614 10628 "ocamlbuild/glob.ml" 372 10614 10641
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 369 10492 10513 "ocamlbuild/glob.ml" 372 10614 10641
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 373 10642 10648 "ocamlbuild/glob.ml" 373 10642 10655
+type(
+  unit -> fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 373 10642 10656 "ocamlbuild/glob.ml" 373 10642 10658
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 373 10642 10661 "ocamlbuild/glob.ml" 373 10642 10669
+type(
+  (fast_pattern_contents ref atom Bool.boolean ->
+   fast_pattern_contents ref atom Bool.boolean) ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref atomizer "ocamlbuild/glob.ml" 347 9800 9810 "ocamlbuild/glob.ml" 347 9800 9818
+)
+"ocamlbuild/glob.ml" 373 10642 10670 "ocamlbuild/glob.ml" 373 10642 10678
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_s1 "ocamlbuild/glob.ml" 365 10367 10373 "ocamlbuild/glob.ml" 365 10367 10381
+)
+"ocamlbuild/glob.ml" 373 10642 10661 "ocamlbuild/glob.ml" 373 10642 10678
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 374 10679 10685 "ocamlbuild/glob.ml" 374 10679 10692
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 374 10679 10693 "ocamlbuild/glob.ml" 374 10679 10694
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def x "ocamlbuild/glob.ml" 374 10679 10697 "ocamlbuild/glob.ml" 374 10679 10718
+)
+"ocamlbuild/glob.ml" 374 10679 10697 "ocamlbuild/glob.ml" 374 10679 10705
+type(
+  (fast_pattern_contents ref atom Bool.boolean ->
+   fast_pattern_contents ref atom Bool.boolean) ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref atomizer "ocamlbuild/glob.ml" 347 9800 9810 "ocamlbuild/glob.ml" 347 9800 9818
+)
+"ocamlbuild/glob.ml" 374 10679 10707 "ocamlbuild/glob.ml" 374 10679 10715
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_t1 "ocamlbuild/glob.ml" 369 10492 10498 "ocamlbuild/glob.ml" 369 10492 10506
+)
+"ocamlbuild/glob.ml" 374 10679 10716 "ocamlbuild/glob.ml" 374 10679 10717
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 374 10679 10693 "ocamlbuild/glob.ml" 374 10679 10694
+)
+"ocamlbuild/glob.ml" 374 10679 10706 "ocamlbuild/glob.ml" 374 10679 10718
+call(
+  stack
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 374 10679 10697 "ocamlbuild/glob.ml" 374 10679 10718
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 376 10724 10730 "ocamlbuild/glob.ml" 376 10724 10731
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 376 10724 10734 "ocamlbuild/glob.ml" 376 10724 10741
+type(
+  unit -> fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref parse_s "ocamlbuild/glob.ml" 373 10642 10648 "ocamlbuild/glob.ml" 373 10642 10655
+)
+"ocamlbuild/glob.ml" 376 10724 10742 "ocamlbuild/glob.ml" 376 10724 10744
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 376 10724 10734 "ocamlbuild/glob.ml" 376 10724 10744
+call(
+  stack
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 377 10748 10750 "ocamlbuild/glob.ml" 377 10748 10754
+type(
+  Glob_lexer.token -> unit
+)
+ident(
+  int_ref read "ocamlbuild/glob.ml" 340 9613 9619 "ocamlbuild/glob.ml" 340 9613 9623
+)
+"ocamlbuild/glob.ml" 377 10748 10755 "ocamlbuild/glob.ml" 377 10748 10758
+type(
+  Glob_lexer.token
+)
+"ocamlbuild/glob.ml" 377 10748 10750 "ocamlbuild/glob.ml" 377 10748 10758
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 378 10760 10762 "ocamlbuild/glob.ml" 378 10760 10773
+type(
+  string option ->
+  fast_pattern_contents ref atom Bool.boolean ->
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref add_ast_dir "ocamlbuild/glob.ml" 312 8898 8902 "ocamlbuild/glob.ml" 312 8898 8913
+)
+"ocamlbuild/glob.ml" 378 10760 10774 "ocamlbuild/glob.ml" 378 10760 10777
+type(
+  string option
+)
+ident(
+  int_ref dir "ocamlbuild/glob.ml" 323 9207 9218 "ocamlbuild/glob.ml" 323 9207 9221
+)
+"ocamlbuild/glob.ml" 378 10760 10778 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref x "ocamlbuild/glob.ml" 376 10724 10730 "ocamlbuild/glob.ml" 376 10724 10731
+)
+"ocamlbuild/glob.ml" 378 10760 10762 "ocamlbuild/glob.ml" 378 10760 10779
+call(
+  tail
+)
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 377 10748 10750 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 376 10724 10726 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 347 9800 9802 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 340 9613 9615 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 334 9412 9414 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 326 9284 9286 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 325 9260 9262 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 324 9226 9228 "ocamlbuild/glob.ml" 378 10760 10779
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+"ocamlbuild/glob.ml" 382 10804 10808 "ocamlbuild/glob.ml" 382 10804 10812
+type(
+  fast_pattern_contents ref atom Bool.boolean -> string -> bool
+)
+ident(
+  def eval "ocamlbuild/glob.ml" 405 11412 11417 --
+)
+"ocamlbuild/glob.ml" 382 10804 10813 "ocamlbuild/glob.ml" 382 10804 10814
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  def g "ocamlbuild/glob.ml" 382 10804 10815 "ocamlbuild/glob.ml" 405 11412 11417
+)
+"ocamlbuild/glob.ml" 382 10804 10815 "ocamlbuild/glob.ml" 382 10804 10816
+type(
+  string
+)
+ident(
+  def u "ocamlbuild/glob.ml" 383 10819 10821 "ocamlbuild/glob.ml" 405 11412 11417
+)
+"ocamlbuild/glob.ml" 383 10819 10821 "ocamlbuild/glob.ml" 383 10819 10830
+type(
+  (fast_pattern_contents ref atom -> bool) ->
+  fast_pattern_contents ref atom Bool.boolean -> bool
+)
+ident(
+  ext_ref Bool.eval
+)
+"ocamlbuild/glob.ml" 385 10850 10867 "ocamlbuild/glob.ml" 385 10850 10868
+type(
+  string
+)
+ident(
+  def v "ocamlbuild/glob.ml" 385 10850 10872 "ocamlbuild/glob.ml" 385 10850 10877
+)
+"ocamlbuild/glob.ml" 385 10850 10858 "ocamlbuild/glob.ml" 385 10850 10868
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 385 10850 10872 "ocamlbuild/glob.ml" 385 10850 10873
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 382 10804 10815 "ocamlbuild/glob.ml" 382 10804 10816
+)
+"ocamlbuild/glob.ml" 385 10850 10874 "ocamlbuild/glob.ml" 385 10850 10875
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/glob.ml" 385 10850 10876 "ocamlbuild/glob.ml" 385 10850 10877
+type(
+  string
+)
+ident(
+  int_ref v "ocamlbuild/glob.ml" 385 10850 10867 "ocamlbuild/glob.ml" 385 10850 10868
+)
+"ocamlbuild/glob.ml" 385 10850 10872 "ocamlbuild/glob.ml" 385 10850 10877
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 386 10878 10894 "ocamlbuild/glob.ml" 386 10878 10898
+type(
+  fast_pattern_contents ref
+)
+ident(
+  def kind "ocamlbuild/glob.ml" 387 10902 10912 "ocamlbuild/glob.ml" 403 11367 11403
+)
+"ocamlbuild/glob.ml" 386 10878 10886 "ocamlbuild/glob.ml" 386 10878 10898
+type(
+  fast_pattern_contents ref atom
+)
+"ocamlbuild/glob.ml" 387 10902 10918 "ocamlbuild/glob.ml" 387 10902 10919
+type(
+  fast_pattern_contents ref -> fast_pattern_contents
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 387 10902 10919 "ocamlbuild/glob.ml" 387 10902 10923
+type(
+  fast_pattern_contents ref
+)
+ident(
+  int_ref kind "ocamlbuild/glob.ml" 386 10878 10894 "ocamlbuild/glob.ml" 386 10878 10898
+)
+"ocamlbuild/glob.ml" 387 10902 10918 "ocamlbuild/glob.ml" 387 10902 10923
+type(
+  fast_pattern_contents
+)
+"ocamlbuild/glob.ml" 388 10929 10947 "ocamlbuild/glob.ml" 388 10929 10952
+type(
+  int ref
+)
+ident(
+  def count "ocamlbuild/glob.ml" 389 10960 10972 "ocamlbuild/glob.ml" 402 11351 11366
+)
+"ocamlbuild/glob.ml" 388 10929 10954 "ocamlbuild/glob.ml" 388 10929 10955
+type(
+  pattern
+)
+ident(
+  def p "ocamlbuild/glob.ml" 389 10960 10972 "ocamlbuild/glob.ml" 402 11351 11366
+)
+"ocamlbuild/glob.ml" 388 10929 10941 "ocamlbuild/glob.ml" 388 10929 10956
+type(
+  fast_pattern_contents
+)
+"ocamlbuild/glob.ml" 390 10978 10996 "ocamlbuild/glob.ml" 390 10978 11002
+type(
+  unit -> bool
+)
+"ocamlbuild/glob.ml" 390 10978 11003 "ocamlbuild/glob.ml" 390 10978 11005
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 391 11008 11028 "ocamlbuild/glob.ml" 391 11008 11029
+type(
+  NFA.machine
+)
+"ocamlbuild/glob.ml" 391 11008 11032 "ocamlbuild/glob.ml" 391 11008 11041
+type(
+  pattern -> NFA.machine
+)
+ident(
+  ext_ref NFA.build
+)
+"ocamlbuild/glob.ml" 391 11008 11042 "ocamlbuild/glob.ml" 391 11008 11043
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 388 10929 10954 "ocamlbuild/glob.ml" 388 10929 10955
+)
+"ocamlbuild/glob.ml" 391 11008 11032 "ocamlbuild/glob.ml" 391 11008 11043
+call(
+  stack
+)
+type(
+  NFA.machine
+)
+"ocamlbuild/glob.ml" 392 11047 11063 "ocamlbuild/glob.ml" 392 11047 11067
+type(
+  fast_pattern_contents ref
+)
+ident(
+  int_ref kind "ocamlbuild/glob.ml" 386 10878 10894 "ocamlbuild/glob.ml" 386 10878 10898
+)
+"ocamlbuild/glob.ml" 392 11047 11068 "ocamlbuild/glob.ml" 392 11047 11070
+type(
+  fast_pattern_contents ref -> fast_pattern_contents -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/glob.ml" 392 11047 11079 "ocamlbuild/glob.ml" 392 11047 11080
+type(
+  NFA.machine
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 391 11008 11028 "ocamlbuild/glob.ml" 391 11008 11029
+)
+"ocamlbuild/glob.ml" 392 11047 11071 "ocamlbuild/glob.ml" 392 11047 11080
+type(
+  fast_pattern_contents
+)
+"ocamlbuild/glob.ml" 392 11047 11063 "ocamlbuild/glob.ml" 392 11047 11080
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 393 11082 11098 "ocamlbuild/glob.ml" 393 11082 11105
+type(
+  ?trace:bool -> NFA.machine -> string -> bool
+)
+ident(
+  ext_ref NFA.run
+)
+"ocamlbuild/glob.ml" 393 11082 11106 "ocamlbuild/glob.ml" 393 11082 11107
+type(
+  NFA.machine
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 391 11008 11028 "ocamlbuild/glob.ml" 391 11008 11029
+)
+"ocamlbuild/glob.ml" 393 11082 11108 "ocamlbuild/glob.ml" 393 11082 11109
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 382 10804 10815 "ocamlbuild/glob.ml" 382 10804 10816
+)
+"ocamlbuild/glob.ml" 393 11082 11098 "ocamlbuild/glob.ml" 393 11082 11109
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 392 11047 11063 "ocamlbuild/glob.ml" 393 11082 11109
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 391 11008 11024 "ocamlbuild/glob.ml" 393 11082 11109
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 395 11127 11144 "ocamlbuild/glob.ml" 395 11127 11145
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/glob.ml" 395 11127 11145 "ocamlbuild/glob.ml" 395 11127 11150
+type(
+  int ref
+)
+ident(
+  int_ref count "ocamlbuild/glob.ml" 388 10929 10947 "ocamlbuild/glob.ml" 388 10929 10952
+)
+"ocamlbuild/glob.ml" 395 11127 11144 "ocamlbuild/glob.ml" 395 11127 11150
+type(
+  int
+)
+"ocamlbuild/glob.ml" 395 11127 11151 "ocamlbuild/glob.ml" 395 11127 11153
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"ocamlbuild/glob.ml" 395 11127 11154 "ocamlbuild/glob.ml" 395 11127 11165
+type(
+  int
+)
+ident(
+  int_ref brute_limit "ocamlbuild/glob.ml" 22 879 883 "ocamlbuild/glob.ml" 22 879 894
+)
+"ocamlbuild/glob.ml" 395 11127 11144 "ocamlbuild/glob.ml" 395 11127 11165
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 396 11171 11187 "ocamlbuild/glob.ml" 396 11171 11193
+type(
+  unit -> bool
+)
+ident(
+  int_ref do_nfa "ocamlbuild/glob.ml" 390 10978 10996 "ocamlbuild/glob.ml" 390 10978 11002
+)
+"ocamlbuild/glob.ml" 396 11171 11194 "ocamlbuild/glob.ml" 396 11171 11196
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 396 11171 11187 "ocamlbuild/glob.ml" 396 11171 11196
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 399 11236 11254 "ocamlbuild/glob.ml" 399 11236 11273
+type(
+  int ref -> pattern -> string -> bool
+)
+ident(
+  ext_ref Brute.match_pattern
+)
+"ocamlbuild/glob.ml" 399 11236 11274 "ocamlbuild/glob.ml" 399 11236 11279
+type(
+  int ref
+)
+ident(
+  int_ref count "ocamlbuild/glob.ml" 388 10929 10947 "ocamlbuild/glob.ml" 388 10929 10952
+)
+"ocamlbuild/glob.ml" 399 11236 11280 "ocamlbuild/glob.ml" 399 11236 11281
+type(
+  pattern
+)
+ident(
+  int_ref p "ocamlbuild/glob.ml" 388 10929 10954 "ocamlbuild/glob.ml" 388 10929 10955
+)
+"ocamlbuild/glob.ml" 399 11236 11282 "ocamlbuild/glob.ml" 399 11236 11283
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 382 10804 10815 "ocamlbuild/glob.ml" 382 10804 10816
+)
+"ocamlbuild/glob.ml" 399 11236 11254 "ocamlbuild/glob.ml" 399 11236 11283
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 401 11305 11323 "ocamlbuild/glob.ml" 401 11305 11337
+type(
+  exn
+)
+"ocamlbuild/glob.ml" 401 11305 11341 "ocamlbuild/glob.ml" 401 11305 11347
+type(
+  unit -> bool
+)
+ident(
+  int_ref do_nfa "ocamlbuild/glob.ml" 390 10978 10996 "ocamlbuild/glob.ml" 390 10978 11002
+)
+"ocamlbuild/glob.ml" 401 11305 11348 "ocamlbuild/glob.ml" 401 11305 11350
+type(
+  unit
+)
+"ocamlbuild/glob.ml" 401 11305 11341 "ocamlbuild/glob.ml" 401 11305 11350
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 398 11216 11232 "ocamlbuild/glob.ml" 401 11305 11350
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 395 11127 11141 "ocamlbuild/glob.ml" 401 11305 11350
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 389 10960 10972 "ocamlbuild/glob.ml" 402 11351 11366
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 403 11367 11387 "ocamlbuild/glob.ml" 403 11367 11388
+type(
+  NFA.machine
+)
+ident(
+  def m "ocamlbuild/glob.ml" 403 11367 11392 "ocamlbuild/glob.ml" 403 11367 11403
+)
+"ocamlbuild/glob.ml" 403 11367 11379 "ocamlbuild/glob.ml" 403 11367 11388
+type(
+  fast_pattern_contents
+)
+"ocamlbuild/glob.ml" 403 11367 11392 "ocamlbuild/glob.ml" 403 11367 11399
+type(
+  ?trace:bool -> NFA.machine -> string -> bool
+)
+ident(
+  ext_ref NFA.run
+)
+"ocamlbuild/glob.ml" 403 11367 11400 "ocamlbuild/glob.ml" 403 11367 11401
+type(
+  NFA.machine
+)
+ident(
+  int_ref m "ocamlbuild/glob.ml" 403 11367 11387 "ocamlbuild/glob.ml" 403 11367 11388
+)
+"ocamlbuild/glob.ml" 403 11367 11402 "ocamlbuild/glob.ml" 403 11367 11403
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/glob.ml" 382 10804 10815 "ocamlbuild/glob.ml" 382 10804 10816
+)
+"ocamlbuild/glob.ml" 403 11367 11392 "ocamlbuild/glob.ml" 403 11367 11403
+call(
+  tail
+)
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 387 10902 10912 "ocamlbuild/glob.ml" 403 11367 11403
+type(
+  bool
+)
+"ocamlbuild/glob.ml" 384 10831 10835 "ocamlbuild/glob.ml" 404 11404 11411
+type(
+  fast_pattern_contents ref atom -> bool
+)
+"ocamlbuild/glob.ml" 405 11412 11416 "ocamlbuild/glob.ml" 405 11412 11417
+type(
+  fast_pattern_contents ref atom Bool.boolean
+)
+ident(
+  int_ref g "ocamlbuild/glob.ml" 382 10804 10813 "ocamlbuild/glob.ml" 382 10804 10814
+)
+"ocamlbuild/glob.ml" 383 10819 10821 "ocamlbuild/glob.ml" 405 11412 11417
+call(
+  tail
+)
+type(
+  bool
+)

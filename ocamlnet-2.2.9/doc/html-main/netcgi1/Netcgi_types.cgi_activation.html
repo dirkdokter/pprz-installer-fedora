@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netcgi_types.cgi_argument.html">
+<link rel="Up" href="Netcgi_types.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_types.cgi_activation</title>
+</head>
+<body>
+<div class="navbar"><a href="Netcgi_types.cgi_argument.html">Previous</a>
+&nbsp;<a href="Netcgi_types.html">Up</a>
+&nbsp;</div>
+<center><h1>Class type <a href="type_Netcgi_types.cgi_activation.html">Netcgi_types.cgi_activation</a></h1></center>
+<br>
+<pre><span class="keyword">class type</span> <a name="TYPEcgi_activation"></a>cgi_activation = <code class="code">object</code> <a href="Netcgi_types.cgi_activation.html">..</a> <code class="code">end</code></pre>The common interface of CGI activation objects<br>
+<hr width="100%">
+<pre><span class="keyword">method</span> <a name="METHODenvironment"></a>environment : <code class="type"><a href="Netcgi_env.cgi_environment.html">Netcgi_env.cgi_environment</a></code></pre><div class="info">
+The CGI environment object. This object is the "outer layer" of the
+ activation object that connects it with real I/O channels.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODrequest_method"></a>request_method : <code class="type"><a href="Netcgi_types.html#TYPErequest_method">request_method</a></code></pre><div class="info">
+The HTTP method<br>
+</div>
+<a name="2_Initialarguments"></a>
+<h2>Initial arguments</h2>
+<p>
+
+ Initial arguments are the CGI arguments at the time the arguments
+ were parsed from the environment.<pre><span class="keyword">method</span> <a name="METHODinitial_arguments"></a>initial_arguments : <code class="type">(string * <a href="Netcgi_types.cgi_argument.html">cgi_argument</a>) list</code></pre><div class="info">
+The complete list of initial arguments<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinitial_argument"></a>initial_argument : <code class="type">string -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a></code></pre><div class="info">
+Returns a certain initial argument, or raises <code class="code">Not_found</code><br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinitial_argument_value"></a>initial_argument_value : <code class="type">?default:string -> string -> string</code></pre><div class="info">
+Returns the value of the initial argument as string. If the
+ argument does not exist, the <code class="code">default</code> is returned. The
+ <code class="code">default</code> defaults to <code class="code">""</code>.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODinitial_multiple_argument"></a>initial_multiple_argument : <code class="type">string -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a> list</code></pre><div class="info">
+Returns a certain initial argument that occurs several times in
+ the set of arguments<br>
+</div>
+<a name="2_Currentarguments"></a>
+<h2>Current arguments</h2>
+<p>
+
+ The current arguments can be modified, but they are initialized
+ to the initial arguments at object creation time:<pre><span class="keyword">method</span> <a name="METHODarguments"></a>arguments : <code class="type">(string * <a href="Netcgi_types.cgi_argument.html">cgi_argument</a>) list</code></pre><div class="info">
+The complete list of current arguments<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODargument"></a>argument : <code class="type">string -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a></code></pre><div class="info">
+Returns a certain current argument, or raises <code class="code">Not_found</code><br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODargument_value"></a>argument_value : <code class="type">?default:string -> string -> string</code></pre><div class="info">
+Returns the value of the current argument as string. If the
+ argument does not exist, the <code class="code">default</code> is returned. The
+ <code class="code">default</code> defaults to <code class="code">""</code>.<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODmultiple_argument"></a>multiple_argument : <code class="type">string -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a> list</code></pre><div class="info">
+Returns a certain current argument that occurs several times in
+ the set of arguments<br>
+</div>
+<a name="2_Modifythesetofcurrentarguments"></a>
+<h2>Modify the set of current arguments</h2><pre><span class="keyword">method</span> <a name="METHODset_arguments"></a>set_arguments : <code class="type">?fin:bool -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a> list -> unit</code></pre><div class="info">
+Replaces the set of current arguments with a new set.
+<br>
+</div>
+<div class="param_info"><code class="code">fin</code> : If <code class="code">true</code>, the default, the arguments of the old set
+   that are not member of the new set are finalized</div>
+<pre><span class="keyword">method</span> <a name="METHODupdate_argument"></a>update_argument : <code class="type">?fin:bool -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a> -> unit</code></pre><div class="info">
+The passed argument replaces the current argument
+    (or multiple argument) with the same name; if there is no such
+    argument, the passed argument is added to the list of current args
+<br>
+</div>
+<div class="param_info"><code class="code">fin</code> : If <code class="code">true</code>, the default, the replaced arguments are
+    finalized (unless they happen to be the same as the new argument)</div>
+<pre><span class="keyword">method</span> <a name="METHODupdate_multiple_argument"></a>update_multiple_argument : <code class="type">?fin:bool -> <a href="Netcgi_types.cgi_argument.html">cgi_argument</a> list -> unit</code></pre><div class="info">
+The passed arguments must all have the same name. They replace
+ the current argument (or multiple argument) with the same name;
+ if there is no such argument, the passed arguments are added to
+ the set of current arguments.
+<br>
+</div>
+<div class="param_info"><code class="code">fin</code> : If <code class="code">true</code>, the default, the replaced arguments are
+    finalized (unless they happen to be the same as the new arguments)</div>
+<pre><span class="keyword">method</span> <a name="METHODdelete_argument"></a>delete_argument : <code class="type">?fin:bool -> string -> unit</code></pre><div class="info">
+Deletes all arguments with the passed name.
+<br>
+</div>
+<div class="param_info"><code class="code">fin</code> : If <code class="code">true</code>, the default, the deleted arguments are
+  finalized</div>
+<a name="2_SelfreferencingURL"></a>
+<h2>Self-referencing URL</h2><pre><span class="keyword">method</span> <a name="METHODurl"></a>url : <code class="type">?protocol:<a href="Netcgi_env.html#TYPEprotocol">Netcgi_env.protocol</a> -><br>       ?with_authority:<a href="Netcgi_types.html#TYPEother_url_spec">other_url_spec</a> -><br>       ?with_script_name:<a href="Netcgi_types.html#TYPEother_url_spec">other_url_spec</a> -><br>       ?with_path_info:<a href="Netcgi_types.html#TYPEother_url_spec">other_url_spec</a> -><br>       ?with_query_string:<a href="Netcgi_types.html#TYPEquery_string_spec">query_string_spec</a> -> unit -> string</code></pre><div class="info">
+Returns the URL of the current CGI activation.
+<p>
+<ul>
+<li><code class="code">protocol</code>: The URL scheme. By default, the URL scheme is used
+   that is described in the environment</li>
+<li><code class="code">with_authority</code>: Whether to include authority part of the URL, and
+   if yes, from which source. Default: <code class="code">`Env</code></li>
+<li><code class="code">with_script_name</code>: Whether to include the part of the URL path
+   identifying the CGI script, and if yes, from which source.
+   Default: <code class="code">`Env</code></li>
+<li><code class="code">with_path_info</code>: Whether to include the rest of the URL path
+   exceeding the script name, and if yes, from which source.
+   Default: <code class="code">`Env</code></li>
+<li><code class="code">with_query_string</code>: Whether to include the query string,
+   and if yes, which one. Default: <code class="code">`None</code>, i.e. no query string</li>
+</ul>
+<br>
+</div>
+<a name="2_GeneratingOutput"></a>
+<h2>Generating Output</h2><pre><span class="keyword">method</span> <a name="METHODoutput"></a>output : <code class="type">Netchannels.trans_out_obj_channel</code></pre><div class="info">
+The output channel to which the generated content is intended to
+ be written.
+<p>
+
+ The output channel may have transactional semantics, and because of
+ this, it is an <code class="code">trans_out_obj_channel</code>. Implementations are free
+ to support transactions or not.
+<p>
+
+ After all data have been written, the method <code class="code">commit_work</code> must be
+ called, even if there is no support for transactions.
+<p>
+
+ Simple Example:
+<p>
+
+ <pre><code class="code"> cgi # output # output_string "Hello world!\n";
+ cgi # output # commit_work()
+ </code></pre>
+<p>
+
+ Example for an error handler and a transaction buffer:
+ If an error happens, it is possible to roll the channel back, and
+ to write the error message.
+ <pre><code class="code"> try
+   cgi # set_header ... ();
+   cgi # output # output_string "Hello World!"; ...
+   cgi # output # commit_work();
+ with
+   err -&gt;
+     cgi # output # rollback_work();
+     cgi # set_header ... ();
+     cgi # output # output_string "Software error!"; ...
+     cgi # output # commit_work();
+ </code></pre><br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_header"></a>set_header : <code class="type">?status:<a href="Netcgi_types.html#TYPEstatus">status</a> -><br>       ?content_type:string -><br>       ?cache:<a href="Netcgi_types.html#TYPEcache_control">cache_control</a> -><br>       ?filename:string -><br>       ?language:string -><br>       ?script_type:string -><br>       ?style_type:string -><br>       ?set_cookie:<a href="Netcgi_types.html#TYPEcgi_cookie">cgi_cookie</a> list -><br>       ?fields:(string * string list) list -> unit -> unit</code></pre><div class="info">
+Sets the header.
+<p>
+
+ When the output channel supports transactions, it is possible to
+ set the header until the channel is commited for the first time.
+ When there is no support for transactions, the header must be
+ set before the first byte of output is written.
+<p>
+
+ If <code class="code">set_header</code> is called several times, <i>all</i> of the header fields
+ are overwritten.
+<p>
+<ul>
+<li><code class="code">status</code>: Sets the HTTP status of the reply. Defaults to "no status",
+   but the server normally complements an <code class="code">`Ok</code> status in this case</li>
+<li><code class="code">content_type</code>: Sets the content type. Defaults to "text/html" if the
+   content type is not yet set.</li>
+<li><code class="code">cache</code>: Sets the cache behavior for replies to GET requests. The
+   default is <code class="code">`Unspecified</code>. <b>It is strongly recommended to specify
+   the caching behaviour!!!</b> You are on the safe side with <code class="code">`No_cache</code>,
+   forcing every page to be regenerated. If your data do not change
+   frequently, <code class="code">`Max_age n</code> tells the caches to store the data at most
+   <code class="code">n</code> seconds.</li>
+<li><code class="code">filename</code>: Sets the filename associated with the page. This filename
+   is taken for the "save as..." dialog. Default: no filename.
+   Note: It is bad practice if the filename contains problematic characters
+   (backslash, double quote, space), or the names of directories</li>
+<li><code class="code">script_type</code>: Sets the language of the script tag (for HTML replies).
+   It is recommended to use this field if there are <code class="code">ONXXX</code> attributes
+   containing scripts before the first <code class="code">&lt;SCRIPT&gt;</code> element, because you
+   cannot specify the script language for the <code class="code">ONXXX</code> attributes otherwise.
+   <code class="code">script_type</code> must be a media type, e.g. "text/javascript".
+   Default: no language is specified.</li>
+<li><code class="code">style_type</code>: Sets the language of the style tag (for HTML replies).
+   It is recommended to use this field if there are <code class="code">STYLE</code> attributes
+   containing scripts before the first <code class="code">&lt;STYLE&gt;</code> element, because you
+   cannot specify the style language for the <code class="code">STYLE</code> attributes otherwise.
+   <code class="code">style_type</code> must be a media type, e.g. "text/css". 
+   Default: no language is specified.</li>
+<li><code class="code">set_cookie</code>: Sets a number of cookies.
+   Default: <code class="code">[]</code>
+   You can query the cookies using <code class="code">environment#cookies</code>.</li>
+<li><code class="code">fields</code>: Sets other fields of the header.</li>
+</ul>
+<br>
+</div>
+<pre><span class="keyword">method</span> <a name="METHODset_redirection_header"></a>set_redirection_header : <code class="type">string -> unit</code></pre><div class="info">
+Sets the header such that a redirection to the specified URL
+ is performed. If the URL begins with "http:" the redirection directive is
+ passed back to the client, and the client will repeat the request for
+ the new location. If the URL begins with "/", the server performs the
+ redirection, and it is invisible for the client.<br>
+</div>
+<a name="2_CleaningUp"></a>
+<h2>Cleaning Up</h2><pre><span class="keyword">method</span> <a name="METHODfinalize"></a>finalize : <code class="type">unit -> unit</code></pre><div class="info">
+This method calls <code class="code">finalize</code> for every CGI argument to ensure that
+ all files are deleted.
+ It does not close the in/out channels, however.
+ This method is not registered in the garbage collector, and it is
+ a bad idea to do so.<br>
+</div>
+</body></html>

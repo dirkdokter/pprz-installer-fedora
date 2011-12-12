@@ -1,0 +1,3 @@
+description = "Ocamlnet - HTTP daemon"
+version = "2.2.9"
+requires = "nethttpd-for-netcgi1"

@@ -1,0 +1,5327 @@
+"ocamlbuild/ocamlbuild_executor.ml" 38 1244 1289 "ocamlbuild/ocamlbuild_executor.ml" 38 1244 1296
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "ocamlbuild/ocamlbuild_executor.ml" 38 1244 1306 "ocamlbuild/ocamlbuild_executor.ml" 38 1244 1310
+)
+"ocamlbuild/ocamlbuild_executor.ml" 38 1244 1299 "ocamlbuild/ocamlbuild_executor.ml" 38 1244 1306
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocamlbuild/ocamlbuild_executor.ml" 38 1244 1256 "ocamlbuild/ocamlbuild_executor.ml" 38 1244 1311
+call(
+  stack
+)
+"ocamlbuild/ocamlbuild_executor.ml" 39 1314 1367 "ocamlbuild/ocamlbuild_executor.ml" 39 1314 1374
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "ocamlbuild/ocamlbuild_executor.ml" 39 1314 1384 "ocamlbuild/ocamlbuild_executor.ml" 39 1314 1388
+)
+"ocamlbuild/ocamlbuild_executor.ml" 39 1314 1377 "ocamlbuild/ocamlbuild_executor.ml" 39 1314 1384
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"ocamlbuild/ocamlbuild_executor.ml" 39 1314 1327 "ocamlbuild/ocamlbuild_executor.ml" 39 1314 1389
+call(
+  stack
+)
+"ocamlbuild/ocamlbuild_executor.ml" 41 1393 1397 "ocamlbuild/ocamlbuild_executor.ml" 41 1393 1399
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  def sf "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1419 --
+)
+"ocamlbuild/ocamlbuild_executor.ml" 41 1393 1402 "ocamlbuild/ocamlbuild_executor.ml" 41 1393 1416
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def fp "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1497 --
+)
+"ocamlbuild/ocamlbuild_executor.ml" 42 1419 1428 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1442
+type(
+  out_channel -> ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"ocamlbuild/ocamlbuild_executor.ml" 46 1497 1501 "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1518
+type(
+  out_channel -> Unix.process_status -> unit
+)
+ident(
+  def print_unix_status "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1675 --
+)
+"ocamlbuild/ocamlbuild_executor.ml" 46 1497 1519 "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1521
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1524 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1642
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1545 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1546
+type(
+  int
+)
+ident(
+  def x "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1550 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1567
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1537 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1546
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1550 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1552
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1553 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1555
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1519 "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1521
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1556 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1565
+type(
+  (int -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1566 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1567
+type(
+  int
+)
+ident(
+  int_ref x "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1545 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1546
+)
+"ocamlbuild/ocamlbuild_executor.ml" 47 1533 1550 "ocamlbuild/ocamlbuild_executor.ml" 47 1533 1567
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1582 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1583
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1587 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1606
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1572 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1583
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1587 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1589
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1590 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1592
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1519 "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1521
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1593 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1604
+type(
+  (int -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1605 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1606
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1582 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1583
+)
+"ocamlbuild/ocamlbuild_executor.ml" 48 1568 1587 "ocamlbuild/ocamlbuild_executor.ml" 48 1568 1606
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1620 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1621
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1625 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1642
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1611 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1621
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1625 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1627
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1628 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1630
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1519 "ocamlbuild/ocamlbuild_executor.ml" 46 1497 1521
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1631 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1640
+type(
+  (int -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1641 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1642
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1620 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1621
+)
+"ocamlbuild/ocamlbuild_executor.ml" 49 1607 1625 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1642
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 46 1497 1524 "ocamlbuild/ocamlbuild_executor.ml" 49 1607 1642
+type(
+  Unix.process_status -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1679 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1691
+type(
+  out_channel -> int * int -> unit
+)
+ident(
+  def print_job_id "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1752 --
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1692 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1694
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1695 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1720
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1696 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1697
+type(
+  int
+)
+ident(
+  def x "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1703 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1720
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1698 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1699
+type(
+  int
+)
+ident(
+  def y "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1703 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1720
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1695 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1700
+type(
+  int * int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1703 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1705
+type(
+  out_channel ->
+  (int -> int -> unit, out_channel, unit) format -> int -> int -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1706 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1708
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1692 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1694
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1709 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1716
+type(
+  (int -> int -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1717 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1718
+type(
+  int
+)
+ident(
+  int_ref x "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1696 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1697
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1719 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1720
+type(
+  int
+)
+ident(
+  int_ref y "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1698 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1699
+)
+"ocamlbuild/ocamlbuild_executor.ml" 53 1675 1703 "ocamlbuild/ocamlbuild_executor.ml" 53 1675 1720
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 56 1752 1756 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1768
+type(
+  string -> out_channel -> Buffer.t -> unit
+)
+ident(
+  def output_lines "ocamlbuild/ocamlbuild_executor.ml" 83 2293 2293 --
+)
+"ocamlbuild/ocamlbuild_executor.ml" 56 1752 1769 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1775
+type(
+  string
+)
+ident(
+  def prefix "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1776 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+)
+"ocamlbuild/ocamlbuild_executor.ml" 56 1752 1776 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1778
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1779 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+)
+"ocamlbuild/ocamlbuild_executor.ml" 56 1752 1779 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1785
+type(
+  Buffer.t
+)
+ident(
+  def buffer "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1790 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+)
+"ocamlbuild/ocamlbuild_executor.ml" 57 1788 1794 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1795
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 57 1788 1798 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1813
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"ocamlbuild/ocamlbuild_executor.ml" 57 1788 1814 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1820
+type(
+  Buffer.t
+)
+ident(
+  int_ref buffer "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1779 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1785
+)
+"ocamlbuild/ocamlbuild_executor.ml" 57 1788 1798 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1820
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 58 1824 1830 "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1831
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 58 1824 1834 "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1847
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/ocamlbuild_executor.ml" 58 1824 1848 "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1849
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1794 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1795
+)
+"ocamlbuild/ocamlbuild_executor.ml" 58 1824 1834 "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1849
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 59 1853 1859 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1870
+type(
+  int -> int -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 59 1853 1871 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1872
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1873 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1956
+)
+"ocamlbuild/ocamlbuild_executor.ml" 59 1853 1873 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1874
+type(
+  int
+)
+ident(
+  def j "ocamlbuild/ocamlbuild_executor.ml" 60 1877 1881 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1956
+)
+"ocamlbuild/ocamlbuild_executor.ml" 60 1877 1881 "ocamlbuild/ocamlbuild_executor.ml" 60 1877 1894
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 60 1877 1895 "ocamlbuild/ocamlbuild_executor.ml" 60 1877 1897
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1776 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1778
+)
+"ocamlbuild/ocamlbuild_executor.ml" 60 1877 1898 "ocamlbuild/ocamlbuild_executor.ml" 60 1877 1904
+type(
+  string
+)
+ident(
+  int_ref prefix "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1769 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1775
+)
+"ocamlbuild/ocamlbuild_executor.ml" 60 1877 1881 "ocamlbuild/ocamlbuild_executor.ml" 60 1877 1904
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1910 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1916
+type(
+  out_channel -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Pervasives.output
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1917 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1919
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1776 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1778
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1920 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1921
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1794 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1795
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1922 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1923
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1871 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1872
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1925 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1926
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1873 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1874
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1927 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1928
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1929 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1930
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1871 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1872
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1924 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1931
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1910 "ocamlbuild/ocamlbuild_executor.ml" 61 1906 1931
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 62 1933 1937 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1948
+type(
+  out_channel -> char -> unit
+)
+ident(
+  ext_ref Pervasives.output_char
+)
+"ocamlbuild/ocamlbuild_executor.ml" 62 1933 1949 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1951
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1776 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1778
+)
+"ocamlbuild/ocamlbuild_executor.ml" 62 1933 1952 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1956
+type(
+  char
+)
+"ocamlbuild/ocamlbuild_executor.ml" 62 1933 1937 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1956
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 61 1906 1910 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1956
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 60 1877 1881 "ocamlbuild/ocamlbuild_executor.ml" 62 1933 1956
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 64 1962 1972 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1976
+type(
+  int -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 64 1962 1977 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1978
+type(
+  int
+)
+ident(
+  def i "ocamlbuild/ocamlbuild_executor.ml" 65 1981 1985 "ocamlbuild/ocamlbuild_executor.ml" 76 2203 2212
+)
+"ocamlbuild/ocamlbuild_executor.ml" 65 1981 1988 "ocamlbuild/ocamlbuild_executor.ml" 65 1981 1989
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1977 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1978
+)
+"ocamlbuild/ocamlbuild_executor.ml" 65 1981 1990 "ocamlbuild/ocamlbuild_executor.ml" 65 1981 1991
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 65 1981 1992 "ocamlbuild/ocamlbuild_executor.ml" 65 1981 1993
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1830 "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1831
+)
+"ocamlbuild/ocamlbuild_executor.ml" 65 1981 1988 "ocamlbuild/ocamlbuild_executor.ml" 65 1981 1993
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 66 1999 2005 "ocamlbuild/ocamlbuild_executor.ml" 66 1999 2007
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2055 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2056
+type(
+  int
+)
+ident(
+  def j "ocamlbuild/ocamlbuild_executor.ml" 71 2089 2099 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2138
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2059 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2076
+type(
+  string -> int -> char -> int
+)
+ident(
+  ext_ref String.index_from
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2077 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2078
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1794 "ocamlbuild/ocamlbuild_executor.ml" 57 1788 1795
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2079 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2080
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1977 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1978
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2081 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2085
+type(
+  char
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2059 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2085
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 71 2089 2099 "ocamlbuild/ocamlbuild_executor.ml" 71 2089 2110
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref output_line "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1859 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1870
+)
+"ocamlbuild/ocamlbuild_executor.ml" 71 2089 2111 "ocamlbuild/ocamlbuild_executor.ml" 71 2089 2112
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1977 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1978
+)
+"ocamlbuild/ocamlbuild_executor.ml" 71 2089 2113 "ocamlbuild/ocamlbuild_executor.ml" 71 2089 2114
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2055 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2056
+)
+"ocamlbuild/ocamlbuild_executor.ml" 71 2089 2099 "ocamlbuild/ocamlbuild_executor.ml" 71 2089 2114
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 72 2116 2126 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2130
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1972 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1976
+)
+"ocamlbuild/ocamlbuild_executor.ml" 72 2116 2132 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2133
+type(
+  int
+)
+ident(
+  int_ref j "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2055 "ocamlbuild/ocamlbuild_executor.ml" 70 2041 2056
+)
+"ocamlbuild/ocamlbuild_executor.ml" 72 2116 2134 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2135
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/ocamlbuild_executor.ml" 72 2116 2136 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2137
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 72 2116 2131 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2138
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 72 2116 2126 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2138
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 71 2089 2099 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2138
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 70 2041 2051 "ocamlbuild/ocamlbuild_executor.ml" 72 2116 2138
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 74 2152 2162 "ocamlbuild/ocamlbuild_executor.ml" 74 2152 2171
+type(
+  exn
+)
+"ocamlbuild/ocamlbuild_executor.ml" 75 2175 2187 "ocamlbuild/ocamlbuild_executor.ml" 75 2175 2198
+type(
+  int -> int -> unit
+)
+ident(
+  int_ref output_line "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1859 "ocamlbuild/ocamlbuild_executor.ml" 59 1853 1870
+)
+"ocamlbuild/ocamlbuild_executor.ml" 75 2175 2199 "ocamlbuild/ocamlbuild_executor.ml" 75 2175 2200
+type(
+  int
+)
+ident(
+  int_ref i "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1977 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1978
+)
+"ocamlbuild/ocamlbuild_executor.ml" 75 2175 2201 "ocamlbuild/ocamlbuild_executor.ml" 75 2175 2202
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1830 "ocamlbuild/ocamlbuild_executor.ml" 58 1824 1831
+)
+"ocamlbuild/ocamlbuild_executor.ml" 75 2175 2187 "ocamlbuild/ocamlbuild_executor.ml" 75 2175 2202
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 68 2017 2023 "ocamlbuild/ocamlbuild_executor.ml" 76 2203 2212
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 65 1981 1985 "ocamlbuild/ocamlbuild_executor.ml" 76 2203 2212
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 78 2218 2220 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2224
+type(
+  int -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1972 "ocamlbuild/ocamlbuild_executor.ml" 64 1962 1976
+)
+"ocamlbuild/ocamlbuild_executor.ml" 78 2218 2225 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 78 2218 2220 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 64 1962 1964 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 59 1853 1855 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 58 1824 1826 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 57 1788 1790 "ocamlbuild/ocamlbuild_executor.ml" 78 2218 2226
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 83 2293 2297 "ocamlbuild/ocamlbuild_executor.ml" 83 2293 2304
+type(
+  ?max_jobs:int ->
+  ?ticker:(unit -> unit) ->
+  ?period:float ->
+  ?display:((out_channel -> unit) -> unit) ->
+  exit:(error -> unit) -> task list list -> (bool list * exn) option
+)
+ident(
+  def execute "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688 --
+)
+"ocamlbuild/ocamlbuild_executor.ml" 84 2305 2309 "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2317
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 84 2305 2318 "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2325
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2318 "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2325
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2318 "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2325
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2318 "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2325
+)
+type(
+  int option
+)
+ident(
+  def *opt* "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2307 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 85 2327 2331 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2337
+type(
+  unit -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 85 2327 2338 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2344
+type(
+  unit -> unit
+)
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+type(
+  unit -> unit
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2338 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2344
+)
+type(
+  (unit -> unit) option
+)
+type(
+  (unit -> unit) option
+)
+type(
+  unit -> unit
+)
+ident(
+  def *sth* "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2338 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2344
+)
+type(
+  (unit -> unit) option
+)
+ident(
+  int_ref *opt* "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2338 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2344
+)
+type(
+  (unit -> unit) option
+)
+ident(
+  def *opt* "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2329 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 86 2346 2350 "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2356
+type(
+  float
+)
+"ocamlbuild/ocamlbuild_executor.ml" 86 2346 2357 "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2360
+type(
+  float
+)
+type(
+  float
+)
+type(
+  float
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2357 "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2360
+)
+type(
+  float option
+)
+type(
+  float option
+)
+type(
+  float
+)
+ident(
+  def *sth* "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2357 "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2360
+)
+type(
+  float option
+)
+ident(
+  int_ref *opt* "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2357 "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2360
+)
+type(
+  float option
+)
+ident(
+  def *opt* "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2348 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 87 2362 2366 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2373
+type(
+  (out_channel -> unit) -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 87 2362 2379 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2380
+type(
+  out_channel -> unit
+)
+ident(
+  def f "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2384 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2403
+)
+"ocamlbuild/ocamlbuild_executor.ml" 87 2362 2384 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2385
+type(
+  out_channel -> unit
+)
+ident(
+  int_ref f "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2379 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2380
+)
+"ocamlbuild/ocamlbuild_executor.ml" 87 2362 2386 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2403
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"ocamlbuild/ocamlbuild_executor.ml" 87 2362 2384 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2403
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 87 2362 2374 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2404
+type(
+  (out_channel -> unit) -> unit
+)
+type(
+  (out_channel -> unit) -> unit
+)
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2374 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2404
+)
+type(
+  ((out_channel -> unit) -> unit) option
+)
+type(
+  ((out_channel -> unit) -> unit) option
+)
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  def *sth* "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2374 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2404
+)
+type(
+  ((out_channel -> unit) -> unit) option
+)
+ident(
+  int_ref *opt* "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2374 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2404
+)
+type(
+  ((out_channel -> unit) -> unit) option
+)
+ident(
+  def *opt* "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2364 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 88 2406 2409 "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2413
+type(
+  error -> unit
+)
+ident(
+  def exit "ocamlbuild/ocamlbuild_executor.ml" 89 2414 2416 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 89 2414 2417 "ocamlbuild/ocamlbuild_executor.ml" 89 2414 2425
+type(
+  task list list
+)
+ident(
+  def commands "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2452 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 91 2450 2456 "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2464
+type(
+  int ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 91 2450 2467 "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2470
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 91 2450 2471 "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2472
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 91 2450 2467 "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2472
+type(
+  int ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 92 2476 2482 "ocamlbuild/ocamlbuild_executor.ml" 92 2476 2485
+type(
+  string array
+)
+"ocamlbuild/ocamlbuild_executor.ml" 92 2476 2488 "ocamlbuild/ocamlbuild_executor.ml" 92 2476 2499
+type(
+  unit -> string array
+)
+ident(
+  ext_ref Unix.environment
+)
+"ocamlbuild/ocamlbuild_executor.ml" 92 2476 2500 "ocamlbuild/ocamlbuild_executor.ml" 92 2476 2502
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 92 2476 2488 "ocamlbuild/ocamlbuild_executor.ml" 92 2476 2502
+call(
+  stack
+)
+type(
+  string array
+)
+"ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+type(
+  JS.t ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 93 2506 2519 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2522
+type(
+  JS.t -> JS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 93 2506 2523 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2531
+type(
+  JS.t
+)
+ident(
+  ext_ref JS.empty
+)
+"ocamlbuild/ocamlbuild_executor.ml" 93 2506 2519 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2531
+type(
+  JS.t ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 94 2535 2541 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2552
+type(
+  int ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 94 2535 2555 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2558
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 94 2535 2559 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2560
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 94 2535 2555 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2560
+type(
+  int ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 95 2564 2570 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2587
+type(
+  (JS.elt * bool) Queue.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 95 2564 2590 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2602
+type(
+  unit -> (JS.elt * bool) Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"ocamlbuild/ocamlbuild_executor.ml" 95 2564 2603 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2605
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 95 2564 2590 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2605
+call(
+  stack
+)
+type(
+  (JS.elt * bool) Queue.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 96 2609 2615 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2634
+type(
+  (task list * bool ref) Queue.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 96 2609 2637 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2649
+type(
+  unit -> (task list * bool ref) Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"ocamlbuild/ocamlbuild_executor.ml" 96 2609 2650 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2652
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 96 2609 2637 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2652
+call(
+  stack
+)
+type(
+  (task list * bool ref) Queue.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 97 2656 2662 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2668
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 97 2656 2671 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2674
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 97 2656 2675 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2679
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 97 2656 2671 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2679
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 98 2683 2689 "ocamlbuild/ocamlbuild_executor.ml" 98 2683 2696
+type(
+  bool ref list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 99 2700 2704 "ocamlbuild/ocamlbuild_executor.ml" 99 2700 2712
+type(
+  (task list -> bool ref) -> task list list -> bool ref list
+)
+ident(
+  ext_ref List.map
+)
+"ocamlbuild/ocamlbuild_executor.ml" 99 2700 2718 "ocamlbuild/ocamlbuild_executor.ml" 99 2700 2723
+type(
+  task list
+)
+ident(
+  def tasks "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2733 "ocamlbuild/ocamlbuild_executor.ml" 102 2812 2824
+)
+"ocamlbuild/ocamlbuild_executor.ml" 100 2727 2737 "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2743
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 100 2727 2746 "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2749
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 100 2727 2750 "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2755
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 100 2727 2746 "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2755
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2765 "ocamlbuild/ocamlbuild_executor.ml" 101 2759 2774
+type(
+  task list * bool ref -> (task list * bool ref) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2776 "ocamlbuild/ocamlbuild_executor.ml" 101 2759 2781
+type(
+  task list
+)
+ident(
+  int_ref tasks "ocamlbuild/ocamlbuild_executor.ml" 99 2700 2718 "ocamlbuild/ocamlbuild_executor.ml" 99 2700 2723
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2783 "ocamlbuild/ocamlbuild_executor.ml" 101 2759 2789
+type(
+  bool ref
+)
+ident(
+  int_ref result "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2737 "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2743
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2775 "ocamlbuild/ocamlbuild_executor.ml" 101 2759 2790
+type(
+  task list * bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2791 "ocamlbuild/ocamlbuild_executor.ml" 101 2759 2810
+type(
+  (task list * bool ref) Queue.t
+)
+ident(
+  int_ref commands_to_execute "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2615 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2634
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2765 "ocamlbuild/ocamlbuild_executor.ml" 101 2759 2810
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 102 2812 2818 "ocamlbuild/ocamlbuild_executor.ml" 102 2812 2824
+type(
+  bool ref
+)
+ident(
+  int_ref result "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2737 "ocamlbuild/ocamlbuild_executor.ml" 100 2727 2743
+)
+"ocamlbuild/ocamlbuild_executor.ml" 101 2759 2765 "ocamlbuild/ocamlbuild_executor.ml" 102 2812 2824
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 100 2727 2733 "ocamlbuild/ocamlbuild_executor.ml" 102 2812 2824
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 99 2700 2713 "ocamlbuild/ocamlbuild_executor.ml" 102 2812 2825
+type(
+  task list -> bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 103 2826 2832 "ocamlbuild/ocamlbuild_executor.ml" 103 2826 2840
+type(
+  task list list
+)
+ident(
+  int_ref commands "ocamlbuild/ocamlbuild_executor.ml" 89 2414 2417 "ocamlbuild/ocamlbuild_executor.ml" 89 2414 2425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 99 2700 2704 "ocamlbuild/ocamlbuild_executor.ml" 103 2826 2840
+call(
+  stack
+)
+type(
+  bool ref list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 105 2846 2852 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2859
+type(
+  JS.elt FDM.t ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 105 2846 2862 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2865
+type(
+  JS.elt FDM.t -> JS.elt FDM.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 105 2846 2866 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2875
+type(
+  JS.elt FDM.t
+)
+ident(
+  ext_ref FDM.empty
+)
+"ocamlbuild/ocamlbuild_executor.ml" 105 2846 2862 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2875
+type(
+  JS.elt FDM.t ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+type(
+  in_channel -> Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 106 2879 2891 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2910
+type(
+  in_channel -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.descr_of_in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 107 2914 2920 "ocamlbuild/ocamlbuild_executor.ml" 107 2914 2923
+type(
+  out_channel -> Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 107 2914 2926 "ocamlbuild/ocamlbuild_executor.ml" 107 2914 2946
+type(
+  out_channel -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.descr_of_out_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 109 2972 2978 "ocamlbuild/ocamlbuild_executor.ml" 109 2972 2989
+type(
+  unit -> Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3000 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3003
+type(
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3006 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3009
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list ->
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3011 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3013
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3015 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3017
+type(
+  'a list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3019 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3021
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3010 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3022
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 3006 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3022
+type(
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 111 3026 3034 "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3043
+type(
+  JS.t ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 111 3026 3046 "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3049
+type(
+  JS.t -> JS.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 111 3026 3050 "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3058
+type(
+  JS.t
+)
+ident(
+  ext_ref JS.empty
+)
+"ocamlbuild/ocamlbuild_executor.ml" 111 3026 3046 "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3058
+type(
+  JS.t ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 112 3062 3070 "ocamlbuild/ocamlbuild_executor.ml" 112 3062 3072
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3085 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3088
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3090 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3091
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3091 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3100
+type(
+  JS.t ref
+)
+ident(
+  int_ref prev_jobs "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3034 "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3043
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3090 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3100
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3101 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3103
+type(
+  JS.t -> JS.t -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3104 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3105
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3105 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3109
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3104 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3109
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3089 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3110
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3085 "ocamlbuild/ocamlbuild_executor.ml" 113 3076 3110
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 115 3130 3140 "ocamlbuild/ocamlbuild_executor.ml" 115 3130 3149
+type(
+  JS.t ref
+)
+ident(
+  int_ref prev_jobs "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3034 "ocamlbuild/ocamlbuild_executor.ml" 111 3026 3043
+)
+"ocamlbuild/ocamlbuild_executor.ml" 115 3130 3150 "ocamlbuild/ocamlbuild_executor.ml" 115 3130 3152
+type(
+  JS.t ref -> JS.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 115 3130 3153 "ocamlbuild/ocamlbuild_executor.ml" 115 3130 3154
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 115 3130 3154 "ocamlbuild/ocamlbuild_executor.ml" 115 3130 3158
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 115 3130 3153 "ocamlbuild/ocamlbuild_executor.ml" 115 3130 3158
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 115 3130 3140 "ocamlbuild/ocamlbuild_executor.ml" 115 3130 3158
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 116 3160 3170 "ocamlbuild/ocamlbuild_executor.ml" 116 3160 3173
+type(
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref
+)
+ident(
+  int_ref fds "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3000 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3003
+)
+"ocamlbuild/ocamlbuild_executor.ml" 116 3160 3174 "ocamlbuild/ocamlbuild_executor.ml" 116 3160 3176
+type(
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref ->
+  Unix.file_descr list * 'a list * Unix.file_descr list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 117 3177 3189 "ocamlbuild/ocamlbuild_executor.ml" 117 3177 3196
+type(
+  (JS.elt ->
+   Unix.file_descr list * 'a list * Unix.file_descr list ->
+   Unix.file_descr list * 'a list * Unix.file_descr list) ->
+  JS.t ->
+  Unix.file_descr list * 'a list * Unix.file_descr list ->
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+ident(
+  ext_ref JS.fold
+)
+"ocamlbuild/ocamlbuild_executor.ml" 118 3197 3221 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3224
+type(
+  JS.elt
+)
+ident(
+  def job "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3225 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3469
+)
+"ocamlbuild/ocamlbuild_executor.ml" 118 3197 3226 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3230
+type(
+  Unix.file_descr list
+)
+ident(
+  def rfds "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3263 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3469
+)
+"ocamlbuild/ocamlbuild_executor.ml" 118 3197 3232 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3236
+type(
+  'a list
+)
+ident(
+  def wfds "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3263 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3469
+)
+"ocamlbuild/ocamlbuild_executor.ml" 118 3197 3238 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3242
+type(
+  Unix.file_descr list
+)
+ident(
+  def xfds "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3263 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3469
+)
+"ocamlbuild/ocamlbuild_executor.ml" 118 3197 3225 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3243
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 119 3247 3267 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3270
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 119 3247 3273 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3276
+type(
+  in_channel -> Unix.file_descr
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 119 3247 3277 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3280
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3221 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3224
+)
+"ocamlbuild/ocamlbuild_executor.ml" 119 3247 3277 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3291
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 119 3247 3273 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3291
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 120 3292 3312 "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3315
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 120 3292 3318 "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3321
+type(
+  out_channel -> Unix.file_descr
+)
+ident(
+  int_ref doo "ocamlbuild/ocamlbuild_executor.ml" 107 2914 2920 "ocamlbuild/ocamlbuild_executor.ml" 107 2914 2923
+)
+"ocamlbuild/ocamlbuild_executor.ml" 120 3292 3322 "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3325
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3221 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3224
+)
+"ocamlbuild/ocamlbuild_executor.ml" 120 3292 3322 "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3335
+type(
+  out_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 120 3292 3318 "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3335
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 121 3336 3356 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3359
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 121 3336 3362 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3365
+type(
+  in_channel -> Unix.file_descr
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 121 3336 3366 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3369
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3221 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3224
+)
+"ocamlbuild/ocamlbuild_executor.ml" 121 3336 3366 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3380
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 121 3336 3362 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3380
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3417 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3420
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref ofd "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3267 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3270
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3424 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3427
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref efd "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3356 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3359
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3431 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3435
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref rfds "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3226 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3230
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3424 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3435
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3417 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3435
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3437 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3441
+type(
+  'a list
+)
+ident(
+  int_ref wfds "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3232 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3236
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3443 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3446
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref ofd "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3267 "ocamlbuild/ocamlbuild_executor.ml" 119 3247 3270
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3450 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3453
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref ifd "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3312 "ocamlbuild/ocamlbuild_executor.ml" 120 3292 3315
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3457 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3460
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref efd "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3356 "ocamlbuild/ocamlbuild_executor.ml" 121 3336 3359
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3464 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3468
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref xfds "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3238 "ocamlbuild/ocamlbuild_executor.ml" 118 3197 3242
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3457 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3468
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3450 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3468
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3443 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3468
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 123 3400 3416 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3469
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 119 3247 3263 "ocamlbuild/ocamlbuild_executor.ml" 123 3400 3469
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 118 3197 3211 "ocamlbuild/ocamlbuild_executor.ml" 124 3470 3487
+type(
+  JS.elt ->
+  Unix.file_descr list * 'a list * Unix.file_descr list ->
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 125 3488 3502 "ocamlbuild/ocamlbuild_executor.ml" 125 3488 3503
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 125 3488 3503 "ocamlbuild/ocamlbuild_executor.ml" 125 3488 3507
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 125 3488 3502 "ocamlbuild/ocamlbuild_executor.ml" 125 3488 3507
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 126 3508 3523 "ocamlbuild/ocamlbuild_executor.ml" 126 3508 3525
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 126 3508 3527 "ocamlbuild/ocamlbuild_executor.ml" 126 3508 3529
+type(
+  'a list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 126 3508 3531 "ocamlbuild/ocamlbuild_executor.ml" 126 3508 3533
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 126 3508 3522 "ocamlbuild/ocamlbuild_executor.ml" 126 3508 3534
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 117 3177 3189 "ocamlbuild/ocamlbuild_executor.ml" 126 3508 3534
+call(
+  stack
+)
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 116 3160 3170 "ocamlbuild/ocamlbuild_executor.ml" 126 3508 3534
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 114 3116 3124 "ocamlbuild/ocamlbuild_executor.ml" 127 3535 3546
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3082 "ocamlbuild/ocamlbuild_executor.ml" 127 3535 3546
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 128 3548 3554 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3555
+type(
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref ->
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 128 3548 3555 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3558
+type(
+  (Unix.file_descr list * 'a list * Unix.file_descr list) ref
+)
+ident(
+  int_ref fds "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3000 "ocamlbuild/ocamlbuild_executor.ml" 110 2992 3003
+)
+"ocamlbuild/ocamlbuild_executor.ml" 128 3548 3554 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3558
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 113 3076 3082 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3558
+type(
+  Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 112 3062 3066 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3558
+type(
+  unit -> Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 111 3026 3030 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3558
+type(
+  unit -> Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 110 2992 2996 "ocamlbuild/ocamlbuild_executor.ml" 128 3548 3558
+type(
+  unit -> Unix.file_descr list * 'a list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 132 3592 3598 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3605
+type(
+  string -> task list -> bool ref -> int * int -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 132 3592 3606 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3609
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3610 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+)
+"ocamlbuild/ocamlbuild_executor.ml" 132 3592 3610 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3614
+type(
+  task list
+)
+ident(
+  def rest "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3615 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+)
+"ocamlbuild/ocamlbuild_executor.ml" 132 3592 3615 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3621
+type(
+  bool ref
+)
+ident(
+  def result "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3622 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+)
+"ocamlbuild/ocamlbuild_executor.ml" 132 3592 3622 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3624
+type(
+  int * int
+)
+ident(
+  def id "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3714 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3719 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3726
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3728 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3734
+type(
+  out_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3736 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3743
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3718 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3744
+type(
+  in_channel * out_channel * in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3747 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3764
+type(
+  string -> string array -> in_channel * out_channel * in_channel
+)
+ident(
+  ext_ref Unix.open_process_full
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3765 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3768
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3606 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3609
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3769 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3772
+type(
+  string array
+)
+ident(
+  int_ref env "ocamlbuild/ocamlbuild_executor.ml" 92 2476 2482 "ocamlbuild/ocamlbuild_executor.ml" 92 2476 2485
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3747 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3772
+call(
+  stack
+)
+type(
+  in_channel * out_channel * in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 135 3776 3780 "ocamlbuild/ocamlbuild_executor.ml" 135 3776 3784
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 135 3776 3785 "ocamlbuild/ocamlbuild_executor.ml" 135 3776 3796
+type(
+  int ref
+)
+ident(
+  int_ref jobs_active "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2541 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2552
+)
+"ocamlbuild/ocamlbuild_executor.ml" 135 3776 3780 "ocamlbuild/ocamlbuild_executor.ml" 135 3776 3796
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 136 3798 3802 "ocamlbuild/ocamlbuild_executor.ml" 136 3798 3814
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_nonblock
+)
+"ocamlbuild/ocamlbuild_executor.ml" 136 3798 3816 "ocamlbuild/ocamlbuild_executor.ml" 136 3798 3819
+type(
+  in_channel -> Unix.file_descr
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 136 3798 3820 "ocamlbuild/ocamlbuild_executor.ml" 136 3798 3827
+type(
+  in_channel
+)
+ident(
+  int_ref stdout' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3719 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3726
+)
+"ocamlbuild/ocamlbuild_executor.ml" 136 3798 3815 "ocamlbuild/ocamlbuild_executor.ml" 136 3798 3828
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 136 3798 3802 "ocamlbuild/ocamlbuild_executor.ml" 136 3798 3828
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 137 3830 3834 "ocamlbuild/ocamlbuild_executor.ml" 137 3830 3846
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_nonblock
+)
+"ocamlbuild/ocamlbuild_executor.ml" 137 3830 3848 "ocamlbuild/ocamlbuild_executor.ml" 137 3830 3851
+type(
+  in_channel -> Unix.file_descr
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 137 3830 3852 "ocamlbuild/ocamlbuild_executor.ml" 137 3830 3859
+type(
+  in_channel
+)
+ident(
+  int_ref stderr' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3736 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3743
+)
+"ocamlbuild/ocamlbuild_executor.ml" 137 3830 3847 "ocamlbuild/ocamlbuild_executor.ml" 137 3830 3860
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 137 3830 3834 "ocamlbuild/ocamlbuild_executor.ml" 137 3830 3860
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 138 3862 3870 "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3873
+type(
+  job
+)
+"ocamlbuild/ocamlbuild_executor.ml" 139 3876 3902 "ocamlbuild/ocamlbuild_executor.ml" 139 3876 3904
+type(
+  int * int
+)
+ident(
+  int_ref id "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3622 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3624
+)
+"ocamlbuild/ocamlbuild_executor.ml" 140 3906 3932 "ocamlbuild/ocamlbuild_executor.ml" 140 3906 3935
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3606 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3609
+)
+"ocamlbuild/ocamlbuild_executor.ml" 141 3937 3963 "ocamlbuild/ocamlbuild_executor.ml" 141 3937 3967
+type(
+  task list
+)
+ident(
+  int_ref rest "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3610 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3614
+)
+"ocamlbuild/ocamlbuild_executor.ml" 142 3969 3995 "ocamlbuild/ocamlbuild_executor.ml" 142 3969 4001
+type(
+  bool ref
+)
+ident(
+  int_ref result "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3615 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3621
+)
+"ocamlbuild/ocamlbuild_executor.ml" 143 4003 4029 "ocamlbuild/ocamlbuild_executor.ml" 143 4003 4036
+type(
+  in_channel
+)
+ident(
+  int_ref stdout' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3719 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3726
+)
+"ocamlbuild/ocamlbuild_executor.ml" 144 4038 4064 "ocamlbuild/ocamlbuild_executor.ml" 144 4038 4070
+type(
+  out_channel
+)
+ident(
+  int_ref stdin' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3728 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3734
+)
+"ocamlbuild/ocamlbuild_executor.ml" 145 4072 4098 "ocamlbuild/ocamlbuild_executor.ml" 145 4072 4105
+type(
+  in_channel
+)
+ident(
+  int_ref stderr' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3736 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3743
+)
+"ocamlbuild/ocamlbuild_executor.ml" 146 4107 4133 "ocamlbuild/ocamlbuild_executor.ml" 146 4107 4146
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"ocamlbuild/ocamlbuild_executor.ml" 146 4107 4147 "ocamlbuild/ocamlbuild_executor.ml" 146 4107 4151
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 146 4107 4133 "ocamlbuild/ocamlbuild_executor.ml" 146 4107 4151
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 147 4153 4179 "ocamlbuild/ocamlbuild_executor.ml" 147 4153 4184
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 139 3876 3882 "ocamlbuild/ocamlbuild_executor.ml" 147 4153 4186
+type(
+  job
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4198 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4205
+type(
+  JS.elt FDM.t ref
+)
+ident(
+  int_ref outputs "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2852 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2859
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4206 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4208
+type(
+  JS.elt FDM.t ref -> JS.elt FDM.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4209 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4216
+type(
+  FDM.key -> JS.elt -> JS.elt FDM.t -> JS.elt FDM.t
+)
+ident(
+  ext_ref FDM.add
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4218 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4221
+type(
+  in_channel -> FDM.key
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4222 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4229
+type(
+  in_channel
+)
+ident(
+  int_ref stdout' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3719 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3726
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4217 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4230
+call(
+  stack
+)
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4231 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4234
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3870 "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3873
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4236 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4243
+type(
+  FDM.key -> JS.elt -> JS.elt FDM.t -> JS.elt FDM.t
+)
+ident(
+  ext_ref FDM.add
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4245 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4248
+type(
+  in_channel -> FDM.key
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4249 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4256
+type(
+  in_channel
+)
+ident(
+  int_ref stderr' "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3736 "ocamlbuild/ocamlbuild_executor.ml" 134 3710 3743
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4244 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4257
+call(
+  stack
+)
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4258 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4261
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3870 "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3873
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4262 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4263
+type(
+  JS.elt FDM.t ref -> JS.elt FDM.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4263 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4270
+type(
+  JS.elt FDM.t ref
+)
+ident(
+  int_ref outputs "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2852 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2859
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4262 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4270
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4235 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4271
+call(
+  stack
+)
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4209 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4271
+call(
+  stack
+)
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4198 "ocamlbuild/ocamlbuild_executor.ml" 149 4194 4271
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4277 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4281
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4282 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4284
+type(
+  JS.t ref -> JS.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4285 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4291
+type(
+  JS.elt -> JS.t -> JS.t
+)
+ident(
+  ext_ref JS.add
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4292 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4295
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3870 "ocamlbuild/ocamlbuild_executor.ml" 138 3862 3873
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4296 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4297
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4297 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4301
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4296 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4301
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4285 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4301
+call(
+  stack
+)
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 150 4273 4277 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 149 4194 4198 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 138 3862 3866 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 137 3830 3834 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 136 3798 3802 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 135 3776 3780 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 134 3710 3714 "ocamlbuild/ocamlbuild_executor.ml" 150 4273 4302
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 154 4345 4355 "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4371
+type(
+  (unit -> string) list -> (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 155 4383 4389 "ocamlbuild/ocamlbuild_executor.ml" 155 4383 4391
+type(
+  (unit -> string) list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 155 4383 4395 "ocamlbuild/ocamlbuild_executor.ml" 155 4383 4399
+type(
+  (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 156 4400 4406 "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4410
+type(
+  unit -> string
+)
+ident(
+  def task "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4431 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+)
+"ocamlbuild/ocamlbuild_executor.ml" 156 4400 4414 "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4419
+type(
+  (unit -> string) list
+)
+ident(
+  def tasks "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4431 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+)
+"ocamlbuild/ocamlbuild_executor.ml" 156 4400 4406 "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4419
+type(
+  (unit -> string) list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 157 4423 4435 "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4438
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 157 4423 4441 "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4445
+type(
+  unit -> string
+)
+ident(
+  int_ref task "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4406 "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4410
+)
+"ocamlbuild/ocamlbuild_executor.ml" 157 4423 4446 "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4448
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 157 4423 4441 "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4448
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4463 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4466
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4435 "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4438
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4467 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4468
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4469 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4471
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4463 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4471
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4477 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4493
+type(
+  (unit -> string) list -> (string * (unit -> string) list) option
+)
+ident(
+  int_ref skip_empty_tasks "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4355 "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4371
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4494 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4499
+type(
+  (unit -> string) list
+)
+ident(
+  int_ref tasks "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4414 "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4419
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4477 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4499
+call(
+  tail
+)
+type(
+  (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4510 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4513
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4435 "ocamlbuild/ocamlbuild_executor.ml" 157 4423 4438
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4515 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4520
+type(
+  (unit -> string) list
+)
+ident(
+  int_ref tasks "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4414 "ocamlbuild/ocamlbuild_executor.ml" 156 4400 4419
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4509 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+type(
+  string * (unit -> string) list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4505 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+type(
+  (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 158 4452 4460 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+type(
+  (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 157 4423 4431 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+type(
+  (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 154 4345 4374 "ocamlbuild/ocamlbuild_executor.ml" 158 4452 4521
+type(
+  (unit -> string) list -> (string * (unit -> string) list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 162 4561 4567 "ocamlbuild/ocamlbuild_executor.ml" 162 4561 4580
+type(
+  unit -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 162 4561 4581 "ocamlbuild/ocamlbuild_executor.ml" 162 4561 4583
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4595 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4600
+type(
+  task list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4602 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4608
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4594 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4609
+type(
+  task list * bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4612 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4622
+type(
+  (task list * bool ref) Queue.t -> task list * bool ref
+)
+ident(
+  ext_ref Queue.take
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4623 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4642
+type(
+  (task list * bool ref) Queue.t
+)
+ident(
+  int_ref commands_to_execute "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2615 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2634
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4612 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4642
+call(
+  stack
+)
+type(
+  task list * bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 164 4646 4656 "ocamlbuild/ocamlbuild_executor.ml" 164 4646 4672
+type(
+  task list -> (string * task list) option
+)
+ident(
+  int_ref skip_empty_tasks "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4355 "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4371
+)
+"ocamlbuild/ocamlbuild_executor.ml" 164 4646 4673 "ocamlbuild/ocamlbuild_executor.ml" 164 4646 4678
+type(
+  task list
+)
+ident(
+  int_ref tasks "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4595 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4600
+)
+"ocamlbuild/ocamlbuild_executor.ml" 164 4646 4656 "ocamlbuild/ocamlbuild_executor.ml" 164 4646 4678
+call(
+  stack
+)
+type(
+  (string * task list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 165 4684 4690 "ocamlbuild/ocamlbuild_executor.ml" 165 4684 4694
+type(
+  (string * task list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 165 4684 4698 "ocamlbuild/ocamlbuild_executor.ml" 165 4684 4704
+type(
+  bool ref
+)
+ident(
+  int_ref result "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4602 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4608
+)
+"ocamlbuild/ocamlbuild_executor.ml" 165 4684 4705 "ocamlbuild/ocamlbuild_executor.ml" 165 4684 4707
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 165 4684 4708 "ocamlbuild/ocamlbuild_executor.ml" 165 4684 4713
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 165 4684 4698 "ocamlbuild/ocamlbuild_executor.ml" 165 4684 4713
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 166 4714 4725 "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4728
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4745 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+)
+"ocamlbuild/ocamlbuild_executor.ml" 166 4714 4730 "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4734
+type(
+  task list
+)
+ident(
+  def rest "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4745 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+)
+"ocamlbuild/ocamlbuild_executor.ml" 166 4714 4724 "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4735
+type(
+  string * task list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 166 4714 4720 "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4735
+type(
+  (string * task list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 167 4739 4749 "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4753
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 167 4739 4756 "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4757
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 167 4739 4757 "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4765
+type(
+  int ref
+)
+ident(
+  int_ref batch_id "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2456 "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2464
+)
+"ocamlbuild/ocamlbuild_executor.ml" 167 4739 4756 "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4765
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 168 4769 4775 "ocamlbuild/ocamlbuild_executor.ml" 168 4769 4779
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 168 4769 4780 "ocamlbuild/ocamlbuild_executor.ml" 168 4769 4788
+type(
+  int ref
+)
+ident(
+  int_ref batch_id "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2456 "ocamlbuild/ocamlbuild_executor.ml" 91 2450 2464
+)
+"ocamlbuild/ocamlbuild_executor.ml" 168 4769 4775 "ocamlbuild/ocamlbuild_executor.ml" 168 4769 4788
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4796 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4803
+type(
+  string -> task list -> bool ref -> int * int -> unit
+)
+ident(
+  int_ref add_job "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3598 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3605
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4804 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4807
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4725 "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4728
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4808 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4812
+type(
+  task list
+)
+ident(
+  int_ref rest "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4730 "ocamlbuild/ocamlbuild_executor.ml" 166 4714 4734
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4813 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4819
+type(
+  bool ref
+)
+ident(
+  int_ref result "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4602 "ocamlbuild/ocamlbuild_executor.ml" 163 4586 4608
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4821 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4825
+type(
+  int
+)
+ident(
+  int_ref b_id "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4749 "ocamlbuild/ocamlbuild_executor.ml" 167 4739 4753
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4827 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4828
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4820 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+type(
+  int * int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 169 4790 4796 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 168 4769 4775 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 167 4739 4745 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 164 4646 4650 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 163 4586 4590 "ocamlbuild/ocamlbuild_executor.ml" 169 4790 4829
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 173 4865 4871 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4880
+type(
+  ?continue:bool -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 173 4865 4883 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4891
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 173 4865 4892 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4896
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4892 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4896
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4892 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4896
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4892 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4896
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4881 "ocamlbuild/ocamlbuild_executor.ml" 180 5049 5057
+)
+"ocamlbuild/ocamlbuild_executor.ml" 173 4865 4898 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4901
+type(
+  JS.elt
+)
+ident(
+  def job "ocamlbuild/ocamlbuild_executor.ml" 174 4904 4908 "ocamlbuild/ocamlbuild_executor.ml" 180 5049 5057
+)
+"ocamlbuild/ocamlbuild_executor.ml" 174 4904 4911 "ocamlbuild/ocamlbuild_executor.ml" 174 4904 4914
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocamlbuild_executor.ml" 174 4904 4915 "ocamlbuild/ocamlbuild_executor.ml" 174 4904 4918
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4898 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4901
+)
+"ocamlbuild/ocamlbuild_executor.ml" 174 4904 4915 "ocamlbuild/ocamlbuild_executor.ml" 174 4904 4928
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 174 4904 4911 "ocamlbuild/ocamlbuild_executor.ml" 174 4904 4928
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 176 4946 4954 "ocamlbuild/ocamlbuild_executor.ml" 176 4946 4957
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4898 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4901
+)
+"ocamlbuild/ocamlbuild_executor.ml" 176 4946 4971 "ocamlbuild/ocamlbuild_executor.ml" 176 4946 4975
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 176 4946 4954 "ocamlbuild/ocamlbuild_executor.ml" 176 4946 4975
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 177 4977 4985 "ocamlbuild/ocamlbuild_executor.ml" 177 4977 4994
+type(
+  JS.elt * bool -> (JS.elt * bool) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"ocamlbuild/ocamlbuild_executor.ml" 177 4977 4996 "ocamlbuild/ocamlbuild_executor.ml" 177 4977 4999
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4898 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4901
+)
+"ocamlbuild/ocamlbuild_executor.ml" 177 4977 5001 "ocamlbuild/ocamlbuild_executor.ml" 177 4977 5009
+type(
+  bool
+)
+ident(
+  int_ref continue "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4883 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4891
+)
+"ocamlbuild/ocamlbuild_executor.ml" 177 4977 4995 "ocamlbuild/ocamlbuild_executor.ml" 177 4977 5010
+type(
+  JS.elt * bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 177 4977 5011 "ocamlbuild/ocamlbuild_executor.ml" 177 4977 5028
+type(
+  (JS.elt * bool) Queue.t
+)
+ident(
+  int_ref jobs_to_terminate "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2570 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2587
+)
+"ocamlbuild/ocamlbuild_executor.ml" 177 4977 4985 "ocamlbuild/ocamlbuild_executor.ml" 177 4977 5028
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 175 4934 4940 "ocamlbuild/ocamlbuild_executor.ml" 178 5030 5039
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 180 5049 5055 "ocamlbuild/ocamlbuild_executor.ml" 180 5049 5057
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 174 4904 4908 "ocamlbuild/ocamlbuild_executor.ml" 180 5049 5057
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 184 5109 5115 "ocamlbuild/ocamlbuild_executor.ml" 184 5109 5140
+type(
+  unit -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 184 5109 5141 "ocamlbuild/ocamlbuild_executor.ml" 184 5109 5143
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5156 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5157
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5157 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5168
+type(
+  int ref
+)
+ident(
+  int_ref jobs_active "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2541 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2552
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5156 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5168
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5169 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5170
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5171 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5179
+type(
+  int
+)
+ident(
+  int_ref max_jobs "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2309 "ocamlbuild/ocamlbuild_executor.ml" 84 2305 2317
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5156 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5179
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5180 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5182
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5183 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5186
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5188 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5202
+type(
+  (task list * bool ref) Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5203 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5222
+type(
+  (task list * bool ref) Queue.t
+)
+ident(
+  int_ref commands_to_execute "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2615 "ocamlbuild/ocamlbuild_executor.ml" 96 2609 2634
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5187 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5223
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5183 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5223
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5156 "ocamlbuild/ocamlbuild_executor.ml" 185 5146 5223
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 186 5227 5233 "ocamlbuild/ocamlbuild_executor.ml" 186 5227 5246
+type(
+  unit -> unit
+)
+ident(
+  int_ref add_some_jobs "ocamlbuild/ocamlbuild_executor.ml" 162 4561 4567 "ocamlbuild/ocamlbuild_executor.ml" 162 4561 4580
+)
+"ocamlbuild/ocamlbuild_executor.ml" 186 5227 5247 "ocamlbuild/ocamlbuild_executor.ml" 186 5227 5249
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 186 5227 5233 "ocamlbuild/ocamlbuild_executor.ml" 186 5227 5249
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 185 5146 5150 "ocamlbuild/ocamlbuild_executor.ml" 187 5250 5258
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 191 5292 5298 "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5305
+type(
+  ?loop:bool -> FDM.key -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 192 5308 5316 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5317
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 192 5308 5320 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5333
+type(
+  int -> string
+)
+ident(
+  ext_ref String.create
+)
+"ocamlbuild/ocamlbuild_executor.ml" 192 5308 5334 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5338
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 192 5308 5320 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5338
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 193 5342 5352 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5356
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 193 5342 5357 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5362
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5357 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5362
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5357 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5362
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5357 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5362
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5346 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+)
+"ocamlbuild/ocamlbuild_executor.ml" 193 5342 5364 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5366
+type(
+  FDM.key
+)
+ident(
+  def fd "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5367 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+)
+"ocamlbuild/ocamlbuild_executor.ml" 193 5342 5367 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5370
+type(
+  JS.elt
+)
+ident(
+  def job "ocamlbuild/ocamlbuild_executor.ml" 197 5428 5436 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+)
+"ocamlbuild/ocamlbuild_executor.ml" 198 5440 5458 "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5467
+type(
+  unit -> unit
+)
+ident(
+  def iteration "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5450 "ocamlbuild/ocamlbuild_executor.ml" 219 5995 6017
+)
+"ocamlbuild/ocamlbuild_executor.ml" 198 5440 5468 "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5470
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 199 5473 5489 "ocamlbuild/ocamlbuild_executor.ml" 199 5473 5490
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5527 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5531
+type(
+  FDM.key -> string -> int -> int -> int
+)
+ident(
+  ext_ref Unix.read
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5532 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5534
+type(
+  FDM.key
+)
+ident(
+  int_ref fd "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5364 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5366
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5535 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5536
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5316 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5317
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5537 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5538
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5540 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5553
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5554 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5555
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5316 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5317
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5539 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5556
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 201 5511 5527 "ocamlbuild/ocamlbuild_executor.ml" 201 5511 5556
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 203 5576 5608 "ocamlbuild/ocamlbuild_executor.ml" 203 5576 5609
+type(
+  Unix.error
+)
+"ocamlbuild/ocamlbuild_executor.ml" 203 5576 5610 "ocamlbuild/ocamlbuild_executor.ml" 203 5576 5611
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 203 5576 5612 "ocamlbuild/ocamlbuild_executor.ml" 203 5576 5613
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 203 5576 5592 "ocamlbuild/ocamlbuild_executor.ml" 203 5576 5614
+type(
+  exn
+)
+"ocamlbuild/ocamlbuild_executor.ml" 203 5576 5618 "ocamlbuild/ocamlbuild_executor.ml" 203 5576 5619
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 200 5493 5507 "ocamlbuild/ocamlbuild_executor.ml" 203 5576 5619
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 205 5635 5650 "ocamlbuild/ocamlbuild_executor.ml" 205 5635 5651
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/ocamlbuild_executor.ml" 199 5473 5489 "ocamlbuild/ocamlbuild_executor.ml" 199 5473 5490
+)
+"ocamlbuild/ocamlbuild_executor.ml" 205 5635 5652 "ocamlbuild/ocamlbuild_executor.ml" 205 5635 5653
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 205 5635 5654 "ocamlbuild/ocamlbuild_executor.ml" 205 5635 5655
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 205 5635 5650 "ocamlbuild/ocamlbuild_executor.ml" 205 5635 5655
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 206 5661 5678 "ocamlbuild/ocamlbuild_executor.ml" 206 5661 5681
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5367 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5370
+)
+"ocamlbuild/ocamlbuild_executor.ml" 206 5661 5678 "ocamlbuild/ocamlbuild_executor.ml" 206 5661 5691
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 207 5698 5714 "ocamlbuild/ocamlbuild_executor.ml" 207 5698 5716
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 209 5736 5752 "ocamlbuild/ocamlbuild_executor.ml" 209 5736 5761
+type(
+  ?continue:bool -> JS.elt -> unit
+)
+ident(
+  int_ref terminate "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4871 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4880
+)
+"ocamlbuild/ocamlbuild_executor.ml" 209 5736 5762 "ocamlbuild/ocamlbuild_executor.ml" 209 5736 5765
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5367 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5370
+)
+"ocamlbuild/ocamlbuild_executor.ml" 209 5736 5752 "ocamlbuild/ocamlbuild_executor.ml" 209 5736 5765
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 206 5661 5675 "ocamlbuild/ocamlbuild_executor.ml" 209 5736 5765
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5819 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5839
+type(
+  Buffer.t -> string -> int -> int -> unit
+)
+ident(
+  ext_ref Buffer.add_substring
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5840 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5843
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5367 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5370
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5840 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5854
+type(
+  Buffer.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5855 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5856
+type(
+  string
+)
+ident(
+  int_ref u "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5316 "ocamlbuild/ocamlbuild_executor.ml" 192 5308 5317
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5857 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5858
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5859 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5860
+type(
+  int
+)
+ident(
+  int_ref m "ocamlbuild/ocamlbuild_executor.ml" 199 5473 5489 "ocamlbuild/ocamlbuild_executor.ml" 199 5473 5490
+)
+"ocamlbuild/ocamlbuild_executor.ml" 212 5803 5819 "ocamlbuild/ocamlbuild_executor.ml" 212 5803 5860
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 213 5862 5881 "ocamlbuild/ocamlbuild_executor.ml" 213 5862 5885
+type(
+  bool
+)
+ident(
+  int_ref loop "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5352 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5356
+)
+"ocamlbuild/ocamlbuild_executor.ml" 214 5891 5909 "ocamlbuild/ocamlbuild_executor.ml" 214 5891 5918
+type(
+  unit -> unit
+)
+ident(
+  int_ref iteration "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5458 "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5467
+)
+"ocamlbuild/ocamlbuild_executor.ml" 214 5891 5919 "ocamlbuild/ocamlbuild_executor.ml" 214 5891 5921
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 214 5891 5909 "ocamlbuild/ocamlbuild_executor.ml" 214 5891 5921
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 216 5943 5961 "ocamlbuild/ocamlbuild_executor.ml" 216 5943 5963
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 213 5862 5878 "ocamlbuild/ocamlbuild_executor.ml" 216 5943 5963
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 211 5783 5797 "ocamlbuild/ocamlbuild_executor.ml" 217 5964 5981
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 205 5635 5647 "ocamlbuild/ocamlbuild_executor.ml" 217 5964 5981
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 199 5473 5485 "ocamlbuild/ocamlbuild_executor.ml" 217 5964 5981
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 219 5995 6005 "ocamlbuild/ocamlbuild_executor.ml" 219 5995 6014
+type(
+  unit -> unit
+)
+ident(
+  int_ref iteration "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5458 "ocamlbuild/ocamlbuild_executor.ml" 198 5440 5467
+)
+"ocamlbuild/ocamlbuild_executor.ml" 219 5995 6015 "ocamlbuild/ocamlbuild_executor.ml" 219 5995 6017
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 219 5995 6005 "ocamlbuild/ocamlbuild_executor.ml" 219 5995 6017
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 198 5440 5450 "ocamlbuild/ocamlbuild_executor.ml" 219 5995 6017
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 221 6031 6041 "ocamlbuild/ocamlbuild_executor.ml" 221 6031 6042
+type(
+  exn
+)
+ident(
+  def x "ocamlbuild/ocamlbuild_executor.ml" 222 6046 6058 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+)
+"ocamlbuild/ocamlbuild_executor.ml" 222 6046 6058 "ocamlbuild/ocamlbuild_executor.ml" 222 6046 6065
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref display "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2366 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2373
+)
+"ocamlbuild/ocamlbuild_executor.ml" 223 6066 6090 "ocamlbuild/ocamlbuild_executor.ml" 223 6066 6092
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 224 6096 6112 "ocamlbuild/ocamlbuild_executor.ml" 225 6188 6229
+)
+"ocamlbuild/ocamlbuild_executor.ml" 224 6096 6112 "ocamlbuild/ocamlbuild_executor.ml" 224 6096 6114
+type(
+  out_channel ->
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 224 6096 6115 "ocamlbuild/ocamlbuild_executor.ml" 224 6096 6117
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 223 6066 6090 "ocamlbuild/ocamlbuild_executor.ml" 223 6066 6092
+)
+"ocamlbuild/ocamlbuild_executor.ml" 224 6096 6118 "ocamlbuild/ocamlbuild_executor.ml" 224 6096 6171
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 224 6096 6172 "ocamlbuild/ocamlbuild_executor.ml" 224 6096 6175
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5367 "ocamlbuild/ocamlbuild_executor.ml" 193 5342 5370
+)
+"ocamlbuild/ocamlbuild_executor.ml" 224 6096 6172 "ocamlbuild/ocamlbuild_executor.ml" 224 6096 6187
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 225 6188 6207 "ocamlbuild/ocamlbuild_executor.ml" 225 6188 6225
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 225 6188 6226 "ocamlbuild/ocamlbuild_executor.ml" 225 6188 6227
+type(
+  exn
+)
+ident(
+  int_ref x "ocamlbuild/ocamlbuild_executor.ml" 221 6031 6041 "ocamlbuild/ocamlbuild_executor.ml" 221 6031 6042
+)
+"ocamlbuild/ocamlbuild_executor.ml" 225 6188 6206 "ocamlbuild/ocamlbuild_executor.ml" 225 6188 6228
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 224 6096 6112 "ocamlbuild/ocamlbuild_executor.ml" 225 6188 6229
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 223 6066 6080 "ocamlbuild/ocamlbuild_executor.ml" 226 6230 6247
+type(
+  out_channel -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 222 6046 6058 "ocamlbuild/ocamlbuild_executor.ml" 226 6230 6247
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 227 6249 6261 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6265
+type(
+  error -> unit
+)
+ident(
+  int_ref exit "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2409 "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2413
+)
+"ocamlbuild/ocamlbuild_executor.ml" 227 6249 6266 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+type(
+  error
+)
+"ocamlbuild/ocamlbuild_executor.ml" 227 6249 6261 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 222 6046 6058 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 197 5428 5436 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 193 5342 5346 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+type(
+  ?loop:bool -> FDM.key -> JS.elt -> unit
+)
+type(
+  FDM.key -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 192 5308 5312 "ocamlbuild/ocamlbuild_executor.ml" 227 6249 6274
+type(
+  ?loop:bool -> FDM.key -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 231 6326 6332 "ocamlbuild/ocamlbuild_executor.ml" 231 6326 6357
+type(
+  unit -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 231 6326 6358 "ocamlbuild/ocamlbuild_executor.ml" 231 6326 6360
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 232 6363 6373 "ocamlbuild/ocamlbuild_executor.ml" 232 6363 6376
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ocamlbuild/ocamlbuild_executor.ml" 232 6363 6378 "ocamlbuild/ocamlbuild_executor.ml" 232 6363 6392
+type(
+  (JS.elt * bool) Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"ocamlbuild/ocamlbuild_executor.ml" 232 6363 6393 "ocamlbuild/ocamlbuild_executor.ml" 232 6363 6410
+type(
+  (JS.elt * bool) Queue.t
+)
+ident(
+  int_ref jobs_to_terminate "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2570 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2587
+)
+"ocamlbuild/ocamlbuild_executor.ml" 232 6363 6377 "ocamlbuild/ocamlbuild_executor.ml" 232 6363 6411
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 232 6363 6373 "ocamlbuild/ocamlbuild_executor.ml" 232 6363 6411
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 233 6415 6421 "ocamlbuild/ocamlbuild_executor.ml" 233 6415 6427
+type(
+  unit -> unit
+)
+ident(
+  int_ref ticker "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2331 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2337
+)
+"ocamlbuild/ocamlbuild_executor.ml" 233 6415 6428 "ocamlbuild/ocamlbuild_executor.ml" 233 6415 6430
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 233 6415 6421 "ocamlbuild/ocamlbuild_executor.ml" 233 6415 6430
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+type(
+  JS.elt
+)
+ident(
+  def job "ocamlbuild/ocamlbuild_executor.ml" 238 6589 6595 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6448 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6456
+type(
+  bool
+)
+ident(
+  def continue "ocamlbuild/ocamlbuild_executor.ml" 238 6589 6595 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6442 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6457
+type(
+  JS.elt * bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6460 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6470
+type(
+  (JS.elt * bool) Queue.t -> JS.elt * bool
+)
+ident(
+  ext_ref Queue.take
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6471 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6488
+type(
+  (JS.elt * bool) Queue.t
+)
+ident(
+  int_ref jobs_to_terminate "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2570 "ocamlbuild/ocamlbuild_executor.ml" 95 2564 2587
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6460 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6488
+call(
+  stack
+)
+type(
+  JS.elt * bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 238 6589 6595 "ocamlbuild/ocamlbuild_executor.ml" 238 6589 6599
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"ocamlbuild/ocamlbuild_executor.ml" 238 6589 6600 "ocamlbuild/ocamlbuild_executor.ml" 238 6589 6611
+type(
+  int ref
+)
+ident(
+  int_ref jobs_active "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2541 "ocamlbuild/ocamlbuild_executor.ml" 94 2535 2552
+)
+"ocamlbuild/ocamlbuild_executor.ml" 238 6589 6595 "ocamlbuild/ocamlbuild_executor.ml" 238 6589 6611
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6619 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6626
+type(
+  ?loop:bool -> FDM.key -> JS.elt -> unit
+)
+ident(
+  int_ref do_read "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5298 "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5305
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6633 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6637
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6639 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6642
+type(
+  in_channel -> FDM.key
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6643 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6646
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6643 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6657
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6638 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6658
+call(
+  stack
+)
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6659 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6662
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6619 "ocamlbuild/ocamlbuild_executor.ml" 239 6613 6662
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6670 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6677
+type(
+  ?loop:bool -> FDM.key -> JS.elt -> unit
+)
+ident(
+  int_ref do_read "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5298 "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5305
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6684 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6688
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6690 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6693
+type(
+  in_channel -> FDM.key
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6694 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6697
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6694 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6708
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6689 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6709
+call(
+  stack
+)
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6710 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6713
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6670 "ocamlbuild/ocamlbuild_executor.ml" 240 6664 6713
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6721 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6728
+type(
+  JS.elt FDM.t ref
+)
+ident(
+  int_ref outputs "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2852 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2859
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6729 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6731
+type(
+  JS.elt FDM.t ref -> JS.elt FDM.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6732 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6742
+type(
+  FDM.key -> JS.elt FDM.t -> JS.elt FDM.t
+)
+ident(
+  ext_ref FDM.remove
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6744 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6747
+type(
+  in_channel -> FDM.key
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6748 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6751
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6748 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6762
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6743 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6763
+call(
+  stack
+)
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6765 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6775
+type(
+  FDM.key -> JS.elt FDM.t -> JS.elt FDM.t
+)
+ident(
+  ext_ref FDM.remove
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6777 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6780
+type(
+  in_channel -> FDM.key
+)
+ident(
+  int_ref doi "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2885 "ocamlbuild/ocamlbuild_executor.ml" 106 2879 2888
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6781 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6784
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6781 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6795
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6776 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6796
+call(
+  stack
+)
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6797 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6798
+type(
+  JS.elt FDM.t ref -> JS.elt FDM.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6798 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6805
+type(
+  JS.elt FDM.t ref
+)
+ident(
+  int_ref outputs "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2852 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2859
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6797 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6805
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6764 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6806
+call(
+  stack
+)
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6732 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6806
+call(
+  stack
+)
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6721 "ocamlbuild/ocamlbuild_executor.ml" 241 6715 6806
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6814 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6818
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6819 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6821
+type(
+  JS.t ref -> JS.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6822 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6831
+type(
+  JS.elt -> JS.t -> JS.t
+)
+ident(
+  ext_ref JS.remove
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6832 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6835
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6836 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6837
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6837 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6841
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6836 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6841
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6822 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6841
+call(
+  stack
+)
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6814 "ocamlbuild/ocamlbuild_executor.ml" 242 6808 6841
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6853 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6859
+type(
+  Unix.process_status
+)
+ident(
+  def status "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6939 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6862 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6880
+type(
+  in_channel * out_channel * in_channel -> Unix.process_status
+)
+ident(
+  ext_ref Unix.close_process_full
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6882 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6885
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6882 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6896
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6898 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6901
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6898 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6911
+type(
+  out_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6913 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6916
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6913 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6927
+type(
+  in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6881 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6928
+type(
+  in_channel * out_channel * in_channel
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6862 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6928
+call(
+  stack
+)
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 245 6933 6943 "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6948
+type(
+  bool ref
+)
+ident(
+  def shown "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6971 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+)
+"ocamlbuild/ocamlbuild_executor.ml" 245 6933 6951 "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6954
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 245 6933 6955 "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6960
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 245 6933 6951 "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6960
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 247 6965 6975 "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6987
+type(
+  unit -> unit
+)
+ident(
+  def show_command "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7230 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+)
+"ocamlbuild/ocamlbuild_executor.ml" 247 6965 6988 "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6990
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 248 6993 7004 "ocamlbuild/ocamlbuild_executor.ml" 248 6993 7005
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 248 6993 7005 "ocamlbuild/ocamlbuild_executor.ml" 248 6993 7010
+type(
+  bool ref
+)
+ident(
+  int_ref shown "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6943 "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6948
+)
+"ocamlbuild/ocamlbuild_executor.ml" 248 6993 7004 "ocamlbuild/ocamlbuild_executor.ml" 248 6993 7010
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 249 7016 7026 "ocamlbuild/ocamlbuild_executor.ml" 249 7016 7028
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 251 7042 7050 "ocamlbuild/ocamlbuild_executor.ml" 251 7042 7057
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref display "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2366 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2373
+)
+"ocamlbuild/ocamlbuild_executor.ml" 252 7058 7078 "ocamlbuild/ocamlbuild_executor.ml" 252 7058 7080
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 253 7084 7096 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7200
+)
+"ocamlbuild/ocamlbuild_executor.ml" 253 7084 7096 "ocamlbuild/ocamlbuild_executor.ml" 253 7084 7101
+type(
+  bool ref
+)
+ident(
+  int_ref shown "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6943 "ocamlbuild/ocamlbuild_executor.ml" 245 6933 6948
+)
+"ocamlbuild/ocamlbuild_executor.ml" 253 7084 7102 "ocamlbuild/ocamlbuild_executor.ml" 253 7084 7104
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 253 7084 7105 "ocamlbuild/ocamlbuild_executor.ml" 253 7084 7109
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 253 7084 7096 "ocamlbuild/ocamlbuild_executor.ml" 253 7084 7109
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7123 "ocamlbuild/ocamlbuild_executor.ml" 254 7111 7125
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7126 "ocamlbuild/ocamlbuild_executor.ml" 254 7111 7128
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 252 7058 7078 "ocamlbuild/ocamlbuild_executor.ml" 252 7058 7080
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7129 "ocamlbuild/ocamlbuild_executor.ml" 254 7111 7137
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7138 "ocamlbuild/ocamlbuild_executor.ml" 254 7111 7141
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7138 "ocamlbuild/ocamlbuild_executor.ml" 254 7111 7153
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7123 "ocamlbuild/ocamlbuild_executor.ml" 254 7111 7153
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 255 7155 7167 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7179
+type(
+  string -> out_channel -> Buffer.t -> unit
+)
+ident(
+  int_ref output_lines "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1756 "ocamlbuild/ocamlbuild_executor.ml" 56 1752 1768
+)
+"ocamlbuild/ocamlbuild_executor.ml" 255 7155 7180 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7182
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 255 7155 7183 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7185
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 252 7058 7078 "ocamlbuild/ocamlbuild_executor.ml" 252 7058 7080
+)
+"ocamlbuild/ocamlbuild_executor.ml" 255 7155 7186 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7189
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 255 7155 7186 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7200
+type(
+  Buffer.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 255 7155 7167 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7200
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 254 7111 7123 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7200
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 253 7084 7096 "ocamlbuild/ocamlbuild_executor.ml" 255 7155 7200
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 252 7058 7068 "ocamlbuild/ocamlbuild_executor.ml" 256 7201 7214
+type(
+  out_channel -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 251 7042 7050 "ocamlbuild/ocamlbuild_executor.ml" 256 7201 7214
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 248 6993 7001 "ocamlbuild/ocamlbuild_executor.ml" 256 7201 7214
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7233 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7246
+type(
+  Buffer.t -> int
+)
+ident(
+  ext_ref Buffer.length
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7247 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7250
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7247 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7261
+type(
+  Buffer.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7233 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7261
+call(
+  stack
+)
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7262 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7263
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7264 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7265
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7233 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7265
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7271 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7283
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_command "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6975 "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6987
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7284 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7286
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7271 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7286
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7230 "ocamlbuild/ocamlbuild_executor.ml" 258 7224 7286
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 260 7300 7314 "ocamlbuild/ocamlbuild_executor.ml" 260 7300 7320
+type(
+  Unix.process_status
+)
+ident(
+  int_ref status "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6853 "ocamlbuild/ocamlbuild_executor.ml" 243 6843 6859
+)
+"ocamlbuild/ocamlbuild_executor.ml" 261 7326 7349 "ocamlbuild/ocamlbuild_executor.ml" 261 7326 7350
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 261 7326 7336 "ocamlbuild/ocamlbuild_executor.ml" 261 7326 7350
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 263 7372 7389 "ocamlbuild/ocamlbuild_executor.ml" 263 7372 7397
+type(
+  bool
+)
+ident(
+  int_ref continue "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6448 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6456
+)
+"ocamlbuild/ocamlbuild_executor.ml" 265 7425 7449 "ocamlbuild/ocamlbuild_executor.ml" 265 7425 7465
+type(
+  task list -> (string * task list) option
+)
+ident(
+  int_ref skip_empty_tasks "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4355 "ocamlbuild/ocamlbuild_executor.ml" 154 4345 4371
+)
+"ocamlbuild/ocamlbuild_executor.ml" 265 7425 7466 "ocamlbuild/ocamlbuild_executor.ml" 265 7425 7469
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 265 7425 7466 "ocamlbuild/ocamlbuild_executor.ml" 265 7425 7478
+type(
+  task list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 265 7425 7449 "ocamlbuild/ocamlbuild_executor.ml" 265 7425 7478
+call(
+  stack
+)
+type(
+  (string * task list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 266 7484 7504 "ocamlbuild/ocamlbuild_executor.ml" 266 7484 7508
+type(
+  (string * task list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 266 7484 7512 "ocamlbuild/ocamlbuild_executor.ml" 266 7484 7515
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 266 7484 7512 "ocamlbuild/ocamlbuild_executor.ml" 266 7484 7526
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 266 7484 7527 "ocamlbuild/ocamlbuild_executor.ml" 266 7484 7529
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 266 7484 7530 "ocamlbuild/ocamlbuild_executor.ml" 266 7484 7534
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 266 7484 7512 "ocamlbuild/ocamlbuild_executor.ml" 266 7484 7534
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 267 7535 7560 "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7563
+type(
+  string
+)
+ident(
+  def cmd "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7596 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7699
+)
+"ocamlbuild/ocamlbuild_executor.ml" 267 7535 7565 "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7569
+type(
+  task list
+)
+ident(
+  def rest "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7596 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7699
+)
+"ocamlbuild/ocamlbuild_executor.ml" 267 7535 7559 "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7570
+type(
+  string * task list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 267 7535 7555 "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7570
+type(
+  (string * task list) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 268 7574 7601 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7605
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 268 7574 7607 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7611
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 268 7574 7600 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7612
+type(
+  int * int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 268 7574 7615 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7618
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 268 7574 7615 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7625
+type(
+  int * int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7651 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7658
+type(
+  string -> task list -> bool ref -> int * int -> unit
+)
+ident(
+  int_ref add_job "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3598 "ocamlbuild/ocamlbuild_executor.ml" 132 3592 3605
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7659 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7662
+type(
+  string
+)
+ident(
+  int_ref cmd "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7560 "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7563
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7663 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7667
+type(
+  task list
+)
+ident(
+  int_ref rest "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7565 "ocamlbuild/ocamlbuild_executor.ml" 267 7535 7569
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7668 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7671
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6443 "ocamlbuild/ocamlbuild_executor.ml" 234 6432 6446
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7668 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7682
+type(
+  bool ref
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7684 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7688
+type(
+  int
+)
+ident(
+  int_ref b_id "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7601 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7605
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7690 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7694
+type(
+  int
+)
+ident(
+  int_ref s_id "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7607 "ocamlbuild/ocamlbuild_executor.ml" 268 7574 7611
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7695 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7696
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7697 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7698
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7690 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7698
+type(
+  int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7683 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7699
+type(
+  int * int
+)
+"ocamlbuild/ocamlbuild_executor.ml" 269 7629 7651 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7699
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 268 7574 7596 "ocamlbuild/ocamlbuild_executor.ml" 269 7629 7699
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 264 7403 7419 "ocamlbuild/ocamlbuild_executor.ml" 270 7700 7719
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 272 7739 7755 "ocamlbuild/ocamlbuild_executor.ml" 272 7739 7761
+type(
+  bool ref
+)
+ident(
+  int_ref all_ok "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2662 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2668
+)
+"ocamlbuild/ocamlbuild_executor.ml" 272 7739 7762 "ocamlbuild/ocamlbuild_executor.ml" 272 7739 7764
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 272 7739 7765 "ocamlbuild/ocamlbuild_executor.ml" 272 7739 7770
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 272 7739 7755 "ocamlbuild/ocamlbuild_executor.ml" 272 7739 7770
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 262 7354 7366 "ocamlbuild/ocamlbuild_executor.ml" 273 7772 7787
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 274 7788 7811 "ocamlbuild/ocamlbuild_executor.ml" 274 7788 7813
+type(
+  int
+)
+ident(
+  def rc "ocamlbuild/ocamlbuild_executor.ml" 275 7817 7829 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7984
+)
+"ocamlbuild/ocamlbuild_executor.ml" 274 7788 7798 "ocamlbuild/ocamlbuild_executor.ml" 274 7788 7813
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 275 7817 7829 "ocamlbuild/ocamlbuild_executor.ml" 275 7817 7841
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_command "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6975 "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6987
+)
+"ocamlbuild/ocamlbuild_executor.ml" 275 7817 7842 "ocamlbuild/ocamlbuild_executor.ml" 275 7817 7844
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 275 7817 7829 "ocamlbuild/ocamlbuild_executor.ml" 275 7817 7844
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7858 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7865
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref display "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2366 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2373
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7871 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7873
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7877 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7918
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7877 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7879
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7880 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7882
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7871 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7873
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7883 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7915
+type(
+  (int -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7916 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7918
+type(
+  int
+)
+ident(
+  int_ref rc "ocamlbuild/ocamlbuild_executor.ml" 274 7788 7811 "ocamlbuild/ocamlbuild_executor.ml" 274 7788 7813
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7877 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7918
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7866 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7919
+type(
+  out_channel -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7858 "ocamlbuild/ocamlbuild_executor.ml" 276 7846 7919
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 277 7921 7933 "ocamlbuild/ocamlbuild_executor.ml" 277 7921 7939
+type(
+  bool ref
+)
+ident(
+  int_ref all_ok "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2662 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2668
+)
+"ocamlbuild/ocamlbuild_executor.ml" 277 7921 7940 "ocamlbuild/ocamlbuild_executor.ml" 277 7921 7942
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 277 7921 7943 "ocamlbuild/ocamlbuild_executor.ml" 277 7921 7948
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 277 7921 7933 "ocamlbuild/ocamlbuild_executor.ml" 277 7921 7948
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 278 7950 7962 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7966
+type(
+  error -> unit
+)
+ident(
+  int_ref exit "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2409 "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2413
+)
+"ocamlbuild/ocamlbuild_executor.ml" 278 7950 7967 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7984
+type(
+  error
+)
+"ocamlbuild/ocamlbuild_executor.ml" 278 7950 7962 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7984
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 277 7921 7933 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7984
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 276 7846 7858 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7984
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 275 7817 7829 "ocamlbuild/ocamlbuild_executor.ml" 278 7950 7984
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 279 7985 8009 "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8010
+type(
+  int
+)
+ident(
+  def s "ocamlbuild/ocamlbuild_executor.ml" 280 8033 8045 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+)
+"ocamlbuild/ocamlbuild_executor.ml" 279 7985 7995 "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8010
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 279 7985 8028 "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8029
+type(
+  int
+)
+ident(
+  def s "ocamlbuild/ocamlbuild_executor.ml" 280 8033 8045 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+)
+"ocamlbuild/ocamlbuild_executor.ml" 279 7985 8013 "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8029
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 279 7985 7995 "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8029
+type(
+  Unix.process_status
+)
+"ocamlbuild/ocamlbuild_executor.ml" 280 8033 8045 "ocamlbuild/ocamlbuild_executor.ml" 280 8033 8057
+type(
+  unit -> unit
+)
+ident(
+  int_ref show_command "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6975 "ocamlbuild/ocamlbuild_executor.ml" 247 6965 6987
+)
+"ocamlbuild/ocamlbuild_executor.ml" 280 8033 8058 "ocamlbuild/ocamlbuild_executor.ml" 280 8033 8060
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 280 8033 8045 "ocamlbuild/ocamlbuild_executor.ml" 280 8033 8060
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 281 8062 8074 "ocamlbuild/ocamlbuild_executor.ml" 281 8062 8080
+type(
+  bool ref
+)
+ident(
+  int_ref all_ok "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2662 "ocamlbuild/ocamlbuild_executor.ml" 97 2656 2668
+)
+"ocamlbuild/ocamlbuild_executor.ml" 281 8062 8081 "ocamlbuild/ocamlbuild_executor.ml" 281 8062 8083
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/ocamlbuild_executor.ml" 281 8062 8084 "ocamlbuild/ocamlbuild_executor.ml" 281 8062 8089
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 281 8062 8074 "ocamlbuild/ocamlbuild_executor.ml" 281 8062 8089
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8103 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8110
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref display "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2366 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2373
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8116 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8118
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8122 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8156
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8122 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8124
+type(
+  out_channel -> (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8125 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8127
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8116 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8118
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8128 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8154
+type(
+  (int -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8155 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8156
+type(
+  int
+)
+ident(
+  int_ref s "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8009 "ocamlbuild/ocamlbuild_executor.ml" 279 7985 8010
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8122 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8156
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8111 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8157
+type(
+  out_channel -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8103 "ocamlbuild/ocamlbuild_executor.ml" 282 8091 8157
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 283 8159 8171 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8175
+type(
+  error -> unit
+)
+ident(
+  int_ref exit "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2409 "ocamlbuild/ocamlbuild_executor.ml" 88 2406 2413
+)
+"ocamlbuild/ocamlbuild_executor.ml" 283 8159 8176 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+type(
+  error
+)
+"ocamlbuild/ocamlbuild_executor.ml" 283 8159 8171 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 282 8091 8103 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 281 8062 8074 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 280 8033 8045 "ocamlbuild/ocamlbuild_executor.ml" 283 8159 8197
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 259 7288 7294 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 258 7224 7230 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 247 6965 6971 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 245 6933 6939 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 243 6843 6849 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 242 6808 6814 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 241 6715 6721 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 240 6664 6670 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 239 6613 6619 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 238 6589 6595 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 234 6432 6438 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 233 6415 6421 "ocamlbuild/ocamlbuild_executor.ml" 284 8198 8207
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 232 6363 6367 "ocamlbuild/ocamlbuild_executor.ml" 285 8208 8216
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 289 8261 8267 "ocamlbuild/ocamlbuild_executor.ml" 289 8261 8285
+type(
+  unit -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 289 8261 8286 "ocamlbuild/ocamlbuild_executor.ml" 289 8261 8288
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8295 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8302
+type(
+  (JS.elt -> unit) -> JS.t -> unit
+)
+ident(
+  ext_ref JS.iter
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8304 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8313
+type(
+  ?continue:bool -> JS.elt -> unit
+)
+ident(
+  int_ref terminate "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4871 "ocamlbuild/ocamlbuild_executor.ml" 173 4865 4880
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8324 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8329
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8303 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8330
+call(
+  stack
+)
+type(
+  JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8331 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8332
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8332 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8336
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8331 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8336
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 290 8291 8295 "ocamlbuild/ocamlbuild_executor.ml" 290 8291 8336
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 294 8367 8377 "ocamlbuild/ocamlbuild_executor.ml" 294 8367 8381
+type(
+  unit -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 294 8367 8382 "ocamlbuild/ocamlbuild_executor.ml" 294 8367 8384
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 296 8453 8457 "ocamlbuild/ocamlbuild_executor.ml" 296 8453 8482
+type(
+  unit -> unit
+)
+ident(
+  int_ref process_jobs_to_terminate "ocamlbuild/ocamlbuild_executor.ml" 231 6326 6332 "ocamlbuild/ocamlbuild_executor.ml" 231 6326 6357
+)
+"ocamlbuild/ocamlbuild_executor.ml" 296 8453 8483 "ocamlbuild/ocamlbuild_executor.ml" 296 8453 8485
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 296 8453 8457 "ocamlbuild/ocamlbuild_executor.ml" 296 8453 8485
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 297 8487 8491 "ocamlbuild/ocamlbuild_executor.ml" 297 8487 8516
+type(
+  unit -> unit
+)
+ident(
+  int_ref add_more_jobs_if_possible "ocamlbuild/ocamlbuild_executor.ml" 184 5109 5115 "ocamlbuild/ocamlbuild_executor.ml" 184 5109 5140
+)
+"ocamlbuild/ocamlbuild_executor.ml" 297 8487 8517 "ocamlbuild/ocamlbuild_executor.ml" 297 8487 8519
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 297 8487 8491 "ocamlbuild/ocamlbuild_executor.ml" 297 8487 8519
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 298 8521 8528 "ocamlbuild/ocamlbuild_executor.ml" 298 8521 8539
+type(
+  JS.t -> bool
+)
+ident(
+  ext_ref JS.is_empty
+)
+"ocamlbuild/ocamlbuild_executor.ml" 298 8521 8540 "ocamlbuild/ocamlbuild_executor.ml" 298 8521 8541
+type(
+  JS.t ref -> JS.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 298 8521 8541 "ocamlbuild/ocamlbuild_executor.ml" 298 8521 8545
+type(
+  JS.t ref
+)
+ident(
+  int_ref jobs "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2512 "ocamlbuild/ocamlbuild_executor.ml" 93 2506 2516
+)
+"ocamlbuild/ocamlbuild_executor.ml" 298 8521 8540 "ocamlbuild/ocamlbuild_executor.ml" 298 8521 8545
+type(
+  JS.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 298 8521 8528 "ocamlbuild/ocamlbuild_executor.ml" 298 8521 8545
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 299 8551 8557 "ocamlbuild/ocamlbuild_executor.ml" 299 8551 8559
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8594 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8598
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8600 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8604
+type(
+  'b list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8606 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8610
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8593 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8611
+type(
+  Unix.file_descr list * 'b list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8614 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8625
+type(
+  unit -> Unix.file_descr list * 'b list * Unix.file_descr list
+)
+ident(
+  int_ref compute_fds "ocamlbuild/ocamlbuild_executor.ml" 109 2972 2978 "ocamlbuild/ocamlbuild_executor.ml" 109 2972 2989
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8626 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8628
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 302 8581 8614 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8628
+call(
+  stack
+)
+type(
+  Unix.file_descr list * 'b list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 303 8632 8640 "ocamlbuild/ocamlbuild_executor.ml" 303 8632 8646
+type(
+  unit -> unit
+)
+ident(
+  int_ref ticker "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2331 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2337
+)
+"ocamlbuild/ocamlbuild_executor.ml" 303 8632 8647 "ocamlbuild/ocamlbuild_executor.ml" 303 8632 8649
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 303 8632 8640 "ocamlbuild/ocamlbuild_executor.ml" 303 8632 8649
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8664 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8670
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8672 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8678
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8680 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8686
+type(
+  Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8663 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8687
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8690 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8696
+type(
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  Unix.file_descr list ->
+  float -> Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+ident(
+  ext_ref Unix.select
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8697 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8701
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref rfds "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8594 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8598
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8702 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8706
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref wfds "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8600 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8604
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8707 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8711
+type(
+  Unix.file_descr list
+)
+ident(
+  int_ref xfds "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8606 "ocamlbuild/ocamlbuild_executor.ml" 302 8581 8610
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8712 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8718
+type(
+  float
+)
+ident(
+  int_ref period "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2350 "ocamlbuild/ocamlbuild_executor.ml" 86 2346 2356
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8690 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8718
+call(
+  stack
+)
+type(
+  Unix.file_descr list * Unix.file_descr list * Unix.file_descr list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 305 8722 8730 "ocamlbuild/ocamlbuild_executor.ml" 305 8722 8739
+type(
+  (FDM.key list * (FDM.key -> JS.elt -> unit) -> unit) ->
+  (FDM.key list * (FDM.key -> JS.elt -> unit)) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocamlbuild/ocamlbuild_executor.ml" 306 8740 8761 "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8767
+type(
+  FDM.key list
+)
+ident(
+  def fdlist "ocamlbuild/ocamlbuild_executor.ml" 307 8778 8790 "ocamlbuild/ocamlbuild_executor.ml" 316 9044 9064
+)
+"ocamlbuild/ocamlbuild_executor.ml" 306 8740 8769 "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8773
+type(
+  FDM.key -> JS.elt -> unit
+)
+ident(
+  def hook "ocamlbuild/ocamlbuild_executor.ml" 307 8778 8790 "ocamlbuild/ocamlbuild_executor.ml" 316 9044 9064
+)
+"ocamlbuild/ocamlbuild_executor.ml" 306 8740 8760 "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8774
+type(
+  FDM.key list * (FDM.key -> JS.elt -> unit)
+)
+"ocamlbuild/ocamlbuild_executor.ml" 307 8778 8790 "ocamlbuild/ocamlbuild_executor.ml" 307 8778 8799
+type(
+  (FDM.key -> unit) -> FDM.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"ocamlbuild/ocamlbuild_executor.ml" 308 8800 8824 "ocamlbuild/ocamlbuild_executor.ml" 308 8800 8826
+type(
+  FDM.key
+)
+ident(
+  def fd "ocamlbuild/ocamlbuild_executor.ml" 309 8830 8846 "ocamlbuild/ocamlbuild_executor.ml" 314 8982 9015
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8872 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8875
+type(
+  JS.elt
+)
+ident(
+  def job "ocamlbuild/ocamlbuild_executor.ml" 311 8902 8920 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8960
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8878 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8886
+type(
+  FDM.key -> JS.elt FDM.t -> JS.elt
+)
+ident(
+  ext_ref FDM.find
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8887 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8889
+type(
+  FDM.key
+)
+ident(
+  int_ref fd "ocamlbuild/ocamlbuild_executor.ml" 308 8800 8824 "ocamlbuild/ocamlbuild_executor.ml" 308 8800 8826
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8890 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8891
+type(
+  JS.elt FDM.t ref -> JS.elt FDM.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8891 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8898
+type(
+  JS.elt FDM.t ref
+)
+ident(
+  int_ref outputs "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2852 "ocamlbuild/ocamlbuild_executor.ml" 105 2846 2859
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8890 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8898
+type(
+  JS.elt FDM.t
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8878 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8898
+call(
+  stack
+)
+type(
+  JS.elt
+)
+"ocamlbuild/ocamlbuild_executor.ml" 311 8902 8920 "ocamlbuild/ocamlbuild_executor.ml" 311 8902 8926
+type(
+  unit -> unit
+)
+ident(
+  int_ref ticker "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2331 "ocamlbuild/ocamlbuild_executor.ml" 85 2327 2337
+)
+"ocamlbuild/ocamlbuild_executor.ml" 311 8902 8927 "ocamlbuild/ocamlbuild_executor.ml" 311 8902 8929
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 311 8902 8920 "ocamlbuild/ocamlbuild_executor.ml" 311 8902 8929
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 312 8931 8949 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8953
+type(
+  FDM.key -> JS.elt -> unit
+)
+ident(
+  int_ref hook "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8769 "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8773
+)
+"ocamlbuild/ocamlbuild_executor.ml" 312 8931 8954 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8956
+type(
+  FDM.key
+)
+ident(
+  int_ref fd "ocamlbuild/ocamlbuild_executor.ml" 308 8800 8824 "ocamlbuild/ocamlbuild_executor.ml" 308 8800 8826
+)
+"ocamlbuild/ocamlbuild_executor.ml" 312 8931 8957 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8960
+type(
+  JS.elt
+)
+ident(
+  int_ref job "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8872 "ocamlbuild/ocamlbuild_executor.ml" 310 8850 8875
+)
+"ocamlbuild/ocamlbuild_executor.ml" 312 8931 8949 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8960
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 311 8902 8920 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8960
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 310 8850 8868 "ocamlbuild/ocamlbuild_executor.ml" 312 8931 8960
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 314 8982 9000 "ocamlbuild/ocamlbuild_executor.ml" 314 8982 9009
+type(
+  exn
+)
+"ocamlbuild/ocamlbuild_executor.ml" 314 8982 9013 "ocamlbuild/ocamlbuild_executor.ml" 314 8982 9015
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 309 8830 8846 "ocamlbuild/ocamlbuild_executor.ml" 314 8982 9015
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 308 8800 8814 "ocamlbuild/ocamlbuild_executor.ml" 315 9026 9043
+type(
+  FDM.key -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 316 9044 9058 "ocamlbuild/ocamlbuild_executor.ml" 316 9044 9064
+type(
+  FDM.key list
+)
+ident(
+  int_ref fdlist "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8761 "ocamlbuild/ocamlbuild_executor.ml" 306 8740 8767
+)
+"ocamlbuild/ocamlbuild_executor.ml" 307 8778 8790 "ocamlbuild/ocamlbuild_executor.ml" 316 9044 9064
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 306 8740 8750 "ocamlbuild/ocamlbuild_executor.ml" 317 9065 9078
+type(
+  FDM.key list * (FDM.key -> JS.elt -> unit) -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 318 9079 9090 "ocamlbuild/ocamlbuild_executor.ml" 318 9079 9096
+type(
+  FDM.key list
+)
+ident(
+  int_ref chrfds "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8664 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8670
+)
+"ocamlbuild/ocamlbuild_executor.ml" 318 9079 9098 "ocamlbuild/ocamlbuild_executor.ml" 318 9079 9105
+type(
+  ?loop:bool -> FDM.key -> JS.elt -> unit
+)
+ident(
+  int_ref do_read "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5298 "ocamlbuild/ocamlbuild_executor.ml" 191 5292 5305
+)
+"ocamlbuild/ocamlbuild_executor.ml" 318 9079 9112 "ocamlbuild/ocamlbuild_executor.ml" 318 9079 9117
+type(
+  bool
+)
+"ocamlbuild/ocamlbuild_executor.ml" 318 9079 9098 "ocamlbuild/ocamlbuild_executor.ml" 318 9079 9117
+call(
+  stack
+)
+type(
+  FDM.key -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 318 9079 9090 "ocamlbuild/ocamlbuild_executor.ml" 318 9079 9117
+type(
+  FDM.key list * (FDM.key -> JS.elt -> unit)
+)
+"ocamlbuild/ocamlbuild_executor.ml" 319 9119 9130 "ocamlbuild/ocamlbuild_executor.ml" 319 9119 9136
+type(
+  FDM.key list
+)
+ident(
+  int_ref chwfds "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8672 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8678
+)
+"ocamlbuild/ocamlbuild_executor.ml" 319 9119 9143 "ocamlbuild/ocamlbuild_executor.ml" 319 9119 9144
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 319 9119 9145 "ocamlbuild/ocamlbuild_executor.ml" 319 9119 9146
+type(
+  JS.elt
+)
+"ocamlbuild/ocamlbuild_executor.ml" 319 9119 9150 "ocamlbuild/ocamlbuild_executor.ml" 319 9119 9152
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 319 9119 9138 "ocamlbuild/ocamlbuild_executor.ml" 319 9119 9153
+type(
+  FDM.key -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 319 9119 9130 "ocamlbuild/ocamlbuild_executor.ml" 319 9119 9153
+type(
+  FDM.key list * (FDM.key -> JS.elt -> unit)
+)
+"ocamlbuild/ocamlbuild_executor.ml" 320 9155 9166 "ocamlbuild/ocamlbuild_executor.ml" 320 9155 9172
+type(
+  FDM.key list
+)
+ident(
+  int_ref chxfds "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8680 "ocamlbuild/ocamlbuild_executor.ml" 304 8651 8686
+)
+"ocamlbuild/ocamlbuild_executor.ml" 321 9174 9197 "ocamlbuild/ocamlbuild_executor.ml" 321 9174 9198
+type(
+  FDM.key
+)
+"ocamlbuild/ocamlbuild_executor.ml" 321 9174 9199 "ocamlbuild/ocamlbuild_executor.ml" 321 9174 9203
+type(
+  JS.elt
+)
+ident(
+  def _job "ocamlbuild/ocamlbuild_executor.ml" 324 9353 9361 "ocamlbuild/ocamlbuild_executor.ml" 324 9353 9363
+)
+"ocamlbuild/ocamlbuild_executor.ml" 324 9353 9361 "ocamlbuild/ocamlbuild_executor.ml" 324 9353 9363
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 321 9174 9187 "ocamlbuild/ocamlbuild_executor.ml" 325 9376 9392
+type(
+  FDM.key -> JS.elt -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 320 9155 9166 "ocamlbuild/ocamlbuild_executor.ml" 325 9376 9392
+type(
+  FDM.key list * (FDM.key -> JS.elt -> unit)
+)
+"ocamlbuild/ocamlbuild_executor.ml" 318 9079 9089 "ocamlbuild/ocamlbuild_executor.ml" 325 9376 9393
+type(
+  (FDM.key list * (FDM.key -> JS.elt -> unit)) list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 305 8722 8730 "ocamlbuild/ocamlbuild_executor.ml" 325 9376 9393
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 326 9395 9403 "ocamlbuild/ocamlbuild_executor.ml" 326 9395 9407
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/ocamlbuild_executor.ml" 294 8367 8377 "ocamlbuild/ocamlbuild_executor.ml" 294 8367 8381
+)
+"ocamlbuild/ocamlbuild_executor.ml" 326 9395 9408 "ocamlbuild/ocamlbuild_executor.ml" 326 9395 9410
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 326 9395 9403 "ocamlbuild/ocamlbuild_executor.ml" 326 9395 9410
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 305 8722 8730 "ocamlbuild/ocamlbuild_executor.ml" 326 9395 9410
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 304 8651 8659 "ocamlbuild/ocamlbuild_executor.ml" 326 9395 9410
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 303 8632 8640 "ocamlbuild/ocamlbuild_executor.ml" 326 9395 9410
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 301 8569 8575 "ocamlbuild/ocamlbuild_executor.ml" 327 9411 9420
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 298 8521 8525 "ocamlbuild/ocamlbuild_executor.ml" 327 9411 9420
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 297 8487 8491 "ocamlbuild/ocamlbuild_executor.ml" 327 9411 9420
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 296 8453 8457 "ocamlbuild/ocamlbuild_executor.ml" 327 9411 9420
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 330 9432 9436 "ocamlbuild/ocamlbuild_executor.ml" 330 9432 9440
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "ocamlbuild/ocamlbuild_executor.ml" 294 8367 8377 "ocamlbuild/ocamlbuild_executor.ml" 294 8367 8381
+)
+"ocamlbuild/ocamlbuild_executor.ml" 330 9432 9441 "ocamlbuild/ocamlbuild_executor.ml" 330 9432 9443
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 330 9432 9436 "ocamlbuild/ocamlbuild_executor.ml" 330 9432 9443
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 331 9445 9449 "ocamlbuild/ocamlbuild_executor.ml" 331 9445 9453
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 330 9432 9436 "ocamlbuild/ocamlbuild_executor.ml" 331 9445 9453
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 333 9461 9465 "ocamlbuild/ocamlbuild_executor.ml" 333 9461 9466
+type(
+  exn
+)
+ident(
+  def x "ocamlbuild/ocamlbuild_executor.ml" 334 9470 9476 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+)
+"ocamlbuild/ocamlbuild_executor.ml" 336 9494 9504 "ocamlbuild/ocamlbuild_executor.ml" 336 9494 9522
+type(
+  unit -> unit
+)
+ident(
+  int_ref terminate_all_jobs "ocamlbuild/ocamlbuild_executor.ml" 289 8261 8267 "ocamlbuild/ocamlbuild_executor.ml" 289 8261 8285
+)
+"ocamlbuild/ocamlbuild_executor.ml" 336 9494 9523 "ocamlbuild/ocamlbuild_executor.ml" 336 9494 9525
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 336 9494 9504 "ocamlbuild/ocamlbuild_executor.ml" 336 9494 9525
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 338 9539 9549 "ocamlbuild/ocamlbuild_executor.ml" 338 9539 9551
+type(
+  exn
+)
+ident(
+  def x' "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9567 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9641
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9567 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9574
+type(
+  (out_channel -> unit) -> unit
+)
+ident(
+  int_ref display "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2366 "ocamlbuild/ocamlbuild_executor.ml" 87 2362 2373
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9580 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9582
+type(
+  out_channel
+)
+ident(
+  def oc "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9586 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9640
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9586 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9588
+type(
+  out_channel -> (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  int_ref fp "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1423 "ocamlbuild/ocamlbuild_executor.ml" 42 1419 1425
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9589 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9591
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9580 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9582
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9592 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9616
+type(
+  (string -> unit, out_channel, unit) format
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9618 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9636
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9637 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9639
+type(
+  exn
+)
+ident(
+  int_ref x' "ocamlbuild/ocamlbuild_executor.ml" 338 9539 9549 "ocamlbuild/ocamlbuild_executor.ml" 338 9539 9551
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9617 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9640
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9586 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9640
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9575 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9641
+type(
+  out_channel -> unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 339 9555 9567 "ocamlbuild/ocamlbuild_executor.ml" 339 9555 9641
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 334 9470 9476 "ocamlbuild/ocamlbuild_executor.ml" 340 9642 9651
+type(
+  unit
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9664 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9672
+type(
+  (bool ref -> bool) -> bool ref list -> bool list
+)
+ident(
+  ext_ref List.map
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9673 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9676
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9677 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9684
+type(
+  bool ref list
+)
+ident(
+  int_ref results "ocamlbuild/ocamlbuild_executor.ml" 98 2683 2689 "ocamlbuild/ocamlbuild_executor.ml" 98 2683 2696
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9664 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9684
+call(
+  stack
+)
+type(
+  bool list
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9686 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9687
+type(
+  exn
+)
+ident(
+  int_ref x "ocamlbuild/ocamlbuild_executor.ml" 333 9461 9465 "ocamlbuild/ocamlbuild_executor.ml" 333 9461 9466
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9663 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  bool list * exn
+)
+"ocamlbuild/ocamlbuild_executor.ml" 341 9653 9659 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 334 9470 9476 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 329 9426 9428 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 294 8367 8369 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 289 8261 8263 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 231 6326 6328 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 191 5292 5294 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 184 5109 5111 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 173 4865 4867 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 162 4561 4563 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 154 4345 4347 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 132 3592 3594 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 109 2972 2974 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 107 2914 2916 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 106 2879 2881 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 105 2846 2848 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 98 2683 2685 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 97 2656 2658 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 96 2609 2611 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 95 2564 2566 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 94 2535 2537 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 93 2506 2508 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 92 2476 2478 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)
+"ocamlbuild/ocamlbuild_executor.ml" 91 2450 2452 "ocamlbuild/ocamlbuild_executor.ml" 341 9653 9688
+type(
+  (bool list * exn) option
+)

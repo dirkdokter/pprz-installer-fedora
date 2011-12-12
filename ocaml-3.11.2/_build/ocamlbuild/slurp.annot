@@ -1,0 +1,4608 @@
+"ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+type(
+  string -> string -> string
+)
+ident(
+  def / "ocamlbuild/slurp.ml" 26 1022 1022 --
+)
+"ocamlbuild/slurp.ml" 24 995 1005 "ocamlbuild/slurp.ml" 24 995 1020
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref My_std.filename_concat
+)
+"ocamlbuild/slurp.ml" 26 1022 1030 "ocamlbuild/slurp.ml" 26 1022 1036
+type(
+  (string -> string -> 'a -> bool) -> 'a entry -> 'a entry
+)
+ident(
+  def filter "ocamlbuild/slurp.ml" 26 1022 1022 --
+)
+"ocamlbuild/slurp.ml" 26 1022 1037 "ocamlbuild/slurp.ml" 26 1022 1046
+type(
+  string -> string -> 'a -> bool
+)
+ident(
+  def predicate "ocamlbuild/slurp.ml" 26 1022 1049 "ocamlbuild/slurp.ml" 38 1383 1404
+)
+"ocamlbuild/slurp.ml" 27 1058 1066 "ocamlbuild/slurp.ml" 27 1058 1070
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 28 1100 1106 "ocamlbuild/slurp.ml" 31 1230 1245
+)
+"ocamlbuild/slurp.ml" 27 1058 1072 "ocamlbuild/slurp.ml" 27 1058 1076
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 28 1100 1106 "ocamlbuild/slurp.ml" 31 1230 1245
+)
+"ocamlbuild/slurp.ml" 27 1058 1078 "ocamlbuild/slurp.ml" 27 1058 1080
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def st "ocamlbuild/slurp.ml" 28 1100 1106 "ocamlbuild/slurp.ml" 31 1230 1245
+)
+"ocamlbuild/slurp.ml" 27 1058 1082 "ocamlbuild/slurp.ml" 27 1058 1086
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 28 1100 1106 "ocamlbuild/slurp.ml" 31 1230 1245
+)
+"ocamlbuild/slurp.ml" 27 1058 1088 "ocamlbuild/slurp.ml" 27 1058 1095
+type(
+  'a entry list Lazy.t
+)
+ident(
+  def entries "ocamlbuild/slurp.ml" 28 1100 1106 "ocamlbuild/slurp.ml" 31 1230 1245
+)
+"ocamlbuild/slurp.ml" 27 1058 1062 "ocamlbuild/slurp.ml" 27 1058 1096
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 28 1100 1109 "ocamlbuild/slurp.ml" 28 1100 1118
+type(
+  string -> string -> 'a -> bool
+)
+ident(
+  int_ref predicate "ocamlbuild/slurp.ml" 26 1022 1037 "ocamlbuild/slurp.ml" 26 1022 1046
+)
+"ocamlbuild/slurp.ml" 28 1100 1119 "ocamlbuild/slurp.ml" 28 1100 1123
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 27 1058 1066 "ocamlbuild/slurp.ml" 27 1058 1070
+)
+"ocamlbuild/slurp.ml" 28 1100 1124 "ocamlbuild/slurp.ml" 28 1100 1128
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 27 1058 1072 "ocamlbuild/slurp.ml" 27 1058 1076
+)
+"ocamlbuild/slurp.ml" 28 1100 1129 "ocamlbuild/slurp.ml" 28 1100 1133
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 27 1058 1082 "ocamlbuild/slurp.ml" 27 1058 1086
+)
+"ocamlbuild/slurp.ml" 28 1100 1109 "ocamlbuild/slurp.ml" 28 1100 1133
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 29 1139 1151 "ocamlbuild/slurp.ml" 29 1139 1155
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 27 1058 1066 "ocamlbuild/slurp.ml" 27 1058 1070
+)
+"ocamlbuild/slurp.ml" 29 1139 1157 "ocamlbuild/slurp.ml" 29 1139 1161
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 27 1058 1072 "ocamlbuild/slurp.ml" 27 1058 1076
+)
+"ocamlbuild/slurp.ml" 29 1139 1163 "ocamlbuild/slurp.ml" 29 1139 1165
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 27 1058 1078 "ocamlbuild/slurp.ml" 27 1058 1080
+)
+"ocamlbuild/slurp.ml" 29 1139 1167 "ocamlbuild/slurp.ml" 29 1139 1171
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 27 1058 1082 "ocamlbuild/slurp.ml" 27 1058 1086
+)
+"ocamlbuild/slurp.ml" 29 1139 1179 "ocamlbuild/slurp.ml" 29 1139 1187
+type(
+  ('a entry -> 'a entry) -> 'a entry list -> 'a entry list
+)
+ident(
+  ext_ref My_std.List.map
+)
+"ocamlbuild/slurp.ml" 29 1139 1189 "ocamlbuild/slurp.ml" 29 1139 1195
+type(
+  (string -> string -> 'a -> bool) -> 'a entry -> 'a entry
+)
+ident(
+  int_ref filter "ocamlbuild/slurp.ml" 26 1022 1030 "ocamlbuild/slurp.ml" 26 1022 1036
+)
+"ocamlbuild/slurp.ml" 29 1139 1196 "ocamlbuild/slurp.ml" 29 1139 1205
+type(
+  string -> string -> 'a -> bool
+)
+ident(
+  int_ref predicate "ocamlbuild/slurp.ml" 26 1022 1037 "ocamlbuild/slurp.ml" 26 1022 1046
+)
+"ocamlbuild/slurp.ml" 29 1139 1188 "ocamlbuild/slurp.ml" 29 1139 1206
+call(
+  stack
+)
+type(
+  'a entry -> 'a entry
+)
+"ocamlbuild/slurp.ml" 29 1139 1207 "ocamlbuild/slurp.ml" 29 1139 1209
+type(
+  'a entry list Lazy.t -> 'a entry list
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 29 1139 1209 "ocamlbuild/slurp.ml" 29 1139 1216
+type(
+  'a entry list Lazy.t
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 27 1058 1088 "ocamlbuild/slurp.ml" 27 1058 1095
+)
+"ocamlbuild/slurp.ml" 29 1139 1207 "ocamlbuild/slurp.ml" 29 1139 1216
+call(
+  stack
+)
+type(
+  'a entry list
+)
+"ocamlbuild/slurp.ml" 29 1139 1178 "ocamlbuild/slurp.ml" 29 1139 1217
+call(
+  tail
+)
+type(
+  'a entry list
+)
+"ocamlbuild/slurp.ml" 29 1139 1173 "ocamlbuild/slurp.ml" 29 1139 1217
+type(
+  'a entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 29 1139 1147 "ocamlbuild/slurp.ml" 29 1139 1218
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 31 1230 1238 "ocamlbuild/slurp.ml" 31 1230 1245
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 28 1100 1106 "ocamlbuild/slurp.ml" 31 1230 1245
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 32 1246 1255 "ocamlbuild/slurp.ml" 32 1246 1259
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 33 1284 1290 "ocamlbuild/slurp.ml" 36 1344 1359
+)
+"ocamlbuild/slurp.ml" 32 1246 1261 "ocamlbuild/slurp.ml" 32 1246 1265
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 33 1284 1290 "ocamlbuild/slurp.ml" 36 1344 1359
+)
+"ocamlbuild/slurp.ml" 32 1246 1267 "ocamlbuild/slurp.ml" 32 1246 1268
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 32 1246 1270 "ocamlbuild/slurp.ml" 32 1246 1274
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 33 1284 1290 "ocamlbuild/slurp.ml" 36 1344 1359
+)
+"ocamlbuild/slurp.ml" 32 1246 1250 "ocamlbuild/slurp.ml" 32 1246 1275
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 32 1246 1250 "ocamlbuild/slurp.ml" 32 1246 1280
+type(
+  'a entry
+)
+ident(
+  def f "ocamlbuild/slurp.ml" 33 1284 1290 "ocamlbuild/slurp.ml" 36 1344 1359
+)
+"ocamlbuild/slurp.ml" 33 1284 1293 "ocamlbuild/slurp.ml" 33 1284 1302
+type(
+  string -> string -> 'a -> bool
+)
+ident(
+  int_ref predicate "ocamlbuild/slurp.ml" 26 1022 1037 "ocamlbuild/slurp.ml" 26 1022 1046
+)
+"ocamlbuild/slurp.ml" 33 1284 1303 "ocamlbuild/slurp.ml" 33 1284 1307
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 32 1246 1255 "ocamlbuild/slurp.ml" 32 1246 1259
+)
+"ocamlbuild/slurp.ml" 33 1284 1308 "ocamlbuild/slurp.ml" 33 1284 1312
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 32 1246 1261 "ocamlbuild/slurp.ml" 32 1246 1265
+)
+"ocamlbuild/slurp.ml" 33 1284 1313 "ocamlbuild/slurp.ml" 33 1284 1317
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 32 1246 1270 "ocamlbuild/slurp.ml" 32 1246 1274
+)
+"ocamlbuild/slurp.ml" 33 1284 1293 "ocamlbuild/slurp.ml" 33 1284 1317
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 34 1323 1331 "ocamlbuild/slurp.ml" 34 1323 1332
+type(
+  'a entry
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 32 1246 1250 "ocamlbuild/slurp.ml" 32 1246 1280
+)
+"ocamlbuild/slurp.ml" 36 1344 1352 "ocamlbuild/slurp.ml" 36 1344 1359
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 33 1284 1290 "ocamlbuild/slurp.ml" 36 1344 1359
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 37 1360 1364 "ocamlbuild/slurp.ml" 37 1360 1371
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 37 1360 1375 "ocamlbuild/slurp.ml" 37 1360 1382
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 38 1383 1393 "ocamlbuild/slurp.ml" 38 1383 1394
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 38 1383 1387 "ocamlbuild/slurp.ml" 38 1383 1394
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 38 1383 1387 "ocamlbuild/slurp.ml" 38 1383 1399
+type(
+  'a entry
+)
+ident(
+  def e "ocamlbuild/slurp.ml" 38 1383 1403 "ocamlbuild/slurp.ml" 38 1383 1404
+)
+"ocamlbuild/slurp.ml" 38 1383 1403 "ocamlbuild/slurp.ml" 38 1383 1404
+type(
+  'a entry
+)
+ident(
+  int_ref e "ocamlbuild/slurp.ml" 38 1383 1387 "ocamlbuild/slurp.ml" 38 1383 1399
+)
+"ocamlbuild/slurp.ml" 26 1022 1049 "ocamlbuild/slurp.ml" 38 1383 1404
+type(
+  'a entry -> 'a entry
+)
+"ocamlbuild/slurp.ml" 40 1406 1410 "ocamlbuild/slurp.ml" 40 1406 1420
+type(
+  string -> unit entry
+)
+ident(
+  def real_slurp "ocamlbuild/slurp.ml" 96 3280 3280 --
+)
+"ocamlbuild/slurp.ml" 40 1406 1421 "ocamlbuild/slurp.ml" 40 1406 1425
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 41 1428 1430 "ocamlbuild/slurp.ml" 94 3255 3278
+)
+"ocamlbuild/slurp.ml" 41 1428 1434 "ocamlbuild/slurp.ml" 41 1428 1437
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 41 1428 1440 "ocamlbuild/slurp.ml" 41 1428 1450
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"ocamlbuild/slurp.ml" 41 1428 1451 "ocamlbuild/slurp.ml" 41 1428 1453
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 41 1428 1440 "ocamlbuild/slurp.ml" 41 1428 1453
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 42 1457 1463 "ocamlbuild/slurp.ml" 42 1457 1466
+type(
+  string -> string
+)
+"ocamlbuild/slurp.ml" 42 1457 1467 "ocamlbuild/slurp.ml" 42 1457 1468
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/slurp.ml" 42 1457 1471 "ocamlbuild/slurp.ml" 42 1457 1540
+)
+"ocamlbuild/slurp.ml" 42 1457 1474 "ocamlbuild/slurp.ml" 42 1457 1494
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_implicit
+)
+"ocamlbuild/slurp.ml" 42 1457 1495 "ocamlbuild/slurp.ml" 42 1457 1496
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 42 1457 1467 "ocamlbuild/slurp.ml" 42 1457 1468
+)
+"ocamlbuild/slurp.ml" 42 1457 1474 "ocamlbuild/slurp.ml" 42 1457 1496
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 42 1457 1497 "ocamlbuild/slurp.ml" 42 1457 1499
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"ocamlbuild/slurp.ml" 42 1457 1500 "ocamlbuild/slurp.ml" 42 1457 1520
+type(
+  string -> bool
+)
+ident(
+  ext_ref Filename.is_relative
+)
+"ocamlbuild/slurp.ml" 42 1457 1521 "ocamlbuild/slurp.ml" 42 1457 1522
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 42 1457 1467 "ocamlbuild/slurp.ml" 42 1457 1468
+)
+"ocamlbuild/slurp.ml" 42 1457 1500 "ocamlbuild/slurp.ml" 42 1457 1522
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 42 1457 1474 "ocamlbuild/slurp.ml" 42 1457 1522
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 42 1457 1528 "ocamlbuild/slurp.ml" 42 1457 1531
+type(
+  string
+)
+ident(
+  int_ref cwd "ocamlbuild/slurp.ml" 41 1428 1434 "ocamlbuild/slurp.ml" 41 1428 1437
+)
+"ocamlbuild/slurp.ml" 42 1457 1531 "ocamlbuild/slurp.ml" 42 1457 1532
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 42 1457 1532 "ocamlbuild/slurp.ml" 42 1457 1533
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 42 1457 1467 "ocamlbuild/slurp.ml" 42 1457 1468
+)
+"ocamlbuild/slurp.ml" 42 1457 1528 "ocamlbuild/slurp.ml" 42 1457 1533
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 42 1457 1539 "ocamlbuild/slurp.ml" 42 1457 1540
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 42 1457 1467 "ocamlbuild/slurp.ml" 42 1457 1468
+)
+"ocamlbuild/slurp.ml" 42 1457 1471 "ocamlbuild/slurp.ml" 42 1457 1540
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 43 1544 1550 "ocamlbuild/slurp.ml" 43 1544 1557
+type(
+  (string, bool) Hashtbl.t
+)
+"ocamlbuild/slurp.ml" 43 1544 1560 "ocamlbuild/slurp.ml" 43 1544 1574
+type(
+  int -> (string, bool) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"ocamlbuild/slurp.ml" 43 1544 1575 "ocamlbuild/slurp.ml" 43 1544 1579
+type(
+  int
+)
+"ocamlbuild/slurp.ml" 43 1544 1560 "ocamlbuild/slurp.ml" 43 1544 1579
+call(
+  stack
+)
+type(
+  (string, bool) Hashtbl.t
+)
+"ocamlbuild/slurp.ml" 44 1583 1593 "ocamlbuild/slurp.ml" 44 1583 1600
+type(
+  string -> string array -> unit entry list
+)
+"ocamlbuild/slurp.ml" 44 1583 1601 "ocamlbuild/slurp.ml" 44 1583 1605
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 44 1583 1606 "ocamlbuild/slurp.ml" 56 1992 2014
+)
+"ocamlbuild/slurp.ml" 44 1583 1606 "ocamlbuild/slurp.ml" 44 1583 1611
+type(
+  string array
+)
+ident(
+  def names "ocamlbuild/slurp.ml" 45 1614 1618 "ocamlbuild/slurp.ml" 56 1992 2014
+)
+"ocamlbuild/slurp.ml" 45 1614 1623 "ocamlbuild/slurp.ml" 45 1614 1631
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 45 1614 1633 "ocamlbuild/slurp.ml" 45 1614 1640
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 45 1614 1622 "ocamlbuild/slurp.ml" 45 1614 1641
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 46 1645 1651 "ocamlbuild/slurp.ml" 46 1645 1666
+type(
+  (unit entry list * unit entry list ->
+   string -> unit entry list * unit entry list) ->
+  unit entry list * unit entry list ->
+  string array -> unit entry list * unit entry list
+)
+ident(
+  ext_ref Array.fold_left
+)
+"ocamlbuild/slurp.ml" 46 1645 1679 "ocamlbuild/slurp.ml" 46 1645 1687
+type(
+  unit entry list
+)
+ident(
+  def file_acc "ocamlbuild/slurp.ml" 46 1645 1706 "ocamlbuild/slurp.ml" 51 1918 1947
+)
+"ocamlbuild/slurp.ml" 46 1645 1689 "ocamlbuild/slurp.ml" 46 1645 1696
+type(
+  unit entry list
+)
+ident(
+  def dir_acc "ocamlbuild/slurp.ml" 46 1645 1706 "ocamlbuild/slurp.ml" 51 1918 1947
+)
+"ocamlbuild/slurp.ml" 46 1645 1678 "ocamlbuild/slurp.ml" 46 1645 1697
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 46 1645 1677 "ocamlbuild/slurp.ml" 46 1645 1705
+type(
+  unit entry list * unit entry list
+)
+ident(
+  def acc "ocamlbuild/slurp.ml" 46 1645 1706 "ocamlbuild/slurp.ml" 51 1918 1947
+)
+"ocamlbuild/slurp.ml" 46 1645 1706 "ocamlbuild/slurp.ml" 46 1645 1710
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 47 1714 1722 "ocamlbuild/slurp.ml" 51 1918 1947
+)
+"ocamlbuild/slurp.ml" 47 1714 1728 "ocamlbuild/slurp.ml" 47 1714 1736
+type(
+  bool -> string -> string -> unit entry option
+)
+ident(
+  int_ref do_entry "ocamlbuild/slurp.ml" 57 2015 2021 "ocamlbuild/slurp.ml" 57 2015 2029
+)
+"ocamlbuild/slurp.ml" 47 1714 1737 "ocamlbuild/slurp.ml" 47 1714 1741
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 47 1714 1742 "ocamlbuild/slurp.ml" 47 1714 1746
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 44 1583 1601 "ocamlbuild/slurp.ml" 44 1583 1605
+)
+"ocamlbuild/slurp.ml" 47 1714 1747 "ocamlbuild/slurp.ml" 47 1714 1751
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 46 1645 1706 "ocamlbuild/slurp.ml" 46 1645 1710
+)
+"ocamlbuild/slurp.ml" 47 1714 1728 "ocamlbuild/slurp.ml" 47 1714 1751
+call(
+  stack
+)
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 48 1757 1767 "ocamlbuild/slurp.ml" 48 1757 1771
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 48 1757 1775 "ocamlbuild/slurp.ml" 48 1757 1778
+type(
+  unit entry list * unit entry list
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 46 1645 1677 "ocamlbuild/slurp.ml" 46 1645 1705
+)
+"ocamlbuild/slurp.ml" 49 1779 1799 "ocamlbuild/slurp.ml" 49 1779 1800
+type(
+  unit entry list Lazy.t
+)
+type(
+  unit
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 49 1779 1795 "ocamlbuild/slurp.ml" 49 1779 1800
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 49 1779 1807 "ocamlbuild/slurp.ml" 49 1779 1808
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 49 1779 1801 "ocamlbuild/slurp.ml" 49 1779 1808
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 49 1779 1794 "ocamlbuild/slurp.ml" 49 1779 1809
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 49 1779 1793 "ocamlbuild/slurp.ml" 49 1779 1819
+type(
+  unit entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 49 1779 1823 "ocamlbuild/slurp.ml" 49 1779 1851
+)
+"ocamlbuild/slurp.ml" 49 1779 1789 "ocamlbuild/slurp.ml" 49 1779 1819
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 49 1779 1824 "ocamlbuild/slurp.ml" 49 1779 1832
+type(
+  unit entry list
+)
+ident(
+  int_ref file_acc "ocamlbuild/slurp.ml" 46 1645 1679 "ocamlbuild/slurp.ml" 46 1645 1687
+)
+"ocamlbuild/slurp.ml" 49 1779 1834 "ocamlbuild/slurp.ml" 49 1779 1839
+type(
+  unit entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 49 1779 1793 "ocamlbuild/slurp.ml" 49 1779 1819
+)
+"ocamlbuild/slurp.ml" 49 1779 1843 "ocamlbuild/slurp.ml" 49 1779 1850
+type(
+  unit entry list
+)
+ident(
+  int_ref dir_acc "ocamlbuild/slurp.ml" 46 1645 1689 "ocamlbuild/slurp.ml" 46 1645 1696
+)
+"ocamlbuild/slurp.ml" 49 1779 1834 "ocamlbuild/slurp.ml" 49 1779 1850
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 49 1779 1823 "ocamlbuild/slurp.ml" 49 1779 1851
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 50 1852 1873 "ocamlbuild/slurp.ml" 50 1852 1874
+type(
+  unit
+)
+type(
+  My_unix.stats Lazy.t
+)
+type(
+  string
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 50 1852 1867 "ocamlbuild/slurp.ml" 50 1852 1875
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 50 1852 1866 "ocamlbuild/slurp.ml" 50 1852 1885
+type(
+  unit entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 50 1852 1889 "ocamlbuild/slurp.ml" 50 1852 1917
+)
+"ocamlbuild/slurp.ml" 50 1852 1862 "ocamlbuild/slurp.ml" 50 1852 1885
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 50 1852 1890 "ocamlbuild/slurp.ml" 50 1852 1895
+type(
+  unit entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 50 1852 1866 "ocamlbuild/slurp.ml" 50 1852 1885
+)
+"ocamlbuild/slurp.ml" 50 1852 1899 "ocamlbuild/slurp.ml" 50 1852 1907
+type(
+  unit entry list
+)
+ident(
+  int_ref file_acc "ocamlbuild/slurp.ml" 46 1645 1679 "ocamlbuild/slurp.ml" 46 1645 1687
+)
+"ocamlbuild/slurp.ml" 50 1852 1890 "ocamlbuild/slurp.ml" 50 1852 1907
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 50 1852 1909 "ocamlbuild/slurp.ml" 50 1852 1916
+type(
+  unit entry list
+)
+ident(
+  int_ref dir_acc "ocamlbuild/slurp.ml" 46 1645 1689 "ocamlbuild/slurp.ml" 46 1645 1696
+)
+"ocamlbuild/slurp.ml" 50 1852 1889 "ocamlbuild/slurp.ml" 50 1852 1917
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 51 1918 1933 "ocamlbuild/slurp.ml" 51 1918 1940
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 51 1918 1928 "ocamlbuild/slurp.ml" 51 1918 1940
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 51 1918 1944 "ocamlbuild/slurp.ml" 51 1918 1947
+type(
+  unit entry list * unit entry list
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 46 1645 1677 "ocamlbuild/slurp.ml" 46 1645 1705
+)
+"ocamlbuild/slurp.ml" 47 1714 1722 "ocamlbuild/slurp.ml" 51 1918 1947
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 46 1645 1667 "ocamlbuild/slurp.ml" 52 1948 1957
+type(
+  unit entry list * unit entry list ->
+  string -> unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 53 1958 1965 "ocamlbuild/slurp.ml" 53 1958 1967
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 53 1958 1969 "ocamlbuild/slurp.ml" 53 1958 1971
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 53 1958 1964 "ocamlbuild/slurp.ml" 53 1958 1972
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 54 1973 1979 "ocamlbuild/slurp.ml" 54 1973 1984
+type(
+  string array
+)
+ident(
+  int_ref names "ocamlbuild/slurp.ml" 44 1583 1606 "ocamlbuild/slurp.ml" 44 1583 1611
+)
+"ocamlbuild/slurp.ml" 46 1645 1651 "ocamlbuild/slurp.ml" 54 1973 1984
+call(
+  stack
+)
+type(
+  unit entry list * unit entry list
+)
+"ocamlbuild/slurp.ml" 56 1992 1996 "ocamlbuild/slurp.ml" 56 1992 2004
+type(
+  unit entry list
+)
+ident(
+  int_ref file_acc "ocamlbuild/slurp.ml" 45 1614 1623 "ocamlbuild/slurp.ml" 45 1614 1631
+)
+"ocamlbuild/slurp.ml" 56 1992 2005 "ocamlbuild/slurp.ml" 56 1992 2006
+type(
+  unit entry list -> unit entry list -> unit entry list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"ocamlbuild/slurp.ml" 56 1992 2007 "ocamlbuild/slurp.ml" 56 1992 2014
+type(
+  unit entry list
+)
+ident(
+  int_ref dir_acc "ocamlbuild/slurp.ml" 45 1614 1633 "ocamlbuild/slurp.ml" 45 1614 1640
+)
+"ocamlbuild/slurp.ml" 56 1992 1996 "ocamlbuild/slurp.ml" 56 1992 2014
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 45 1614 1618 "ocamlbuild/slurp.ml" 56 1992 2014
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 57 2015 2021 "ocamlbuild/slurp.ml" 57 2015 2029
+type(
+  bool -> string -> string -> unit entry option
+)
+"ocamlbuild/slurp.ml" 57 2015 2030 "ocamlbuild/slurp.ml" 57 2015 2039
+type(
+  bool
+)
+ident(
+  def link_mode "ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 90 3175 3186
+)
+"ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 57 2015 2044
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 90 3175 3186
+)
+"ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 57 2015 2049
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 58 2052 2056 "ocamlbuild/slurp.ml" 90 3175 3186
+)
+"ocamlbuild/slurp.ml" 58 2052 2060 "ocamlbuild/slurp.ml" 58 2052 2062
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 58 2052 2065 "ocamlbuild/slurp.ml" 58 2052 2069
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 57 2015 2044
+)
+"ocamlbuild/slurp.ml" 58 2052 2069 "ocamlbuild/slurp.ml" 58 2052 2070
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 58 2052 2070 "ocamlbuild/slurp.ml" 58 2052 2074
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 57 2015 2049
+)
+"ocamlbuild/slurp.ml" 58 2052 2065 "ocamlbuild/slurp.ml" 58 2052 2074
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 59 2078 2086 "ocamlbuild/slurp.ml" 59 2078 2091
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 59 2078 2094 "ocamlbuild/slurp.ml" 59 2078 2097
+type(
+  string -> string
+)
+ident(
+  int_ref abs "ocamlbuild/slurp.ml" 42 1457 1463 "ocamlbuild/slurp.ml" 42 1457 1466
+)
+"ocamlbuild/slurp.ml" 59 2078 2098 "ocamlbuild/slurp.ml" 59 2078 2100
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/slurp.ml" 58 2052 2060 "ocamlbuild/slurp.ml" 58 2052 2062
+)
+"ocamlbuild/slurp.ml" 59 2078 2094 "ocamlbuild/slurp.ml" 59 2078 2100
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 62 2124 2140 "ocamlbuild/slurp.ml" 62 2124 2149
+type(
+  bool
+)
+ident(
+  int_ref link_mode "ocamlbuild/slurp.ml" 57 2015 2030 "ocamlbuild/slurp.ml" 57 2015 2039
+)
+"ocamlbuild/slurp.ml" 62 2124 2155 "ocamlbuild/slurp.ml" 62 2124 2168
+type(
+  string -> My_unix.stats
+)
+ident(
+  ext_ref My_unix.lstat
+)
+"ocamlbuild/slurp.ml" 62 2124 2169 "ocamlbuild/slurp.ml" 62 2124 2174
+type(
+  string
+)
+ident(
+  int_ref absfn "ocamlbuild/slurp.ml" 59 2078 2086 "ocamlbuild/slurp.ml" 59 2078 2091
+)
+"ocamlbuild/slurp.ml" 62 2124 2155 "ocamlbuild/slurp.ml" 62 2124 2174
+call(
+  stack
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 62 2124 2180 "ocamlbuild/slurp.ml" 62 2124 2192
+type(
+  string -> My_unix.stats
+)
+ident(
+  ext_ref My_unix.stat
+)
+"ocamlbuild/slurp.ml" 62 2124 2193 "ocamlbuild/slurp.ml" 62 2124 2198
+type(
+  string
+)
+ident(
+  int_ref absfn "ocamlbuild/slurp.ml" 59 2078 2086 "ocamlbuild/slurp.ml" 59 2078 2091
+)
+"ocamlbuild/slurp.ml" 62 2124 2180 "ocamlbuild/slurp.ml" 62 2124 2198
+call(
+  stack
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 62 2124 2136 "ocamlbuild/slurp.ml" 62 2124 2199
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 62 2124 2132 "ocamlbuild/slurp.ml" 62 2124 2199
+type(
+  (My_unix.stats, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 64 2211 2219 "ocamlbuild/slurp.ml" 64 2211 2220
+type(
+  exn
+)
+ident(
+  def x "ocamlbuild/slurp.ml" 64 2211 2224 "ocamlbuild/slurp.ml" 64 2211 2229
+)
+"ocamlbuild/slurp.ml" 64 2211 2228 "ocamlbuild/slurp.ml" 64 2211 2229
+type(
+  exn
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 64 2211 2219 "ocamlbuild/slurp.ml" 64 2211 2220
+)
+"ocamlbuild/slurp.ml" 64 2211 2224 "ocamlbuild/slurp.ml" 64 2211 2229
+type(
+  (My_unix.stats, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 61 2114 2120 "ocamlbuild/slurp.ml" 64 2211 2229
+type(
+  (My_unix.stats, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 66 2239 2249 "ocamlbuild/slurp.ml" 66 2239 2250
+type(
+  exn
+)
+ident(
+  def x "ocamlbuild/slurp.ml" 66 2239 2254 "ocamlbuild/slurp.ml" 66 2239 2267
+)
+"ocamlbuild/slurp.ml" 66 2239 2245 "ocamlbuild/slurp.ml" 66 2239 2250
+type(
+  (My_unix.stats, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 66 2239 2265 "ocamlbuild/slurp.ml" 66 2239 2266
+type(
+  exn
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 66 2239 2249 "ocamlbuild/slurp.ml" 66 2239 2250
+)
+"ocamlbuild/slurp.ml" 66 2239 2258 "ocamlbuild/slurp.ml" 66 2239 2267
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 66 2239 2254 "ocamlbuild/slurp.ml" 66 2239 2267
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 67 2268 2279 "ocamlbuild/slurp.ml" 67 2268 2281
+type(
+  My_unix.stats
+)
+ident(
+  def st "ocamlbuild/slurp.ml" 68 2285 2291 "ocamlbuild/slurp.ml" 90 3175 3186
+)
+"ocamlbuild/slurp.ml" 67 2268 2274 "ocamlbuild/slurp.ml" 67 2268 2281
+type(
+  (My_unix.stats, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 68 2285 2295 "ocamlbuild/slurp.ml" 68 2285 2298
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 68 2285 2301 "ocamlbuild/slurp.ml" 68 2285 2303
+type(
+  My_unix.stats
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 67 2268 2279 "ocamlbuild/slurp.ml" 67 2268 2281
+)
+"ocamlbuild/slurp.ml" 68 2285 2301 "ocamlbuild/slurp.ml" 68 2285 2320
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 69 2324 2337 "ocamlbuild/slurp.ml" 69 2324 2349
+type(
+  (string, bool) Hashtbl.t -> string -> bool
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"ocamlbuild/slurp.ml" 69 2324 2350 "ocamlbuild/slurp.ml" 69 2324 2357
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref visited "ocamlbuild/slurp.ml" 43 1544 1550 "ocamlbuild/slurp.ml" 43 1544 1557
+)
+"ocamlbuild/slurp.ml" 69 2324 2358 "ocamlbuild/slurp.ml" 69 2324 2361
+type(
+  string
+)
+ident(
+  int_ref key "ocamlbuild/slurp.ml" 68 2285 2295 "ocamlbuild/slurp.ml" 68 2285 2298
+)
+"ocamlbuild/slurp.ml" 69 2324 2337 "ocamlbuild/slurp.ml" 69 2324 2361
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 69 2324 2367 "ocamlbuild/slurp.ml" 69 2324 2376
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 69 2324 2380 "ocamlbuild/slurp.ml" 69 2324 2385
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 69 2324 2333 "ocamlbuild/slurp.ml" 69 2324 2385
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 70 2386 2397 "ocamlbuild/slurp.ml" 70 2386 2401
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 73 2427 2437 "ocamlbuild/slurp.ml" 73 2427 2448
+type(
+  (string, bool) Hashtbl.t -> string -> bool -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"ocamlbuild/slurp.ml" 73 2427 2449 "ocamlbuild/slurp.ml" 73 2427 2456
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref visited "ocamlbuild/slurp.ml" 43 1544 1550 "ocamlbuild/slurp.ml" 43 1544 1557
+)
+"ocamlbuild/slurp.ml" 73 2427 2457 "ocamlbuild/slurp.ml" 73 2427 2460
+type(
+  string
+)
+ident(
+  int_ref key "ocamlbuild/slurp.ml" 68 2285 2295 "ocamlbuild/slurp.ml" 68 2285 2298
+)
+"ocamlbuild/slurp.ml" 73 2427 2461 "ocamlbuild/slurp.ml" 73 2427 2465
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 73 2427 2437 "ocamlbuild/slurp.ml" 73 2427 2465
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 74 2467 2481 "ocamlbuild/slurp.ml" 74 2467 2484
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 75 2487 2505 "ocamlbuild/slurp.ml" 75 2487 2507
+type(
+  My_unix.stats
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 67 2268 2279 "ocamlbuild/slurp.ml" 67 2268 2281
+)
+"ocamlbuild/slurp.ml" 75 2487 2505 "ocamlbuild/slurp.ml" 75 2487 2530
+type(
+  My_unix.file_kind
+)
+"ocamlbuild/slurp.ml" 76 2536 2550 "ocamlbuild/slurp.ml" 76 2536 2565
+type(
+  My_unix.file_kind
+)
+"ocamlbuild/slurp.ml" 77 2569 2589 "ocamlbuild/slurp.ml" 77 2569 2592
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 77 2569 2595 "ocamlbuild/slurp.ml" 77 2569 2611
+type(
+  string -> string
+)
+ident(
+  ext_ref My_unix.readlink
+)
+"ocamlbuild/slurp.ml" 77 2569 2612 "ocamlbuild/slurp.ml" 77 2569 2617
+type(
+  string
+)
+ident(
+  int_ref absfn "ocamlbuild/slurp.ml" 59 2078 2086 "ocamlbuild/slurp.ml" 59 2078 2091
+)
+"ocamlbuild/slurp.ml" 77 2569 2595 "ocamlbuild/slurp.ml" 77 2569 2617
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 78 2621 2640 "ocamlbuild/slurp.ml" 78 2621 2655
+type(
+  string -> bool
+)
+ident(
+  ext_ref My_std.sys_file_exists
+)
+"ocamlbuild/slurp.ml" 78 2621 2657 "ocamlbuild/slurp.ml" 78 2621 2660
+type(
+  string -> string
+)
+ident(
+  int_ref abs "ocamlbuild/slurp.ml" 42 1457 1463 "ocamlbuild/slurp.ml" 42 1457 1466
+)
+"ocamlbuild/slurp.ml" 78 2621 2661 "ocamlbuild/slurp.ml" 78 2621 2664
+type(
+  string
+)
+ident(
+  int_ref fn' "ocamlbuild/slurp.ml" 77 2569 2589 "ocamlbuild/slurp.ml" 77 2569 2592
+)
+"ocamlbuild/slurp.ml" 78 2621 2656 "ocamlbuild/slurp.ml" 78 2621 2665
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 78 2621 2640 "ocamlbuild/slurp.ml" 78 2621 2665
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 79 2671 2689 "ocamlbuild/slurp.ml" 79 2671 2697
+type(
+  bool -> string -> string -> unit entry option
+)
+ident(
+  int_ref do_entry "ocamlbuild/slurp.ml" 57 2015 2021 "ocamlbuild/slurp.ml" 57 2015 2029
+)
+"ocamlbuild/slurp.ml" 79 2671 2698 "ocamlbuild/slurp.ml" 79 2671 2703
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 79 2671 2704 "ocamlbuild/slurp.ml" 79 2671 2708
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 57 2015 2044
+)
+"ocamlbuild/slurp.ml" 79 2671 2709 "ocamlbuild/slurp.ml" 79 2671 2713
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 57 2015 2049
+)
+"ocamlbuild/slurp.ml" 79 2671 2689 "ocamlbuild/slurp.ml" 79 2671 2713
+call(
+  stack
+)
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 81 2735 2763 "ocamlbuild/slurp.ml" 81 2735 2767
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 57 2015 2044
+)
+"ocamlbuild/slurp.ml" 81 2735 2769 "ocamlbuild/slurp.ml" 81 2735 2773
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 57 2015 2049
+)
+"ocamlbuild/slurp.ml" 81 2735 2780 "ocamlbuild/slurp.ml" 81 2735 2782
+type(
+  My_unix.stats
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 67 2268 2279 "ocamlbuild/slurp.ml" 67 2268 2281
+)
+"ocamlbuild/slurp.ml" 81 2735 2775 "ocamlbuild/slurp.ml" 81 2735 2782
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 81 2735 2784 "ocamlbuild/slurp.ml" 81 2735 2786
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 81 2735 2757 "ocamlbuild/slurp.ml" 81 2735 2788
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 81 2735 2753 "ocamlbuild/slurp.ml" 81 2735 2788
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 78 2621 2637 "ocamlbuild/slurp.ml" 81 2735 2788
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 77 2569 2585 "ocamlbuild/slurp.ml" 81 2735 2788
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 82 2789 2803 "ocamlbuild/slurp.ml" 82 2789 2817
+type(
+  My_unix.file_kind
+)
+"ocamlbuild/slurp.ml" 83 2821 2844 "ocamlbuild/slurp.ml" 83 2821 2855
+type(
+  string -> (string array, exn) My_std.Outcome.t
+)
+ident(
+  ext_ref My_std.sys_readdir
+)
+"ocamlbuild/slurp.ml" 83 2821 2856 "ocamlbuild/slurp.ml" 83 2821 2861
+type(
+  string
+)
+ident(
+  int_ref absfn "ocamlbuild/slurp.ml" 59 2078 2086 "ocamlbuild/slurp.ml" 59 2078 2091
+)
+"ocamlbuild/slurp.ml" 83 2821 2844 "ocamlbuild/slurp.ml" 83 2821 2861
+call(
+  stack
+)
+type(
+  (string array, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 84 2867 2890 "ocamlbuild/slurp.ml" 84 2867 2895
+type(
+  string array
+)
+ident(
+  def names "ocamlbuild/slurp.ml" 84 2867 2899 "ocamlbuild/slurp.ml" 84 2867 2958
+)
+"ocamlbuild/slurp.ml" 84 2867 2885 "ocamlbuild/slurp.ml" 84 2867 2895
+type(
+  (string array, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 84 2867 2908 "ocamlbuild/slurp.ml" 84 2867 2912
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 57 2015 2044
+)
+"ocamlbuild/slurp.ml" 84 2867 2914 "ocamlbuild/slurp.ml" 84 2867 2918
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 57 2015 2049
+)
+"ocamlbuild/slurp.ml" 84 2867 2925 "ocamlbuild/slurp.ml" 84 2867 2927
+type(
+  My_unix.stats
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 67 2268 2279 "ocamlbuild/slurp.ml" 67 2268 2281
+)
+"ocamlbuild/slurp.ml" 84 2867 2920 "ocamlbuild/slurp.ml" 84 2867 2927
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 84 2867 2929 "ocamlbuild/slurp.ml" 84 2867 2931
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 84 2867 2939 "ocamlbuild/slurp.ml" 84 2867 2946
+type(
+  string -> string array -> unit entry list
+)
+ident(
+  int_ref scandir "ocamlbuild/slurp.ml" 44 1583 1593 "ocamlbuild/slurp.ml" 44 1583 1600
+)
+"ocamlbuild/slurp.ml" 84 2867 2947 "ocamlbuild/slurp.ml" 84 2867 2949
+type(
+  string
+)
+ident(
+  int_ref fn "ocamlbuild/slurp.ml" 58 2052 2060 "ocamlbuild/slurp.ml" 58 2052 2062
+)
+"ocamlbuild/slurp.ml" 84 2867 2950 "ocamlbuild/slurp.ml" 84 2867 2955
+type(
+  string array
+)
+ident(
+  int_ref names "ocamlbuild/slurp.ml" 84 2867 2890 "ocamlbuild/slurp.ml" 84 2867 2895
+)
+"ocamlbuild/slurp.ml" 84 2867 2938 "ocamlbuild/slurp.ml" 84 2867 2956
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 84 2867 2933 "ocamlbuild/slurp.ml" 84 2867 2956
+type(
+  unit entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 84 2867 2903 "ocamlbuild/slurp.ml" 84 2867 2958
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 84 2867 2899 "ocamlbuild/slurp.ml" 84 2867 2958
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 85 2959 2981 "ocamlbuild/slurp.ml" 85 2959 2984
+type(
+  exn
+)
+ident(
+  def exn "ocamlbuild/slurp.ml" 85 2959 2988 "ocamlbuild/slurp.ml" 85 2959 3003
+)
+"ocamlbuild/slurp.ml" 85 2959 2977 "ocamlbuild/slurp.ml" 85 2959 2984
+type(
+  (string array, exn) My_std.Outcome.t
+)
+"ocamlbuild/slurp.ml" 85 2959 2999 "ocamlbuild/slurp.ml" 85 2959 3002
+type(
+  exn
+)
+ident(
+  int_ref exn "ocamlbuild/slurp.ml" 85 2959 2981 "ocamlbuild/slurp.ml" 85 2959 2984
+)
+"ocamlbuild/slurp.ml" 85 2959 2992 "ocamlbuild/slurp.ml" 85 2959 3003
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 85 2959 2988 "ocamlbuild/slurp.ml" 85 2959 3003
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 83 2821 2837 "ocamlbuild/slurp.ml" 85 2959 3004
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 86 3005 3019 "ocamlbuild/slurp.ml" 86 3005 3035
+type(
+  My_unix.file_kind
+)
+"ocamlbuild/slurp.ml" 86 3005 3039 "ocamlbuild/slurp.ml" 86 3005 3043
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 87 3044 3058 "ocamlbuild/slurp.ml" 87 3044 3073
+type(
+  My_unix.file_kind
+)
+"ocamlbuild/slurp.ml" 87 3044 3087 "ocamlbuild/slurp.ml" 87 3044 3091
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 57 2015 2040 "ocamlbuild/slurp.ml" 57 2015 2044
+)
+"ocamlbuild/slurp.ml" 87 3044 3093 "ocamlbuild/slurp.ml" 87 3044 3097
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 57 2015 2045 "ocamlbuild/slurp.ml" 57 2015 2049
+)
+"ocamlbuild/slurp.ml" 87 3044 3104 "ocamlbuild/slurp.ml" 87 3044 3106
+type(
+  My_unix.stats
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 67 2268 2279 "ocamlbuild/slurp.ml" 67 2268 2281
+)
+"ocamlbuild/slurp.ml" 87 3044 3099 "ocamlbuild/slurp.ml" 87 3044 3106
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 87 3044 3108 "ocamlbuild/slurp.ml" 87 3044 3110
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 87 3044 3081 "ocamlbuild/slurp.ml" 87 3044 3112
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 87 3044 3077 "ocamlbuild/slurp.ml" 87 3044 3112
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 75 2487 2499 "ocamlbuild/slurp.ml" 87 3044 3112
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 88 3116 3126 "ocamlbuild/slurp.ml" 88 3116 3141
+type(
+  (string, bool) Hashtbl.t -> string -> bool -> unit
+)
+ident(
+  ext_ref Hashtbl.replace
+)
+"ocamlbuild/slurp.ml" 88 3116 3142 "ocamlbuild/slurp.ml" 88 3116 3149
+type(
+  (string, bool) Hashtbl.t
+)
+ident(
+  int_ref visited "ocamlbuild/slurp.ml" 43 1544 1550 "ocamlbuild/slurp.ml" 43 1544 1557
+)
+"ocamlbuild/slurp.ml" 88 3116 3150 "ocamlbuild/slurp.ml" 88 3116 3153
+type(
+  string
+)
+ident(
+  int_ref key "ocamlbuild/slurp.ml" 68 2285 2295 "ocamlbuild/slurp.ml" 68 2285 2298
+)
+"ocamlbuild/slurp.ml" 88 3116 3154 "ocamlbuild/slurp.ml" 88 3116 3159
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 88 3116 3126 "ocamlbuild/slurp.ml" 88 3116 3159
+call(
+  stack
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 89 3161 3171 "ocamlbuild/slurp.ml" 89 3161 3174
+type(
+  unit entry option
+)
+ident(
+  int_ref res "ocamlbuild/slurp.ml" 74 2467 2481 "ocamlbuild/slurp.ml" 74 2467 2484
+)
+"ocamlbuild/slurp.ml" 88 3116 3126 "ocamlbuild/slurp.ml" 89 3161 3174
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 74 2467 2477 "ocamlbuild/slurp.ml" 89 3161 3174
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 72 2413 2421 "ocamlbuild/slurp.ml" 90 3175 3186
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 69 2324 2330 "ocamlbuild/slurp.ml" 90 3175 3186
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 68 2285 2291 "ocamlbuild/slurp.ml" 90 3175 3186
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 60 2104 2108 "ocamlbuild/slurp.ml" 90 3175 3186
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 59 2078 2082 "ocamlbuild/slurp.ml" 90 3175 3186
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 58 2052 2056 "ocamlbuild/slurp.ml" 90 3175 3186
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 92 3192 3200 "ocamlbuild/slurp.ml" 92 3192 3208
+type(
+  bool -> string -> string -> unit entry option
+)
+ident(
+  int_ref do_entry "ocamlbuild/slurp.ml" 57 2015 2021 "ocamlbuild/slurp.ml" 57 2015 2029
+)
+"ocamlbuild/slurp.ml" 92 3192 3209 "ocamlbuild/slurp.ml" 92 3192 3213
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 92 3192 3214 "ocamlbuild/slurp.ml" 92 3192 3216
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 92 3192 3217 "ocamlbuild/slurp.ml" 92 3192 3221
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 40 1406 1421 "ocamlbuild/slurp.ml" 40 1406 1425
+)
+"ocamlbuild/slurp.ml" 92 3192 3200 "ocamlbuild/slurp.ml" 92 3192 3221
+call(
+  stack
+)
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 93 3227 3231 "ocamlbuild/slurp.ml" 93 3227 3235
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 93 3227 3239 "ocamlbuild/slurp.ml" 93 3227 3244
+type(
+  exn -> unit entry
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ocamlbuild/slurp.ml" 93 3227 3245 "ocamlbuild/slurp.ml" 93 3227 3254
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 93 3227 3239 "ocamlbuild/slurp.ml" 93 3227 3254
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 94 3255 3264 "ocamlbuild/slurp.ml" 94 3255 3269
+type(
+  unit entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 94 3255 3273 "ocamlbuild/slurp.ml" 94 3255 3278
+)
+"ocamlbuild/slurp.ml" 94 3255 3259 "ocamlbuild/slurp.ml" 94 3255 3269
+type(
+  unit entry option
+)
+"ocamlbuild/slurp.ml" 94 3255 3273 "ocamlbuild/slurp.ml" 94 3255 3278
+type(
+  unit entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 94 3255 3264 "ocamlbuild/slurp.ml" 94 3255 3269
+)
+"ocamlbuild/slurp.ml" 92 3192 3194 "ocamlbuild/slurp.ml" 94 3255 3278
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 44 1583 1585 "ocamlbuild/slurp.ml" 94 3255 3278
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 43 1544 1546 "ocamlbuild/slurp.ml" 94 3255 3278
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 42 1457 1459 "ocamlbuild/slurp.ml" 94 3255 3278
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 41 1428 1430 "ocamlbuild/slurp.ml" 94 3255 3278
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 96 3280 3284 "ocamlbuild/slurp.ml" 96 3280 3289
+type(
+  string -> string list
+)
+ident(
+  def split "ocamlbuild/slurp.ml" 102 3457 3457 --
+)
+"ocamlbuild/slurp.ml" 96 3280 3290 "ocamlbuild/slurp.ml" 96 3280 3294
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 97 3297 3299 "ocamlbuild/slurp.ml" 100 3431 3455
+)
+"ocamlbuild/slurp.ml" 97 3297 3307 "ocamlbuild/slurp.ml" 97 3297 3310
+type(
+  string -> string list
+)
+"ocamlbuild/slurp.ml" 97 3297 3311 "ocamlbuild/slurp.ml" 97 3297 3315
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 98 3318 3322 "ocamlbuild/slurp.ml" 99 3366 3430
+)
+"ocamlbuild/slurp.ml" 98 3318 3325 "ocamlbuild/slurp.ml" 98 3318 3329
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 97 3297 3311 "ocamlbuild/slurp.ml" 97 3297 3315
+)
+"ocamlbuild/slurp.ml" 98 3318 3330 "ocamlbuild/slurp.ml" 98 3318 3331
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/slurp.ml" 98 3318 3332 "ocamlbuild/slurp.ml" 98 3318 3357
+type(
+  string
+)
+ident(
+  ext_ref Filename.current_dir_name
+)
+"ocamlbuild/slurp.ml" 98 3318 3325 "ocamlbuild/slurp.ml" 98 3318 3357
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 98 3318 3363 "ocamlbuild/slurp.ml" 98 3318 3365
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 99 3366 3376 "ocamlbuild/slurp.ml" 99 3366 3393
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"ocamlbuild/slurp.ml" 99 3366 3394 "ocamlbuild/slurp.ml" 99 3366 3398
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 97 3297 3311 "ocamlbuild/slurp.ml" 97 3297 3315
+)
+"ocamlbuild/slurp.ml" 99 3366 3375 "ocamlbuild/slurp.ml" 99 3366 3399
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 99 3366 3403 "ocamlbuild/slurp.ml" 99 3366 3406
+type(
+  string -> string list
+)
+ident(
+  int_ref aux "ocamlbuild/slurp.ml" 97 3297 3307 "ocamlbuild/slurp.ml" 97 3297 3310
+)
+"ocamlbuild/slurp.ml" 99 3366 3408 "ocamlbuild/slurp.ml" 99 3366 3424
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.dirname
+)
+"ocamlbuild/slurp.ml" 99 3366 3425 "ocamlbuild/slurp.ml" 99 3366 3429
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 97 3297 3311 "ocamlbuild/slurp.ml" 97 3297 3315
+)
+"ocamlbuild/slurp.ml" 99 3366 3407 "ocamlbuild/slurp.ml" 99 3366 3430
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 99 3366 3403 "ocamlbuild/slurp.ml" 99 3366 3430
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 99 3366 3375 "ocamlbuild/slurp.ml" 99 3366 3430
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 98 3318 3322 "ocamlbuild/slurp.ml" 99 3366 3430
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 100 3431 3436 "ocamlbuild/slurp.ml" 100 3431 3444
+type(
+  string list -> string list
+)
+ident(
+  ext_ref My_std.List.rev
+)
+"ocamlbuild/slurp.ml" 100 3431 3446 "ocamlbuild/slurp.ml" 100 3431 3449
+type(
+  string -> string list
+)
+ident(
+  int_ref aux "ocamlbuild/slurp.ml" 97 3297 3307 "ocamlbuild/slurp.ml" 97 3297 3310
+)
+"ocamlbuild/slurp.ml" 100 3431 3450 "ocamlbuild/slurp.ml" 100 3431 3454
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 96 3280 3290 "ocamlbuild/slurp.ml" 96 3280 3294
+)
+"ocamlbuild/slurp.ml" 100 3431 3445 "ocamlbuild/slurp.ml" 100 3431 3455
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 100 3431 3436 "ocamlbuild/slurp.ml" 100 3431 3455
+call(
+  tail
+)
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 97 3297 3299 "ocamlbuild/slurp.ml" 100 3431 3455
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 102 3457 3465 "ocamlbuild/slurp.ml" 102 3457 3469
+type(
+  string list -> string
+)
+ident(
+  def join "ocamlbuild/slurp.ml" 102 3457 3457 --
+)
+"ocamlbuild/slurp.ml" 104 3483 3487 "ocamlbuild/slurp.ml" 104 3483 3489
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 104 3483 3493 "ocamlbuild/slurp.ml" 104 3483 3505
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 105 3506 3511 "ocamlbuild/slurp.ml" 105 3506 3512
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/slurp.ml" 105 3506 3517 "ocamlbuild/slurp.ml" 105 3506 3518
+)
+"ocamlbuild/slurp.ml" 105 3506 3510 "ocamlbuild/slurp.ml" 105 3506 3513
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 105 3506 3517 "ocamlbuild/slurp.ml" 105 3506 3518
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 105 3506 3511 "ocamlbuild/slurp.ml" 105 3506 3512
+)
+"ocamlbuild/slurp.ml" 106 3519 3523 "ocamlbuild/slurp.ml" 106 3519 3524
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/slurp.ml" 106 3519 3534 "ocamlbuild/slurp.ml" 106 3519 3545
+)
+"ocamlbuild/slurp.ml" 106 3519 3528 "ocamlbuild/slurp.ml" 106 3519 3530
+type(
+  string list
+)
+ident(
+  def xs "ocamlbuild/slurp.ml" 106 3519 3534 "ocamlbuild/slurp.ml" 106 3519 3545
+)
+"ocamlbuild/slurp.ml" 106 3519 3523 "ocamlbuild/slurp.ml" 106 3519 3530
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 106 3519 3534 "ocamlbuild/slurp.ml" 106 3519 3535
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 106 3519 3523 "ocamlbuild/slurp.ml" 106 3519 3524
+)
+"ocamlbuild/slurp.ml" 106 3519 3535 "ocamlbuild/slurp.ml" 106 3519 3536
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 106 3519 3537 "ocamlbuild/slurp.ml" 106 3519 3541
+type(
+  string list -> string
+)
+ident(
+  int_ref join "ocamlbuild/slurp.ml" 102 3457 3465 "ocamlbuild/slurp.ml" 102 3457 3469
+)
+"ocamlbuild/slurp.ml" 106 3519 3542 "ocamlbuild/slurp.ml" 106 3519 3544
+type(
+  string list
+)
+ident(
+  int_ref xs "ocamlbuild/slurp.ml" 106 3519 3528 "ocamlbuild/slurp.ml" 106 3519 3530
+)
+"ocamlbuild/slurp.ml" 106 3519 3536 "ocamlbuild/slurp.ml" 106 3519 3545
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 106 3519 3534 "ocamlbuild/slurp.ml" 106 3519 3545
+call(
+  tail
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 103 3472 3474 "ocamlbuild/slurp.ml" 106 3519 3545
+type(
+  string list -> string
+)
+"ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  def add "ocamlbuild/slurp.ml" 108 3547 3547 --
+)
+"ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+type(
+  string
+)
+ident(
+  def root "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+type(
+  string list
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 108 3547 3569 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 108 3547 3569 "ocamlbuild/slurp.ml" 108 3547 3576
+type(
+  unit entry list
+)
+ident(
+  def entries "ocamlbuild/slurp.ml" 109 3579 3581 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 109 3579 3587 "ocamlbuild/slurp.ml" 109 3579 3591
+type(
+  string list
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+)
+"ocamlbuild/slurp.ml" 109 3579 3593 "ocamlbuild/slurp.ml" 109 3579 3600
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 108 3547 3569 "ocamlbuild/slurp.ml" 108 3547 3576
+)
+"ocamlbuild/slurp.ml" 109 3579 3587 "ocamlbuild/slurp.ml" 109 3579 3600
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 110 3606 3610 "ocamlbuild/slurp.ml" 110 3606 3612
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 110 3606 3614 "ocamlbuild/slurp.ml" 110 3606 3615
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 110 3606 3610 "ocamlbuild/slurp.ml" 110 3606 3615
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 110 3606 3619 "ocamlbuild/slurp.ml" 110 3606 3626
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 108 3547 3569 "ocamlbuild/slurp.ml" 108 3547 3576
+)
+"ocamlbuild/slurp.ml" 111 3627 3631 "ocamlbuild/slurp.ml" 111 3627 3636
+type(
+  string
+)
+ident(
+  def xpath "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3640 "ocamlbuild/slurp.ml" 111 3627 3646
+type(
+  string list
+)
+ident(
+  def xspath "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3631 "ocamlbuild/slurp.ml" 111 3627 3646
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 111 3627 3653 "ocamlbuild/slurp.ml" 111 3627 3658
+type(
+  string
+)
+ident(
+  def dpath "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3660 "ocamlbuild/slurp.ml" 111 3627 3665
+type(
+  string
+)
+ident(
+  def dname "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3667 "ocamlbuild/slurp.ml" 111 3627 3670
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def dst "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3672 "ocamlbuild/slurp.ml" 111 3627 3677
+type(
+  unit
+)
+ident(
+  def dattr "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3679 "ocamlbuild/slurp.ml" 111 3627 3687
+type(
+  unit entry list Lazy.t
+)
+ident(
+  def dentries "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3649 "ocamlbuild/slurp.ml" 111 3627 3688
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 111 3627 3648 "ocamlbuild/slurp.ml" 111 3627 3694
+type(
+  unit entry
+)
+ident(
+  def d "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3698 "ocamlbuild/slurp.ml" 111 3627 3705
+type(
+  unit entry list
+)
+ident(
+  def entries "ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+)
+"ocamlbuild/slurp.ml" 111 3627 3648 "ocamlbuild/slurp.ml" 111 3627 3705
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 111 3627 3631 "ocamlbuild/slurp.ml" 111 3627 3705
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 112 3709 3718 "ocamlbuild/slurp.ml" 112 3709 3723
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 111 3627 3631 "ocamlbuild/slurp.ml" 111 3627 3636
+)
+"ocamlbuild/slurp.ml" 112 3709 3724 "ocamlbuild/slurp.ml" 112 3709 3725
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/slurp.ml" 112 3709 3726 "ocamlbuild/slurp.ml" 112 3709 3731
+type(
+  string
+)
+ident(
+  int_ref dname "ocamlbuild/slurp.ml" 111 3627 3660 "ocamlbuild/slurp.ml" 111 3627 3665
+)
+"ocamlbuild/slurp.ml" 112 3709 3718 "ocamlbuild/slurp.ml" 112 3709 3731
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 113 3737 3749 "ocamlbuild/slurp.ml" 113 3737 3754
+type(
+  string
+)
+ident(
+  int_ref dpath "ocamlbuild/slurp.ml" 111 3627 3653 "ocamlbuild/slurp.ml" 111 3627 3658
+)
+"ocamlbuild/slurp.ml" 113 3737 3756 "ocamlbuild/slurp.ml" 113 3737 3761
+type(
+  string
+)
+ident(
+  int_ref dname "ocamlbuild/slurp.ml" 111 3627 3660 "ocamlbuild/slurp.ml" 111 3627 3665
+)
+"ocamlbuild/slurp.ml" 113 3737 3763 "ocamlbuild/slurp.ml" 113 3737 3766
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref dst "ocamlbuild/slurp.ml" 111 3627 3667 "ocamlbuild/slurp.ml" 111 3627 3670
+)
+"ocamlbuild/slurp.ml" 113 3737 3768 "ocamlbuild/slurp.ml" 113 3737 3773
+type(
+  unit
+)
+ident(
+  int_ref dattr "ocamlbuild/slurp.ml" 111 3627 3672 "ocamlbuild/slurp.ml" 111 3627 3677
+)
+"ocamlbuild/slurp.ml" 113 3737 3781 "ocamlbuild/slurp.ml" 113 3737 3784
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 113 3737 3786 "ocamlbuild/slurp.ml" 113 3737 3790
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 113 3737 3790 "ocamlbuild/slurp.ml" 113 3737 3791
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 113 3737 3791 "ocamlbuild/slurp.ml" 113 3737 3796
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 111 3627 3631 "ocamlbuild/slurp.ml" 111 3627 3636
+)
+"ocamlbuild/slurp.ml" 113 3737 3785 "ocamlbuild/slurp.ml" 113 3737 3797
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 113 3737 3798 "ocamlbuild/slurp.ml" 113 3737 3804
+type(
+  string list
+)
+ident(
+  int_ref xspath "ocamlbuild/slurp.ml" 111 3627 3640 "ocamlbuild/slurp.ml" 111 3627 3646
+)
+"ocamlbuild/slurp.ml" 113 3737 3805 "ocamlbuild/slurp.ml" 113 3737 3807
+type(
+  unit entry list Lazy.t -> unit entry list
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 113 3737 3807 "ocamlbuild/slurp.ml" 113 3737 3815
+type(
+  unit entry list Lazy.t
+)
+ident(
+  int_ref dentries "ocamlbuild/slurp.ml" 111 3627 3679 "ocamlbuild/slurp.ml" 111 3627 3687
+)
+"ocamlbuild/slurp.ml" 113 3737 3805 "ocamlbuild/slurp.ml" 113 3737 3815
+call(
+  stack
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 113 3737 3780 "ocamlbuild/slurp.ml" 113 3737 3816
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 113 3737 3775 "ocamlbuild/slurp.ml" 113 3737 3816
+type(
+  unit entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 113 3737 3745 "ocamlbuild/slurp.ml" 113 3737 3817
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 113 3737 3821 "ocamlbuild/slurp.ml" 113 3737 3828
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 111 3627 3698 "ocamlbuild/slurp.ml" 111 3627 3705
+)
+"ocamlbuild/slurp.ml" 113 3737 3745 "ocamlbuild/slurp.ml" 113 3737 3828
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 114 3829 3840 "ocamlbuild/slurp.ml" 114 3829 3841
+type(
+  unit entry
+)
+ident(
+  int_ref d "ocamlbuild/slurp.ml" 111 3627 3648 "ocamlbuild/slurp.ml" 111 3627 3694
+)
+"ocamlbuild/slurp.ml" 114 3829 3845 "ocamlbuild/slurp.ml" 114 3829 3848
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 114 3829 3849 "ocamlbuild/slurp.ml" 114 3829 3853
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 114 3829 3854 "ocamlbuild/slurp.ml" 114 3829 3858
+type(
+  string list
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+)
+"ocamlbuild/slurp.ml" 114 3829 3859 "ocamlbuild/slurp.ml" 114 3829 3866
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 111 3627 3698 "ocamlbuild/slurp.ml" 111 3627 3705
+)
+"ocamlbuild/slurp.ml" 114 3829 3845 "ocamlbuild/slurp.ml" 114 3829 3866
+call(
+  stack
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 114 3829 3840 "ocamlbuild/slurp.ml" 114 3829 3866
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 112 3709 3715 "ocamlbuild/slurp.ml" 114 3829 3866
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 115 3867 3872 "ocamlbuild/slurp.ml" 115 3867 3877
+type(
+  string
+)
+ident(
+  def xpath "ocamlbuild/slurp.ml" 116 3886 3892 "ocamlbuild/slurp.ml" 116 3886 3949
+)
+"ocamlbuild/slurp.ml" 115 3867 3871 "ocamlbuild/slurp.ml" 115 3867 3878
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 115 3867 3880 "ocamlbuild/slurp.ml" 115 3867 3882
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 115 3867 3871 "ocamlbuild/slurp.ml" 115 3867 3882
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 116 3886 3898 "ocamlbuild/slurp.ml" 116 3886 3902
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 116 3886 3904 "ocamlbuild/slurp.ml" 116 3886 3909
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 115 3867 3872 "ocamlbuild/slurp.ml" 115 3867 3877
+)
+"ocamlbuild/slurp.ml" 116 3886 3917 "ocamlbuild/slurp.ml" 116 3886 3929
+type(
+  string -> My_unix.stats
+)
+ident(
+  ext_ref My_unix.stat
+)
+"ocamlbuild/slurp.ml" 116 3886 3931 "ocamlbuild/slurp.ml" 116 3886 3935
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 116 3886 3935 "ocamlbuild/slurp.ml" 116 3886 3936
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 116 3886 3936 "ocamlbuild/slurp.ml" 116 3886 3941
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 115 3867 3872 "ocamlbuild/slurp.ml" 115 3867 3877
+)
+"ocamlbuild/slurp.ml" 116 3886 3930 "ocamlbuild/slurp.ml" 116 3886 3942
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 116 3886 3916 "ocamlbuild/slurp.ml" 116 3886 3943
+call(
+  tail
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 116 3886 3911 "ocamlbuild/slurp.ml" 116 3886 3943
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 116 3886 3945 "ocamlbuild/slurp.ml" 116 3886 3947
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 116 3886 3893 "ocamlbuild/slurp.ml" 116 3886 3948
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 116 3886 3892 "ocamlbuild/slurp.ml" 116 3886 3949
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 117 3950 3954 "ocamlbuild/slurp.ml" 117 3950 3959
+type(
+  string
+)
+ident(
+  def xpath "ocamlbuild/slurp.ml" 118 3977 3983 "ocamlbuild/slurp.ml" 120 4070 4116
+)
+"ocamlbuild/slurp.ml" 117 3950 3963 "ocamlbuild/slurp.ml" 117 3950 3969
+type(
+  string list
+)
+ident(
+  def xspath "ocamlbuild/slurp.ml" 118 3977 3983 "ocamlbuild/slurp.ml" 120 4070 4116
+)
+"ocamlbuild/slurp.ml" 117 3950 3954 "ocamlbuild/slurp.ml" 117 3950 3969
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 117 3950 3971 "ocamlbuild/slurp.ml" 117 3950 3973
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 117 3950 3954 "ocamlbuild/slurp.ml" 117 3950 3973
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 118 3977 3988 "ocamlbuild/slurp.ml" 118 3977 3992
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 118 3977 3992 "ocamlbuild/slurp.ml" 118 3977 3993
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 118 3977 3994 "ocamlbuild/slurp.ml" 118 3977 3998
+type(
+  string list -> string
+)
+ident(
+  int_ref join "ocamlbuild/slurp.ml" 102 3457 3465 "ocamlbuild/slurp.ml" 102 3457 3469
+)
+"ocamlbuild/slurp.ml" 118 3977 3999 "ocamlbuild/slurp.ml" 118 3977 4005
+type(
+  string list
+)
+ident(
+  int_ref xspath "ocamlbuild/slurp.ml" 117 3950 3963 "ocamlbuild/slurp.ml" 117 3950 3969
+)
+"ocamlbuild/slurp.ml" 118 3977 3993 "ocamlbuild/slurp.ml" 118 3977 4006
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 118 3977 3988 "ocamlbuild/slurp.ml" 118 3977 4006
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 118 3977 4008 "ocamlbuild/slurp.ml" 118 3977 4013
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 117 3950 3954 "ocamlbuild/slurp.ml" 117 3950 3959
+)
+"ocamlbuild/slurp.ml" 119 4015 4032 "ocamlbuild/slurp.ml" 119 4015 4044
+type(
+  string -> My_unix.stats
+)
+ident(
+  ext_ref My_unix.stat
+)
+"ocamlbuild/slurp.ml" 119 4015 4046 "ocamlbuild/slurp.ml" 119 4015 4050
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 119 4015 4050 "ocamlbuild/slurp.ml" 119 4015 4051
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 119 4015 4052 "ocamlbuild/slurp.ml" 119 4015 4056
+type(
+  string list -> string
+)
+ident(
+  int_ref join "ocamlbuild/slurp.ml" 102 3457 3465 "ocamlbuild/slurp.ml" 102 3457 3469
+)
+"ocamlbuild/slurp.ml" 119 4015 4057 "ocamlbuild/slurp.ml" 119 4015 4061
+type(
+  string list
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+)
+"ocamlbuild/slurp.ml" 119 4015 4051 "ocamlbuild/slurp.ml" 119 4015 4062
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 119 4015 4045 "ocamlbuild/slurp.ml" 119 4015 4063
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 119 4015 4031 "ocamlbuild/slurp.ml" 119 4015 4064
+call(
+  tail
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 119 4015 4026 "ocamlbuild/slurp.ml" 119 4015 4064
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 119 4015 4066 "ocamlbuild/slurp.ml" 119 4015 4068
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 120 4070 4087 "ocamlbuild/slurp.ml" 120 4070 4090
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 120 4070 4092 "ocamlbuild/slurp.ml" 120 4070 4096
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 120 4070 4096 "ocamlbuild/slurp.ml" 120 4070 4097
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 120 4070 4097 "ocamlbuild/slurp.ml" 120 4070 4102
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 117 3950 3954 "ocamlbuild/slurp.ml" 117 3950 3959
+)
+"ocamlbuild/slurp.ml" 120 4070 4091 "ocamlbuild/slurp.ml" 120 4070 4103
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 120 4070 4104 "ocamlbuild/slurp.ml" 120 4070 4110
+type(
+  string list
+)
+ident(
+  int_ref xspath "ocamlbuild/slurp.ml" 117 3950 3963 "ocamlbuild/slurp.ml" 117 3950 3969
+)
+"ocamlbuild/slurp.ml" 120 4070 4111 "ocamlbuild/slurp.ml" 120 4070 4113
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 120 4070 4086 "ocamlbuild/slurp.ml" 120 4070 4114
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 120 4070 4081 "ocamlbuild/slurp.ml" 120 4070 4114
+type(
+  unit entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 118 3977 3984 "ocamlbuild/slurp.ml" 120 4070 4115
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 118 3977 3983 "ocamlbuild/slurp.ml" 120 4070 4116
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 121 4117 4121 "ocamlbuild/slurp.ml" 121 4117 4122
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 121 4117 4124 "ocamlbuild/slurp.ml" 121 4117 4131
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 121 4117 4135 "ocamlbuild/slurp.ml" 121 4117 4142
+type(
+  unit entry list
+)
+ident(
+  def entries "ocamlbuild/slurp.ml" 121 4117 4146 "ocamlbuild/slurp.ml" 121 4117 4167
+)
+"ocamlbuild/slurp.ml" 121 4117 4124 "ocamlbuild/slurp.ml" 121 4117 4142
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 121 4117 4121 "ocamlbuild/slurp.ml" 121 4117 4142
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 121 4117 4146 "ocamlbuild/slurp.ml" 121 4117 4149
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 121 4117 4150 "ocamlbuild/slurp.ml" 121 4117 4154
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 121 4117 4155 "ocamlbuild/slurp.ml" 121 4117 4159
+type(
+  string list
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+)
+"ocamlbuild/slurp.ml" 121 4117 4160 "ocamlbuild/slurp.ml" 121 4117 4167
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 121 4117 4135 "ocamlbuild/slurp.ml" 121 4117 4142
+)
+"ocamlbuild/slurp.ml" 121 4117 4146 "ocamlbuild/slurp.ml" 121 4117 4167
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 122 4168 4172 "ocamlbuild/slurp.ml" 122 4168 4173
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 122 4168 4181 "ocamlbuild/slurp.ml" 122 4168 4182
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 122 4168 4175 "ocamlbuild/slurp.ml" 122 4168 4182
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 122 4168 4186 "ocamlbuild/slurp.ml" 122 4168 4187
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 122 4168 4175 "ocamlbuild/slurp.ml" 122 4168 4187
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 122 4168 4172 "ocamlbuild/slurp.ml" 122 4168 4187
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 122 4168 4191 "ocamlbuild/slurp.ml" 122 4168 4198
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 108 3547 3569 "ocamlbuild/slurp.ml" 108 3547 3576
+)
+"ocamlbuild/slurp.ml" 123 4199 4204 "ocamlbuild/slurp.ml" 123 4199 4209
+type(
+  string
+)
+ident(
+  def xpath "ocamlbuild/slurp.ml" 124 4255 4261 "ocamlbuild/slurp.ml" 125 4291 4329
+)
+"ocamlbuild/slurp.ml" 123 4199 4203 "ocamlbuild/slurp.ml" 123 4199 4210
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 123 4199 4218 "ocamlbuild/slurp.ml" 123 4199 4219
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 123 4199 4221 "ocamlbuild/slurp.ml" 123 4199 4226
+type(
+  string
+)
+ident(
+  def fname "ocamlbuild/slurp.ml" 124 4255 4261 "ocamlbuild/slurp.ml" 125 4291 4329
+)
+"ocamlbuild/slurp.ml" 123 4199 4228 "ocamlbuild/slurp.ml" 123 4199 4229
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 123 4199 4231 "ocamlbuild/slurp.ml" 123 4199 4232
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 123 4199 4213 "ocamlbuild/slurp.ml" 123 4199 4233
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 123 4199 4212 "ocamlbuild/slurp.ml" 123 4199 4239
+type(
+  unit entry
+)
+ident(
+  def f "ocamlbuild/slurp.ml" 124 4255 4261 "ocamlbuild/slurp.ml" 125 4291 4329
+)
+"ocamlbuild/slurp.ml" 123 4199 4243 "ocamlbuild/slurp.ml" 123 4199 4251
+type(
+  unit entry list
+)
+ident(
+  def entries' "ocamlbuild/slurp.ml" 124 4255 4261 "ocamlbuild/slurp.ml" 125 4291 4329
+)
+"ocamlbuild/slurp.ml" 123 4199 4212 "ocamlbuild/slurp.ml" 123 4199 4251
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 123 4199 4203 "ocamlbuild/slurp.ml" 123 4199 4251
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 124 4255 4264 "ocamlbuild/slurp.ml" 124 4255 4269
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 123 4199 4204 "ocamlbuild/slurp.ml" 123 4199 4209
+)
+"ocamlbuild/slurp.ml" 124 4255 4270 "ocamlbuild/slurp.ml" 124 4255 4271
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/slurp.ml" 124 4255 4272 "ocamlbuild/slurp.ml" 124 4255 4277
+type(
+  string
+)
+ident(
+  int_ref fname "ocamlbuild/slurp.ml" 123 4199 4221 "ocamlbuild/slurp.ml" 123 4199 4226
+)
+"ocamlbuild/slurp.ml" 124 4255 4264 "ocamlbuild/slurp.ml" 124 4255 4277
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 124 4255 4283 "ocamlbuild/slurp.ml" 124 4255 4290
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 108 3547 3569 "ocamlbuild/slurp.ml" 108 3547 3576
+)
+"ocamlbuild/slurp.ml" 125 4291 4302 "ocamlbuild/slurp.ml" 125 4291 4303
+type(
+  unit entry
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 123 4199 4212 "ocamlbuild/slurp.ml" 123 4199 4239
+)
+"ocamlbuild/slurp.ml" 125 4291 4307 "ocamlbuild/slurp.ml" 125 4291 4310
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 125 4291 4311 "ocamlbuild/slurp.ml" 125 4291 4315
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 125 4291 4316 "ocamlbuild/slurp.ml" 125 4291 4320
+type(
+  string list
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+)
+"ocamlbuild/slurp.ml" 125 4291 4321 "ocamlbuild/slurp.ml" 125 4291 4329
+type(
+  unit entry list
+)
+ident(
+  int_ref entries' "ocamlbuild/slurp.ml" 123 4199 4243 "ocamlbuild/slurp.ml" 123 4199 4251
+)
+"ocamlbuild/slurp.ml" 125 4291 4307 "ocamlbuild/slurp.ml" 125 4291 4329
+call(
+  stack
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 125 4291 4302 "ocamlbuild/slurp.ml" 125 4291 4329
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 124 4255 4261 "ocamlbuild/slurp.ml" 125 4291 4329
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 126 4330 4334 "ocamlbuild/slurp.ml" 126 4330 4339
+type(
+  string
+)
+ident(
+  def xpath "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4343 "ocamlbuild/slurp.ml" 126 4330 4349
+type(
+  string list
+)
+ident(
+  def xspath "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4334 "ocamlbuild/slurp.ml" 126 4330 4349
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 126 4330 4357 "ocamlbuild/slurp.ml" 126 4330 4362
+type(
+  string
+)
+ident(
+  def fpath "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4364 "ocamlbuild/slurp.ml" 126 4330 4369
+type(
+  string
+)
+ident(
+  def fname "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4371 "ocamlbuild/slurp.ml" 126 4330 4374
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def fst "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4376 "ocamlbuild/slurp.ml" 126 4330 4381
+type(
+  unit
+)
+ident(
+  def fattr "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4352 "ocamlbuild/slurp.ml" 126 4330 4382
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 126 4330 4351 "ocamlbuild/slurp.ml" 126 4330 4388
+type(
+  unit entry
+)
+ident(
+  def f "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4392 "ocamlbuild/slurp.ml" 126 4330 4400
+type(
+  unit entry list
+)
+ident(
+  def entries' "ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+)
+"ocamlbuild/slurp.ml" 126 4330 4351 "ocamlbuild/slurp.ml" 126 4330 4400
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 126 4330 4334 "ocamlbuild/slurp.ml" 126 4330 4400
+type(
+  string list * unit entry list
+)
+"ocamlbuild/slurp.ml" 127 4404 4413 "ocamlbuild/slurp.ml" 127 4404 4418
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 126 4330 4334 "ocamlbuild/slurp.ml" 126 4330 4339
+)
+"ocamlbuild/slurp.ml" 127 4404 4419 "ocamlbuild/slurp.ml" 127 4404 4420
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"ocamlbuild/slurp.ml" 127 4404 4421 "ocamlbuild/slurp.ml" 127 4404 4426
+type(
+  string
+)
+ident(
+  int_ref fname "ocamlbuild/slurp.ml" 126 4330 4364 "ocamlbuild/slurp.ml" 126 4330 4369
+)
+"ocamlbuild/slurp.ml" 127 4404 4413 "ocamlbuild/slurp.ml" 127 4404 4426
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 128 4432 4444 "ocamlbuild/slurp.ml" 128 4432 4449
+type(
+  string
+)
+ident(
+  int_ref fpath "ocamlbuild/slurp.ml" 126 4330 4357 "ocamlbuild/slurp.ml" 126 4330 4362
+)
+"ocamlbuild/slurp.ml" 128 4432 4451 "ocamlbuild/slurp.ml" 128 4432 4456
+type(
+  string
+)
+ident(
+  int_ref fname "ocamlbuild/slurp.ml" 126 4330 4364 "ocamlbuild/slurp.ml" 126 4330 4369
+)
+"ocamlbuild/slurp.ml" 128 4432 4458 "ocamlbuild/slurp.ml" 128 4432 4461
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref fst "ocamlbuild/slurp.ml" 126 4330 4371 "ocamlbuild/slurp.ml" 126 4330 4374
+)
+"ocamlbuild/slurp.ml" 128 4432 4463 "ocamlbuild/slurp.ml" 128 4432 4468
+type(
+  unit
+)
+ident(
+  int_ref fattr "ocamlbuild/slurp.ml" 126 4330 4376 "ocamlbuild/slurp.ml" 126 4330 4381
+)
+"ocamlbuild/slurp.ml" 128 4432 4476 "ocamlbuild/slurp.ml" 128 4432 4479
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 128 4432 4481 "ocamlbuild/slurp.ml" 128 4432 4485
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 128 4432 4485 "ocamlbuild/slurp.ml" 128 4432 4486
+type(
+  string -> string -> string
+)
+ident(
+  int_ref / "ocamlbuild/slurp.ml" 24 995 999 "ocamlbuild/slurp.ml" 24 995 1002
+)
+"ocamlbuild/slurp.ml" 128 4432 4486 "ocamlbuild/slurp.ml" 128 4432 4491
+type(
+  string
+)
+ident(
+  int_ref xpath "ocamlbuild/slurp.ml" 126 4330 4334 "ocamlbuild/slurp.ml" 126 4330 4339
+)
+"ocamlbuild/slurp.ml" 128 4432 4480 "ocamlbuild/slurp.ml" 128 4432 4492
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 128 4432 4493 "ocamlbuild/slurp.ml" 128 4432 4499
+type(
+  string list
+)
+ident(
+  int_ref xspath "ocamlbuild/slurp.ml" 126 4330 4343 "ocamlbuild/slurp.ml" 126 4330 4349
+)
+"ocamlbuild/slurp.ml" 128 4432 4500 "ocamlbuild/slurp.ml" 128 4432 4502
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 128 4432 4475 "ocamlbuild/slurp.ml" 128 4432 4503
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 128 4432 4470 "ocamlbuild/slurp.ml" 128 4432 4503
+type(
+  unit entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 128 4432 4440 "ocamlbuild/slurp.ml" 128 4432 4504
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 128 4432 4508 "ocamlbuild/slurp.ml" 128 4432 4516
+type(
+  unit entry list
+)
+ident(
+  int_ref entries' "ocamlbuild/slurp.ml" 126 4330 4392 "ocamlbuild/slurp.ml" 126 4330 4400
+)
+"ocamlbuild/slurp.ml" 128 4432 4440 "ocamlbuild/slurp.ml" 128 4432 4516
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 129 4517 4528 "ocamlbuild/slurp.ml" 129 4517 4529
+type(
+  unit entry
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 126 4330 4351 "ocamlbuild/slurp.ml" 126 4330 4388
+)
+"ocamlbuild/slurp.ml" 129 4517 4533 "ocamlbuild/slurp.ml" 129 4517 4536
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 129 4517 4537 "ocamlbuild/slurp.ml" 129 4517 4541
+type(
+  string
+)
+ident(
+  int_ref root "ocamlbuild/slurp.ml" 108 3547 3559 "ocamlbuild/slurp.ml" 108 3547 3563
+)
+"ocamlbuild/slurp.ml" 129 4517 4542 "ocamlbuild/slurp.ml" 129 4517 4546
+type(
+  string list
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 108 3547 3564 "ocamlbuild/slurp.ml" 108 3547 3568
+)
+"ocamlbuild/slurp.ml" 129 4517 4547 "ocamlbuild/slurp.ml" 129 4517 4555
+type(
+  unit entry list
+)
+ident(
+  int_ref entries' "ocamlbuild/slurp.ml" 126 4330 4392 "ocamlbuild/slurp.ml" 126 4330 4400
+)
+"ocamlbuild/slurp.ml" 129 4517 4533 "ocamlbuild/slurp.ml" 129 4517 4555
+call(
+  stack
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 129 4517 4528 "ocamlbuild/slurp.ml" 129 4517 4555
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 127 4404 4410 "ocamlbuild/slurp.ml" 129 4517 4555
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 109 3579 3581 "ocamlbuild/slurp.ml" 129 4517 4555
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 131 4557 4561 "ocamlbuild/slurp.ml" 131 4557 4576
+type(
+  string -> unit entry
+)
+ident(
+  def slurp_with_find "ocamlbuild/slurp.ml" 147 5074 5074 --
+)
+"ocamlbuild/slurp.ml" 131 4557 4577 "ocamlbuild/slurp.ml" 131 4557 4581
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 132 4584 4586 "ocamlbuild/slurp.ml" 145 4980 5072
+)
+"ocamlbuild/slurp.ml" 132 4584 4590 "ocamlbuild/slurp.ml" 132 4584 4595
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 133 4598 4602 "ocamlbuild/slurp.ml" 133 4598 4622
+type(
+  string -> (in_channel -> string list) -> string list
+)
+ident(
+  ext_ref My_unix.run_and_open
+)
+"ocamlbuild/slurp.ml" 133 4598 4624 "ocamlbuild/slurp.ml" 133 4598 4638
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ocamlbuild/slurp.ml" 133 4598 4639 "ocamlbuild/slurp.ml" 133 4598 4648
+type(
+  (string -> string, unit, string) format
+)
+"ocamlbuild/slurp.ml" 133 4598 4650 "ocamlbuild/slurp.ml" 133 4598 4664
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.quote
+)
+"ocamlbuild/slurp.ml" 133 4598 4665 "ocamlbuild/slurp.ml" 133 4598 4669
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 131 4557 4577 "ocamlbuild/slurp.ml" 131 4557 4581
+)
+"ocamlbuild/slurp.ml" 133 4598 4649 "ocamlbuild/slurp.ml" 133 4598 4670
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 133 4598 4623 "ocamlbuild/slurp.ml" 133 4598 4671
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 133 4598 4682 "ocamlbuild/slurp.ml" 133 4598 4684
+type(
+  in_channel
+)
+ident(
+  def ic "ocamlbuild/slurp.ml" 134 4688 4694 "ocamlbuild/slurp.ml" 136 4776 4806
+)
+"ocamlbuild/slurp.ml" 134 4688 4698 "ocamlbuild/slurp.ml" 134 4688 4701
+type(
+  string list ref
+)
+"ocamlbuild/slurp.ml" 134 4688 4704 "ocamlbuild/slurp.ml" 134 4688 4707
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ocamlbuild/slurp.ml" 134 4688 4708 "ocamlbuild/slurp.ml" 134 4688 4710
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 134 4688 4704 "ocamlbuild/slurp.ml" 134 4688 4710
+type(
+  string list ref
+)
+"ocamlbuild/slurp.ml" 135 4714 4730 "ocamlbuild/slurp.ml" 135 4714 4734
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 135 4714 4738 "ocamlbuild/slurp.ml" 135 4714 4741
+type(
+  string list ref
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 134 4688 4698 "ocamlbuild/slurp.ml" 134 4688 4701
+)
+"ocamlbuild/slurp.ml" 135 4714 4742 "ocamlbuild/slurp.ml" 135 4714 4744
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"ocamlbuild/slurp.ml" 135 4714 4745 "ocamlbuild/slurp.ml" 135 4714 4755
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"ocamlbuild/slurp.ml" 135 4714 4756 "ocamlbuild/slurp.ml" 135 4714 4758
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ocamlbuild/slurp.ml" 133 4598 4682 "ocamlbuild/slurp.ml" 133 4598 4684
+)
+"ocamlbuild/slurp.ml" 135 4714 4745 "ocamlbuild/slurp.ml" 135 4714 4758
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 135 4714 4762 "ocamlbuild/slurp.ml" 135 4714 4763
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/slurp.ml" 135 4714 4763 "ocamlbuild/slurp.ml" 135 4714 4766
+type(
+  string list ref
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 134 4688 4698 "ocamlbuild/slurp.ml" 134 4688 4701
+)
+"ocamlbuild/slurp.ml" 135 4714 4762 "ocamlbuild/slurp.ml" 135 4714 4766
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 135 4714 4745 "ocamlbuild/slurp.ml" 135 4714 4766
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 135 4714 4738 "ocamlbuild/slurp.ml" 135 4714 4766
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 135 4714 4724 "ocamlbuild/slurp.ml" 135 4714 4771
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 135 4714 4773 "ocamlbuild/slurp.ml" 135 4714 4775
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 135 4714 4724 "ocamlbuild/slurp.ml" 135 4714 4775
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 136 4776 4787 "ocamlbuild/slurp.ml" 136 4776 4798
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 136 4776 4802 "ocamlbuild/slurp.ml" 136 4776 4803
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"ocamlbuild/slurp.ml" 136 4776 4803 "ocamlbuild/slurp.ml" 136 4776 4806
+type(
+  string list ref
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 134 4688 4698 "ocamlbuild/slurp.ml" 134 4688 4701
+)
+"ocamlbuild/slurp.ml" 136 4776 4802 "ocamlbuild/slurp.ml" 136 4776 4806
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 135 4714 4720 "ocamlbuild/slurp.ml" 136 4776 4806
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 134 4688 4694 "ocamlbuild/slurp.ml" 136 4776 4806
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 133 4598 4672 "ocamlbuild/slurp.ml" 137 4807 4814
+type(
+  in_channel -> string list
+)
+"ocamlbuild/slurp.ml" 133 4598 4602 "ocamlbuild/slurp.ml" 137 4807 4814
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 138 4818 4824 "ocamlbuild/slurp.ml" 138 4818 4827
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 139 4830 4834 "ocamlbuild/slurp.ml" 139 4830 4849
+type(
+  (string -> unit entry list -> unit entry list) ->
+  string list -> unit entry list -> unit entry list
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/slurp.ml" 139 4830 4860 "ocamlbuild/slurp.ml" 139 4830 4864
+type(
+  string
+)
+ident(
+  def line "ocamlbuild/slurp.ml" 139 4830 4865 "ocamlbuild/slurp.ml" 140 4872 4903
+)
+"ocamlbuild/slurp.ml" 139 4830 4865 "ocamlbuild/slurp.ml" 139 4830 4868
+type(
+  unit entry list
+)
+ident(
+  def acc "ocamlbuild/slurp.ml" 140 4872 4878 "ocamlbuild/slurp.ml" 140 4872 4903
+)
+"ocamlbuild/slurp.ml" 140 4872 4878 "ocamlbuild/slurp.ml" 140 4872 4881
+type(
+  string -> string list -> unit entry list -> unit entry list
+)
+ident(
+  int_ref add "ocamlbuild/slurp.ml" 108 3547 3555 "ocamlbuild/slurp.ml" 108 3547 3558
+)
+"ocamlbuild/slurp.ml" 140 4872 4882 "ocamlbuild/slurp.ml" 140 4872 4886
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 131 4557 4577 "ocamlbuild/slurp.ml" 131 4557 4581
+)
+"ocamlbuild/slurp.ml" 140 4872 4888 "ocamlbuild/slurp.ml" 140 4872 4893
+type(
+  string -> string list
+)
+ident(
+  int_ref split "ocamlbuild/slurp.ml" 96 3280 3284 "ocamlbuild/slurp.ml" 96 3280 3289
+)
+"ocamlbuild/slurp.ml" 140 4872 4894 "ocamlbuild/slurp.ml" 140 4872 4898
+type(
+  string
+)
+ident(
+  int_ref line "ocamlbuild/slurp.ml" 139 4830 4860 "ocamlbuild/slurp.ml" 139 4830 4864
+)
+"ocamlbuild/slurp.ml" 140 4872 4887 "ocamlbuild/slurp.ml" 140 4872 4899
+call(
+  stack
+)
+type(
+  string list
+)
+"ocamlbuild/slurp.ml" 140 4872 4900 "ocamlbuild/slurp.ml" 140 4872 4903
+type(
+  unit entry list
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 139 4830 4865 "ocamlbuild/slurp.ml" 139 4830 4868
+)
+"ocamlbuild/slurp.ml" 140 4872 4878 "ocamlbuild/slurp.ml" 140 4872 4903
+call(
+  tail
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 139 4830 4850 "ocamlbuild/slurp.ml" 141 4904 4911
+type(
+  string -> unit entry list -> unit entry list
+)
+"ocamlbuild/slurp.ml" 141 4904 4912 "ocamlbuild/slurp.ml" 141 4904 4917
+type(
+  string list
+)
+ident(
+  int_ref lines "ocamlbuild/slurp.ml" 132 4584 4590 "ocamlbuild/slurp.ml" 132 4584 4595
+)
+"ocamlbuild/slurp.ml" 141 4904 4918 "ocamlbuild/slurp.ml" 141 4904 4920
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 139 4830 4834 "ocamlbuild/slurp.ml" 141 4904 4920
+call(
+  stack
+)
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 142 4924 4932 "ocamlbuild/slurp.ml" 142 4924 4935
+type(
+  unit entry list
+)
+ident(
+  int_ref res "ocamlbuild/slurp.ml" 138 4818 4824 "ocamlbuild/slurp.ml" 138 4818 4827
+)
+"ocamlbuild/slurp.ml" 143 4941 4945 "ocamlbuild/slurp.ml" 143 4941 4947
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 143 4941 4951 "ocamlbuild/slurp.ml" 143 4941 4958
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 144 4959 4964 "ocamlbuild/slurp.ml" 144 4959 4969
+type(
+  unit entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 144 4959 4974 "ocamlbuild/slurp.ml" 144 4959 4979
+)
+"ocamlbuild/slurp.ml" 144 4959 4963 "ocamlbuild/slurp.ml" 144 4959 4970
+type(
+  unit entry list
+)
+"ocamlbuild/slurp.ml" 144 4959 4974 "ocamlbuild/slurp.ml" 144 4959 4979
+type(
+  unit entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 144 4959 4964 "ocamlbuild/slurp.ml" 144 4959 4969
+)
+"ocamlbuild/slurp.ml" 145 4980 4984 "ocamlbuild/slurp.ml" 145 4980 4991
+type(
+  unit entry list
+)
+ident(
+  def entries "ocamlbuild/slurp.ml" 145 4980 4995 "ocamlbuild/slurp.ml" 145 4980 5072
+)
+"ocamlbuild/slurp.ml" 145 4980 4999 "ocamlbuild/slurp.ml" 145 4980 5003
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 131 4557 4577 "ocamlbuild/slurp.ml" 131 4557 4581
+)
+"ocamlbuild/slurp.ml" 145 4980 5005 "ocamlbuild/slurp.ml" 145 4980 5022
+type(
+  string -> string
+)
+ident(
+  ext_ref Filename.basename
+)
+"ocamlbuild/slurp.ml" 145 4980 5023 "ocamlbuild/slurp.ml" 145 4980 5027
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 131 4557 4577 "ocamlbuild/slurp.ml" 131 4557 4581
+)
+"ocamlbuild/slurp.ml" 145 4980 5005 "ocamlbuild/slurp.ml" 145 4980 5027
+call(
+  stack
+)
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 145 4980 5035 "ocamlbuild/slurp.ml" 145 4980 5047
+type(
+  string -> My_unix.stats
+)
+ident(
+  ext_ref My_unix.stat
+)
+"ocamlbuild/slurp.ml" 145 4980 5048 "ocamlbuild/slurp.ml" 145 4980 5052
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 131 4557 4577 "ocamlbuild/slurp.ml" 131 4557 4581
+)
+"ocamlbuild/slurp.ml" 145 4980 5034 "ocamlbuild/slurp.ml" 145 4980 5053
+call(
+  tail
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 145 4980 5029 "ocamlbuild/slurp.ml" 145 4980 5053
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 145 4980 5055 "ocamlbuild/slurp.ml" 145 4980 5057
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 145 4980 5064 "ocamlbuild/slurp.ml" 145 4980 5071
+type(
+  unit entry list
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 145 4980 4984 "ocamlbuild/slurp.ml" 145 4980 4991
+)
+"ocamlbuild/slurp.ml" 145 4980 5059 "ocamlbuild/slurp.ml" 145 4980 5071
+type(
+  unit entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 145 4980 4995 "ocamlbuild/slurp.ml" 145 4980 5072
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 142 4924 4926 "ocamlbuild/slurp.ml" 145 4980 5072
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 138 4818 4820 "ocamlbuild/slurp.ml" 145 4980 5072
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 132 4584 4586 "ocamlbuild/slurp.ml" 145 4980 5072
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 147 5074 5078 "ocamlbuild/slurp.ml" 147 5074 5083
+type(
+  string -> unit entry
+)
+ident(
+  def slurp "ocamlbuild/slurp.ml" 149 5155 5155 --
+)
+"ocamlbuild/slurp.ml" 147 5074 5084 "ocamlbuild/slurp.ml" 147 5074 5085
+type(
+  string
+)
+ident(
+  def x "ocamlbuild/slurp.ml" 147 5074 5088 "ocamlbuild/slurp.ml" 147 5074 5153
+)
+"ocamlbuild/slurp.ml" 147 5074 5091 "ocamlbuild/slurp.ml" 147 5074 5093
+type(
+  bool Lazy.t -> bool
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 147 5074 5093 "ocamlbuild/slurp.ml" 147 5074 5112
+type(
+  bool Lazy.t
+)
+ident(
+  ext_ref My_unix.is_degraded
+)
+"ocamlbuild/slurp.ml" 147 5074 5091 "ocamlbuild/slurp.ml" 147 5074 5112
+call(
+  stack
+)
+type(
+  bool
+)
+"ocamlbuild/slurp.ml" 147 5074 5118 "ocamlbuild/slurp.ml" 147 5074 5133
+type(
+  string -> unit entry
+)
+ident(
+  int_ref slurp_with_find "ocamlbuild/slurp.ml" 131 4557 4561 "ocamlbuild/slurp.ml" 131 4557 4576
+)
+"ocamlbuild/slurp.ml" 147 5074 5134 "ocamlbuild/slurp.ml" 147 5074 5135
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 147 5074 5084 "ocamlbuild/slurp.ml" 147 5074 5085
+)
+"ocamlbuild/slurp.ml" 147 5074 5118 "ocamlbuild/slurp.ml" 147 5074 5135
+call(
+  tail
+)
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 147 5074 5141 "ocamlbuild/slurp.ml" 147 5074 5151
+type(
+  string -> unit entry
+)
+ident(
+  int_ref real_slurp "ocamlbuild/slurp.ml" 40 1406 1410 "ocamlbuild/slurp.ml" 40 1406 1420
+)
+"ocamlbuild/slurp.ml" 147 5074 5152 "ocamlbuild/slurp.ml" 147 5074 5153
+type(
+  string
+)
+ident(
+  int_ref x "ocamlbuild/slurp.ml" 147 5074 5084 "ocamlbuild/slurp.ml" 147 5074 5085
+)
+"ocamlbuild/slurp.ml" 147 5074 5141 "ocamlbuild/slurp.ml" 147 5074 5153
+call(
+  tail
+)
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 147 5074 5088 "ocamlbuild/slurp.ml" 147 5074 5153
+type(
+  unit entry
+)
+"ocamlbuild/slurp.ml" 149 5155 5163 "ocamlbuild/slurp.ml" 149 5155 5168
+type(
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a entry -> unit
+)
+ident(
+  def print "ocamlbuild/slurp.ml" 149 5155 5155 --
+)
+"ocamlbuild/slurp.ml" 149 5155 5169 "ocamlbuild/slurp.ml" 149 5155 5179
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def print_attr "ocamlbuild/slurp.ml" 149 5155 5180 "ocamlbuild/slurp.ml" 159 5563 5596
+)
+"ocamlbuild/slurp.ml" 149 5155 5180 "ocamlbuild/slurp.ml" 149 5155 5181
+type(
+  Format.formatter
+)
+ident(
+  def f "ocamlbuild/slurp.ml" 149 5155 5182 "ocamlbuild/slurp.ml" 159 5563 5596
+)
+"ocamlbuild/slurp.ml" 149 5155 5182 "ocamlbuild/slurp.ml" 149 5155 5187
+type(
+  'a entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 150 5190 5192 "ocamlbuild/slurp.ml" 159 5563 5596
+)
+"ocamlbuild/slurp.ml" 150 5190 5198 "ocamlbuild/slurp.ml" 150 5190 5203
+type(
+  'a entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 149 5155 5182 "ocamlbuild/slurp.ml" 149 5155 5187
+)
+"ocamlbuild/slurp.ml" 151 5209 5217 "ocamlbuild/slurp.ml" 151 5209 5221
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 152 5250 5256 "ocamlbuild/slurp.ml" 153 5309 5384
+)
+"ocamlbuild/slurp.ml" 151 5209 5223 "ocamlbuild/slurp.ml" 151 5209 5227
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 152 5250 5256 "ocamlbuild/slurp.ml" 153 5309 5384
+)
+"ocamlbuild/slurp.ml" 151 5209 5229 "ocamlbuild/slurp.ml" 151 5209 5230
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 151 5209 5232 "ocamlbuild/slurp.ml" 151 5209 5236
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 152 5250 5256 "ocamlbuild/slurp.ml" 153 5309 5384
+)
+"ocamlbuild/slurp.ml" 151 5209 5238 "ocamlbuild/slurp.ml" 151 5209 5245
+type(
+  'a entry list Lazy.t
+)
+ident(
+  def entries "ocamlbuild/slurp.ml" 152 5250 5256 "ocamlbuild/slurp.ml" 153 5309 5384
+)
+"ocamlbuild/slurp.ml" 151 5209 5213 "ocamlbuild/slurp.ml" 151 5209 5246
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 152 5250 5256 "ocamlbuild/slurp.ml" 152 5250 5270
+type(
+  Format.formatter ->
+  (string ->
+   string ->
+   (Format.formatter -> 'a -> unit) ->
+   'a -> (Format.formatter -> 'a entry list -> unit) -> 'a entry list -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string ->
+  (Format.formatter -> 'a -> unit) ->
+  'a -> (Format.formatter -> 'a entry list -> unit) -> 'a entry list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/slurp.ml" 152 5250 5271 "ocamlbuild/slurp.ml" 152 5250 5272
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 149 5155 5180 "ocamlbuild/slurp.ml" 149 5155 5181
+)
+"ocamlbuild/slurp.ml" 152 5250 5273 "ocamlbuild/slurp.ml" 152 5250 5308
+type(
+  (string ->
+   string ->
+   (Format.formatter -> 'a -> unit) ->
+   'a -> (Format.formatter -> 'a entry list -> unit) -> 'a entry list -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocamlbuild/slurp.ml" 153 5309 5317 "ocamlbuild/slurp.ml" 153 5309 5321
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 151 5209 5217 "ocamlbuild/slurp.ml" 151 5209 5221
+)
+"ocamlbuild/slurp.ml" 153 5309 5322 "ocamlbuild/slurp.ml" 153 5309 5326
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 151 5209 5223 "ocamlbuild/slurp.ml" 151 5209 5227
+)
+"ocamlbuild/slurp.ml" 153 5309 5327 "ocamlbuild/slurp.ml" 153 5309 5337
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_attr "ocamlbuild/slurp.ml" 149 5155 5169 "ocamlbuild/slurp.ml" 149 5155 5179
+)
+"ocamlbuild/slurp.ml" 153 5309 5338 "ocamlbuild/slurp.ml" 153 5309 5342
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 151 5209 5232 "ocamlbuild/slurp.ml" 151 5209 5236
+)
+"ocamlbuild/slurp.ml" 153 5309 5344 "ocamlbuild/slurp.ml" 153 5309 5354
+type(
+  (Format.formatter -> 'a entry -> unit) ->
+  Format.formatter -> 'a entry list -> unit
+)
+ident(
+  ext_ref My_std.List.print
+)
+"ocamlbuild/slurp.ml" 153 5309 5356 "ocamlbuild/slurp.ml" 153 5309 5361
+type(
+  (Format.formatter -> 'a -> unit) -> Format.formatter -> 'a entry -> unit
+)
+ident(
+  int_ref print "ocamlbuild/slurp.ml" 149 5155 5163 "ocamlbuild/slurp.ml" 149 5155 5168
+)
+"ocamlbuild/slurp.ml" 153 5309 5362 "ocamlbuild/slurp.ml" 153 5309 5372
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_attr "ocamlbuild/slurp.ml" 149 5155 5169 "ocamlbuild/slurp.ml" 149 5155 5179
+)
+"ocamlbuild/slurp.ml" 153 5309 5355 "ocamlbuild/slurp.ml" 153 5309 5373
+call(
+  stack
+)
+type(
+  Format.formatter -> 'a entry -> unit
+)
+"ocamlbuild/slurp.ml" 153 5309 5343 "ocamlbuild/slurp.ml" 153 5309 5374
+call(
+  stack
+)
+type(
+  Format.formatter -> 'a entry list -> unit
+)
+"ocamlbuild/slurp.ml" 153 5309 5375 "ocamlbuild/slurp.ml" 153 5309 5377
+type(
+  'a entry list Lazy.t -> 'a entry list
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 153 5309 5377 "ocamlbuild/slurp.ml" 153 5309 5384
+type(
+  'a entry list Lazy.t
+)
+ident(
+  int_ref entries "ocamlbuild/slurp.ml" 151 5209 5238 "ocamlbuild/slurp.ml" 151 5209 5245
+)
+"ocamlbuild/slurp.ml" 153 5309 5375 "ocamlbuild/slurp.ml" 153 5309 5384
+call(
+  stack
+)
+type(
+  'a entry list
+)
+"ocamlbuild/slurp.ml" 152 5250 5256 "ocamlbuild/slurp.ml" 153 5309 5384
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 154 5385 5394 "ocamlbuild/slurp.ml" 154 5385 5398
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 155 5418 5424 "ocamlbuild/slurp.ml" 155 5418 5498
+)
+"ocamlbuild/slurp.ml" 154 5385 5400 "ocamlbuild/slurp.ml" 154 5385 5404
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 155 5418 5424 "ocamlbuild/slurp.ml" 155 5418 5498
+)
+"ocamlbuild/slurp.ml" 154 5385 5406 "ocamlbuild/slurp.ml" 154 5385 5407
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 154 5385 5409 "ocamlbuild/slurp.ml" 154 5385 5413
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 155 5418 5424 "ocamlbuild/slurp.ml" 155 5418 5498
+)
+"ocamlbuild/slurp.ml" 154 5385 5389 "ocamlbuild/slurp.ml" 154 5385 5414
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 155 5418 5424 "ocamlbuild/slurp.ml" 155 5418 5438
+type(
+  Format.formatter ->
+  (string -> string -> (Format.formatter -> 'a -> unit) -> 'a -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> string -> (Format.formatter -> 'a -> unit) -> 'a -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/slurp.ml" 155 5418 5439 "ocamlbuild/slurp.ml" 155 5418 5440
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 149 5155 5180 "ocamlbuild/slurp.ml" 149 5155 5181
+)
+"ocamlbuild/slurp.ml" 155 5418 5441 "ocamlbuild/slurp.ml" 155 5418 5472
+type(
+  (string -> string -> (Format.formatter -> 'a -> unit) -> 'a -> unit,
+   Format.formatter, unit)
+  format
+)
+"ocamlbuild/slurp.ml" 155 5418 5473 "ocamlbuild/slurp.ml" 155 5418 5477
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 154 5385 5394 "ocamlbuild/slurp.ml" 154 5385 5398
+)
+"ocamlbuild/slurp.ml" 155 5418 5478 "ocamlbuild/slurp.ml" 155 5418 5482
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 154 5385 5400 "ocamlbuild/slurp.ml" 154 5385 5404
+)
+"ocamlbuild/slurp.ml" 155 5418 5483 "ocamlbuild/slurp.ml" 155 5418 5493
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref print_attr "ocamlbuild/slurp.ml" 149 5155 5169 "ocamlbuild/slurp.ml" 149 5155 5179
+)
+"ocamlbuild/slurp.ml" 155 5418 5494 "ocamlbuild/slurp.ml" 155 5418 5498
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 154 5385 5409 "ocamlbuild/slurp.ml" 154 5385 5413
+)
+"ocamlbuild/slurp.ml" 155 5418 5424 "ocamlbuild/slurp.ml" 155 5418 5498
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 156 5499 5503 "ocamlbuild/slurp.ml" 156 5499 5510
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 157 5514 5520 "ocamlbuild/slurp.ml" 157 5514 5534
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/slurp.ml" 157 5514 5535 "ocamlbuild/slurp.ml" 157 5514 5536
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 149 5155 5180 "ocamlbuild/slurp.ml" 149 5155 5181
+)
+"ocamlbuild/slurp.ml" 157 5514 5537 "ocamlbuild/slurp.ml" 157 5514 5546
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/slurp.ml" 157 5514 5520 "ocamlbuild/slurp.ml" 157 5514 5546
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 158 5547 5556 "ocamlbuild/slurp.ml" 158 5547 5559
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 158 5547 5551 "ocamlbuild/slurp.ml" 158 5547 5559
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 159 5563 5569 "ocamlbuild/slurp.ml" 159 5563 5583
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"ocamlbuild/slurp.ml" 159 5563 5584 "ocamlbuild/slurp.ml" 159 5563 5585
+type(
+  Format.formatter
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 149 5155 5180 "ocamlbuild/slurp.ml" 149 5155 5181
+)
+"ocamlbuild/slurp.ml" 159 5563 5586 "ocamlbuild/slurp.ml" 159 5563 5596
+type(
+  (unit, Format.formatter, unit) format
+)
+"ocamlbuild/slurp.ml" 159 5563 5569 "ocamlbuild/slurp.ml" 159 5563 5596
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 150 5190 5192 "ocamlbuild/slurp.ml" 159 5563 5596
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 161 5598 5606 "ocamlbuild/slurp.ml" 161 5598 5610
+type(
+  (string -> string -> 'a -> 'b -> 'b) -> 'a entry -> 'b -> 'b
+)
+ident(
+  def fold "ocamlbuild/slurp.ml" 161 5598 5598 --
+)
+"ocamlbuild/slurp.ml" 161 5598 5611 "ocamlbuild/slurp.ml" 161 5598 5612
+type(
+  string -> string -> 'a -> 'b -> 'b
+)
+ident(
+  def f "ocamlbuild/slurp.ml" 161 5598 5613 "ocamlbuild/slurp.ml" 167 5811 5839
+)
+"ocamlbuild/slurp.ml" 161 5598 5613 "ocamlbuild/slurp.ml" 161 5598 5618
+type(
+  'a entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 161 5598 5619 "ocamlbuild/slurp.ml" 167 5811 5839
+)
+"ocamlbuild/slurp.ml" 161 5598 5619 "ocamlbuild/slurp.ml" 161 5598 5622
+type(
+  'b
+)
+ident(
+  def acc "ocamlbuild/slurp.ml" 162 5625 5627 "ocamlbuild/slurp.ml" 167 5811 5839
+)
+"ocamlbuild/slurp.ml" 162 5625 5633 "ocamlbuild/slurp.ml" 162 5625 5638
+type(
+  'a entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 161 5598 5613 "ocamlbuild/slurp.ml" 161 5598 5618
+)
+"ocamlbuild/slurp.ml" 163 5644 5652 "ocamlbuild/slurp.ml" 163 5644 5656
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 164 5686 5692 "ocamlbuild/slurp.ml" 164 5686 5750
+)
+"ocamlbuild/slurp.ml" 163 5644 5658 "ocamlbuild/slurp.ml" 163 5644 5662
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 164 5686 5692 "ocamlbuild/slurp.ml" 164 5686 5750
+)
+"ocamlbuild/slurp.ml" 163 5644 5664 "ocamlbuild/slurp.ml" 163 5644 5665
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 163 5644 5667 "ocamlbuild/slurp.ml" 163 5644 5671
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 164 5686 5692 "ocamlbuild/slurp.ml" 164 5686 5750
+)
+"ocamlbuild/slurp.ml" 163 5644 5673 "ocamlbuild/slurp.ml" 163 5644 5681
+type(
+  'a entry list Lazy.t
+)
+ident(
+  def contents "ocamlbuild/slurp.ml" 164 5686 5692 "ocamlbuild/slurp.ml" 164 5686 5750
+)
+"ocamlbuild/slurp.ml" 163 5644 5648 "ocamlbuild/slurp.ml" 163 5644 5682
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 164 5686 5692 "ocamlbuild/slurp.ml" 164 5686 5693
+type(
+  string -> string -> 'a -> 'b -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 161 5598 5611 "ocamlbuild/slurp.ml" 161 5598 5612
+)
+"ocamlbuild/slurp.ml" 164 5686 5694 "ocamlbuild/slurp.ml" 164 5686 5698
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 163 5644 5652 "ocamlbuild/slurp.ml" 163 5644 5656
+)
+"ocamlbuild/slurp.ml" 164 5686 5699 "ocamlbuild/slurp.ml" 164 5686 5703
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 163 5644 5658 "ocamlbuild/slurp.ml" 163 5644 5662
+)
+"ocamlbuild/slurp.ml" 164 5686 5704 "ocamlbuild/slurp.ml" 164 5686 5708
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 163 5644 5667 "ocamlbuild/slurp.ml" 163 5644 5671
+)
+"ocamlbuild/slurp.ml" 164 5686 5710 "ocamlbuild/slurp.ml" 164 5686 5725
+type(
+  ('a entry -> 'b -> 'b) -> 'a entry list -> 'b -> 'b
+)
+ident(
+  ext_ref My_std.List.fold_right
+)
+"ocamlbuild/slurp.ml" 164 5686 5727 "ocamlbuild/slurp.ml" 164 5686 5731
+type(
+  (string -> string -> 'a -> 'b -> 'b) -> 'a entry -> 'b -> 'b
+)
+ident(
+  int_ref fold "ocamlbuild/slurp.ml" 161 5598 5606 "ocamlbuild/slurp.ml" 161 5598 5610
+)
+"ocamlbuild/slurp.ml" 164 5686 5732 "ocamlbuild/slurp.ml" 164 5686 5733
+type(
+  string -> string -> 'a -> 'b -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 161 5598 5611 "ocamlbuild/slurp.ml" 161 5598 5612
+)
+"ocamlbuild/slurp.ml" 164 5686 5726 "ocamlbuild/slurp.ml" 164 5686 5734
+call(
+  stack
+)
+type(
+  'a entry -> 'b -> 'b
+)
+"ocamlbuild/slurp.ml" 164 5686 5735 "ocamlbuild/slurp.ml" 164 5686 5737
+type(
+  'a entry list Lazy.t -> 'a entry list
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 164 5686 5737 "ocamlbuild/slurp.ml" 164 5686 5745
+type(
+  'a entry list Lazy.t
+)
+ident(
+  int_ref contents "ocamlbuild/slurp.ml" 163 5644 5673 "ocamlbuild/slurp.ml" 163 5644 5681
+)
+"ocamlbuild/slurp.ml" 164 5686 5735 "ocamlbuild/slurp.ml" 164 5686 5745
+call(
+  stack
+)
+type(
+  'a entry list
+)
+"ocamlbuild/slurp.ml" 164 5686 5746 "ocamlbuild/slurp.ml" 164 5686 5749
+type(
+  'b
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 161 5598 5619 "ocamlbuild/slurp.ml" 161 5598 5622
+)
+"ocamlbuild/slurp.ml" 164 5686 5709 "ocamlbuild/slurp.ml" 164 5686 5750
+call(
+  stack
+)
+type(
+  'b
+)
+"ocamlbuild/slurp.ml" 164 5686 5692 "ocamlbuild/slurp.ml" 164 5686 5750
+call(
+  tail
+)
+type(
+  'b
+)
+"ocamlbuild/slurp.ml" 165 5751 5760 "ocamlbuild/slurp.ml" 165 5751 5764
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 166 5784 5790 "ocamlbuild/slurp.ml" 166 5784 5810
+)
+"ocamlbuild/slurp.ml" 165 5751 5766 "ocamlbuild/slurp.ml" 165 5751 5770
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 166 5784 5790 "ocamlbuild/slurp.ml" 166 5784 5810
+)
+"ocamlbuild/slurp.ml" 165 5751 5772 "ocamlbuild/slurp.ml" 165 5751 5773
+type(
+  My_unix.stats Lazy.t
+)
+"ocamlbuild/slurp.ml" 165 5751 5775 "ocamlbuild/slurp.ml" 165 5751 5779
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 166 5784 5790 "ocamlbuild/slurp.ml" 166 5784 5810
+)
+"ocamlbuild/slurp.ml" 165 5751 5755 "ocamlbuild/slurp.ml" 165 5751 5780
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 166 5784 5790 "ocamlbuild/slurp.ml" 166 5784 5791
+type(
+  string -> string -> 'a -> 'b -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 161 5598 5611 "ocamlbuild/slurp.ml" 161 5598 5612
+)
+"ocamlbuild/slurp.ml" 166 5784 5792 "ocamlbuild/slurp.ml" 166 5784 5796
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 165 5751 5760 "ocamlbuild/slurp.ml" 165 5751 5764
+)
+"ocamlbuild/slurp.ml" 166 5784 5797 "ocamlbuild/slurp.ml" 166 5784 5801
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 165 5751 5766 "ocamlbuild/slurp.ml" 165 5751 5770
+)
+"ocamlbuild/slurp.ml" 166 5784 5802 "ocamlbuild/slurp.ml" 166 5784 5806
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 165 5751 5775 "ocamlbuild/slurp.ml" 165 5751 5779
+)
+"ocamlbuild/slurp.ml" 166 5784 5807 "ocamlbuild/slurp.ml" 166 5784 5810
+type(
+  'b
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 161 5598 5619 "ocamlbuild/slurp.ml" 161 5598 5622
+)
+"ocamlbuild/slurp.ml" 166 5784 5790 "ocamlbuild/slurp.ml" 166 5784 5810
+call(
+  tail
+)
+type(
+  'b
+)
+"ocamlbuild/slurp.ml" 167 5811 5815 "ocamlbuild/slurp.ml" 167 5811 5822
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 167 5811 5831 "ocamlbuild/slurp.ml" 167 5811 5832
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 167 5811 5825 "ocamlbuild/slurp.ml" 167 5811 5832
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 167 5811 5815 "ocamlbuild/slurp.ml" 167 5811 5832
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 167 5811 5836 "ocamlbuild/slurp.ml" 167 5811 5839
+type(
+  'b
+)
+ident(
+  int_ref acc "ocamlbuild/slurp.ml" 161 5598 5619 "ocamlbuild/slurp.ml" 161 5598 5622
+)
+"ocamlbuild/slurp.ml" 162 5625 5627 "ocamlbuild/slurp.ml" 167 5811 5839
+type(
+  'b
+)
+"ocamlbuild/slurp.ml" 169 5841 5845 "ocamlbuild/slurp.ml" 169 5841 5848
+type(
+  (string -> string -> 'a -> 'b) -> 'a entry -> 'b entry
+)
+ident(
+  def map "ocamlbuild/slurp.ml" 180 6177 6177 --
+)
+"ocamlbuild/slurp.ml" 169 5841 5849 "ocamlbuild/slurp.ml" 169 5841 5850
+type(
+  string -> string -> 'a -> 'b
+)
+ident(
+  def f "ocamlbuild/slurp.ml" 169 5841 5851 "ocamlbuild/slurp.ml" 178 6160 6175
+)
+"ocamlbuild/slurp.ml" 169 5841 5851 "ocamlbuild/slurp.ml" 169 5841 5856
+type(
+  'a entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 170 5859 5861 "ocamlbuild/slurp.ml" 178 6160 6175
+)
+"ocamlbuild/slurp.ml" 170 5859 5869 "ocamlbuild/slurp.ml" 170 5859 5873
+type(
+  'a entry -> 'b entry
+)
+"ocamlbuild/slurp.ml" 170 5859 5874 "ocamlbuild/slurp.ml" 170 5859 5879
+type(
+  'a entry
+)
+ident(
+  def entry "ocamlbuild/slurp.ml" 171 5882 5886 "ocamlbuild/slurp.ml" 177 6135 6159
+)
+"ocamlbuild/slurp.ml" 171 5882 5892 "ocamlbuild/slurp.ml" 171 5882 5897
+type(
+  'a entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 170 5859 5874 "ocamlbuild/slurp.ml" 170 5859 5879
+)
+"ocamlbuild/slurp.ml" 172 5903 5913 "ocamlbuild/slurp.ml" 172 5903 5917
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 173 5948 5956 "ocamlbuild/slurp.ml" 173 5948 6026
+)
+"ocamlbuild/slurp.ml" 172 5903 5919 "ocamlbuild/slurp.ml" 172 5903 5923
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 173 5948 5956 "ocamlbuild/slurp.ml" 173 5948 6026
+)
+"ocamlbuild/slurp.ml" 172 5903 5925 "ocamlbuild/slurp.ml" 172 5903 5927
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def st "ocamlbuild/slurp.ml" 173 5948 5956 "ocamlbuild/slurp.ml" 173 5948 6026
+)
+"ocamlbuild/slurp.ml" 172 5903 5929 "ocamlbuild/slurp.ml" 172 5903 5933
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 173 5948 5956 "ocamlbuild/slurp.ml" 173 5948 6026
+)
+"ocamlbuild/slurp.ml" 172 5903 5935 "ocamlbuild/slurp.ml" 172 5903 5943
+type(
+  'a entry list Lazy.t
+)
+ident(
+  def contents "ocamlbuild/slurp.ml" 173 5948 5956 "ocamlbuild/slurp.ml" 173 5948 6026
+)
+"ocamlbuild/slurp.ml" 172 5903 5909 "ocamlbuild/slurp.ml" 172 5903 5944
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 173 5948 5960 "ocamlbuild/slurp.ml" 173 5948 5964
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 172 5903 5913 "ocamlbuild/slurp.ml" 172 5903 5917
+)
+"ocamlbuild/slurp.ml" 173 5948 5966 "ocamlbuild/slurp.ml" 173 5948 5970
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 172 5903 5919 "ocamlbuild/slurp.ml" 172 5903 5923
+)
+"ocamlbuild/slurp.ml" 173 5948 5972 "ocamlbuild/slurp.ml" 173 5948 5974
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 172 5903 5925 "ocamlbuild/slurp.ml" 172 5903 5927
+)
+"ocamlbuild/slurp.ml" 173 5948 5976 "ocamlbuild/slurp.ml" 173 5948 5977
+type(
+  string -> string -> 'a -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 169 5841 5849 "ocamlbuild/slurp.ml" 169 5841 5850
+)
+"ocamlbuild/slurp.ml" 173 5948 5978 "ocamlbuild/slurp.ml" 173 5948 5982
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 172 5903 5913 "ocamlbuild/slurp.ml" 172 5903 5917
+)
+"ocamlbuild/slurp.ml" 173 5948 5983 "ocamlbuild/slurp.ml" 173 5948 5987
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 172 5903 5919 "ocamlbuild/slurp.ml" 172 5903 5923
+)
+"ocamlbuild/slurp.ml" 173 5948 5988 "ocamlbuild/slurp.ml" 173 5948 5992
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 172 5903 5929 "ocamlbuild/slurp.ml" 172 5903 5933
+)
+"ocamlbuild/slurp.ml" 173 5948 5976 "ocamlbuild/slurp.ml" 173 5948 5992
+call(
+  stack
+)
+type(
+  'b
+)
+"ocamlbuild/slurp.ml" 173 5948 6000 "ocamlbuild/slurp.ml" 173 5948 6008
+type(
+  ('a entry -> 'b entry) -> 'a entry list -> 'b entry list
+)
+ident(
+  ext_ref My_std.List.map
+)
+"ocamlbuild/slurp.ml" 173 5948 6009 "ocamlbuild/slurp.ml" 173 5948 6013
+type(
+  'a entry -> 'b entry
+)
+ident(
+  int_ref self "ocamlbuild/slurp.ml" 170 5859 5869 "ocamlbuild/slurp.ml" 170 5859 5873
+)
+"ocamlbuild/slurp.ml" 173 5948 6014 "ocamlbuild/slurp.ml" 173 5948 6016
+type(
+  'a entry list Lazy.t -> 'a entry list
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 173 5948 6016 "ocamlbuild/slurp.ml" 173 5948 6024
+type(
+  'a entry list Lazy.t
+)
+ident(
+  int_ref contents "ocamlbuild/slurp.ml" 172 5903 5935 "ocamlbuild/slurp.ml" 172 5903 5943
+)
+"ocamlbuild/slurp.ml" 173 5948 6014 "ocamlbuild/slurp.ml" 173 5948 6024
+call(
+  stack
+)
+type(
+  'a entry list
+)
+"ocamlbuild/slurp.ml" 173 5948 5999 "ocamlbuild/slurp.ml" 173 5948 6025
+call(
+  tail
+)
+type(
+  'b entry list
+)
+"ocamlbuild/slurp.ml" 173 5948 5994 "ocamlbuild/slurp.ml" 173 5948 6025
+type(
+  'b entry list Lazy.t
+)
+"ocamlbuild/slurp.ml" 173 5948 5956 "ocamlbuild/slurp.ml" 173 5948 6026
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 174 6027 6038 "ocamlbuild/slurp.ml" 174 6027 6042
+type(
+  string
+)
+ident(
+  def path "ocamlbuild/slurp.ml" 175 6063 6071 "ocamlbuild/slurp.ml" 175 6063 6109
+)
+"ocamlbuild/slurp.ml" 174 6027 6044 "ocamlbuild/slurp.ml" 174 6027 6048
+type(
+  string
+)
+ident(
+  def name "ocamlbuild/slurp.ml" 175 6063 6071 "ocamlbuild/slurp.ml" 175 6063 6109
+)
+"ocamlbuild/slurp.ml" 174 6027 6050 "ocamlbuild/slurp.ml" 174 6027 6052
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def st "ocamlbuild/slurp.ml" 175 6063 6071 "ocamlbuild/slurp.ml" 175 6063 6109
+)
+"ocamlbuild/slurp.ml" 174 6027 6054 "ocamlbuild/slurp.ml" 174 6027 6058
+type(
+  'a
+)
+ident(
+  def attr "ocamlbuild/slurp.ml" 175 6063 6071 "ocamlbuild/slurp.ml" 175 6063 6109
+)
+"ocamlbuild/slurp.ml" 174 6027 6033 "ocamlbuild/slurp.ml" 174 6027 6059
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 175 6063 6076 "ocamlbuild/slurp.ml" 175 6063 6080
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 174 6027 6038 "ocamlbuild/slurp.ml" 174 6027 6042
+)
+"ocamlbuild/slurp.ml" 175 6063 6082 "ocamlbuild/slurp.ml" 175 6063 6086
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 174 6027 6044 "ocamlbuild/slurp.ml" 174 6027 6048
+)
+"ocamlbuild/slurp.ml" 175 6063 6088 "ocamlbuild/slurp.ml" 175 6063 6090
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 174 6027 6050 "ocamlbuild/slurp.ml" 174 6027 6052
+)
+"ocamlbuild/slurp.ml" 175 6063 6092 "ocamlbuild/slurp.ml" 175 6063 6093
+type(
+  string -> string -> 'a -> 'b
+)
+ident(
+  int_ref f "ocamlbuild/slurp.ml" 169 5841 5849 "ocamlbuild/slurp.ml" 169 5841 5850
+)
+"ocamlbuild/slurp.ml" 175 6063 6094 "ocamlbuild/slurp.ml" 175 6063 6098
+type(
+  string
+)
+ident(
+  int_ref path "ocamlbuild/slurp.ml" 174 6027 6038 "ocamlbuild/slurp.ml" 174 6027 6042
+)
+"ocamlbuild/slurp.ml" 175 6063 6099 "ocamlbuild/slurp.ml" 175 6063 6103
+type(
+  string
+)
+ident(
+  int_ref name "ocamlbuild/slurp.ml" 174 6027 6044 "ocamlbuild/slurp.ml" 174 6027 6048
+)
+"ocamlbuild/slurp.ml" 175 6063 6104 "ocamlbuild/slurp.ml" 175 6063 6108
+type(
+  'a
+)
+ident(
+  int_ref attr "ocamlbuild/slurp.ml" 174 6027 6054 "ocamlbuild/slurp.ml" 174 6027 6058
+)
+"ocamlbuild/slurp.ml" 175 6063 6092 "ocamlbuild/slurp.ml" 175 6063 6108
+call(
+  stack
+)
+type(
+  'b
+)
+"ocamlbuild/slurp.ml" 175 6063 6071 "ocamlbuild/slurp.ml" 175 6063 6109
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 176 6110 6116 "ocamlbuild/slurp.ml" 176 6110 6123
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 176 6110 6127 "ocamlbuild/slurp.ml" 176 6110 6134
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 177 6135 6147 "ocamlbuild/slurp.ml" 177 6135 6148
+type(
+  exn
+)
+ident(
+  def e "ocamlbuild/slurp.ml" 177 6135 6152 "ocamlbuild/slurp.ml" 177 6135 6159
+)
+"ocamlbuild/slurp.ml" 177 6135 6141 "ocamlbuild/slurp.ml" 177 6135 6148
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 177 6135 6158 "ocamlbuild/slurp.ml" 177 6135 6159
+type(
+  exn
+)
+ident(
+  int_ref e "ocamlbuild/slurp.ml" 177 6135 6147 "ocamlbuild/slurp.ml" 177 6135 6148
+)
+"ocamlbuild/slurp.ml" 177 6135 6152 "ocamlbuild/slurp.ml" 177 6135 6159
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 171 5882 5886 "ocamlbuild/slurp.ml" 177 6135 6159
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 178 6160 6165 "ocamlbuild/slurp.ml" 178 6160 6169
+type(
+  'a entry -> 'b entry
+)
+ident(
+  int_ref self "ocamlbuild/slurp.ml" 170 5859 5869 "ocamlbuild/slurp.ml" 170 5859 5873
+)
+"ocamlbuild/slurp.ml" 178 6160 6170 "ocamlbuild/slurp.ml" 178 6160 6175
+type(
+  'a entry
+)
+ident(
+  int_ref entry "ocamlbuild/slurp.ml" 169 5841 5851 "ocamlbuild/slurp.ml" 169 5841 5856
+)
+"ocamlbuild/slurp.ml" 178 6160 6165 "ocamlbuild/slurp.ml" 178 6160 6175
+call(
+  tail
+)
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 170 5859 5861 "ocamlbuild/slurp.ml" 178 6160 6175
+type(
+  'b entry
+)
+"ocamlbuild/slurp.ml" 180 6177 6185 "ocamlbuild/slurp.ml" 180 6177 6190
+type(
+  'a entry -> unit
+)
+ident(
+  def force "ocamlbuild/slurp.ml" 180 6177 6177 --
+)
+"ocamlbuild/slurp.ml" 182 6204 6212 "ocamlbuild/slurp.ml" 182 6204 6213
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 182 6204 6215 "ocamlbuild/slurp.ml" 182 6204 6216
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 182 6204 6218 "ocamlbuild/slurp.ml" 182 6204 6220
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def st "ocamlbuild/slurp.ml" 183 6238 6244 "ocamlbuild/slurp.ml" 183 6238 6286
+)
+"ocamlbuild/slurp.ml" 182 6204 6222 "ocamlbuild/slurp.ml" 182 6204 6223
+type(
+  'a
+)
+"ocamlbuild/slurp.ml" 182 6204 6225 "ocamlbuild/slurp.ml" 182 6204 6233
+type(
+  'a entry list Lazy.t
+)
+ident(
+  def contents "ocamlbuild/slurp.ml" 183 6238 6244 "ocamlbuild/slurp.ml" 183 6238 6286
+)
+"ocamlbuild/slurp.ml" 182 6204 6208 "ocamlbuild/slurp.ml" 182 6204 6234
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 183 6238 6248 "ocamlbuild/slurp.ml" 183 6238 6249
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 183 6238 6252 "ocamlbuild/slurp.ml" 183 6238 6254
+type(
+  My_unix.stats Lazy.t -> My_unix.stats
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 183 6238 6254 "ocamlbuild/slurp.ml" 183 6238 6256
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 182 6204 6218 "ocamlbuild/slurp.ml" 182 6204 6220
+)
+"ocamlbuild/slurp.ml" 183 6238 6252 "ocamlbuild/slurp.ml" 183 6238 6256
+call(
+  stack
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 183 6238 6260 "ocamlbuild/slurp.ml" 183 6238 6269
+type(
+  ('a entry -> unit) -> 'a entry list -> unit
+)
+ident(
+  ext_ref My_std.List.iter
+)
+"ocamlbuild/slurp.ml" 183 6238 6270 "ocamlbuild/slurp.ml" 183 6238 6275
+type(
+  'a entry -> unit
+)
+ident(
+  int_ref force "ocamlbuild/slurp.ml" 180 6177 6185 "ocamlbuild/slurp.ml" 180 6177 6190
+)
+"ocamlbuild/slurp.ml" 183 6238 6276 "ocamlbuild/slurp.ml" 183 6238 6278
+type(
+  'a entry list Lazy.t -> 'a entry list
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 183 6238 6278 "ocamlbuild/slurp.ml" 183 6238 6286
+type(
+  'a entry list Lazy.t
+)
+ident(
+  int_ref contents "ocamlbuild/slurp.ml" 182 6204 6225 "ocamlbuild/slurp.ml" 182 6204 6233
+)
+"ocamlbuild/slurp.ml" 183 6238 6276 "ocamlbuild/slurp.ml" 183 6238 6286
+call(
+  stack
+)
+type(
+  'a entry list
+)
+"ocamlbuild/slurp.ml" 183 6238 6260 "ocamlbuild/slurp.ml" 183 6238 6286
+call(
+  tail
+)
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 183 6238 6244 "ocamlbuild/slurp.ml" 183 6238 6286
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 184 6287 6296 "ocamlbuild/slurp.ml" 184 6287 6297
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 184 6287 6299 "ocamlbuild/slurp.ml" 184 6287 6300
+type(
+  string
+)
+"ocamlbuild/slurp.ml" 184 6287 6302 "ocamlbuild/slurp.ml" 184 6287 6304
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  def st "ocamlbuild/slurp.ml" 185 6312 6318 "ocamlbuild/slurp.ml" 185 6312 6329
+)
+"ocamlbuild/slurp.ml" 184 6287 6306 "ocamlbuild/slurp.ml" 184 6287 6307
+type(
+  'a
+)
+"ocamlbuild/slurp.ml" 184 6287 6291 "ocamlbuild/slurp.ml" 184 6287 6308
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 185 6312 6318 "ocamlbuild/slurp.ml" 185 6312 6324
+type(
+  My_unix.stats -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"ocamlbuild/slurp.ml" 185 6312 6325 "ocamlbuild/slurp.ml" 185 6312 6327
+type(
+  My_unix.stats Lazy.t -> My_unix.stats
+)
+ident(
+  ext_ref My_std.!*
+)
+"ocamlbuild/slurp.ml" 185 6312 6327 "ocamlbuild/slurp.ml" 185 6312 6329
+type(
+  My_unix.stats Lazy.t
+)
+ident(
+  int_ref st "ocamlbuild/slurp.ml" 184 6287 6302 "ocamlbuild/slurp.ml" 184 6287 6304
+)
+"ocamlbuild/slurp.ml" 185 6312 6325 "ocamlbuild/slurp.ml" 185 6312 6329
+call(
+  stack
+)
+type(
+  My_unix.stats
+)
+"ocamlbuild/slurp.ml" 185 6312 6318 "ocamlbuild/slurp.ml" 185 6312 6329
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 186 6330 6334 "ocamlbuild/slurp.ml" 186 6330 6341
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 186 6330 6350 "ocamlbuild/slurp.ml" 186 6330 6351
+type(
+  exn
+)
+"ocamlbuild/slurp.ml" 186 6330 6344 "ocamlbuild/slurp.ml" 186 6330 6351
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 186 6330 6334 "ocamlbuild/slurp.ml" 186 6330 6351
+type(
+  'a entry
+)
+"ocamlbuild/slurp.ml" 186 6330 6355 "ocamlbuild/slurp.ml" 186 6330 6357
+type(
+  unit
+)
+"ocamlbuild/slurp.ml" 181 6193 6195 "ocamlbuild/slurp.ml" 186 6330 6357
+type(
+  'a entry -> unit
+)

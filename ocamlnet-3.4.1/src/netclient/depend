@@ -1,0 +1,21 @@
+ftp_client.cmo: telnet_client.cmi ftp_data_endpoint.cmi ftp_client.cmi
+ftp_client.cmx: telnet_client.cmx ftp_data_endpoint.cmx ftp_client.cmi
+ftp_data_endpoint.cmo: ftp_data_endpoint.cmi
+ftp_data_endpoint.cmx: ftp_data_endpoint.cmi
+ftp_fs.cmo: http_fs.cmi ftp_client.cmi ftp_fs.cmi
+ftp_fs.cmx: http_fs.cmx ftp_client.cmx ftp_fs.cmi
+http_client_conncache.cmo: http_client_conncache.cmi
+http_client_conncache.cmx: http_client_conncache.cmi
+http_client.cmo: http_client_conncache.cmi http_client.cmi
+http_client.cmx: http_client_conncache.cmx http_client.cmi
+http_fs.cmo: http_client.cmi http_fs.cmi
+http_fs.cmx: http_client.cmx http_fs.cmi
+telnet_client.cmo: telnet_client.cmi
+telnet_client.cmx: telnet_client.cmi
+ftp_client.cmi: ftp_data_endpoint.cmi
+ftp_data_endpoint.cmi:
+ftp_fs.cmi: ftp_client.cmi
+http_client_conncache.cmi:
+http_client.cmi: http_client_conncache.cmi
+http_fs.cmi: http_client.cmi
+telnet_client.cmi:

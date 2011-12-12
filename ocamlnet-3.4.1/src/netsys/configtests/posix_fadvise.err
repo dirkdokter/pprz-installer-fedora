@@ -1,0 +1,2 @@
+posix_fadvise.c: In function ‘check’:
+posix_fadvise.c:14:12: warning: variable ‘k’ set but not used [-Wunused-but-set-variable]

@@ -1,0 +1,3 @@
+netsmtp.cmo: netsmtp.cmi
+netsmtp.cmx: netsmtp.cmi
+netsmtp.cmi:

@@ -1,0 +1,6 @@
+description = "Ocamlnet - RPC add-on for authentication of local connections"
+version = "2.2.9"
+requires = "rpc"
+archive(byte) = "rpc_auth_local.cma"
+archive(native) = "rpc_auth_local.cmxa"
+

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netcgi.std_activation.html">
+<link rel="Up" href="Netcgi.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi.custom_activation</title>
+</head>
+<body>
+<div class="navbar"><a href="Netcgi.std_activation.html">Previous</a>
+&nbsp;<a href="Netcgi.html">Up</a>
+&nbsp;</div>
+<center><h1>Class <a href="type_Netcgi.custom_activation.html">Netcgi.custom_activation</a></h1></center>
+<br>
+<pre><span class="keyword">class</span> <a name="TYPEcustom_activation"></a>custom_activation : <code class="type">?env:<a href="Netcgi_env.cgi_environment.html">Netcgi_env.cgi_environment</a> -> ?args:<a href="Netcgi_types.cgi_argument.html">Netcgi_types.cgi_argument</a> list -> ?meth:<a href="Netcgi_types.html#TYPErequest_method">Netcgi_types.request_method</a> -> ?operating_type:<a href="Netcgi.html#TYPEoperating_type">operating_type</a> -> unit -> </code><code class="type"><a href="Netcgi_types.cgi_activation.html">Netcgi_types.cgi_activation</a></code></pre>This class can be used to implement a non-standard connector that
+ has the same output format as CGI. The CGI arguments, however,
+ are not extracted from the input channel, but simply passed
+ as <code class="code">args</code> to this class. The input channel of the environment
+ is never used.
+<p>
+
+ The class does not modify any property of the environment, and it does
+ not check whether the environment is compatible with the passed method
+ and arguments. This is up to the user.
+<p>
+
+ The purpose of the custom activation class is that CGI environments
+ can be created that do not communicate over stdin/stdout, but use other
+ means to get their input and to deliver their output. You could do
+ that by providing a customized <code class="code">cgi_environment</code> as well, but this
+ alternate solution might be ineffective because CGI arguments must be 
+ encoded for the only purpose to be immediately decoded by <code class="code">std_activation</code>.
+ When using <code class="code">custom_activation</code>, one can bypass the environment, and
+ set the CGI arguments directly.
+<p>
+
+ Note: Unlike <code class="code">std_activation</code>, this class sets the set of current arguments
+ and the set of initial arguments to the same list. This means: if you
+ modify an argument directly (<code class="code">set_value</code>, for instace) this will change
+ both sets. It is recommended to pass only read-only arguments to
+ this class in order to avoid this surprising behaviour.
+<p>
+
+<br>
+<div class="param_info"><code class="code">env</code> : The default environment is to first try a classical
+   CGI environment, and if that fails, to fall back to a test
+   environment.</div>
+<div class="param_info"><code class="code">args</code> : The list of CGI arguments that will be available in the
+   CGI activation object</div>
+<div class="param_info"><code class="code">meth</code> : The assumed HTTP method. The method is not extracted from
+   the environment, but taken from this argument. Defaults to <code class="code">`GET</code>.</div>
+<div class="param_info"><code class="code">operating_type</code> : See <code class="code">std_activation</code>.</div>
+<hr width="100%">
+</body></html>

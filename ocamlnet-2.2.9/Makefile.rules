@@ -1,0 +1,174 @@
+# Inclusion of Makefile.conf may fail when cleaning up:
+
+-include $(TOP_DIR)/Makefile.conf
+
+# Makefile.conf: written by "configure".
+
+# How to invoke compilers and tools:
+# (May be moved to Makefile.conf if necessary)
+
+OCAMLC    = $(OCAMLFIND) ocamlc -g $(OCAMLC_OPTIONS) $(INCLUDES) -package "$(REQUIRES)" $(PP_OPTIONS)
+OCAMLOPT  = $(OCAMLFIND) ocamlopt -inline 10 $(OCAMLOPT_OPTIONS) $(INCLUDES) -package "$(REQUIRES)" $(PP_OPTIONS)
+OCAMLDEP  = $(OCAMLFIND) ocamldep $(OCAMLDEP_OPTIONS) $(PP_OPTIONS)
+OCAMLFIND = ocamlfind
+OCAMLYACC = ocamlyacc
+OCAMLLEX  = ocamllex
+CAMLP4    = camlp4
+OCAMLMKLIB = ocamlmklib
+OCAMLDOC  = $(OCAMLFIND) ocamldoc
+
+TOOLS_DIR = $(TOP_DIR)/tools
+COLLECT_FILES = $(TOOLS_DIR)/collect_files
+
+# To be overridden by the command line:
+INC_NETSYS         = -I $(TOP_DIR)/src/netsys
+INC_NETSTRING      = -I $(TOP_DIR)/src/netstring
+INC_EQUEUE         = -I $(TOP_DIR)/src/equeue
+INC_EQUEUE_SSL     = -I $(TOP_DIR)/src/equeue-ssl
+INC_NETCGI1        = -I $(TOP_DIR)/src/netcgi1
+INC_NETCGI2        = -I $(TOP_DIR)/src/netcgi2
+INC_NETCGI2_APACHE = -I $(TOP_DIR)/src/netcgi2-apache
+INC_NETPLEX        = -I $(TOP_DIR)/src/netplex
+INC_RPC            = -I $(TOP_DIR)/src/rpc
+INC_SHELL          = -I $(TOP_DIR)/src/shell
+
+# Select either "cgi" or "netcgi" as default CGI implementation (this
+# is normally set in Makefile.config):
+INC_CGI_OR_NETCGI ?= $(INC_CGI)
+
+# Standard definitions and rules
+
+XOBJECTS = $(OBJECTS:.cmo=.cmx)
+ARCHIVE  ?= $(PKGNAME)
+
+.PHONY: all opt all-mt-vm opt-mt-vm all-mt-posix opt-mt-posix
+
+ARCHIVE_CMA ?= $(ARCHIVE).cma 
+ARCHIVE_CMXA ?= $(ARCHIVE).cmxa 
+
+all: $(ARCHIVE_CMA) $(ALL_EXTRA) all-mt-$(MT_TYPE)
+
+opt: $(ARCHIVE_CMXA) $(OPT_EXTRA) opt-mt-$(MT_TYPE)
+
+all-mt-vm: $(ALLMT_EXTRA)
+all-mt-posix: $(ALLMT_EXTRA)
+opt-mt-vm:
+opt-mt-posix: $(OPTMT_EXTRA)
+
+$(ARCHIVE).cma: $(OBJECTS) $(COBJECTS)
+	if [ "X$(COBJECTS)" = "X" ]; then \
+		$(OCAMLC) -a -o $(ARCHIVE).cma $(OBJECTS); \
+	else \
+		$(OCAMLMKLIB) -o $(ARCHIVE) $(OBJECTS) $(COBJECTS) $(LINK_OPTIONS); \
+	fi
+
+$(ARCHIVE).cmxa: $(XOBJECTS) $(COBJECTS)
+	if [ "X$(COBJECTS)" = "X" ]; then \
+		$(OCAMLOPT) -a -o $(ARCHIVE).cmxa $(XOBJECTS); \
+	else \
+		$(OCAMLMKLIB) -o $(ARCHIVE) $(XOBJECTS) $(COBJECTS) $(LINK_OPTIONS); \
+	fi
+
+# Files to remove everywhere by "make clean":
+
+CLEAN_LIST = *.cmi *.cmo *.cma *.cmx *.o *.a *.cmxa dll* packlist-* \
+	     ocamldoc.dump META depend $(PACKLIST) $(GENERATE)
+
+# Generic build rules:
+
+.SUFFIXES: .cmo .cmi .cmx .ml .mli .mll .mly .c .o
+
+.ml.cmx:
+	$(OCAMLOPT) -c $(OCAMLOPT_OPTIONS_FOR_$<) $<
+
+.ml.cmo:
+	$(OCAMLC) -c $(OCAMLC_OPTIONS_FOR_$<) $<
+
+.mli.cmi:
+	$(OCAMLC) -c $(OCAMLC_OPTIONS_FOR_$<) $<
+
+.mll.ml:
+	$(OCAMLLEX) $<
+
+.mly.ml:
+	$(OCAMLYACC) $<
+
+.c.o:
+	$(OCAMLC) -c -ccopt -O $(CC_OPTIONS) $(CC_OPTIONS_FOR_$<) $<
+
+# We add $(OBJECTS) to the antecedents of ocamldoc.dump to ensure that
+# the files are compiled. ocamldoc needs the .cmi files, and this is
+# the simplest way of ensuring that.
+
+ocamldoc.dump: $(DOBJECTS) $(OBJECTS)
+	$(OCAMLDOC) -dump ocamldoc.dump -stars $(INCLUDES) -package "$(REQUIRES)" $(PP_OPTIONS) $(OCAMLDOC_OPTIONS) $(DOBJECTS) || { rm -f ocamldoc.dump; exit 1; }
+
+# Install rules:
+
+.PHONY: install
+install:
+	@$(MAKE) -f Makefile.pre realinstall
+
+.PHONY: realinstall
+realinstall: install-$(INSTMETHOD) $(INSTOTHER) $(PACKLIST)
+
+
+.PHONY: uninstall
+uninstall: 
+	@$(MAKE) -f Makefile.pre realuninstall
+
+.PHONY: realuninstall
+realuninstall: $(UNINSTOTHER) uninstall-$(INSTMETHOD) 
+
+.PHONY: install-findlib
+install-findlib: META
+	files=`$(COLLECT_FILES) *.mli *.cmi *.cma *.cmxa *.a dll* META $(INSTALL_EXTRA)` && \
+	$(OCAMLFIND) install $(PKGNAME) $$files
+
+.PHONY: uninstall-findlib
+uninstall-findlib:
+	$(OCAMLFIND) remove $(PKGNAME)
+	if [ -n "$(PACKLIST)" ]; then                                         \
+	        if packlist=`ocamlfind query $(PKGNAME)`/$(PACKLIST); then    \
+	            if [ -f "$$packlist" ]; then                              \
+	                files=`cat $$packlist` &&                             \
+	                rm -f $$files;                                        \
+	                echo "$$files" | xargs echo "Removed ";               \
+	            fi;                                                       \
+	        fi;                                                           \
+	fi
+
+META: META.in
+	sed -e 's/@VERSION@/$(VERSION)/' \
+	    -e 's/@AUTHDHREQS@/$(AUTHDHREQS)/' \
+	    -e 's/@PREFERRED_CGI_PKG@/$(PREFERRED_CGI_PKG)/' \
+		META.in >META
+
+#----------------------------------------------------------------------
+# general rules:
+
+
+DEP_FILES ?= $(wildcard *.ml) $(wildcard *.mli)
+
+depend: $(DEP_FILES)
+	$(OCAMLDEP) *.ml *.mli >$@ || { rm -f $@; exit 1; }
+
+.PHONY: clean
+clean::
+	rm -f $(CLEAN_LIST)
+
+.PHONY: clean-doc
+clean-doc::
+	rm -f ocamldoc.dump
+
+.PHONY: distclean
+distclean::
+	rm -f $(CLEAN_LIST) META
+	rm -f *~ depend
+
+.PHONY: generate
+generate:
+	@$(MAKE) -f Makefile.pre realgenerate
+
+.PHONY: realgenerate
+realgenerate:: $(GENERATE)

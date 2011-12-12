@@ -1,0 +1,55 @@
+netmcore_array.cmo: netmcore_heap.cmi netmcore_array.cmi
+netmcore_array.cmx: netmcore_heap.cmx netmcore_array.cmi
+netmcore_buffer.cmo: netmcore_mutex.cmi netmcore_heap.cmi netmcore_buffer.cmi
+netmcore_buffer.cmx: netmcore_mutex.cmx netmcore_heap.cmx netmcore_buffer.cmi
+netmcore_camlbox.cmo: netmcore.cmi netmcore_camlbox.cmi
+netmcore_camlbox.cmx: netmcore.cmx netmcore_camlbox.cmi
+netmcore_condition.cmo: netmcore_sem.cmi netmcore_mutex.cmi netmcore_heap.cmi \
+    netmcore_condition.cmi
+netmcore_condition.cmx: netmcore_sem.cmx netmcore_mutex.cmx netmcore_heap.cmx \
+    netmcore_condition.cmi
+netmcore_hashtbl.cmo: netmcore_heap.cmi netmcore_hashtbl.cmi
+netmcore_hashtbl.cmx: netmcore_heap.cmx netmcore_hashtbl.cmi
+netmcore_heap.cmo: netmcore_mempool.cmi netmcore.cmi netmcore_heap.cmi
+netmcore_heap.cmx: netmcore_mempool.cmx netmcore.cmx netmcore_heap.cmi
+netmcore_matrix.cmo: netmcore_heap.cmi netmcore_matrix.cmi
+netmcore_matrix.cmx: netmcore_heap.cmx netmcore_matrix.cmi
+netmcore_mempool.cmo: netmcore_util.cmo netmcore.cmi netmcore_mempool.cmi
+netmcore_mempool.cmx: netmcore_util.cmx netmcore.cmx netmcore_mempool.cmi
+netmcore.cmo: netmcore.cmi
+netmcore.cmx: netmcore.cmi
+netmcore_mutex.cmo: netmcore_sem.cmi netmcore_heap.cmi netmcore_mutex.cmi
+netmcore_mutex.cmx: netmcore_sem.cmx netmcore_heap.cmx netmcore_mutex.cmi
+netmcore_process.cmo: netmcore.cmi netmcore_process.cmi
+netmcore_process.cmx: netmcore.cmx netmcore_process.cmi
+netmcore_queue.cmo: netmcore_heap.cmi netmcore_queue.cmi
+netmcore_queue.cmx: netmcore_heap.cmx netmcore_queue.cmi
+netmcore_ref.cmo: netmcore_heap.cmi netmcore_ref.cmi
+netmcore_ref.cmx: netmcore_heap.cmx netmcore_ref.cmi
+netmcore_sem.cmo: netmcore_heap.cmi netmcore_sem.cmi
+netmcore_sem.cmx: netmcore_heap.cmx netmcore_sem.cmi
+netmcore_util.cmo:
+netmcore_util.cmx:
+t_avl.cmo: netmcore_util.cmo
+t_avl.cmx: netmcore_util.cmx
+t_heap.cmo: netmcore_heap.cmi
+t_heap.cmx: netmcore_heap.cmx
+t_mempool.cmo: netmcore_mempool.cmi netmcore.cmi
+t_mempool.cmx: netmcore_mempool.cmx netmcore.cmx
+t_toploop.cmo: netmcore.cmi
+t_toploop.cmx: netmcore.cmx
+netmcore_array.cmi: netmcore_heap.cmi netmcore.cmi
+netmcore_bigarray.cmi:
+netmcore_buffer.cmi: netmcore_heap.cmi netmcore.cmi
+netmcore_camlbox.cmi: netmcore.cmi
+netmcore_condition.cmi: netmcore_mutex.cmi netmcore_heap.cmi
+netmcore_hashtbl.cmi: netmcore_heap.cmi netmcore.cmi
+netmcore_heap.cmi: netmcore.cmi
+netmcore_matrix.cmi: netmcore_heap.cmi netmcore.cmi
+netmcore_mempool.cmi: netmcore.cmi
+netmcore.cmi:
+netmcore_mutex.cmi: netmcore_heap.cmi
+netmcore_process.cmi: netmcore.cmi
+netmcore_queue.cmi: netmcore_heap.cmi netmcore.cmi
+netmcore_ref.cmi: netmcore_heap.cmi netmcore.cmi
+netmcore_sem.cmi: netmcore_heap.cmi

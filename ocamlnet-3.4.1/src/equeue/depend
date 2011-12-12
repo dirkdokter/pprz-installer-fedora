@@ -1,0 +1,38 @@
+equeue.cmo: equeue.cmi
+equeue.cmx: equeue.cmi
+t.cmo:
+t.cmx:
+unixqueue.cmo: unixqueue_util.cmo unixqueue_pollset.cmi equeue.cmi \
+    unixqueue.cmi
+unixqueue.cmx: unixqueue_util.cmx unixqueue_pollset.cmx equeue.cmx \
+    unixqueue.cmi
+unixqueue_pollset.cmo: unixqueue_util.cmo equeue.cmi unixqueue_pollset.cmi
+unixqueue_pollset.cmx: unixqueue_util.cmx equeue.cmx unixqueue_pollset.cmi
+unixqueue_select.cmo: unixqueue_util.cmo equeue.cmi unixqueue_select.cmi
+unixqueue_select.cmx: unixqueue_util.cmx equeue.cmx unixqueue_select.cmi
+unixqueue_util.cmo: equeue.cmi
+unixqueue_util.cmx: equeue.cmx
+uq_engines.cmo: uq_resolver.cmi unixqueue.cmi equeue.cmi uq_engines.cmi
+uq_engines.cmx: uq_resolver.cmx unixqueue.cmx equeue.cmx uq_engines.cmi
+uq_io.cmo: uq_engines.cmi unixqueue.cmi uq_io.cmi
+uq_io.cmx: uq_engines.cmx unixqueue.cmx uq_io.cmi
+uq_libevent.cmo: unixqueue_pollset.cmi unixqueue.cmi uq_libevent.cmi
+uq_libevent.cmx: unixqueue_pollset.cmx unixqueue.cmx uq_libevent.cmi
+uq_lwt.cmo: unixqueue.cmi equeue.cmi uq_lwt.cmi
+uq_lwt.cmx: unixqueue.cmx equeue.cmx uq_lwt.cmi
+uq_resolver.cmo: unixqueue.cmi uq_resolver.cmi
+uq_resolver.cmx: unixqueue.cmx uq_resolver.cmi
+uq_socks5.cmo: uq_resolver.cmi uq_engines.cmi unixqueue.cmi equeue.cmi \
+    uq_socks5.cmi
+uq_socks5.cmx: uq_resolver.cmx uq_engines.cmx unixqueue.cmx equeue.cmx \
+    uq_socks5.cmi
+equeue.cmi:
+unixqueue.cmi: unixqueue_util.cmo equeue.cmi
+unixqueue_pollset.cmi: unixqueue_util.cmo
+unixqueue_select.cmi: unixqueue_util.cmo unixqueue.cmi equeue.cmi
+uq_engines.cmi: unixqueue.cmi
+uq_io.cmi: uq_engines.cmi unixqueue.cmi
+uq_libevent.cmi: unixqueue.cmi
+uq_lwt.cmi: unixqueue.cmi
+uq_resolver.cmi: unixqueue.cmi
+uq_socks5.cmi: uq_engines.cmi

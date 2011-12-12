@@ -1,0 +1,36 @@
+netcgi1_compat.cmo: netcgi_types.cmi netcgi_env.cmi netcgi.cmi \
+    netcgi1_compat.cmi
+netcgi1_compat.cmx: netcgi_types.cmx netcgi_env.cmx netcgi.cmx \
+    netcgi1_compat.cmi
+netcgi_env.cmo: netcgi_env.cmi
+netcgi_env.cmx: netcgi_env.cmi
+netcgi_fcgi_10.cmo: netcgi_fcgi_10.cmi
+netcgi_fcgi_10.cmx: netcgi_fcgi_10.cmi
+netcgi_fcgi.cmo: netcgi_types.cmi netcgi_fcgi_10.cmi netcgi_env.cmi \
+    netcgi.cmi netcgi_fcgi.cmi
+netcgi_fcgi.cmx: netcgi_types.cmx netcgi_fcgi_10.cmx netcgi_env.cmx \
+    netcgi.cmx netcgi_fcgi.cmi
+netcgi_jserv_ajp12.cmo: netcgi_jserv.cmi netcgi_env.cmi \
+    netcgi_jserv_ajp12.cmi
+netcgi_jserv_ajp12.cmx: netcgi_jserv.cmx netcgi_env.cmx \
+    netcgi_jserv_ajp12.cmi
+netcgi_jserv_app.cmo: netcgi_types.cmi netcgi_jserv_ajp12.cmi \
+    netcgi_jserv.cmi netcgi_env.cmi netcgi.cmi netcgi_jserv_app.cmi
+netcgi_jserv_app.cmx: netcgi_types.cmx netcgi_jserv_ajp12.cmx \
+    netcgi_jserv.cmx netcgi_env.cmx netcgi.cmx netcgi_jserv_app.cmi
+netcgi_jserv.cmo: netcgi_jserv.cmi
+netcgi_jserv.cmx: netcgi_jserv.cmi
+netcgi.cmo: netcgi_types.cmi netcgi_env.cmi netcgi.cmi
+netcgi.cmx: netcgi_types.cmx netcgi_env.cmx netcgi.cmi
+netcgi_types.cmo: netcgi_env.cmi netcgi_types.cmi
+netcgi_types.cmx: netcgi_env.cmx netcgi_types.cmi
+netcgi1_compat.cmi: netcgi_env.cmi
+netcgi_env.cmi:
+netcgi_fcgi_10.cmi:
+netcgi_fcgi.cmi: netcgi_types.cmi netcgi_env.cmi netcgi.cmi
+netcgi_jserv_ajp12.cmi: netcgi_jserv.cmi netcgi_env.cmi
+netcgi_jserv_app.cmi: netcgi_types.cmi netcgi_jserv.cmi netcgi_env.cmi \
+    netcgi.cmi
+netcgi_jserv.cmi:
+netcgi.cmi: netcgi_types.cmi netcgi_env.cmi
+netcgi_types.cmi: netcgi_env.cmi

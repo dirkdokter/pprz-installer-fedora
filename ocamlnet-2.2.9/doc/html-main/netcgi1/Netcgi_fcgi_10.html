@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netcgi_jserv_app.html">
+<link rel="next" href="Netcgi_fcgi.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_fcgi_10</title>
+</head>
+<body>
+<div class="navbar"><a href="Netcgi_jserv_app.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Netcgi_fcgi.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Netcgi_fcgi_10.html">Netcgi_fcgi_10</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Netcgi_fcgi_10: <code class="code">sig</code> <a href="Netcgi_fcgi_10.html">..</a> <code class="code">end</code></pre>Low-level FastCGI Wire Protocol<br>
+<hr width="100%">
+<br>
+This code is copyright 2003 Eric Stokes, and may be used under
+    either, the GNU GPL, or the same license as ocamlnet<br>
+<br>
+This module impliments the low level fastcgi wire protocal. It exports
+    simple functions to interact with the web server much as a standard cgi 
+    script would (eg. fastcgi_write_stdout, fastcgi_write_stderr), this is 
+    one of the design goals of the fastcgi protocal. This module is marginally
+    usefull for making low level web apps by itself, though you should not 
+    mix calls to fcgi_write_* with transactional buffered output, unless 
+    you really like your, your helpdesk operators :P<br>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONFCGI_error"></a>FCGI_error <span class="keyword">of</span> <code class="type">string * exn</code></pre>
+<pre><span class="keyword">val</span> <a name="VALmax_rec_size"></a>max_rec_size : <code class="type">int</code></pre><div class="info">
+The maximum record size for stdout, and stderr. If you try to send
+    a record larger than this value to fcgi_write_stdout, or
+    fcgi_write_stderr you will get an exception<br>
+</div>
+<br><code><span class="keyword">type</span> <a name="TYPEfcgiHeader"></a><code class="type"></code>fcgiHeader = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>version&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>rtype&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>requestid&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>contentlen&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>padlen&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+protocal header<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEfcgiBeginRequestBody"></a><code class="type"></code>fcgiBeginRequestBody = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>role&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>flags&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+begin request<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEfcgiEndRequestBody"></a><code class="type"></code>fcgiEndRequestBody = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>astatus&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>pstatus&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+end request<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEfcgiRequest"></a><code class="type"></code>fcgiRequest = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>id&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>app_type&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>params&nbsp;: <code class="type">(string * string) list</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>stdin&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>data&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>con&nbsp;: <code class="type">Unix.file_descr</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+fcgi params will return an asociation list fcgi stdin will return
+    a string a full request record, what you get when you call
+    fcgi_accept<br>
+</div>
+
+<pre><span class="keyword">val</span> <a name="VALfcgi_accept"></a>fcgi_accept : <code class="type">unit -> <a href="Netcgi_fcgi_10.html#TYPEfcgiRequest">fcgiRequest</a></code></pre><div class="info">
+accept a fastcgi connection<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfcgi_destroy"></a>fcgi_destroy : <code class="type"><a href="Netcgi_fcgi_10.html#TYPEfcgiRequest">fcgiRequest</a> -> unit</code></pre><div class="info">
+tear down a connection after finishing with it<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfcgi_write_stdout"></a>fcgi_write_stdout : <code class="type"><a href="Netcgi_fcgi_10.html#TYPEfcgiRequest">fcgiRequest</a> -> string -> unit</code></pre><div class="info">
+write to fcgi stdout<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfcgi_write_stderr"></a>fcgi_write_stderr : <code class="type"><a href="Netcgi_fcgi_10.html#TYPEfcgiRequest">fcgiRequest</a> -> string -> unit</code></pre><div class="info">
+write to fcgi stderr<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALfcgi_write_end_request"></a>fcgi_write_end_request : <code class="type"><a href="Netcgi_fcgi_10.html#TYPEfcgiRequest">fcgiRequest</a> -> <a href="Netcgi_fcgi_10.html#TYPEfcgiEndRequestBody">fcgiEndRequestBody</a> -> unit</code></pre><div class="info">
+write an end request record<br>
+</div>
+</body></html>

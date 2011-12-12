@@ -1,0 +1,12 @@
+shell_fs.cmo: shell_uq.cmi shell_sys.cmi shell.cmi shell_fs.cmi
+shell_fs.cmx: shell_uq.cmx shell_sys.cmx shell.cmx shell_fs.cmi
+shell.cmo: shell_sys.cmi shell.cmi
+shell.cmx: shell_sys.cmx shell.cmi
+shell_sys.cmo: shell_sys.cmi
+shell_sys.cmx: shell_sys.cmi
+shell_uq.cmo: shell_sys.cmi shell.cmi shell_uq.cmi
+shell_uq.cmx: shell_sys.cmx shell.cmx shell_uq.cmi
+shell_fs.cmi: shell_sys.cmi shell.cmi
+shell.cmi: shell_sys.cmi
+shell_sys.cmi:
+shell_uq.cmi: shell_sys.cmi shell.cmi

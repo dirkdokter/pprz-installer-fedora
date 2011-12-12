@@ -1,0 +1,50 @@
+"ocamlbuild/discard_printf.ml" 14 783 791 "ocamlbuild/discard_printf.ml" 14 783 797
+type(
+  'b -> 'a as 'a
+)
+ident(
+  def greedy "ocamlbuild/discard_printf.ml" 14 783 783 --
+)
+"ocamlbuild/discard_printf.ml" 14 783 798 "ocamlbuild/discard_printf.ml" 14 783 799
+type(
+  'b
+)
+"ocamlbuild/discard_printf.ml" 14 783 802 "ocamlbuild/discard_printf.ml" 14 783 808
+type(
+  'a
+)
+ident(
+  int_ref greedy "ocamlbuild/discard_printf.ml" 14 783 791 "ocamlbuild/discard_printf.ml" 14 783 797
+)
+"ocamlbuild/discard_printf.ml" 16 810 814 "ocamlbuild/discard_printf.ml" 16 810 828
+type(
+  'a -> 'b
+)
+ident(
+  def discard_printf "ocamlbuild/discard_printf.ml" 16 810 852 --
+)
+"ocamlbuild/discard_printf.ml" 16 810 829 "ocamlbuild/discard_printf.ml" 16 810 833
+type(
+  'a
+)
+ident(
+  def _fmt "ocamlbuild/discard_printf.ml" 16 810 836 "ocamlbuild/discard_printf.ml" 16 810 852
+)
+"ocamlbuild/discard_printf.ml" 16 810 836 "ocamlbuild/discard_printf.ml" 16 810 845
+type(
+  ('_d -> 'c as 'c) -> 'b
+)
+ident(
+  ext_ref Obj.magic
+)
+"ocamlbuild/discard_printf.ml" 16 810 846 "ocamlbuild/discard_printf.ml" 16 810 852
+type(
+  'c
+)
+ident(
+  int_ref greedy "ocamlbuild/discard_printf.ml" 14 783 791 "ocamlbuild/discard_printf.ml" 14 783 797
+)
+"ocamlbuild/discard_printf.ml" 16 810 836 "ocamlbuild/discard_printf.ml" 16 810 852
+type(
+  'b
+)

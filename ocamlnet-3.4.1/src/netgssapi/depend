@@ -1,0 +1,3 @@
+netgssapi.cmo: netgssapi.cmi
+netgssapi.cmx: netgssapi.cmi
+netgssapi.cmi:

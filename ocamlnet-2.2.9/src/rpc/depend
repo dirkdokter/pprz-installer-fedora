@@ -1,0 +1,60 @@
+rpc_auth_sys.cmo: xdr.cmi rtypes.cmi rpc_server.cmi rpc_client.cmi rpc.cmi \
+    rpc_auth_sys.cmi
+rpc_auth_sys.cmx: xdr.cmx rtypes.cmx rpc_server.cmx rpc_client.cmx rpc.cmx \
+    rpc_auth_sys.cmi
+rpc_client.cmo: xdr.cmi rtypes.cmi rpc_transport.cmi rpc_program.cmi \
+    rpc_portmapper_aux.cmi rpc_packer.cmi rpc_common.cmo rpc.cmi \
+    rpc_client.cmi
+rpc_client.cmx: xdr.cmx rtypes.cmx rpc_transport.cmx rpc_program.cmx \
+    rpc_portmapper_aux.cmx rpc_packer.cmx rpc_common.cmx rpc.cmx \
+    rpc_client.cmi
+rpc_common.cmo: xdr.cmi rtypes.cmi
+rpc_common.cmx: xdr.cmx rtypes.cmx
+rpc.cmo: rtypes.cmi rpc.cmi
+rpc.cmx: rtypes.cmx rpc.cmi
+rpc_packer.cmo: xdr.cmi rtypes.cmi rpc_program.cmi rpc_common.cmo rpc.cmi \
+    rpc_packer.cmi
+rpc_packer.cmx: xdr.cmx rtypes.cmx rpc_program.cmx rpc_common.cmx rpc.cmx \
+    rpc_packer.cmi
+rpc_portmapper_aux.cmo: xdr.cmi rtypes.cmi rpc_program.cmi \
+    rpc_portmapper_aux.cmi
+rpc_portmapper_aux.cmx: xdr.cmx rtypes.cmx rpc_program.cmx \
+    rpc_portmapper_aux.cmi
+rpc_portmapper_clnt.cmo: rpc_portmapper_aux.cmi rpc_client.cmi \
+    rpc_portmapper_clnt.cmi
+rpc_portmapper_clnt.cmx: rpc_portmapper_aux.cmx rpc_client.cmx \
+    rpc_portmapper_clnt.cmi
+rpc_portmapper.cmo: xdr.cmi rtypes.cmi rpc_simple_client.cmi rpc_program.cmi \
+    rpc_client.cmi rpc.cmi rpc_portmapper.cmi
+rpc_portmapper.cmx: xdr.cmx rtypes.cmx rpc_simple_client.cmx rpc_program.cmx \
+    rpc_client.cmx rpc.cmx rpc_portmapper.cmi
+rpc_program.cmo: xdr.cmi rtypes.cmi rpc_program.cmi
+rpc_program.cmx: xdr.cmx rtypes.cmx rpc_program.cmi
+rpc_server.cmo: xdr.cmi rtypes.cmi rpc_transport.cmi rpc_program.cmi \
+    rpc_portmapper_clnt.cmi rpc_portmapper_aux.cmi rpc_packer.cmi \
+    rpc_common.cmo rpc_client.cmi rpc.cmi rpc_server.cmi
+rpc_server.cmx: xdr.cmx rtypes.cmx rpc_transport.cmx rpc_program.cmx \
+    rpc_portmapper_clnt.cmx rpc_portmapper_aux.cmx rpc_packer.cmx \
+    rpc_common.cmx rpc_client.cmx rpc.cmx rpc_server.cmi
+rpc_simple_client.cmo: xdr.cmi rpc_client.cmi rpc.cmi rpc_simple_client.cmi
+rpc_simple_client.cmx: xdr.cmx rpc_client.cmx rpc.cmx rpc_simple_client.cmi
+rpc_transport.cmo: rtypes.cmi rpc_packer.cmi rpc.cmi rpc_transport.cmi
+rpc_transport.cmx: rtypes.cmx rpc_packer.cmx rpc.cmx rpc_transport.cmi
+rtypes.cmo: rtypes.cmi
+rtypes.cmx: rtypes.cmi
+xdr.cmo: rtypes.cmi xdr.cmi
+xdr.cmx: rtypes.cmx xdr.cmi
+rpc_auth_sys.cmi: rpc_server.cmi rpc_client.cmi
+rpc_client.cmi: xdr.cmi rtypes.cmi rpc_transport.cmi rpc_program.cmi rpc.cmi
+rpc.cmi: rtypes.cmi
+rpc_packer.cmi: xdr.cmi rtypes.cmi rpc_program.cmi rpc.cmi
+rpc_portmapper_aux.cmi: xdr.cmi rtypes.cmi rpc_program.cmi
+rpc_portmapper_clnt.cmi: rtypes.cmi rpc_portmapper_aux.cmi rpc_client.cmi \
+    rpc.cmi
+rpc_portmapper.cmi: xdr.cmi rtypes.cmi rpc_program.cmi rpc_client.cmi rpc.cmi
+rpc_program.cmi: xdr.cmi rtypes.cmi
+rpc_server.cmi: xdr.cmi rtypes.cmi rpc_transport.cmi rpc_program.cmi rpc.cmi
+rpc_simple_client.cmi: xdr.cmi rpc_program.cmi rpc_client.cmi rpc.cmi
+rpc_transport.cmi: rpc_packer.cmi rpc.cmi
+rtypes.cmi:
+xdr.cmi: rtypes.cmi

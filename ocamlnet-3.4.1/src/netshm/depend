@@ -1,0 +1,14 @@
+netshm_array.cmo: netshm_hashtbl.cmi netshm_data.cmi netshm.cmi \
+    netshm_array.cmi
+netshm_array.cmx: netshm_hashtbl.cmx netshm_data.cmx netshm.cmx \
+    netshm_array.cmi
+netshm_data.cmo: netshm.cmi netshm_data.cmi
+netshm_data.cmx: netshm.cmx netshm_data.cmi
+netshm_hashtbl.cmo: netshm_data.cmi netshm.cmi netshm_hashtbl.cmi
+netshm_hashtbl.cmx: netshm_data.cmx netshm.cmx netshm_hashtbl.cmi
+netshm.cmo: netshm.cmi
+netshm.cmx: netshm.cmi
+netshm_array.cmi: netshm_data.cmi netshm.cmi
+netshm_data.cmi: netshm.cmi
+netshm_hashtbl.cmi: netshm_data.cmi netshm.cmi
+netshm.cmi:

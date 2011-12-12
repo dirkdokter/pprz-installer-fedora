@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/dirk/portable-pprz/target/lib/ocaml/labltk/labltktop -I /home/dirk/portable-pprz/target/lib/ocaml/labltk $*

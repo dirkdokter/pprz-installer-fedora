@@ -1,0 +1,5 @@
+version="2.2"
+archive(byte)="xml-light.cma"
+archive(native)="xml-light.cmxa"
+linkopts=""
+directory="+xml-light"

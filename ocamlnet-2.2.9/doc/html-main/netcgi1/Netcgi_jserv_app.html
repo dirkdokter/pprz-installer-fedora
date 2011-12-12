@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netcgi_jserv_ajp12.html">
+<link rel="next" href="Netcgi_fcgi_10.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_jserv_app</title>
+</head>
+<body>
+<div class="navbar"><a href="Netcgi_jserv_ajp12.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Netcgi_fcgi_10.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Netcgi_jserv_app.html">Netcgi_jserv_app</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Netcgi_jserv_app: <code class="code">sig</code> <a href="Netcgi_jserv_app.html">..</a> <code class="code">end</code></pre>AJP-based Application Servers<br>
+<hr width="100%">
+<br>
+This module contains a "ready to use" application server framework
+ for single-threaded and multi-process servers.<br>
+<br><code><span class="keyword">type</span> <a name="TYPErequest_handler"></a><code class="type"></code>request_handler = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>req_activate&nbsp;: <code class="type"><a href="Netcgi_types.cgi_activation.html">Netcgi_types.cgi_activation</a> -> unit</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>req_processing&nbsp;: <code class="type">string -> Netmime.mime_header -> <a href="Netcgi.html#TYPEargument_processing">Netcgi.argument_processing</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>req_operating_type&nbsp;: <code class="type"><a href="Netcgi.html#TYPEoperating_type">Netcgi.operating_type</a></code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+The request handler consists of:<ul>
+<li><code class="code">req_activate</code>: A function to process requests and to generate
+   responses. The function gets a fully initialized <code class="code">cgi_activation</code>
+   object, and is expected to write the response.</li>
+<li><code class="code">req_processing</code>: Style of CGI argument processing. Same meaning as in
+   <a href="Netcgi.html"><code class="code">Netcgi</code></a>.</li>
+<li><code class="code">req_operating_type</code>: Style of CGI response buffering. Same meaning as in
+   <a href="Netcgi.html"><code class="code">Netcgi</code></a>.</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEserver_type"></a><code class="type"></code>server_type = <code class="type">[ `Forking of int * (string * <a href="Netcgi_jserv_app.html#TYPErequest_handler">request_handler</a>) list<br>       | `Process_pool of int * (string * <a href="Netcgi_jserv_app.html#TYPErequest_handler">request_handler</a>) list<br>       | `Sequential of (string * <a href="Netcgi_jserv_app.html#TYPErequest_handler">request_handler</a>) list ]</code> </pre>
+<div class="info">
+Server type:<ul>
+<li><code class="code">`Sequential servlets</code>: The server processes the requests sequentially.</li>
+<li><code class="code">`Forking(n,servlets)</code>: The server forks for every request, and processes it in the
+    child process. The integer <code class="code">n</code> is the maximum number of children 
+    processes; if it is exceeded, an error message is displayed immediately
+    without forking.</li>
+<li><code class="code">`Process_pool(n,servlets)</code>: The server forks a fixed number of times (the integer <code class="code">n</code>).
+    The children will process the requests concurrently. If more requests
+    arrive than children are available, the requests must wait until
+    a child becomes free again.</li>
+</ul>
+
+ In <code class="code">servlets</code> the list of available servlets is passed. The strings
+ are the names of the servlets (part of the URL), and the <code class="code">request_handlers</code>s
+ are the corresponding handlers.<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEprotocol_type"></a><code class="type"></code>protocol_type = <code class="type">[ `Ajp_1_2 ]</code> </pre>
+<div class="info">
+Selects the protocol.<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEjserv_config"></a><code class="type"></code>jserv_config = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_backlog&nbsp;: <code class="type">int</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_reuseaddr&nbsp;: <code class="type">bool</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_cgiconfig&nbsp;: <code class="type"><a href="Netcgi_env.html#TYPEcgi_config">Netcgi_env.cgi_config</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_init_process&nbsp;: <code class="type">unit -> unit</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_fini_process&nbsp;: <code class="type">unit -> unit</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_idle_worker&nbsp;: <code class="type">unit -> unit</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>js_idle_master&nbsp;: <code class="type">unit -> unit</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info">
+Server configuration:<ul>
+<li><code class="code">js_backlog</code> is the maximum length of the backlog queue (containing
+   client connections that are not yet accepted by the application
+   server)</li>
+<li><code class="code">js_reuseaddr</code>: Whether to reuse the port immediately</li>
+<li><code class="code">js_cgiconfig</code>: The CGI-level configuration</li>
+<li><code class="code">js_init_process</code>: This hook is called when a new process is
+   initialized. For <code class="code">`Sequential</code> servers it is called once before
+   the server begins to accept connections. For <code class="code">`Forking</code> and
+   <code class="code">`Process_pool</code> servers it is called when new processes are
+   forking.</li>
+<li><code class="code">js_fini_process</code>: The reverse hook of <code class="code">js_init_process</code>: Called
+   after a process receives the shutdown notification. 
+   For <code class="code">`Sequential</code> servers it is called once after
+   the server stops to accept connections. For <code class="code">`Forking</code> and
+   <code class="code">`Process_pool</code> servers it is called before sub processes exit.</li>
+<li><code class="code">js_idle_master</code>: This hook is called every second by the
+   master process that accepts new connections. When it raises
+   an exception, the master socket is closed, and the exception
+   falls through to the caller.</li>
+<li><code class="code">js_idle_worker</code>: This hook is called every second by the
+   worker process that processes connections. Exceptions are logged.</li>
+</ul>
+
+ Examples:<ul>
+<li><code class="code">js_init_process</code>: Open a new database connection for every process</li>
+<li><code class="code">js_fini_process</code>: Close the database connection</li>
+<li><code class="code">js_idle_master</code>: Check whether the server should shut down, and
+   if so, raise an exception to exit</li>
+<li><code class="code">js_idle_worker</code>: Close database connections after a period
+   of inactivity</li>
+</ul>
+<br>
+</div>
+
+<pre><span class="keyword">val</span> <a name="VALstd_config"></a>std_config : <code class="type"><a href="Netcgi_jserv_app.html#TYPEjserv_config">jserv_config</a></code></pre><div class="info">
+The standard configuration:
+<p>
+<ul>
+<li>small backlog</li>
+<li>ports are reused</li>
+<li>default CGI configuration</li>
+<li>callback functions are all (fun () -&gt; ()).</li>
+</ul>
+<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALlogger"></a>logger : <code class="type">(string -> string -> unit) Pervasives.ref</code></pre><div class="info">
+This variable contains the logger function. The function is called to
+ log error conditions. The first passed string is the servlet name,
+ or "?" if not available. The second passed string is the message.
+ By default, the messages are written to stderr.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALrun"></a>run : <code class="type">?config:<a href="Netcgi_jserv_app.html#TYPEjserv_config">jserv_config</a> -><br>       <a href="Netcgi_jserv_app.html#TYPEserver_type">server_type</a> -><br>       <a href="Netcgi_jserv_app.html#TYPEprotocol_type">protocol_type</a> -><br>       (string * string) list -><br>       <a href="Netcgi_jserv.html#TYPEauth">Netcgi_jserv.auth</a> option -> Unix.inet_addr -> int -> unit</code></pre><div class="info">
+Starts the server. The last four arguments are compatible with the 
+ function accepted by <a href="Netcgi_jserv.html#VALjvm_emu_main"><code class="code">Netcgi_jserv.jvm_emu_main</code></a>, so <code class="code">run</code> can be
+ used as follows:
+<p>
+
+ <pre><code class="code"> Netcgi_jserv.jvm_emu_main (run ~config srvtype prttype) </code></pre>
+<p>
+
+ The server runs until it gets a shutdown notification from Apache.
+<p>
+
+ Restart notifications are currently ignored.
+<p>
+
+ Another remark about <code class="code">`Process_pool</code>. The signal handler for SIGALRM
+ is temporarily redefined while a process waits for a lock. The old
+ handler is suspended until the lock can be acquired.<br>
+</div>
+</body></html>

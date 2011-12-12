@@ -1,0 +1,29 @@
+nethttpd_engine.cmo: nethttpd_types.cmi nethttpd_reactor.cmi \
+    nethttpd_kernel.cmi nethttpd_engine.cmi
+nethttpd_engine.cmx: nethttpd_types.cmx nethttpd_reactor.cmx \
+    nethttpd_kernel.cmx nethttpd_engine.cmi
+nethttpd_kernel.cmo: nethttpd_types.cmi nethttpd_kernel.cmi
+nethttpd_kernel.cmx: nethttpd_types.cmx nethttpd_kernel.cmi
+nethttpd_plex.cmo: nethttpd_util.cmi nethttpd_types.cmi nethttpd_services.cmi \
+    nethttpd_reactor.cmi nethttpd_engine.cmi nethttpd_plex.cmi
+nethttpd_plex.cmx: nethttpd_util.cmx nethttpd_types.cmx nethttpd_services.cmx \
+    nethttpd_reactor.cmx nethttpd_engine.cmx nethttpd_plex.cmi
+nethttpd_reactor.cmo: nethttpd_util.cmi nethttpd_types.cmi \
+    nethttpd_kernel.cmi nethttpd_reactor.cmi
+nethttpd_reactor.cmx: nethttpd_util.cmx nethttpd_types.cmx \
+    nethttpd_kernel.cmx nethttpd_reactor.cmi
+nethttpd_services.cmo: nethttpd_types.cmi nethttpd_services.cmi
+nethttpd_services.cmx: nethttpd_types.cmx nethttpd_services.cmi
+nethttpd_types.cmo: nethttpd_types.cmi
+nethttpd_types.cmx: nethttpd_types.cmi
+nethttpd_util.cmo: nethttpd_types.cmi nethttpd_util.cmi
+nethttpd_util.cmx: nethttpd_types.cmx nethttpd_util.cmi
+nethttpd_engine.cmi: nethttpd_types.cmi nethttpd_reactor.cmi \
+    nethttpd_kernel.cmi
+nethttpd_kernel.cmi: nethttpd_types.cmi
+nethttpd_plex.cmi: nethttpd_types.cmi nethttpd_services.cmi \
+    nethttpd_reactor.cmi
+nethttpd_reactor.cmi: nethttpd_types.cmi nethttpd_kernel.cmi
+nethttpd_services.cmi: nethttpd_types.cmi
+nethttpd_types.cmi:
+nethttpd_util.cmi: nethttpd_types.cmi

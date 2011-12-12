@@ -1,0 +1,6 @@
+version = "2.2.9"
+requires = "netstring,netcgi1,equeue,netplex"
+description = "Ocamlnet - HTTP daemon (version for netcgi1)"
+
+archive(byte) = "nethttpd-for-netcgi1.cma"
+archive(native) = "nethttpd-for-netcgi1.cmxa"

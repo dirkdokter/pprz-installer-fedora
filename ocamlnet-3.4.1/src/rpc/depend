@@ -1,0 +1,64 @@
+rpc_auth_gssapi_aux.cmo: rpc_auth_gssapi_aux.cmi
+rpc_auth_gssapi_aux.cmx: rpc_auth_gssapi_aux.cmi
+rpc_auth_gssapi.cmo: rpc_server.cmi rpc_program.cmi rpc_packer.cmi \
+    rpc_client.cmi rpc_auth_gssapi_aux.cmi rpc.cmi rpc_auth_gssapi.cmi
+rpc_auth_gssapi.cmx: rpc_server.cmx rpc_program.cmx rpc_packer.cmx \
+    rpc_client.cmx rpc_auth_gssapi_aux.cmx rpc.cmx rpc_auth_gssapi.cmi
+rpc_auth_sys.cmo: rpc_server.cmi rpc_client.cmi rpc.cmi rpc_auth_sys.cmi
+rpc_auth_sys.cmx: rpc_server.cmx rpc_client.cmx rpc.cmx rpc_auth_sys.cmi
+rpc_client.cmo: rpc_util.cmi rpc_transport.cmi rpc_program.cmi \
+    rpc_portmapper_aux.cmi rpc_packer.cmi rpc_common.cmo rpc.cmi \
+    rpc_client.cmi
+rpc_client.cmx: rpc_util.cmx rpc_transport.cmx rpc_program.cmx \
+    rpc_portmapper_aux.cmx rpc_packer.cmx rpc_common.cmx rpc.cmx \
+    rpc_client.cmi
+rpc_common.cmo:
+rpc_common.cmx:
+rpc.cmo: rpc.cmi
+rpc.cmx: rpc.cmi
+rpc_packer.cmo: rpc_program.cmi rpc_common.cmo rpc.cmi rpc_packer.cmi
+rpc_packer.cmx: rpc_program.cmx rpc_common.cmx rpc.cmx rpc_packer.cmi
+rpc_portmapper_aux.cmo: rpc_program.cmi rpc_portmapper_aux.cmi
+rpc_portmapper_aux.cmx: rpc_program.cmx rpc_portmapper_aux.cmi
+rpc_portmapper_clnt.cmo: rpc_portmapper_aux.cmi rpc_client.cmi \
+    rpc_portmapper_clnt.cmi
+rpc_portmapper_clnt.cmx: rpc_portmapper_aux.cmx rpc_client.cmx \
+    rpc_portmapper_clnt.cmi
+rpc_portmapper.cmo: rpc_simple_client.cmi rpc_program.cmi rpc_client.cmi \
+    rpc.cmi rpc_portmapper.cmi
+rpc_portmapper.cmx: rpc_simple_client.cmx rpc_program.cmx rpc_client.cmx \
+    rpc.cmx rpc_portmapper.cmi
+rpc_program.cmo: rpc_program.cmi
+rpc_program.cmx: rpc_program.cmi
+rpc_proxy.cmo: rpc_program.cmi rpc_client.cmi rpc.cmi rpc_proxy.cmi
+rpc_proxy.cmx: rpc_program.cmx rpc_client.cmx rpc.cmx rpc_proxy.cmi
+rpc_server.cmo: rpc_util.cmi rpc_transport.cmi rpc_program.cmi \
+    rpc_portmapper_clnt.cmi rpc_portmapper_aux.cmi rpc_packer.cmi \
+    rpc_common.cmo rpc_client.cmi rpc.cmi rpc_server.cmi
+rpc_server.cmx: rpc_util.cmx rpc_transport.cmx rpc_program.cmx \
+    rpc_portmapper_clnt.cmx rpc_portmapper_aux.cmx rpc_packer.cmx \
+    rpc_common.cmx rpc_client.cmx rpc.cmx rpc_server.cmi
+rpc_simple_client.cmo: rpc_client.cmi rpc.cmi rpc_simple_client.cmi
+rpc_simple_client.cmx: rpc_client.cmx rpc.cmx rpc_simple_client.cmi
+rpc_transport.cmo: rpc_util.cmi rpc_packer.cmi rpc.cmi rpc_transport.cmi
+rpc_transport.cmx: rpc_util.cmx rpc_packer.cmx rpc.cmx rpc_transport.cmi
+rpc_util.cmo: rpc_program.cmi rpc_util.cmi
+rpc_util.cmx: rpc_program.cmx rpc_util.cmi
+rpc_auth_gssapi_aux.cmi:
+rpc_auth_gssapi.cmi: rpc_server.cmi rpc_client.cmi
+rpc_auth_sys.cmi: rpc_server.cmi rpc_client.cmi
+rpc_client.cmi: rpc_util.cmi rpc_transport.cmi rpc_program.cmi rpc_packer.cmi \
+    rpc.cmi
+rpc.cmi:
+rpc_packer.cmi: rpc_program.cmi rpc.cmi
+rpc_portmapper_aux.cmi: rpc_program.cmi
+rpc_portmapper_clnt.cmi: rpc_program.cmi rpc_portmapper_aux.cmi \
+    rpc_client.cmi rpc.cmi
+rpc_portmapper.cmi: rpc_program.cmi rpc_client.cmi rpc.cmi
+rpc_program.cmi:
+rpc_proxy.cmi: rpc_program.cmi rpc_client.cmi
+rpc_server.cmi: rpc_util.cmi rpc_transport.cmi rpc_program.cmi rpc_packer.cmi \
+    rpc.cmi
+rpc_simple_client.cmi: rpc_program.cmi rpc_client.cmi rpc.cmi
+rpc_transport.cmi: rpc_packer.cmi rpc.cmi
+rpc_util.cmi: rpc_program.cmi

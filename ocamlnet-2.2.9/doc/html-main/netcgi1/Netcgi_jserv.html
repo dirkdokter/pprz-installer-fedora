@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Netcgi.html">
+<link rel="next" href="Netcgi_jserv_ajp12.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of class methods" rel=Appendix href="index_methods.html">
+<link title="Index of classes" rel=Appendix href="index_classes.html">
+<link title="Index of class types" rel=Appendix href="index_class_types.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Netcgi_env" rel="Chapter" href="Netcgi_env.html">
+<link title="Netcgi_types" rel="Chapter" href="Netcgi_types.html">
+<link title="Netcgi" rel="Chapter" href="Netcgi.html">
+<link title="Netcgi_jserv" rel="Chapter" href="Netcgi_jserv.html">
+<link title="Netcgi_jserv_ajp12" rel="Chapter" href="Netcgi_jserv_ajp12.html">
+<link title="Netcgi_jserv_app" rel="Chapter" href="Netcgi_jserv_app.html">
+<link title="Netcgi_fcgi_10" rel="Chapter" href="Netcgi_fcgi_10.html">
+<link title="Netcgi_fcgi" rel="Chapter" href="Netcgi_fcgi.html">
+<link title="Netcgi1_compat" rel="Chapter" href="Netcgi1_compat.html"><link title="Example" rel="Section" href="#1_Example">
+<title>Ocamlnet 2 Reference Manual (netcgi1 add-on) : Netcgi_jserv</title>
+</head>
+<body>
+<div class="navbar"><a href="Netcgi.html">Previous</a>
+&nbsp;<a href="index.html">Up</a>
+&nbsp;<a href="Netcgi_jserv_ajp12.html">Next</a>
+</div>
+<center><h1>Module <a href="type_Netcgi_jserv.html">Netcgi_jserv</a></h1></center>
+<br>
+<pre><span class="keyword">module</span> Netcgi_jserv: <code class="code">sig</code> <a href="Netcgi_jserv.html">..</a> <code class="code">end</code></pre>AJP Connection management<br>
+<hr width="100%">
+<pre><span class="keyword">type</span> <a name="TYPEt"></a><code class="type"></code>t </pre>
+<div class="info">
+The type of an AJP server<br>
+</div>
+
+<br><code><span class="keyword">type</span> <a name="TYPEauth"></a><code class="type"></code>auth = {</code><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>auth_challenge_length&nbsp;: <code class="type">int</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The length of the challenge</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code>auth_secret&nbsp;: <code class="type">string</code>;</code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" >The shared secret (password)</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+}
+
+<div class="info">
+Authentication record<br>
+</div>
+
+<pre><span class="keyword">type</span> <a name="TYPEcontrolpipe"></a><code class="type"></code>controlpipe = <code class="type">[ `Allocate | `Descriptor of Unix.file_descr | `None ]</code> </pre>
+<div class="info">
+The type of the control pipe<br>
+</div>
+
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONServer_is_down"></a>Server_is_down</pre>
+<div class="info">
+The AJP server is not connected with the web server<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONSignal_shutdown"></a>Signal_shutdown</pre>
+<div class="info">
+The web server signals to shut down the AJP server<br>
+</div>
+<pre><span class="keyword">exception</span> <a name="EXCEPTIONSignal_restart"></a>Signal_restart</pre>
+<div class="info">
+The web server signals to restart the AJP server<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALserver_init"></a>server_init : <code class="type">?backlog:int -> ?reuseaddr:bool -> Unix.inet_addr -> int -> Unix.file_descr</code></pre><div class="info">
+Initializes the AJP server by listening on a TCP port. The <code class="code">inet_addr</code>
+ is the address to listen on (e.g. <code class="code">Unix.inet_addr_any</code>), and the 
+ integer is the port. The function returns the file descriptor of
+ the master socket.
+<p>
+
+<br>
+</div>
+<div class="param_info"><code class="code">backlog</code> : Length of the backlog queue (connections not yet
+   accepted by the AJP server)</div>
+<div class="param_info"><code class="code">reuseaddr</code> : Whether to reuse the port</div>
+<pre><span class="keyword">val</span> <a name="VALserver_loop"></a>server_loop : <code class="type">?controlpipe:[ `Allocate | `Descriptor of Unix.file_descr | `None ] -><br>       ?onrestart:(<a href="Netcgi_jserv.html#TYPEt">t</a> -> unit) -><br>       ?onshutdown:(<a href="Netcgi_jserv.html#TYPEt">t</a> -> unit) -><br>       ?select_accept:(Unix.file_descr list -><br>                       Unix.file_descr -><br>                       Unix.file_descr list * Unix.file_descr option) -><br>       ?allow_hosts:Unix.inet_addr list -><br>       (<a href="Netcgi_jserv.html#TYPEt">t</a> -><br>        <a href="Netcgi_jserv.html#TYPEauth">auth</a> option -><br>        Netchannels.in_obj_channel -> Netchannels.out_obj_channel -> unit) -><br>       <a href="Netcgi_jserv.html#TYPEauth">auth</a> option -> Unix.file_descr -> unit</code></pre><div class="info">
+Accepts connection coming from the web server on the <code class="code">file_descr</code>,
+ and calls the connection handler.
+<p>
+
+ The connection handler is the function
+ <pre><code class="code"> t -&gt; auth option -&gt; in_obj_channel -&gt; out_obj_channel -&gt; unit </code></pre>
+ where<ul>
+<li><code class="code">t</code> is the AJP server</li>
+<li><code class="code">auth option</code> is the optional authentication record</li>
+<li><code class="code">in_obj_channel</code> is the input channel over <code class="code">file_descr</code></li>
+<li><code class="code">out_obj_channel</code> is the output channel over <code class="code">file_descr</code></li>
+</ul>
+
+ The connection handler serves the complete connection, and must
+ close the two channels when it is done. It can return normally,
+ but it is also possible to raise the following exceptions:
+<p>
+<ul>
+<li><code class="code">Signal_shutdown</code>: The master socket is closed, and the whole
+   server stops operation. Before this happens, however, the <code class="code">onshutdown</code>
+   function is called.</li>
+<li><code class="code">Signal_restart</code>: The <code class="code">onrestart</code> function is called. It is
+   up to this function to implement restarting.</li>
+</ul>
+
+ There is an alternate way to indicate these two signals for
+ multi-threaded servers, i.e. for servers that create a new thread
+ for every connection. Obviously, it is not possible to raise the
+ mentioned exceptions, as the thread context is different. The
+ work around is to call <a href="Netcgi_jserv.html#VALsignal_restart"><code class="code">Netcgi_jserv.signal_restart</code></a> and
+ <a href="Netcgi_jserv.html#VALsignal_shutdown"><code class="code">Netcgi_jserv.signal_shutdown</code></a>.
+<p>
+
+<br>
+</div>
+<div class="param_info"><code class="code">controlpipe</code> : The control pipe is used to indicate "restart" or "shutdown"
+   when the request handler is running in another thread or process than
+   the server loop. The default is <code class="code">`Allocate</code> and means that a new
+   control pipe is allocated. The value <code class="code">`None</code> means that no control pipe
+   is created, and as a consequence, that the functions <code class="code">signal_restart</code> and
+   <code class="code">signal_shutdown</code> will not work. The value <code class="code">`Descriptor</code> means that
+   the functions <code class="code">signal_restart</code> and <code class="code">signal_shutdown</code> write their
+   messages to this descriptor, but the server loop ignores any messages.</div>
+<div class="param_info"><code class="code">onrestart</code> : this function is called when a "restart" is performed. 
+   The default is <code class="code">(fun _ -&gt; ())</code></div>
+<div class="param_info"><code class="code">onshutdown</code> : the function is called when a "shutdown" is performed.
+   The default is <code class="code">(fun _ -&gt; ())</code></div>
+<div class="param_info"><code class="code">select_accept</code> : This function is called when the server waits until a 
+   file descriptor becomes readable, and when it waits until a new
+   connection begins. The function has two arguments: First the list of
+   file descriptors to wait for, and second the master socket it listens
+   to. The function must block until one of the file descriptors in the
+   list becomes readable, or there is a new connection (or both).
+   The result is a pair; the left component is the list of file descriptors
+   that are readable, and the right component is the new slave socket
+   for the connection (or None). The default is:
+   <pre><code class="code">   (fun sel sock -&gt; 
+      let sel',_,_ = restart (Unix.select (sock::sel) [] []) (-1.0) in 
+      let sel'' = List.filter (fun fd -&gt; fd &lt;&gt; sock) sel' in
+      let slave = 
+        if List.mem sock sel' then 
+          Some(fst(restart Unix.accept sock))
+        else
+          None in
+      (sel'', slave)
+   )
+   </code></pre>
+   (where <code class="code">restart</code> handles EINTR errors from <code class="code">Unix.select</code>).
+<p>
+
+   Note that even the <code class="code">select_accept</code> function is allowed to raise the 
+   exceptions <code class="code">Signal_shutdown</code> and <code class="code">Signal_restart</code>.</div>
+<div class="param_info"><code class="code">allow_hosts</code> : The list of IP addresses that are allowed to connect to this
+   service. The empty list (the default) means that any address is
+   allowed. (Net masks are not supported)</div>
+<pre><span class="keyword">val</span> <a name="VALserver"></a>server : <code class="type">?backlog:int -><br>       ?reuseaddr:bool -><br>       ?controlpipe:<a href="Netcgi_jserv.html#TYPEcontrolpipe">controlpipe</a> -><br>       ?onrestart:(<a href="Netcgi_jserv.html#TYPEt">t</a> -> unit) -><br>       ?onshutdown:(<a href="Netcgi_jserv.html#TYPEt">t</a> -> unit) -><br>       ?select_accept:(Unix.file_descr list -><br>                       Unix.file_descr -><br>                       Unix.file_descr list * Unix.file_descr option) -><br>       ?allow_hosts:Unix.inet_addr list -><br>       (<a href="Netcgi_jserv.html#TYPEt">t</a> -><br>        <a href="Netcgi_jserv.html#TYPEauth">auth</a> option -><br>        Netchannels.in_obj_channel -> Netchannels.out_obj_channel -> unit) -><br>       <a href="Netcgi_jserv.html#TYPEauth">auth</a> option -> Unix.inet_addr -> int -> unit</code></pre><div class="info">
+The function <code class="code">server</code>
+ simply calls <code class="code">server_init</code> first to get the file descriptor from the
+ port specification, and it then calls <code class="code">server_loop</code> to process the
+ requests.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsignal_restart"></a>signal_restart : <code class="type"><a href="Netcgi_jserv.html#TYPEt">t</a> -> unit</code></pre><div class="info">
+Signals the server that a "restart" must be done. This works only if
+ <code class="code">signal_restart</code> is not called from the same thread as the server!
+ If it is called from the same thread, <code class="code">signal_restart</code> will block infinitely.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALsignal_shutdown"></a>signal_shutdown : <code class="type"><a href="Netcgi_jserv.html#TYPEt">t</a> -> unit</code></pre><div class="info">
+Signals the server that a "shutdown" must be done. This works only if
+ <code class="code">signal_restart</code> is not called from the same thread as the server!
+ If it is called from the same thread, <code class="code">signal_restart</code> will block infinitely.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALread_control_pipe"></a>read_control_pipe : <code class="type">Unix.file_descr -> 'a</code></pre><div class="info">
+Reads the next message from the control pipe, and raises either
+ <code class="code">Signal_restart</code> or <code class="code">Signal_shutdown</code>. It is also possible that the
+ function raises <code class="code">End_of_file</code>.
+ It is not possible that the function returns normally.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALrandom_8bits"></a>random_8bits : <code class="type">unit -> int</code></pre><div class="info">
+Returns the next byte of the PRNG<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALprng_init"></a>prng_init : <code class="type">?lock:(unit -> unit) -> ?unlock:(unit -> unit) -> string -> unit</code></pre><div class="info">
+Initializes the PRNG and seeds it with the passed key. 
+<p>
+
+ <code class="code">lock</code>, <code class="code">unlock</code>: By default, the PRNG is not reentrant. This can be changed
+   by passing a mutex as follows:
+  <pre><code class="code">     let mutex = Mutex.create() in
+     let lock() = Mutex.lock mutex in
+     let unlock() = Mutex.unlock mutex in
+     prng_init ~lock ~unlock seed; </code></pre><br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALprng_init_from_file"></a>prng_init_from_file : <code class="type">?lock:(unit -> unit) -><br>       ?unlock:(unit -> unit) -> ?length:int -> string -> unit</code></pre><div class="info">
+Initializes the PRNG and seeds it with the contents of the passed file.
+ Only the first ~length bytes of the file are used (or fewer if the
+ file is shorter).
+ <code class="code">length</code> defaults to 256.
+ For some operating systems, there is a device <code class="code">/dev/random</code> that can 
+ easily be used to seed the PRNG:
+ <pre><code class="code">   prng_init_from_file ~length:8 "/dev/random" </code></pre>
+<p>
+
+ <code class="code">lock</code>, <code class="code">unlock</code>: same meaning as in <code class="code">prng_init</code>.<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALparse_properties"></a>parse_properties : <code class="type">string -> (string * string) list</code></pre><div class="info">
+Parses a property file and returns it as alist<br>
+</div>
+<pre><span class="keyword">val</span> <a name="VALjvm_emu_main"></a>jvm_emu_main : <code class="type">((string * string) list -><br>        <a href="Netcgi_jserv.html#TYPEauth">auth</a> option -> Unix.inet_addr -> int -> unit) -><br>       unit</code></pre><div class="info">
+This function fakes the "java" command (JVM startup). It interprets
+ <code class="code">Sys.argv</code> as follows:<ul>
+<li>The option <code class="code">-classpath &lt;path&gt;</code> is ignored</li>
+<li>The first anonymous argument (Java class name) is ignored</li>
+<li>The second anonymous argument is the file name of the property file.</li>
+</ul>
+
+ The property file is parsed, and the following properties are used:<ul>
+<li>"bindaddress": The address the server socket is bound to. Can be
+   specified as IP address or hostname or "*" (default: "localhost")</li>
+<li>"port": The port number the server socket is bound to. Defaults to
+   8007.</li>
+<li>"security.authentication": If "true", the server expects that the 
+   web server authenticates itself. Defaults to "true".</li>
+<li>"security.challengeSize": The length of the challenge string.
+   Defaults to 5.</li>
+<li>"security.secretKey": The file containing the secret key used for
+   authentication.</li>
+<li>"security.allowHost": Only the web server with this IP address is allowed
+   to connect (this option can occur several times). DNS names are resolved
+   at startup time.</li>
+<li>"jakarta.servletSubString": The substring that is used as indicator for
+   the servlet name (for mod_jk only). Defaults to "/servlets/".</li>
+<li>"ocamlnet.https": Whether HTTPS is assumed as basic protocol or not.
+   Defaults to "false".</li>
+</ul>
+
+ Other properties are ignored.
+<p>
+
+ Finally, the passed function is called. The first argument is the 
+ property list, the second argument is the authentication record (or
+ None), the third argument is the inet_addr ("bindaddress"), and the
+ fourth argument is the port. The task of this function is to set
+ up the server socket and to accept incoming connections.<br>
+</div>
+<br>
+<a name="1_Example"></a>
+<h1>Example</h1>
+<p>
+
+ A simple single-threaded server looks as follows:
+<p>
+
+ <pre><code class="code"> let onconnect srv =
+   Netcgi_jserv_ajp12.serve_connection
+     (fun zone servlet env -&gt; ... )
+ in
+ jvm_emu_main
+   (fun props auth addr port -&gt;
+      server 
+        ~onrestart 
+        ~onshutdown
+        onconnect 
+        auth 
+        addr
+        port);;
+ </code></pre><br>
+</body></html>

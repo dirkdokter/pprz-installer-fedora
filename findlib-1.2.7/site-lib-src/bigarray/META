@@ -1,0 +1,9 @@
+# Specifications for the "bigarray" library:
+requires = "unix"
+version = "[distributed with Ocaml]"
+description = "Large statically allocated arrays"
+directory = "^"
+browse_interfaces = " Bigarray "
+archive(byte) = "bigarray.cma"
+archive(native) = "bigarray.cmxa"
+linkopts = ""

@@ -1,0 +1,15 @@
+equeue.cmo: equeue.cmi
+equeue.cmx: equeue.cmi
+unixqueue.cmo: equeue.cmi unixqueue.cmi
+unixqueue.cmx: equeue.cmx unixqueue.cmi
+unixqueue_mt.cmo: unixqueue.cmi unixqueue_mt.cmi
+unixqueue_mt.cmx: unixqueue.cmx unixqueue_mt.cmi
+uq_engines.cmo: unixqueue.cmi equeue.cmi uq_engines.cmi
+uq_engines.cmx: unixqueue.cmx equeue.cmx uq_engines.cmi
+uq_socks5.cmo: uq_engines.cmi unixqueue.cmi equeue.cmi uq_socks5.cmi
+uq_socks5.cmx: uq_engines.cmx unixqueue.cmx equeue.cmx uq_socks5.cmi
+equeue.cmi:
+unixqueue.cmi: equeue.cmi
+unixqueue_mt.cmi:
+uq_engines.cmi: unixqueue.cmi
+uq_socks5.cmi: uq_engines.cmi
